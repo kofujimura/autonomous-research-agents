@@ -2,7 +2,7 @@
 
 This repository accompanies the paper *Letting AI Formulate the Research Question: Autonomous Research Agents* (Ko Fujimura, 2026; arXiv identifier to be added). It contains the system, the five papers written by the agents, the records needed to reproduce and check them, and the evaluation.
 
-An off-the-shelf coding agent (Codex CLI with gpt-6.1-sol) was given an instruction document and two skills, and nothing else: no field, topic or template. In each run it formulated its own research question, ran the study on a laptop without a GPU, wrote a paper, was reviewed by an AI reviewer from another model family that re-ran the study from its records, and submitted a revised paper. The system was frozen and run five consecutive times under a pre-registered protocol; all five runs are reported.
+An off-the-shelf coding agent (Codex CLI with gpt-6.1-sol) was given an instruction document and two skills, with no field, topic or template, only a hint toward societal problems that can be studied with open data. In each run it formulated its own research question, ran the study with local computation on a laptop without a GPU, wrote a paper, was reviewed by an AI reviewer from another model family that re-ran the first draft from its records, and submitted a revised paper. The system was frozen after a pilot run; the pilot and four pre-registered runs are reported (the pilot was counted by an amendment to the pre-registration, see `evaluation/`).
 
 ## The five papers
 
