@@ -1,0 +1,36 @@
+{
+  "observed_at_utc": "2026-10-25T20:27:12Z",
+  "source": "analysis/main-v1/embedding-metadata.json",
+  "aef_records": 2294,
+  "metadata_keys": [
+    "crs",
+    "dataset",
+    "lat",
+    "licence",
+    "lon",
+    "model",
+    "obtained_at_utc",
+    "point_id",
+    "requested_at_utc",
+    "source_url",
+    "task_id",
+    "task_source",
+    "transform",
+    "year",
+    "zarr_version"
+  ],
+  "version_related_fields": {
+    "dataset": [
+      "AlphaEarth Foundations V1, unofficial geographic mosaic"
+    ],
+    "zarr_version": [
+      "3.4.1"
+    ]
+  },
+  "saved_source_docs_checked": [
+    "sources/aef-mosaic-readme.md",
+    "sources/aef-gcs.html",
+    "sources/alphaearth-full.txt"
+  ],
+  "conclusion": "Saved measurement metadata identifies the V1 mosaic/product family and client-library version, without a provider-confirmed exact encoder lineage. Do not infer it from vector similarity or confuse Zarr-library version with model version."
+}

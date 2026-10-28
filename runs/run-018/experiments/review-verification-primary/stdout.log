@@ -1,0 +1,919 @@
+{"rows": 3667, "missing": [], "hydro_features": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"]}
+{"rows": 3667, "missing": [], "hydro_features": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"]}
+{"rows": 2696, "missing": [], "hydro_features": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"]}
+{"sample_n": 36, "regions": 12, "all_nine_category_combinations_allowed": true, "complete_embedding_regions": 12}
+{"region": "R01", "sampled_at_utc": "2026-10-28T10:33:47.924332+00:00", "polygon_n": 495, "sample_n": 38983, "total_interior_pixels": 67987, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "399c234c2cde1d999e6f15eaa2dc6142d482e4499a27ab282053a92ff49890f0", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R01/points.npz", "sha256": "892bbe7acd0781db20cf4bd20f216535093a6be3e8779f7638a110c2fb6dbc0e", "epsg": 32614}
+{"region": "R02", "sampled_at_utc": "2026-10-28T10:33:48.681826+00:00", "polygon_n": 890, "sample_n": 48529, "total_interior_pixels": 66046, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "7a5b2872eb6bc03634c09fcb8c771b477c2f426ff4a56608110b32f890409268", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R02/points.npz", "sha256": "5cd1b999ef2da93c5f31ef5031bfd3fd68ecafe5688eb2ac47e9b0d59ff63d1e", "epsg": 32615}
+{"region": "R03", "sampled_at_utc": "2026-10-28T10:33:51.016221+00:00", "polygon_n": 390, "sample_n": 51071, "total_interior_pixels": 105966, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "fd978ed7e0d844d2018666e506d0cad876aba442e26517360d258636aab801c1", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R03/points.npz", "sha256": "b7c611e25fefaae6fe9e12ec33310b53ecb6f44d80060a91ab9bbe0d7868da28", "epsg": 32616}
+{"region": "R04", "sampled_at_utc": "2026-10-28T10:33:51.589171+00:00", "polygon_n": 552, "sample_n": 60864, "total_interior_pixels": 139547, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "78c51b16c3f42a57528e7749ae51225c0334d597d1401e2e56dca6e30f3b7dc2", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R04/points.npz", "sha256": "49f4de1e2fa6e355f82a8795d20e77ad2ff40f9c7813ebe3940f723fecf16120", "epsg": 32617}
+{"region": "R05", "sampled_at_utc": "2026-10-28T10:33:51.997875+00:00", "polygon_n": 135, "sample_n": 25897, "total_interior_pixels": 79489, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "5dade49e15c593584dff3f271965308f2da180582572a83e486e8b05b98d6c19", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R05/points.npz", "sha256": "37041868401e77b23d3ea23b08681e61251e2bff82b22ef35af23347e384aa61", "epsg": 32618}
+{"region": "R06", "sampled_at_utc": "2026-10-28T10:33:52.757358+00:00", "polygon_n": 212, "sample_n": 40434, "total_interior_pixels": 212868, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "12d2ec168094a065358c0425d478a1da1b928888570070b15314928ee3e2bea1", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R06/points.npz", "sha256": "5b4756cea31ebe50b58c217c46ecdbae7c6170fe401a7a2546f0a38bfd715d6d", "epsg": 32615}
+{"region": "R07", "sampled_at_utc": "2026-10-28T10:33:52.780315+00:00", "polygon_n": 18, "sample_n": 2941, "total_interior_pixels": 3397, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "e0aa09a15dcc9d063abe5e449b55c97c34d2042044c816b516f91ea30178776c", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R07/points.npz", "sha256": "63eee09d33dae506ac23f164c9e41aa6f2e6279a734322461c004e9e4519afa6", "epsg": 32618}
+{"region": "R08", "sampled_at_utc": "2026-10-28T10:33:53.906055+00:00", "polygon_n": 32, "sample_n": 4721, "total_interior_pixels": 13400, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "36cc8224fa3cd0bf30124223606e45168775d30d9393799e58a3d1e430aa0d28", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R08/points.npz", "sha256": "90ae05aa8356f221097684e0f87ec926aadefa9a0ce2fba01fce0d81dc814d21", "epsg": 32610}
+{"region": "R09", "sampled_at_utc": "2026-10-28T10:33:54.470617+00:00", "polygon_n": 173, "sample_n": 21869, "total_interior_pixels": 38073, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "e69846f093ce76d0023aa43942261f881ceafb60a25712fcf000d44109ffbb33", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R09/points.npz", "sha256": "7b4c9d3e5778416a98b5a9e6ddc3372449bffeaed396aec3c82773d622f1cde0", "epsg": 32615}
+{"region": "R10", "sampled_at_utc": "2026-10-28T10:33:55.284375+00:00", "polygon_n": 347, "sample_n": 42444, "total_interior_pixels": 83923, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "13f615caed14ceafbf1eae3355b72c8919b95036b76a9c4371ea2c368d9adce2", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R10/points.npz", "sha256": "1feeb80f1f628e752928fe6c3563b68505ce94bae46e92e9a19eae58b4b4f0ff", "epsg": 32617}
+{"region": "R11", "sampled_at_utc": "2026-10-28T10:33:56.326847+00:00", "polygon_n": 350, "sample_n": 63794, "total_interior_pixels": 226743, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "7b71a16aa66f150a03f6c2a799a97a444bf388bcf75af110cc4098169857401f", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R11/points.npz", "sha256": "140e5b2bbe65db7788c1aa210704d19f7a64b0b806baad162d0aac423f9c286e", "epsg": 32615}
+{"region": "R12", "sampled_at_utc": "2026-10-28T10:33:56.464639+00:00", "polygon_n": 73, "sample_n": 8138, "total_interior_pixels": 10052, "max_sample_per_polygon": 256, "ranking": "SHA256 free-research-018|polygon-pixel|OBJECTID|integer_x|integer_y", "source_selected_sha256": "f63674fb2d941e379ef58c28a1fdd2cd402d7ecae8fc2e94c0fe0f1a197dbc87", "path": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/regenerated-polygon-points/R12/points.npz", "sha256": "c8e0b2e3be8b75378d9d690e83be7b35c5cdb4a4b9f1baf7cb12a68c00dc0d6f", "epsg": 32610}
+{"primary_features_source": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/features-corrected", "derived_at_utc": "2026-10-28T10:35:37.744927+00:00", "original_n": 3667, "common_n": 3624, "excluded_n": 43, "original_cohort_unchanged": false, "conditions": {"A": "Original contiguous3x3 and physical features", "B": "Dispersed up to256embedding pixels, original physical features", "C": "Dispersed up to256embedding pixels and sample-mean physical features", "D": "Dispersed geometric-pixel count equal to original contiguous patch, original physical features"}, "audits": [{"region": "R01", "polygon_n": 495, "sampled_pixels": 38983, "primary_patch_overlap_pixels": 4169, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 493}, {"region": "R02", "polygon_n": 890, "sampled_pixels": 48529, "primary_patch_overlap_pixels": 7729, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 882}, {"region": "R03", "polygon_n": 390, "sampled_pixels": 51071, "primary_patch_overlap_pixels": 3045, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 387}, {"region": "R04", "polygon_n": 552, "sampled_pixels": 60864, "primary_patch_overlap_pixels": 4486, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 549}, {"region": "R05", "polygon_n": 135, "sampled_pixels": 25897, "primary_patch_overlap_pixels": 856, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 134}, {"region": "R06", "polygon_n": 212, "sampled_pixels": 40434, "primary_patch_overlap_pixels": 1261, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 207}, {"region": "R07", "polygon_n": 18, "sampled_pixels": 2941, "primary_patch_overlap_pixels": 154, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 17}, {"region": "R08", "polygon_n": 32, "sampled_pixels": 4721, "primary_patch_overlap_pixels": 233, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 31}, {"region": "R09", "polygon_n": 173, "sampled_pixels": 21869, "primary_patch_overlap_pixels": 1398, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 169}, {"region": "R10", "polygon_n": 347, "sampled_pixels": 42444, "primary_patch_overlap_pixels": 2806, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 346}, {"region": "R11", "polygon_n": 350, "sampled_pixels": 63794, "primary_patch_overlap_pixels": 2244, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 339}, {"region": "R12", "polygon_n": 73, "sampled_pixels": 8138, "primary_patch_overlap_pixels": 612, "raw_values_on_overlap_exactly_equal": true, "essential_physical_fraction_min": 1.0, "common_eligible_n": 70}]}
+{"rows": 3667, "missing": [], "hydro_features": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"]}
+{"rows": 3667, "missing": [], "hydro_features": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"]}
+{"prepared_at_utc": "2026-10-28T10:35:45.585779+00:00", "years": [2024, 2023, 2021], "original_n": 3667, "common_n": 3667, "excluded_n": 0, "reuse_original_2024_fits": true, "year_quality": {"2024": {"eligible_n": 3667, "excluded_ids": []}, "2023": {"eligible_n": 3667, "excluded_ids": []}, "2021": {"eligible_n": 3667, "excluded_ids": []}}, "physical_arrays_identical": true, "region_counts": {"R01": 495, "R02": 890, "R03": 390, "R04": 552, "R05": 135, "R06": 212, "R07": 18, "R08": 32, "R09": 173, "R10": 347, "R11": 350, "R12": 73}, "scope": "Fixed inventory labels and2024physical covariates; embedding-year agreement diagnostic only"}
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/boundaries/reference-0", "queries": 3667, "nonempty_queries": 3645, "empty_queries": 22, "single_all_correct": 204, "single_all_wrong": 24, "unmatchable": 57, "nontrivial_matchable": 3384, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.4485807107197799}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               34.60                33.19
+           aef_cosine               36.31                33.46
+          aef_decoder               37.63                33.96
+         aef_whitened               34.98                32.85
+            geography               35.40                38.55
+    hydro_aef_decoder               39.89                35.79
+        hydro_decoder               39.77                37.94
+      hydro_euclidean               42.58                41.81
+           hydro_pair               36.93                33.96
+hydro_tessera_decoder               39.81                35.01
+         label_oracle                0.00                 0.00
+             pair_aef               33.58                33.08
+            pair_both               33.99                32.13
+         pair_tessera               32.86                31.31
+      tessera_centred               33.45                31.47
+       tessera_cosine               35.01                32.74
+      tessera_decoder               39.47                36.78
+     tessera_whitened               31.41                32.69
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/boundaries-corrected/centre", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.46                33.26
+           aef_cosine               38.72                34.20
+          aef_decoder               35.42                31.82
+         aef_whitened               38.53                34.48
+            geography               35.73                39.58
+    hydro_aef_decoder               40.75                35.64
+        hydro_decoder               39.71                37.80
+      hydro_euclidean               42.37                41.80
+           hydro_pair               36.98                34.15
+hydro_tessera_decoder               37.52                32.37
+         label_oracle                0.00                 0.00
+             pair_aef               32.59                32.71
+            pair_both               33.18                32.76
+         pair_tessera               32.97                32.37
+      tessera_centred               34.88                34.53
+       tessera_cosine               36.27                34.87
+      tessera_decoder               41.66                37.08
+     tessera_whitened               35.24                34.15
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/boundaries-corrected/margin-30", "queries": 1684, "nonempty_queries": 1651, "empty_queries": 33, "single_all_correct": 84, "single_all_wrong": 16, "unmatchable": 48, "nontrivial_matchable": 1519, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.48096300329690617}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               40.19                36.81
+           aef_cosine               39.41                37.67
+          aef_decoder               33.10                34.85
+         aef_whitened               35.50                36.44
+            geography               45.49                47.36
+    hydro_aef_decoder               30.53                32.52
+        hydro_decoder               43.61                45.89
+      hydro_euclidean               43.73                45.64
+           hydro_pair               45.66                43.31
+hydro_tessera_decoder               45.80                43.80
+         label_oracle                4.86                 0.25
+             pair_aef               45.42                41.72
+            pair_both               47.06                40.37
+         pair_tessera               45.22                39.51
+      tessera_centred               38.17                38.40
+       tessera_cosine               37.36                37.79
+      tessera_decoder               42.13                39.39
+     tessera_whitened               37.04                38.40
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/boundaries-corrected/no-hand", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.72                33.92
+           aef_cosine               37.44                33.92
+          aef_decoder               37.71                33.98
+         aef_whitened               35.94                33.48
+            geography               35.73                39.58
+    hydro_aef_decoder               41.51                35.31
+        hydro_decoder               42.09                39.91
+      hydro_euclidean               41.49                40.74
+           hydro_pair               38.95                35.59
+hydro_tessera_decoder               41.96                37.25
+         label_oracle                0.00                 0.00
+             pair_aef               34.74                32.21
+            pair_both               33.50                32.43
+         pair_tessera               33.98                33.59
+      tessera_centred               34.10                31.98
+       tessera_cosine               35.72                33.26
+      tessera_decoder               40.44                37.08
+     tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/boundaries-corrected/reference-0", "queries": 3667, "nonempty_queries": 3645, "empty_queries": 22, "single_all_correct": 204, "single_all_wrong": 24, "unmatchable": 57, "nontrivial_matchable": 3384, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.4485807107197799}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               34.60                33.19
+           aef_cosine               36.31                33.46
+          aef_decoder               37.60                33.90
+         aef_whitened               34.98                32.85
+            geography               35.40                38.55
+    hydro_aef_decoder               40.26                35.56
+        hydro_decoder               39.77                37.94
+      hydro_euclidean               42.58                41.81
+           hydro_pair               36.93                33.96
+hydro_tessera_decoder               39.81                35.01
+         label_oracle                0.00                 0.00
+             pair_aef               33.56                33.02
+            pair_both               34.01                32.13
+         pair_tessera               32.86                31.31
+      tessera_centred               33.45                31.47
+       tessera_cosine               35.01                32.74
+      tessera_decoder               39.47                36.78
+     tessera_whitened               31.41                32.69
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/boundaries-corrected/reference-3000", "queries": 3667, "nonempty_queries": 3611, "empty_queries": 56, "single_all_correct": 219, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3333, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45441783601303104}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.46                34.73
+           aef_cosine               37.31                34.90
+          aef_decoder               37.96                34.00
+         aef_whitened               36.49                34.45
+            geography               39.08                43.89
+    hydro_aef_decoder               40.91                35.57
+        hydro_decoder               39.86                37.13
+      hydro_euclidean               42.94                42.55
+           hydro_pair               37.28                34.00
+hydro_tessera_decoder               39.94                34.73
+         label_oracle                0.00                 0.00
+             pair_aef               34.19                33.72
+            pair_both               34.99                32.72
+         pair_tessera               34.02                32.10
+      tessera_centred               34.68                33.67
+       tessera_cosine               35.91                34.00
+      tessera_decoder               41.74                38.14
+     tessera_whitened               32.64                34.56
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/boundaries-corrected/training-0", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.80                33.98
+           aef_cosine               37.44                33.92
+          aef_decoder               37.76                30.93
+         aef_whitened               35.61                33.76
+            geography               35.73                39.58
+    hydro_aef_decoder               33.89                30.27
+        hydro_decoder               37.02                32.15
+      hydro_euclidean               40.97                41.80
+           hydro_pair               35.28                31.65
+hydro_tessera_decoder               35.30                29.66
+         label_oracle                0.00                 0.00
+             pair_aef               33.10                31.10
+            pair_both               33.81                31.43
+         pair_tessera               34.08                30.27
+      tessera_centred               34.18                32.10
+       tessera_cosine               35.72                33.26
+      tessera_decoder               40.55                36.53
+     tessera_whitened               32.10                33.04
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/boundaries-corrected/training-3000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.87                34.09
+           aef_cosine               37.44                33.92
+          aef_decoder               45.97                40.47
+         aef_whitened               35.47                33.70
+            geography               35.73                39.58
+    hydro_aef_decoder               43.81                41.13
+        hydro_decoder               39.13                41.41
+      hydro_euclidean               41.88                42.41
+           hydro_pair               45.67                45.62
+hydro_tessera_decoder               44.04                36.42
+         label_oracle                0.00                 0.00
+             pair_aef               45.21                46.29
+            pair_both               37.89                42.18
+         pair_tessera               41.70                43.24
+      tessera_centred               34.17                32.32
+       tessera_cosine               35.72                33.26
+      tessera_decoder               39.94                34.76
+     tessera_whitened               33.39                33.04
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/boundaries-corrected/within-region", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.72                33.92
+           aef_cosine               37.44                33.92
+          aef_decoder               37.71                33.98
+         aef_whitened               35.94                33.48
+            geography               35.73                39.58
+    hydro_aef_decoder               35.50                32.04
+        hydro_decoder               41.54                36.20
+      hydro_euclidean               45.47                41.80
+           hydro_pair               34.33                34.42
+hydro_tessera_decoder               40.97                36.09
+         label_oracle                0.00                 0.00
+             pair_aef               34.81                33.20
+            pair_both               34.77                33.09
+         pair_tessera               37.35                32.65
+      tessera_centred               34.10                31.98
+       tessera_cosine               35.72                33.26
+      tessera_decoder               40.44                37.08
+     tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/all-corrected-seed-0", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               36.81                34.42
+ hydro_euclidean               42.37                41.80
+      hydro_pair               32.78                34.26
+    label_oracle                0.00                 0.00
+        pair_aef               32.90                33.15
+    pair_tessera               31.99                32.04
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/all-corrected-seed-1000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               38.66                36.59
+ hydro_euclidean               42.37                41.80
+      hydro_pair               33.11                33.59
+    label_oracle                0.00                 0.00
+        pair_aef               33.10                32.76
+    pair_tessera               32.03                31.43
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/all-corrected-seed-2000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               37.11                33.98
+ hydro_euclidean               42.37                41.80
+      hydro_pair               36.33                34.59
+    label_oracle                0.00                 0.00
+        pair_aef               32.91                33.76
+    pair_tessera               31.49                31.04
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/constant-all", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               36.81                34.42
+   hydro_pair               32.78                34.26
+pair_constant               33.70                34.26
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/constant-corrected-all", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               36.81                34.42
+   hydro_pair               32.78                34.26
+pair_constant               33.70                34.26
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/constant-corrected-hgb", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               36.63                39.25
+   hydro_pair               40.61                35.42
+pair_constant               40.61                35.42
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/constant-corrected-seed-0", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+pair_constant               33.60                33.70
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/constant-hgb", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               36.63                39.25
+   hydro_pair               40.61                35.42
+pair_constant               40.61                35.42
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/constant-seed-0", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+pair_constant               33.60                33.70
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/constant-seed-1000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               37.71                35.75
+   hydro_pair               32.57                33.59
+pair_constant               36.49                34.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/constant-seed-2000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               37.59                37.14
+   hydro_pair               37.42                34.15
+pair_constant               34.93                35.03
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/full-features", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               36.81                34.42
+ hydro_euclidean               42.37                41.80
+      hydro_pair               32.78                34.26
+    label_oracle                0.00                 0.00
+        pair_aef               32.85                33.09
+    pair_tessera               31.99                32.04
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/hgb-corrected", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.72                33.92
+           aef_cosine               37.44                33.92
+          aef_decoder               41.21                36.25
+         aef_whitened               35.94                33.48
+            geography               35.73                39.58
+    hydro_aef_decoder               37.66                34.42
+        hydro_decoder               36.63                39.25
+      hydro_euclidean               42.37                41.80
+           hydro_pair               40.61                35.42
+hydro_tessera_decoder               39.66                35.09
+         label_oracle                0.00                 0.00
+             pair_aef               38.96                34.59
+            pair_both               36.04                32.82
+         pair_tessera               37.72                35.09
+      tessera_centred               34.10                31.98
+       tessera_cosine               35.72                33.26
+      tessera_decoder               40.98                33.76
+     tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/hgb", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.72                33.92
+           aef_cosine               37.44                33.92
+          aef_decoder               41.42                36.81
+         aef_whitened               35.94                33.48
+            geography               35.73                39.58
+    hydro_aef_decoder               37.70                35.48
+        hydro_decoder               36.63                39.25
+      hydro_euclidean               42.37                41.80
+           hydro_pair               40.61                35.42
+hydro_tessera_decoder               39.66                35.09
+         label_oracle                0.00                 0.00
+             pair_aef               38.95                34.04
+            pair_both               33.50                32.93
+         pair_tessera               37.72                35.09
+      tessera_centred               34.10                31.98
+       tessera_cosine               35.72                33.26
+      tessera_decoder               40.98                33.76
+     tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/noise-0", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+   pair_noise               32.41                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/noise-1", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+   pair_noise               35.74                34.31
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/noise-2", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+   pair_noise               35.96                33.43
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/noise-all-0", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               36.81                34.42
+   hydro_pair               32.78                34.26
+   pair_noise               32.85                33.98
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/noise-all-1", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               36.81                34.42
+   hydro_pair               32.78                34.26
+   pair_noise               33.25                34.15
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/noise-all-2", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 3, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               36.81                34.42
+   hydro_pair               32.78                34.26
+   pair_noise               32.65                34.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/permute-0", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+     pair_aef               36.69                34.42
+ pair_tessera               35.43                33.81
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/permute-1", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+     pair_aef               34.21                33.15
+ pair_tessera               35.19                33.37
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/permute-2", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+     pair_aef               33.17                34.92
+ pair_tessera               32.45                33.54
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/seed-1000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               37.71                35.75
+ hydro_euclidean               42.37                41.80
+      hydro_pair               32.57                33.59
+    label_oracle                0.00                 0.00
+        pair_aef               31.84                33.15
+    pair_tessera               33.94                32.43
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/controls/seed-2000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               37.59                37.14
+ hydro_euclidean               42.37                41.80
+      hydro_pair               37.42                34.15
+    label_oracle                0.00                 0.00
+        pair_aef               36.01                33.31
+    pair_tessera               34.55                33.37
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/metric-whitened/polygonC-hgb", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45374135403603605}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               38.25                35.78
+   hydro_pair               35.71                34.32
+     pair_aef               33.92                32.64
+ pair_tessera               36.26                31.30
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/metric-whitened/polygonC-raw-rf-all", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45374135403603605}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               36.48                35.84
+      aef_cosine               35.63                35.00
+    aef_whitened               34.28                32.53
+       geography               34.93                39.48
+   hydro_decoder               37.04                32.14
+ hydro_euclidean               40.48                41.33
+      hydro_pair               39.78                33.76
+    label_oracle                0.00                 0.00
+        pair_aef               38.44                32.70
+    pair_tessera               36.95                30.40
+ tessera_centred               33.48                32.31
+  tessera_cosine               34.54                33.26
+tessera_whitened               33.35                32.25
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/metric-whitened/polygonC-rf-all", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45374135403603605}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               37.04                32.14
+   hydro_pair               39.78                33.76
+     pair_aef               38.19                31.91
+ pair_tessera               37.41                31.86
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/metric-whitened/primary-hgb", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               36.63                39.25
+   hydro_pair               40.61                35.42
+     pair_aef               34.18                33.37
+ pair_tessera               33.98                32.71
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/metric-whitened/primary-rf-all", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               36.81                34.42
+   hydro_pair               32.78                34.26
+     pair_aef               31.86                33.87
+ pair_tessera               32.28                32.98
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/polygon/A-hgb", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45374135403603605}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               36.43                34.16
+           aef_cosine               38.34                34.32
+          aef_decoder               39.09                35.17
+         aef_whitened               36.27                33.82
+            geography               34.93                39.48
+    hydro_aef_decoder               36.95                33.88
+        hydro_decoder               37.73                37.75
+      hydro_euclidean               42.05                41.78
+           hydro_pair               38.53                35.11
+hydro_tessera_decoder               39.36                34.32
+         label_oracle                0.00                 0.00
+             pair_aef               35.86                33.09
+            pair_both               35.32                32.92
+         pair_tessera               35.91                33.65
+      tessera_centred               35.34                32.81
+       tessera_cosine               36.35                33.54
+      tessera_decoder               43.23                38.70
+     tessera_whitened               32.34                33.20
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/polygon/A-rf", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45374135403603605}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               36.43                34.16
+           aef_cosine               38.34                34.32
+          aef_decoder               39.58                31.69
+         aef_whitened               36.27                33.82
+            geography               34.93                39.48
+    hydro_aef_decoder               43.82                36.23
+        hydro_decoder               41.50                37.86
+      hydro_euclidean               42.05                41.78
+           hydro_pair               38.65                35.17
+hydro_tessera_decoder               41.54                36.62
+         label_oracle                0.00                 0.00
+             pair_aef               37.96                33.99
+            pair_both               34.84                32.25
+         pair_tessera               34.63                31.52
+      tessera_centred               35.34                32.81
+       tessera_cosine               36.35                33.54
+      tessera_decoder               40.16                36.46
+     tessera_whitened               32.34                33.20
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/polygon/B-hgb", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45374135403603605}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               36.48                35.84
+           aef_cosine               35.63                35.00
+          aef_decoder               39.66                35.56
+         aef_whitened               34.28                32.53
+            geography               34.93                39.48
+    hydro_aef_decoder               38.82                35.95
+        hydro_decoder               37.73                37.75
+      hydro_euclidean               42.05                41.78
+           hydro_pair               38.53                35.11
+hydro_tessera_decoder               37.90                33.93
+         label_oracle                0.00                 0.00
+             pair_aef               37.75                33.31
+            pair_both               37.28                31.97
+         pair_tessera               36.70                31.58
+      tessera_centred               33.48                32.31
+       tessera_cosine               34.54                33.26
+      tessera_decoder               30.27                31.41
+     tessera_whitened               33.35                32.25
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/polygon/B-rf", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45374135403603605}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               36.48                35.84
+           aef_cosine               35.63                35.00
+          aef_decoder               36.23                33.76
+         aef_whitened               34.28                32.53
+            geography               34.93                39.48
+    hydro_aef_decoder               31.13                29.84
+        hydro_decoder               41.50                37.86
+      hydro_euclidean               42.05                41.78
+           hydro_pair               38.65                35.17
+hydro_tessera_decoder               36.56                32.53
+         label_oracle                0.00                 0.00
+             pair_aef               36.23                34.49
+            pair_both               33.87                31.69
+         pair_tessera               35.32                31.86
+      tessera_centred               33.48                32.31
+       tessera_cosine               34.54                33.26
+      tessera_decoder               31.41                31.07
+     tessera_whitened               33.35                32.25
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/polygon/C-hgb", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45374135403603605}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               36.48                35.84
+           aef_cosine               35.63                35.00
+          aef_decoder               39.66                35.56
+         aef_whitened               34.28                32.53
+            geography               34.93                39.48
+    hydro_aef_decoder               37.19                33.03
+        hydro_decoder               38.25                35.78
+      hydro_euclidean               40.48                41.33
+           hydro_pair               35.71                34.32
+hydro_tessera_decoder               32.48                32.14
+         label_oracle                0.00                 0.00
+             pair_aef               38.89                34.55
+            pair_both               36.82                31.86
+         pair_tessera               35.91                31.24
+      tessera_centred               33.48                32.31
+       tessera_cosine               34.54                33.26
+      tessera_decoder               30.27                31.41
+     tessera_whitened               33.35                32.25
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/polygon/C-rf", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45374135403603605}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               36.48                35.84
+           aef_cosine               35.63                35.00
+          aef_decoder               36.23                33.76
+         aef_whitened               34.28                32.53
+            geography               34.93                39.48
+    hydro_aef_decoder               32.38                31.52
+        hydro_decoder               33.86                30.01
+      hydro_euclidean               40.48                41.33
+           hydro_pair               38.71                33.03
+hydro_tessera_decoder               32.93                30.96
+         label_oracle                0.00                 0.00
+             pair_aef               38.52                32.19
+            pair_both               36.61                30.17
+         pair_tessera               35.60                29.28
+      tessera_centred               33.48                32.31
+       tessera_cosine               34.54                33.26
+      tessera_decoder               31.41                31.07
+     tessera_whitened               33.35                32.25
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/polygon/D-hgb", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45374135403603605}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               38.32                36.01
+           aef_cosine               37.77                35.84
+          aef_decoder               44.04                37.52
+         aef_whitened               36.28                33.88
+            geography               34.93                39.48
+    hydro_aef_decoder               38.80                36.34
+        hydro_decoder               37.73                37.75
+      hydro_euclidean               42.05                41.78
+           hydro_pair               38.53                35.11
+hydro_tessera_decoder               36.79                30.62
+         label_oracle                0.00                 0.00
+             pair_aef               36.12                31.74
+            pair_both               33.81                30.62
+         pair_tessera               36.85                31.97
+      tessera_centred               36.66                34.55
+       tessera_cosine               35.78                33.99
+      tessera_decoder               34.11                31.91
+     tessera_whitened               35.78                34.72
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/polygon/D-rf", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45374135403603605}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               38.32                36.01
+           aef_cosine               37.77                35.84
+          aef_decoder               39.57                35.61
+         aef_whitened               36.28                33.88
+            geography               34.93                39.48
+    hydro_aef_decoder               37.10                32.92
+        hydro_decoder               41.50                37.86
+      hydro_euclidean               42.05                41.78
+           hydro_pair               38.65                35.17
+hydro_tessera_decoder               35.74                32.36
+         label_oracle                0.00                 0.00
+             pair_aef               35.29                33.93
+            pair_both               32.92                30.68
+         pair_tessera               33.42                31.58
+      tessera_centred               36.66                34.55
+       tessera_cosine               35.78                33.99
+      tessera_decoder               37.73                31.86
+     tessera_whitened               35.78                34.72
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/main-corrected", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.72                33.92
+           aef_cosine               37.44                33.92
+          aef_decoder               37.71                33.98
+         aef_whitened               35.94                33.48
+            geography               35.73                39.58
+    hydro_aef_decoder               41.36                35.75
+        hydro_decoder               39.71                37.80
+      hydro_euclidean               42.37                41.80
+           hydro_pair               36.98                34.15
+hydro_tessera_decoder               39.75                35.03
+         label_oracle                0.00                 0.00
+             pair_aef               34.03                33.48
+            pair_both               34.05                32.21
+         pair_tessera               33.26                31.71
+      tessera_centred               34.10                31.98
+       tessera_cosine               35.72                33.26
+      tessera_decoder               40.44                37.08
+     tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/main", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.72                33.92
+           aef_cosine               37.44                33.92
+          aef_decoder               37.70                33.98
+         aef_whitened               35.94                33.48
+            geography               35.73                39.58
+    hydro_aef_decoder               41.62                36.09
+        hydro_decoder               39.71                37.80
+      hydro_euclidean               42.37                41.80
+           hydro_pair               36.98                34.15
+hydro_tessera_decoder               39.75                35.03
+         label_oracle                0.00                 0.00
+             pair_aef               34.05                33.54
+            pair_both               33.96                32.15
+         pair_tessera               33.26                31.71
+      tessera_centred               34.10                31.98
+       tessera_cosine               35.72                33.26
+      tessera_decoder               40.44                37.08
+     tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/recent-corrected", "queries": 2696, "nonempty_queries": 2691, "empty_queries": 5, "single_all_correct": 73, "single_all_wrong": 21, "unmatchable": 34, "nontrivial_matchable": 2584, "regions": 6, "method_n": 18, "uniform_expected_macro_risk": 0.3543503483112676}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               31.71                36.62
+           aef_cosine               31.96                37.00
+          aef_decoder               34.70                39.01
+         aef_whitened               29.35                36.17
+            geography               33.63                40.21
+    hydro_aef_decoder               27.67                32.06
+        hydro_decoder               28.45                34.08
+      hydro_euclidean               32.52                37.89
+           hydro_pair               31.02                37.52
+hydro_tessera_decoder               30.05                33.48
+         label_oracle                0.00                 0.00
+             pair_aef               30.64                37.52
+            pair_both               29.86                36.40
+         pair_tessera               31.15                36.62
+      tessera_centred               29.11                33.11
+       tessera_cosine               29.09                33.56
+      tessera_decoder               31.82                33.86
+     tessera_whitened               29.17                32.74
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/recent", "queries": 2696, "nonempty_queries": 2691, "empty_queries": 5, "single_all_correct": 73, "single_all_wrong": 21, "unmatchable": 34, "nontrivial_matchable": 2584, "regions": 6, "method_n": 18, "uniform_expected_macro_risk": 0.3543503483112676}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               31.71                36.62
+           aef_cosine               31.93                36.92
+          aef_decoder               34.65                39.16
+         aef_whitened               29.35                36.17
+            geography               33.63                40.21
+    hydro_aef_decoder               27.53                31.84
+        hydro_decoder               28.45                34.08
+      hydro_euclidean               32.52                37.89
+           hydro_pair               31.02                37.52
+hydro_tessera_decoder               30.05                33.48
+         label_oracle                0.00                 0.00
+             pair_aef               30.43                37.59
+            pair_both               30.37                36.40
+         pair_tessera               31.15                36.62
+      tessera_centred               29.11                33.11
+       tessera_cosine               29.09                33.56
+      tessera_decoder               31.82                33.86
+     tessera_whitened               29.17                32.74
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/review-seeds/seed-3000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               39.02                36.36
+ hydro_euclidean               42.37                41.80
+      hydro_pair               36.62                34.70
+    label_oracle                0.00                 0.00
+        pair_aef               33.81                34.04
+    pair_tessera               33.41                32.93
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/review-seeds/seed-4000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               37.92                36.59
+ hydro_euclidean               42.37                41.80
+      hydro_pair               36.77                34.15
+    label_oracle                0.00                 0.00
+        pair_aef               32.77                33.09
+    pair_tessera               29.34                31.65
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/review-seeds/seed-5000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               41.70                37.53
+ hydro_euclidean               42.37                41.80
+      hydro_pair               34.54                33.98
+    label_oracle                0.00                 0.00
+        pair_aef               34.52                34.15
+    pair_tessera               32.19                32.59
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/review-seeds/seed-6000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               38.26                35.75
+ hydro_euclidean               42.37                41.80
+      hydro_pair               34.60                33.59
+    label_oracle                0.00                 0.00
+        pair_aef               33.25                33.43
+    pair_tessera               29.79                31.49
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/review-seeds/seed-7000", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 13, "uniform_expected_macro_risk": 0.45073034784939}
+          method  macro_risk_percent  pooled_risk_percent
+     aef_centred               35.72                33.92
+      aef_cosine               37.44                33.92
+    aef_whitened               35.94                33.48
+       geography               35.73                39.58
+   hydro_decoder               38.33                35.92
+ hydro_euclidean               42.37                41.80
+      hydro_pair               36.91                34.37
+    label_oracle                0.00                 0.00
+        pair_aef               33.09                33.15
+    pair_tessera               31.51                33.04
+ tessera_centred               34.10                31.98
+  tessera_cosine               35.72                33.26
+tessera_whitened               32.26                33.09
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/transfer-combined-corrected", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.76                33.70
+           aef_cosine               37.44                33.92
+          aef_decoder               42.22                40.69
+         aef_whitened               35.29                32.04
+            geography               35.73                39.58
+    hydro_aef_decoder               44.36                39.47
+        hydro_decoder               43.42                45.73
+      hydro_euclidean               41.78                42.57
+           hydro_pair               40.64                40.41
+hydro_tessera_decoder               44.55                44.68
+         label_oracle                0.00                 0.00
+             pair_aef               39.69                42.96
+            pair_both               41.90                39.75
+         pair_tessera               37.05                37.53
+      tessera_centred               33.91                31.98
+       tessera_cosine               35.72                33.26
+      tessera_decoder               40.53                38.53
+     tessera_whitened               30.66                30.99
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/transfer-strong-combined/hgb-raw", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               38.83                36.92
+   hydro_pair               41.01                42.29
+     pair_aef               43.14                38.75
+ pair_tessera               34.39                37.86
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/transfer-strong-combined/hgb-white", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               38.83                36.92
+   hydro_pair               41.01                42.29
+     pair_aef               40.29                39.97
+ pair_tessera               38.56                40.63
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/transfer-strong-combined/rf-all-benchmark", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               43.22                44.51
+   hydro_pair               38.34                41.63
+     pair_aef               39.69                42.96
+ pair_tessera               37.05                37.53
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/year-2021", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.03                34.09
+           aef_cosine               36.73                33.54
+          aef_decoder               41.56                39.02
+         aef_whitened               35.63                34.98
+            geography               35.73                39.58
+    hydro_aef_decoder               42.79                39.52
+        hydro_decoder               39.71                37.80
+      hydro_euclidean               42.37                41.80
+           hydro_pair               36.98                34.15
+hydro_tessera_decoder               32.63                28.22
+         label_oracle                0.00                 0.00
+             pair_aef               30.96                31.15
+            pair_both               30.26                30.76
+         pair_tessera               32.88                31.54
+      tessera_centred               31.22                30.49
+       tessera_cosine               30.58                30.38
+      tessera_decoder               33.56                29.49
+     tessera_whitened               28.49                32.54
+{"source_predictions": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/source/analysis/year-2023", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               32.93                32.82
+           aef_cosine               34.12                33.48
+          aef_decoder               40.38                34.09
+         aef_whitened               32.52                33.87
+            geography               35.73                39.58
+    hydro_aef_decoder               42.09                34.42
+        hydro_decoder               39.71                37.80
+      hydro_euclidean               42.37                41.80
+           hydro_pair               36.98                34.15
+hydro_tessera_decoder               41.06                35.20
+         label_oracle                0.00                 0.00
+             pair_aef               34.20                34.59
+            pair_both               32.38                31.26
+         pair_tessera               33.06                32.21
+      tessera_centred               31.86                31.60
+       tessera_cosine               31.58                32.43
+      tessera_decoder               35.66                31.82
+     tessera_whitened               31.91                34.04
+[{"condition": "constant-seed-0", "nonempty_queries": 3637, "changed_reference_n": 1304, "changed_confidence_n": 3596, "screened_n": 1804, "screened_overlap_n": 1642, "screened_changed_n": 162, "training_added_values_all_zero": true, "added_feature_used_splits": 0, "rotations": [{"rotation": 0, "nonempty_queries": 759, "changed_reference_n": 275, "changed_confidence_n": 759, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 1, "nonempty_queries": 969, "changed_reference_n": 359, "changed_confidence_n": 969, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 2, "nonempty_queries": 892, "changed_reference_n": 358, "changed_confidence_n": 855, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 3, "nonempty_queries": 1017, "changed_reference_n": 312, "changed_confidence_n": 1013, "training_added_values_all_zero": true, "added_feature_used_splits": 0}]}, {"condition": "constant-seed-1000", "nonempty_queries": 3637, "changed_reference_n": 1348, "changed_confidence_n": 3596, "screened_n": 1804, "screened_overlap_n": 1635, "screened_changed_n": 169, "training_added_values_all_zero": true, "added_feature_used_splits": 0, "rotations": [{"rotation": 0, "nonempty_queries": 759, "changed_reference_n": 297, "changed_confidence_n": 759, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 1, "nonempty_queries": 969, "changed_reference_n": 355, "changed_confidence_n": 969, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 2, "nonempty_queries": 892, "changed_reference_n": 400, "changed_confidence_n": 855, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 3, "nonempty_queries": 1017, "changed_reference_n": 296, "changed_confidence_n": 1013, "training_added_values_all_zero": true, "added_feature_used_splits": 0}]}, {"condition": "constant-seed-2000", "nonempty_queries": 3637, "changed_reference_n": 1364, "changed_confidence_n": 3598, "screened_n": 1804, "screened_overlap_n": 1645, "screened_changed_n": 159, "training_added_values_all_zero": true, "added_feature_used_splits": 0, "rotations": [{"rotation": 0, "nonempty_queries": 759, "changed_reference_n": 288, "changed_confidence_n": 759, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 1, "nonempty_queries": 969, "changed_reference_n": 387, "changed_confidence_n": 969, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 2, "nonempty_queries": 892, "changed_reference_n": 369, "changed_confidence_n": 855, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 3, "nonempty_queries": 1017, "changed_reference_n": 320, "changed_confidence_n": 1015, "training_added_values_all_zero": true, "added_feature_used_splits": 0}]}, {"condition": "constant-all", "nonempty_queries": 3637, "changed_reference_n": 121, "changed_confidence_n": 3085, "screened_n": 1804, "screened_overlap_n": 1785, "screened_changed_n": 19, "training_added_values_all_zero": true, "added_feature_used_splits": 0, "rotations": [{"rotation": 0, "nonempty_queries": 759, "changed_reference_n": 28, "changed_confidence_n": 650, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 1, "nonempty_queries": 969, "changed_reference_n": 33, "changed_confidence_n": 883, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 2, "nonempty_queries": 892, "changed_reference_n": 33, "changed_confidence_n": 669, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 3, "nonempty_queries": 1017, "changed_reference_n": 27, "changed_confidence_n": 883, "training_added_values_all_zero": true, "added_feature_used_splits": 0}]}, {"condition": "constant-hgb", "nonempty_queries": 3637, "changed_reference_n": 0, "changed_confidence_n": 0, "screened_n": 1804, "screened_overlap_n": 1804, "screened_changed_n": 0, "training_added_values_all_zero": true, "added_feature_used_splits": null, "rotations": [{"rotation": 0, "nonempty_queries": 759, "changed_reference_n": 0, "changed_confidence_n": 0, "training_added_values_all_zero": true, "added_feature_used_splits": null}, {"rotation": 1, "nonempty_queries": 969, "changed_reference_n": 0, "changed_confidence_n": 0, "training_added_values_all_zero": true, "added_feature_used_splits": null}, {"rotation": 2, "nonempty_queries": 892, "changed_reference_n": 0, "changed_confidence_n": 0, "training_added_values_all_zero": true, "added_feature_used_splits": null}, {"rotation": 3, "nonempty_queries": 1017, "changed_reference_n": 0, "changed_confidence_n": 0, "training_added_values_all_zero": true, "added_feature_used_splits": null}]}]{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1370, "pairs": 30570, "elapsed_seconds": 48.21272479207255}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1370, "pairs": 30570, "elapsed_seconds": 97.27525574993342}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1370, "pairs": 30570, "elapsed_seconds": 145.85419820807874}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1370, "pairs": 30570, "elapsed_seconds": 195.59880179190077}
+{"stage": "predict", "queries": 100, "total": 763, "elapsed_seconds": 211.70431183301844}
+{"stage": "predict", "queries": 200, "total": 763, "elapsed_seconds": 214.7870513331145}
+{"stage": "predict", "queries": 300, "total": 763, "elapsed_seconds": 217.6586754580494}
+{"stage": "predict", "queries": 400, "total": 763, "elapsed_seconds": 220.35022237501107}
+{"stage": "predict", "queries": 500, "total": 763, "elapsed_seconds": 222.72787070809864}
+{"stage": "predict", "queries": 600, "total": 763, "elapsed_seconds": 224.9952671250794}
+{"stage": "predict", "queries": 700, "total": 763, "elapsed_seconds": 227.46153437509201}
+{"start_time_utc": "2026-10-28T10:39:28.877371+00:00", "end_time_utc": "2026-10-28T10:43:18.025711+00:00", "elapsed_seconds": 229.15116320806555, "rotation": 0, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3667, "training_nominal_n": 1928, "training_retained_n": 1370, "training_pairs": 30570, "query_n": 763, "reference_n": 976, "prediction_rows": 13662, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1168, "pairs": 24358, "elapsed_seconds": 38.17204525019042}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1168, "pairs": 24358, "elapsed_seconds": 76.7976519591175}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1168, "pairs": 24358, "elapsed_seconds": 114.71327483397909}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1168, "pairs": 24358, "elapsed_seconds": 153.669258417096}
+{"stage": "predict", "queries": 100, "total": 976, "elapsed_seconds": 168.6057228751015}
+{"stage": "predict", "queries": 200, "total": 976, "elapsed_seconds": 171.65335129201412}
+{"stage": "predict", "queries": 300, "total": 976, "elapsed_seconds": 174.72616708418354}
+{"stage": "predict", "queries": 400, "total": 976, "elapsed_seconds": 177.61293983412907}
+{"stage": "predict", "queries": 500, "total": 976, "elapsed_seconds": 180.20432787504978}
+{"stage": "predict", "queries": 600, "total": 976, "elapsed_seconds": 182.88568541710265}
+{"stage": "predict", "queries": 700, "total": 976, "elapsed_seconds": 185.2045632500667}
+{"stage": "predict", "queries": 800, "total": 976, "elapsed_seconds": 187.4211687091738}
+{"stage": "predict", "queries": 900, "total": 976, "elapsed_seconds": 189.87995425006375}
+{"start_time_utc": "2026-10-28T10:43:19.550513+00:00", "end_time_utc": "2026-10-28T10:46:31.376010+00:00", "elapsed_seconds": 191.82785583403893, "rotation": 1, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3667, "training_nominal_n": 1784, "training_retained_n": 1168, "training_pairs": 24358, "query_n": 976, "reference_n": 907, "prediction_rows": 17442, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 40.40783474990167}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 81.20711341686547}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 121.98588229180314}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 163.63289783289656}
+{"stage": "predict", "queries": 100, "total": 907, "elapsed_seconds": 178.94640162494034}
+{"stage": "predict", "queries": 200, "total": 907, "elapsed_seconds": 181.83951249998063}
+{"stage": "predict", "queries": 300, "total": 907, "elapsed_seconds": 184.7109938748181}
+{"stage": "predict", "queries": 400, "total": 907, "elapsed_seconds": 187.48103920789436}
+{"stage": "predict", "queries": 600, "total": 907, "elapsed_seconds": 192.39793608291075}
+{"stage": "predict", "queries": 700, "total": 907, "elapsed_seconds": 194.93304037488997}
+{"stage": "predict", "queries": 800, "total": 907, "elapsed_seconds": 197.29584499984048}
+{"stage": "predict", "queries": 900, "total": 907, "elapsed_seconds": 199.75577370799147}
+{"start_time_utc": "2026-10-28T10:46:32.902137+00:00", "end_time_utc": "2026-10-28T10:49:53.088866+00:00", "elapsed_seconds": 200.07706037489697, "rotation": 2, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3667, "training_nominal_n": 1739, "training_retained_n": 1216, "training_pairs": 25754, "query_n": 907, "reference_n": 1021, "prediction_rows": 16056, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 38.06779220816679}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 76.58465916709974}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 115.25985250016674}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 154.78526683314703}
+{"stage": "predict", "queries": 100, "total": 1021, "elapsed_seconds": 168.9653692501597}
+{"stage": "predict", "queries": 200, "total": 1021, "elapsed_seconds": 171.72721316711977}
+{"stage": "predict", "queries": 300, "total": 1021, "elapsed_seconds": 174.3972265420016}
+{"stage": "predict", "queries": 400, "total": 1021, "elapsed_seconds": 177.08679795800708}
+{"stage": "predict", "queries": 500, "total": 1021, "elapsed_seconds": 179.65450737508945}
+{"stage": "predict", "queries": 600, "total": 1021, "elapsed_seconds": 182.28257462498732}
+{"stage": "predict", "queries": 700, "total": 1021, "elapsed_seconds": 184.80096395802684}
+{"stage": "predict", "queries": 800, "total": 1021, "elapsed_seconds": 187.0539636251051}
+{"stage": "predict", "queries": 900, "total": 1021, "elapsed_seconds": 189.54187979199924}
+{"stage": "predict", "queries": 1000, "total": 1021, "elapsed_seconds": 192.14276579208672}
+{"start_time_utc": "2026-10-28T10:49:54.628043+00:00", "end_time_utc": "2026-10-28T10:53:07.405599+00:00", "elapsed_seconds": 192.77474087500013, "rotation": 3, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3667, "training_nominal_n": 1883, "training_retained_n": 1187, "training_pairs": 25105, "query_n": 1021, "reference_n": 763, "prediction_rows": 18306, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}
+
+[{"condition": "constant-corrected-seed-0", "nonempty_queries": 3637, "changed_reference_n": 1304, "changed_confidence_n": 3596, "screened_n": 1804, "screened_overlap_n": 1642, "screened_changed_n": 162, "training_added_values_all_zero": true, "added_feature_used_splits": 0, "rotations": [{"rotation": 0, "nonempty_queries": 759, "changed_reference_n": 275, "changed_confidence_n": 759, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 1, "nonempty_queries": 969, "changed_reference_n": 359, "changed_confidence_n": 969, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 2, "nonempty_queries": 892, "changed_reference_n": 358, "changed_confidence_n": 855, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 3, "nonempty_queries": 1017, "changed_reference_n": 312, "changed_confidence_n": 1013, "training_added_values_all_zero": true, "added_feature_used_splits": 0}], "replay_changed_reference_n": 0, "replay_changed_confidence_n": 0, "replay_changed_mismatch_n": 0}, {"condition": "constant-corrected-all", "nonempty_queries": 3637, "changed_reference_n": 121, "changed_confidence_n": 3085, "screened_n": 1804, "screened_overlap_n": 1785, "screened_changed_n": 19, "training_added_values_all_zero": true, "added_feature_used_splits": 0, "rotations": [{"rotation": 0, "nonempty_queries": 759, "changed_reference_n": 28, "changed_confidence_n": 650, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 1, "nonempty_queries": 969, "changed_reference_n": 33, "changed_confidence_n": 883, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 2, "nonempty_queries": 892, "changed_reference_n": 33, "changed_confidence_n": 669, "training_added_values_all_zero": true, "added_feature_used_splits": 0}, {"rotation": 3, "nonempty_queries": 1017, "changed_reference_n": 27, "changed_confidence_n": 883, "training_added_values_all_zero": true, "added_feature_used_splits": 0}], "replay_changed_reference_n": 0, "replay_changed_confidence_n": 0, "replay_changed_mismatch_n": 0}, {"condition": "constant-corrected-hgb", "nonempty_queries": 3637, "changed_reference_n": 0, "changed_confidence_n": 0, "screened_n": 1804, "screened_overlap_n": 1804, "screened_changed_n": 0, "training_added_values_all_zero": true, "added_feature_used_splits": null, "rotations": [{"rotation": 0, "nonempty_queries": 759, "changed_reference_n": 0, "changed_confidence_n": 0, "training_added_values_all_zero": true, "added_feature_used_splits": null}, {"rotation": 1, "nonempty_queries": 969, "changed_reference_n": 0, "changed_confidence_n": 0, "training_added_values_all_zero": true, "added_feature_used_splits": null}, {"rotation": 2, "nonempty_queries": 892, "changed_reference_n": 0, "changed_confidence_n": 0, "training_added_values_all_zero": true, "added_feature_used_splits": null}, {"rotation": 3, "nonempty_queries": 1017, "changed_reference_n": 0, "changed_confidence_n": 0, "training_added_values_all_zero": true, "added_feature_used_splits": null}], "replay_changed_reference_n": 0, "replay_changed_confidence_n": 0, "replay_changed_mismatch_n": 0}]
+{"passed": true, "checks": 105}
+{"passed": true, "checks": 32, "maximum_vector_error": 3.608224830031759e-15}
+{"passed": true, "comparisons": 8, "common_n": 3667}
+{"condition_n": 62, "fixed_screen_rows": 1412, "influence_rows": 3192}
+{"completed": 8, "uncompleted": 0, "metric_rows": 704}
+{"wetlands": 3624, "physical_rotations": 4, "embedding_comparisons": 4}
+{"passed": true, "checks": 7, "whitening_query_checks": 7274}
+{"contrasts": 8, "decoder_contrasts": 8, "real_null_rows": 180, "subgroup_rows": 32, "new_seed_n": 5}
+{"analyses": 62, "primary_wetlands": 3667, "primary_windows": 12}
+{"figures": ["risk-coverage", "paired-contrasts", "control-sensitivity", "screen-components", "physical-sampling"]}
+{"paper": "/Users/fujimura/Research/ai-free-research-en/run-018/verification-work/review-candidate-1/results/paper.md", "words": 15517, "fields": 21}
+{"claims": 17, "supported": 16}
+{"passed": true, "checks": 108, "elapsed_seconds": 1176.1075287498534}

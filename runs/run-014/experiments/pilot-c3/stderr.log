@@ -1,0 +1,138 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/aiohttp/connector.py", line 1337, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 1201, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        ssl_shutdown_timeout=ssl_shutdown_timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 1234, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/sslproto.py", line 581, in _on_handshake_complete
+    raise handshake_exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/sslproto.py", line 563, in _do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 951, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/scripts/pilot_access.py", line 55, in <module>
+    globals()[a.candidate]()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/scripts/pilot_access.py", line 29, in c3
+    arr=zarr.open_group(root_url,mode='r')['embeddings']
+        ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/zarr/api/synchronous.py", line 567, in open_group
+    sync(
+    ~~~~^
+        async_api.open_group(
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        )
+        ^
+    )
+    ^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/zarr/core/sync.py", line 155, in sync
+    raise return_result
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/zarr/core/sync.py", line 116, in _runner
+    return await coro
+           ^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/zarr/api/asynchronous.py", line 900, in open_group
+    return await AsyncGroup.open(
+           ^^^^^^^^^^^^^^^^^^^^^^
+        store_path, zarr_format=zarr_format, use_consolidated=use_consolidated
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/zarr/core/group.py", line 621, in open
+    ) = await asyncio.gather(
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/zarr/storage/_common.py", line 161, in get
+    return await self.store.get(self.path, prototype=prototype, byte_range=byte_range)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/zarr/storage/_fsspec.py", line 302, in get
+    value = prototype.buffer.from_bytes(await self.fs._cat_file(path))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/fsspec/implementations/http.py", line 248, in _cat_file
+    async with session.get(self.encode_url(url), **kw) as r:
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/aiohttp/client.py", line 1756, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/aiohttp/client.py", line 900, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/aiohttp/client.py", line 854, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/aiohttp/connector.py", line 665, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/aiohttp/connector.py", line 1263, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/aiohttp/connector.py", line 1641, in _create_direct_connection
+    raise last_exc
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/aiohttp/connector.py", line 1610, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/aiohttp/connector.py", line 1339, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host data.source.coop:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')]
+Exception ignored in: <coroutine object TCPConnector._wrap_create_connection at 0x10c41d080>
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/lib/python3.13/site-packages/aiohttp/connector.py", line 1337, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 1201, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 1236, in _create_connection_transport
+    transport.close()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/sslproto.py", line 116, in close
+    self._ssl_protocol._start_shutdown()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/sslproto.py", line 624, in _start_shutdown
+    self._abort(None)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/sslproto.py", line 674, in _abort
+    self._transport._force_close(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/selector_events.py", line 898, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 833, in call_soon
+    self._check_closed()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 556, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <coroutine object BaseEventLoop.create_connection at 0x10c4312d0>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 1201, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 1236, in _create_connection_transport
+    transport.close()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/sslproto.py", line 116, in close
+    self._ssl_protocol._start_shutdown()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/sslproto.py", line 624, in _start_shutdown
+    self._abort(None)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/sslproto.py", line 674, in _abort
+    self._transport._force_close(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/selector_events.py", line 898, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 833, in call_soon
+    self._check_closed()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 556, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed

@@ -1,0 +1,9 @@
+{
+  "observed_at_utc": "2026-10-27T05:18:20.501811Z",
+  "experiment_id": "E03",
+  "original_record": "experiments/E03/run.json",
+  "actual_code_sha256": "83e5bf0d4b9fc933c140e14da228f4c61cbef00a59d23085caad27e4e183e365",
+  "matching_code_commit": "9c6c2252b2ba0e5a84ff9dc605c53f0d1138ce30",
+  "committed_bytes_match": true,
+  "limitation": "E03 began while the preceding commit command was finishing, so its initial HEAD points to the previous commit without the new retrieval file. Exact executed code bytes match the file committed immediately afterward. This correction does not claim the code commit preceded E03. No mapping model ran."
+}

@@ -1,0 +1,3 @@
+frame,taxonomy,units,landscapes,zero_change,tiny_change,entropy_floor,single_group_either_year,single_group_both_years,labels_unchanged_all,reference_proportions_identical,median_changed_fraction,population_points_sum
+stable_arable,broad,18,6,0,1,0,0,0,0,0,0.7400633675398257,400483
+stable_arable,fine,18,6,0,1,0,0,0,0,0,0.7996946621846249,400483

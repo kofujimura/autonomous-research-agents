@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/retrieve_inputs.py", line 228, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/retrieve_inputs.py", line 226, in main
+    run_core(c,region)
+    ~~~~~~~~^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/retrieve_inputs.py", line 201, in run_core
+    n=wetlands(core,directory)
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/retrieve_inputs.py", line 63, in wetlands
+    ids_data=json_read(FWS+'?'+urllib.parse.urlencode(params),directory/'nwi-ids.json',
+        'NWI-IDS-'+core['core_id'],'USFWS/NWI metadata: no access/use constraints; acknowledgement requested',
+        'Complete reference IDs for buffered core')
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/retrieve_inputs.py", line 35, in json_read
+    r=fetch(url,str(path.relative_to(ROOT)),sid,license,purpose)
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/web_record.py", line 20, in fetch
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 503: Service Unavailable

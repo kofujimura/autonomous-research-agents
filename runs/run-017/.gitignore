@@ -1,0 +1,9 @@
+.venv/
+.cache/
+verification-work/
+__pycache__/
+*.pyc
+data/derived/features/*.npz
+data/results/**/*.partial.npz
+data/main/cores/**/*.partial-*.npz
+data/results/predictions/*.npz

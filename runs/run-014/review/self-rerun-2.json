@@ -1,0 +1,289 @@
+{
+  "status": "PASS",
+  "candidate_commit": "4db5d8bcd2a3c4a334026c5c9af7165972be3944",
+  "experiment_id": "end-to-end-self-rerun-2",
+  "start_at_utc": "2026-10-25T18:35:05Z",
+  "end_at_utc": "2026-10-25T18:44:20Z",
+  "elapsed_seconds": 553.2521437080577,
+  "wrapper_elapsed_seconds": 555.4240572911222,
+  "check_count": 186,
+  "stage_count": 35,
+  "stage_timings": [
+    {
+      "stage": "route_recovery",
+      "start_at_utc": "2026-10-25T18:35:07Z",
+      "end_at_utc": "2026-10-25T18:35:07Z",
+      "elapsed_seconds": 0.005530874943360686
+    },
+    {
+      "stage": "prepare_lcmap",
+      "start_at_utc": "2026-10-25T18:35:09Z",
+      "end_at_utc": "2026-10-25T18:35:09Z",
+      "elapsed_seconds": 0.11186854192055762
+    },
+    {
+      "stage": "prepare_controls",
+      "start_at_utc": "2026-10-25T18:35:09Z",
+      "end_at_utc": "2026-10-25T18:35:09Z",
+      "elapsed_seconds": 0.020653708139434457
+    },
+    {
+      "stage": "cohort_history_feasibility",
+      "start_at_utc": "2026-10-25T18:35:09Z",
+      "end_at_utc": "2026-10-25T18:35:10Z",
+      "elapsed_seconds": 0.8887688340619206
+    },
+    {
+      "stage": "prepare_nlcd",
+      "start_at_utc": "2026-10-25T18:35:10Z",
+      "end_at_utc": "2026-10-25T18:35:16Z",
+      "elapsed_seconds": 5.419080459047109
+    },
+    {
+      "stage": "prepare_native_sample",
+      "start_at_utc": "2026-10-25T18:35:16Z",
+      "end_at_utc": "2026-10-25T18:35:16Z",
+      "elapsed_seconds": 0.007585833081975579
+    },
+    {
+      "stage": "prepare_native_pairs",
+      "start_at_utc": "2026-10-25T18:35:16Z",
+      "end_at_utc": "2026-10-25T18:35:16Z",
+      "elapsed_seconds": 0.008560457965359092
+    },
+    {
+      "stage": "prepare_saved_native_dates",
+      "start_at_utc": "2026-10-25T18:35:16Z",
+      "end_at_utc": "2026-10-25T18:35:16Z",
+      "elapsed_seconds": 0.018037083093076944
+    },
+    {
+      "stage": "aef_closed_v11",
+      "start_at_utc": "2026-10-25T18:35:16Z",
+      "end_at_utc": "2026-10-25T18:35:37Z",
+      "elapsed_seconds": 20.799780457979068
+    },
+    {
+      "stage": "robustness_aef_v12",
+      "start_at_utc": "2026-10-25T18:35:37Z",
+      "end_at_utc": "2026-10-25T18:36:12Z",
+      "elapsed_seconds": 35.272849375149235
+    },
+    {
+      "stage": "main_v1",
+      "start_at_utc": "2026-10-25T18:36:12Z",
+      "end_at_utc": "2026-10-25T18:37:42Z",
+      "elapsed_seconds": 89.89323104196228
+    },
+    {
+      "stage": "endpoint_v13",
+      "start_at_utc": "2026-10-25T18:37:42Z",
+      "end_at_utc": "2026-10-25T18:38:32Z",
+      "elapsed_seconds": 50.15069237491116
+    },
+    {
+      "stage": "reference_completeness_v14",
+      "start_at_utc": "2026-10-25T18:38:32Z",
+      "end_at_utc": "2026-10-25T18:39:06Z",
+      "elapsed_seconds": 34.19823508406989
+    },
+    {
+      "stage": "secondary_v2",
+      "start_at_utc": "2026-10-25T18:39:06Z",
+      "end_at_utc": "2026-10-25T18:39:09Z",
+      "elapsed_seconds": 2.8707875830587
+    },
+    {
+      "stage": "robustness_paired_v12",
+      "start_at_utc": "2026-10-25T18:39:09Z",
+      "end_at_utc": "2026-10-25T18:40:28Z",
+      "elapsed_seconds": 78.59370166598819
+    },
+    {
+      "stage": "initial_lcmap_v17",
+      "start_at_utc": "2026-10-25T18:40:28Z",
+      "end_at_utc": "2026-10-25T18:40:54Z",
+      "elapsed_seconds": 26.068626624997705
+    },
+    {
+      "stage": "geography_lcmap_v18",
+      "start_at_utc": "2026-10-25T18:40:54Z",
+      "end_at_utc": "2026-10-25T18:40:56Z",
+      "elapsed_seconds": 2.0198070420883596
+    },
+    {
+      "stage": "class_lcmap_v19",
+      "start_at_utc": "2026-10-25T18:40:56Z",
+      "end_at_utc": "2026-10-25T18:40:58Z",
+      "elapsed_seconds": 1.7624695408158004
+    },
+    {
+      "stage": "reference_access_lcmap_v20",
+      "start_at_utc": "2026-10-25T18:40:58Z",
+      "end_at_utc": "2026-10-25T18:41:33Z",
+      "elapsed_seconds": 35.36874312488362
+    },
+    {
+      "stage": "direct_inputs_lcmap_v23",
+      "start_at_utc": "2026-10-25T18:41:33Z",
+      "end_at_utc": "2026-10-25T18:41:44Z",
+      "elapsed_seconds": 11.116999041987583
+    },
+    {
+      "stage": "main_figures",
+      "start_at_utc": "2026-10-25T18:41:44Z",
+      "end_at_utc": "2026-10-25T18:41:45Z",
+      "elapsed_seconds": 0.6549698750022799
+    },
+    {
+      "stage": "diagnostic_figures",
+      "start_at_utc": "2026-10-25T18:41:45Z",
+      "end_at_utc": "2026-10-25T18:41:45Z",
+      "elapsed_seconds": 0.5125261251814663
+    },
+    {
+      "stage": "nlcd_v4",
+      "start_at_utc": "2026-10-25T18:41:45Z",
+      "end_at_utc": "2026-10-25T18:42:24Z",
+      "elapsed_seconds": 38.869619082892314
+    },
+    {
+      "stage": "initial_nlcd_v17",
+      "start_at_utc": "2026-10-25T18:42:24Z",
+      "end_at_utc": "2026-10-25T18:42:46Z",
+      "elapsed_seconds": 22.01183299999684
+    },
+    {
+      "stage": "geography_nlcd_v18",
+      "start_at_utc": "2026-10-25T18:42:46Z",
+      "end_at_utc": "2026-10-25T18:42:48Z",
+      "elapsed_seconds": 2.129148832987994
+    },
+    {
+      "stage": "class_nlcd_v19",
+      "start_at_utc": "2026-10-25T18:42:48Z",
+      "end_at_utc": "2026-10-25T18:42:54Z",
+      "elapsed_seconds": 5.876393917016685
+    },
+    {
+      "stage": "reference_access_nlcd_v20",
+      "start_at_utc": "2026-10-25T18:42:54Z",
+      "end_at_utc": "2026-10-25T18:43:35Z",
+      "elapsed_seconds": 40.374810041859746
+    },
+    {
+      "stage": "direct_inputs_nlcd_v23",
+      "start_at_utc": "2026-10-25T18:43:35Z",
+      "end_at_utc": "2026-10-25T18:43:48Z",
+      "elapsed_seconds": 12.81841329112649
+    },
+    {
+      "stage": "direct_input_figures",
+      "start_at_utc": "2026-10-25T18:43:48Z",
+      "end_at_utc": "2026-10-25T18:43:48Z",
+      "elapsed_seconds": 0.48819320905022323
+    },
+    {
+      "stage": "native_v5",
+      "start_at_utc": "2026-10-25T18:43:48Z",
+      "end_at_utc": "2026-10-25T18:43:48Z",
+      "elapsed_seconds": 0.07655612495727837
+    },
+    {
+      "stage": "unfinished_native_pairs_v21",
+      "start_at_utc": "2026-10-25T18:43:48Z",
+      "end_at_utc": "2026-10-25T18:44:03Z",
+      "elapsed_seconds": 15.295942167053
+    },
+    {
+      "stage": "native_single_date_v22",
+      "start_at_utc": "2026-10-25T18:44:03Z",
+      "end_at_utc": "2026-10-25T18:44:19Z",
+      "elapsed_seconds": 15.376185582950711
+    },
+    {
+      "stage": "native_identity_v22",
+      "start_at_utc": "2026-10-25T18:44:19Z",
+      "end_at_utc": "2026-10-25T18:44:19Z",
+      "elapsed_seconds": 0.022051709005609155
+    },
+    {
+      "stage": "display_tables",
+      "start_at_utc": "2026-10-25T18:44:19Z",
+      "end_at_utc": "2026-10-25T18:44:19Z",
+      "elapsed_seconds": 0.016503707971423864
+    },
+    {
+      "stage": "saved_flag_audit",
+      "start_at_utc": "2026-10-25T18:44:19Z",
+      "end_at_utc": "2026-10-25T18:44:20Z",
+      "elapsed_seconds": 0.4835585409309715
+    }
+  ],
+  "source_unchanged": true,
+  "source_files_before": 8787,
+  "source_files_after": 8787,
+  "network_used": false,
+  "ai_api_calls": 0,
+  "working_copy_excluded_from_git": true,
+  "source_integrity_method": "SHA256 and membership of all source working files excluding.git before/after; inventories under verification-work/attempt-2.",
+  "recorded_at_utc": "2026-10-25T18:44:37Z",
+  "note": "Self rerun by authoring AI session, not independent reproduction.",
+  "covered_scientific_protocols": [
+    "plan-v1.md",
+    "plan-v10.md",
+    "plan-v11.md",
+    "plan-v12.md",
+    "plan-v13.md",
+    "plan-v14.md",
+    "plan-v15.md",
+    "plan-v16.md",
+    "plan-v17.md",
+    "plan-v18.md",
+    "plan-v19.md",
+    "plan-v2.md",
+    "plan-v20.md",
+    "plan-v21.md",
+    "plan-v22.md",
+    "plan-v23.md",
+    "plan-v3.md",
+    "plan-v4.md",
+    "plan-v5.md",
+    "plan-v6.md",
+    "plan-v7.md",
+    "plan-v8.md",
+    "plan-v9.md"
+  ],
+  "coverage_note": "Covers throughv23 plus saved-history feasibility; laterv24 partition sensitivity is outside this candidate.",
+  "scientific_script_sha256": {
+    "scripts/analyse.py": "003f132b300d49189708183f3dad1d991002c5ae4dbefd72be6d1d07761601ee",
+    "scripts/api_wrapper.py": "4201626f3e1c93efe1499c0483adf15d60606ada56eb0123982e3c56bb11d453",
+    "scripts/audit_saved.py": "4b7c13915ac68fbfc010ca976f15d0ce7f38d5c5ea31bab220a60283dcd2356a",
+    "scripts/closed_aef.py": "f5c0a98a3eb05a8f0b5544b22592d85487405c7556a8ec18f0c7ed2bb02d954b",
+    "scripts/cohort_history_feasibility.py": "5343809ed1c5c11a26325c5a613fd554544ea5669b10ffa5bef3b15c3573fd89",
+    "scripts/diagnostic_figures.py": "1a639edaf71f5484493a2020bcf891d4129052f7781175270d711fc87ae11b15",
+    "scripts/direct_inputs.py": "ff9d57cf25b7ae3bf624ebbef3e1a2ea83ed16215fe181e1cd241572f8207fb5",
+    "scripts/endpoint.py": "6e22511ac1af3f367b4cab463b5444ef517abf23afda11e5875b2606d7fa0a43",
+    "scripts/extend_nlcd.py": "769c502234e12c96135ac9675616fffc4a014a8a954ea07423c84aaf313e5fa7",
+    "scripts/features.py": "ff207b68c8c36f945a918ed162f649f6144aa2d74c4701567c0f4edc9327d447",
+    "scripts/figures.py": "e0a90aa75d77a08b9f7bfcb44eb1f9043e9653fcc0bdcc5c19353875d3fc7714",
+    "scripts/geography.py": "76eb3924d17cceafd90abd06f2cef0b401bebf9fb93adb58582e7c7c4fb2c1bb",
+    "scripts/initial_class.py": "60afa5b4608f0a6ebd04cdb785a2cf6c3df911badd6d0d8fe924b9b68f5aea4c",
+    "scripts/initial_readouts.py": "5aa6412c2a36e9f6f4a2b25066229962a871cb824c710942d081b04d9a593d85",
+    "scripts/input_figures.py": "9d42e9ee9501d9b6e5e2382eb2c4a9c598b0b39fcc881adca55f793459684daa",
+    "scripts/native_check.py": "c18e62e0d36b279ca7cbdd3290813481c00d3b52eccdfbc4c7dddcef2d52ffdf",
+    "scripts/native_identity.py": "676f3615514530c2821bbd1c6f1cd849401be6cf86d5e92fa1ed9857550009a4",
+    "scripts/native_pairs.py": "b80a116a728ebd46759ec71bde26011d47169e3728f1db91dea979a4e9d33073",
+    "scripts/prepare.py": "ff6dcb2d63fc15fbf69248aafeb56244798840a6cac5fc305c2cd212d78c526d",
+    "scripts/prepare_controls.py": "b1adc4cfd841941735954f8afabd77e0221efb885dca0118976f83f6391e8ce8",
+    "scripts/prepare_nlcd.py": "f17fd8b8cfa917e60f4069470555111b7c9a242c029437ff8dbaee167414afbe",
+    "scripts/presentation.py": "3e04b734014b2dc387b309db50d86a2038369fbbb59c52c328ff5cb8b3035203",
+    "scripts/record.py": "b266801649a19295d32af4428de427970eef7e98f3b4ecbf10e76f7adbeb3820",
+    "scripts/reference_access.py": "25f580ea29a1e5b2cef774b6bb3776187c7c8ec38a5b5a9b00dc98a259d15fa2",
+    "scripts/reference_completeness.py": "cfb24377bd38d3c3e1c645fa73e8c3ed2f2c00ba396381fe59407547d12c451d",
+    "scripts/reproduce.py": "b80edaad0a53ad22be61cd27bea643a7f263280994e3b278372cd4dd74be5786",
+    "scripts/robustness.py": "3694e366d1142106643ba57fc6df167146d8e0ce28340e47a0c4e2031c7f3a8a",
+    "scripts/route_recover.py": "2c1eb8641da88f2e6414bc9b54413a95a81bb268b1a225f5cc9633a81ba3d50e",
+    "scripts/secondary.py": "bfdb25b9bd24b8d904b469a3bd8e1982af2a14fae853c7dfe308f67e30a49826"
+  }
+}

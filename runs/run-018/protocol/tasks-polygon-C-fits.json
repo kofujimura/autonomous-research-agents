@@ -1,0 +1,52 @@
+[
+  {
+    "task_id": "C-rf",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/polygon-features-v3/C",
+      "--output",
+      "analysis/polygon/C-rf"
+    ]
+  },
+  {
+    "task_id": "C-rf-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/polygon/C-rf",
+      "--out",
+      "analysis/polygon/C-rf-summary"
+    ]
+  },
+  {
+    "task_id": "C-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "hgb",
+      "--inputs",
+      "analysis/polygon-features-v3/C",
+      "--primary",
+      "analysis/polygon/C-rf",
+      "--output",
+      "analysis/polygon/C-hgb"
+    ]
+  },
+  {
+    "task_id": "C-hgb-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/polygon/C-hgb",
+      "--out",
+      "analysis/polygon/C-hgb-summary"
+    ]
+  }
+]

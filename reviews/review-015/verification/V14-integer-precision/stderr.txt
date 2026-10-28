@@ -1,0 +1,2 @@
+/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy/scripts/integer_precision.py:86: Pandas4Warning: The 'verify_integrity' keyword in DataFrame.set_index is deprecated and will be removed in a future version. Directly check the result.index.is_unique instead.
+  selected=choose_cases(frame,design).set_index('case_key',verify_integrity=True)

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/swiss_labels.py", line 149, in collect
+    v=reader.tile(year,name);r=k//4;c=k%4
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/swiss_labels.py", line 85, in tile
+    assert np.nanmin(values)>=0
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError

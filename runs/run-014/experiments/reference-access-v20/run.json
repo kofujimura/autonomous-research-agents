@@ -1,0 +1,32 @@
+{
+  "experiment_id": "reference-access-v20",
+  "start_at_utc": "2026-10-25T15:36:21Z",
+  "end_at_utc": "2026-10-25T15:36:58Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/reference_access.py",
+    "--dataset",
+    "lcmap",
+    "--main",
+    "analysis/main-v1",
+    "--output",
+    "analysis/reference-access-v20"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v20.md",
+  "plan_commit_id": "c6ac74e8dcee16453b7aefbd738c58a93a3cfd89",
+  "additional_plan_commits": {},
+  "code_commit_id": "ab24c679c783ec03041618c4c845a5688413937d",
+  "input_sha256": {
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+    "data/prepared/references.csv": "8d2161765a97982d362e57c7d9e4b1b41b51f9a9602f124e33474adee915e180"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0441",
+  "pid": 27351,
+  "elapsed_seconds": 37.41638558311388,
+  "end_event_id": "E0442"
+}

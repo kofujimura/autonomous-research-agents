@@ -1,0 +1,241 @@
+{
+ "meta": {
+  "reviewer": "muse",
+  "model": "muse-wonder-1.0",
+  "run": "016",
+  "rep": 2,
+  "started_utc": "2026-10-28T13:58:00Z",
+  "figures": 1,
+  "usage": {
+   "input_tokens": 416751,
+   "cached_input_tokens": 238675,
+   "output_tokens": 6420,
+   "thought_tokens": 3807,
+   "search_queries": 10
+  },
+  "cost_usd": 0.913439,
+  "mode": "schema",
+  "model_version": "muse-wonder-1.0",
+  "finish_reason": "completed"
+ },
+ "review": {
+  "closest_prior_work": [
+   {
+    "citation": "Jessen, R.J. (1942). Statistical investigation of a sample survey for obtaining farm facts; extended by Patterson (1950) on successive/rotation sampling.",
+    "difference": "Already introduced matched/successive sampling for farm surveys and using earlier-occasion information; this paper applies the same principle to Shannon change in modern crop declarations.",
+    "url": ""
+   },
+   {
+    "citation": "Massey, A. & Mandallaz, D. (2015). Design-based regression estimation of net change for forest inventories. Canadian Journal of Forest Research 45:1775-1784.",
+    "difference": "Already gives design-based model-assisted estimation of net change from permanent/temporary plots; this paper instantiates it for pixel-level crop-group entropy and frozen satellite embeddings.",
+    "url": "https://doi.org/10.1139/cjfr-2015-0266"
+   },
+   {
+    "citation": "van der Velde, M. et al. (2025). Policy relevant crop diversity monitoring based on Earth observation and farmers' declarations. Environmental Research Letters 20:014054.",
+    "difference": "Already calculates Shannon crop diversity from EO and declarations and tracks declaration-based change over time; this paper adds fixed-budget reference resampling, coverage and wrong-direction reporting.",
+    "url": "https://doi.org/10.1088/1748-9326/ad9d61"
+   },
+   {
+    "citation": "Säurich, J. et al. (2026). Are remote sensing-based crop type classifications suitable for calculating a landscape heterogeneity metric? Ecological Informatics 95:103660.",
+    "difference": "Already assesses fitness of crop classifications for Shannon-based landscape heterogeneity against reference data; this paper differs mainly by studying temporal change, revisiting designs and interval behaviour rather than single-period heterogeneity.",
+    "url": "https://doi.org/10.1016/j.ecoinf.2026.103660"
+   },
+   {
+    "citation": "Hutcheson, K. (1970). A test for comparing diversities based on the Shannon formula. Journal of Theoretical Biology 29:151-154.",
+    "difference": "Classic test for comparing two Shannon diversities from samples; the paper lists it as an unchecked lead, whereas the present work uses finite-population paired/independent resampling and model assistance rather than engaging that test directly.",
+    "url": ""
+   }
+  ],
+  "familiarity": "no",
+  "figures_viewed": true,
+  "main_issues": [
+   {
+    "issue": "Operational external validity is critically limited: benchmark truth and sampled labels come from the same error-free declaration database, the frame is stable five-year agricultural support known in advance, and sampling is pixel SRS rather than field/parcel/photo audit with clustering, travel, eligibility change or interpreter error; the headline revisiting gain and coverage deficit are therefore conditional artefacts of perfectly repeatable labels, as the synthetic error scenarios themselves show.",
+    "severity": "critical"
+   },
+   {
+    "issue": "Novelty is thin: the revisiting advantage is the classic successive-occasion covariance effect, zero-width intervals after no observed change are elementary, and the paper explicitly proposes no new estimator or theorem; the contribution is mainly a specific empirical recombination.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "The headline assisted-interval comparison rests on an original Wald/projection rule later shown to omit the projection Jacobian and depend strongly on an arbitrary 1e-6 gradient floor; the derivative-aware fix is exploratory, local and not a validated interval, so assisted coverage claims should not be presented as properties of satellite-assisted inference.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "Generality is weak: 30 seeded convenience Swiss landscapes plus 8 additional ones, correlated transitions per landscape, declaration taxonomy and 2021-2025 conditions only; landscape resampling is wide and the additional stable-arable broad-group reversal remains unresolved, with ratios including 1.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "Estimator comparison is incomplete for the stated model-assisted question: frozen logistic regression is the primary head, random forests are only a robustness check, and standard post-stratification, calibrated/PPI-style weighting and realistic budget accounting for the 82k-123k training/calibration labels and supplied frame are not primary comparators.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "Verifiability from the manuscript alone is limited: key provenance, seeds, deviations, VERIFY.md, protocol/ and results/ files are repeatedly invoked but no repository URL or accessible artefact identifier is given in the paper, and much evidence is offloaded outside the text.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "The no-change-beats-sampling message is driven by many tiny true changes (35/90 with |ΔH|<0.01) and pooled RMSE without a decision loss for reporting, abstaining or missing policy-relevant change, so it is easy to over-read as practical guidance.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "Clarity suffers from exhaustive hedging and exploratory accretion: abstract and results are overloaded, many appendices duplicate caveats, and Figure 1 appears truncated at the right-hand budget axis.",
+    "severity": "minor"
+   }
+  ],
+  "main_track_level": "no",
+  "overall_10": 5,
+  "research_question": {
+   "predictable": "yes",
+   "predictable_reason": "With perfectly repeatable labels from the same database and many unchanged pixels, positive paired covariance, a large revisited precision gain and zero-standard-error no-change draws are largely implied by classic successive-sampling design before running the simulation.",
+   "question": "At a fixed annual reference-label budget, how reliably can frozen satellite-embedding classifiers with model assistance identify changes in Swiss declared crop-group Shannon diversity, and does revisiting reference locations improve inference over independent annual samples?",
+   "question_quality": 3
+  },
+  "score_reasons": {
+   "clarity": "Background and caveats are explicit, but the paper is overloaded with exploratory analyses, repeated qualifications and dense tables; Figure 1 is visually truncated.",
+   "correctness": "Main conditional resampling numbers are internally coherent and unusually well caveated, but headline interval behaviour depends on a flawed original projection/gradient rule and perfectly repeatable labels.",
+   "generality": "Results are confined to Swiss declared crop groups, stable support known retrospectively, 2022-2025 transitions and convenience landscapes; the arable reversal and wide landscape resampling limit broader claims.",
+   "novelty": "The specific benchmark combination is uncommon, but successive sampling, design-based change estimation, Shannon comparison and crop-diversity monitoring are established; no new estimator or theorem is claimed.",
+   "usefulness": "Useful cautionary evidence for monitoring designers about coverage, wrong-direction reporting and no-change baselines, but limited operational value without field-error, cost, clustering or decision-loss analysis.",
+   "verifiability": "Pinned data revision, classifier settings, budgets and simulation counts are described, yet code/protocol/results are referenced as external files with no repository locator in the paper and several checks are same-session validations."
+  },
+  "scores": {
+   "clarity": 2,
+   "correctness": 4,
+   "generality": 2,
+   "novelty": 2,
+   "usefulness": 3,
+   "verifiability": 3
+  },
+  "strengths": [
+   "Preplanned primary comparison with common random draws, all budgets and prespecified grassland/arable subsets retained, and a clear separation between prespecified and exploratory analyses.",
+   "Goes beyond RMSE by reporting interval coverage, reporting frequency, conditional wrong-direction shares, per-unit coverage heterogeneity and a strict no-change point baseline.",
+   "Mechanistic diagnostics are informative: no-observed-change zero-SE draws, gradient-floor sensitivity, projection-derivative correction, coherent panels and label-error coupling scenarios qualify the headline results.",
+   "Scope checks are broad for a benchmark: finer taxonomy, full native-grid/reference-only frames, additional geography, longer contrasts and landscape-level resampling are reported rather than hidden."
+  ],
+  "summary": "A careful, highly self-critical resampling benchmark on 30 held-out Swiss landscapes finds that revisiting reference pixels greatly reduces MSE for Shannon crop-group change (ratio 0.275 at 128 labels/year) but worsens nominal interval coverage (83.4% vs 93.1%) and still leaves high conditional wrong-direction rates, while predicting no change beats most small-budget estimators because many true changes are tiny. The work is technically transparent and diagnostically rich, especially on zero-change draws, projection/gradient artefacts and label-error sensitivity, but its practical reach is narrow: truth and audit labels are the same perfectly repeatable declarations, the stable frame is supplied retrospectively, landscapes are a convenience cohort, and the central precision result is the expected classic successive-sampling effect rather than a new method. No exact duplicate was found within the range searched, but close prior work covers the main components.",
+  "verdict": "major revision",
+  "workshop_level": "borderline"
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "muse-wonder-1.0",
+  "finish_reason": "completed",
+  "web_search_queries": [
+   "SwissCrop25 national multi-year benchmark operational crop mapping Lauber",
+   "van der Velde policy relevant crop diversity monitoring earth observation farmers declarations Environmental Research Letters 2025",
+   "Massey Mandallaz design-based regression estimation net change forest inventories permanent temporary plots 2015",
+   "revisited permanent sample vs independent sample change estimation Shannon diversity crop diversity monitoring",
+   "TESSERA temporal embeddings AlphaEarth Foundations satellite embeddings crop classification frozen classifier",
+   "\"Are remote sensing-based crop type classifications suitable\" landscape heterogeneity metric data fitness purpose",
+   "Jessen 1942 statistical investigation sample survey farm facts matched samples change Patterson successive sampling",
+   "Olofsson Foody Herold Stehman Woodcock Wulder 2014 good practices estimating area assessing accuracy land change",
+   "Lu Kluger Bates Wang regression coefficient estimation remote sensing maps prediction powered inference 2024",
+   "Hutcheson 1970 method comparing Shannon diversity indices t test"
+  ],
+  "sources": [
+   "https://www.researchgate.net/scientific-contributions/Thomas-Lauber-2197963373/publications/1",
+   "https://ira.agroscope.ch/it-CH/Page/Einzelpublikation/Download?einzelpublikationId=69738",
+   "https://arxiv.org/abs/2608.09497",
+   "https://pdfs.assets.alphaxiv.org/2608.09497v1.pdf",
+   "https://arxiv.org/pdf/2608.09497v1.pdf",
+   "https://www.researchgate.net/publication/412113305_SwissCrop25_A_National_Multi-Year_Benchmark_for_Operational_Crop_Mapping",
+   "https://github.com/thomaslauber/swisscrop25",
+   "https://github.com/terrabytes-workshop/terrabytes-workshop.github.io/blob/HEAD/index.md",
+   "https://www.mendeley.com/catalogue/00ecf507-507b-3521-bd03-2397919d44fd/",
+   "https://ouci.dntb.gov.ua/en/works/98QpOXY7/",
+   "https://agritechinsights.com/index.php/2024/12/27/european-researchers-leverage-earth-observation-to-boost-crop-diversity/",
+   "https://ouci.dntb.gov.ua/en/works/9GbEDdxl/",
+   "https://ouci.dntb.gov.ua/?backlinks_to=10.1093%2Fjpe%2Frtad016&sort=issued-asc",
+   "https://ouci.dntb.gov.ua/en/works/7WAwgXwl/",
+   "https://ouci.dntb.gov.ua/en/works/7Bm2LgD9/",
+   "https://scholar.google.com.gt/citations?user=2zksxesAAAAJ&hl=en&oe=ASCII",
+   "https://scholar.google.co.th/citations?user=2zksxesAAAAJ&hl=en&oe=ASCII",
+   "https://ouci.dntb.gov.ua/works/lR0Aq8W7/",
+   "https://scholar.google.sk/citations?user=2zksxesAAAAJ&hl=en&oe=ASCII",
+   "https://scholar.google.co.il/citations?user=2zksxesAAAAJ&hl=en&oe=ASCII",
+   "https://www.semanticscholar.org/author/Alexander-Massey/72887883",
+   "https://www.grafiati.com/en/literature-selections/time-change-formula-plots/journal/",
+   "https://ouci.dntb.gov.ua/en/works/l1RLrg09/",
+   "https://WWW.mdpi.com/2072-4292/11/8/923/review_report",
+   "http://mdpi.com/2072-4292/10/7/1052/xml",
+   "https://www.mdpi.com/1999-4907/10/9/800/xml",
+   "https://www.researchgate.net/publication/266168353_Integrating_remote_sensing_and_past_inventory_data_under_the_new_annual_design_of_the_Swiss_National_Forest_Inventory_using_three-phase_design-based_regression_estimation",
+   "https://www.research-collection.ethz.ch/server/api/core/bitstreams/250411b8-d55b-4b7f-8b8c-d8427f272b49/content",
+   "https://apt.ocf.io/cran/web/packages/forestinventory/vignettes/forestinventory_vignette.pdf",
+   "https://www.mdpi.com/312092",
+   "https://www.researchgate.net/publication/250077132_Sampling_Methods_for_Estimating_Change_in_Forest_Resources",
+   "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0040729",
+   "https://digitale.cbnbl.org/documents/g8088.pdf",
+   "https://bdj.preprod.pensoft.net/article/144252/download/pdf/",
+   "http://prestige-maroc.com/pnvgez/shannon-diversity-index-greater-than-1.html",
+   "https://zenodo.org/records/15797203/files/PREPSOIL_S2_Lecture 4. Soil monitoring strategies supporting the implementation of carbon farming practices for improving soil health in the Mediterranean and Southern Europe..pdf?download=1",
+   "https://archive.org/download/shouldweestimat6demb/shouldweestimat6demb.pdf",
+   "https://epar.evans.uw.edu/sites/default/files/Evans_UW_Request_237_Tanzania_Crop_Diversity_06.12.13.pdf",
+   "https://www.researchgate.net/publication/268044904_Relative_Diversity_Indices",
+   "https://www.researchgate.net/publication/364197227_Re-inventory_of_alpine_heath_vegetation_after_three_decades",
+   "https://www.deanza.edu/faculty/heyerbruce/b6c_pdf/4a_Measuring%20Biodiversity-prelab.pdf",
+   "https://nwc-qa.parthenonsoftware.com/sites/default/files/isrp2001_4albeniplan.pdf",
+   "https://arxiv.org/pdf/2610.37021",
+   "https://arxiv.org/html/2610.37021v1",
+   "https://arxiv.org/pdf/2506.20380v7",
+   "https://arxiv.org/abs/2608.27175",
+   "https://pdfs.assets.alphaxiv.org/2506.20380v7.pdf",
+   "https://github.com/Black-Lights/alphaearth-cropland-maine",
+   "https://storage.prod.researchhub.com/uploads/papers/2025/11/18/2506.20380.pdf",
+   "https://pypi.org/project/zeit-cdts/1.0.0/",
+   "https://arxiv.org/pdf/2601.16900v1",
+   "https://openaccess.thecvf.com/content/CVPR2026/papers/Feng_TESSERA_Temporal_Embeddings_of_Surface_Spectra_for_Earth_Representation_and_CVPR_2026_paper.pdf",
+   "https://zenodo.org/records/19471727/files/1-s2.0-S157495412600066X-main.pdf",
+   "https://literatur.thuenen.de/digbib_extern/dn070924.pdf",
+   "https://www.researchgate.net/scientific-contributions/Jannes-Saeurich-2341287979",
+   "https://shs.hal.science/halshs-02438951v1/file/2018_Begue_RS.pdf",
+   "https://www.thuenen.de/en/institutes/climate-smart-agriculture/publications/peer-reviewed-scientific-paper?info=1&",
+   "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-15-02466/article_deploy/remotesensing-15-02466.pdf",
+   "https://govcomapi.mtnima.gov.mr/dpausea/77922RL/ltradej/87568R7L34/efficient-crop__type__mapping-based__on__remote-sensing_in__the.pdf",
+   "https://www.thuenen.de/en/thuenen-institute/compound-structures/thuenen-earth-observation-theo/publications",
+   "https://www.thuenen.de/en/institutes/farm-economics/staff/scientific-staff/schwieder-marcel-dr/all-publications",
+   "http://www.ijscience.org/download/IJS-11-6-79-84.pdf",
+   "https://m.easychair.org/publications/preprint/twbk/open",
+   "https://ijesm.co.in/uploads/68/15347_pdf.pdf",
+   "https://www.elixirpublishers.com/articles/1687778017_201202090.pdf",
+   "https://jsr.iasds-du.ac.bd/wp-content/uploads/45n1_3.pdf",
+   "http://jsr.isrt.ac.bd/wp-content/uploads/45n1_3.pdf",
+   "https://www.connectjournals.com/file_html_pdf/3264602H_871-876a.pdf",
+   "http://www.ijism.org/administrator/components/com_jresearch/files/publications/IJISM_947_FINAL.pdf",
+   "https://www.izmirakademi.org/iad/pdf/1600/39860/471196",
+   "https://github.com/hagc/mapaccuracy",
+   "https://core.ac.uk/download/84637113.pdf",
+   "https://rdrr.io/cran/mapaccuracy/f/README.md",
+   "https://mynixos.com/nixpkgs/package/rPackages.mapaccuracy",
+   "https://github.com/cran/mapaccuracy",
+   "https://www.rdocumentation.org/packages/mapaccuracy/versions/0.1.2",
+   "https://github.com/agcopenhaver/pymapaccuracy",
+   "https://scholar.google.ru/citations?user=K-LKyMcAAAAJ&hl=en&oe=ASCII",
+   "https://scholar.google.bg/citations?user=V2i6zmYAAAAJ&hl=en&oe=ASCII",
+   "https://scholar.google.jp/citations?user=V2i6zmYAAAAJ&hl=en&oe=ASCII",
+   "https://arxiv.org/pdf/2407.13659v7",
+   "http://arXIV.org/pdf/2407.13659",
+   "https://linproxy.fan.workers.dev:443/https/arxiv.org/pdf/2407.13659",
+   "http://arxiv.org/abs/2407.13659v5",
+   "https://arxiv.org/abs/2407.13659v6",
+   "https://arxiv.org/html/2407.13659v3",
+   "https://www.mdpi.com/2072-4292/17/2/200",
+   "https://www.mdpi.com/2220-9964/15/11/485",
+   "https://www.mdpi.com/2077-1312/14/6/533",
+   "https://www.mdpi.com/2076-3417/16/17/8357",
+   "https://www.nature.com/articles/s41598-025-30976-5.pdf",
+   "https://www.nature.com/articles/s41598-025-31346-x?error=cookies_not_supported&code=44c65638-5b00-43f0-a063-d76019a44b5c",
+   "https://sisn.pagepress.org/rio/article/download/925/858",
+   "https://jesi.areeo.ac.ir/article_133060_71f721af201f5f588c7c07e402e0e1be.pdf",
+   "https://rdrr.io/cran/EvaluateCore/man/diversity.evaluate.core.html",
+   "http://mdpi.com/1422-0067/25/21/11585/htm",
+   "http://agrijournals.ir/article_133060_2075eef0c6d4803096745b4d92fa669e.pdf",
+   "https://indianecologicalsociety.com/wp-content/themes/ecology/volume_pdfs/1696909599.pdf",
+   "https://iserd.net/ijerd111/11-1-22.pdf",
+   "https://www.thefreelibrary.com/Human+Salivary+Microbiota+Diversity+According+to+Ethnicity%2c+Sex%2c...-a0815345474",
+   "http://mdpi.com/1422-0067/25/21/11585",
+   "https://cran.r-universe.dev/ecolTest/doc/manual.html",
+   "https://rdrr.io/github/colebeeaffinis/R_package_Dede/f/vignettes/R_package_Dede_tutorial.Rmd"
+  ]
+ }
+}

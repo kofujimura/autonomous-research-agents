@@ -1,0 +1,33 @@
+{
+  "experiment_id": "E06-main-population",
+  "start_time_utc": "2026-10-26T21:18:44.163619Z",
+  "end_time_utc": "2026-10-26T21:18:46.472532Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/build_population.py",
+    "data/population-main-v1.json"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2.md",
+  "plan_commit_id": "530adff639dfeeb7f53db6f462c91f83ed4a81c1",
+  "plan_sha256": "1f34b097d01ea04e138c0fab643dd114a11aee0c16e6d89d1cca3aa948c74dde",
+  "code_commit_id": "530adff639dfeeb7f53db6f462c91f83ed4a81c1",
+  "inputs": [
+    {
+      "path": "data/taxonomy.json",
+      "sha256": "9d6eee178193abaaaefd0b2ec2810873bedf02e450129e042200d64e20ab2a5d"
+    },
+    {
+      "path": "data/feature-results.jsonl",
+      "sha256": "1f94ea89d2edd002a1a610ae2496aeb5622ed49625be965732ced7c322c19964"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E06-main-population/stdout.txt",
+  "stderr_path": "experiments/E06-main-population/stderr.txt",
+  "start_event_id": "E0248",
+  "pid": 6196,
+  "elapsed_seconds": 2.3087992079090327,
+  "end_event_id": "E0249"
+}

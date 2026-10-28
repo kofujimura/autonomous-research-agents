@@ -1,0 +1,89 @@
+{"unit_start": {"date": "20260603", "model": "aifs-ens", "lead": 180, "started_at_utc": "2026-10-25T23:06:23Z", "chunk_bytes": 65536}}
+{"member": 1, "cached": false, "observed_at_utc": "2026-10-25T23:06:36Z"}
+{"member": 2, "cached": false, "observed_at_utc": "2026-10-25T23:06:42Z"}
+{"member": 3, "cached": false, "observed_at_utc": "2026-10-25T23:06:49Z"}
+{"member": 4, "cached": false, "observed_at_utc": "2026-10-25T23:06:53Z"}
+{"member": 5, "cached": false, "observed_at_utc": "2026-10-25T23:06:58Z"}
+{"member": 6, "cached": false, "observed_at_utc": "2026-10-25T23:07:03Z"}
+{"member": 7, "cached": false, "observed_at_utc": "2026-10-25T23:07:08Z"}
+{"member": 8, "cached": false, "observed_at_utc": "2026-10-25T23:07:12Z"}
+{"member": 9, "cached": false, "observed_at_utc": "2026-10-25T23:07:17Z"}
+{"member": 10, "cached": false, "observed_at_utc": "2026-10-25T23:07:22Z"}
+{"member": 11, "cached": false, "observed_at_utc": "2026-10-25T23:07:33Z"}
+{"member": 12, "cached": false, "observed_at_utc": "2026-10-25T23:07:37Z"}
+{"member": 13, "cached": false, "observed_at_utc": "2026-10-25T23:07:42Z"}
+{"member": 14, "cached": false, "observed_at_utc": "2026-10-25T23:07:46Z"}
+{"member": 15, "cached": false, "observed_at_utc": "2026-10-25T23:07:51Z"}
+{"member": 16, "cached": false, "observed_at_utc": "2026-10-25T23:07:56Z"}
+{"member": 17, "cached": false, "observed_at_utc": "2026-10-25T23:08:00Z"}
+{"member": 18, "cached": false, "observed_at_utc": "2026-10-25T23:08:05Z"}
+{"member": 19, "cached": false, "observed_at_utc": "2026-10-25T23:08:09Z"}
+{"member": 20, "cached": false, "observed_at_utc": "2026-10-25T23:08:14Z"}
+{"member": 21, "cached": false, "observed_at_utc": "2026-10-25T23:08:20Z"}
+{"unit_end": {"date": "20260603", "model": "aifs-ens", "lead": 180, "started_at_utc": "2026-10-25T23:06:23Z", "chunk_bytes": 65536, "status": "failed", "error_type": "RuntimeError", "error": "Range failed after bounded retries, member 22", "ended_at_utc": "2026-10-25T23:08:37Z"}}
+{"unit_start": {"date": "20260607", "model": "aifs-ens", "lead": 84, "started_at_utc": "2026-10-25T23:08:37Z", "chunk_bytes": 65536}}
+{"member": 1, "cached": false, "observed_at_utc": "2026-10-25T23:08:44Z"}
+{"member": 2, "cached": false, "observed_at_utc": "2026-10-25T23:09:05Z"}
+{"member": 3, "cached": false, "observed_at_utc": "2026-10-25T23:09:26Z"}
+{"member": 4, "cached": false, "observed_at_utc": "2026-10-25T23:09:31Z"}
+{"member": 5, "cached": false, "observed_at_utc": "2026-10-25T23:09:36Z"}
+{"member": 6, "cached": false, "observed_at_utc": "2026-10-25T23:09:41Z"}
+{"member": 7, "cached": false, "observed_at_utc": "2026-10-25T23:09:47Z"}
+{"member": 8, "cached": false, "observed_at_utc": "2026-10-25T23:09:52Z"}
+{"member": 9, "cached": false, "observed_at_utc": "2026-10-25T23:09:57Z"}
+{"member": 10, "cached": false, "observed_at_utc": "2026-10-25T23:10:01Z"}
+{"member": 11, "cached": false, "observed_at_utc": "2026-10-25T23:10:06Z"}
+{"member": 12, "cached": false, "observed_at_utc": "2026-10-25T23:10:11Z"}
+{"member": 13, "cached": false, "observed_at_utc": "2026-10-25T23:10:31Z"}
+{"member": 14, "cached": false, "observed_at_utc": "2026-10-25T23:10:52Z"}
+{"member": 15, "cached": false, "observed_at_utc": "2026-10-25T23:11:01Z"}
+{"member": 16, "cached": false, "observed_at_utc": "2026-10-25T23:11:06Z"}
+{"member": 17, "cached": false, "observed_at_utc": "2026-10-25T23:11:11Z"}
+{"member": 18, "cached": false, "observed_at_utc": "2026-10-25T23:11:16Z"}
+{"member": 19, "cached": false, "observed_at_utc": "2026-10-25T23:11:20Z"}
+{"member": 20, "cached": false, "observed_at_utc": "2026-10-25T23:11:25Z"}
+{"member": 21, "cached": false, "observed_at_utc": "2026-10-25T23:11:30Z"}
+{"member": 22, "cached": false, "observed_at_utc": "2026-10-25T23:11:35Z"}
+{"member": 23, "cached": false, "observed_at_utc": "2026-10-25T23:11:40Z"}
+{"member": 24, "cached": false, "observed_at_utc": "2026-10-25T23:11:45Z"}
+{"member": 25, "cached": false, "observed_at_utc": "2026-10-25T23:12:10Z"}
+{"member": 26, "cached": false, "observed_at_utc": "2026-10-25T23:12:23Z"}
+{"member": 27, "cached": false, "observed_at_utc": "2026-10-25T23:12:33Z"}
+{"member": 28, "cached": false, "observed_at_utc": "2026-10-25T23:12:38Z"}
+{"member": 29, "cached": false, "observed_at_utc": "2026-10-25T23:12:42Z"}
+{"member": 30, "cached": false, "observed_at_utc": "2026-10-25T23:12:47Z"}
+{"member": 31, "cached": false, "observed_at_utc": "2026-10-25T23:12:52Z"}
+{"member": 32, "cached": false, "observed_at_utc": "2026-10-25T23:12:56Z"}
+{"member": 33, "cached": false, "observed_at_utc": "2026-10-25T23:13:01Z"}
+{"member": 34, "cached": false, "observed_at_utc": "2026-10-25T23:13:06Z"}
+{"member": 35, "cached": false, "observed_at_utc": "2026-10-25T23:13:10Z"}
+{"member": 36, "cached": false, "observed_at_utc": "2026-10-25T23:13:15Z"}
+{"member": 37, "cached": false, "observed_at_utc": "2026-10-25T23:13:26Z"}
+{"member": 38, "cached": false, "observed_at_utc": "2026-10-25T23:13:41Z"}
+{"member": 39, "cached": false, "observed_at_utc": "2026-10-25T23:13:46Z"}
+{"member": 40, "cached": false, "observed_at_utc": "2026-10-25T23:13:50Z"}
+{"member": 41, "cached": false, "observed_at_utc": "2026-10-25T23:13:55Z"}
+{"member": 42, "cached": false, "observed_at_utc": "2026-10-25T23:13:59Z"}
+{"member": 43, "cached": false, "observed_at_utc": "2026-10-25T23:14:04Z"}
+{"member": 44, "cached": false, "observed_at_utc": "2026-10-25T23:14:08Z"}
+{"member": 45, "cached": false, "observed_at_utc": "2026-10-25T23:14:13Z"}
+{"member": 46, "cached": false, "observed_at_utc": "2026-10-25T23:14:18Z"}
+{"member": 47, "cached": false, "observed_at_utc": "2026-10-25T23:14:22Z"}
+{"member": 48, "cached": false, "observed_at_utc": "2026-10-25T23:14:43Z"}
+{"member": 49, "cached": false, "observed_at_utc": "2026-10-25T23:15:05Z"}
+{"member": 50, "cached": false, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"completed_at_utc": "2026-10-25T23:15:10Z", "date": "20260607", "model_requested": "aifs-ens", "lead": 84, "shape": [50, 12, 12], "units": "K", "finite_values": 7200, "measurements": "data/weather/20260607/aifs-ens/84/measurements.jsonl", "selected_data_sha256": "5229f2165e03fa38346f3bb9eaac09aaa6524854db4bbe7861cae1279a2946e0", "index_sha256": "fd50c7fd8ceebb0ae86c905c7ed844eaa6b18156a1a181354f37793cc430e214"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "rows_so_far": 27, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "rows_so_far": 54, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "rows_so_far": 81, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "rows_so_far": 108, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "rows_so_far": 135, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "rows_so_far": 162, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "rows_so_far": 189, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "rows_so_far": 216, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "rows_so_far": 243, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "rows_so_far": 270, "observed_at_utc": "2026-10-25T23:15:10Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "rows_so_far": 297, "observed_at_utc": "2026-10-25T23:15:11Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "rows_so_far": 324, "observed_at_utc": "2026-10-25T23:15:11Z"}
+{"completed_at_utc": "2026-10-25T23:15:11Z", "source_path": "data/weather/20260607/aifs-ens/84/temperatures.npz", "source_sha256": "5229f2165e03fa38346f3bb9eaac09aaa6524854db4bbe7861cae1279a2946e0", "output_path": "results/units/20260607/aifs-ens/84/bounds-50.csv", "output_sha256": "dbba30a2cc432ddba48163d015689f24a7c143d98b7dd4db3959d53f4b4540cf", "date": "20260607", "model": "aifs-ens", "lead": 84, "member_count": 50, "member_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50], "rows": 324, "elapsed_seconds": 0.47573616704903543, "lp_options": {"primal_feasibility_tolerance": 1e-08, "dual_feasibility_tolerance": 1e-08, "time_limit": 15.0, "threads": 1}, "lp_count": 224, "max_primal_residual": 1.2079226507921703e-13, "max_dual_violation": 3.135269821541442e-13, "max_duality_gap": 3.000932835561798e-13}
+{"unit_end": {"date": "20260607", "model": "aifs-ens", "lead": 84, "started_at_utc": "2026-10-25T23:08:37Z", "chunk_bytes": 65536, "analysis_reused": false, "status": "completed", "source_sha256": "5229f2165e03fa38346f3bb9eaac09aaa6524854db4bbe7861cae1279a2946e0", "analysis_sha256": "dbba30a2cc432ddba48163d015689f24a7c143d98b7dd4db3959d53f4b4540cf", "ended_at_utc": "2026-10-25T23:15:11Z"}}

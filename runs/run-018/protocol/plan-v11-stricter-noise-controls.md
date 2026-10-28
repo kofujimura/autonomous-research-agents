@@ -1,0 +1,19 @@
+# Exploratory audit of permutation controls and independent scalar control
+
+Fixed after inspecting all three permutation-control estimates and the three forest-seed estimates. The observed permutation-control range includes increments comparable to or larger than the primary point estimates. **Do not call a within-stratum permutation strictly uninformative**: small region×vegetation×role strata can have fixed points, and group-level marginals are deliberately preserved. This follow-up is exploratory, retains every earlier control, and does not yield a formal permutation p-value.
+
+## Audit before interpretation
+
+From saved mappings, count fixed/changed wetland-vector assignments by representation, repetition, window and role. Report the stratum sizes and how many are singletons. Recompute train-pair cosine distances and query–candidate cosine distances from the original and permuted vectors; count features unchanged within1e-12 and features changed, by window and overall. Count query pools in which every candidate cosine is unchanged. Use the original training/pool roles and1km distances, without outcomes choosing cases. Report counts next to conclusions about the control; small-window ceilings and unchanged-input cases remain visible. These are validity diagnostics of the already planned control, not a replacement significance test.
+
+## Strict independent scalar feature
+
+For every unordered wetland pair, compute SHA-256 of `free-research-018|noise|seed|smaller_OBJECTID|larger_OBJECTID`. Take the leading53bits as an integer and divide by2^53. This supplies a deterministic pseudo-uniform scalar in[0,1), generated without water regime, embeddings, physical measurements or fitted predictions. Use seeds28018+r,29018+r and30018+r for three repetitions across rotationr. Repeated uses of a pair get the same scalar. This is an empirical negative-feature control under a cryptographic pseudorandom construction, not a proof that chance associations vanish in a finite data set.
+
+Append this **one scalar** to the original physical pair features, exactly as for each single cosine-distance augmentation. Keep the primary forest seed18018+r and all original roles/pairs/preprocessing/parameters, including max_features0.7. Fit only the noise-augmented pair learner; reuse the original hydrological pair and decoder predictions. Score all four coverage levels and fixed-query diagnostics using the same denominator rules. Report all three estimates and their range, without selecting the largest or interpreting three repetitions as a sampling distribution or p-value. This tests sensitivity to a feature-column perturbation plus finite-sample chance associations; it does not identify the exact tree-level cause.
+
+## Controlled feature-subsampling check
+
+In a separately labelled exploratory condition, repeat the hydrological pair model, each single-distance augmentation and hydrological decoder with the same primary forest seed but **max_features1.0**. All other parameters, data, pair sampling and transformations are unchanged. Repeat the three scalar-noise controls under max_features1.0 as well. This changes one specified mechanism (candidate feature subsampling) while preserving the learner family. It does not make the forest globally optimal, remove bootstrap/tie randomness or permit selecting whichever setting favours an embedding. No additional seed sweep or hyperparameter selection is planned here. Retain both max_features conditions and all outcomes.
+
+All fits use original-panel data, all4rotations, original1km separation, fixed50% coverage primary and20/80/100% secondary. Every process<=1800s, at most2concurrent, no long new work during the last research hour. No AI/API/human measurements. Original primary results stay unchanged; any conclusion relying on this follow-up is explicitly exploratory.

@@ -1,0 +1,13 @@
+# Implementation clarifications before mapping performance
+
+No mapping model has been fit at the time of this record. Scene selection follows the v1 explicit ordering of cloud percentage, distance to the seasonal midpoint and scene identifier, with a complete buffered footprint and distinct acquisition dates. The v1 prose preference for a single UTM tile does not override that ordering in the implementation: pairs can come from adjacent MGRS grid squares when both cover the window. Values are reprojected to the same native embedding grid. This is a recorded implementation deviation/clarification, not an outcome-based scene choice; no retrieved scene is replaced for its apparent classification performance.
+
+A preliminary diagnostic using the obsolete `s2:mgrs_tile` metadata key returned missing fields and incorrectly counted no mixed-grid-square pairs in tool output. The current catalog uses `mgrs:utm_zone`, `mgrs:latitude_band`, and `mgrs:grid_square`. That preliminary diagnostic is not an analysis result and will not support a paper claim. Any reported scene provenance counts must use the current keys or recorded scene IDs.
+
+Direct local retrieval of the recent boundary-aware preprint returned HTTP 403 and was stopped; full relevant sections were available through ordinary web viewing. The older point-versus-polygon training article was located, but its publisher HTML returned HTTP 429. Its abstract is sufficient to record it as a close search hit, not to cite its results as supporting evidence. No bypass of either restriction was attempted. The dissertation search hit describing size-stratified object sampling also remains search-only for its relevant methods passage. These limits qualify the prior-work search; they do not support a claim that the generic sampling idea is new.
+
+Seed-stream cross-reference added 2026-10-27T11:51:02.213122Z: v1 base seeds1729/2718 are implemented per project by adding its USFWS OBJECTID. This derivation was recorded in the fixed selection code (6001a6f) and original core-selection.json before mapping outcomes. No site or role was changed in this clarification.
+
+## Review-017-1 provenance clarification
+
+E61–E67 record v9 as the process-run plan pointer, although the cumulative verification covers all retained v1–v10 conditions, including the v10 reference-alignment stress. Their run.json pointers are preserved as originally recorded; this paragraph adds the missing cross-reference and does not assert a different launch record. The final verification under v11 likewise verifies cumulative v1–v11. Source IDs in claims are data-provenance references; empirical evidence is in evidence_paths/experiment_ids, not those access/metadata pages. Revised claims state that meaning explicitly.

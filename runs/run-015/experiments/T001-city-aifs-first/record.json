@@ -1,0 +1,33 @@
+{
+  "experiment_id": "T001-city-aifs-first",
+  "started_at_utc": "2026-10-26T01:32:28Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/city_time_pipeline.py",
+    "--date",
+    "20260603",
+    "--model",
+    "aifs-ens",
+    "--horizon",
+    "3",
+    "--chunk-bytes",
+    "1048576",
+    "--log",
+    "experiments/T001-city-aifs-first/units.jsonl"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2.3-message-range.md",
+  "plan_commit_id": "36c3dbd488867104bfda9e6fc2517d5390bec776",
+  "code_commit_id": "d28405e907f52203a0570a5a8ebe75cb3d7b2eba",
+  "input_sha256": {
+    "protocol/design-v4.json": "b32b2be5bab4474dfdd67c7d925eb44ad5c1b59b4148314dce11624685b68d24",
+    "protocol/plan-v4.1-city-source.md": "f3685b53bd6f195ddb1a070b6951b6ef860d30d9204c371c1ada7dc3debd3789"
+  },
+  "status": "completed",
+  "start_event_id": "E0197",
+  "child_pid": 52658,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T01:46:59Z",
+  "elapsed_seconds": 870.957726374967,
+  "end_event_id": "E0217"
+}

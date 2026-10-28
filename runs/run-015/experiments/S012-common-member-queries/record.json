@@ -1,0 +1,26 @@
+{
+  "experiment_id": "S012-common-member-queries",
+  "started_at_utc": "2026-10-26T05:43:16Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/common_member_queries.py",
+    "--cases",
+    "results/sensitivity/member-cases.csv",
+    "--output",
+    "results/common-members"
+  ],
+  "timeout_seconds": 300,
+  "plan_path": "protocol/plan-v9-common-member-queries.md",
+  "plan_commit_id": "b155acbcdd5ff4c7f2db91365261b097452e54cc",
+  "code_commit_id": "b155acbcdd5ff4c7f2db91365261b097452e54cc",
+  "input_sha256": {
+    "results/sensitivity/member-cases.csv": "0ddf06900350afb8239497edfe1333f411b3369581207bd7188e888ed3794d3c"
+  },
+  "status": "completed",
+  "start_event_id": "E0406",
+  "child_pid": 61781,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T05:43:17Z",
+  "elapsed_seconds": 0.9447636671829969,
+  "end_event_id": "E0407"
+}

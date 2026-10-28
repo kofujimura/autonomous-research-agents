@@ -1,0 +1,5 @@
+{
+  "first_tool_time_after_resume_utc": "2026-10-26T11:10:35Z",
+  "last_tool_time_before_stop_utc": "2026-10-26T10:12:02Z",
+  "confirmation": "Human message: Resuming after a stop caused by the AI usage limit."
+}

@@ -1,0 +1,16 @@
+analysis/polygon/B-hgb-summary,hydro_decoder,0.3773419000894665,0.37745372966909702
+analysis/polygon/B-hgb-summary,hydro_pair,0.38527258351526811,0.35109366236679751
+analysis/polygon/B-hgb-summary,pair_aef,0.37750441898582987,0.33314638250140211
+analysis/polygon/B-hgb-summary,pair_tessera,0.36700521404604669,0.31575995513180033
+analysis/polygon/B-rf-summary,hydro_decoder,0.41504104672144421,0.37857543466068422
+analysis/polygon/B-rf-summary,hydro_pair,0.38648924221170139,0.35165451486259114
+analysis/polygon/B-rf-summary,pair_aef,0.36227178325459913,0.34492428491306787
+analysis/polygon/B-rf-summary,pair_tessera,0.35319564135973702,0.31856421761076836
+analysis/polygon/C-hgb-summary,hydro_decoder,0.38245897672380469,0.35782389231632084
+analysis/polygon/C-hgb-summary,hydro_pair,0.35707051383506244,0.34324172742568704
+analysis/polygon/C-hgb-summary,pair_aef,0.38888756950666764,0.34548513740886144
+analysis/polygon/C-hgb-summary,pair_tessera,0.35912514230843096,0.31239484015703872
+analysis/polygon/C-rf-summary,hydro_decoder,0.33856011287153281,0.30005608524957939
+analysis/polygon/C-rf-summary,hydro_pair,0.38712508914190863,0.33034212002243413
+analysis/polygon/C-rf-summary,pair_aef,0.38518462207435333,0.32192933258553003
+analysis/polygon/C-rf-summary,pair_tessera,0.35597718780896731,0.29276500280426249

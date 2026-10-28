@@ -1,0 +1,23 @@
+{
+  "experiment_id": "E60",
+  "started_at_utc": "2026-10-27T10:10:23.169288Z",
+  "command": [
+    ".venv/bin/python",
+    "code/alignment_stress.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v10.md",
+  "plan_commit_id": "7e2f32325134e2dab482ba1d9ee0f9da8cd09ded",
+  "code_commit_id": "7e2f32325134e2dab482ba1d9ee0f9da8cd09ded",
+  "input_sha256": {
+    "data/derived/dataset-manifest.json": "c9311f6ab9444345c7ffbbfa98f9896e6f35b06f896d1b4d2954fa35d2bded35"
+  },
+  "start_event_id": "E0294",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 61468,
+  "ended_at_utc": "2026-10-27T10:10:27.691943Z",
+  "elapsed_seconds": 4.52248345897533,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0295"
+}

@@ -1,0 +1,30 @@
+{
+  "experiment_id": "D002-identification-remaining",
+  "started_at_utc": "2026-10-26T05:39:38Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/identification_diagnostics.py",
+    "--cases",
+    "results/primary/cases.csv",
+    "--start",
+    "5",
+    "--count",
+    "110",
+    "--output",
+    "results/identification"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6-identification.md",
+  "plan_commit_id": "",
+  "code_commit_id": "8e06f58f8d0b8349fc2373912a538334433ffb9f",
+  "input_sha256": {
+    "results/primary/cases.csv": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d"
+  },
+  "status": "failed",
+  "start_event_id": "E0382",
+  "child_pid": 61435,
+  "exit_code": 1,
+  "ended_at_utc": "2026-10-26T05:39:41Z",
+  "elapsed_seconds": 2.7500814581289887,
+  "end_event_id": "E0383"
+}

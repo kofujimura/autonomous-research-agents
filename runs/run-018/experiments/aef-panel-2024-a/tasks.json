@@ -1,0 +1,22 @@
+[
+  {
+    "region": "R02",
+    "product": "aef",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:53:13.040061+00:00",
+    "end_time_utc": "2026-10-27T16:01:48.187870+00:00",
+    "elapsed_seconds": 515.1531406249851,
+    "error": null,
+    "input_selected_sha256": "7a5b2872eb6bc03634c09fcb8c771b477c2f426ff4a56608110b32f890409268"
+  },
+  {
+    "region": "R03",
+    "product": "aef",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:01:48.193218+00:00",
+    "end_time_utc": "2026-10-27T16:16:32.454180+00:00",
+    "elapsed_seconds": 884.2512964999769,
+    "error": null,
+    "input_selected_sha256": "fd978ed7e0d844d2018666e506d0cad876aba442e26517360d258636aab801c1"
+  }
+]

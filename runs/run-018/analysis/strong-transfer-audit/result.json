@@ -1,0 +1,103 @@
+{
+  "audited_at_utc": "2026-10-28T04:39:37.598123+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "condition": "rf-all-benchmark",
+      "shared_query_pool_structure": true,
+      "queries": 3637
+    },
+    {
+      "condition": "hgb-raw",
+      "shared_query_pool_structure": true,
+      "queries": 3637
+    },
+    {
+      "condition": "hgb-white",
+      "shared_query_pool_structure": true,
+      "queries": 3637
+    },
+    {
+      "method": "hydro_pair",
+      "hgb_physical_raw_white_equal": true
+    },
+    {
+      "method": "hydro_decoder",
+      "hgb_physical_raw_white_equal": true
+    },
+    {
+      "method": "pair_aef",
+      "copied_half_coverage_decisions_equal": true,
+      "n": 1804
+    },
+    {
+      "method": "pair_tessera",
+      "copied_half_coverage_decisions_equal": true,
+      "n": 1804
+    }
+  ],
+  "whitening_query_checks": 7274,
+  "input_sha256": {
+    "analysis/transfer-strong-combined/rf-all-benchmark/r0/predictions.csv": "273e10d66169ec29de9d60a91816ec2b6d635528b34c774d191dfe35ad9115f3",
+    "analysis/transfer-strong-combined/rf-all-benchmark/r0/pools.csv": "51cd529115b0ca1b4204670e0e4b904dd06ce26cf8b5535fa377ac3d337db70e",
+    "analysis/transfer-strong-combined/rf-all-benchmark/r1/predictions.csv": "27c71dfe7e44ec975681c46b0da8e9c22c4b84938c483ca7ceee8b91676e1f18",
+    "analysis/transfer-strong-combined/rf-all-benchmark/r1/pools.csv": "7f80e2d8fa7b20ac2f5cc02a4d9978cdf48a7ada253a7f761d6c843372a8ced7",
+    "analysis/transfer-strong-combined/rf-all-benchmark/r2/predictions.csv": "6f727ba0fae322166f47f3ab1be7346e8031bf0ad672f2c91b586926e72c1766",
+    "analysis/transfer-strong-combined/rf-all-benchmark/r2/pools.csv": "b0f623b22cc44e6ef7f647bf43d384aa51ab709b393f8c2230a8eb92db256f12",
+    "analysis/transfer-strong-combined/rf-all-benchmark/r3/predictions.csv": "678701441e2f7b730742989fdf267b471e26dba91ee6ad67b276a5d2291ca06c",
+    "analysis/transfer-strong-combined/rf-all-benchmark/r3/pools.csv": "69af48125ff31fa9e3b9b2316ec7663dc5129052b57a3632e00e53e65b4c6253",
+    "analysis/transfer-strong-combined/hgb-raw/r0/predictions.csv": "c8b4ddaf61bf1c77feb0741d80ab4a5b24cc468c6b94c973af1e06daafb5c239",
+    "analysis/transfer-strong-combined/hgb-raw/r0/pools.csv": "51cd529115b0ca1b4204670e0e4b904dd06ce26cf8b5535fa377ac3d337db70e",
+    "analysis/transfer-strong-combined/hgb-raw/r1/predictions.csv": "a05ece07aeffa89b866acaa9641d30dafde4c4129ffc1373f8968942174f9bb0",
+    "analysis/transfer-strong-combined/hgb-raw/r1/pools.csv": "7f80e2d8fa7b20ac2f5cc02a4d9978cdf48a7ada253a7f761d6c843372a8ced7",
+    "analysis/transfer-strong-combined/hgb-raw/r2/predictions.csv": "2ed647f74fce9b8264f4f92d42967fa58c75d898681b3bea81b31cf57e1fd136",
+    "analysis/transfer-strong-combined/hgb-raw/r2/pools.csv": "b0f623b22cc44e6ef7f647bf43d384aa51ab709b393f8c2230a8eb92db256f12",
+    "analysis/transfer-strong-combined/hgb-raw/r3/predictions.csv": "343bb374f47a632b4125db42025984ed422d3d29bac832d2cb650174fc25351b",
+    "analysis/transfer-strong-combined/hgb-raw/r3/pools.csv": "69af48125ff31fa9e3b9b2316ec7663dc5129052b57a3632e00e53e65b4c6253",
+    "analysis/transfer-strong-combined/hgb-white/r0/predictions.csv": "3242f33bf7ec747cbbfcd96ed4ab28ffcac42e0e3fcc6b0d4e62cb95afd83b54",
+    "analysis/transfer-strong-combined/hgb-white/r0/pools.csv": "51cd529115b0ca1b4204670e0e4b904dd06ce26cf8b5535fa377ac3d337db70e",
+    "analysis/transfer-strong-combined/hgb-white/r1/predictions.csv": "db9dea7ba2c6ac947d4fe2997d125c3ec44ae9910e7e3f458ba750b96878df38",
+    "analysis/transfer-strong-combined/hgb-white/r1/pools.csv": "7f80e2d8fa7b20ac2f5cc02a4d9978cdf48a7ada253a7f761d6c843372a8ced7",
+    "analysis/transfer-strong-combined/hgb-white/r2/predictions.csv": "fddb5b8bedf755aa10098a29856f64d104d1239d7067a0e1bb6fab08418c1698",
+    "analysis/transfer-strong-combined/hgb-white/r2/pools.csv": "b0f623b22cc44e6ef7f647bf43d384aa51ab709b393f8c2230a8eb92db256f12",
+    "analysis/transfer-strong-combined/hgb-white/r3/predictions.csv": "e3f6a394c4e0e9b71dc5b2f8bb0776abe9da348a864f784205dcded7bbf5cbae",
+    "analysis/transfer-strong-combined/hgb-white/r3/pools.csv": "69af48125ff31fa9e3b9b2316ec7663dc5129052b57a3632e00e53e65b4c6253",
+    "analysis/transfer-strong/metadata/R01/record.json": "13452767cbe9d129ff20d4eca632b4bcd064aa82e139c64aec7c863dafed5fad",
+    "analysis/transfer-strong/metadata/R01/whitening-equivalence.csv": "5441712884b838c778afb2af0117abc734390f351dbd141b0f417f613e3d6fc9",
+    "analysis/transfer-strong/metadata/R01/vectors.npz": "04ae4dbda9b7a9f913d76ea236c0899e08fb706343077e15e0eb8652db5d38c9",
+    "analysis/transfer-strong/metadata/R02/record.json": "f922bcbb5943669f895c371fbccf6f660ffab8467f3cf5e20eecced4dd900db6",
+    "analysis/transfer-strong/metadata/R02/whitening-equivalence.csv": "419fbb46790120fba9c43e82d8aad84db50458c6919728d7ea316c46e6c97ba3",
+    "analysis/transfer-strong/metadata/R02/vectors.npz": "94f0461a177b4f59c0803890bf6f11d05116c381bbb4bd694b26398fadead99a",
+    "analysis/transfer-strong/metadata/R03/record.json": "3bc0944fb2e34cc4b2c67d8053ad47ea61048540c77cc3eeddd2e7a754b7a76e",
+    "analysis/transfer-strong/metadata/R03/whitening-equivalence.csv": "f7645e6e9e027affadf184872d5c4b7764d8464564d9aba828abb9392b96fb85",
+    "analysis/transfer-strong/metadata/R03/vectors.npz": "35665ef93619075d7522038c9d67442f27ed9cb7a1fcbb3e489b508d4dda538b",
+    "analysis/transfer-strong/metadata/R04/record.json": "d8574f55ca9e7d129ed04655bc164136878b574f5e57f8bfb367faa4b51b7e4c",
+    "analysis/transfer-strong/metadata/R04/whitening-equivalence.csv": "5b23d45a7dda47cf9ea8e24869b2c24d1216e05859cb45d0b22928c699a1b37d",
+    "analysis/transfer-strong/metadata/R04/vectors.npz": "62b11178ebe32c0c2b8994b65bdf56e90038d9821338cf3e93cbd932298035d7",
+    "analysis/transfer-strong/metadata/R05/record.json": "4cd7d24a951acde3a3de29b12ed062ba5ca6c674c2c1df64950d64292f93a737",
+    "analysis/transfer-strong/metadata/R05/whitening-equivalence.csv": "3b477493ae081c76e9be5b56daead6d964741a58318aa924271d1d4ffa1dc4fd",
+    "analysis/transfer-strong/metadata/R05/vectors.npz": "6aad2d54097b0e1952c86cc9ed70b06878fdcd5fd3048edfd4fd8f0059dd18f3",
+    "analysis/transfer-strong/metadata/R06/record.json": "56c2fd8ac91727d10887d894516ce554da998df705263d994273f74a0e457d12",
+    "analysis/transfer-strong/metadata/R06/whitening-equivalence.csv": "2e15f8b8d7bc9fd2e99d4e3cc451e28b121ba786f81d90cf090e34ecaf77c7a9",
+    "analysis/transfer-strong/metadata/R06/vectors.npz": "dc7e6a9065db5873e9bfc2c548e0203c9495d380474060f9d3d6e2203a2c8539",
+    "analysis/transfer-strong/metadata/R07/record.json": "5a51ba86591e1415d6251d289b5dbd0b7cc70b8dc48672a8ee9a4165e7b89323",
+    "analysis/transfer-strong/metadata/R07/whitening-equivalence.csv": "8fb150951485dbee714900c4ab3d8cb9d23b177d8742fc05c6243f2a984f3abd",
+    "analysis/transfer-strong/metadata/R07/vectors.npz": "bac65711fe93b1a19670c54fa48d792a9c0afbc1b191bdb7c83057f3de7faae9",
+    "analysis/transfer-strong/metadata/R08/record.json": "d21710392586e5cb192a05d6e406eb31bfb73b8cd72926933707d71deb5e0ee1",
+    "analysis/transfer-strong/metadata/R08/whitening-equivalence.csv": "6afed8ecddac4b2062df4a28f5a5f56cde6ce78472b654321af646a788ffe933",
+    "analysis/transfer-strong/metadata/R08/vectors.npz": "6bc2d8d307992c8790804bbef983d6abb9ad662568e7375256e763ec5173e34e",
+    "analysis/transfer-strong/metadata/R09/record.json": "a6b7b031047283e2a7ae74d9f5e8071c8eff3f23f552c4dc4d13045ff0952b05",
+    "analysis/transfer-strong/metadata/R09/whitening-equivalence.csv": "79a0420e2a15341a092567cf6797a79431fe6c8ae61c832c714461962bf91d5c",
+    "analysis/transfer-strong/metadata/R09/vectors.npz": "32e784a5dde0974a1a891b8114f8b3b317a0f42b06909d666cc1cf2c09668872",
+    "analysis/transfer-strong/metadata/R10/record.json": "8ae10eb587205898bff96617fecc325b014bd6cb4ea0c6f3ab383e243183c52a",
+    "analysis/transfer-strong/metadata/R10/whitening-equivalence.csv": "f47e95a74dadf11201895db96275d8dca428480f16542e3b428ef2b6f98ed6ea",
+    "analysis/transfer-strong/metadata/R10/vectors.npz": "6380b6bfc9e62a5242f908e59ae4eb488ea184e1a74762e132b26001c6df38a8",
+    "analysis/transfer-strong/metadata/R11/record.json": "650303292e2b6e97553d29e971f2d06dc5859bfb98c5c4b9f75e522f7846dcd2",
+    "analysis/transfer-strong/metadata/R11/whitening-equivalence.csv": "c096a28f6ae01daa7a096cd8753d2d9fdfbd99c045f7f6fb894973af14eefed3",
+    "analysis/transfer-strong/metadata/R11/vectors.npz": "c3daec389e5b8209527764325dcbdad89adaf3e7d574c2c3bd2e23326346b886",
+    "analysis/transfer-strong/metadata/R12/record.json": "b6f3e81b494027e80eca2354e64d7900bac20b1fb88a30536ea4432a7f8d7daa",
+    "analysis/transfer-strong/metadata/R12/whitening-equivalence.csv": "f729c9b183caa1f7f315ffb2eb9ec6b0e2c41798399c10c334064cd392042bb4",
+    "analysis/transfer-strong/metadata/R12/vectors.npz": "203a88c88b888f8ec8f30fb681457cc061421e81d3637028bc45287cd495ec39"
+  },
+  "scope": "Author consistency checks of exploratory transfer comparisons; no field validation or independent reproduction"
+}

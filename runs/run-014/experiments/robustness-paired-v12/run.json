@@ -1,0 +1,34 @@
+{
+  "experiment_id": "robustness-paired-v12",
+  "start_at_utc": "2026-10-25T14:14:32Z",
+  "end_at_utc": "2026-10-25T14:15:53Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/robustness.py",
+    "--baseline",
+    "analysis/main-v1",
+    "--output",
+    "analysis/robustness-paired-v12"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v12.md",
+  "plan_commit_id": "8bfef374633c94f4f7f92b3757829808556436de",
+  "additional_plan_commits": {
+    "protocol/plan-v2.md": "f71e51997970dd673782c69a7e45c54bd3245e82"
+  },
+  "code_commit_id": "2ca4318f5411bbce7c43e6ddec8e05e33afcf1f8",
+  "input_sha256": {
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+    "data/prepared/references.csv": "8d2161765a97982d362e57c7d9e4b1b41b51f9a9602f124e33474adee915e180",
+    "data/controls/controls.csv": "a045930a0d18e6bb2a3ee70ce7e23870e7818fe6808e64bf16cb819c4657a4d2",
+    "data/aef-evaluation.zip": "87a4f1ab0907420aa76804a83dddba50930b347456dea355ed05c2521b980c5e"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0345",
+  "pid": 24105,
+  "elapsed_seconds": 80.27298508398235,
+  "end_event_id": "E0346"
+}

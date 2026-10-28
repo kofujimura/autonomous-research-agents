@@ -1,0 +1,218 @@
+[
+  {
+    "stage": "route_recovery",
+    "start_at_utc": "2026-10-25T19:28:36Z",
+    "end_at_utc": "2026-10-25T19:28:36Z",
+    "elapsed_seconds": 0.007109750062227249
+  },
+  {
+    "stage": "prepare_lcmap",
+    "start_at_utc": "2026-10-25T19:28:39Z",
+    "end_at_utc": "2026-10-25T19:28:39Z",
+    "elapsed_seconds": 0.15503229200839996
+  },
+  {
+    "stage": "prepare_controls",
+    "start_at_utc": "2026-10-25T19:28:39Z",
+    "end_at_utc": "2026-10-25T19:28:39Z",
+    "elapsed_seconds": 0.021090999944135547
+  },
+  {
+    "stage": "cohort_history_feasibility",
+    "start_at_utc": "2026-10-25T19:28:39Z",
+    "end_at_utc": "2026-10-25T19:28:40Z",
+    "elapsed_seconds": 0.8963353750295937
+  },
+  {
+    "stage": "prepare_nlcd",
+    "start_at_utc": "2026-10-25T19:28:40Z",
+    "end_at_utc": "2026-10-25T19:28:45Z",
+    "elapsed_seconds": 5.444972208002582
+  },
+  {
+    "stage": "prepare_native_sample",
+    "start_at_utc": "2026-10-25T19:28:46Z",
+    "end_at_utc": "2026-10-25T19:28:46Z",
+    "elapsed_seconds": 0.00773399998433888
+  },
+  {
+    "stage": "prepare_native_pairs",
+    "start_at_utc": "2026-10-25T19:28:46Z",
+    "end_at_utc": "2026-10-25T19:28:46Z",
+    "elapsed_seconds": 0.008693207986652851
+  },
+  {
+    "stage": "prepare_saved_native_dates",
+    "start_at_utc": "2026-10-25T19:28:46Z",
+    "end_at_utc": "2026-10-25T19:28:46Z",
+    "elapsed_seconds": 0.018243375001475215
+  },
+  {
+    "stage": "aef_closed_v11",
+    "start_at_utc": "2026-10-25T19:28:46Z",
+    "end_at_utc": "2026-10-25T19:29:08Z",
+    "elapsed_seconds": 22.09754554112442
+  },
+  {
+    "stage": "robustness_aef_v12",
+    "start_at_utc": "2026-10-25T19:29:08Z",
+    "end_at_utc": "2026-10-25T19:29:45Z",
+    "elapsed_seconds": 36.921938333893195
+  },
+  {
+    "stage": "main_v1",
+    "start_at_utc": "2026-10-25T19:29:45Z",
+    "end_at_utc": "2026-10-25T19:31:14Z",
+    "elapsed_seconds": 89.81587254186161
+  },
+  {
+    "stage": "partition_sensitivity_v24",
+    "start_at_utc": "2026-10-25T19:31:14Z",
+    "end_at_utc": "2026-10-25T19:36:56Z",
+    "elapsed_seconds": 341.69731554202735
+  },
+  {
+    "stage": "endpoint_v13",
+    "start_at_utc": "2026-10-25T19:36:56Z",
+    "end_at_utc": "2026-10-25T19:37:51Z",
+    "elapsed_seconds": 54.755770333111286
+  },
+  {
+    "stage": "reference_completeness_v14",
+    "start_at_utc": "2026-10-25T19:37:51Z",
+    "end_at_utc": "2026-10-25T19:38:25Z",
+    "elapsed_seconds": 34.27797054219991
+  },
+  {
+    "stage": "secondary_v2",
+    "start_at_utc": "2026-10-25T19:38:25Z",
+    "end_at_utc": "2026-10-25T19:38:28Z",
+    "elapsed_seconds": 2.8546568751335144
+  },
+  {
+    "stage": "robustness_paired_v12",
+    "start_at_utc": "2026-10-25T19:38:28Z",
+    "end_at_utc": "2026-10-25T19:39:47Z",
+    "elapsed_seconds": 78.71560858399607
+  },
+  {
+    "stage": "initial_lcmap_v17",
+    "start_at_utc": "2026-10-25T19:39:47Z",
+    "end_at_utc": "2026-10-25T19:40:13Z",
+    "elapsed_seconds": 26.08249891595915
+  },
+  {
+    "stage": "geography_lcmap_v18",
+    "start_at_utc": "2026-10-25T19:40:13Z",
+    "end_at_utc": "2026-10-25T19:40:15Z",
+    "elapsed_seconds": 2.0297365840524435
+  },
+  {
+    "stage": "class_lcmap_v19",
+    "start_at_utc": "2026-10-25T19:40:15Z",
+    "end_at_utc": "2026-10-25T19:40:17Z",
+    "elapsed_seconds": 1.76709962496534
+  },
+  {
+    "stage": "reference_access_lcmap_v20",
+    "start_at_utc": "2026-10-25T19:40:17Z",
+    "end_at_utc": "2026-10-25T19:40:52Z",
+    "elapsed_seconds": 35.43168366700411
+  },
+  {
+    "stage": "direct_inputs_lcmap_v23",
+    "start_at_utc": "2026-10-25T19:40:52Z",
+    "end_at_utc": "2026-10-25T19:41:04Z",
+    "elapsed_seconds": 11.11876712483354
+  },
+  {
+    "stage": "main_figures",
+    "start_at_utc": "2026-10-25T19:41:04Z",
+    "end_at_utc": "2026-10-25T19:41:04Z",
+    "elapsed_seconds": 0.6179894160013646
+  },
+  {
+    "stage": "diagnostic_figures",
+    "start_at_utc": "2026-10-25T19:41:04Z",
+    "end_at_utc": "2026-10-25T19:41:05Z",
+    "elapsed_seconds": 0.5652734590694308
+  },
+  {
+    "stage": "nlcd_v4",
+    "start_at_utc": "2026-10-25T19:41:05Z",
+    "end_at_utc": "2026-10-25T19:41:44Z",
+    "elapsed_seconds": 38.843675666023046
+  },
+  {
+    "stage": "initial_nlcd_v17",
+    "start_at_utc": "2026-10-25T19:41:44Z",
+    "end_at_utc": "2026-10-25T19:42:06Z",
+    "elapsed_seconds": 21.935625417158008
+  },
+  {
+    "stage": "geography_nlcd_v18",
+    "start_at_utc": "2026-10-25T19:42:06Z",
+    "end_at_utc": "2026-10-25T19:42:08Z",
+    "elapsed_seconds": 2.1325857921037823
+  },
+  {
+    "stage": "class_nlcd_v19",
+    "start_at_utc": "2026-10-25T19:42:08Z",
+    "end_at_utc": "2026-10-25T19:42:14Z",
+    "elapsed_seconds": 5.8520067918580025
+  },
+  {
+    "stage": "reference_access_nlcd_v20",
+    "start_at_utc": "2026-10-25T19:42:14Z",
+    "end_at_utc": "2026-10-25T19:42:54Z",
+    "elapsed_seconds": 40.32852204097435
+  },
+  {
+    "stage": "direct_inputs_nlcd_v23",
+    "start_at_utc": "2026-10-25T19:42:54Z",
+    "end_at_utc": "2026-10-25T19:43:07Z",
+    "elapsed_seconds": 12.791026707971469
+  },
+  {
+    "stage": "direct_input_figures",
+    "start_at_utc": "2026-10-25T19:43:07Z",
+    "end_at_utc": "2026-10-25T19:43:07Z",
+    "elapsed_seconds": 0.4904837079811841
+  },
+  {
+    "stage": "native_v5",
+    "start_at_utc": "2026-10-25T19:43:07Z",
+    "end_at_utc": "2026-10-25T19:43:07Z",
+    "elapsed_seconds": 0.07504116697236896
+  },
+  {
+    "stage": "unfinished_native_pairs_v21",
+    "start_at_utc": "2026-10-25T19:43:07Z",
+    "end_at_utc": "2026-10-25T19:43:23Z",
+    "elapsed_seconds": 15.294739667093381
+  },
+  {
+    "stage": "native_single_date_v22",
+    "start_at_utc": "2026-10-25T19:43:23Z",
+    "end_at_utc": "2026-10-25T19:43:38Z",
+    "elapsed_seconds": 15.316280583152547
+  },
+  {
+    "stage": "native_identity_v22",
+    "start_at_utc": "2026-10-25T19:43:38Z",
+    "end_at_utc": "2026-10-25T19:43:38Z",
+    "elapsed_seconds": 0.021588625153526664
+  },
+  {
+    "stage": "display_tables",
+    "start_at_utc": "2026-10-25T19:43:38Z",
+    "end_at_utc": "2026-10-25T19:43:38Z",
+    "elapsed_seconds": 0.016399499960243702
+  },
+  {
+    "stage": "saved_flag_audit",
+    "start_at_utc": "2026-10-25T19:43:38Z",
+    "end_at_utc": "2026-10-25T19:43:39Z",
+    "elapsed_seconds": 0.6513779580127448
+  }
+]

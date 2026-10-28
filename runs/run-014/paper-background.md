@@ -1,0 +1,41 @@
+# Working background and methods text — results not yet analysed
+
+## Introduction
+
+Ecological restoration monitoring asks whether an ecosystem is recovering toward an appropriate reference condition. Practitioners need measurements that can distinguish progress from natural variation and can guide where more detailed assessment is needed. The Society for Ecological Restoration's international standards describe reference ecosystems as models of the condition being sought and require measurable indicators of recovery across ecological attributes, rather than vegetation cover alone (Gann et al., 2019, Principles 3 and 5). Satellite observations offer spatial coverage for screening, while field measurements remain necessary for attributes that imagery does not establish. In a remote-sensing study of land restoration, Meroni et al. (2017) used before–after control-impact comparisons to account for environmental variation and evaluated vegetation greenness as a specified proxy. A changing signal at a restoration site, by itself, does not identify the cause of change or establish recovery.
+
+Annual embeddings from geospatial foundation models create another possible measurement. AlphaEarth Foundations and TESSERA publish compact vectors summarizing satellite observations at approximately ten-metre resolution (Brown et al., 2025; Feng et al., 2026). Heiman (2026) proposes assessing restoration trajectories through cosine similarity between a site's embedding and reference secondary-forest embeddings. This makes the choice of reference operationally important: a fixed calendar-year reference, a reference updated each year, and a score centred on contemporaneous controls need not yield the same changes. However, a correction that makes a trajectory smoother can also remove genuine change. Its usefulness needs an endpoint outside the similarity score itself.
+
+We test one observable component of this measurement problem using human-interpreted changes in dominant tree cover. This endpoint is narrower than restoration success. It does not measure native species, ecosystem function, biomass, tree health or the effect of an intervention. The USGS LCMAP definition even permits standing dead trees within its Trees class. The question is whether reference and control rules produce transferable screening flags for this explicitly limited endpoint when thresholds fixed on earlier data are applied to later years and regions absent from fitting. Researchers considering proximity-to-reference measurements can use this test to judge this readout's cover-screening validity. Success would not establish ecological recovery, and failure would not rule out useful sensitivity to unmeasured changes within a cover class.
+
+## Prior work and scope of the difference
+
+Reference ecosystems and before–after control-impact adjustment are established ideas, not innovations of this study. Meroni et al. (2017) emphasize that controls should resemble initial cover and share environmental variation with the intervention. A continental pool of baseline tree-cover plots is therefore a deliberately limited control rule, not an implementation of their complete causal design. We include nearest-available controls and a separate baseline non-tree control pool as boundary checks.
+
+The original AlphaEarth evaluation includes land-cover classification and binary change detection on LCMAP. Its released change benchmark contains one adjacent-year pair per plot; changes are derived from the primary cover classes. Our analysis reuses the published pairs with a different temporal and spatial split, cover-specific screening tasks and threshold-transfer evaluation. These labels are external to the similarity readout, but they were already used in the embedding model's published evaluation. This reuse must not be presented as an entirely new, independent test of model development.
+
+Heiman (2026, sections 2–4) uses reference secondary-forest similarity, global and nearest-reference comparisons, and spatial prediction tasks on restoration polygons. We do not reproduce those polygons or their ecological interpretation. Instead we ask whether related scalar changes discriminate independently supplied before/after cover classes after thresholds are transferred. Ball et al. (2026, sections 2.9 and 3.5) already demonstrate that tree-species classifiers on both AlphaEarth and TESSERA can lose performance when applied to a different year. Thus annual variation, nonlinear readouts and temporal-transfer concerns are known. The contribution sought here is a controlled comparison of specified reference/control readouts at a transferred operating point, including corrections that fail, across two representations. The literature search has not established that no previous study asks the same question.
+
+## Methods overview
+
+The fixed protocol and additive amendments are preserved under protocol/. Targets use the Trees, Grass/forb/herb and Shrubs classes from the public-domain LCMAP component of the released AlphaEarth evaluation archive. A baseline-only cohort of unchanged Trees plots in the first adjacent-year pair is reserved for reference centroids and independent controls; no subsequent stability label is used. Tree gain is conditional on initially non-tree cover, and tree loss on initially Trees. All eligible tree transitions and later unchanged Trees pairs are retained, with deterministic capped samples of non-tree negatives. These are enriched benchmark samples, not national prevalence estimates.
+
+Five geographic regions are created from coordinates alone. For each region, methods are fitted and thresholds calibrated using only earlier pairs outside that region, then evaluated on later pairs inside it. A geographic-cell split separates supervised fitting from threshold calibration. Each readout's threshold is the higher-interpolated ninetieth percentile of earlier negative calibration scores, with strict greater-than flags. This gives a calibration false-positive rate no greater than the nominal ten percent; it does not guarantee the same rate after transfer.
+
+We compare start-year, end-year and pooled fixed reference vectors; concurrent references; independent tree-control centring; and standardized concurrent scores. Unit-normalized vectors are used after AlphaEarth's required dequantization. Global references are primary, with nearest available references as a geographic boundary check. A random forest predicting each year's cover state and a direct gradient-boosted change classifier provide supervised benchmarks using the same earlier fitting labels and separate threshold calibration. No test-based tuning or method selection is performed.
+
+Sensitivity and false-positive rate are reported together. Their difference, Youden's J, summarizes the operating point without assigning a social cost to either error. Paired spatial-block bootstrap intervals are conditional on the fitted scores and observed reference pool. They do not estimate variability across independent future years. We retain all prespecified reference allocations, centre and patch-mean supports, missingness, tied thresholds and unavailable conditions. A constant control subtraction necessarily leaves rankings unchanged within a fixed year-pair and region; any empirical benefit must arise in transferred flags, not from that algebraic identity.
+
+## References to finalize against source records
+
+Brown et al. AlphaEarth Foundations. arXiv:2507.22291v2.
+
+Feng et al. TESSERA. arXiv:2506.20380v7.
+
+Gann et al. (2019). International principles and standards for the practice of ecological restoration. Second edition. Restoration Ecology. https://doi.org/10.1111/rec.13035
+
+Heiman (2026). Characterizing Brazilian Atlantic Forest Restoration Outcomes with Geospatial AlphaEarth Embeddings. arXiv:2605.05547v1.
+
+Meroni et al. (2017). Remote sensing monitoring of land restoration interventions in semi-arid environments with a before–after control-impact statistical design. https://doi.org/10.1016/j.jag.2017.02.016
+
+Ball et al. (2026). Geospatial foundation models enable data-efficient tree species mapping in temperate mountain forests. https://doi.org/10.1016/j.srs.2026.100466

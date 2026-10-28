@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E37",
+  "started_at_utc": "2026-10-27T08:32:02.684602Z",
+  "command": [
+    ".venv/bin/python",
+    "code/fit_models.py",
+    "--budget",
+    "2000",
+    "--seeds",
+    "505",
+    "--decoders",
+    "rf"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6.md",
+  "plan_commit_id": "091f935b2c32f966f4ce0a1ff6db1acc0301f56d",
+  "code_commit_id": "091f935b2c32f966f4ce0a1ff6db1acc0301f56d",
+  "input_sha256": {
+    "data/derived/dataset-manifest.json": "c9311f6ab9444345c7ffbbfa98f9896e6f35b06f896d1b4d2954fa35d2bded35"
+  },
+  "start_event_id": "E0201",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 56766,
+  "ended_at_utc": "2026-10-27T08:35:36.318002Z",
+  "elapsed_seconds": 213.61523324996233,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0203"
+}

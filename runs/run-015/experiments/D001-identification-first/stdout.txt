@@ -1,0 +1,5 @@
+{"date": "20260603", "model": "aifs-ens", "lead": 84, "completed_at_utc": "2026-10-26T03:45:59Z", "rows": 108}
+{"date": "20260603", "model": "aifs-ens", "lead": 180, "completed_at_utc": "2026-10-26T03:45:59Z", "rows": 108}
+{"date": "20260603", "model": "ifs", "lead": 84, "completed_at_utc": "2026-10-26T03:45:59Z", "rows": 108}
+{"date": "20260603", "model": "ifs", "lead": 180, "completed_at_utc": "2026-10-26T03:45:59Z", "rows": 108}
+{"date": "20260607", "model": "aifs-ens", "lead": 84, "completed_at_utc": "2026-10-26T03:45:59Z", "rows": 108}

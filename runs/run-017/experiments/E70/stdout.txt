@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-27T13:14:17.301248Z",
+  "status": "PASS",
+  "failures": [],
+  "manuscript_sha256": "3eec44241ea825069aa8ad661b4c74ba0a6bf0dd12900ae57fa118c8a1675d74",
+  "numeric_tables_checked": 25,
+  "claims_checked": 11,
+  "absolute_numeric_tolerance": 1e-12,
+  "interpretation": "Current prose generation and claims checked against the independently recomputed-in-a-fresh-location numerical outputs by this same session; not independent reproduction"
+}

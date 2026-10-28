@@ -1,0 +1,137 @@
+[
+  {
+    "task_id": "tessera-R04",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R04"
+    ]
+  },
+  {
+    "task_id": "tessera-R05",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R05"
+    ]
+  },
+  {
+    "task_id": "tessera-R06",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R06"
+    ]
+  },
+  {
+    "task_id": "tessera-R07",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R07"
+    ]
+  },
+  {
+    "task_id": "tessera-R08",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R08"
+    ]
+  },
+  {
+    "task_id": "tessera-R09",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R09"
+    ]
+  },
+  {
+    "task_id": "tessera-R10",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R10"
+    ]
+  },
+  {
+    "task_id": "tessera-R11",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R11"
+    ]
+  },
+  {
+    "task_id": "tessera-R12",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R12"
+    ]
+  },
+  {
+    "task_id": "aef-R07",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R07"
+    ]
+  },
+  {
+    "task_id": "aef-R08",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R08"
+    ]
+  },
+  {
+    "task_id": "aef-R09",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R09"
+    ]
+  },
+  {
+    "task_id": "aef-R10",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R10"
+    ]
+  },
+  {
+    "task_id": "aef-R11",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R11"
+    ]
+  },
+  {
+    "task_id": "aef-R12",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R12"
+    ]
+  }
+]

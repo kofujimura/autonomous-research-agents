@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-27T10:31:42.742550Z",
+  "fits_checked": 465,
+  "distinct_position_sets": 195,
+  "unique_budgets_valid": true,
+  "training_only": true,
+  "labels_match_bundled_reference": true,
+  "matched_positions_across_representations_and_decoders": true,
+  "weight_vectors_checked": 20,
+  "weight_check": "Hash, position identity and exact recomputation from bundled reference groups; implementation consistency, not independent algorithm validation"
+}

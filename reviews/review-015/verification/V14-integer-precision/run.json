@@ -1,0 +1,17 @@
+{
+ "command": [
+  "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work/env/bin/python",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy/scripts/integer_precision.py",
+  "--cases",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy/results/primary/cases.csv",
+  "--output",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work/integer-precision-new"
+ ],
+ "cwd": "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work",
+ "limit_seconds": 1800.0,
+ "start_utc": "2026-10-26T12:39:28Z",
+ "timed_out": false,
+ "end_utc": "2026-10-26T12:50:42Z",
+ "elapsed_seconds": 673.8,
+ "exit_code": 0
+}

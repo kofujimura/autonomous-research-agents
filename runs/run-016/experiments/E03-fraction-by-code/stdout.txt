@@ -1,0 +1,217 @@
+[
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/2.0.0",
+    "min": 0.0,
+    "max": 1.0,
+    "negative_count": 0,
+    "anomalies_by_original_code": [],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/1.1.1",
+    "min": 0.0,
+    "max": 1.0364608764648438,
+    "negative_count": 0,
+    "anomalies_by_original_code": [
+      {
+        "original_code": 601,
+        "minimum": 0.0,
+        "maximum": 1.0364608764648438,
+        "negative_pixels": 0,
+        "above_one_pixels": 6
+      }
+    ],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/2.1.0",
+    "min": 0.0,
+    "max": 1.0,
+    "negative_count": 0,
+    "anomalies_by_original_code": [],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/1.0.0",
+    "min": 0.0,
+    "max": 1.0,
+    "negative_count": 0,
+    "anomalies_by_original_code": [],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/3.0.1",
+    "min": 0.0,
+    "max": 1.5024133920669556,
+    "negative_count": 0,
+    "anomalies_by_original_code": [
+      {
+        "original_code": 1923,
+        "minimum": 0.0,
+        "maximum": 1.5024133920669556,
+        "negative_pixels": 0,
+        "above_one_pixels": 10
+      }
+    ],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/1.1.0",
+    "min": 0.0,
+    "max": 1.0059951543807983,
+    "negative_count": 0,
+    "anomalies_by_original_code": [
+      {
+        "original_code": 613,
+        "minimum": 0.0,
+        "maximum": 1.0059951543807983,
+        "negative_pixels": 0,
+        "above_one_pixels": 1
+      }
+    ],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/0.0.1",
+    "min": -0.5024133920669556,
+    "max": 1.0,
+    "negative_count": 256,
+    "anomalies_by_original_code": [
+      {
+        "original_code": 0,
+        "minimum": -0.5024133920669556,
+        "maximum": 1.0,
+        "negative_pixels": 43,
+        "above_one_pixels": 0
+      }
+    ],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/3.1.1",
+    "min": 0.0,
+    "max": 1.1993041038513184,
+    "negative_count": 0,
+    "anomalies_by_original_code": [
+      {
+        "original_code": 1923,
+        "minimum": 0.0,
+        "maximum": 1.1993041038513184,
+        "negative_pixels": 0,
+        "above_one_pixels": 6
+      }
+    ],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/1.0.1",
+    "min": 0.0,
+    "max": 1.0,
+    "negative_count": 0,
+    "anomalies_by_original_code": [],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/0.1.1",
+    "min": -0.21996429562568665,
+    "max": 1.0903207063674927,
+    "negative_count": 279,
+    "anomalies_by_original_code": [
+      {
+        "original_code": 0,
+        "minimum": -0.21996429562568665,
+        "maximum": 1.0,
+        "negative_pixels": 51,
+        "above_one_pixels": 0
+      },
+      {
+        "original_code": 521,
+        "minimum": 0.0,
+        "maximum": 1.0903207063674927,
+        "negative_pixels": 0,
+        "above_one_pixels": 3
+      }
+    ],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/0.0.0",
+    "min": -0.6747710704803467,
+    "max": 1.0,
+    "negative_count": 116,
+    "anomalies_by_original_code": [
+      {
+        "original_code": 0,
+        "minimum": -0.6747710704803467,
+        "maximum": 1.0,
+        "negative_pixels": 19,
+        "above_one_pixels": 0
+      }
+    ],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/2.0.1",
+    "min": 0.0,
+    "max": 1.0,
+    "negative_count": 0,
+    "anomalies_by_original_code": [],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/3.0.0",
+    "min": 0.0,
+    "max": 1.4077653884887695,
+    "negative_count": 0,
+    "anomalies_by_original_code": [
+      {
+        "original_code": 1923,
+        "minimum": 0.0,
+        "maximum": 1.4077653884887695,
+        "negative_pixels": 0,
+        "above_one_pixels": 1
+      }
+    ],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/3.1.0",
+    "min": 0.0,
+    "max": 1.8331464529037476,
+    "negative_count": 0,
+    "anomalies_by_original_code": [
+      {
+        "original_code": 1923,
+        "minimum": 0.0,
+        "maximum": 1.8331464529037476,
+        "negative_pixels": 0,
+        "above_one_pixels": 11
+      }
+    ],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/2.1.1",
+    "min": 0.0,
+    "max": 0.0,
+    "negative_count": 0,
+    "anomalies_by_original_code": [],
+    "nonfinite": 0
+  },
+  {
+    "key": "S2_454620_5214380_20210101_20211230.zarr/lnf_code/0.1.0",
+    "min": -0.8331464529037476,
+    "max": 1.0,
+    "negative_count": 247,
+    "anomalies_by_original_code": [
+      {
+        "original_code": 0,
+        "minimum": -0.8331464529037476,
+        "maximum": 1.0,
+        "negative_pixels": 52,
+        "above_one_pixels": 0
+      }
+    ],
+    "nonfinite": 0
+  }
+]

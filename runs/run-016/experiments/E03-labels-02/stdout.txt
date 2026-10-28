@@ -1,0 +1,3 @@
+START L065_150 train 2026-10-26T16:08:07.128380Z
+END L065_150 failed {'train': 0, 'calibration': 0, 'test': 0}
+{"completed_at_utc": "2026-10-26T16:08:08.022592Z", "accepted": {"train": 0, "calibration": 0, "test": 0}, "attempted": 1, "batch_attempts": 1}

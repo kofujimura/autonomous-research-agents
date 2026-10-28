@@ -1,0 +1,22 @@
+{
+  "experiment_id": "P02-geo",
+  "start_time_utc": "2026-10-26T15:06:29.592722Z",
+  "end_time_utc": "2026-10-26T15:06:59.549767Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pilot_geo.py"
+  ],
+  "timeout_seconds": 900,
+  "plan_path": "protocol/pilots.md",
+  "plan_commit_id": "d14c9c4ecdfa4dae7e777d8faaeabd58f0cf4419",
+  "plan_sha256": "e50e87e20926b8c89ccaa92b035d6a2fa081ac10b56420a1e09938cf2c9622d1",
+  "code_commit_id": "d14c9c4ecdfa4dae7e777d8faaeabd58f0cf4419",
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/P02-geo/stdout.txt",
+  "stderr_path": "experiments/P02-geo/stderr.txt",
+  "start_event_id": "E0012",
+  "pid": 89541,
+  "elapsed_seconds": 29.956398667069152,
+  "end_event_id": "E0014"
+}

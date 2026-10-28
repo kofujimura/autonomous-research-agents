@@ -1,0 +1,21 @@
+{
+ "command": [
+  "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work/env/bin/python",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy/scripts/verify.py",
+  "--mode",
+  "subset-chunk",
+  "--start",
+  "50",
+  "--count",
+  "10",
+  "--output",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work/subset-050"
+ ],
+ "cwd": "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work",
+ "limit_seconds": 1800.0,
+ "start_utc": "2026-10-26T12:30:20Z",
+ "timed_out": false,
+ "end_utc": "2026-10-26T12:35:08Z",
+ "elapsed_seconds": 288.3,
+ "exit_code": 0
+}

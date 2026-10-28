@@ -1,0 +1,13 @@
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 40.87467854190618}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 82.20101804193109}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 123.5124152500648}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 165.69820566708222}
+{"stage": "predict", "queries": 100, "total": 907, "elapsed_seconds": 180.90962087502703}
+{"stage": "predict", "queries": 200, "total": 907, "elapsed_seconds": 183.8114277080167}
+{"stage": "predict", "queries": 300, "total": 907, "elapsed_seconds": 186.69875091710128}
+{"stage": "predict", "queries": 400, "total": 907, "elapsed_seconds": 189.4826905000955}
+{"stage": "predict", "queries": 600, "total": 907, "elapsed_seconds": 194.42913933307864}
+{"stage": "predict", "queries": 700, "total": 907, "elapsed_seconds": 196.96791054192}
+{"stage": "predict", "queries": 800, "total": 907, "elapsed_seconds": 199.31054550013505}
+{"stage": "predict", "queries": 900, "total": 907, "elapsed_seconds": 201.75055349990726}
+{"start_time_utc": "2026-10-27T17:09:11.129156+00:00", "end_time_utc": "2026-10-27T17:12:33.175817+00:00", "elapsed_seconds": 202.0696131249424, "rotation": 2, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3667, "training_nominal_n": 1739, "training_retained_n": 1216, "training_pairs": 25754, "query_n": 907, "reference_n": 1021, "prediction_rows": 16056, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "7c656baae462d3e129f5accfd91b8a31cc5833c3ae67af25171a318df6188677", "features-2024.npz": "00fe74c3030921811b8b45e856ee93653e4c75a5a3373e51103f1f3141fb2a51"}}

@@ -1,0 +1,59 @@
+[
+  {
+    "task_id": "all-features-seed-0",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "seed",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/all-corrected-seed-0",
+      "--extra",
+      "--forest-all-features"
+    ]
+  },
+  {
+    "task_id": "all-features-seed-1000",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "seed",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "1000",
+      "--output",
+      "analysis/controls/all-corrected-seed-1000",
+      "--extra",
+      "--forest-all-features"
+    ]
+  },
+  {
+    "task_id": "all-features-seed-2000",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "seed",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "2000",
+      "--output",
+      "analysis/controls/all-corrected-seed-2000",
+      "--extra",
+      "--forest-all-features"
+    ]
+  }
+]

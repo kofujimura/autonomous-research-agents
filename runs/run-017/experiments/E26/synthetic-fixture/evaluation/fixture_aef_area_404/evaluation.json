@@ -1,0 +1,57 @@
+{
+  "fit_id": "fixture_aef_area_404",
+  "evaluated_at_utc": "2026-10-27T07:57:30.094762Z",
+  "fit_metadata_path": "experiments/E26/synthetic-fixture/fits/fixture_aef_area_404.json",
+  "fit_metadata_sha256": "f69d402ca163f2a6b1e0ab0c34320a4a11461d22aa8f02b35e1dbd5e2f4d3cfe",
+  "prediction_sha256": "388f70c295c33410800e98e61e2b19d226597bbe5d6095b5bffc97b32b23e36b",
+  "files": {
+    "cores.csv": "2875d912db65a8fe9ea1f4940754c048c7af579075f8a72ce7800b9ac4db2fce",
+    "objects.csv": "d41058a4c4d14784caf465c63d6ef891a1d85addfe4fdbe151a27e51a3015f67",
+    "thresholds.csv": "c4d3315130c63281ccde568098739078f94c299154067b9d42c4f81360b58861"
+  },
+  "smoothing": false,
+  "object_rows": 64,
+  "core_rows": 45,
+  "pooled_scores": [
+    {
+      "version": "raw",
+      "average_precision": 0.50030517578125,
+      "test_pixels": 262144,
+      "positive_pixels": 160,
+      "negative_pixels": 261984
+    }
+  ],
+  "probability_field_sha256": "0b0a4a3c17fcf256d073e4cdd90d493734ad8083a16074e042275f7b99a64e1f",
+  "decision_hashes": [
+    {
+      "version": "raw",
+      "condition": "standardized_0.01",
+      "decision_sha256": "b706926a3c2a8564944932cfc5a4fd85a9a21f6a212dd80aea8f579aaadd2512"
+    },
+    {
+      "version": "raw",
+      "condition": "standardized_0.05",
+      "decision_sha256": "b3d5c19e280674e8d3a0f4fca90f2da050930525e5a5316e01a26b954e976bb5"
+    },
+    {
+      "version": "raw",
+      "condition": "standardized_0.1",
+      "decision_sha256": "44b7572d1b1cbc725c91aad34dc6ec51509b910a4b187c1d9ad414403aede403"
+    },
+    {
+      "version": "raw",
+      "condition": "validation_0.05",
+      "decision_sha256": "b3d5c19e280674e8d3a0f4fca90f2da050930525e5a5316e01a26b954e976bb5"
+    },
+    {
+      "version": "raw",
+      "condition": "regional_0.05",
+      "decision_sha256": "b3d5c19e280674e8d3a0f4fca90f2da050930525e5a5316e01a26b954e976bb5"
+    },
+    {
+      "version": "raw",
+      "condition": "regional_validation_0.05",
+      "decision_sha256": "b3d5c19e280674e8d3a0f4fca90f2da050930525e5a5316e01a26b954e976bb5"
+    }
+  ]
+}

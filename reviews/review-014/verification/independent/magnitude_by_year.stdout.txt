@@ -1,0 +1,8 @@
+aef gain 2019-2020 P=21 N=46 median mag pos=0.0325 neg=0.0442 AUROC=0.291 TP=0 FP=4
+aef gain 2020-2021 P=3 N=39 median mag pos=0.0267 neg=0.0525 AUROC=0.214 TP=0 FP=3
+aef loss 2019-2020 P=68 N=117 median mag pos=0.1913 neg=0.0188 AUROC=0.966 TP=61 FP=14
+aef loss 2020-2021 P=56 N=96 median mag pos=0.2431 neg=0.0205 AUROC=0.969 TP=51 FP=13
+tessera gain 2019-2020 P=21 N=46 median mag pos=0.0903 neg=0.1300 AUROC=0.319 TP=0 FP=3
+tessera gain 2020-2021 P=3 N=39 median mag pos=0.1136 neg=0.1493 AUROC=0.350 TP=0 FP=5
+tessera loss 2019-2020 P=68 N=117 median mag pos=0.3096 neg=0.0841 AUROC=0.947 TP=63 FP=22
+tessera loss 2020-2021 P=56 N=96 median mag pos=0.4010 neg=0.0832 AUROC=0.968 TP=52 FP=18

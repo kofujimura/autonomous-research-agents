@@ -1,0 +1,20 @@
+{
+ "command": [
+  "verify-work/env/bin/python",
+  "-I",
+  "tools/indep_bounds.py",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy/results/primary/cases.csv",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/verification/V04-indep-lp-sample/sample.csv",
+  "sample",
+  "60",
+  "7"
+ ],
+ "cwd": "/Users/fujimura/Research/ai-free-research-en/review-015",
+ "limit_seconds": 1500.0,
+ "start_utc": "2026-10-26T12:16:22Z",
+ "timed_out": false,
+ "end_utc": "2026-10-26T12:16:34Z",
+ "elapsed_seconds": 12.5,
+ "exit_code": 0
+}

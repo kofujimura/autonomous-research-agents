@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E62",
+  "started_at_utc": "2026-10-27T10:32:43.634920Z",
+  "command": [
+    ".venv/bin/python",
+    "code/check_aggregation.py",
+    "--out",
+    "experiments/E62/outputs"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v9.md",
+  "plan_commit_id": "35602b8c22a973c421ce9de6db70d808d99d66ad",
+  "code_commit_id": "35602b8c22a973c421ce9de6db70d808d99d66ad",
+  "input_sha256": {
+    "experiments/E51/outputs/analysis/summary.json": "039ea762502c543c90d4049710fb076214399e4c625ace222b6e4f703ec6c492"
+  },
+  "start_event_id": "E0304",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 62488,
+  "ended_at_utc": "2026-10-27T10:32:43.673565Z",
+  "elapsed_seconds": 0.038491833955049515,
+  "exit_code": 1,
+  "timed_out": false,
+  "end_event_id": "E0305"
+}

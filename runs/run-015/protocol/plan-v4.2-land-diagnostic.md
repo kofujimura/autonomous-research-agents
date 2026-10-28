@@ -1,0 +1,7 @@
+# Exploratory v4.2: land-fraction conditional diagnostic
+
+Fix this diagnostic before inspecting any city/time bound summary. The optional mask extraction has been seen: three city site slots and one regular site slot have an IFS land fraction below0.5. No selected city/time horizon has yet completed derivation and bound analysis. All original locations, cases and primary/exploratory endpoints remain retained.
+
+An apparent difference between city and regular portfolios could partly reflect coarse coastal cells. In addition to the planned full sample, report the existing informative and common-informative comparisons restricted to portfolios whose twelve cells all have land fraction>=0.5 in the single archived IFS mask. This is a conditional diagnostic, not a new ground-truth urban sample, an AIFS mask, a validated coastal classifier, or a claim that0.5 is the ideal cutoff. No temperature-based exclusion or site replacement occurs, and capacity definitions remain unchanged.
+
+Use the same complete-date matching, paired queries, date-block resampling and numerical outputs. Attach each portfolio's mask flag to cases, show denominators, and keep the full-sample tables as the leading results. If the diagnostic differs, report it as exploratory rather than retroactively choosing a preferred location set. Save the mask input hash and all fractions. No new weather retrieval or additional LP is needed.

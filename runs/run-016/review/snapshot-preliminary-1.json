@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-26T22:26:36.040443Z",
+  "source_commit": "6af7655ba9a1a5cf92dcd790191653f3d870c947",
+  "destination": "verification-work/input-preliminary-1",
+  "method": "Shared Git object store; actual text files copied from commit blobs; immutable scientific NPZ/NPY/PDF inputs hardlinked only after their Git blob hash matched. No original inputs are written.",
+  "immutable_hardlinks": 5167,
+  "copied_files": 795,
+  "excluded_from_git": true,
+  "qualification": "New working location for this session self-rerun, not independent reproduction. Shared immutable bytes avoid storage duplication; all verification outputs use a different fresh path."
+}

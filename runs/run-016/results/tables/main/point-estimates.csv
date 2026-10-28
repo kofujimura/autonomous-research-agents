@@ -1,0 +1,9 @@
+tag,method,taxonomy,representation,units,unavailable_units,rmse,bias,opposite_or_false_directions,nonzero_point_estimates,note
+logistic-broad-frozen-tessera,no_change,broad,tessera,90,0,0.026049685443117764,-0.004379527573964591,0,0,Point estimates have no confidence interval; these counts are not confidence-qualified reports
+logistic-broad-frozen-tessera,hard_count,broad,tessera,90,0,0.24172300899456664,0.07620393081264915,48,90,Point estimates have no confidence interval; these counts are not confidence-qualified reports
+logistic-broad-frozen-tessera,soft_count,broad,tessera,90,0,0.1696481609525599,0.04539226700337355,48,90,Point estimates have no confidence interval; these counts are not confidence-qualified reports
+logistic-broad-frozen-tessera,source_confusion,broad,tessera,90,0,0.35405280260427363,0.09254186794167185,48,88,Point estimates have no confidence interval; these counts are not confidence-qualified reports
+logistic-broad-frozen-alphaearth,no_change,broad,alphaearth,90,0,0.026049685443117764,-0.004379527573964591,0,0,Point estimates have no confidence interval; these counts are not confidence-qualified reports
+logistic-broad-frozen-alphaearth,hard_count,broad,alphaearth,90,0,0.20711785524149182,-0.07407296152368294,46,90,Point estimates have no confidence interval; these counts are not confidence-qualified reports
+logistic-broad-frozen-alphaearth,soft_count,broad,alphaearth,90,0,0.1662223247195709,-0.05912902472905897,47,90,Point estimates have no confidence interval; these counts are not confidence-qualified reports
+logistic-broad-frozen-alphaearth,source_confusion,broad,alphaearth,90,0,0.3292014381530426,-0.03992170771605834,44,90,Point estimates have no confidence interval; these counts are not confidence-qualified reports

@@ -1,0 +1,66 @@
+[
+  {
+    "task_id": "polygonC-rf-all",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "metric",
+      "--inputs",
+      "analysis/polygon-features-v3/C",
+      "--primary",
+      "analysis/polygon/C-rf",
+      "--output",
+      "analysis/metric-whitened/polygonC-rf-all",
+      "--extra",
+      "--baselines",
+      "analysis/metric-whitened/polygonC-raw-rf-all",
+      "--metric-learner",
+      "forest",
+      "--distance-transform",
+      "whitened",
+      "--forest-all-features"
+    ]
+  },
+  {
+    "task_id": "polygonC-rf-all-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/metric-whitened/polygonC-rf-all",
+      "--out",
+      "analysis/metric-whitened/polygonC-rf-all-summary"
+    ]
+  },
+  {
+    "task_id": "all-features-seed-1000",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "seed",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "1000",
+      "--output",
+      "analysis/controls/all-corrected-seed-1000",
+      "--extra",
+      "--forest-all-features"
+    ]
+  },
+  {
+    "task_id": "summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/all-corrected-seed-1000",
+      "--out",
+      "analysis/controls/all-corrected-seed-1000-summary"
+    ]
+  }
+]

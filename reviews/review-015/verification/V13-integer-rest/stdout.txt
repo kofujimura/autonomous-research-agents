@@ -1,0 +1,187 @@
+{"task": "integer", "position": 30, "case_key": "20260729|aifs-ens|84|central_Europe|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:35:45Z"}
+{"task": "integer", "position": 30, "case_key": "20260729|aifs-ens|84|central_Europe|compact|12|30|9|50", "completed_at_utc": "2026-10-26T12:35:47Z"}
+{"task": "integer", "position": 31, "case_key": "20260721|ifs|180|Sahel|compact|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:35:47Z"}
+{"task": "integer", "position": 31, "case_key": "20260721|ifs|180|Sahel|compact|12|35|3|50", "completed_at_utc": "2026-10-26T12:35:49Z"}
+{"task": "integer", "position": 32, "case_key": "20260911|ifs|180|Iberia|dispersed|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:35:49Z"}
+{"task": "integer", "position": 32, "case_key": "20260911|ifs|180|Iberia|dispersed|12|25|9|50", "completed_at_utc": "2026-10-26T12:35:55Z"}
+{"task": "integer", "position": 33, "case_key": "20260802|aifs-ens|84|central_Europe|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:35:55Z"}
+{"task": "integer", "position": 33, "case_key": "20260802|aifs-ens|84|central_Europe|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:35:57Z"}
+{"task": "integer", "position": 34, "case_key": "20260927|ifs|84|Sahel|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:35:57Z"}
+{"task": "integer", "position": 34, "case_key": "20260927|ifs|84|Sahel|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:07Z"}
+{"task": "integer", "position": 35, "case_key": "20260806|ifs|84|northern_India|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:07Z"}
+{"task": "integer", "position": 35, "case_key": "20260806|ifs|84|northern_India|compact|12|30|3|50", "completed_at_utc": "2026-10-26T12:36:13Z"}
+{"task": "integer", "position": 36, "case_key": "20260623|ifs|180|Iberia|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:13Z"}
+{"task": "integer", "position": 36, "case_key": "20260623|ifs|180|Iberia|compact|12|30|6|50", "completed_at_utc": "2026-10-26T12:36:16Z"}
+{"task": "integer", "position": 37, "case_key": "20260907|aifs-ens|84|Balkans|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:16Z"}
+{"task": "integer", "position": 37, "case_key": "20260907|aifs-ens|84|Balkans|compact|12|30|3|50", "completed_at_utc": "2026-10-26T12:36:17Z"}
+{"task": "integer", "position": 38, "case_key": "20260822|aifs-ens|180|Balkans|dispersed|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:17Z"}
+{"task": "integer", "position": 38, "case_key": "20260822|aifs-ens|180|Balkans|dispersed|12|30|6|50", "completed_at_utc": "2026-10-26T12:36:23Z"}
+{"task": "integer", "position": 39, "case_key": "20260814|ifs|84|northern_India|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:23Z"}
+{"task": "integer", "position": 39, "case_key": "20260814|ifs|84|northern_India|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:23Z"}
+{"task": "integer", "position": 40, "case_key": "20260713|aifs-ens|84|Balkans|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:23Z"}
+{"task": "integer", "position": 40, "case_key": "20260713|aifs-ens|84|Balkans|compact|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:25Z"}
+{"task": "integer", "position": 41, "case_key": "20260919|aifs-ens|180|northern_India|compact|12|35|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:25Z"}
+{"task": "integer", "position": 41, "case_key": "20260919|aifs-ens|180|northern_India|compact|12|35|6|50", "completed_at_utc": "2026-10-26T12:36:26Z"}
+{"task": "integer", "position": 42, "case_key": "20260619|aifs-ens|180|central_Europe|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:26Z"}
+{"task": "integer", "position": 42, "case_key": "20260619|aifs-ens|180|central_Europe|compact|12|30|3|50", "completed_at_utc": "2026-10-26T12:36:30Z"}
+{"task": "integer", "position": 43, "case_key": "20260725|ifs|180|France|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:30Z"}
+{"task": "integer", "position": 43, "case_key": "20260725|ifs|180|France|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:31Z"}
+{"task": "integer", "position": 44, "case_key": "20260822|ifs|180|Sahel|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:31Z"}
+{"task": "integer", "position": 44, "case_key": "20260822|ifs|180|Sahel|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:31Z"}
+{"task": "integer", "position": 45, "case_key": "20260619|aifs-ens|180|Iberia|dispersed|12|35|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:31Z"}
+{"task": "integer", "position": 45, "case_key": "20260619|aifs-ens|180|Iberia|dispersed|12|35|6|50", "completed_at_utc": "2026-10-26T12:36:31Z"}
+{"task": "integer", "position": 46, "case_key": "20260810|ifs|180|Iberia|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:31Z"}
+{"task": "integer", "position": 46, "case_key": "20260810|ifs|180|Iberia|compact|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:33Z"}
+{"task": "integer", "position": 47, "case_key": "20260915|aifs-ens|180|Balkans|compact|12|25|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:33Z"}
+{"task": "integer", "position": 47, "case_key": "20260915|aifs-ens|180|Balkans|compact|12|25|6|50", "completed_at_utc": "2026-10-26T12:36:35Z"}
+{"task": "integer", "position": 48, "case_key": "20260705|ifs|180|France|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:35Z"}
+{"task": "integer", "position": 48, "case_key": "20260705|ifs|180|France|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:39Z"}
+{"task": "integer", "position": 49, "case_key": "20260603|aifs-ens|180|central_Europe|dispersed|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:39Z"}
+{"task": "integer", "position": 49, "case_key": "20260603|aifs-ens|180|central_Europe|dispersed|12|25|9|50", "completed_at_utc": "2026-10-26T12:36:40Z"}
+{"task": "integer", "position": 50, "case_key": "20260713|aifs-ens|84|central_Europe|dispersed|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:40Z"}
+{"task": "integer", "position": 50, "case_key": "20260713|aifs-ens|84|central_Europe|dispersed|12|25|9|50", "completed_at_utc": "2026-10-26T12:36:43Z"}
+{"task": "integer", "position": 51, "case_key": "20260713|aifs-ens|84|France|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:43Z"}
+{"task": "integer", "position": 51, "case_key": "20260713|aifs-ens|84|France|compact|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:45Z"}
+{"task": "integer", "position": 52, "case_key": "20260802|aifs-ens|84|central_Europe|compact|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:45Z"}
+{"task": "integer", "position": 52, "case_key": "20260802|aifs-ens|84|central_Europe|compact|12|35|3|50", "completed_at_utc": "2026-10-26T12:36:47Z"}
+{"task": "integer", "position": 53, "case_key": "20260615|aifs-ens|180|Iberia|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:47Z"}
+{"task": "integer", "position": 53, "case_key": "20260615|aifs-ens|180|Iberia|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:47Z"}
+{"task": "integer", "position": 54, "case_key": "20260619|aifs-ens|84|central_Europe|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:47Z"}
+{"task": "integer", "position": 54, "case_key": "20260619|aifs-ens|84|central_Europe|compact|12|30|3|50", "completed_at_utc": "2026-10-26T12:36:53Z"}
+{"task": "integer", "position": 55, "case_key": "20260814|aifs-ens|84|Balkans|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:53Z"}
+{"task": "integer", "position": 55, "case_key": "20260814|aifs-ens|84|Balkans|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:53Z"}
+{"task": "integer", "position": 56, "case_key": "20260713|ifs|180|Sahel|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:53Z"}
+{"task": "integer", "position": 56, "case_key": "20260713|ifs|180|Sahel|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:54Z"}
+{"task": "integer", "position": 57, "case_key": "20260903|ifs|84|France|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:54Z"}
+{"task": "integer", "position": 57, "case_key": "20260903|ifs|84|France|compact|12|30|3|50", "completed_at_utc": "2026-10-26T12:36:56Z"}
+{"task": "integer", "position": 58, "case_key": "20260721|aifs-ens|84|Iberia|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:56Z"}
+{"task": "integer", "position": 58, "case_key": "20260721|aifs-ens|84|Iberia|compact|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:56Z"}
+{"task": "integer", "position": 59, "case_key": "20260725|ifs|84|northern_India|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:56Z"}
+{"task": "integer", "position": 59, "case_key": "20260725|ifs|84|northern_India|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:36:57Z"}
+{"task": "integer", "position": 60, "case_key": "20260725|ifs|84|central_Europe|dispersed|12|25|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:57Z"}
+{"task": "integer", "position": 60, "case_key": "20260725|ifs|84|central_Europe|dispersed|12|25|3|50", "completed_at_utc": "2026-10-26T12:36:57Z"}
+{"task": "integer", "position": 61, "case_key": "20260713|ifs|180|Balkans|dispersed|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:36:57Z"}
+{"task": "integer", "position": 61, "case_key": "20260713|ifs|180|Balkans|dispersed|12|25|9|50", "completed_at_utc": "2026-10-26T12:37:04Z"}
+{"task": "integer", "position": 62, "case_key": "20260915|aifs-ens|180|Sahel|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:04Z"}
+{"task": "integer", "position": 62, "case_key": "20260915|aifs-ens|180|Sahel|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T12:37:04Z"}
+{"task": "integer", "position": 63, "case_key": "20260627|aifs-ens|180|Iberia|compact|12|35|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:04Z"}
+{"task": "integer", "position": 63, "case_key": "20260627|aifs-ens|180|Iberia|compact|12|35|6|50", "completed_at_utc": "2026-10-26T12:37:04Z"}
+{"task": "integer", "position": 64, "case_key": "20260611|aifs-ens|180|France|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:04Z"}
+{"task": "integer", "position": 64, "case_key": "20260611|aifs-ens|180|France|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T12:37:04Z"}
+{"task": "integer", "position": 65, "case_key": "20260619|aifs-ens|180|northern_India|compact|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:04Z"}
+{"task": "integer", "position": 65, "case_key": "20260619|aifs-ens|180|northern_India|compact|12|35|9|50", "completed_at_utc": "2026-10-26T12:37:08Z"}
+{"task": "integer", "position": 66, "case_key": "20260615|aifs-ens|180|France|dispersed|12|35|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:08Z"}
+{"task": "integer", "position": 66, "case_key": "20260615|aifs-ens|180|France|dispersed|12|35|6|50", "completed_at_utc": "2026-10-26T12:37:10Z"}
+{"task": "integer", "position": 67, "case_key": "20260725|aifs-ens|180|Iberia|compact|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:10Z"}
+{"task": "integer", "position": 67, "case_key": "20260725|aifs-ens|180|Iberia|compact|12|35|3|50", "completed_at_utc": "2026-10-26T12:37:10Z"}
+{"task": "integer", "position": 68, "case_key": "20260619|aifs-ens|180|France|dispersed|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:10Z"}
+{"task": "integer", "position": 68, "case_key": "20260619|aifs-ens|180|France|dispersed|12|35|9|50", "completed_at_utc": "2026-10-26T12:37:12Z"}
+{"task": "integer", "position": 69, "case_key": "20260627|aifs-ens|84|central_Europe|compact|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:12Z"}
+{"task": "integer", "position": 69, "case_key": "20260627|aifs-ens|84|central_Europe|compact|12|25|9|50", "completed_at_utc": "2026-10-26T12:37:13Z"}
+{"task": "integer", "position": 70, "case_key": "20260729|ifs|84|northern_India|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:13Z"}
+{"task": "integer", "position": 70, "case_key": "20260729|ifs|84|northern_India|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:37:23Z"}
+{"task": "integer", "position": 71, "case_key": "20260826|aifs-ens|84|Balkans|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:23Z"}
+{"task": "integer", "position": 71, "case_key": "20260826|aifs-ens|84|Balkans|compact|12|30|6|50", "completed_at_utc": "2026-10-26T12:37:23Z"}
+{"task": "integer", "position": 72, "case_key": "20260830|ifs|180|central_Europe|dispersed|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:23Z"}
+{"task": "integer", "position": 72, "case_key": "20260830|ifs|180|central_Europe|dispersed|12|30|3|50", "completed_at_utc": "2026-10-26T12:37:24Z"}
+{"task": "integer", "position": 73, "case_key": "20260611|aifs-ens|180|France|compact|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:24Z"}
+{"task": "integer", "position": 73, "case_key": "20260611|aifs-ens|180|France|compact|12|35|9|50", "completed_at_utc": "2026-10-26T12:37:25Z"}
+{"task": "integer", "position": 74, "case_key": "20260725|ifs|84|Balkans|dispersed|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:25Z"}
+{"task": "integer", "position": 74, "case_key": "20260725|ifs|84|Balkans|dispersed|12|30|6|50", "completed_at_utc": "2026-10-26T12:37:25Z"}
+{"task": "integer", "position": 75, "case_key": "20260627|aifs-ens|180|France|dispersed|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:25Z"}
+{"task": "integer", "position": 75, "case_key": "20260627|aifs-ens|180|France|dispersed|12|25|9|50", "completed_at_utc": "2026-10-26T12:37:31Z"}
+{"task": "integer", "position": 76, "case_key": "20260806|ifs|84|France|compact|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:31Z"}
+{"task": "integer", "position": 76, "case_key": "20260806|ifs|84|France|compact|12|25|9|50", "completed_at_utc": "2026-10-26T12:37:37Z"}
+{"task": "integer", "position": 77, "case_key": "20260818|ifs|84|Balkans|dispersed|12|35|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:37Z"}
+{"task": "integer", "position": 77, "case_key": "20260818|ifs|84|Balkans|dispersed|12|35|6|50", "completed_at_utc": "2026-10-26T12:37:37Z"}
+{"task": "integer", "position": 78, "case_key": "20260607|ifs|180|France|dispersed|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:37Z"}
+{"task": "integer", "position": 78, "case_key": "20260607|ifs|180|France|dispersed|12|30|3|50", "completed_at_utc": "2026-10-26T12:37:37Z"}
+{"task": "integer", "position": 79, "case_key": "20260810|ifs|180|northern_India|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:37Z"}
+{"task": "integer", "position": 79, "case_key": "20260810|ifs|180|northern_India|compact|12|30|3|50", "completed_at_utc": "2026-10-26T12:37:39Z"}
+{"task": "integer", "position": 80, "case_key": "20260919|aifs-ens|180|Sahel|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:39Z"}
+{"task": "integer", "position": 80, "case_key": "20260919|aifs-ens|180|Sahel|compact|12|30|9|50", "completed_at_utc": "2026-10-26T12:37:42Z"}
+{"task": "integer", "position": 81, "case_key": "20260919|aifs-ens|180|Iberia|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:42Z"}
+{"task": "integer", "position": 81, "case_key": "20260919|aifs-ens|180|Iberia|compact|12|30|3|50", "completed_at_utc": "2026-10-26T12:37:43Z"}
+{"task": "integer", "position": 82, "case_key": "20260619|ifs|180|Balkans|dispersed|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:43Z"}
+{"task": "integer", "position": 82, "case_key": "20260619|ifs|180|Balkans|dispersed|12|30|3|50", "completed_at_utc": "2026-10-26T12:37:43Z"}
+{"task": "integer", "position": 83, "case_key": "20260826|aifs-ens|180|northern_India|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:43Z"}
+{"task": "integer", "position": 83, "case_key": "20260826|aifs-ens|180|northern_India|compact|12|30|3|50", "completed_at_utc": "2026-10-26T12:37:48Z"}
+{"task": "integer", "position": 84, "case_key": "20260721|ifs|84|Sahel|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:48Z"}
+{"task": "integer", "position": 84, "case_key": "20260721|ifs|84|Sahel|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T12:37:48Z"}
+{"task": "integer", "position": 85, "case_key": "20260810|ifs|180|France|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:48Z"}
+{"task": "integer", "position": 85, "case_key": "20260810|ifs|180|France|compact|12|30|6|50", "completed_at_utc": "2026-10-26T12:37:49Z"}
+{"task": "integer", "position": 86, "case_key": "20260822|ifs|180|Iberia|dispersed|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:49Z"}
+{"task": "integer", "position": 86, "case_key": "20260822|ifs|180|Iberia|dispersed|12|30|3|50", "completed_at_utc": "2026-10-26T12:37:49Z"}
+{"task": "integer", "position": 87, "case_key": "20260705|aifs-ens|180|France|dispersed|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:49Z"}
+{"task": "integer", "position": 87, "case_key": "20260705|aifs-ens|180|France|dispersed|12|35|9|50", "completed_at_utc": "2026-10-26T12:37:50Z"}
+{"task": "integer", "position": 88, "case_key": "20260725|aifs-ens|180|France|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:50Z"}
+{"task": "integer", "position": 88, "case_key": "20260725|aifs-ens|180|France|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T12:37:50Z"}
+{"task": "integer", "position": 89, "case_key": "20260619|ifs|84|central_Europe|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:50Z"}
+{"task": "integer", "position": 89, "case_key": "20260619|ifs|84|central_Europe|compact|12|30|3|50", "completed_at_utc": "2026-10-26T12:37:52Z"}
+{"task": "integer", "position": 90, "case_key": "20260814|ifs|84|northern_India|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:52Z"}
+{"task": "integer", "position": 90, "case_key": "20260814|ifs|84|northern_India|compact|12|30|9|50", "completed_at_utc": "2026-10-26T12:37:52Z"}
+{"task": "integer", "position": 91, "case_key": "20260717|aifs-ens|180|France|dispersed|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:52Z"}
+{"task": "integer", "position": 91, "case_key": "20260717|aifs-ens|180|France|dispersed|12|30|3|50", "completed_at_utc": "2026-10-26T12:37:58Z"}
+{"task": "integer", "position": 92, "case_key": "20260822|aifs-ens|180|Balkans|dispersed|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:58Z"}
+{"task": "integer", "position": 92, "case_key": "20260822|aifs-ens|180|Balkans|dispersed|12|25|9|50", "completed_at_utc": "2026-10-26T12:37:58Z"}
+{"task": "integer", "position": 93, "case_key": "20260607|aifs-ens|84|Iberia|dispersed|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:58Z"}
+{"task": "integer", "position": 93, "case_key": "20260607|aifs-ens|84|Iberia|dispersed|12|30|3|50", "completed_at_utc": "2026-10-26T12:37:58Z"}
+{"task": "integer", "position": 94, "case_key": "20260802|ifs|84|northern_India|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:37:58Z"}
+{"task": "integer", "position": 94, "case_key": "20260802|ifs|84|northern_India|compact|12|30|6|50", "completed_at_utc": "2026-10-26T12:38:03Z"}
+{"task": "integer", "position": 95, "case_key": "20260826|aifs-ens|180|Sahel|compact|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:03Z"}
+{"task": "integer", "position": 95, "case_key": "20260826|aifs-ens|180|Sahel|compact|12|35|9|50", "completed_at_utc": "2026-10-26T12:38:06Z"}
+{"task": "integer", "position": 96, "case_key": "20260725|ifs|84|central_Europe|compact|12|25|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:06Z"}
+{"task": "integer", "position": 96, "case_key": "20260725|ifs|84|central_Europe|compact|12|25|3|50", "completed_at_utc": "2026-10-26T12:38:07Z"}
+{"task": "integer", "position": 97, "case_key": "20260806|ifs|180|Sahel|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:07Z"}
+{"task": "integer", "position": 97, "case_key": "20260806|ifs|180|Sahel|compact|12|30|6|50", "completed_at_utc": "2026-10-26T12:38:11Z"}
+{"task": "integer", "position": 98, "case_key": "20260713|aifs-ens|84|central_Europe|compact|12|25|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:11Z"}
+{"task": "integer", "position": 98, "case_key": "20260713|aifs-ens|84|central_Europe|compact|12|25|6|50", "completed_at_utc": "2026-10-26T12:38:16Z"}
+{"task": "integer", "position": 99, "case_key": "20260802|aifs-ens|180|Balkans|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:16Z"}
+{"task": "integer", "position": 99, "case_key": "20260802|aifs-ens|180|Balkans|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T12:38:18Z"}
+{"task": "integer", "position": 100, "case_key": "20260705|aifs-ens|84|Sahel|dispersed|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:18Z"}
+{"task": "integer", "position": 100, "case_key": "20260705|aifs-ens|84|Sahel|dispersed|12|35|9|50", "completed_at_utc": "2026-10-26T12:38:19Z"}
+{"task": "integer", "position": 101, "case_key": "20260603|aifs-ens|180|Sahel|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:19Z"}
+{"task": "integer", "position": 101, "case_key": "20260603|aifs-ens|180|Sahel|compact|12|30|6|50", "completed_at_utc": "2026-10-26T12:38:24Z"}
+{"task": "integer", "position": 102, "case_key": "20260607|ifs|180|France|dispersed|12|25|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:24Z"}
+{"task": "integer", "position": 102, "case_key": "20260607|ifs|180|France|dispersed|12|25|3|50", "completed_at_utc": "2026-10-26T12:38:27Z"}
+{"task": "integer", "position": 103, "case_key": "20260619|ifs|180|central_Europe|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:27Z"}
+{"task": "integer", "position": 103, "case_key": "20260619|ifs|180|central_Europe|compact|12|30|3|50", "completed_at_utc": "2026-10-26T12:38:31Z"}
+{"task": "integer", "position": 104, "case_key": "20260830|ifs|180|northern_India|dispersed|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:31Z"}
+{"task": "integer", "position": 104, "case_key": "20260830|ifs|180|northern_India|dispersed|12|30|6|50", "completed_at_utc": "2026-10-26T12:38:31Z"}
+{"task": "integer", "position": 105, "case_key": "20260627|ifs|180|northern_India|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:31Z"}
+{"task": "integer", "position": 105, "case_key": "20260627|ifs|180|northern_India|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T12:38:31Z"}
+{"task": "integer", "position": 106, "case_key": "20260806|aifs-ens|180|Balkans|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:31Z"}
+{"task": "integer", "position": 106, "case_key": "20260806|aifs-ens|180|Balkans|compact|12|30|6|50", "completed_at_utc": "2026-10-26T12:38:39Z"}
+{"task": "integer", "position": 107, "case_key": "20260603|aifs-ens|84|Sahel|compact|12|35|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:39Z"}
+{"task": "integer", "position": 107, "case_key": "20260603|aifs-ens|84|Sahel|compact|12|35|6|50", "completed_at_utc": "2026-10-26T12:38:40Z"}
+{"task": "integer", "position": 108, "case_key": "20260725|aifs-ens|180|Sahel|compact|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:40Z"}
+{"task": "integer", "position": 108, "case_key": "20260725|aifs-ens|180|Sahel|compact|12|35|9|50", "completed_at_utc": "2026-10-26T12:38:42Z"}
+{"task": "integer", "position": 109, "case_key": "20260705|aifs-ens|84|northern_India|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:42Z"}
+{"task": "integer", "position": 109, "case_key": "20260705|aifs-ens|84|northern_India|compact|12|30|9|50", "completed_at_utc": "2026-10-26T12:38:44Z"}
+{"task": "integer", "position": 110, "case_key": "20260830|aifs-ens|84|France|dispersed|12|25|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:44Z"}
+{"task": "integer", "position": 110, "case_key": "20260830|aifs-ens|84|France|dispersed|12|25|6|50", "completed_at_utc": "2026-10-26T12:38:44Z"}
+{"task": "integer", "position": 111, "case_key": "20260814|ifs|180|northern_India|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:44Z"}
+{"task": "integer", "position": 111, "case_key": "20260814|ifs|180|northern_India|compact|12|30|9|50", "completed_at_utc": "2026-10-26T12:38:49Z"}
+{"task": "integer", "position": 112, "case_key": "20260623|ifs|180|northern_India|dispersed|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:49Z"}
+{"task": "integer", "position": 112, "case_key": "20260623|ifs|180|northern_India|dispersed|12|35|9|50", "completed_at_utc": "2026-10-26T12:38:51Z"}
+{"task": "integer", "position": 113, "case_key": "20260729|ifs|84|northern_India|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:51Z"}
+{"task": "integer", "position": 113, "case_key": "20260729|ifs|84|northern_India|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T12:38:51Z"}
+{"task": "integer", "position": 114, "case_key": "20260814|ifs|180|France|compact|12|25|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:51Z"}
+{"task": "integer", "position": 114, "case_key": "20260814|ifs|180|France|compact|12|25|6|50", "completed_at_utc": "2026-10-26T12:38:54Z"}
+{"task": "integer", "position": 115, "case_key": "20260806|aifs-ens|180|France|dispersed|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:54Z"}
+{"task": "integer", "position": 115, "case_key": "20260806|aifs-ens|180|France|dispersed|12|35|9|50", "completed_at_utc": "2026-10-26T12:38:56Z"}
+{"task": "integer", "position": 116, "case_key": "20260903|aifs-ens|84|northern_India|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:56Z"}
+{"task": "integer", "position": 116, "case_key": "20260903|aifs-ens|84|northern_India|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T12:38:56Z"}
+{"task": "integer", "position": 117, "case_key": "20260907|ifs|180|Iberia|dispersed|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:56Z"}
+{"task": "integer", "position": 117, "case_key": "20260907|ifs|180|Iberia|dispersed|12|30|6|50", "completed_at_utc": "2026-10-26T12:38:56Z"}
+{"task": "integer", "position": 118, "case_key": "20260603|aifs-ens|84|Balkans|dispersed|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:56Z"}
+{"task": "integer", "position": 118, "case_key": "20260603|aifs-ens|84|Balkans|dispersed|12|25|9|50", "completed_at_utc": "2026-10-26T12:38:56Z"}
+{"task": "integer", "position": 119, "case_key": "20260818|aifs-ens|180|Sahel|compact|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T12:38:56Z"}
+{"task": "integer", "position": 119, "case_key": "20260818|aifs-ens|180|Sahel|compact|12|35|9|50", "completed_at_utc": "2026-10-26T12:39:01Z"}
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();

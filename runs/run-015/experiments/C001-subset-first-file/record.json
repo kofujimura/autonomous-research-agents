@@ -1,0 +1,28 @@
+{
+  "experiment_id": "C001-subset-first-file",
+  "started_at_utc": "2026-10-25T23:47:42Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_subsets.py",
+    "--input",
+    "data/weather/20260603/aifs-ens/84",
+    "--output",
+    "results/subsets-units/20260603/aifs-ens/84"
+  ],
+  "timeout_seconds": 1200,
+  "plan_path": "protocol/plan-v3.1-subset-clarification.md",
+  "plan_commit_id": "35b0ad3b7464bcd76c0902d986ce14353fd42f40",
+  "code_commit_id": "b4462640f6258cc1868d84c5f163f62fbfccb927",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/subset-design-v3.json": "4eb1e19e92ad317f517b62f711793a827a39ba31ad64f0e7698f70baa3f4d2c7",
+    "data/weather/20260603/aifs-ens/84/temperatures.npz": "8fa386a8a23f0d7bed38efc3e3c50e539f7444dacf65bc89d122063e0761563a"
+  },
+  "status": "completed",
+  "start_event_id": "E0130",
+  "child_pid": 49002,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-25T23:48:03Z",
+  "elapsed_seconds": 21.83041579206474,
+  "end_event_id": "E0132"
+}

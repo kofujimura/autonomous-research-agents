@@ -1,0 +1,26 @@
+{
+ "list": "/Users/fujimura/Research/ai-free-research-en/run-017/review/submission-1/OUTPUT_SHA256.jsonl",
+ "started_at_utc": "2026-10-27T12:05:17.732109+00:00",
+ "completed_at_utc": "2026-10-27T12:05:23.183276+00:00",
+ "scope_record": {
+  "type": "scope",
+  "started_at_utc": "2026-10-27T11:59:34.455533Z",
+  "completed_at_utc": "2026-10-27T11:59:41.066739Z",
+  "scope": "HASH_SCOPE.md",
+  "included_files": 7522,
+  "included_bytes": 5558656152,
+  "exclusions": "See HASH_SCOPE.md; all raw self-rerun measurements and prediction arrays are included"
+ },
+ "entries": 7522,
+ "match": 7521,
+ "mismatch": 1,
+ "missing": 0,
+ "mismatch_paths": [
+  {
+   "path": "events.jsonl",
+   "expected_bytes": 123847,
+   "actual_bytes": 124725
+  }
+ ],
+ "missing_paths": []
+}

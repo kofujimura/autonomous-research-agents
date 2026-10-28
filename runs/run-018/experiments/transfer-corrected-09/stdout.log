@@ -1,0 +1,10 @@
+{"region": "R09", "start_time_utc": "2026-10-28T00:03:22.052614+00:00", "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_transfer.py", "--region", "R09", "--inputs", "analysis/features-corrected", "--output", "analysis/transfer-corrected/R09"]}
+{"stage": "fit", "method": "hydro_pair", "elapsed_seconds": 171.83248199988157}
+{"stage": "fit", "method": "pair_aef", "elapsed_seconds": 348.1947110418696}
+{"stage": "fit", "method": "pair_tessera", "elapsed_seconds": 525.2090264579747}
+{"stage": "fit", "method": "pair_both", "elapsed_seconds": 706.6651303330436}
+{"stage": "rotation", "rotation": 0, "query_n": 23, "elapsed_seconds": 748.9178181248717}
+{"stage": "rotation", "rotation": 1, "query_n": 69, "elapsed_seconds": 750.441992792068}
+{"stage": "rotation", "rotation": 2, "query_n": 19, "elapsed_seconds": 750.9171201249119}
+{"stage": "rotation", "rotation": 3, "query_n": 62, "elapsed_seconds": 752.3248809999786}
+{"start_time_utc": "2026-10-28T00:03:23.478920+00:00", "end_time_utc": "2026-10-28T00:15:55.806116+00:00", "elapsed_seconds": 752.3249175830279, "region": "R09", "forest_seed": 18027, "training_n": 3494, "training_pairs": 93592, "heldout_n": 173, "region_indicators": false, "training_classes": {"A": 649, "C": 2080, "F": 765}, "input_sha256": {"analysis/features-corrected/rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "analysis/features-corrected/features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}

@@ -1,0 +1,6 @@
+{"region_id": "S01", "centre": [-98.08634627265792, 45.83238344064153], "epsg": 32614, "bounds": [562960, 5067830, 578960, 5083830], "raw_unique": 4164, "eligible": 2320, "selected": 1200, "created_at_utc": "2026-10-27T15:57:16.366031+00:00"}
+{"region": "S02", "error": "Public NWI query failed: S02-wetlands-0", "observed_at_utc": "2026-10-27T15:57:29.405844+00:00"}
+{"region": "S03", "error": "Public NWI query failed: S03-all-attribute-counts", "observed_at_utc": "2026-10-27T15:57:32.562659+00:00"}
+{"region": "S04", "error": "Public NWI query failed: S04-all-attribute-counts", "observed_at_utc": "2026-10-27T15:57:35.706501+00:00"}
+{"region": "S05", "error": "Public NWI query failed: S05-all-attribute-counts", "observed_at_utc": "2026-10-27T15:57:38.853644+00:00"}
+{"region_id": "S06", "centre": [-122.60629944611773, 44.60338636037852], "epsg": 32610, "bounds": [523240, 4930970, 539240, 4946970], "raw_unique": 231, "eligible": 103, "selected": 103, "created_at_utc": "2026-10-27T15:58:04.211488+00:00"}

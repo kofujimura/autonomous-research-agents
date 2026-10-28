@@ -1,0 +1,11 @@
+# Exploratory revision v10: stable arable-land boundary
+
+Fixed after the original broad results and their prespecified arable/grassland context summaries. The main cohort includes20 grassland-dominated and8 arable-dominated landscapes. At n128 the arable-dominated direct comparison had similar coverage for revisited and independent samples, unlike the overall comparison. Do not generalize the aggregate interval deficit to all cropland monitoring.
+
+On each of the same30 fixed test landscapes, take the complete10m reference raster and retain pixels whose fine published category has parent `Arable Land` in every year2021–2025, as well as satisfying the original stable agricultural mask. This retains temporary grassland and fallow where the published hierarchy assigns them to arable land, and excludes permanent grassland. This is a changed, retrospective stable-arable estimand, not a replacement for the original agricultural-support result.
+
+Include a landscape only if at least1,024 pixels remain, so every original budget up to512 samples at most half its population. Save the support counts, eligibility and exclusions for all30 landscapes without replacement. The threshold is fixed before this analysis; do not adjust it to improve results. If fewer than five landscapes qualify, report the small scope and do not seek a new cohort.
+
+Run direct estimates only, for both original17-group and54-group taxonomies, all three primary transitions, original budgets32–512,500 paired and independent samples per condition, using the same estimator, gradient floor, finite-population correction, interval and direction rule. Within a frame/landscape/transition share samples across taxonomies. Save draws, raw estimates and all failures. Report MSE ratios, coverage, reporting, wrong reporting, entropy-floor/zero-change/trivial-case counts, and changed-pixel frequencies. This tests the extent of the original reference-sampling behavior when permanent grassland is excluded; it does not test satellite-assisted estimates on this new frame.
+
+All outcomes are exploratory. No new data, AI calls or human participants. Use the existing pinned hierarchy, record its hash, and run only through the two-slot runner with a1,800-second timeout. Preserve all earlier results.

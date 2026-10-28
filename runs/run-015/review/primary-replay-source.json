@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-26T05:17:08Z",
+  "source_copy_path": "verification_work/primary-source",
+  "source_commit_id": "e6f5f194866fa8cc73b2d41c77aa6799c7e49927",
+  "primary_cases_sha256": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d",
+  "subset_units": 115,
+  "sum_recorded_subset_compute_seconds": 2418.4855070002377,
+  "max_recorded_unit_seconds": 51.21930504194461,
+  "scope": "Frozen original sample for full subset LP replay; city extension is incomplete here. This is an author re-run, not independent reproduction."
+}

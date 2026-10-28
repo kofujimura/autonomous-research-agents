@@ -1,0 +1,28 @@
+{
+  "experiment_id": "nlcd-prepare-v4",
+  "start_at_utc": "2026-10-25T10:12:36Z",
+  "end_at_utc": "2026-10-25T10:12:43Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_nlcd.py"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/plan-v4.md",
+  "plan_commit_id": "3efd729c24e8e889e64c7bb5d2770173613721fa",
+  "code_commit_id": "e1f146521db17c768f6334bee652a2fcf6e81bfb",
+  "input_sha256": {
+    "data/nlcd/NLCD2023_Full8360_AnnualAttributes.csv": "1447bb03636c2f1d9f78ad164aeb4ef42ab86a9e82332bc8899e812d13f63079",
+    "data/nlcd/Plot_Coordinates_List_Simple_and_Stratified.csv": "d353a6539e7296c40725ece20475fbb4d938b2ce9a0d6db148de91a67beca8d5",
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+    "data/prepared/references.csv": "8d2161765a97982d362e57c7d9e4b1b41b51f9a9602f124e33474adee915e180",
+    "data/controls/controls.csv": "a045930a0d18e6bb2a3ee70ce7e23870e7818fe6808e64bf16cb819c4657a4d2"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0114",
+  "pid": 15645,
+  "elapsed_seconds": 7.263694999972358,
+  "end_event_id": "E0115"
+}

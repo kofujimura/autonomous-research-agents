@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/audit_pool_influence.py", line 39, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=ROOT);p.add_argument('--out',type=Path,required=True);a=p.parse_args();audit(a.root,a.out)
+                                                                                                                                                 ~~~~~^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/audit_pool_influence.py", line 13, in audit
+    key=str(summary.relative_to(root));meta=json.loads((summary/'summary.json').read_text());raw=Path(meta['source_predictions']);raw=root/(raw.relative_to(original) if raw.is_absolute() else raw)
+                                                                                                      ~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'source_predictions'

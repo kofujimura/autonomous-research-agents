@@ -1,0 +1,22 @@
+{"task_id": "combine-all12", "command": [".venv/bin/python", "code/combine_transfer.py", "--inputs", "analysis/transfer-corrected", "--output", "analysis/transfer-combined-corrected"], "start_time_utc": "2026-10-28T03:10:50.308151+00:00"}
+{"task_id": "summary", "command": [".venv/bin/python", "code/summarize_matching.py", "--inputs", "analysis/transfer-combined-corrected", "--out", "analysis/transfer-corrected-summary"], "start_time_utc": "2026-10-28T03:10:51.264491+00:00"}
+{"source_predictions": "analysis/transfer-combined-corrected", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.76                33.70
+           aef_cosine               37.44                33.92
+          aef_decoder               42.22                40.69
+         aef_whitened               35.29                32.04
+            geography               35.73                39.58
+    hydro_aef_decoder               44.36                39.47
+        hydro_decoder               43.42                45.73
+      hydro_euclidean               41.78                42.57
+           hydro_pair               40.64                40.41
+hydro_tessera_decoder               44.55                44.68
+         label_oracle                0.00                 0.00
+             pair_aef               39.69                42.96
+            pair_both               41.90                39.75
+         pair_tessera               37.05                37.53
+      tessera_centred               33.91                31.98
+       tessera_cosine               35.72                33.26
+      tessera_decoder               40.53                38.53
+     tessera_whitened               30.66                30.99

@@ -1,0 +1,32 @@
+{
+  "experiment_id": "E19-jackknife-tessera",
+  "start_time_utc": "2026-10-26T21:26:42.097580Z",
+  "end_time_utc": "2026-10-26T21:27:04.976569Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/extensions_pipeline.py",
+    "--representation",
+    "tessera",
+    "--stage",
+    "jackknife"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6a-jackknife-fpc.md",
+  "plan_commit_id": "a829e40f643963d601f38e340da210891afccd06",
+  "plan_sha256": "2f18d9c83bdc5f2ced8686d8e2eb83c3fe1eb6febc51dcaf0b043c4332929a98",
+  "code_commit_id": "a829e40f643963d601f38e340da210891afccd06",
+  "inputs": [
+    {
+      "path": "results/inference/logistic-broad-tessera/analysis.json",
+      "sha256": "b3ead536c904bbb0651c6bf97588a3c86e7e1274ae38aab6ed748eb785ca9823"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E19-jackknife-tessera/stdout.txt",
+  "stderr_path": "experiments/E19-jackknife-tessera/stderr.txt",
+  "start_event_id": "E0276",
+  "pid": 6787,
+  "elapsed_seconds": 22.87899895897135,
+  "end_event_id": "E0277"
+}

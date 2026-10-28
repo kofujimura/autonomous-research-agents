@@ -1,0 +1,31 @@
+{
+  "experiment_id": "end-to-end-self-rerun-3",
+  "start_at_utc": "2026-10-25T18:50:36Z",
+  "end_at_utc": "2026-10-25T19:05:32Z",
+  "command": [
+    "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/bin/python",
+    "-B",
+    "/Users/fujimura/Research/ai-free-research-en/run-014/verification-work/attempt-3/source/scripts/reproduce.py",
+    "--output",
+    "/Users/fujimura/Research/ai-free-research-en/run-014/verification-work/attempt-3/results"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/verification-v3.md",
+  "plan_commit_id": "5c07b4b98b520cf39d0714d1ae38719316eb98f6",
+  "additional_plan_commits": {
+    "protocol/verification-v2.md": "4db5d8bcd2a3c4a334026c5c9af7165972be3944",
+    "protocol/plan-v24.md": "7936963dc7b0831e4a5bf4cd1ac5d712a5b22d2c"
+  },
+  "code_commit_id": "5c07b4b98b520cf39d0714d1ae38719316eb98f6",
+  "input_sha256": {
+    "requirements-analysis.txt": "8e69b6fd18cc58046014833b2e00b7ab5f13f902e6ee526ee12e3c912edfc7bc"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0566",
+  "pid": 33683,
+  "elapsed_seconds": 896.0502692908049,
+  "end_event_id": "E0572"
+}

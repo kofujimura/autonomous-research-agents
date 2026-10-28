@@ -1,0 +1,82 @@
+[
+  {
+    "core_id": "R03C12",
+    "observed_at_utc": "2026-10-27T08:17:56.455390Z",
+    "embedding_norm_quantiles": [
+      0.9925477504730225,
+      1.0001030564308167,
+      1.008899211883545
+    ],
+    "feature_path": "data/derived/features/R03C12.npz",
+    "feature_sha256": "447680f4c0e0073033345b15669d3854401dcc9e17366f2624542afcde9ae0bf",
+    "metadata_path": "data/derived/features/R03C12.json",
+    "metadata_sha256": "96a5c4f85479a7a20684166187cb45705e20951b00e432cbdb2807e19a9a1e3a",
+    "valid_pixels": 64606,
+    "positive_pixels": 935,
+    "reference_scoring_empty": false,
+    "main_small_patches": 5,
+    "zero_pixel_patches": 0,
+    "all_finite": true,
+    "orientation": "north-up target; native orientation preserved in source metadata"
+  },
+  {
+    "core_id": "R03C13",
+    "observed_at_utc": "2026-10-27T08:17:56.715686Z",
+    "embedding_norm_quantiles": [
+      0.9919593930244446,
+      1.000105857849121,
+      1.0084408521652222
+    ],
+    "feature_path": "data/derived/features/R03C13.npz",
+    "feature_sha256": "6c1fec757690985168ec74a58227c4a385fcbebc83d0cadc0ffcd511dcb5f718",
+    "metadata_path": "data/derived/features/R03C13.json",
+    "metadata_sha256": "76e456d7c6fd17166a0af55ab2f03b428f06df423e154b7a89d67e7f3b31f6c0",
+    "valid_pixels": 63399,
+    "positive_pixels": 11940,
+    "reference_scoring_empty": false,
+    "main_small_patches": 10,
+    "zero_pixel_patches": 0,
+    "all_finite": true,
+    "orientation": "north-up target; native orientation preserved in source metadata"
+  },
+  {
+    "core_id": "R03C14",
+    "observed_at_utc": "2026-10-27T08:17:56.961743Z",
+    "embedding_norm_quantiles": [
+      0.9909348487854004,
+      1.0000994205474854,
+      1.0084888935089111
+    ],
+    "feature_path": "data/derived/features/R03C14.npz",
+    "feature_sha256": "1b89329db16cf83bf674ed12e05a82c63fd96741695d938042a319102f55859f",
+    "metadata_path": "data/derived/features/R03C14.json",
+    "metadata_sha256": "65cb13788e5f85c4d4c18fa5a6bb00ea8760f2525ebe4cd303b9ff82925646ef",
+    "valid_pixels": 64719,
+    "positive_pixels": 8399,
+    "reference_scoring_empty": false,
+    "main_small_patches": 21,
+    "zero_pixel_patches": 0,
+    "all_finite": true,
+    "orientation": "north-up target; native orientation preserved in source metadata"
+  },
+  {
+    "core_id": "R03C15",
+    "observed_at_utc": "2026-10-27T08:17:57.205087Z",
+    "embedding_norm_quantiles": [
+      0.9920132160186768,
+      1.0000910758972168,
+      1.0082756280899048
+    ],
+    "feature_path": "data/derived/features/R03C15.npz",
+    "feature_sha256": "f7caeff62bc5fa25474da0d8ac172afec0e0839606d122f51ce526958d5a5d9d",
+    "metadata_path": "data/derived/features/R03C15.json",
+    "metadata_sha256": "48cf18ec5180e5595b0090630337dd36a3d6f12fa228c4faeb49b44cfc338f4e",
+    "valid_pixels": 65421,
+    "positive_pixels": 7817,
+    "reference_scoring_empty": false,
+    "main_small_patches": 5,
+    "zero_pixel_patches": 0,
+    "all_finite": true,
+    "orientation": "north-up target; native orientation preserved in source metadata"
+  }
+]

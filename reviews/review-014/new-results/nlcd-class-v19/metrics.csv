@@ -1,0 +1,9 @@
+availability_mode,model,support,seed,reference_mode,task,method,n_positive,n_negative,true_positive,false_positive,sensitivity,false_positive_rate,J,auroc,bootstrap_valid,n_spatial_blocks,threshold_ties,sensitivity_lo,sensitivity_hi,false_positive_rate_lo,false_positive_rate_hi,J_lo,J_hi
+nlcd_beyond_2021_primary,initial_class_only,centre,14014,not_applicable,gain,initial_class_transition_rate,7,115,0,0,0.0,0.0,0.0,0.3068322981366459,1982,31,63,0.0,0.0,0.0,0.0,0.0,0.0
+nlcd_beyond_2021_primary,initial_class_only,centre,14014,not_applicable,loss,initial_class_transition_rate,26,100,0,0,0.0,0.0,0.0,0.3392307692307692,2000,32,126,0.0,0.0,0.0,0.0,0.0,0.0
+nlcd_beyond_2021_unambiguous,initial_class_only,centre,14014,not_applicable,gain,initial_class_transition_rate,5,59,0,0,0.0,0.0,0.0,0.3983050847457627,1968,26,31,0.0,0.0,0.0,0.0,0.0,0.0
+nlcd_beyond_2021_unambiguous,initial_class_only,centre,14014,not_applicable,loss,initial_class_transition_rate,22,83,0,0,0.0,0.0,0.0,0.34720700985761227,2000,29,105,0.0,0.0,0.0,0.0,0.0,0.0
+nlcd_overlapping_2019_2021_primary,initial_class_only,centre,14014,not_applicable,gain,initial_class_transition_rate,24,121,0,0,0.0,0.0,0.0,0.1528925619834711,2000,38,73,0.0,0.0,0.0,0.0,0.0,0.0
+nlcd_overlapping_2019_2021_primary,initial_class_only,centre,14014,not_applicable,loss,initial_class_transition_rate,29,100,0,0,0.0,0.0,0.0,0.6094827586206897,2000,31,129,0.0,0.0,0.0,0.0,0.0,0.0
+nlcd_overlapping_2019_2021_unambiguous,initial_class_only,centre,14014,not_applicable,gain,initial_class_transition_rate,13,60,0,0,0.0,0.0,0.0,0.19871794871794876,1998,31,37,0.0,0.0,0.0,0.0,0.0,0.0
+nlcd_overlapping_2019_2021_unambiguous,initial_class_only,centre,14014,not_applicable,loss,initial_class_transition_rate,23,85,0,0,0.0,0.0,0.0,0.6020460358056265,2000,28,108,0.0,0.0,0.0,0.0,0.0,0.0

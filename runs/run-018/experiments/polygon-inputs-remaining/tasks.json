@@ -1,0 +1,182 @@
+[
+  {
+    "task_id": "tessera-R04",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R04"
+    ],
+    "start_time_utc": "2026-10-27T18:48:34.841684+00:00",
+    "end_time_utc": "2026-10-27T18:49:42.084025+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "tessera-R05",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R05"
+    ],
+    "start_time_utc": "2026-10-27T18:49:42.084462+00:00",
+    "end_time_utc": "2026-10-27T18:50:06.784385+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "tessera-R06",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R06"
+    ],
+    "start_time_utc": "2026-10-27T18:50:06.784811+00:00",
+    "end_time_utc": "2026-10-27T18:50:47.664511+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "tessera-R07",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R07"
+    ],
+    "start_time_utc": "2026-10-27T18:50:47.664967+00:00",
+    "end_time_utc": "2026-10-27T18:50:53.244865+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "tessera-R08",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R08"
+    ],
+    "start_time_utc": "2026-10-27T18:50:53.245298+00:00",
+    "end_time_utc": "2026-10-27T18:51:03.339055+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "tessera-R09",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R09"
+    ],
+    "start_time_utc": "2026-10-27T18:51:03.339509+00:00",
+    "end_time_utc": "2026-10-27T18:51:29.322449+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "tessera-R10",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R10"
+    ],
+    "start_time_utc": "2026-10-27T18:51:29.322888+00:00",
+    "end_time_utc": "2026-10-27T18:52:18.545486+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "tessera-R11",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R11"
+    ],
+    "start_time_utc": "2026-10-27T18:52:18.545930+00:00",
+    "end_time_utc": "2026-10-27T18:53:34.606902+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "tessera-R12",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "tessera",
+      "R12"
+    ],
+    "start_time_utc": "2026-10-27T18:53:34.607347+00:00",
+    "end_time_utc": "2026-10-27T18:53:47.725360+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "aef-R07",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R07"
+    ],
+    "start_time_utc": "2026-10-27T18:53:47.725811+00:00",
+    "end_time_utc": "2026-10-27T18:55:30.739404+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "aef-R08",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R08"
+    ],
+    "start_time_utc": "2026-10-27T18:55:30.739842+00:00",
+    "end_time_utc": "2026-10-27T18:57:35.414982+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "aef-R09",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R09"
+    ],
+    "start_time_utc": "2026-10-27T18:57:35.415410+00:00",
+    "end_time_utc": "2026-10-27T19:00:00.726798+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "aef-R10",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R10"
+    ],
+    "start_time_utc": "2026-10-27T19:00:00.727221+00:00",
+    "end_time_utc": "2026-10-27T19:03:08.202322+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "aef-R11",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R11"
+    ],
+    "start_time_utc": "2026-10-27T19:03:08.202742+00:00",
+    "end_time_utc": "2026-10-27T19:05:13.267377+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "aef-R12",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_polygon.py",
+      "aef",
+      "R12"
+    ],
+    "start_time_utc": "2026-10-27T19:05:13.267855+00:00",
+    "end_time_utc": "2026-10-27T19:07:49.520255+00:00",
+    "exit_code": 0
+  }
+]

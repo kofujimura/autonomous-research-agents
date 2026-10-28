@@ -1,0 +1,8 @@
+aef gain concurrent spearman=0.9466 sd(diff)/sd(base)=0.247 max within-fold-year sd(diff)=1.60e-02
+aef gain control_adjusted spearman=0.9785 sd(diff)/sd(base)=0.165 max within-fold-year sd(diff)=4.05e-18
+aef loss concurrent spearman=0.9600 sd(diff)/sd(base)=0.170 max within-fold-year sd(diff)=1.11e-02
+aef loss control_adjusted spearman=0.9822 sd(diff)/sd(base)=0.101 max within-fold-year sd(diff)=5.00e-18
+tessera gain concurrent spearman=0.9572 sd(diff)/sd(base)=0.210 max within-fold-year sd(diff)=1.49e-02
+tessera gain control_adjusted spearman=0.9956 sd(diff)/sd(base)=0.077 max within-fold-year sd(diff)=3.79e-18
+tessera loss concurrent spearman=0.9640 sd(diff)/sd(base)=0.160 max within-fold-year sd(diff)=1.88e-02
+tessera loss control_adjusted spearman=0.9905 sd(diff)/sd(base)=0.075 max within-fold-year sd(diff)=6.08e-18

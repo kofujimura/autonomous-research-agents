@@ -1,0 +1,23 @@
+{
+  "experiment_id": "pilot-c3-retry",
+  "start_at_utc": "2026-10-25T08:38:58Z",
+  "end_at_utc": "2026-10-25T08:39:07Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pilot_access.py",
+    "c3"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 750,
+  "seed": null,
+  "plan_path": "protocol/topic-selection.md",
+  "plan_commit_id": "1f6791187c73fbb075eed82a602067aab482b6e3",
+  "code_commit_id": "92dbba6800069178311f024353c41fe8c1975f4c",
+  "input_sha256": {},
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0020",
+  "pid": 11975,
+  "elapsed_seconds": 9.170638083014637,
+  "end_event_id": "E0021"
+}

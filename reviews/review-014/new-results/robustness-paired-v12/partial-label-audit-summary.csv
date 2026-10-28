@@ -1,0 +1,4 @@
+role,cohort,unique_matches,later_labels,later_binary_agreement,later_binary_disagreement,baseline_labels,baseline_conflicts,unknown_later
+non_tree_control,50,50,37,37,0,13,0,13
+reference,58,58,35,35,0,23,0,23
+tree_control,58,57,37,37,0,20,0,21

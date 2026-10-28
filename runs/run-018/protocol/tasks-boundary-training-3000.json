@@ -1,0 +1,29 @@
+[
+  {
+    "task_id": "training-3000",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/features-corrected",
+      "--output",
+      "analysis/boundaries-corrected/training-3000",
+      "--extra",
+      "--training-buffer",
+      "3000"
+    ]
+  },
+  {
+    "task_id": "training-3000-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/boundaries-corrected/training-3000",
+      "--out",
+      "analysis/boundaries-corrected/training-3000-summary"
+    ]
+  }
+]

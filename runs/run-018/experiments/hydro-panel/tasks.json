@@ -1,0 +1,122 @@
+[
+  {
+    "region": "R01",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:46:48.443514+00:00",
+    "end_time_utc": "2026-10-27T15:47:11.080140+00:00",
+    "elapsed_seconds": 22.6367649580352,
+    "error": null,
+    "input_selected_sha256": "399c234c2cde1d999e6f15eaa2dc6142d482e4499a27ab282053a92ff49890f0"
+  },
+  {
+    "region": "R02",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:47:11.081979+00:00",
+    "end_time_utc": "2026-10-27T15:47:44.783368+00:00",
+    "elapsed_seconds": 33.70174458390102,
+    "error": null,
+    "input_selected_sha256": "7a5b2872eb6bc03634c09fcb8c771b477c2f426ff4a56608110b32f890409268"
+  },
+  {
+    "region": "R03",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:47:44.788776+00:00",
+    "end_time_utc": "2026-10-27T15:48:16.359534+00:00",
+    "elapsed_seconds": 31.571091667050496,
+    "error": null,
+    "input_selected_sha256": "fd978ed7e0d844d2018666e506d0cad876aba442e26517360d258636aab801c1"
+  },
+  {
+    "region": "R04",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:48:16.371107+00:00",
+    "end_time_utc": "2026-10-27T15:48:55.562729+00:00",
+    "elapsed_seconds": 39.19203145802021,
+    "error": null,
+    "input_selected_sha256": "78c51b16c3f42a57528e7749ae51225c0334d597d1401e2e56dca6e30f3b7dc2"
+  },
+  {
+    "region": "R05",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:48:55.563687+00:00",
+    "end_time_utc": "2026-10-27T15:49:30.624827+00:00",
+    "elapsed_seconds": 35.06151366699487,
+    "error": null,
+    "input_selected_sha256": "5dade49e15c593584dff3f271965308f2da180582572a83e486e8b05b98d6c19"
+  },
+  {
+    "region": "R06",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:49:30.625475+00:00",
+    "end_time_utc": "2026-10-27T15:50:21.984485+00:00",
+    "elapsed_seconds": 51.359552667010576,
+    "error": null,
+    "input_selected_sha256": "12d2ec168094a065358c0425d478a1da1b928888570070b15314928ee3e2bea1"
+  },
+  {
+    "region": "R07",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:50:21.985092+00:00",
+    "end_time_utc": "2026-10-27T15:50:32.496035+00:00",
+    "elapsed_seconds": 10.511061666999012,
+    "error": "[Errno 2] No such file or directory: '/Users/fujimura/Research/ai-free-research-en/run-018/data/main/R07/dem-check-explicit-crs-2.json'",
+    "input_selected_sha256": "e0aa09a15dcc9d063abe5e449b55c97c34d2042044c816b516f91ea30178776c"
+  },
+  {
+    "region": "R08",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:50:32.496941+00:00",
+    "end_time_utc": "2026-10-27T15:51:01.345666+00:00",
+    "elapsed_seconds": 28.849030416924506,
+    "error": "Unexpected occurrence values",
+    "input_selected_sha256": "36cc8224fa3cd0bf30124223606e45168775d30d9393799e58a3d1e430aa0d28"
+  },
+  {
+    "region": "R09",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:51:01.346261+00:00",
+    "end_time_utc": "2026-10-27T15:51:29.692187+00:00",
+    "elapsed_seconds": 28.346225542016327,
+    "error": null,
+    "input_selected_sha256": "e69846f093ce76d0023aa43942261f881ceafb60a25712fcf000d44109ffbb33"
+  },
+  {
+    "region": "R10",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:51:29.693037+00:00",
+    "end_time_utc": "2026-10-27T15:52:07.595924+00:00",
+    "elapsed_seconds": 37.903288499917835,
+    "error": null,
+    "input_selected_sha256": "13f615caed14ceafbf1eae3355b72c8919b95036b76a9c4371ea2c368d9adce2"
+  },
+  {
+    "region": "R11",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:52:07.596668+00:00",
+    "end_time_utc": "2026-10-27T15:52:37.754681+00:00",
+    "elapsed_seconds": 30.158331874990836,
+    "error": null,
+    "input_selected_sha256": "7b71a16aa66f150a03f6c2a799a97a444bf388bcf75af110cc4098169857401f"
+  },
+  {
+    "region": "R12",
+    "product": "hydro",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:52:37.755653+00:00",
+    "end_time_utc": "2026-10-27T15:53:00.778378+00:00",
+    "elapsed_seconds": 23.022978708846495,
+    "error": "[Errno 2] No such file or directory: '/Users/fujimura/Research/ai-free-research-en/run-018/data/main/R12/dem-check-explicit-crs-1.json'",
+    "input_selected_sha256": "f63674fb2d941e379ef58c28a1fdd2cd402d7ecae8fc2e94c0fe0f1a197dbc87"
+  }
+]

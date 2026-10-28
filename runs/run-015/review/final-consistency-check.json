@@ -1,0 +1,12 @@
+{
+  "observed_at_utc": "2026-10-26T13:41:50Z",
+  "status": "passed",
+  "critical_root_changes_since_verified_snapshot": [],
+  "review_points": 7,
+  "new_analysis_runs": 1,
+  "new_verification_runs": 1,
+  "claim_status_changes": 0,
+  "new_exploratory_claims": 1,
+  "all_claim_evidence_paths_exist": true,
+  "regenerated_paper_byte_identical": true
+}

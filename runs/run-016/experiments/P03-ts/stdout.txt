@@ -1,0 +1,1 @@
+{"path": "experiments/P03-ts/car-parts.zip", "bytes": 39609, "sha256": "a0b1e87e2329098837e5cfd020e16a36e30efa9a29a1fae8d1bd3603dfefcfea", "status": "success"}

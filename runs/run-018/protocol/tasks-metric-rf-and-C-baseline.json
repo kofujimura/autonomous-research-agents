@@ -1,0 +1,64 @@
+[
+  {
+    "task_id": "primary-rf-all",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "metric",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--output",
+      "analysis/metric-whitened/primary-rf-all",
+      "--extra",
+      "--baselines",
+      "analysis/controls/all-corrected-seed-0",
+      "--metric-learner",
+      "forest",
+      "--distance-transform",
+      "whitened",
+      "--forest-all-features"
+    ]
+  },
+  {
+    "task_id": "primary-rf-all-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/metric-whitened/primary-rf-all",
+      "--out",
+      "analysis/metric-whitened/primary-rf-all-summary"
+    ]
+  },
+  {
+    "task_id": "polygonC-raw-rf-all",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "seed",
+      "--inputs",
+      "analysis/polygon-features-v3/C",
+      "--primary",
+      "analysis/polygon/C-rf",
+      "--output",
+      "analysis/metric-whitened/polygonC-raw-rf-all",
+      "--extra",
+      "--forest-all-features"
+    ]
+  },
+  {
+    "task_id": "polygonC-raw-rf-all-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/metric-whitened/polygonC-raw-rf-all",
+      "--out",
+      "analysis/metric-whitened/polygonC-raw-rf-all-summary"
+    ]
+  }
+]

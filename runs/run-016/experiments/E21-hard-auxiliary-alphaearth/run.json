@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E21-hard-auxiliary-alphaearth",
+  "start_time_utc": "2026-10-26T21:32:43.064235Z",
+  "end_time_utc": "2026-10-26T21:33:13.983149Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/hard_auxiliary_pipeline.py",
+    "--representation",
+    "alphaearth"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v9-hard-auxiliary.md",
+  "plan_commit_id": "39ad372cf244c62bdfcd1dfc5a5cc1ac6ffffca8",
+  "plan_sha256": "ef3c4f82e3a618a7c38cd97cc4b268364a70ab0b88ad7eab9ae51e87106f771d",
+  "code_commit_id": "39ad372cf244c62bdfcd1dfc5a5cc1ac6ffffca8",
+  "inputs": [
+    {
+      "path": "results/models/logistic-broad-alphaearth/fit.json",
+      "sha256": "eb8ba72c4001241447073a2aeeb5eee0d360735554993e708cb97aeab4cdbe4e"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E21-hard-auxiliary-alphaearth/stdout.txt",
+  "stderr_path": "experiments/E21-hard-auxiliary-alphaearth/stderr.txt",
+  "start_event_id": "E0297",
+  "pid": 7128,
+  "elapsed_seconds": 30.91895195795223,
+  "end_event_id": "E0298"
+}

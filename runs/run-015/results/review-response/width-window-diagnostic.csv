@@ -1,0 +1,10 @@
+cost_ratio,stratum,cases,wide_cases,certified_cases,wide_and_certified
+0.1,all,12096,2928,10389,1553
+0.1,near_boundary,5285,530,4424,1
+0.1,informative_near_boundary,532,460,1,1
+0.25,all,12096,2928,10582,1414
+0.25,near_boundary,695,692,17,14
+0.25,informative_near_boundary,693,690,16,13
+0.5,all,12096,2928,10622,1455
+0.5,near_boundary,627,622,6,2
+0.5,informative_near_boundary,623,621,3,2

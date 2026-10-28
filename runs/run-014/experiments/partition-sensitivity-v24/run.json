@@ -1,0 +1,32 @@
+{
+  "experiment_id": "partition-sensitivity-v24",
+  "start_at_utc": "2026-10-25T18:42:13Z",
+  "end_at_utc": "2026-10-25T18:47:57Z",
+  "command": [
+    "/Users/fujimura/Research/ai-free-research-en/run-014/.venv/bin/python",
+    "-B",
+    "scripts/partition_sensitivity.py",
+    "--output",
+    "analysis/partition-sensitivity-v24",
+    "--baseline",
+    "analysis/main-v1"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v24.md",
+  "plan_commit_id": "7936963dc7b0831e4a5bf4cd1ac5d712a5b22d2c",
+  "additional_plan_commits": {},
+  "code_commit_id": "7936963dc7b0831e4a5bf4cd1ac5d712a5b22d2c",
+  "input_sha256": {
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+    "data/prepared/references.csv": "8d2161765a97982d362e57c7d9e4b1b41b51f9a9602f124e33474adee915e180",
+    "analysis/main-v1/predictions.parquet": "9f6273c2cd8e39405dc0caf5477684ab5e860ece9d96576963c1f7c73ad55417"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0556",
+  "pid": 33270,
+  "elapsed_seconds": 343.79678520793095,
+  "end_event_id": "E0561"
+}

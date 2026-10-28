@@ -1,0 +1,4 @@
+/Users/fujimura/Research/ai-free-research-en/run-015/scripts/common_member_queries.py:19: DtypeWarning: Columns (29: source_sha256, 30: matched_date) have mixed types. Specify dtype option on import or set low_memory=False.
+  f=pd.read_csv(a.cases,dtype={'date':str})
+/Users/fujimura/Research/ai-free-research-en/run-015/scripts/integer_precision.py:86: Pandas4Warning: The 'verify_integrity' keyword in DataFrame.set_index is deprecated and will be removed in a future version. Directly check the result.index.is_unique instead.
+  selected=choose_cases(frame,design).set_index('case_key',verify_integrity=True)

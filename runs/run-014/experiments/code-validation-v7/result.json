@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-25T11:05:19Z",
+  "status": "PASS",
+  "fixture": "Perfect, time-invariant synthetic class vectors",
+  "target_pairs": 400,
+  "reference_pool": 80,
+  "primary_rows": 88,
+  "checks": [
+    "perfect transitions and zero false positives",
+    "zero control variance excluded",
+    "reference-anchor equality",
+    "paired bootstrap difference exactly zero",
+    "later target labels do not affect scores or thresholds"
+  ],
+  "note": "Software verification only; not an empirical environmental result"
+}

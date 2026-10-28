@@ -1,0 +1,3 @@
+# Numerical implementation correction to v6
+
+Fixed 2026-10-26T05:40:06Z. D002 failed on numpy.linalg.svd nonconvergence for a finite binary constraint matrix. Retain NumPy as primary and use scipy.linalg.svd(lapack_driver="gesvd") only on LinAlgError, with the same matrix, rank threshold, row residual tolerance, categories and value checks. No observations excluded and no scientific hypothesis or metric changed. Resume only units not already completed; preserve D001 and D002 records. D002 inadvertently names nonexistent protocol/plan-v6-identification.md; its intended pre-existing plan is protocol/plan-v6-identification-diagnostics.md, commit35c4acf4f98e82ae75524b8c161c61edb9aabc16. This correction does not retrospectively populate the mistaken record.

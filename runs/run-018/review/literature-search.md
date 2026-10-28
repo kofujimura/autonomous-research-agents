@@ -1,0 +1,9 @@
+# Review-response close-work check
+
+Recorded 2026-10-28T10:33:34.157699+00:00 after ordinary primary-source browsing and local reading. Exact individual query timestamps are unavailable; the retrieval/check records are in sources.jsonl and the source files. Initial urllib downloads failed certificate validation; ordinary curl downloads succeeded without disabling certificate checks.
+
+Search strings actually used included: `"Abrahamson" "Stegen" "AlphaEarth"`; `"Abrahamson" "AlphaEarth" wetland 2026`; `"Lang" "2008" "hydroperiod" radar NWI`; `"SWaRe" "2018" "Surface Water Regimes"`; `"Surface Water Regimes" "2018" satellite AGU SWaRe`; `"SWaRe" wetland DeVries 2018`; `"Surface Water Regimes" "AGU"`; `"SWaRe" satellite hydrology`; `"SWaRe" "wetland" "2018" DeVries`; and `"Developing a Dataset Describing Surface Water Regimes Across North American Wetlandscapes"`. These are a bounded search, not proof of absence. Irrelevant results were not retained as research inputs.
+
+The official SFS programme linked poster222 and its complete conference abstract. That abstract describes AlphaEarth regime mapping and clustering with EDEN comparison; it supplies no numerical performance result and no full empirical report was checked. Rahman2026 arXiv2602.10354v1 was read in full-text sections2.3,2.4.2,2.5.1,3.1.2 and3.2.1. DeVries2017 was read in sections3.1,5.1–5.2 and the small-wetland discussion. Lang2008 was read in sections3.3,4.1–4.2,5 and6. Their relevant passages, rather than search summaries, support the limited statements in the paper.
+
+For the2018surface-water-regime poster, only DeVries’s author conference list was confirmed. No full abstract or SWaRe product validation was located within these queries. The paper identifies the range checked and makes no method/performance claim from that item. No SAR baseline was acquired; the optical/terrain/HAND comparator scope is narrowed instead.

@@ -1,0 +1,31 @@
+{
+  "completed_at_utc": "2026-10-26T01:37:43Z",
+  "source_sha256": "b1fcaaa1ffad73352b93fa4ab978fd57a74e04dbc6cbb659aacb31b52e238a82",
+  "grib_metadata": {
+    "shortName": "lsm",
+    "dataDate": 20260603,
+    "dataTime": 0,
+    "endStep": 84,
+    "perturbationNumber": 1,
+    "units": "(0 - 1)"
+  },
+  "scope": "One IFS mask field, no site exclusions; not an AIFS classification or urban microclimate validation",
+  "groups": [
+    {
+      "portfolio_type": "regular",
+      "site_slots": 144,
+      "below_half_land": 1,
+      "strictly_mixed": 26,
+      "min_land_fraction": 0.0,
+      "max_land_fraction": 1.0
+    },
+    {
+      "portfolio_type": "city",
+      "site_slots": 144,
+      "below_half_land": 3,
+      "strictly_mixed": 56,
+      "min_land_fraction": 0.046875,
+      "max_land_fraction": 1.0
+    }
+  ]
+}

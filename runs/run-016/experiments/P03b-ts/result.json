@@ -1,0 +1,24 @@
+{
+  "pilot_id": "P03",
+  "started_at_utc": "2026-10-26T15:10:46.132494Z",
+  "ended_at_utc": "2026-10-26T15:10:46.809327Z",
+  "seed": 16003,
+  "model_requested": "amazon/chronos-t5-tiny",
+  "local": true,
+  "shape": [
+    4,
+    20,
+    6
+  ],
+  "finite_fraction": 1.0,
+  "prediction_seconds": 0.07421179208904505,
+  "lead_sum_sd": [
+    0.375,
+    0.10891921073198318,
+    1.0225573778152466,
+    0.375
+  ],
+  "source_limitation": "Missing values replaced by zeros; training-corpus overlap; not main-test evidence",
+  "input_sha256": "a0b1e87e2329098837e5cfd020e16a36e30efa9a29a1fae8d1bd3603dfefcfea",
+  "output_sha256": "ed4f98dc653f07065cf966d47e568b27070ac26b75294d93fb9fc030e111a3ec"
+}

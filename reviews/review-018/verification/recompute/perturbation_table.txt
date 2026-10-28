@@ -1,0 +1,47 @@
+condition                                       hydro_pair   hydro_decoder        pair_aef    pair_tessera       pair_both      pair_noise   pair_constant
+primary-corrected-summary                   36.98/ 34.15    39.71/ 37.80    34.03/ 33.48    33.26/ 31.71    34.05/ 32.21                                  
+primary-summary                             36.98/ 34.15    39.71/ 37.80    34.05/ 33.54    33.26/ 31.71    33.96/ 32.15                                  
+controls/seed-1000-summary                  32.57/ 33.59    37.71/ 35.75    31.84/ 33.15    33.94/ 32.43                                                  
+controls/seed-2000-summary                  37.42/ 34.15    37.59/ 37.14    36.01/ 33.31    34.55/ 33.37                                                  
+controls/constant-seed-0-summary            36.98/ 34.15    39.71/ 37.80                                                                    33.60/ 33.70  
+controls/constant-seed-1000-summary         32.57/ 33.59    37.71/ 35.75                                                                    36.49/ 34.09  
+controls/constant-seed-2000-summary         37.42/ 34.15    37.59/ 37.14                                                                    34.93/ 35.03  
+controls/noise-0-summary                    36.98/ 34.15    39.71/ 37.80                                                    32.41/ 33.09                  
+controls/noise-1-summary                    36.98/ 34.15    39.71/ 37.80                                                    35.74/ 34.31                  
+controls/noise-2-summary                    36.98/ 34.15    39.71/ 37.80                                                    35.96/ 33.43                  
+controls/permute-0-summary                  36.98/ 34.15    39.71/ 37.80    36.69/ 34.42    35.43/ 33.81                                                  
+controls/permute-1-summary                  36.98/ 34.15    39.71/ 37.80    34.21/ 33.15    35.19/ 33.37                                                  
+controls/permute-2-summary                  36.98/ 34.15    39.71/ 37.80    33.17/ 34.92    32.45/ 33.54                                                  
+controls/all-corrected-seed-0-summary       32.78/ 34.26    36.81/ 34.42    32.90/ 33.15    31.99/ 32.04                                                  
+controls/all-corrected-seed-1000-summary    33.11/ 33.59    38.66/ 36.59    33.10/ 32.76    32.03/ 31.43                                                  
+controls/all-corrected-seed-2000-summary    36.33/ 34.59    37.11/ 33.98    32.91/ 33.76    31.49/ 31.04                                                  
+controls/noise-all-0-summary                32.78/ 34.26    36.81/ 34.42                                                    32.85/ 33.98                  
+controls/noise-all-1-summary                32.78/ 34.26    36.81/ 34.42                                                    33.25/ 34.15                  
+controls/noise-all-2-summary                32.78/ 34.26    36.81/ 34.42                                                    32.65/ 34.09                  
+controls/constant-all-summary               32.78/ 34.26    36.81/ 34.42                                                                    33.70/ 34.26  
+controls/hgb-corrected-summary              40.61/ 35.42    36.63/ 39.25    38.96/ 34.59    37.72/ 35.09    36.04/ 32.82                                  
+controls/constant-hgb-summary               40.61/ 35.42    36.63/ 39.25                                                                    40.61/ 35.42  
+
+Differences vs same-condition hydro_pair (window-mean pp / pooled pp):
+primary-corrected-summary                  pair_aef: -2.95/-0.67; pair_tessera: -3.72/-2.44; pair_both: -2.92/-1.94
+primary-summary                            pair_aef: -2.92/-0.61; pair_tessera: -3.72/-2.44; pair_both: -3.02/-2.00
+controls/seed-1000-summary                 pair_aef: -0.73/-0.44; pair_tessera: +1.37/-1.16
+controls/seed-2000-summary                 pair_aef: -1.42/-0.83; pair_tessera: -2.87/-0.78
+controls/constant-seed-0-summary           pair_constant: -3.38/-0.44
+controls/constant-seed-1000-summary        pair_constant: +3.92/+0.50
+controls/constant-seed-2000-summary        pair_constant: -2.50/+0.89
+controls/noise-0-summary                   pair_noise: -4.56/-1.05
+controls/noise-1-summary                   pair_noise: -1.24/+0.17
+controls/noise-2-summary                   pair_noise: -1.02/-0.72
+controls/permute-0-summary                 pair_aef: -0.29/+0.28; pair_tessera: -1.55/-0.33
+controls/permute-1-summary                 pair_aef: -2.76/-1.00; pair_tessera: -1.78/-0.78
+controls/permute-2-summary                 pair_aef: -3.81/+0.78; pair_tessera: -4.53/-0.61
+controls/all-corrected-seed-0-summary      pair_aef: +0.12/-1.11; pair_tessera: -0.79/-2.22
+controls/all-corrected-seed-1000-summary   pair_aef: -0.01/-0.83; pair_tessera: -1.08/-2.16
+controls/all-corrected-seed-2000-summary   pair_aef: -3.42/-0.83; pair_tessera: -4.84/-3.55
+controls/noise-all-0-summary               pair_noise: +0.07/-0.28
+controls/noise-all-1-summary               pair_noise: +0.47/-0.11
+controls/noise-all-2-summary               pair_noise: -0.13/-0.17
+controls/constant-all-summary              pair_constant: +0.92/+0.00
+controls/hgb-corrected-summary             pair_aef: -1.65/-0.83; pair_tessera: -2.89/-0.33; pair_both: -4.57/-2.61
+controls/constant-hgb-summary              pair_constant: +0.00/+0.00

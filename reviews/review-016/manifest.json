@@ -1,0 +1,55 @@
+{
+  "review_id": "review-016-1",
+  "start_time_utc": "2026-10-27T02:25:46Z",
+  "start_time_local": "2026-10-27T11:25:46+09:00 (JST)",
+  "deadline_utc": "2026-10-27T05:25:46Z",
+  "deadline_local": "2026-10-27T14:25:46+09:00 (JST)",
+  "deadline_basis": "3 hours elapsed from start; extend only by confirmed usage-limit stop time",
+  "target": {
+    "research_directory": "/Users/fujimura/Research/ai-free-research-en/run-016",
+    "tag": "submission-1",
+    "tag_commit_id": "faf7dce40c1a27313b4ae7fb51554fa5d061393b",
+    "head_commit_id_at_start": "faf7dce40c1a27313b4ae7fb51554fa5d061393b"
+  },
+  "review_directory": "/Users/fujimura/Research/ai-free-research-en/review-016",
+  "model": {
+    "name_presented_in_conversation": "Opus 5.5 (human-specified: Opus 5.5, reasoning effort xhigh)",
+    "model_id_presented_in_system_prompt": "claude-opus-5-5",
+    "identifiers_confirmed_from_execution_environment": {
+      "CLAUDE_EFFORT_env": "xhigh",
+      "claude_cli_version": "2.1.311 (Claude Code)",
+      "CLAUDE_CODE_ENTRYPOINT": "cli"
+    },
+    "provider": "Anthropic (via Claude Code CLI); not independently confirmed from environment"
+  },
+  "runtime": {
+    "os": "macOS 26.5.2 (25F84), Darwin 25.5.0 arm64",
+    "python": "Python 3.13.7 (/Library/Frameworks/Python.framework/Versions/3.13/bin/python3)",
+    "git": "git version 2.50.1 (Apple Git-155)"
+  },
+  "unknowns": [
+    "The model identifier actually serving responses cannot be confirmed from the execution environment; no environment variable names the model. claude-opus-5-5 is taken from the system prompt.",
+    "Provider routing (direct API vs other) not confirmable from environment."
+  ],
+  "end_time_utc": "2026-10-27T02:45:56Z",
+  "excluded_usage_limit_stop_time": {
+    "seconds": 0,
+    "basis": "No usage-limit stop occurred; tool timestamps continuous from start to end"
+  },
+  "end_time_local": "2026-10-27T11:45:56+09:00 (JST)",
+  "end_state": "complete",
+  "target_state_end": {
+    "head": "faf7dce40c1a27313b4ae7fb51554fa5d061393b",
+    "tag_submission_1": "faf7dce40c1a27313b4ae7fb51554fa5d061393b",
+    "git_status": "events.jsonl modified (same as start; 2 lines appended by research side before review start)",
+    "sha256_inventory": {
+      "entries": 36535,
+      "match": 36535,
+      "mismatch": 0,
+      "missing": 0
+    },
+    "difference_from_start": "none"
+  },
+  "storage_at_end": "approx. 8.1 GiB (du -sh)",
+  "processes_remaining": "none"
+}

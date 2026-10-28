@@ -1,0 +1,35 @@
+[
+  {
+    "task_id": "R04",
+    "command": [
+      ".venv/bin/python",
+      "code/analyse_strong_transfer.py",
+      "--region",
+      "R04",
+      "--out",
+      "analysis/transfer-strong"
+    ]
+  },
+  {
+    "task_id": "R05",
+    "command": [
+      ".venv/bin/python",
+      "code/analyse_strong_transfer.py",
+      "--region",
+      "R05",
+      "--out",
+      "analysis/transfer-strong"
+    ]
+  },
+  {
+    "task_id": "R06",
+    "command": [
+      ".venv/bin/python",
+      "code/analyse_strong_transfer.py",
+      "--region",
+      "R06",
+      "--out",
+      "analysis/transfer-strong"
+    ]
+  }
+]

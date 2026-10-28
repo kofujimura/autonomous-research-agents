@@ -1,0 +1,282 @@
+[
+  {
+    "key": "Gann2019",
+    "source_id": "S006",
+    "authors": "Gann, G. D., et al.",
+    "year": 2019,
+    "title": "International principles and standards for the practice of ecological restoration. Second edition",
+    "venue": "Restoration Ecology",
+    "url": "https://doi.org/10.1111/rec.13035",
+    "checked": "Official full text, Principles 3 and 5, reference ecosystems and measurable recovery indicators"
+  },
+  {
+    "key": "Meroni2017",
+    "source_id": "S005",
+    "authors": "Meroni, M., et al.",
+    "year": 2017,
+    "title": "Remote sensing monitoring of land restoration interventions in semi-arid environments with a before–after control-impact statistical design",
+    "venue": "International Journal of Applied Earth Observation and Geoinformation, 59, 42–52",
+    "url": "https://doi.org/10.1016/j.jag.2017.02.016",
+    "checked": "Full text, introduction, sections 3–5, control selection and limitations"
+  },
+  {
+    "key": "Brown2025",
+    "source_id": "S002",
+    "authors": "Brown, C. F., et al.",
+    "year": 2025,
+    "title": "AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data",
+    "venue": "arXiv:2507.22291v2",
+    "url": "https://arxiv.org/abs/2507.22291v2",
+    "checked": "Full relevant methods and supplementary S3.3.1, LCMAP sampling and change labels"
+  },
+  {
+    "key": "Feng2026",
+    "source_id": "S003",
+    "authors": "Feng, Z., et al.",
+    "year": 2026,
+    "title": "TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis",
+    "venue": "arXiv:2506.20380v7; first preprint 2025",
+    "url": "https://arxiv.org/abs/2506.20380v7",
+    "checked": "Full relevant architecture, public annual embeddings and evaluation sections"
+  },
+  {
+    "key": "Heiman2026",
+    "source_id": "S004",
+    "authors": "Heiman, A.",
+    "year": 2026,
+    "title": "Characterizing Brazilian Atlantic Forest Restoration Outcomes with Geospatial AlphaEarth Embeddings",
+    "venue": "arXiv:2605.05547v1, ICLR ML4RS workshop preprint",
+    "url": "https://arxiv.org/abs/2605.05547v1",
+    "checked": "Full text, especially sections 2–5 and global/local reference cosine definitions"
+  },
+  {
+    "key": "Ball2026",
+    "source_id": "S021",
+    "authors": "Ball, J. G. C., et al.",
+    "year": 2026,
+    "title": "Geospatial foundation models enable data-efficient tree species mapping in temperate mountain forests",
+    "venue": "Science of Remote Sensing, article 100466",
+    "url": "https://doi.org/10.1016/j.srs.2026.100466",
+    "checked": "Author accepted full text, sections 2.5, 2.9, 3.5, Table 5 and discussion 4.5"
+  },
+  {
+    "key": "Pengra2023",
+    "source_id": "S007",
+    "authors": "Pengra, B. W., et al.",
+    "year": 2023,
+    "title": "LCMAP CONUS Reference Data Product 1984–2021 land cover, land use and change process attributes",
+    "venue": "U.S. Geological Survey data release",
+    "url": "https://doi.org/10.5066/P933Z1TK",
+    "checked": "Full FGDC metadata, sampling, dominant cover and Trees class including standing dead trees"
+  },
+  {
+    "key": "DeepMind2025",
+    "source_id": "S008",
+    "authors": "Google DeepMind",
+    "year": 2025,
+    "title": "AlphaEarth Foundations Supplemental Evaluation Datasets, v1.0.0",
+    "venue": "Zenodo data release",
+    "url": "https://doi.org/10.5281/zenodo.16585402",
+    "checked": "Embedded dataset and LCMAP README files, public-domain component terms and actual paired CSV"
+  },
+  {
+    "key": "USGS2025",
+    "source_id": "S024",
+    "authors": "U.S. Geological Survey",
+    "year": 2025,
+    "title": "Annual National Land Cover Database (NLCD) Collection 1.0 Reference Data Product",
+    "venue": "U.S. Geological Survey data release; official MRLC archive last modified 29 April 2026",
+    "url": "https://doi.org/10.5066/P13EDMAF",
+    "checked": "Full FGDC metadata, public tabular members, primary/alternate labels, exact Forest definition and pixel-centre coordinates"
+  },
+  {
+    "key": "Google2026",
+    "source_id": "S009",
+    "authors": "Google and Google DeepMind",
+    "year": 2026,
+    "title": "AlphaEarth Foundations satellite embeddings on Google Cloud Storage",
+    "venue": "Official data access and dequantization documentation, checked 25 October 2026",
+    "url": "https://developers.google.com/earth-engine/guides/aef_on_gcs_readme",
+    "checked": "Full technical guide, signed-square decoding, native grid, public access, index and CC BY 4.0 attribution"
+  },
+  {
+    "key": "TesseraData2026",
+    "source_id": "S011",
+    "authors": "TESSERA project",
+    "year": 2026,
+    "title": "TESSERA data and GeoTessera documentation",
+    "venue": "Official project data documentation, checked 25 October 2026",
+    "url": "https://github.com/ucam-eo/tessera",
+    "checked": "README data/model CC0 and software MIT terms; installed GeoTessera 0.11.0 API and explicit v1 registry"
+  },
+  {
+    "key": "Burns2026",
+    "source_id": "S029",
+    "authors": "Burns, M.",
+    "year": 2026,
+    "title": "Rethinking Change Detection and Attribution: How You Compare Satellite Embeddings Matters",
+    "venue": "Author case study, Google Earth and Earth Engine, 13 April",
+    "url": "https://medium.com/google-earth/rethinking-change-detection-and-attribution-how-you-compare-satellite-embeddings-matters-858f17f577d7",
+    "checked": "Full article through methods, Great Lakes case study, representation comparisons and Looking ahead; figures described but numerical figure values not extracted"
+  },
+  {
+    "key": "Sharma2026",
+    "source_id": "S030",
+    "authors": "Sharma, A., et al.",
+    "year": 2026,
+    "title": "Label-Free Detection of Hidden Forest Degradation Using Sentinel-2, Landsat Thermal Stress and AlphaEarth Embeddings",
+    "venue": "Preprints.org, version1, not peer reviewed",
+    "url": "https://www.preprints.org/manuscript/202610.0842",
+    "checked": "Full HTML introduction and Sections2.3–2.4,4.1–4.2,5.2 and conclusions; no numerical results adopted"
+  },
+  {
+    "key": "Gbodjo2026",
+    "source_id": "S031",
+    "authors": "Gbodjo, Y. J. E., and Ienco, D.",
+    "year": 2026,
+    "title": "Assessing the generalization of geospatial embeddings for temporal transfer in land cover classification",
+    "venue": "SSRN preprint; abstract-only search record, full methods not reviewed",
+    "url": "https://doi.org/10.2139/ssrn.6890917",
+    "checked": "Abstract/search only; not used as supporting evidence"
+  },
+  {
+    "key": "Bernhard2023",
+    "source_id": "S032",
+    "authors": "Bernhard, M., Strauß, N., and Schubert, M.",
+    "year": 2023,
+    "title": "MapFormer: Boosting Change Detection by Using Pre-change Information",
+    "venue": "ICCV2023; arXiv2303.17859v4",
+    "url": "https://arxiv.org/abs/2303.17859v4",
+    "checked": "Full relevant Sections1,3,5.4 and Table1; author arXiv version"
+  },
+  {
+    "authors": "Singh, G., Slingsby, J. A., Robinson, T. B., and Moncrieff, G.",
+    "year": 2026,
+    "title": "Reducing the labeling burden in time-series mapping using Common Ground: a semi-automated approach to tracking changes in land cover and species over time",
+    "url": "https://arxiv.org/pdf/2602.04373",
+    "venue": "arXiv:2602.04373v1",
+    "key": "Singh2026",
+    "source_id": "S034",
+    "checked": "Full relevant Section 2.1.2 and Table 1; temporal label reuse/stability and space-time validation"
+  },
+  {
+    "authors": "Backman, K., Wood, J., and Roff, A.",
+    "year": 2026,
+    "title": "Learning Woody Clearing with Loss Alignment for Zero-Shot Regrowth and Woody Segmentation",
+    "url": "https://arxiv.org/html/2608.26489v1",
+    "venue": "arXiv:2608.26489v1, 27 August 2026",
+    "key": "Backman2026",
+    "source_id": "S035",
+    "checked": "Full relevant Sections II–III, including III-E1 on zero-shot regrowth; no performance numbers adopted"
+  },
+  {
+    "authors": "Wang, Z., Liu, Y., Ren, Y., and Ma, H.",
+    "year": 2018,
+    "title": "Object-Level Double Constrained Method for Land Cover Change Detection",
+    "url": "https://doi.org/10.3390/s19010079",
+    "venue": "Sensors 19(1), 79; published 26 December 2018",
+    "key": "Wang2018",
+    "source_id": "S036",
+    "checked": "Full relevant Sections 2.2.3–2.2.4, equations 11–13; vector/intensity distinction only"
+  },
+  {
+    "key": "TgeLabs2026",
+    "source_id": "S010",
+    "authors": "tge-labs",
+    "year": 2026,
+    "title": "AEF Mosaic README",
+    "venue": "Source Cooperative account documentation for the unofficial public mosaic, checked 25 October 2026",
+    "url": "https://data.source.coop/tge-labs/aef-mosaic/README.md",
+    "checked": "Full documentation; geographic Zarr layout, resolution and attribution. Exact source-observation support and resampling not independently verified."
+  },
+  {
+    "key": "S037",
+    "source_id": "S037",
+    "authors": "Google",
+    "year": 2026,
+    "title": "Detect change (Experimental)",
+    "url": "https://developers.google.com/maps/documentation/earth/detect-change",
+    "venue": "Documentation last updated2026-10-23; relevant full documentation checked",
+    "checked": "How it works, Detect change versus historical imagery, Generate custom layers and Verify results; lines59–100 in retrieved text"
+  },
+  {
+    "key": "S038",
+    "source_id": "S038",
+    "authors": "Google and Google DeepMind",
+    "year": 2026,
+    "title": "Satellite Embedding V1 Earth Engine catalogue",
+    "url": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL",
+    "venue": "Current catalogue checked2026-10-25; relevant full documentation checked",
+    "checked": "Description lines61–80, especially productionmodelv2.1, NLCD/CDLweights and2017layer update"
+  },
+  {
+    "key": "S039",
+    "source_id": "S039",
+    "authors": "Stehman, S.V., Pengra, B., Horton, J., Wellington, D.F.",
+    "year": 2021,
+    "title": "Validation of the U.S. Geological Survey’s LCMAP collection1.0 annual land cover products1985–2017",
+    "url": "https://www.usgs.gov/publications/validation-us-geological-surveys-land-change-monitoring-assessment-and-projection",
+    "venue": "2021; DOI10.1016/j.rse.2021.112646; abstract only",
+    "checked": "Full official USGS abstract and bibliographic metadata; publisher full text not checked; pubs.usgs.gov returned403"
+  },
+  {
+    "key": "S040",
+    "source_id": "S040",
+    "authors": "Yao, X., Wu, K., Bhatt, R., Hall, B., Kang, Y.",
+    "year": 2026,
+    "title": "Cartographer in the Loop: Interactive Land Cover Change Detection Using Geospatial Foundation Model Embeddings",
+    "url": "https://cartogis.org/conferences/cagis2026/program-old/",
+    "venue": "CaGIS2026 programme record; programme record only",
+    "checked": "Session3C title/authors; extended abstract not obtained after exact-title/author/domain searches and inaccessible programme link"
+  },
+  {
+    "key": "S041",
+    "source_id": "S041",
+    "authors": "Google",
+    "year": 2026,
+    "title": "LandTrendr algorithm documentation",
+    "url": "https://developers.google.com/earth-engine/apidocs/ee-algorithms-temporalsegmentation-landtrendr",
+    "venue": "Documentation checked2026-10-25; relevant full documentation checked",
+    "checked": "Algorithm descriptions and original Kennedy2010/ZhuWoodcock2014 references, lines346–354 and346–352 respectively"
+  },
+  {
+    "key": "S042",
+    "source_id": "S042",
+    "authors": "Malila, W.A.",
+    "year": 1980,
+    "title": "Change Vector Analysis: An Approach for Detecting Forest Changes with Landsat",
+    "url": "https://docs.lib.purdue.edu/lars_symp/385/",
+    "venue": "1980; abstract only",
+    "checked": "Purdue primary repository abstract and bibliographic record; ordinary full-text download failed"
+  },
+  {
+    "key": "Manikandan2026",
+    "source_id": "S026",
+    "authors": "Manikandan, K.P., et al.",
+    "year": 2026,
+    "title": "Foundation-Model Embeddings for Land-Cover Mapping and Annual Change Detection in a Hyper-Arid Region: A Case Study of Saudi Arabia (2017–2024)",
+    "url": "https://doi.org/10.3390/rs18183163",
+    "venue": "Remote Sensing18(18),3163; abstract only, full methods not checked",
+    "checked": "OriginalS026abstract; review-periodfull-text access unavailable"
+  },
+  {
+    "key": "S043",
+    "source_id": "S043",
+    "authors": "Google",
+    "year": 2026,
+    "title": "CCDC algorithm documentation",
+    "url": "https://developers.google.com/earth-engine/apidocs/ee-algorithms-temporalsegmentation-ccdc",
+    "venue": "Official documentation; full relevant description checked25October2026",
+    "checked": "Algorithm description lines346–352; harmonic breakpoint implementation and Zhu/Woodcock2014 reference"
+  },
+  {
+    "key": "S044",
+    "source_id": "S044",
+    "authors": "Google/USGS",
+    "year": 2026,
+    "title": "NLCD 2019: USGS National Land Cover Database, 2019 release",
+    "url": "https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2019_REL_NLCD",
+    "venue": "Official catalogue, relevant full description/example checked25October2026",
+    "checked": "Description lines43–67 and examplelines147–155: eight map epochs including2016and2019; one image per epoch"
+  }
+]

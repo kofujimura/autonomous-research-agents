@@ -1,0 +1,36 @@
+{
+  "experiment_id": "T026-recover-city-j022",
+  "started_at_utc": "2026-10-26T09:17:13Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/city_time_pipeline.py",
+    "--date",
+    "20260806",
+    "--model",
+    "aifs-ens",
+    "--horizon",
+    "7",
+    "--chunk-bytes",
+    "1048576",
+    "--indexed-extraction",
+    "--cloudfront-first",
+    "--log",
+    "experiments/T026-recover-city-j022/units.jsonl"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2.5-mirror-order.md",
+  "plan_commit_id": "ddf35c06ca127ffc2a20c6dce9a9f903ced8a1b8",
+  "code_commit_id": "35ee0d362f7686c8a0401ac322289fdf057acfae",
+  "input_sha256": {
+    "protocol/design-v4.json": "b32b2be5bab4474dfdd67c7d925eb44ad5c1b59b4148314dce11624685b68d24",
+    "protocol/city-time-execution-order.json": "ca2ca1ff0625f9b3be01fe655dfd5f6e956b295ace8f9aa114866137e04f2c99",
+    "protocol/plan-v4.2-land-diagnostic.md": "5bc48462a07270a0bcdb8faa54d853727171b251e93e0441713d3484b9f70882"
+  },
+  "status": "completed",
+  "start_event_id": "E0629",
+  "child_pid": 71834,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T09:26:53Z",
+  "elapsed_seconds": 580.0815034168772,
+  "end_event_id": "E0630"
+}

@@ -1,0 +1,31 @@
+{
+  "experiment_id": "S011-members-remaining",
+  "started_at_utc": "2026-10-26T05:29:19Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/secondary.py",
+    "--task",
+    "members",
+    "--start",
+    "10",
+    "--count",
+    "105",
+    "--output",
+    "results/member-sensitivity"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "f3e88ecc7fe6676a7dfce69662ee9829c65301db",
+  "code_commit_id": "ccd1da39ff1314d0384cdb0ce0fc6aa5b434f814",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/sensitivity-cohort-v1.json": "6f56e73beffa668423bb0e977b561cdb68c926136b68ff2a9e6489b44a5fed95"
+  },
+  "status": "completed",
+  "start_event_id": "E0375",
+  "child_pid": 61032,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T05:32:49Z",
+  "elapsed_seconds": 209.60789262480102,
+  "end_event_id": "E0376"
+}

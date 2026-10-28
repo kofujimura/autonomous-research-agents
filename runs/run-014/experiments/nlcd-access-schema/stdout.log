@@ -1,0 +1,79 @@
+[
+  {
+    "url": "https://www.mrlc.gov/downloads/sciweb1/shared/mrlc/data-bundles/Annual_NLCD_CONUSV1_Ref_Data_Release.zip",
+    "member": "Annual_NLCD_CONUSV1_Ref_Data_Release/NLCD2023_Full8360_AnnualAttributes.csv",
+    "obtained_at_utc": "2026-10-25T10:02:59Z",
+    "bytes": 30785779,
+    "sha256": "1447bb03636c2f1d9f78ad164aeb4ef42ab86a9e82332bc8899e812d13f63079",
+    "crc32": 961422070,
+    "licence": "Public domain / no restrictions",
+    "bundled": true,
+    "columns": [
+      "plotid",
+      "image_year",
+      "primary_cover",
+      "primary_cover_subclass",
+      "alternate_cover",
+      "alternate_cover_subclass",
+      "change_process",
+      "change_process_notes",
+      "primary_landcover_code",
+      "primary_landcover_label",
+      "alternate_landcover_code",
+      "alternate_landcover_label"
+    ],
+    "rows": 334393,
+    "dtypes": {
+      "plotid": "int64",
+      "image_year": "int64",
+      "primary_cover": "str",
+      "primary_cover_subclass": "str",
+      "alternate_cover": "str",
+      "alternate_cover_subclass": "str",
+      "change_process": "str",
+      "change_process_notes": "str",
+      "primary_landcover_code": "int64",
+      "primary_landcover_label": "str",
+      "alternate_landcover_code": "int64",
+      "alternate_landcover_label": "str"
+    },
+    "path": "data/nlcd/NLCD2023_Full8360_AnnualAttributes.csv"
+  },
+  {
+    "url": "https://www.mrlc.gov/downloads/sciweb1/shared/mrlc/data-bundles/Annual_NLCD_CONUSV1_Ref_Data_Release.zip",
+    "member": "Annual_NLCD_CONUSV1_Ref_Data_Release/Plot_Coordinates_List_Simple_and_Stratified.csv",
+    "obtained_at_utc": "2026-10-25T10:03:00Z",
+    "bytes": 225600,
+    "sha256": "d353a6539e7296c40725ece20475fbb4d938b2ce9a0d6db148de91a67beca8d5",
+    "crc32": 1297029898,
+    "licence": "Public domain / no restrictions",
+    "bundled": true,
+    "columns": [
+      "plotid",
+      "x",
+      "y",
+      "stratum",
+      "selection_type"
+    ],
+    "rows": 8360,
+    "dtypes": {
+      "plotid": "int64",
+      "x": "int64",
+      "y": "int64",
+      "stratum": "int64",
+      "selection_type": "int64"
+    },
+    "path": "data/nlcd/Plot_Coordinates_List_Simple_and_Stratified.csv"
+  },
+  {
+    "url": "https://www.mrlc.gov/downloads/sciweb1/shared/mrlc/data-bundles/Annual_NLCD_CONUSV1_Ref_Data_Release.zip",
+    "member": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext_8360_final.shp.xml",
+    "obtained_at_utc": "2026-10-25T10:03:00Z",
+    "bytes": 10179,
+    "sha256": "99d418a95578eb5c3fcdc898c19466cdb30937074fd21df9a6c12a0efe766921",
+    "crc32": 2907430051,
+    "licence": "Public domain / no restrictions",
+    "bundled": true,
+    "path": "data/nlcd/lcnext_8360_final.shp.xml"
+  }
+]

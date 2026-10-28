@@ -1,0 +1,1 @@
+{"completed_at_utc": "2026-10-26T23:48:52.372359Z", "destination": "/Users/fujimura/Research/ai-free-research-en/run-016", "refreshed_complete": true, "paper_bytes": 50326}

@@ -1,0 +1,20 @@
+{
+  "prepared_at_utc": "2026-10-28T08:17:34.542915+00:00",
+  "event_id": "E0788",
+  "expected_tag": "submission-1",
+  "verified_pipeline_source_commit": "d3926e3337cca22e6668d038c8fc1bb08e27a8db",
+  "secret_check": {
+    "checked_at_utc": "2026-10-28T08:17:34.542517+00:00",
+    "key_present": true,
+    "matches": 0
+  },
+  "snapshot_documents": [
+    "paper.md",
+    "claims.jsonl",
+    "VERIFY.md",
+    "final_report.md",
+    "self-check.md",
+    "SHA256SUMS"
+  ],
+  "hash_note": "SHA256SUMS files exclude themselves; a post-commit receipt may append to working events.jsonl before the announcement, outside the submitted hash snapshot."
+}

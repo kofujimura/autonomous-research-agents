@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E21-hard-auxiliary-tessera",
+  "start_time_utc": "2026-10-26T21:31:22.816985Z",
+  "end_time_utc": "2026-10-26T21:31:53.760543Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/hard_auxiliary_pipeline.py",
+    "--representation",
+    "tessera"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v9-hard-auxiliary.md",
+  "plan_commit_id": "6cc60e38e784bf691f1d6c16e9bd73b11c7f2e1f",
+  "plan_sha256": "ef3c4f82e3a618a7c38cd97cc4b268364a70ab0b88ad7eab9ae51e87106f771d",
+  "code_commit_id": "6cc60e38e784bf691f1d6c16e9bd73b11c7f2e1f",
+  "inputs": [
+    {
+      "path": "results/models/logistic-broad-tessera/fit.json",
+      "sha256": "4042d5aaf6b027fa14473e8ac7c81547c975985c40f66688b988e4456d39a54f"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E21-hard-auxiliary-tessera/stdout.txt",
+  "stderr_path": "experiments/E21-hard-auxiliary-tessera/stderr.txt",
+  "start_event_id": "E0292",
+  "pid": 7069,
+  "elapsed_seconds": 30.943599625024945,
+  "end_event_id": "E0293"
+}

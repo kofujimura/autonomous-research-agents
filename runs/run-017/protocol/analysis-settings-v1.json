@@ -1,0 +1,22 @@
+{
+  "supplements": "protocol/plan-v2.md",
+  "fixed_before_mapping_performance": true,
+  "primary_decoder": "rf",
+  "primary_budget": 2000,
+  "training_seeds": [101, 202, 303, 404, 505],
+  "primary_fpr": 0.05,
+  "standardized_threshold_scope": "pooled common-valid reference-upland pixels across all test cores in a fit",
+  "validation_threshold_scope": "pooled common-valid reference-upland pixels across validation cores in a fit",
+  "quantile_method": "higher",
+  "positive_comparison": "probability strictly greater than threshold",
+  "primary_recovery": "at least 50 percent of a mapped patch's valid center pixels positive",
+  "primary_aggregation": "unweighted mean of regional small-patch recovery; publish each regional count and any undefined stratum",
+  "primary_interaction": "(aef_object - aef_area) - (optical_object - optical_area)",
+  "standardized_fpr_sensitivities": [0.01, 0.1],
+  "patch_coverage_sensitivities": ["any", 0.75],
+  "small_patch_area_m2": [2000, 10000],
+  "oracle_object_training_frame": "training-area components sharing an original source polygon are grouped; no evaluation-geography object identity enters selection",
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261027,
+  "feature_matrix_storage": "regenerable cache excluded from Git; feature hashes and bundled small reference arrays retained; raw clipped inputs and saved probabilities remain tracked"
+}

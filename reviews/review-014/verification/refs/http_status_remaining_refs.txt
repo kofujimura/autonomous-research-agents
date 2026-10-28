@@ -1,0 +1,4 @@
+403 https://medium.com/google-earth/rethinking-change-detection-and-attribution-how-you-compare-satellite-embeddings-matters-858f17f577d7
+403 https://www.preprints.org/manuscript/202610.0842
+200 https://data.source.coop/tge-labs/aef-mosaic/README.md
+200 https://github.com/ucam-eo/tessera

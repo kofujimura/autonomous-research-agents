@@ -1,0 +1,30 @@
+{
+  "experiment_id": "V013-pilot-end-to-end-2",
+  "started_at_utc": "2026-10-26T07:18:32Z",
+  "command": [
+    ".venv/bin/python",
+    "verification_work/pilot-source-2/scripts/verify.py",
+    "--mode",
+    "reduced",
+    "--output",
+    "/Users/fujimura/Research/ai-free-research-en/run-015/verification_work/pilot-run-2"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/verification-repair-v1.md",
+  "plan_commit_id": "fc53544a763cdbdc7b878efb7f1a96c8e9cbfdec",
+  "code_commit_id": "ec21bcc35e9456171b7e90ef911f05445fb355ad",
+  "input_sha256": {
+    "review/pilot-source-2.json": "a0efcf7f879af812e1482f7a48dd6076dcafb29898af021a84a24841289ca006",
+    "protocol/plan-v1.md": "61cc37f86ccba641314f98d51017ca3d0cc3e03c2db56b89305cc6651876a855",
+    "protocol/plan-v3.1-subset-clarification.md": "fe032492db430b4b2f5bf3c0f3b07eeafb75bddc0181d8bde89f750d8205a6a1",
+    "protocol/plan-v4.2-land-diagnostic.md": "5bc48462a07270a0bcdb8faa54d853727171b251e93e0441713d3484b9f70882",
+    "protocol/plan-v10-controlled-moment-precision.md": "7deeea386e987a0d70e3bf9e3b7f1b4d3a2c847605717f7aaa906544b0a76e0f"
+  },
+  "status": "completed",
+  "start_event_id": "E0517",
+  "child_pid": 66326,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T07:32:41Z",
+  "elapsed_seconds": 849.6168193749618,
+  "end_event_id": "E0526"
+}

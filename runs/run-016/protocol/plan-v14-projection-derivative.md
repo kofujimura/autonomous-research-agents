@@ -1,0 +1,21 @@
+# Exploratory v14: derivative through probability-simplex projection
+
+Fixed at 2026-10-26T23:56:33.980050Z, after complete original/frozen/refreshed comparisons and the five-floor sensitivity, before this comparison is run. Additional-geography acquisition is concurrent; none of that cohort's change outcomes has been analysed. Original point estimates, uncertainty rules, outcomes and claims are retained.
+
+## Question and rationale
+
+The original normal intervals apply the entropy gradient at the projected estimate to raw reference-minus-prediction residuals. They do not differentiate through projection. Their conservative model-assisted coverage may partly reflect that rule rather than robust uncertainty calibration. On a locally fixed positive support A, the established Euclidean-projection Jacobian is diag(s)-ss^T/|A| (Martins–Astudillo2016,§2.5,eqs11–14). The chain-rule entropy gradient is zero off A and g_A-mean(g_A) on A, where g_j=-(log(q_j)+1). This is an established local derivative, not a new statistical method. The support can change; entropy has an unbounded derivative when a new category enters at zero. A normal interval based on a sampled face therefore has no general validity guarantee (related nonregular-inference issues: Fang–Santos2019 introduction).
+
+## Fixed implementation and validation
+
+Keep inference_core.py unchanged. In a separate module, recompute the exact original projected proportions from the same draws, calculate this active-support gradient without assigning an arbitrary finite gradient to zero components, and apply the original paired/independent sample-variance, finite-population correction,1.96 interval and numerical reporting rules. Use the existing simplex cleanup1e-12; record that the mathematical Jacobian is for ideal projection and need not describe cleanup splitting points. Active means q>0 after cleanup, not a fitted threshold.
+
+Before benchmark inference validate the chain-rule gradient against symmetric finite differences of H(simplex(v)) at seeded random points away from support splitting/cleanup (dimensions3,7,17,54;32cases per dimension;step1e-7,tolerance1e-5). Retain rejected random fixtures/counts; they are software-domain checks, not benchmark exclusions. Include an explicit boundary fixture with a zero component and one-sided finite differences to show why local validation does not establish a differentiable boundary law. Check zero-sum gradients, singleton-face zero gradient, census zero variance and constant-prediction/direct equivalence. If validation fails, retain it and correct code with a logged revision before benchmark execution.
+
+## Experiment and metrics
+
+Use all original30test landscapes, three primary2022–2025 contrasts, original500draws,n128, both representations and both taxonomies. Evaluate direct and model-assisted estimates under paired and independent sampling. Hold point estimates exactly equal to the archived originals and assert original-rule SE/directions reproduce bitwise. Report RMSE and unchanged-point assertion, mean SE, magnitude coverage, reporting, unconditional and conditional wrong-report frequencies with counts. Save both interval rules' raw SE,directions,coverage/wrong indicators. Do not select a best derivative from truth or overwrite main outcomes.
+
+Count per-draw singleton positive supports, any raw coordinate within1e-10of the ideal projection threshold, any positive projected coordinate<1e-6, and proportions outside the simplex. Report these as domain/degeneracy diagnostics, not exclusion criteria or proofs of regularity. Compute the ideal threshold from raw active components and count all benchmark cases even at splitting points. Direct controls should agree within1e-12; their boundary gradients can differ in absent coordinates but the sampled one-hot influences ignore unobserved categories.
+
+Run validation then all four numerical conditions through scripts/run.py, at most two concurrent study processes including acquisition, each<=1800seconds. No new data, fitting, API calls, participants or field-cost claim. Add completed comparison and validation to offline reproduction. All findings are exploratory and concern this sampled-face normal approximation; a software gradient check is not external validation or a coverage theorem.

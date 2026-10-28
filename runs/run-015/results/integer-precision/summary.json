@@ -1,0 +1,15 @@
+{
+  "exploratory": true,
+  "selected_cases": 120,
+  "recorded_cases": 120,
+  "optimal_cases": 94,
+  "unresolved_cases": 26,
+  "exact_integer_width_mean": 0.04966666666666667,
+  "epsilon005_integer_width_mean": 0.04966666666666667,
+  "epsilon005_lattice_equivalent_cases": 120,
+  "epsilon02_mean_width_lower_bound": 0.3025,
+  "epsilon02_mean_width_upper_bound": 0.36213022922763216,
+  "epsilon02_optimal_mean_width": 0.35702127659574473,
+  "epsilon02_structural_floor_cases": 120,
+  "status": "complete"
+}

@@ -1,0 +1,710 @@
+{
+  "id": "resp_0c96b2b8cd388242006addc4311ee487d080d6258edf2d0d0b",
+  "access_programs": null,
+  "created_at": 1792918577.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-astra",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c96b2b8cd388242006addc433588087d08b320f5f49b0f6ba",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc435ea1c87d09cc9001170e603c4",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"Probabilistic weather forecasting with machine learning\" Price 2024",
+          "\"Skillful joint probabilistic weather forecasting from marginals\"",
+          "\"Characterizing Brazilian Atlantic Forest Restoration Outcomes\"",
+          "\"ReVUS\" \"Temporal-Holdout\""
+        ],
+        "query": "\"Probabilistic weather forecasting with machine learning\" Price 2024",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc43895cc87d08472e7d94f09eab9",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"EVEE\" \"Interpretable variant effect\"",
+          "\"NatureLM-audio\"",
+          "\"Using a Deep Learning Framework to Forecast Reservoir Water Availability in India\"",
+          "\"Numerical Analysis of Storage-Level Probability Distribution and First Passage Probability\""
+        ],
+        "query": "\"EVEE\" \"Interpretable variant effect\"",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc43b85e087d0acc613d58c1f6eb9",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"TESSERA\" \"2025\" embeddings annual",
+          "\"AlphaEarth Foundations\" \"2025\"",
+          "\"LCMAP\" \"reference data\" \"2023\" \"2024\"",
+          "\"Remote sensing monitoring of land restoration interventions\" Meroni"
+        ],
+        "query": "\"TESSERA\" \"2025\" embeddings annual",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc4424bb487d0be4ae14715ce4765",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc44f53c887d0ac38e66d49648208",
+      "action": {
+        "type": "search",
+        "queries": [
+          "2025 2026 GenCast heatwave duration spatial compound extremes ensemble forecast evaluation",
+          "\"Schaake shuffle\" \"2004\"",
+          "\"Uncertainty Quantification in Complex Simulation Models Using Ensemble Copula Coupling\"",
+          "\"Heat–Health Warning Systems\" \"2010\" Hajat"
+        ],
+        "query": "2025 2026 GenCast heatwave duration spatial compound extremes ensemble forecast evaluation",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc454b8f887d08a66b416583a7e89",
+      "action": {
+        "type": "search",
+        "queries": [
+          "2025 2026 satellite embeddings forest restoration reference cosine similarity temporal consistency change detection AlphaEarth TESSERA",
+          "\"LCMAP\" \"reference\" \"2021\" \"25000\"",
+          "\"Beyond BACI\" Underwood 1994",
+          "\"Multivariate Alteration Detection\" \"2007\" Nielsen normalization"
+        ],
+        "query": "2025 2026 satellite embeddings forest restoration reference cosine similarity temporal consistency change detection AlphaEarth TESSERA",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc459d64c87d090f983e46cc22b78",
+      "action": {
+        "type": "search",
+        "queries": [
+          "2025 2026 uncertain variant reclassification temporal benchmark genomic foundation model long context leakage ClinVar",
+          "\"Type 2 circularity\" \"Grimm\" 2015",
+          "\"Points to Consider in the Reevaluation and Reanalysis of Genomic Test Results\"",
+          "\"ReVUS\" \"Gür\""
+        ],
+        "query": "2025 2026 uncertain variant reclassification temporal benchmark genomic foundation model long context leakage ClinVar",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc45f78c887d0b69d3131b2b71a5c",
+      "action": {
+        "type": "open_page",
+        "url": "https://arxiv.org/html/2605.05547v1"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc4624d3887d0a0707c37dc34b0f2",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc464439487d093b73e4df4323e44",
+      "action": {
+        "type": "search",
+        "queries": [
+          "2025 2026 acoustic monitoring false positives species richness accumulation open vocabulary NatureLM",
+          "\"Estimating and comparing microbial diversity in the presence of sequencing errors\"",
+          "\"Modeling false positive detections\" \"2015\"",
+          "\"Evaluation of an autonomous acoustic surveying technique for grassland bird communities\""
+        ],
+        "query": "2025 2026 acoustic monitoring false positives species richness accumulation open vocabulary NatureLM",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc46bce0487d098b65d1c7353f73a",
+      "action": {
+        "type": "search",
+        "queries": [
+          "2025 2026 Chronos reservoir drought forecasting probabilistic foundation model first passage",
+          "\"Chronos: Learning the Language of Time Series\"",
+          "2025 hydrology \"foundation models\" \"zero-shot\"",
+          "\"probabilistic\" \"reservoir\" \"first-passage\" \"forecast\""
+        ],
+        "query": "2025 2026 Chronos reservoir drought forecasting probabilistic foundation model first passage",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc4728a5c87d0964b57812e5a760b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc476e8c887d0a298b5844abd5517",
+      "action": {
+        "type": "open_page",
+        "url": "https://zenodo.org/records/21496351"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc47a9e4c87d0b59688311f3f7bdd",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc48281f087d0b20557fc8aaa9d72",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site.usgs.gov \"LCMAP\" \"Reference\" \"1985–2021\"",
+          "\"On Beyond BACI\" \"10.2307\"",
+          "\"Automatic radiometric normalization of multitemporal satellite imagery\" \"2008\"",
+          "\"Geospatial foundation models enable data-efficient tree species mapping\" authors"
+        ],
+        "query": "site.usgs.gov \"LCMAP\" \"Reference\" \"1985–2021\"",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc48a69f487d092fed8b3a434a354",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"EVEE\" \"ClinVar\" \"split\" 2026",
+          "\"EVEE\" \"2025\" \"training\"",
+          "\"The evaluation of tools used to predict the impact of missense variants is hindered by two types of circularity\"",
+          "\"Distinct rates of VUS reclassification\" authors"
+        ],
+        "query": "\"EVEE\" \"ClinVar\" \"split\" 2026",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc545694487d087d7d99d8c9052b0",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_0c96b2b8cd388242006addc5456a4887d0a109a44441aea04e",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"Threshold Regression for Survival Analysis\" Lee Whitmore 2006",
+          "\"A comparison of statistical methods for deriving occupancy estimates\" authors",
+          "\"EVEE\" \"717844\" \"training\"",
+          "\"Extended Streamflow Forecasting Using NWSRFS\" Day 1985"
+        ],
+        "query": "\"Threshold Regression for Survival Analysis\" Lee Whitmore 2006",
+        "sources": null
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc5458e3c87d08e359583ca2609a9",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc5458f7887d0919134ef84bbe13b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc545909887d089656a5a18080e3e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc54591b887d08c402876427a0bec",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc54592d487d0aa71d8f0d019f888",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc54593e887d0bdda6e120325a656",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc54594f487d08517bd0891db89ad",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc545963487d08bcbe891321c809a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc545974487d08940290977cae5ae",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc545985087d090e99f63ace21266",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc545997487d0b75ef408008f6071",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc5459aa487d08aaadbfcb01c51aa",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_0c96b2b8cd388242006addc5459bec87d0b4e95b43bdf9af2a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0c96b2b8cd388242006addc5459d3487d0ab879ad1416b1f80",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 1280,
+              "start_index": 1216,
+              "title": "Uncertainty Quantification in Complex Simulation Models Using Ensemble Copula Coupling",
+              "type": "url_citation",
+              "url": "https://arxiv.org/abs/1302.7149?utm_source=openai"
+            },
+            {
+              "end_index": 2368,
+              "start_index": 2302,
+              "title": "Regional climate risk assessment from climate models using probabilistic machine learning | Nature Machine Intelligence",
+              "type": "url_citation",
+              "url": "https://www.nature.com/articles/s42256-026-01308-7"
+            },
+            {
+              "end_index": 2737,
+              "start_index": 2649,
+              "title": "Probabilistic weather forecasting with machine learning - PubMed",
+              "type": "url_citation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39633054/?utm_source=openai"
+            },
+            {
+              "end_index": 3006,
+              "start_index": 2956,
+              "title": "Skillful joint probabilistic weather forecasting from marginals",
+              "type": "url_citation",
+              "url": "https://arxiv.org/html/2506.10772v1"
+            },
+            {
+              "end_index": 3350,
+              "start_index": 3286,
+              "title": "Uncertainty Quantification in Complex Simulation Models Using Ensemble Copula Coupling",
+              "type": "url_citation",
+              "url": "https://arxiv.org/abs/1302.7149?utm_source=openai"
+            },
+            {
+              "end_index": 3715,
+              "start_index": 3636,
+              "title": "The Schaake shuffle: A method for reconstructing space-time variability in forecasted precipitation and temperature fields",
+              "type": "url_citation",
+              "url": "https://pubs.usgs.gov/publication/70027101?utm_source=openai"
+            },
+            {
+              "end_index": 4114,
+              "start_index": 4048,
+              "title": "Regional climate risk assessment from climate models using probabilistic machine learning | Nature Machine Intelligence",
+              "type": "url_citation",
+              "url": "https://www.nature.com/articles/s42256-026-01308-7"
+            },
+            {
+              "end_index": 6265,
+              "start_index": 6117,
+              "title": "Land Change Monitoring, Assessment, and Projection (LCMAP) Collection 1.3 Annual Land Cover and Land Cover Change Validation Tables (1985–2021) for the Conterminous United States | U.S. Geological Survey",
+              "type": "url_citation",
+              "url": "https://www.usgs.gov/data/land-change-monitoring-assessment-and-projection-lcmap-collection-13-annual-land-cover-and?utm_source=openai"
+            },
+            {
+              "end_index": 7036,
+              "start_index": 6900,
+              "title": "Remote sensing monitoring of land restoration interventions in semi-arid environments with a before–after control-impact statistical design",
+              "type": "url_citation",
+              "url": "https://air.unimi.it/retrieve/dfa8b9a7-5feb-748b-e053-3a05fe0a3a96/1-s2.0-S0303243417300429-main.pdf?utm_source=openai"
+            },
+            {
+              "end_index": 7412,
+              "start_index": 7362,
+              "title": "Characterizing Brazilian Atlantic Forest Restoration Outcomes with Geospatial AlphaEarth Embeddings",
+              "type": "url_citation",
+              "url": "https://arxiv.org/html/2605.05547v1"
+            },
+            {
+              "end_index": 7866,
+              "start_index": 7747,
+              "title": "Geospatial foundation models enable data-efficient tree species mapping in temperate mountain forests",
+              "type": "url_citation",
+              "url": "https://www.repository.cam.ac.uk/items/f2ebbbe6-d451-42a3-8deb-102133178fcd?utm_source=openai"
+            },
+            {
+              "end_index": 8313,
+              "start_index": 8177,
+              "title": "Remote sensing monitoring of land restoration interventions in semi-arid environments with a before–after control-impact statistical design",
+              "type": "url_citation",
+              "url": "https://air.unimi.it/retrieve/dfa8b9a7-5feb-748b-e053-3a05fe0a3a96/1-s2.0-S0303243417300429-main.pdf?utm_source=openai"
+            },
+            {
+              "end_index": 8779,
+              "start_index": 8690,
+              "title": "Automatic radiometric normalization of multitemporal satellite imagery with the iteratively ie-weighted MAD transformation - JuSER",
+              "type": "url_citation",
+              "url": "https://juser.fz-juelich.de/record/1742/?ln=de&utm_source=openai"
+            },
+            {
+              "end_index": 9143,
+              "start_index": 9071,
+              "title": "[2507.22291] AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data",
+              "type": "url_citation",
+              "url": "https://doi.org/10.48550/ARXIV.2507.22291?utm_source=openai"
+            },
+            {
+              "end_index": 10796,
+              "start_index": 10735,
+              "title": "ClinVar Variant Prediction — Thomas Dooms",
+              "type": "url_citation",
+              "url": "https://tdooms.github.io/research/evee/"
+            },
+            {
+              "end_index": 11219,
+              "start_index": 11182,
+              "title": "ReVUS: A Temporal-Holdout Benchmark for the Reclassification of Variants of Uncertain Significance",
+              "type": "url_citation",
+              "url": "https://sugi.bio/revus/"
+            },
+            {
+              "end_index": 12276,
+              "start_index": 12239,
+              "title": "ReVUS: A Temporal-Holdout Benchmark for the Reclassification of Variants of Uncertain Significance",
+              "type": "url_citation",
+              "url": "https://sugi.bio/revus/"
+            },
+            {
+              "end_index": 12676,
+              "start_index": 12615,
+              "title": "ClinVar Variant Prediction — Thomas Dooms",
+              "type": "url_citation",
+              "url": "https://tdooms.github.io/research/evee/"
+            },
+            {
+              "end_index": 13077,
+              "start_index": 12992,
+              "title": "The evaluation of tools used to predict the impact of missense variants is hindered by two types of circularity -ORCA",
+              "type": "url_citation",
+              "url": "https://orca.cardiff.ac.uk/id/eprint/84063/?utm_source=openai"
+            },
+            {
+              "end_index": 13435,
+              "start_index": 13342,
+              "title": "Points to Consider in the Reevaluation and Reanalysis of Genomic Test Results: A Statement of the American College of Medical Genetics and Genomics (ACMG) - PMC",
+              "type": "url_citation",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6559819/?utm_source=openai"
+            },
+            {
+              "end_index": 15532,
+              "start_index": 15439,
+              "title": "Estimating and comparing microbial diversity in the presence of sequencing errors",
+              "type": "url_citation",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/?utm_source=openai"
+            },
+            {
+              "end_index": 16180,
+              "start_index": 16092,
+              "title": "Modeling false positive detections in species occurrence data under different study designs - PubMed",
+              "type": "url_citation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26240854/?utm_source=openai"
+            },
+            {
+              "end_index": 16627,
+              "start_index": 16475,
+              "title": "Published as a conference paper at ICLR 2025",
+              "type": "url_citation",
+              "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/36c20807317ae6cb3817acd554da2d32-Paper-Conference.pdf?utm_source=openai"
+            },
+            {
+              "end_index": 17011,
+              "start_index": 16917,
+              "title": "Evaluation of an autonomous acoustic surveying technique for grassland bird communities in Nebraska - PMC",
+              "type": "url_citation",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11226020/?utm_source=openai"
+            },
+            {
+              "end_index": 17425,
+              "start_index": 17331,
+              "title": "A comparison of statistical methods for deriving occupancy estimates from machine learning outputs",
+              "type": "url_citation",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12034756/?utm_source=openai"
+            },
+            {
+              "end_index": 17788,
+              "start_index": 17700,
+              "title": "Modeling false positive detections in species occurrence data under different study designs - PubMed",
+              "type": "url_citation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26240854/?utm_source=openai"
+            },
+            {
+              "end_index": 18158,
+              "start_index": 18065,
+              "title": "Estimating and comparing microbial diversity in the presence of sequencing errors",
+              "type": "url_citation",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/?utm_source=openai"
+            },
+            {
+              "end_index": 20061,
+              "start_index": 19943,
+              "title": "Numerical Analysis of Storage-Level Probability Distribution and fist Passage Probability in A Reservoir with Correlated Inflows",
+              "type": "url_citation",
+              "url": "https://www.jstage.jst.go.jp/article/prohe1990/40/0/40_0_335/_article/-char/en?utm_source=openai"
+            },
+            {
+              "end_index": 20605,
+              "start_index": 20490,
+              "title": "Using a Deep Learning Framework to Forecast Reservoir Water Availability in India | World Resources Institute",
+              "type": "url_citation",
+              "url": "https://www.wri.org/research/using-deep-learning-framework-forecast-reservoir-water-availability-india"
+            },
+            {
+              "end_index": 21353,
+              "start_index": 21288,
+              "title": "Chronos: Learning the Language of Time Series",
+              "type": "url_citation",
+              "url": "https://arxiv.org/abs/2403.07815?utm_source=openai"
+            },
+            {
+              "end_index": 21713,
+              "start_index": 21640,
+              "title": "Zero-shot forecasting of streamflow using time series foundation models: are we there yet? - IOPscience",
+              "type": "url_citation",
+              "url": "https://doi.org/10.1088/3049-4753%2Fae4982?utm_source=openai"
+            },
+            {
+              "end_index": 22084,
+              "start_index": 21969,
+              "title": "Using a Deep Learning Framework to Forecast Reservoir Water Availability in India | World Resources Institute",
+              "type": "url_citation",
+              "url": "https://www.wri.org/research/using-deep-learning-framework-forecast-reservoir-water-availability-india"
+            },
+            {
+              "end_index": 22486,
+              "start_index": 22368,
+              "title": "Numerical Analysis of Storage-Level Probability Distribution and fist Passage Probability in A Reservoir with Correlated Inflows",
+              "type": "url_citation",
+              "url": "https://www.jstage.jst.go.jp/article/prohe1990/40/0/40_0_335/_article/-char/en?utm_source=openai"
+            },
+            {
+              "end_index": 22851,
+              "start_index": 22751,
+              "title": "Extended Streamflow Forecasting Using NWSRFS | Journal of Water Resources Planning and Management | Vol 111, No 2",
+              "type": "url_citation",
+              "url": "https://doi.org/10.1061/%28asce%290733-9496%281985%29111%3A2%28157%29?utm_source=openai"
+            },
+            {
+              "end_index": 23374,
+              "start_index": 23162,
+              "title": "Statistical Science",
+              "type": "url_citation",
+              "url": "https://projecteuclid.org/journals/statistical-science/volume-21/issue-4/Threshold-Regression-for-Survival-Analysis--Modeling-Event-Times-by/10.1214/088342306000000330.pdf?utm_source=openai"
+            }
+          ],
+          "text": "The main risk across these proposals is not that the experiments would fail, but that **a successful experiment would establish less than the question suggests**. Below, I distinguish that risk from ordinary implementation difficulties. The literature listed was confirmed by web search, including work from 2025–2026, through **October 25, 2026**. The proposed failure scenarios are my assessments, not reported findings.\n\n## C1. Learned weather ensembles and sustained, spatially concurrent heat\n\n- **The most serious weakness — (3) Realism and identification of the effect.**\n\n  **Similar instantaneous skill does not establish comparable marginal probabilities at the heat thresholds that matter.** Two models can have similar average temperature scores but different upper-tail calibration. Marginal-preserving shuffling preserves each model’s own marginals; it does not equalize marginals between models. Consequently, a difference in joint heat-event skill could still reflect marginal errors rather than dependence quality. Conversely, beating independently shuffled forecasts establishes relatively little: reconstructing realistic spatial and temporal dependence is already a standard forecasting problem. ([arxiv.org](https://arxiv.org/abs/1302.7149?utm_source=openai))\n\n  **Reader effect and question size (1,6):** The consequential judgment is whether a warning service should trust a learned ensemble rather than a numerical ensemble—or an inexpensive dependence-reconstruction method—for a specified multi-region warning. “Dependence matters for compound events” would not change that judgment.\n\n  **Generality (2):** A result from one model release and a few heatwaves could become a historical benchmark. Within twelve hours, feasibility depends on accessible **member-level hindcasts**, not merely ensemble means or quantiles. Numerous overlapping forecasts of the same heatwave must not be mistaken for numerous independent reliability tests.\n\n  **Novelty and unpredictability (4,5):** The damaging effect of destroying persistence is predictable. Which genuine ensemble gives better warning decisions is not. Recent climate-downscaling research already evaluates multi-day heat-advisory streaks and spatial dependence, although it does not answer the operational forecast question. ([nature.com](https://www.nature.com/articles/s42256-026-01308-7))\n\n- **Prior work that seems close**\n  - **Price et al. (online 2024; journal issue 2025), [*Probabilistic weather forecasting with machine learning*](https://doi.org/10.1038/s41586-024-08252-9).** Establishes probabilistic, extreme-event and decision-value evaluation for GenCast. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39633054/?utm_source=openai))\n  - **Alet et al. (2025), [*Skillful joint probabilistic weather forecasting from marginals*](https://arxiv.org/abs/2506.10772).** Directly addresses joint structure, including pooled and derived-variable evaluations. ([arxiv.org](https://arxiv.org/html/2506.10772v1))\n  - **Schefzik, Thorarinsdottir and Gneiting (2013), [*Uncertainty Quantification in Complex Simulation Models Using Ensemble Copula Coupling*](https://arxiv.org/abs/1302.7149).** The standard methodological connection: calibrate marginals and reconstruct dependence separately. ([arxiv.org](https://arxiv.org/abs/1302.7149?utm_source=openai))\n  - **Clark et al. (2004), [*The Schaake shuffle: A method for reconstructing space-time variability in forecasted precipitation and temperature fields*](https://pubs.usgs.gov/publication/70027101).** A classic hydrometeorological treatment of essentially the same dependence problem. ([pubs.usgs.gov](https://pubs.usgs.gov/publication/70027101?utm_source=openai))\n  - **Wan et al. (2026), [*Regional climate risk assessment from climate models using probabilistic machine learning*](https://doi.org/10.1038/s42256-026-01308-7).** Evaluates persistent humid-heat extremes and spatial structure; close conceptually, but climate-risk estimation rather than initialized weather-warning verification. ([nature.com](https://www.nature.com/articles/s42256-026-01308-7))\n\n- **A scenario in which the value would be small even if it succeeds**\n\n  The learned ensemble beats shuffled controls, but its advantage over numerical forecasts disappears after tail calibration—or all models issue effectively identical alerts at plausible decision thresholds. Researchers receive another demonstration of dependence sensitivity, while practitioners change neither their forecast source nor their warning rule.\n\n- **A direction that broadens the question or brings it closer to reality**\n\n  For one operationally motivated regional heat-warning rule, test whether **learned dependence adds decision value beyond common calibrated marginals plus an inexpensive historical-copula reconstruction**. Using existing hindcasts, this would distinguish a need for learned joint forecasts from a need for better postprocessing.\n\n## C3. Calendar references and satellite-embedding scores for tree-cover transitions\n\n- **The most serious weakness — (1) Reader effect, with (6) a potentially small question.**\n\n  **Reducing reference-year sensitivity is not itself evidence of greater validity.** A concurrent reference changes the quantity being measured: the score can move because the target changes, because the reference forest changes, or both. Adjustment may suppress nuisance variation, but it can also suppress meaningful regional change. The decision worth changing is therefore whether practitioners can use a reference score to flag tree-cover transitions reliably—not which reference produces the smoothest curve.\n\n  **Realism (3):** The proposed labels create a restrictive test. LCMAP Collection 1.3 reference interpretation ends in 2021 and uses 30-m pixels, whereas the embedding products begin in 2017 and operate at 10-m resolution. That leaves a short overlap and a spatial-support mismatch. The number of independently held-out gains must be counted before assuming that gain-specific validation is feasible; many stable observations do not compensate for few transitions. ([usgs.gov](https://www.usgs.gov/data/land-change-monitoring-assessment-and-projection-lcmap-collection-13-annual-land-cover-and?utm_source=openai))\n\n  **Generality (2):** Two representation systems strengthen the comparison, but one label scheme and geographic domain do not establish a portable correction. Spatial holdouts alone cannot establish temporal portability.\n\n  **Novelty and unpredictability (4,5):** Control adjustment and invariant-reference normalization are established ideas. Some reduction in calendar anchoring may follow algebraically. What remains genuinely empirical is whether the correction preserves transition sensitivity and transfers better than the supervised baseline. Cross-year degradation in both AlphaEarth and TESSERA has already been documented. ([air.unimi.it](https://air.unimi.it/retrieve/dfa8b9a7-5feb-748b-e053-3a05fe0a3a96/1-s2.0-S0303243417300429-main.pdf?utm_source=openai))\n\n- **Prior work that seems close**\n  - **Heiman (2026), [*Characterizing Brazilian Atlantic Forest Restoration Outcomes with Geospatial AlphaEarth Embeddings*](https://arxiv.org/abs/2605.05547).** The direct reference-similarity predecessor; its interpretation of similarity trajectories makes external validation important. ([arxiv.org](https://arxiv.org/html/2605.05547v1))\n  - **Ball et al. (2026), [*Geospatial foundation models enable data-efficient tree species mapping in temperate mountain forests*](https://doi.org/10.1016/j.srs.2026.100466).** Already compares AlphaEarth and TESSERA and reports temporal-transfer degradation. It concerns species classification, not transition-reference correction. ([repository.cam.ac.uk](https://www.repository.cam.ac.uk/items/f2ebbbe6-d451-42a3-8deb-102133178fcd?utm_source=openai))\n  - **Meroni et al. (2017), [*Remote sensing monitoring of land restoration interventions in semi-arid environments with a before–after control-impact statistical design*](https://doi.org/10.1016/j.jag.2017.02.016).** Direct precedent for separating intervention-associated change from background variability. ([air.unimi.it](https://air.unimi.it/retrieve/dfa8b9a7-5feb-748b-e053-3a05fe0a3a96/1-s2.0-S0303243417300429-main.pdf?utm_source=openai))\n  - **Canty and Nielsen (2008), [*Automatic radiometric normalization of multitemporal satellite imagery with the iteratively re-weighted MAD transformation*](https://doi.org/10.1016/j.rse.2007.07.013).** The analogous problem under another name: identifying unchanged observations and normalizing cross-date measurement differences. It is not an embedding-specific solution. ([juser.fz-juelich.de](https://juser.fz-juelich.de/record/1742/?ln=de&utm_source=openai))\n  - **Brown et al. (2025), [*AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data*](https://arxiv.org/abs/2507.22291).** Establishes the broader mapping baseline against which a reference-score contribution must be distinguished. ([doi.org](https://doi.org/10.48550/ARXIV.2507.22291?utm_source=openai))\n\n- **A scenario in which the value would be small even if it succeeds**\n\n  Concurrent references substantially reduce year-to-year variation on stable pixels, but do not improve detection of genuine gains or losses. A small supervised classifier remains better, and the corrected score does not reduce unnecessary field checks. The result becomes useful preprocessing advice rather than a changed judgment about monitoring validity.\n\n- **A direction that broadens the question or brings it closer to reality**\n\n  Evaluate the reference choices as **transferable transition-screening rules**: fix the decision threshold in training regions and years, then measure false transition flags and missed gains in held-out regions and years. This makes stability valuable only when it improves a real screening decision, using the same embeddings and labels.\n\n## C7. Long-context genomic scores and subsequently reclassified uncertain variants\n\n- **The most serious weakness — (3) Realism of the temporal evaluation.**\n\n  **A temporal label join does not automatically produce a temporally uncontaminated predictor evaluation.** Published scores from a ClinVar-supervised probe may already incorporate the later classifications being predicted. Applying a gene-disjoint split *after obtaining those scores* cannot remove their training exposure. Post-freeze publication alone is not proof of leakage; the decisive issue is training-label and feature provenance. EVEE’s public description explicitly concerns a supervised embedding-based classifier, so this needs an audit rather than an assumption. ([tdooms.github.io](https://tdooms.github.io/research/evee/))\n\n  A second problem is the target population. Performance among variants that eventually resolve does not establish performance in the original curation queue. ReVUS explicitly distinguishes these tasks and reports that only 4.1% of its freeze-time VUS resolved to definite classifications. This is a **selectively observed outcome problem**, not merely a harder classification split. ([sugi.bio](https://sugi.bio/revus/))\n\n  **Reader effect and size (1,6):** The useful judgment is whether adding these scores changes which variants should receive scarce review effort. Another conditional AUROC comparison may not answer it.\n\n  **Generality (2):** Intersecting available score files may exclude the noncoding or other variant classes where long context is supposed to help. Moreover, comparing model families cannot isolate the contribution of context length.\n\n  **Novelty and unpredictability (4,5):** ReVUS already supplies nearly the entire evaluation question. Reduced performance on a selected VUS population would be unsurprising; meaningful incremental triage value over established predictors would not be.\n\n- **Prior work that seems close**\n  - **Gür (2026), [*ReVUS: A Temporal-Holdout Benchmark for the Reclassification of Variants of Uncertain Significance*](https://sugi.bio/revus/), preprint.** Direct overlap in temporal transitions, whole-queue versus resolved-only tasks, gene-disjoint evaluation and predictor provenance. ([sugi.bio](https://sugi.bio/revus/))\n  - **Pearce et al. (2026), [*EVEE: Interpretable variant effect prediction from genomic foundation model embeddings*](https://www.biorxiv.org/content/10.64898/2026.04.10.717844v1), preprint.** Confirmed through the authors’ project page; supplies the relevant supervised score family and reported cross-sectional/functional evaluations. ([tdooms.github.io](https://tdooms.github.io/research/evee/))\n  - **Grimm et al. (2015), [*The evaluation of tools used to predict the impact of missense variants is hindered by two types of circularity*](https://doi.org/10.1002/humu.22768).** Classic variant- and protein-level circularity analysis; also warns about evaluation labels influenced by computational predictions. ([orca.cardiff.ac.uk](https://orca.cardiff.ac.uk/id/eprint/84063/?utm_source=openai))\n  - **Deignan et al. (2019), [*Points to Consider in the Reevaluation and Reanalysis of Genomic Test Results*](https://doi.org/10.1038/s41436-019-0478-1).** Establishes the actual reevaluation setting, including evolving evidence and limited laboratory resources. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6559819/?utm_source=openai))\n\n- **A scenario in which the value would be small even if it succeeds**\n\n  The study demonstrates that genomic-foundation-model scores perform worse on subsequently resolved VUS than on cross-sectional benchmarks, but the highest-priority review list barely changes relative to established predictors. It confirms benchmark optimism without improving curation decisions or explaining what long context contributes.\n\n- **A direction that broadens the question or brings it closer to reality**\n\n  Test the **incremental contribution to a fixed-budget, full-cohort review queue**: does adding the context-based score retrieve more subsequently recorded pathogenic resolutions than the strongest existing triage baseline? Use provenance-audited scores and retain unresolved variants as unresolved—not biologically benign. Interpret the result as historical retrieval performance, not causal evidence that review would produce those resolutions.\n\n## C9. Open-vocabulary acoustic identification and a false rare-species tail\n\n- **The most serious weakness — (3) Establishing which apparent rare species are actually false.**\n\n  The proposal identifies the right distinction—unlabelled true secondary species versus false detections—but **does not yet establish how an autonomous twelve-hour study can adjudicate it**. If the public annotations are incomplete, treating unlisted species as false creates the very tail the study seeks to measure. Independent, sufficiently exhaustive annotations are therefore a prerequisite, not a minor validation detail.\n\n  **Novelty and unpredictability (4,5):** Spurious rare taxa and singleton-driven richness inflation are already well studied, especially in microbial sequencing. A large fixed vocabulary can also accumulate false species as recording effort increases. The empirical question is whether opening the output vocabulary changes that process after controlling identification competence, taxonomic reconciliation, abstention and genuine rare-species recall. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/?utm_source=openai))\n\n  **Generality (2):** Comparing one audio-language model with BirdNET cannot isolate vocabulary openness from differences in training data, acoustic capability and prompting. A prompt-specific failure could disappear with a model update.\n\n  **Reader effect and size (1,6):** The judgment worth changing is how to divide a limited budget between additional recording and verification. A rising false-species curve alone does not identify the better allocation. Verification design and false-positive observation models already form an established literature. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26240854/?utm_source=openai))\n\n- **Prior work that seems close**\n  - **Robinson et al. (2025; preprint 2024), [*NatureLM-audio: an Audio-Language Foundation Model for Bioacoustics*](https://arxiv.org/abs/2411.07186).** The relevant open-language identification system, but not itself a biodiversity-effort allocation study. ([proceedings.iclr.cc](https://proceedings.iclr.cc/paper_files/paper/2025/file/36c20807317ae6cb3817acd554da2d32-Paper-Conference.pdf?utm_source=openai))\n  - **Schuster, Walston and Little (2024), [*Evaluation of an autonomous acoustic surveying technique for grassland bird communities in Nebraska*](https://doi.org/10.1371/journal.pone.0306580).** Direct ecological precedent involving BirdNET, manual checks, richness and recording effort. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11226020/?utm_source=openai))\n  - **Katsis et al. (2025), [*A comparison of statistical methods for deriving occupancy estimates from machine learning outputs*](https://doi.org/10.1038/s41598-025-95207-3).** Compares verification and false-positive modelling approaches; finds classifier-guided listening effective with limited verification effort. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12034756/?utm_source=openai))\n  - **Chambert, Miller and Nichols (2015), [*Modeling false positive detections in species occurrence data under different study designs*](https://doi.org/10.1890/14-1507.1).** Standard observation-model framework incorporating ambiguous detections and known-truth subsets. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26240854/?utm_source=openai))\n  - **Chiu and Chao (2016), [*Estimating and comparing microbial diversity in the presence of sequencing errors*](https://doi.org/10.7717/peerj.1634).** Particularly close cross-field precedent: spurious singletons, distorted richness and corrected rarefaction/extrapolation. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/?utm_source=openai))\n\n- **A scenario in which the value would be small even if it succeeds**\n\n  Open-vocabulary output produces many extra species names, but reconciliation and routine verification remove them without changing site rankings, survey stopping decisions or conservation conclusions. Alternatively, the open model simply has worse identification accuracy overall, leaving no evidence that vocabulary openness creates a distinct allocation problem.\n\n- **A direction that broadens the question or brings it closer to reality**\n\n  Run a **paired, fixed-budget allocation backtest on already exhaustively annotated soundscapes**: hold the model fixed, compare open and taxonomically constrained output, and measure verified true-species gains from singleton checking versus additional recording. This directly tests the proposed allocation consequence without requiring new expert annotation.\n\n## C11. Transferred probabilistic forecasts and reservoir drought-threshold crossings\n\n- **The most serious weakness — (1) Calibration may not establish useful warning capability, compounded by (3) event realism.**\n\n  **A calibrated crossing probability can still be uninformative.** A seasonal crossing-frequency baseline might be calibrated while providing little actionable lead time. The study must distinguish calibration from discrimination and useful early warning, and distinguish forecasts made before an onset from easy forecasts made when storage is already near or below the threshold.\n\n  First-passage evaluation also requires a coherent distribution over complete trajectories. Marginal prediction intervals or quantiles alone do not determine the probability of crossing at any time within a horizon. This is a standard stochastic-process issue, not a new property of foundation models. ([jstage.jst.go.jp](https://www.jstage.jst.go.jp/article/prohe1990/40/0/40_0_335/_article/-char/en?utm_source=openai))\n\n  **Generality and realism (2,3):** Historical storage reflects operating decisions as well as hydrology. Successful transfer under one operating regime need not survive a policy change. The WRI reservoir-forecasting report already distinguishes drought-like supply warnings from predictions of reservoir operations. Many rolling origins can also reuse the same drought episode, overstating the amount of independent evidence. ([wri.org](https://www.wri.org/research/using-deep-learning-framework-forecast-reservoir-water-availability-india))\n\n  **Novelty, unpredictability and size (4,5,6):** Cross-domain forecasting in hydrology and reservoir first-passage analysis both have precedents. “A generic model works on these reservoirs” would be small. The informative uncertainty is whether transferred trajectory distributions add reliable warning lead beyond seasonal, persistence and hydrologically informed alternatives—not whether point accuracy guarantees event calibration.\n\n- **Prior work that seems close**\n  - **Ansari et al. (2024), [*Chronos: Learning the Language of Time Series*](https://arxiv.org/abs/2403.07815).** Establishes cross-domain probabilistic transfer, but not reservoir threshold-warning validity. ([arxiv.org](https://arxiv.org/abs/2403.07815?utm_source=openai))\n  - **Sun and Sun (2026), [*Zero-shot forecasting of streamflow using time series foundation models: are we there yet?*](https://doi.org/10.1088/3049-4753/ae4982).** Already evaluates unrelated-domain pretrained forecasters in hydrology; streamflow rather than reservoir first passage. ([doi.org](https://doi.org/10.1088/3049-4753%2Fae4982?utm_source=openai))\n  - **Kuzma et al. (2023), [*Using a Deep Learning Framework to Forecast Reservoir Water Availability in India*](https://doi.org/10.46830/writn.21.00088).** Existing probabilistic reservoir forecasting explicitly intended to flag threatened water supply. ([wri.org](https://www.wri.org/research/using-deep-learning-framework-forecast-reservoir-water-availability-india))\n  - **Yue and Hashino (1996), [*Numerical Analysis of Storage-Level Probability Distribution and First Passage Probability in a Reservoir with Correlated Inflows*](https://doi.org/10.2208/prohe.40.335).** Direct classical precedent for drought-level hitting probabilities and times. ([jstage.jst.go.jp](https://www.jstage.jst.go.jp/article/prohe1990/40/0/40_0_335/_article/-char/en?utm_source=openai))\n  - **Day (1985), [*Extended Streamflow Forecasting Using NWSRFS*](https://doi.org/10.1061/%28ASCE%290733-9496%281985%29111%3A2%28157%29).** Classic ensemble streamflow prediction: hydrological trajectories used for reservoir conditions and drought-risk analysis. ([doi.org](https://doi.org/10.1061/%28asce%290733-9496%281985%29111%3A2%28157%29?utm_source=openai))\n  - **Lee and Whitmore (2006), [*Threshold Regression for Survival Analysis: Modeling Event Times by a Stochastic Process Reaching a Boundary*](https://doi.org/10.1214/088342306000000330).** The same mathematical problem in survival and reliability analysis, including covariate-dependent first-hitting times. ([projecteuclid.org](https://projecteuclid.org/journals/statistical-science/volume-21/issue-4/Threshold-Regression-for-Survival-Analysis--Modeling-Event-Times-by/10.1214/088342306000000330.pdf?utm_source=openai))\n\n- **A scenario in which the value would be small even if it succeeds**\n\n  The transferred model produces well-calibrated probabilities chiefly because seasonal drawdown is predictable, but issues useful alerts no earlier than a seasonal baseline. Or apparent precision comes from repeatedly forecasting the same few drought episodes. Neither result changes a practitioner’s warning policy.\n\n- **A direction that broadens the question or brings it closer to reality**\n\n  Make **independent drawdown episodes and one explicit warning policy** the evaluation unit. On a small public-data panel, compare transferred trajectories with seasonally conditioned historical-path resampling, measuring timely warnings at a fixed false-alert burden. This tests useful first-passage information rather than calibration in isolation, without requiring a new reservoir-operations model.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": true,
+  "completed_at": 1792918853.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 115237,
+    "input_tokens_details": {
+      "cache_write_tokens": 6120,
+      "cached_tokens": 0
+    },
+    "output_tokens": 14443,
+    "output_tokens_details": {
+      "reasoning_tokens": 9680
+    },
+    "total_tokens": 129680
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 11
+    }
+  }
+}

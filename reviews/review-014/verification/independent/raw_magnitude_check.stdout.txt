@@ -1,0 +1,7 @@
+targets columns: ['x', 'y', 'label', 'label_after', 'label_before', 'label_name_after', 'label_name_before', 'shard', 'split', 'support_time_end_after_ms', 'support_time_end_before_ms', 'support_time_end_ms', 'support_time_start_after_ms', 'support_time_start_before_ms', 'support_time_start_ms', 'valid_time_end_after_ms', 'valid_time_end_before_ms', 'valid_time_start_after_ms', 'valid_time_start_before_ms', 'before_year']
+         count          mean  ...           75%           max
+model                         ...                            
+aef       60.0  1.165734e-16  ...  2.220446e-16  4.440892e-16
+tessera   60.0  1.276756e-16  ...  2.220446e-16  5.551115e-16
+
+[2 rows x 8 columns]

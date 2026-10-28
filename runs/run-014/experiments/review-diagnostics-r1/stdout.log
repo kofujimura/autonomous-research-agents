@@ -1,0 +1,13 @@
+{
+  "exploratory": true,
+  "added_after_review": "review-014-1",
+  "support": "centre",
+  "reference_allocation_seed": 14014,
+  "reference_availability_rows_reconstructed": 40,
+  "raw_target_scores_reconstructed": 892,
+  "maximum_raw_target_score_error": 0.0,
+  "reference_drift_rows": 110,
+  "reference_count_rows": 70,
+  "primary_similarity_rows": 8,
+  "unchanged_original_predictions": true
+}

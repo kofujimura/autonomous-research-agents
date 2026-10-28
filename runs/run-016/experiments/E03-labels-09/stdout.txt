@@ -1,0 +1,9 @@
+START L030_125 test 2026-10-26T18:30:33.576633Z
+END L030_125 accepted {'train': 20, 'calibration': 10, 'test': 28}
+START L060_095 test 2026-10-26T18:32:16.115054Z
+END L060_095 accepted {'train': 20, 'calibration': 10, 'test': 29}
+START L090_160 test 2026-10-26T18:33:53.781471Z
+END L090_160 ineligible {'train': 20, 'calibration': 10, 'test': 29}
+START L035_125 test 2026-10-26T18:34:13.329152Z
+END L035_125 accepted {'train': 20, 'calibration': 10, 'test': 30}
+{"completed_at_utc": "2026-10-26T18:35:47.643053Z", "accepted": {"train": 20, "calibration": 10, "test": 30}, "attempted": 85, "batch_attempts": 4}

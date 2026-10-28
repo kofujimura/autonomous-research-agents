@@ -1,0 +1,27 @@
+{
+  "experiment_id": "E64",
+  "started_at_utc": "2026-10-27T10:38:50.318532Z",
+  "command": [
+    ".venv/bin/python",
+    "code/analyse_results.py",
+    "--out",
+    ".",
+    "--canonical"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v9.md",
+  "plan_commit_id": "e7c4fcf81738657e2ca099340299ab4bc3391999",
+  "code_commit_id": "e7c4fcf81738657e2ca099340299ab4bc3391999",
+  "input_sha256": {
+    "data/derived/dataset-manifest.json": "c9311f6ab9444345c7ffbbfa98f9896e6f35b06f896d1b4d2954fa35d2bded35",
+    "protocol/rotation-splits.json": "93e844340a599311ba93c6b84b5c1a16055e01f26f311a39492cd14bd92ca5ab"
+  },
+  "start_event_id": "E0313",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 62778,
+  "ended_at_utc": "2026-10-27T10:43:47.487205Z",
+  "elapsed_seconds": 297.1675024169963,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0314"
+}

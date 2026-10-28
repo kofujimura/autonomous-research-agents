@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-26T09:03:33Z",
+  "root_runner_code_commit_id": "44f18c3595a9b72d33dde2bd6e0856e7b24d66ba",
+  "analysis_code_commit_id": "9b1ea574549fec35fb66a760d755295bd700bccf",
+  "analysis_source_path": "verification_work/expanded-source",
+  "analysis_source_file_hash_list": "review/expanded-source-before.SHA256SUMS",
+  "distinction": "The root runner logs the invocation; actual analysis executes the separately committed, copied code. No claim that later root edits were present in this replay."
+}

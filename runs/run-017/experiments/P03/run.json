@@ -1,0 +1,22 @@
+{
+  "experiment_id": "P03",
+  "started_at_utc": "2026-10-27T04:50:17.816083Z",
+  "command": [
+    ".venv/bin/python",
+    "code/pilot_access.py",
+    "load"
+  ],
+  "timeout_seconds": 900,
+  "plan_path": "protocol/pilot-checks.md",
+  "plan_commit_id": "93ed7ec93e5374b52a73ef3717e98b0267392374",
+  "code_commit_id": "93ed7ec93e5374b52a73ef3717e98b0267392374",
+  "input_sha256": {},
+  "start_event_id": "E0015",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 32124,
+  "ended_at_utc": "2026-10-27T04:50:20.410989Z",
+  "elapsed_seconds": 2.594769125105813,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0016"
+}

@@ -1,0 +1,39 @@
+{"train": 20, "calibration": 10, "test": 3}
+{"completed_at_utc": "2026-10-26T21:22:58.802245Z", "units": 15, "destination": "data/audit-draws-census"}
+{"completed_at_utc": "2026-10-26T21:23:04.202142Z", "predicted_landscapes": 33, "unchanged_source_crosschecks": 30}
+INFERENCE L075_070-2022-2023 tessera broad
+INFERENCE L075_070-2023-2024 tessera broad
+INFERENCE L075_070-2024-2025 tessera broad
+INFERENCE L075_070-2021-2022 tessera broad
+INFERENCE L075_070-2022-2025 tessera broad
+INFERENCE L055_065-2022-2023 tessera broad
+INFERENCE L055_065-2023-2024 tessera broad
+INFERENCE L055_065-2024-2025 tessera broad
+INFERENCE L055_065-2021-2022 tessera broad
+INFERENCE L055_065-2022-2025 tessera broad
+INFERENCE L145_065-2022-2023 tessera broad
+INFERENCE L145_065-2023-2024 tessera broad
+INFERENCE L145_065-2024-2025 tessera broad
+INFERENCE L145_065-2021-2022 tessera broad
+INFERENCE L145_065-2022-2025 tessera broad
+{"completed_at_utc": "2026-10-26T21:23:08.477217Z", "model_path": "results/census-models/logistic-broad-tessera", "model_fit_sha256": "066b3547338dbaf471283bf3b9775641d77c6f34663b87bec56ba8b6043d8b68", "draw_manifest_path": "data/audit-draws-census/manifest.json", "draw_manifest_sha256": "4278579d707ce0fe1c349830aaecffc5c75ef8e586c73dc7f7d68f831094f01c", "representation": "tessera", "taxonomy": "broad", "classifier": "logistic", "refreshed": false, "class_names": ["Alpine Pasture", "Annual Horticulture", "Greenhouses", "Meadow", "Nursery", "Oilseeds", "Orchard", "Pasture", "Perennial Horticulture", "Pulses", "Rice", "Root Crops", "Spring Cereals", "Summer Cereals", "Temporary Grassland", "Winter Cereals", "Woody Crops"], "units": 15, "primary_units": 9, "settings": {"gradient_epsilon": 1e-06, "numerical_tolerance": 1e-10, "interval": "delta-method normal 1.96; empirical coverage is evaluated, not guaranteed", "source_quantification_prior_regularizer": 1e-06}, "max_units_requested": null}
+{"completed_at_utc": "2026-10-26T21:23:12.780706Z", "predicted_landscapes": 33, "unchanged_source_crosschecks": 30}
+INFERENCE L075_070-2022-2023 alphaearth broad
+INFERENCE L075_070-2023-2024 alphaearth broad
+INFERENCE L075_070-2024-2025 alphaearth broad
+INFERENCE L075_070-2021-2022 alphaearth broad
+INFERENCE L075_070-2022-2025 alphaearth broad
+INFERENCE L055_065-2022-2023 alphaearth broad
+INFERENCE L055_065-2023-2024 alphaearth broad
+INFERENCE L055_065-2024-2025 alphaearth broad
+INFERENCE L055_065-2021-2022 alphaearth broad
+INFERENCE L055_065-2022-2025 alphaearth broad
+INFERENCE L145_065-2022-2023 alphaearth broad
+INFERENCE L145_065-2023-2024 alphaearth broad
+INFERENCE L145_065-2024-2025 alphaearth broad
+INFERENCE L145_065-2021-2022 alphaearth broad
+INFERENCE L145_065-2022-2025 alphaearth broad
+{"completed_at_utc": "2026-10-26T21:23:17.036817Z", "model_path": "results/census-models/logistic-broad-alphaearth", "model_fit_sha256": "197a32385847957b9e0a164e19a2760a06e1d07f99386eb0b98bf9248e2497d5", "draw_manifest_path": "data/audit-draws-census/manifest.json", "draw_manifest_sha256": "4278579d707ce0fe1c349830aaecffc5c75ef8e586c73dc7f7d68f831094f01c", "representation": "alphaearth", "taxonomy": "broad", "classifier": "logistic", "refreshed": false, "class_names": ["Alpine Pasture", "Annual Horticulture", "Greenhouses", "Meadow", "Nursery", "Oilseeds", "Orchard", "Pasture", "Perennial Horticulture", "Pulses", "Rice", "Root Crops", "Spring Cereals", "Summer Cereals", "Temporary Grassland", "Winter Cereals", "Woody Crops"], "units": 15, "primary_units": 9, "settings": {"gradient_epsilon": 1e-06, "numerical_tolerance": 1e-10, "interval": "delta-method normal 1.96; empirical coverage is evaluated, not guaranteed", "source_quantification_prior_regularizer": 1e-06}, "max_units_requested": null}
+{"destination": "/Users/fujimura/Research/ai-free-research-en/run-016/results/tables/census", "performance_rows": 240, "input_analyses": 2}
+{"generated_at_utc": "2026-10-26T21:23:18.230110Z", "point_analyses": ["results/inference/logistic-broad-tessera", "results/inference/logistic-broad-alphaearth"], "census_analyses": ["results/census-inference/logistic-broad-tessera", "results/census-inference/logistic-broad-alphaearth"], "cases": 3, "primary_transitions": 9, "sign_disagreements": 2, "change_discrepancy_rmse": 0.008518667804907641, "maximum_absolute_change_discrepancy": 0.020855675298693477, "median_first_phase_paired_fraction_n128": 0.028547297297297297, "maximum_first_phase_paired_fraction_n128": 0.03268390399722594, "interpretation": "Prospectively selected small case check. First-phase components are reference-only linearization diagnostics, not unconditional two-phase coverage estimates."}
+{"completed_at_utc": "2026-10-26T21:23:18.233751Z", "status": "completed"}

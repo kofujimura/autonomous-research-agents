@@ -1,0 +1,11 @@
+availability_mode,model,support,fold,seed,reference_mode,task,method,calibration_negatives_new,threshold_new,available_new,calibration_false_flags_new,calibration_ties_new,test_rows_new,calibration_negatives_old,threshold_old,available_old,calibration_false_flags_old,calibration_ties_old,test_rows_old
+paired,initial_class_only,centre,0,14014,not_applicable,gain,initial_class_transition_rate,23,0.6176470588235294,True,0,11,144,23,0.6176470588235294,True,0,11,55
+paired,initial_class_only,centre,0,14014,not_applicable,loss,initial_class_transition_rate,33,0.5,True,0,33,77,33,0.5,True,0,33,86
+paired,initial_class_only,centre,1,14014,not_applicable,gain,initial_class_transition_rate,18,0.5370370370370371,True,0,12,63,18,0.5370370370370371,True,0,12,28
+paired,initial_class_only,centre,1,14014,not_applicable,loss,initial_class_transition_rate,37,0.49230769230769234,True,0,37,44,37,0.49230769230769234,True,0,37,55
+paired,initial_class_only,centre,2,14014,not_applicable,gain,initial_class_transition_rate,30,0.5517241379310345,True,0,13,18,30,0.5517241379310345,True,0,13,7
+paired,initial_class_only,centre,2,14014,not_applicable,loss,initial_class_transition_rate,33,0.528,True,0,33,23,33,0.528,True,0,33,30
+paired,initial_class_only,centre,3,14014,not_applicable,gain,initial_class_transition_rate,29,0.5272727272727272,True,0,12,31,29,0.5272727272727272,True,0,12,16
+paired,initial_class_only,centre,3,14014,not_applicable,loss,initial_class_transition_rate,26,0.4838709677419355,True,0,26,72,26,0.4838709677419355,True,0,26,110
+paired,initial_class_only,centre,4,14014,not_applicable,gain,initial_class_transition_rate,32,0.53125,True,0,15,11,32,0.53125,True,0,15,3
+paired,initial_class_only,centre,4,14014,not_applicable,loss,initial_class_transition_rate,27,0.4918032786885246,True,0,27,39,27,0.4918032786885246,True,0,27,56

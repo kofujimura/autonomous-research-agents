@@ -1,0 +1,4 @@
+availability_mode,task,initial_class,n_positive,n_negative,n_cases
+paired_initial_Grass_forb_herb,gain,Grass/forb/herb,9,40,49
+paired_initial_Shrubs,gain,Shrubs,15,45,60
+paired_initial_Trees,loss,Trees,124,213,337

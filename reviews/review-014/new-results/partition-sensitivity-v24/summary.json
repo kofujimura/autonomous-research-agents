@@ -1,0 +1,28 @@
+{
+  "exploratory": true,
+  "partition_seeds": [
+    14014,
+    14015,
+    14016,
+    14017,
+    14018,
+    14019,
+    14020,
+    14021,
+    14022,
+    14023
+  ],
+  "planned_partitions": 10,
+  "completed_partitions": 10,
+  "original_reconstructed_prediction_rows": 21408,
+  "original_reconstructed_threshold_rows": 480,
+  "unsupervised_scores_invariant": true,
+  "expected_method_fold_conditions": 4800,
+  "available_method_fold_conditions": 4800,
+  "missing_threshold_record_conditions": 0,
+  "invalid_threshold_conditions": 0,
+  "primary_range_rows": 12,
+  "reference_allocation_seed": 14014,
+  "learner_seed": 14014,
+  "bootstrap_condition": "Conditional on each fitted split, not an interval over independent training datasets"
+}

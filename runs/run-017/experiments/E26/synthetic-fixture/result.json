@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-27T07:57:37.155636Z",
+  "status": "PASS",
+  "synthetic_software_fixture": true,
+  "no_model_fitted": true,
+  "evaluated_artificial_maps": 20,
+  "expected_h1_interaction": 0.5,
+  "expected_conditional_interval": [
+    0.5,
+    0.5
+  ],
+  "expected_aef_oracle_gain": 0.5,
+  "expected_optical_oracle_gain": 0,
+  "generator": "code/check_pipeline.py; deterministic two 20-pixel objects per core, common negative-score ramp, explicit class-score assignments",
+  "meaning": "Checks probability files \u2192 thresholds \u2192 object coverage \u2192 CSV \u2192 paired summary; not scientific evidence about real wetlands or classifiers"
+}

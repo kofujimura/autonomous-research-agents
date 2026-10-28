@@ -1,0 +1,2 @@
+/Users/fujimura/Research/ai-free-research-en/run-015/scripts/check_witnesses.py:43: Pandas4Warning: The 'verify_integrity' keyword in DataFrame.set_index is deprecated and will be removed in a future version. Directly check the result.index.is_unique instead.
+  frame=pd.read_csv(a.cases,dtype={'date':str}).set_index('case_key',verify_integrity=True)

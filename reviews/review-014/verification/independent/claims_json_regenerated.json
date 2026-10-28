@@ -1,0 +1,50 @@
+[
+ {
+  "claim_id": "C007",
+  "path": ".saved_forest_history_route",
+  "status": "match",
+  "file": "cohort-history-feasibility/summary.json"
+ },
+ {
+  "claim_id": "C009",
+  "path": ".permutation_check",
+  "status": "match",
+  "file": "initial-vector-v17/summary.json"
+ },
+ {
+  "claim_id": "C014",
+  "path": ".invariance",
+  "status": "match",
+  "file": "reference-access-v20/summary.json"
+ },
+ {
+  "claim_id": "C015",
+  "path": "",
+  "status": "match",
+  "file": "native-pairs-v21/checks.json"
+ },
+ {
+  "claim_id": "C016",
+  "path": ".summary",
+  "status": "match",
+  "file": "native-single-date-v22/identity/summary.json"
+ },
+ {
+  "claim_id": "C016",
+  "path": ".summary.input_counts[0]",
+  "status": "match",
+  "file": "native-single-date-v22/identity/summary.json"
+ },
+ {
+  "claim_id": "C016",
+  "path": ".summary.input_counts[1]",
+  "status": "match",
+  "file": "native-single-date-v22/identity/summary.json"
+ },
+ {
+  "claim_id": "C018",
+  "path": ".summary",
+  "status": "match",
+  "file": "partition-sensitivity-v24/summary.json"
+ }
+]

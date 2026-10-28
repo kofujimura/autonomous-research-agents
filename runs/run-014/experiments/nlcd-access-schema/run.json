@@ -1,0 +1,24 @@
+{
+  "experiment_id": "nlcd-access-schema",
+  "start_at_utc": "2026-10-25T10:02:55Z",
+  "end_at_utc": "2026-10-25T10:03:01Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/nlcd_schema.py"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/data-access-nlcd.md",
+  "plan_commit_id": "bff2743517a8d1b71e6a882e8d74cf4689f5fd81",
+  "code_commit_id": "8df2be44644f5fb9ed15044180ddf328cf4d02b1",
+  "input_sha256": {
+    "data/nlcd/archive-index.json": "0e26ce5262af202efab6a2e8b6fcf312cfe8bf969599369e14ff73f53c617e22"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0097",
+  "pid": 15243,
+  "elapsed_seconds": 5.193433583946899,
+  "end_event_id": "E0099"
+}

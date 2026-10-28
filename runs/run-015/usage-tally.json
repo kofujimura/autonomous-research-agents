@@ -1,0 +1,91 @@
+{
+  "generated_at_utc": "2026-10-26T13:40:24Z",
+  "stage": "final",
+  "experiment_status_counts": {
+    "completed": 122,
+    "failed": 21
+  },
+  "experiment_runs": 143,
+  "summed_recorded_worker_seconds": 53992.21089441283,
+  "intervention_type_counts": {
+    "runtime_resume": 8,
+    "record_correction": 1,
+    "peer_review": 1
+  },
+  "intervention_count": 10,
+  "api_generations": 1,
+  "api_by_model_and_purpose": [
+    {
+      "model": "gpt-6-astra",
+      "purpose": "research-question skill step 6 candidate critique",
+      "calls": 1,
+      "status": "completed",
+      "input_tokens": 116195,
+      "cache_write_input_tokens": 6424,
+      "cached_input_tokens": 0,
+      "output_tokens": 14327,
+      "reasoning_output_tokens": 9849,
+      "cost_usd": 2.02436,
+      "web_search_calls": 13,
+      "pricing_source": "literature/openai-pricing.md"
+    }
+  ],
+  "api_usage_computed_actual_cost_usd": 2.02436,
+  "api_remaining_budget_usd": 17.97564,
+  "raw_units": {
+    "weather": {
+      "complete_forecast_units": 115,
+      "incomplete_attempted_units": 1,
+      "acquisition_invocations": 122
+    },
+    "weather-v4": {
+      "complete_forecast_units": 128,
+      "incomplete_attempted_units": 0,
+      "acquisition_invocations": 134
+    }
+  },
+  "directory_allocated_kib_at_check": 8002520,
+  "directory_limit_bytes": 10737418240,
+  "confirmed_excluded_usage_stop_seconds": 10265.0,
+  "unquantified_stop_count": 3,
+  "session_id": null,
+  "continuation_session_ids": [],
+  "review_response": {
+    "points": 7,
+    "by_decision": {
+      "partly adopted": 2,
+      "adopted": 5
+    },
+    "changed_claim_ids": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C14",
+      "C16",
+      "C17",
+      "C18",
+      "C19"
+    ],
+    "changed_claim_count": 14,
+    "claim_status_changes": [],
+    "withdrawn_claim_ids": [],
+    "new_claim_ids": [
+      "C20"
+    ],
+    "new_claim_count": 1,
+    "analysis_runs_added": [
+      "A014-review-response-report"
+    ],
+    "analysis_run_count": 1,
+    "verification_runs_added": [
+      "V016-review-response-end-to-end"
+    ],
+    "verification_run_count": 1
+  }
+}

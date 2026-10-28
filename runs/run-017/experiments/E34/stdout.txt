@@ -1,0 +1,15 @@
+within_rf_aef_area_n2000_s101 already completed
+within_rf_optical_area_n2000_s101 COMPLETE 12.98 seconds
+within_rf_optical_context_area_n2000_s101 COMPLETE 14.91 seconds
+within_rf_aef_interior_n2000_s101 COMPLETE 9.55 seconds
+within_rf_optical_interior_n2000_s101 COMPLETE 11.7 seconds
+within_rf_optical_context_interior_n2000_s101 COMPLETE 13.9 seconds
+within_rf_aef_object_n2000_s101 COMPLETE 11.66 seconds
+within_rf_optical_object_n2000_s101 COMPLETE 13.81 seconds
+within_rf_optical_context_object_n2000_s101 COMPLETE 15.84 seconds
+within_rf_aef_proposal_n2000_s101 COMPLETE 15.89 seconds
+within_rf_optical_proposal_n2000_s101 COMPLETE 13.41 seconds
+within_rf_optical_context_proposal_n2000_s101 COMPLETE 15.26 seconds
+within_rf_aef_uncertainty_n2000_s101 COMPLETE 10.94 seconds
+within_rf_optical_uncertainty_n2000_s101 COMPLETE 13.68 seconds
+within_rf_optical_context_uncertainty_n2000_s101 COMPLETE 15.56 seconds

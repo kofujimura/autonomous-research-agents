@@ -1,0 +1,1 @@
+{"accepted_landscapes": 8, "eligible_arable_cases": 6, "candidate_status_counts": {"accepted": 8, "ineligible": 9, "failed": 1}}

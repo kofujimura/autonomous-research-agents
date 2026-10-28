@@ -1,0 +1,7 @@
+.venv/
+.cache/
+__pycache__/
+verification-work/
+data/pilot/aef_index.csv
+
+**/.matplotlib-cache/

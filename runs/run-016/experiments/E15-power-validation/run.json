@@ -1,0 +1,23 @@
+{
+  "experiment_id": "E15-power-validation",
+  "start_time_utc": "2026-10-26T20:32:42.443798Z",
+  "end_time_utc": "2026-10-26T20:32:42.618813Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/validate_power_tuning.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v8a-validation.md",
+  "plan_commit_id": "4e9981fc8e61b136fac1921a871589a38cb68418",
+  "plan_sha256": "a54f7cf536f28aead8647ae004597a625f2ac3b7fb4d3a179c70020d65db9834",
+  "code_commit_id": "4e9981fc8e61b136fac1921a871589a38cb68418",
+  "inputs": [],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E15-power-validation/stdout.txt",
+  "stderr_path": "experiments/E15-power-validation/stderr.txt",
+  "start_event_id": "E0237",
+  "pid": 4900,
+  "elapsed_seconds": 0.1749594579450786,
+  "end_event_id": "E0238"
+}

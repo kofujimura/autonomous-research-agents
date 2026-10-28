@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E27-forest-tessera",
+  "start_time_utc": "2026-10-26T21:39:35.709819Z",
+  "end_time_utc": "2026-10-26T21:41:01.574769Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/robustness_pipeline.py",
+    "--representation",
+    "tessera"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v5-optimization.md",
+  "plan_commit_id": "ab8e6afb508938e60ae981dd228d8c3f202d53b7",
+  "plan_sha256": "1d8880e3fad80de2912da78fae11b57972a589345a6687db982067faf4916e58",
+  "code_commit_id": "ab8e6afb508938e60ae981dd228d8c3f202d53b7",
+  "inputs": [
+    {
+      "path": "data/population-main-v1.json",
+      "sha256": "f2a5a27f70792807a8f29d289a559641c9b30a64636e9ddfe59eb63c1d91cb07"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E27-forest-tessera/stdout.txt",
+  "stderr_path": "experiments/E27-forest-tessera/stderr.txt",
+  "start_event_id": "E0320",
+  "pid": 7555,
+  "elapsed_seconds": 85.86523350002244,
+  "end_event_id": "E0323"
+}

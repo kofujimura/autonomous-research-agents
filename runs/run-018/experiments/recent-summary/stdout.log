@@ -1,0 +1,20 @@
+{"queries": 2696, "nonempty_queries": 2691, "empty_queries": 5, "single_all_correct": 73, "single_all_wrong": 21, "unmatchable": 34, "nontrivial_matchable": 2584, "regions": 6, "method_n": 18, "uniform_expected_macro_risk": 0.3543503483112676}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               31.71                36.62
+           aef_cosine               31.93                36.92
+          aef_decoder               34.65                39.16
+         aef_whitened               29.35                36.17
+            geography               33.63                40.21
+    hydro_aef_decoder               27.53                31.84
+        hydro_decoder               28.45                34.08
+      hydro_euclidean               32.52                37.89
+           hydro_pair               31.02                37.52
+hydro_tessera_decoder               30.05                33.48
+         label_oracle                0.00                 0.00
+             pair_aef               30.43                37.59
+            pair_both               30.37                36.40
+         pair_tessera               31.15                36.62
+      tessera_centred               29.11                33.11
+       tessera_cosine               29.09                33.56
+      tessera_decoder               31.82                33.86
+     tessera_whitened               29.17                32.74

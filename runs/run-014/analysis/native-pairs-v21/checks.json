@@ -1,0 +1,20 @@
+{
+  "exploratory": true,
+  "planned_pairs": 16,
+  "planned_point_years": 32,
+  "present_point_years": 1,
+  "unselected_invariance_rows": 10320,
+  "unselected_scores_flags_unchanged": true,
+  "earlier_thresholds_unchanged": true,
+  "interpretation": "No complete paired native score comparison. Zero raw counts at common_cases=0 are empty counts, not observed zero sensitivity or stability.",
+  "design": "fixed_paired_native",
+  "status": "not_tested_no_complete_native_pairs",
+  "complete_native_file_pairs": 0,
+  "complete_native_centre_pairs": 0,
+  "complete_native_patch_pairs": 0,
+  "evaluated_pairs_by_support": {
+    "centre": 0,
+    "patch": 0
+  },
+  "missing_dates_remain_mosaic": false
+}

@@ -1,0 +1,155 @@
+{
+  "exploratory": true,
+  "scheduled_primary_cases": 12528,
+  "available_primary_cases": 12420,
+  "missing_primary_cases": 108,
+  "width_envelopes": [
+    {
+      "stratum": "all",
+      "mode": "marginal",
+      "available_cases": 12420,
+      "matched_cases": 12096,
+      "unavailable_cases_or_unknown_eligibility": 108,
+      "complete_date_mean": 0.1406502989313009,
+      "available_case_mean": 0.14237556680213684,
+      "full_schedule_mean_lower": 0.14114819122625635,
+      "full_schedule_mean_upper": 0.14976888088142876
+    },
+    {
+      "stratum": "all",
+      "mode": "aggregate",
+      "available_cases": 12420,
+      "matched_cases": 12096,
+      "unavailable_cases_or_unknown_eligibility": 108,
+      "complete_date_mean": 0.08849821982899049,
+      "available_case_mean": 0.08959343166540042,
+      "full_schedule_mean_lower": 0.08882107449587111,
+      "full_schedule_mean_upper": 0.09744176415104353
+    },
+    {
+      "stratum": "all",
+      "mode": "pair",
+      "available_cases": 12420,
+      "matched_cases": 12096,
+      "unavailable_cases_or_unknown_eligibility": 108,
+      "complete_date_mean": 0.014241999831565003,
+      "available_case_mean": 0.014474946329378915,
+      "full_schedule_mean_lower": 0.014350162309298062,
+      "full_schedule_mean_upper": 0.022970851964470476
+    },
+    {
+      "stratum": "informative",
+      "mode": "marginal",
+      "available_cases": 2990,
+      "matched_cases": 2871,
+      "unavailable_cases_or_unknown_eligibility": 108,
+      "complete_date_mean": 0.5138929469849011,
+      "available_case_mean": 0.5136310187397144,
+      "full_schedule_mean_lower": 0.4957252246713189,
+      "full_schedule_mean_upper": 0.5305864254460122
+    },
+    {
+      "stratum": "informative",
+      "mode": "aggregate",
+      "available_cases": 2990,
+      "matched_cases": 2871,
+      "unavailable_cases_or_unknown_eligibility": 108,
+      "complete_date_mean": 0.31462785031737533,
+      "available_case_mean": 0.31451922503020374,
+      "full_schedule_mean_lower": 0.30355470717892485,
+      "full_schedule_mean_upper": 0.3384159079536182
+    },
+    {
+      "stratum": "informative",
+      "mode": "pair",
+      "available_cases": 2990,
+      "matched_cases": 2871,
+      "unavailable_cases_or_unknown_eligibility": 108,
+      "complete_date_mean": 0.05466872052569728,
+      "available_case_mean": 0.0548267001374201,
+      "full_schedule_mean_lower": 0.05291537553611559,
+      "full_schedule_mean_upper": 0.08777657631080894
+    }
+  ],
+  "weighting": [
+    {
+      "stratum": "all",
+      "mode": "marginal",
+      "query_weighted_mean": 0.1406502989313009,
+      "equal_eligible_center_mean": 0.1406502989313009,
+      "eligible_centers": 6,
+      "scheduled_centers": 6,
+      "leave_one_center_out_min": 0.13655844592466618,
+      "leave_one_center_out_max": 0.14531116228898966
+    },
+    {
+      "stratum": "all",
+      "mode": "aggregate",
+      "query_weighted_mean": 0.08849821982899049,
+      "equal_eligible_center_mean": 0.08849821982899049,
+      "eligible_centers": 6,
+      "scheduled_centers": 6,
+      "leave_one_center_out_min": 0.08578197701457145,
+      "leave_one_center_out_max": 0.0937686408348414
+    },
+    {
+      "stratum": "all",
+      "mode": "pair",
+      "query_weighted_mean": 0.014241999831565003,
+      "equal_eligible_center_mean": 0.014241999831565003,
+      "eligible_centers": 6,
+      "scheduled_centers": 6,
+      "leave_one_center_out_min": 0.012612017963612368,
+      "leave_one_center_out_max": 0.015449228961812594
+    },
+    {
+      "stratum": "informative",
+      "mode": "marginal",
+      "query_weighted_mean": 0.5138929469849011,
+      "equal_eligible_center_mean": 0.5147472223803821,
+      "eligible_centers": 6,
+      "scheduled_centers": 6,
+      "leave_one_center_out_min": 0.5084297010419709,
+      "leave_one_center_out_max": 0.5170742462469621
+    },
+    {
+      "stratum": "informative",
+      "mode": "aggregate",
+      "query_weighted_mean": 0.31462785031737533,
+      "equal_eligible_center_mean": 0.3152541916109703,
+      "eligible_centers": 6,
+      "scheduled_centers": 6,
+      "leave_one_center_out_min": 0.300437313012293,
+      "leave_one_center_out_max": 0.3230274839191474
+    },
+    {
+      "stratum": "informative",
+      "mode": "pair",
+      "query_weighted_mean": 0.05466872052569728,
+      "equal_eligible_center_mean": 0.055314749968188574,
+      "eligible_centers": 6,
+      "scheduled_centers": 6,
+      "leave_one_center_out_min": 0.047226369900427785,
+      "leave_one_center_out_max": 0.05814879236347491
+    }
+  ],
+  "subset_envelopes": [
+    {
+      "stratum": "all",
+      "available_cases": 198720,
+      "unavailable_cases_or_unknown_eligibility": 1728,
+      "available_case_mean": 0.03052928228058405,
+      "full_schedule_difference_lower": 0.021645409157475565,
+      "full_schedule_difference_upper": 0.03888678846782039
+    },
+    {
+      "stratum": "informative",
+      "available_cases": 37879,
+      "unavailable_cases_or_unknown_eligibility": 1728,
+      "available_case_mean": 0.10547072225097102,
+      "full_schedule_difference_lower": 0.05724052536532764,
+      "full_schedule_difference_upper": 0.14449782836732222
+    }
+  ],
+  "scope": "Conservative missing-data envelopes, not sharp law bounds or confidence intervals; no missing-at-random assumption. Descriptive convenience-calendar resampling and geography weighting."
+}

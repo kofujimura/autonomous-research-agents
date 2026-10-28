@@ -1,0 +1,232 @@
+{
+ "meta": {
+  "reviewer": "muse",
+  "model": "muse-wonder-1.0",
+  "run": "014",
+  "rep": 2,
+  "started_utc": "2026-10-28T13:54:43Z",
+  "figures": 1,
+  "usage": {
+   "input_tokens": 779070,
+   "cached_input_tokens": 135242,
+   "output_tokens": 6172,
+   "thought_tokens": 3699,
+   "search_queries": 10
+  },
+  "cost_usd": 2.7508,
+  "mode": "schema",
+  "model_version": "muse-wonder-1.0",
+  "finish_reason": "completed"
+ },
+ "review": {
+  "closest_prior_work": [
+   {
+    "citation": "Brown, C. F. et al. (2025). AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data. arXiv:2507.22291.",
+    "difference": "Already evaluates AlphaEarth embeddings, including LCMAP-related change tasks; this paper instead uses transferred earlier-negative thresholds, supplied initial classes, and reference/control corrections for separate one-year gain and loss tests.",
+    "url": "https://arxiv.org/abs/2507.22291"
+   },
+   {
+    "citation": "Feng, Z. et al. (2026). TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis. arXiv:2506.20380.",
+    "difference": "Introduces the TESSERA global 10 m embedding model used here; this paper does not train an encoder but compares fixed, year-matched, and control-adjusted change scores under geographic and temporal transfer.",
+    "url": "https://arxiv.org/abs/2506.20380"
+   },
+   {
+    "citation": "Heiman, A. (2026). Characterizing Brazilian Atlantic Forest Restoration Outcomes with Geospatial AlphaEarth Embeddings. arXiv:2605.05547.",
+    "difference": "Uses cosine similarity to mature-forest reference sites to characterize restoration trajectories in Brazil; this paper tests whether year-matched or control adjustments improve held-out one-year CONUS cover-transition screening.",
+    "url": "https://arxiv.org/abs/2605.05547"
+   },
+   {
+    "citation": "Bernhard, M., Strauß, N., and Schubert, M. (2023). MapFormer: Boosting Change Detection by Using Pre-change Information. ICCV 2023; arXiv:2303.17859.",
+    "difference": "Already formalizes conditional change detection using pre-change semantic information; this paper supplies an initial plot class and therefore must compare transition scores with subsequent-state classification, rather than claiming the conditional task as new.",
+    "url": "https://arxiv.org/abs/2303.17859"
+   },
+   {
+    "citation": "Meroni, M. et al. (2017). Remote sensing monitoring of land restoration interventions in semi-arid environments with a before–after control-impact statistical design. International Journal of Applied Earth Observation and Geoinformation, 59, 42–52.",
+    "difference": "Provides an established control-impact precedent for restoration monitoring; this paper uses disjoint tree plots only as a measurement adjustment, not as environmentally matched controls or a causal intervention design.",
+    "url": "https://doi.org/10.1016/j.jag.2017.02.016"
+   }
+  ],
+  "familiarity": "no",
+  "figures_viewed": true,
+  "main_issues": [
+   {
+    "issue": "The gain evidence is extremely small and temporally concentrated: only 24 LCMAP gain positives, with 21 in 2019–2020 and 3 in 2020–2021, and only 7 gains in the later NLCD test, so the headline gain results are fragile.",
+    "severity": "critical"
+   },
+   {
+    "issue": "The correction comparison is a weak-perturbation test: reference-centroid movement is small, corrected and fixed scores have Spearman correlations of 0.947–0.996, and control-mean subtraction is constant within region/year and therefore preserves rankings by construction.",
+    "severity": "critical"
+   },
+   {
+    "issue": "AlphaEarth results come from an unofficial geographic mosaic with unverified encoder lineage, while the paired native-grid check is unfinished with 0/16 complete pairs; single-date native substitutions can change flags, limiting applicability to the official product.",
+    "severity": "critical"
+   },
+   {
+    "issue": "Centre-pixel embeddings are compared with dominant-cover plot labels despite footprint and observation-period mismatch, leaving open whether the gain failure reflects embeddings, labels, timing, or spatial support.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "The supervised-versus-reference comparison is not annotation-budget matched, and before-only and coordinate-only diagnostics show that static landscape information can discriminate gains, so classifier superiority does not isolate newly observed transition information.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "Uncertainty intervals condition on fitted scores and the fixed reference pool and omit training, encoder, and future-year variability; exploratory partition changes reverse all eight correction contrasts, making individual contrast signs unstable.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "No operational or equal-budget baselines such as LandTrendr, CCDC, spectral-index change, the official Google change workflow, or locally matched reference designs are evaluated, reducing practical decision value.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "The manuscript is overloaded with post-review diagnostics and exhaustive exploratory appendices, burying the primary result and making the abstract and tables difficult to interpret.",
+    "severity": "minor"
+   }
+  ],
+  "main_track_level": "no",
+  "overall_10": 3,
+  "research_question": {
+   "predictable": "partly",
+   "predictable_reason": "Small correction effects were largely expected because reference drift is small and control-mean subtraction preserves within-region/year rankings, although the below-chance gain ranking for cosine magnitude was less predictable.",
+   "question": "In CONUS one-year pairs with the initial cover class supplied, do year-matched references or separate control-plot mean changes improve tree-cover transition classification over a fixed start-year reference, and how do they compare with supervised classifiers?",
+   "question_quality": 3
+  },
+  "score_reasons": {
+   "clarity": "Definitions are careful, but the dense abstract, terminology, huge tables, and many post-review exploratory appendices obscure the primary finding.",
+   "correctness": "The narrow numerical claims are mostly supported and heavily qualified, but the correction null is underpowered and the supervised comparison is confounded by unequal label resources.",
+   "generality": "Evidence is limited to one-year CONUS transitions, an enriched sample, pooled CONUS references, centre pixels, and gains concentrated mainly in one year pair.",
+   "novelty": "The cross-product transferred-threshold comparison is a useful incremental benchmark, but reference similarity, control adjustment, change magnitude, and conditional-state comparison are established ideas.",
+   "usefulness": "It usefully warns that magnitude and reference-direction scores can fail for gains while working better for losses, but it offers no validated equal-budget operational alternative.",
+   "verifiability": "Protocols, deterministic rules, counts, hashes, and an offline rerun are described, but key hyperparameters and outputs are outside the paper, the AlphaEarth mosaic lineage is uncertain, and the native paired check is unfinished."
+  },
+  "scores": {
+   "clarity": 2,
+   "correctness": 3,
+   "generality": 2,
+   "novelty": 2,
+   "usefulness": 3,
+   "verifiability": 3
+  },
+  "strengths": [
+   "Careful held-out geographic and temporal evaluation with thresholds calibrated only on earlier negatives outside the test region and no test-based tuning.",
+   "Separate reporting of gain and loss, two embedding products, two cover definitions, absolute counts, sensitivity, false-positive rate, Youden's J, and AUROC.",
+   "A practically important descriptive finding that cosine change magnitude ranks one-year gains below unchanged non-tree plots while performing strongly for losses.",
+   "Unusually transparent separation of primary, sensitivity, and post-review exploratory analyses, including failures, unfinished checks, and training-target dependence."
+  ],
+  "summary": "This is a cautious retrospective benchmark of fixed, year-matched, and control-adjusted reference scores for one-year tree-cover gain and loss screening in AlphaEarth and TESSERA embeddings. Its central descriptive result is credible within the tested sample: corrections changed few decisions and did not consistently improve Youden's J, cosine magnitude failed badly for gains but worked well for losses, and supervised classifiers performed better under unequal label resources. However, the tiny and temporally concentrated gain sample, weak reference drift being corrected, unofficial AlphaEarth mosaic with an unfinished native-grid check, and incomplete uncertainty make the contribution too narrow and inconclusive for a strong main-track venue.",
+  "verdict": "reject",
+  "workshop_level": "borderline"
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "muse-wonder-1.0",
+  "finish_reason": "completed",
+  "web_search_queries": [
+   "AlphaEarth Foundations embedding field model Brown 2025 arXiv 2507.22291",
+   "TESSERA temporal embeddings surface spectra Earth representation Feng 2025",
+   "Heiman Characterizing Brazilian Atlantic Forest Restoration Outcomes Geospatial AlphaEarth Embeddings",
+   "AlphaEarth embeddings cosine similarity change detection tree cover gain loss LCMAP evaluation",
+   "\"Assessing the generalization\" geospatial embeddings temporal transfer land cover Gbodjo Ienco",
+   "Bernhard Strauss Schubert MapFormer Boosting Change Detection Using Pre-change Information ICCV 2023",
+   "Meroni 2017 remote sensing monitoring land restoration before-after control-impact design",
+   "Google Earth Detect change experimental AlphaEarth embeddings cosine similarity change detection documentation",
+   null,
+   "\"Remote sensing monitoring of land restoration interventions\" DOI 42 52 Meroni"
+  ],
+  "sources": [
+   "https://github.com/Brayden-Zhang/alphaearth-foundations",
+   "https://resources.trase.earth/data/facilities-data/Brazil_soy_facilities_methods_2026_02.pdf",
+   "https://embed2scale.eu/download/d1-2-extended-openeo-api-specification/?ind=1765980777735&filename=Embed2Scale-D1.2 - EXTENDED openEO API SPECIFICATION.pdf&wpdmdl=1975&refresh=6a4bb6a6a2c401783346854",
+   "https://rogue-scholar.org/records/xesay-pec98",
+   "https://bb.jaff.eu.org:443/https/arxiv.org/pdf/2507.22291",
+   "https://arxiv.org/pdf/2507.22291",
+   "https://arxiv.org/abs/2604.18715",
+   "https://www.youtube.com/watch?v=OvxGyldu2Ok",
+   "https://www.youtube.com/watch?v=4FLrCfeU15I",
+   "https://arxiv.org/pdf/2311.02515",
+   "http://rxiverse.org/pdf/2602.0037v1.pdf",
+   "https://arxiv.org/abs/2506.20380v2",
+   "https://arxiv.org/abs/2506.20380v1",
+   "https://arxiv.org/pdf/2506.20380v1",
+   "https://arxiv.org/pdf/2603.02080v1",
+   "https://www.geoaquawatch.org/category/uncategorized/page/16/",
+   "https://fetcher.alphaxiv.org/v2/pdf/2603.02080v1.pdf",
+   "https://chatpaper.com/chatpaper/paper/155694",
+   "https://phys.org/news/2026-06-tessera-ai-accessible-view-earth.html",
+   "https://github.com/tanmoych/tessera",
+   "https://arxiv.org/abs/2605.05547",
+   "https://dr.molodetz.nl/_proxy/https/arxiv.org/pdf/2605.05547",
+   "https://export.arxiv.org/pdf/2605.05547",
+   "https://arxiv.org/pdf/2605.05547v1",
+   "http://arxiv.org/html/2605.05547",
+   "https://storage.staging.researchhub.com/uploads/papers/2026/08/05/2608.03410.pdf",
+   "https://arxiv.org/html/2608.03410v1",
+   "https://arxiv.org/pdf/2608.03410",
+   "https://www.researchgate.net/publication/406909601_Continuous_biome_representations_from_Earth_observation_embeddings",
+   "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-18-03163/article_deploy/remotesensing-18-03163.pdf?version=1789461966",
+   "https://www.mdpi.com/2072-4292/18/18/3163",
+   "https://github.com/om2468/alpha",
+   "https://www.emergentmind.com/topics/google-alphaearth-ae-embeddings",
+   "https://github.com/tomevault-io/codex-plugins/blob/HEAD/ktwu01--alphaearthhack/AGENTS.md",
+   "https://arxiv.org/pdf/2609.30356v1.pdf",
+   "https://hendrik-wulf.gitbook.io/geo-717-earth-engine/4.-change-detection",
+   "https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yao_et_al_research_abstract_CaGIS_2026.pdf",
+   "https://bb.jaff.eu.org:443/https/arxiv.org/pdf/2507.22291",
+   "https://github.com/r1-ak/alphaearth-sleman-sawah/blob/HEAD/README.md",
+   "https://github.com/google/earthengine-community/blob/HEAD/skills/alphaearth_foundations_change_detection/SKILL.md",
+   "https://arxiv.org/pdf/2511.11706v1",
+   "https://overfitted.cloud/pdf/2511.11706",
+   "https://arxiv.org/pdf/2508.00858v1.pdf",
+   "https://www.mdpi.com/2073-4441/18/19/2432",
+   "https://pub-fad10fba280c45dba0823fd585acc08c.r2.dev/pdf/2511.11706.pdf?v=1789239580",
+   "https://arxiv.org/pdf/2511.11706v3.pdf",
+   "https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yao_et_al_research_abstract_CaGIS_2026.pdf",
+   "https://overfitted.cloud/pdf/2511.11706v1",
+   "https://pub-fad10fba280c45dba0823fd585acc08c.r2.dev/pdf/42b302b50a1b060c917c6f2f6e52d1e3b04041bc.pdf?v=1789152583",
+   "https://export.arxiv.org/pdf/2508.00858",
+   "https://openaccess.thecvf.com/content/ICCV2023/html/Bernhard_MapFormer_Boosting_Change_Detection_by_Using_Pre-change_Information_ICCV_2023_paper.html",
+   "https://www.semanticscholar.org/paper/MapFormer%3A-Boosting-Change-Detection-by-Using-Bernhard-Strau%C3%9F/a3f0bfeae44ec8ba8ae3641b1176a7559a84b12e",
+   "https://arxiv.org/abs/2303.17859v4",
+   "https://arxiv.org/abs/2303.17859",
+   "http://arxiv.org/pdf/2303.17859",
+   "http://arxiv.org/abs/2303.17859v3",
+   "https://s.bingheai.cn/pdf/2303.17859v3",
+   "http://arxiv.org/pdf/2303.17859v2",
+   "https://arxiv.org/abs/2303.17859v1",
+   "https://huggingface.co/papers/2303.17859",
+   "https://export.arxiv.org/pdf/2303.17859v4.pdf",
+   "https://www.idexlab.com/openisme/topic-land-restoration/",
+   "https://air.unimi.it/retrieve/handle/2434/851029/1823479/1-s2.0-S0303243417300429-main.pdf",
+   "https://www.researchgate.net/publication/315336057_Remote_sensing_monitoring_of_land_restoration_interventions_in_semi-arid_environments_with_a_before-after_control-impact_statistical_design",
+   "https://essay.utwente.nl/fileshare/file/83729/muchando.pdf",
+   "https://fileserver-az.core.ac.uk/download/pdf/269292588.pdf",
+   "https://github.com/ilhankilic/resilland-intelligence/blob/HEAD/agents/skills/wb-resiland-framework.md",
+   "https://www.sciencedirect.com/author/6602852986/deborah-goffner",
+   "https://daneshyari.com/article/preview/5755600.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5569464/",
+   "https://www.researchgate.net/figure/Acquisition-date-and-sensor-of-Landsat-data-used-path-204-and-row-49_tbl1_315336057",
+   "https://dblp.org/db/conf/multitemp/multitemp2017",
+   "https://dblp.org/db/conf/multitemp/multitemp2017.html",
+   "https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yao_et_al_research_abstract_CaGIS_2026.pdf",
+   "https://github.com/google/earthengine-community/blob/HEAD/skills/alphaearth_foundations_change_detection/SKILL.md",
+   "https://github.com/ktwu01/alphaearthhack/blob/HEAD/README.md",
+   "https://github.com/tomevault-io/codex-plugins/blob/HEAD/ktwu01--alphaearthhack/AGENTS.md",
+   "https://github.com/mcambas/earthengine-community/blob/HEAD/skills/alphaearth_change_detection/SKILL.md",
+   "https://github.com/ed-imperative-space/alphaearth-temporal-change",
+   "https://github.com/ktwu01/alphaearthhack/blob/HEAD/CLAUDE.md",
+   "https://medium.com/@kimutai.lawrence19/alphaearth-by-google-deepmind-what-it-means-for-gis-and-remote-sensing-professionals-0312d55797d2",
+   "https://github.com/agraham9966/embed-cd/commit/db220d83f53cab258d416e8114e7842f207528f7",
+   "https://air.unimi.it/retrieve/handle/2434/851029/1823479/1-s2.0-S0303243417300429-main.pdf",
+   "https://fileserver-az.core.ac.uk/download/pdf/269292588.pdf",
+   "https://hal.science/hal-01723184",
+   "https://core.ac.uk/download/pdf/269292588.pdf",
+   "https://oskar-bordeaux.fr/handle/20.500.12278/133609?show=full&locale-attribute=en",
+   "https://www.researchgate.net/publication/315336057_Remote_sensing_monitoring_of_land_restoration_interventions_in_semi-arid_environments_with_a_before-after_control-impact_statistical_design",
+   "https://www.nature.com/articles/s41598-022-27242-3?error=cookies_not_supported&code=60dc132d-44a8-4e29-a98c-d7f8eafaa307",
+   "https://daneshyari.com/article/preview/5755600.pdf",
+   "https://ouci.dntb.gov.ua/?backlinks_to=10.1126%2Fscience.1172460&p=8",
+   "https://ouci.dntb.gov.ua/?backlinks_to=10.1126%2Fscience.1172460&publisher=Elsevier+BV",
+   "https://www2.mdpi.com/2073-445X/12/2/352",
+   "https://ouci.dntb.gov.ua/en/works/4LbMrYq9/"
+  ]
+ }
+}

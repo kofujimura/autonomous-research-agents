@@ -1,0 +1,4 @@
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/check_aggregation.py", line 19
+    primary=(fits.scope=='within')&(fits.decoder=='rf')&(fits.budget==2000)&
+                                                                            ^
+SyntaxError: invalid syntax

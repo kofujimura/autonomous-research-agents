@@ -1,0 +1,8 @@
+{
+ "mode": "composition",
+ "cases": 12096,
+ "q_maxabs": 0.0,
+ "uncertain_mismatch": 0,
+ "informative_mismatch": 0,
+ "informative_count_rev": 2871
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "task_id": "R07",
+    "command": [
+      ".venv/bin/python",
+      "code/analyse_strong_transfer.py",
+      "--region",
+      "R07",
+      "--out",
+      "analysis/transfer-strong"
+    ],
+    "start_time_utc": "2026-10-28T04:08:23.149029+00:00",
+    "end_time_utc": "2026-10-28T04:13:34.429405+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "R08",
+    "command": [
+      ".venv/bin/python",
+      "code/analyse_strong_transfer.py",
+      "--region",
+      "R08",
+      "--out",
+      "analysis/transfer-strong"
+    ],
+    "start_time_utc": "2026-10-28T04:13:34.429926+00:00",
+    "end_time_utc": "2026-10-28T04:18:42.403038+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "R09",
+    "command": [
+      ".venv/bin/python",
+      "code/analyse_strong_transfer.py",
+      "--region",
+      "R09",
+      "--out",
+      "analysis/transfer-strong"
+    ],
+    "start_time_utc": "2026-10-28T04:18:42.403543+00:00",
+    "end_time_utc": "2026-10-28T04:23:46.875227+00:00",
+    "exit_code": 0
+  }
+]

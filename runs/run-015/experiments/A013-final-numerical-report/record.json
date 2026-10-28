@@ -1,0 +1,27 @@
+{
+  "experiment_id": "A013-final-numerical-report",
+  "started_at_utc": "2026-10-26T11:24:09Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/report_bundle.py",
+    "--output",
+    "results"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/analysis-correction-v1.md",
+  "plan_commit_id": "9516337d1e5dae854afd3e8663fe20de2aa04584",
+  "code_commit_id": "40e669ceac4e6a39258229ee7fcba761f732bc0b",
+  "input_sha256": {
+    "protocol/design-v4.json": "b32b2be5bab4474dfdd67c7d925eb44ad5c1b59b4148314dce11624685b68d24",
+    "protocol/plan-v13-integer-moment-precision.md": "31006eb8de0630cd0ded66a1a00cb908e212c619d050cac11ed44dac45ea8862",
+    "protocol/plan-v11-repeated-member-draws.md": "518d16f7a601508e4e1114938cc3503ecfed1b6dc2b44a1f15607ee7fbae15d9",
+    "protocol/sensitivity-cohort-v1.json": "6f56e73beffa668423bb0e977b561cdb68c926136b68ff2a9e6489b44a5fed95"
+  },
+  "status": "completed",
+  "start_event_id": "E0684",
+  "child_pid": 75871,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T11:24:51Z",
+  "elapsed_seconds": 42.20576295792125,
+  "end_event_id": "E0685"
+}

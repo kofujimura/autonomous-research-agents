@@ -1,0 +1,17 @@
+# Corrected-input constant-column repeat
+
+Fixed at 2026-10-28T04:47:32.805708+00:00 after the original controls, corrected comparisons, and stronger-transfer outcomes were inspected, and before these repeat fits. This is exploratory.
+
+Question: does the zero-column pipeline sensitivity observed on the initial extraction also occur on the canonical corrected inputs? This closes a measurement-version limitation; it is not an ecological-information test or a new model search.
+
+Use the corrected original3667-wetland features and exactly the archived primary training pairs, four rotations, candidate pools and target labels. Repeat only seed offset0 in three fixed conditions: original forest max_features0.7, forest max_features1.0, and the fixed histogram boosted-tree learner. Append an everywhere-zero scalar to the physical pair feature matrix. Compare respectively with analysis/main-corrected, analysis/controls/all-corrected-seed-0, and analysis/controls/hgb-corrected. Reuse each baseline's physical pair/category decisions; no baseline refits or outcome-dependent choices. Original initial-extraction repeats remain preserved.
+
+For each condition run all four rotations, then the unchanged risk–coverage/paired-window summary. Audit zero training values, zero forest splits on the added column (not applicable to boosted trees), nonempty query counts, changed reference IDs, confidence changes at absolute tolerance1e-12, and changed original half-coverage screens. Confidence equality concerns archived maxima, not every candidate prediction or model parameter. Report all three conditions, including unchanged or adverse results. Four rotations are shared-data roles, not independent repetitions; this one-seed repeat does not estimate general seed variability.
+
+All data are already bundled public numerical measurements under the recorded terms in DATA_TERMS.md. No new acquisition, human data, external AI or API calls; costUSD0. The input hashes and plan/code commits are recorded by the bounded launcher and each fit. Run one sequential group with1800second timeout; stop after the fixed twelve fits and summaries/audit, or preserve failure/timeout as observed. Expected runtime is under ten minutes; do not launch after the final-hour cutoff05:36:22UTC. No metric, threshold, exclusion or hyperparameter is selected from these results.
+
+## Pre-execution interpretation clarification — 2026-10-28T04:52:15.133264+00:00
+
+The tile-edge correction changes only AlphaEarth arrays; the physical arrays and site metadata were already checked unchanged. The constant-column conditions do not use AlphaEarth distances. Thus these fits are expected replay checks of the physical pipeline on the canonical input paths, not independent measurements, new ecological evidence, or a newly surprising null-feature effect. Keep the same twelve fits for a direct author refit check, report all outcomes and any mismatch, and do not increase the evidential sample size or call this independent reproduction. No repeat has started when this clarification is written.
+
+Before-execution verification detail (2026-10-28T04:58:33.349823+00:00): also compare each replayed constant model with its saved initial-extraction constant model, counting changed reference IDs and mismatch values exactly and confidence differences at1e-12. Preserve any discrepancies; these are verification counts, not a new ecological outcome. No new repeat has started.

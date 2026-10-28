@@ -1,0 +1,1061 @@
+{
+  "completed_at_utc": "2026-10-27T10:10:27.568276Z",
+  "original_patches": 227,
+  "common_cohort_patches": 166,
+  "by_region": {
+    "R01": {
+      "original": 61,
+      "retained": 46
+    },
+    "R02": {
+      "original": 67,
+      "retained": 54
+    },
+    "R03": {
+      "original": 34,
+      "retained": 18
+    },
+    "R04": {
+      "original": 65,
+      "retained": 48
+    }
+  },
+  "contrasts": {
+    "unchanged": {
+      "H1_interaction": {
+        "status": "complete",
+        "estimate": 0.10002012882447658,
+        "conditional_block_bootstrap_95_percent_interval": [
+          0.026621591203169603,
+          0.17052240878467403
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "regional_allocation_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_oracle_gain": {
+        "status": "complete",
+        "estimate": 0.11819142512077291,
+        "conditional_block_bootstrap_95_percent_interval": [
+          0.0777028549562117,
+          0.16094819583551523
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "optical_oracle_gain": {
+        "status": "complete",
+        "estimate": 0.018171296296296324,
+        "conditional_block_bootstrap_95_percent_interval": [
+          -0.02826296663684344,
+          0.06719041179690269
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "aef_proposal_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_vs_uncertainty": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_vs_uncertainty": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_mmu_frame_change": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_mmu_frame_change": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_natural_vs_balanced": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_cap10_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_regionmatched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_regionmatched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_corematched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_corematched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_cap10_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_natural_vs_balanced": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_cap10_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_regionmatched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_regionmatched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_corematched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_corematched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_cap10_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "oracle_vs_area_regionmatched_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "oracle_vs_area_corematched_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      }
+    },
+    "north": {
+      "H1_interaction": {
+        "status": "complete",
+        "estimate": 0.12857789855072466,
+        "conditional_block_bootstrap_95_percent_interval": [
+          0.05703464063008786,
+          0.19601589991392623
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "regional_allocation_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_oracle_gain": {
+        "status": "complete",
+        "estimate": 0.1334440418679549,
+        "conditional_block_bootstrap_95_percent_interval": [
+          0.08624272928210315,
+          0.1828471689239473
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "optical_oracle_gain": {
+        "status": "complete",
+        "estimate": 0.0048661433172302315,
+        "conditional_block_bootstrap_95_percent_interval": [
+          -0.04099599488918382,
+          0.05430669181857684
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "aef_proposal_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_vs_uncertainty": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_vs_uncertainty": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_mmu_frame_change": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_mmu_frame_change": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_natural_vs_balanced": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_cap10_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_regionmatched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_regionmatched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_corematched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_corematched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_cap10_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_natural_vs_balanced": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_cap10_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_regionmatched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_regionmatched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_corematched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_corematched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_cap10_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "oracle_vs_area_regionmatched_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "oracle_vs_area_corematched_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      }
+    },
+    "south": {
+      "H1_interaction": {
+        "status": "complete",
+        "estimate": 0.10616948470209348,
+        "conditional_block_bootstrap_95_percent_interval": [
+          0.051632454648526095,
+          0.16097947190989567
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "regional_allocation_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_oracle_gain": {
+        "status": "complete",
+        "estimate": 0.11414049919484709,
+        "conditional_block_bootstrap_95_percent_interval": [
+          0.07628285462130935,
+          0.15265857732655722
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "optical_oracle_gain": {
+        "status": "complete",
+        "estimate": 0.007971014492753614,
+        "conditional_block_bootstrap_95_percent_interval": [
+          -0.029871227427670986,
+          0.045491455503308915
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "aef_proposal_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_vs_uncertainty": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_vs_uncertainty": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_mmu_frame_change": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_mmu_frame_change": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_natural_vs_balanced": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_cap10_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_regionmatched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_regionmatched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_corematched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_corematched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_cap10_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_natural_vs_balanced": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_cap10_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_regionmatched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_regionmatched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_corematched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_corematched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_cap10_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "oracle_vs_area_regionmatched_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "oracle_vs_area_corematched_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      }
+    },
+    "west": {
+      "H1_interaction": {
+        "status": "complete",
+        "estimate": 0.12419484702093403,
+        "conditional_block_bootstrap_95_percent_interval": [
+          0.04320504507697379,
+          0.19628006454957725
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "regional_allocation_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_oracle_gain": {
+        "status": "complete",
+        "estimate": 0.13258856682769726,
+        "conditional_block_bootstrap_95_percent_interval": [
+          0.0856047171120701,
+          0.17751732209267046
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "optical_oracle_gain": {
+        "status": "complete",
+        "estimate": 0.008393719806763233,
+        "conditional_block_bootstrap_95_percent_interval": [
+          -0.03867817187897282,
+          0.05679775035014005
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "aef_proposal_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_vs_uncertainty": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_vs_uncertainty": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_mmu_frame_change": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_mmu_frame_change": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_natural_vs_balanced": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_cap10_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_regionmatched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_regionmatched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_corematched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_corematched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_cap10_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_natural_vs_balanced": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_cap10_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_regionmatched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_regionmatched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_corematched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_corematched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_cap10_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "oracle_vs_area_regionmatched_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "oracle_vs_area_corematched_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      }
+    },
+    "east": {
+      "H1_interaction": {
+        "status": "complete",
+        "estimate": 0.1053391706924317,
+        "conditional_block_bootstrap_95_percent_interval": [
+          0.04829753416082665,
+          0.1649168446581067
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "regional_allocation_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_oracle_gain": {
+        "status": "complete",
+        "estimate": 0.11420591787439616,
+        "conditional_block_bootstrap_95_percent_interval": [
+          0.08094953416149067,
+          0.15091173603944505
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "optical_oracle_gain": {
+        "status": "complete",
+        "estimate": 0.008866747181964452,
+        "conditional_block_bootstrap_95_percent_interval": [
+          -0.03742735829549848,
+          0.05524512014853684
+        ],
+        "undefined_replicates": 0,
+        "replicates": 2000,
+        "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+      },
+      "aef_proposal_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_vs_uncertainty": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_vs_uncertainty": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_mmu_frame_change": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_mmu_frame_change": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_natural_vs_balanced": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_cap10_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_regionmatched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_regionmatched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_corematched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_area_corematched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_weighted_area_cap10_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_proposal_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "aef_uncertainty_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_natural_vs_balanced": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_cap10_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_aef_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_regionmatched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_regionmatched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_corematched_gain": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_area_corematched_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_weighted_area_cap10_vs_oracle": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_aef_vs_classmatched": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_proposal_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "optical_uncertainty_uniform_aef_vs_natural": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "oracle_vs_area_regionmatched_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      },
+      "oracle_vs_area_corematched_interaction": {
+        "status": "incomplete",
+        "reason": "All five seeds not yet evaluated for every arm"
+      }
+    }
+  },
+  "interpretation": "Exploratory deterministic spatial stress test; fixed model predictions, shared reference cohort, directional thresholds; not reference truth or an empirical error model"
+}

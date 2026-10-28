@@ -1,0 +1,78 @@
+[
+  {
+    "point_id": "R1-1",
+    "decision": "partly adopted",
+    "claims": [
+      "C01",
+      "C02",
+      "C08",
+      "C20"
+    ],
+    "reason": "Adopt all requested finite-member/exact-moment qualifications and optional descriptive table. Do not adopt the stronger causal attribution that support size mainly explains the result: the empirical laws change and this design does not estimate a causal share.",
+    "changes": "Abstract; \u00a74.1; \u00a75; Appendices L\u2013M; claims C01/C02/C08 scopes; new exploratory C20.",
+    "experiments_added": [
+      "A014-review-response-report"
+    ]
+  },
+  {
+    "point_id": "R1-2",
+    "decision": "partly adopted",
+    "claims": [
+      "C04",
+      "C20"
+    ],
+    "reason": "Adopt primary-first abstract, all-query and boundary certification with denominators, and reduced exploratory detail. Describe low boundary certification as unsurprising given wide intervals and selection, while rejecting a logical implication from width alone. Saved endpoints include wide certified intervals.",
+    "changes": "Abstract; \u00a74.2/Table2 (all nine prespecified strata/cost-ratio rows); Appendix M; C04 expected values expanded to all three strata; C20 diagnostic.",
+    "experiments_added": [
+      "A014-review-response-report"
+    ]
+  },
+  {
+    "point_id": "R1-3",
+    "decision": "adopted",
+    "claims": [
+      "C01",
+      "C03",
+      "C04"
+    ],
+    "reason": "Prespecified strata should be displayed. Add all 24 product \u00d7 geometry \u00d7 lead \u00d7 stratum rows, including widths, aggregate narrowing share, and pair-identified counts. Scope remains the two tested spacings.",
+    "changes": "\u00a74.1; Appendix L; abstract and discussion geometry qualification; scope strings.",
+    "experiments_added": [
+      "A014-review-response-report"
+    ]
+  },
+  {
+    "point_id": "R1-4",
+    "decision": "adopted",
+    "claims": [],
+    "reason": "Name the classical sources and financial empirical precedent, with access levels explicit. Relevant full Giglio formulation/empirical passages were separately checked. Original classical articles and Bernard full text remain unassessed; checked full [7] supports the attributed LP and binomial-moment formula.",
+    "changes": "\u00a72; references14\u201319; literature/review-prior-work-notes.md; sources.jsonl. Distinguish the aggregate-only S1/S2 closed form from our stronger individual-margins-plus-aggregate information and financial inferred constraints from exact supplied pair probabilities.",
+    "experiments_added": []
+  },
+  {
+    "point_id": "R1-5",
+    "decision": "adopted",
+    "claims": [
+      "C10"
+    ],
+    "reason": "Clarify actual delivery interface, member availability and stylized dry-bulb framing. Give fixed-format size comparison prominently, without inferring deployment savings or product access restrictions.",
+    "changes": "Abstract first sentence; \u00a71; \u00a74.4; \u00a75; official ECMWF documentation checked.",
+    "experiments_added": []
+  },
+  {
+    "point_id": "R1-6",
+    "decision": "adopted",
+    "claims": [],
+    "reason": "Define specialist terms before methods and repair typography in generators, manuscript, claims and verification instructions.",
+    "changes": "Methods glossary; render_paper.py; write_claims.py; VERIFY.md.",
+    "experiments_added": []
+  },
+  {
+    "point_id": "R1-7",
+    "decision": "adopted",
+    "claims": [],
+    "reason": "Retain original failed record and add explicit full-ID disambiguation and intended-plan index. E0384 had already recorded the intended-plan correction; the new note makes it discoverable.",
+    "changes": "protocol/deviations.md; append-only record_index_correction event; no alteration to experiments/D002-identification-remaining/record.json.",
+    "experiments_added": []
+  }
+]

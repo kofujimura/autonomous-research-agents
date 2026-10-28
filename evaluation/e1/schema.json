@@ -1,0 +1,223 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "summary",
+    "scores",
+    "score_reasons",
+    "verdict",
+    "overall_10",
+    "workshop_level",
+    "main_track_level",
+    "research_question",
+    "main_issues",
+    "strengths",
+    "closest_prior_work",
+    "familiarity",
+    "figures_viewed"
+  ],
+  "properties": {
+    "summary": {
+      "type": "string"
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "correctness",
+        "verifiability",
+        "novelty",
+        "generality",
+        "usefulness",
+        "clarity"
+      ],
+      "properties": {
+        "correctness": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "verifiability": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "novelty": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "generality": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "usefulness": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "clarity": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      }
+    },
+    "score_reasons": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "correctness",
+        "verifiability",
+        "novelty",
+        "generality",
+        "usefulness",
+        "clarity"
+      ],
+      "properties": {
+        "correctness": {
+          "type": "string"
+        },
+        "verifiability": {
+          "type": "string"
+        },
+        "novelty": {
+          "type": "string"
+        },
+        "generality": {
+          "type": "string"
+        },
+        "usefulness": {
+          "type": "string"
+        },
+        "clarity": {
+          "type": "string"
+        }
+      }
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "accept",
+        "minor revision",
+        "major revision",
+        "reject"
+      ]
+    },
+    "overall_10": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "workshop_level": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "borderline",
+        "no"
+      ]
+    },
+    "main_track_level": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "borderline",
+        "no"
+      ]
+    },
+    "research_question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "question",
+        "question_quality",
+        "predictable",
+        "predictable_reason"
+      ],
+      "properties": {
+        "question": {
+          "type": "string"
+        },
+        "question_quality": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "predictable": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "partly",
+            "no"
+          ]
+        },
+        "predictable_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "main_issues": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "severity",
+          "issue"
+        ],
+        "properties": {
+          "severity": {
+            "type": "string",
+            "enum": [
+              "critical",
+              "moderate",
+              "minor"
+            ]
+          },
+          "issue": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "strengths": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "type": "string"
+      }
+    },
+    "closest_prior_work": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "citation",
+          "url",
+          "difference"
+        ],
+        "properties": {
+          "citation": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "difference": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "familiarity": {
+      "type": "string"
+    },
+    "figures_viewed": {
+      "type": "boolean"
+    }
+  }
+}

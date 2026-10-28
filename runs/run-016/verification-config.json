@@ -1,0 +1,912 @@
+{
+  "created_at_utc": "2026-10-27T03:25:44.225376Z",
+  "analyses": [
+    {
+      "path": "results/inference/logistic-broad-tessera",
+      "role": "primary",
+      "reconstruct_features": true
+    },
+    {
+      "path": "results/inference/logistic-broad-alphaearth",
+      "role": "primary",
+      "reconstruct_features": true
+    },
+    {
+      "path": "results/inference/logistic-fine-tessera",
+      "role": "robustness",
+      "reconstruct_features": true
+    },
+    {
+      "path": "results/inference/logistic-fine-alphaearth",
+      "role": "robustness",
+      "reconstruct_features": true
+    },
+    {
+      "path": "results/census-inference/logistic-broad-tessera",
+      "role": "robustness",
+      "reconstruct_features": true
+    },
+    {
+      "path": "results/census-inference/logistic-broad-alphaearth",
+      "role": "robustness",
+      "reconstruct_features": true
+    },
+    {
+      "path": "results/inference/forest-broad-tessera",
+      "role": "robustness",
+      "reconstruct_features": false
+    },
+    {
+      "path": "results/inference/logistic-broad-refreshed-tessera",
+      "role": "robustness",
+      "reconstruct_features": true
+    },
+    {
+      "path": "results/inference/hard-auxiliary-broad-tessera",
+      "role": "robustness",
+      "reconstruct_features": false
+    },
+    {
+      "path": "results/inference/forest-broad-alphaearth",
+      "role": "robustness",
+      "reconstruct_features": false
+    },
+    {
+      "path": "results/inference/logistic-broad-refreshed-alphaearth",
+      "role": "robustness",
+      "reconstruct_features": true
+    },
+    {
+      "path": "results/inference/hard-auxiliary-broad-alphaearth",
+      "role": "robustness",
+      "reconstruct_features": false
+    }
+  ],
+  "table_groups": [
+    {
+      "name": "tables-main",
+      "analyses": [
+        "results/inference/logistic-broad-tessera",
+        "results/inference/logistic-broad-alphaearth"
+      ],
+      "expected_path": "results/tables/main",
+      "primary_filter": true,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    },
+    {
+      "name": "tables-fine",
+      "analyses": [
+        "results/inference/logistic-fine-tessera",
+        "results/inference/logistic-fine-alphaearth"
+      ],
+      "expected_path": "results/tables/fine",
+      "primary_filter": true,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    },
+    {
+      "name": "tables-census",
+      "analyses": [
+        "results/census-inference/logistic-broad-tessera",
+        "results/census-inference/logistic-broad-alphaearth"
+      ],
+      "expected_path": "results/tables/census",
+      "primary_filter": true,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    },
+    {
+      "name": "tables-forest-broad-tessera",
+      "analyses": [
+        "results/inference/forest-broad-tessera"
+      ],
+      "expected_path": "results/tables/forest-broad-tessera",
+      "primary_filter": true,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    },
+    {
+      "name": "tables-logistic-broad-refreshed-tessera",
+      "analyses": [
+        "results/inference/logistic-broad-refreshed-tessera"
+      ],
+      "expected_path": "results/tables/logistic-broad-refreshed-tessera",
+      "primary_filter": true,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    },
+    {
+      "name": "tables-hard-tessera",
+      "analyses": [
+        "results/inference/hard-auxiliary-broad-tessera"
+      ],
+      "expected_path": "results/tables/hard-auxiliary-tessera",
+      "primary_filter": true,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    },
+    {
+      "name": "tables-forest-broad-alphaearth",
+      "analyses": [
+        "results/inference/forest-broad-alphaearth"
+      ],
+      "expected_path": "results/tables/forest-broad-alphaearth",
+      "primary_filter": true,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    },
+    {
+      "name": "tables-logistic-broad-refreshed-alphaearth",
+      "analyses": [
+        "results/inference/logistic-broad-refreshed-alphaearth"
+      ],
+      "expected_path": "results/tables/logistic-broad-refreshed-alphaearth",
+      "primary_filter": true,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    },
+    {
+      "name": "tables-hard-alphaearth",
+      "analyses": [
+        "results/inference/hard-auxiliary-broad-alphaearth"
+      ],
+      "expected_path": "results/tables/hard-auxiliary-alphaearth",
+      "primary_filter": true,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    },
+    {
+      "name": "tables-secondary-broad",
+      "analyses": [
+        "results/inference/logistic-broad-tessera",
+        "results/inference/logistic-broad-alphaearth",
+        "results/inference/forest-broad-tessera",
+        "results/inference/forest-broad-alphaearth"
+      ],
+      "expected_path": "results/tables/secondary-broad",
+      "primary_filter": false,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    },
+    {
+      "name": "tables-secondary-fine",
+      "analyses": [
+        "results/inference/logistic-fine-tessera",
+        "results/inference/logistic-fine-alphaearth"
+      ],
+      "expected_path": "results/tables/secondary-fine",
+      "primary_filter": false,
+      "csv_files": [
+        "audit-performance.csv",
+        "case-counts.csv",
+        "oracle-diagnostics.csv",
+        "pairing-mse-ratios.csv",
+        "point-estimates.csv",
+        "unit-pairing-ratios.csv",
+        "unit-performance-distributions.csv",
+        "unit-performance.csv"
+      ]
+    }
+  ],
+  "supplemental_tasks": [
+    {
+      "name": "jackknife-tessera",
+      "module": "jackknife_analysis",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-tessera"
+      ],
+      "kwargs": {},
+      "expected_path": "results/jackknife/tessera",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "stratified-tessera",
+      "module": "stratified_audits",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-tessera"
+      ],
+      "kwargs": {},
+      "expected_path": "results/stratified/tessera",
+      "csv_files": [
+        "stratum-context.csv",
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "power-tessera",
+      "module": "power_tuning_analysis",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-tessera"
+      ],
+      "kwargs": {},
+      "expected_path": "results/power/tessera",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "gradient-broad-tessera",
+      "module": "gradient_sensitivity",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-tessera"
+      ],
+      "kwargs": {},
+      "expected_path": "results/gradient/broad-tessera",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "projection-derivative-broad-tessera",
+      "module": "projection_derivative",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-tessera"
+      ],
+      "kwargs": {},
+      "expected_path": "results/projection-derivative/broad-tessera",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "gradient-fine-tessera",
+      "module": "gradient_sensitivity",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-fine-tessera"
+      ],
+      "kwargs": {},
+      "expected_path": "results/gradient/fine-tessera",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "projection-derivative-fine-tessera",
+      "module": "projection_derivative",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-fine-tessera"
+      ],
+      "kwargs": {},
+      "expected_path": "results/projection-derivative/fine-tessera",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "projection-derivative-forest-broad-tessera",
+      "module": "projection_derivative",
+      "function": "run",
+      "args": [
+        "results/inference/forest-broad-tessera"
+      ],
+      "kwargs": {
+        "plan_path": "protocol/plan-v14a-projection-controls.md"
+      },
+      "expected_path": "results/projection-derivative/forest-broad-tessera",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "projection-derivative-refreshed-broad-tessera",
+      "module": "projection_derivative",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-refreshed-tessera"
+      ],
+      "kwargs": {
+        "plan_path": "protocol/plan-v14a-projection-controls.md"
+      },
+      "expected_path": "results/projection-derivative/refreshed-broad-tessera",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "jackknife-alphaearth",
+      "module": "jackknife_analysis",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-alphaearth"
+      ],
+      "kwargs": {},
+      "expected_path": "results/jackknife/alphaearth",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "stratified-alphaearth",
+      "module": "stratified_audits",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-alphaearth"
+      ],
+      "kwargs": {},
+      "expected_path": "results/stratified/alphaearth",
+      "csv_files": [
+        "stratum-context.csv",
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "power-alphaearth",
+      "module": "power_tuning_analysis",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-alphaearth"
+      ],
+      "kwargs": {},
+      "expected_path": "results/power/alphaearth",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "gradient-broad-alphaearth",
+      "module": "gradient_sensitivity",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-alphaearth"
+      ],
+      "kwargs": {},
+      "expected_path": "results/gradient/broad-alphaearth",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "projection-derivative-broad-alphaearth",
+      "module": "projection_derivative",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-alphaearth"
+      ],
+      "kwargs": {},
+      "expected_path": "results/projection-derivative/broad-alphaearth",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "gradient-fine-alphaearth",
+      "module": "gradient_sensitivity",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-fine-alphaearth"
+      ],
+      "kwargs": {},
+      "expected_path": "results/gradient/fine-alphaearth",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "projection-derivative-fine-alphaearth",
+      "module": "projection_derivative",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-fine-alphaearth"
+      ],
+      "kwargs": {},
+      "expected_path": "results/projection-derivative/fine-alphaearth",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "projection-derivative-forest-broad-alphaearth",
+      "module": "projection_derivative",
+      "function": "run",
+      "args": [
+        "results/inference/forest-broad-alphaearth"
+      ],
+      "kwargs": {
+        "plan_path": "protocol/plan-v14a-projection-controls.md"
+      },
+      "expected_path": "results/projection-derivative/forest-broad-alphaearth",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "projection-derivative-refreshed-broad-alphaearth",
+      "module": "projection_derivative",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-refreshed-alphaearth"
+      ],
+      "kwargs": {
+        "plan_path": "protocol/plan-v14a-projection-controls.md"
+      },
+      "expected_path": "results/projection-derivative/refreshed-broad-alphaearth",
+      "csv_files": [
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "projection-derivative-validation",
+      "module": "validate_projection_derivative",
+      "function": "run",
+      "args": [],
+      "kwargs": {},
+      "expected_path": "results/validation-projection-derivative",
+      "csv_files": [
+        "boundary-fixture.csv",
+        "finite-differences.csv"
+      ],
+      "quick": true
+    },
+    {
+      "name": "sparse",
+      "module": "sparse_change_analysis",
+      "function": "run",
+      "args": [
+        "results/inference/logistic-broad-tessera"
+      ],
+      "kwargs": {},
+      "expected_path": "results/sparse/tessera",
+      "csv_files": [
+        "conditional-on-observed-changes.csv",
+        "summary.csv",
+        "unit-diagnostics.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "reference-frames",
+      "module": "reference_frame_analysis",
+      "function": "run",
+      "args": [
+        "data/population-source-v1.json"
+      ],
+      "kwargs": {},
+      "expected_path": "results/reference-frames",
+      "csv_files": [
+        "case-counts.csv",
+        "pairing-ratios.csv",
+        "reference-changes.csv",
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "stable-arable",
+      "module": "reference_frame_analysis",
+      "function": "run",
+      "args": [
+        "data/population-source-v1.json"
+      ],
+      "kwargs": {
+        "arable_only": true
+      },
+      "expected_path": "results/stable-arable",
+      "csv_files": [
+        "case-counts.csv",
+        "pairing-ratios.csv",
+        "reference-changes.csv",
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "additional-geography",
+      "module": "reference_frame_analysis",
+      "function": "run",
+      "args": [
+        "data/population-source-v1.json"
+      ],
+      "kwargs": {
+        "selection_ledger": "data/validation-selection-results.jsonl",
+        "expected_landscapes": 8,
+        "plan_path": "protocol/plan-v13-additional-geography.md"
+      },
+      "expected_path": "results/additional-geography",
+      "csv_files": [
+        "case-counts.csv",
+        "pairing-ratios.csv",
+        "reference-changes.csv",
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "additional-geography-context",
+      "module": "reference_frame_summaries",
+      "function": "run",
+      "args": [
+        "results/additional-geography"
+      ],
+      "kwargs": {},
+      "expected_path": "results/additional-geography-context",
+      "csv_files": [
+        "frame-change-comparisons.csv",
+        "subset-performance.csv"
+      ],
+      "quick": true
+    },
+    {
+      "name": "additional-geography-arable",
+      "module": "reference_frame_analysis",
+      "function": "run",
+      "args": [
+        "data/population-source-v1.json"
+      ],
+      "kwargs": {
+        "selection_ledger": "data/validation-selection-results.jsonl",
+        "expected_landscapes": 8,
+        "plan_path": "protocol/plan-v13-additional-geography.md",
+        "arable_only": true
+      },
+      "expected_path": "results/additional-geography-arable",
+      "csv_files": [
+        "case-counts.csv",
+        "pairing-ratios.csv",
+        "reference-changes.csv",
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "additional-arable-high-replication",
+      "module": "reference_frame_analysis",
+      "function": "run",
+      "args": [
+        "data/population-source-v1.json"
+      ],
+      "kwargs": {
+        "selection_ledger": "data/validation-selection-results.jsonl",
+        "expected_landscapes": 8,
+        "plan_path": "protocol/plan-v13b-monte-carlo-precision.md",
+        "arable_only": true,
+        "replications": 5000,
+        "keep_draws": false
+      },
+      "expected_path": "results/additional-arable-high-replication",
+      "csv_files": [
+        "case-counts.csv",
+        "pairing-ratios.csv",
+        "reference-changes.csv",
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "reference-context",
+      "module": "reference_frame_summaries",
+      "function": "run",
+      "args": [
+        "results/reference-frames"
+      ],
+      "kwargs": {},
+      "expected_path": "results/reference-frame-context",
+      "csv_files": [
+        "frame-change-comparisons.csv",
+        "subset-performance.csv"
+      ],
+      "quick": true
+    },
+    {
+      "name": "coherent-panel",
+      "module": "panel_analysis",
+      "function": "run",
+      "args": [],
+      "kwargs": {},
+      "expected_path": "results/coherent-panel",
+      "csv_files": [
+        "landscape-performance.csv",
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "registration",
+      "module": "registration_check",
+      "function": "run",
+      "args": [
+        [
+          "results/census-models/logistic-broad-tessera",
+          "results/census-models/logistic-broad-alphaearth"
+        ]
+      ],
+      "kwargs": {},
+      "expected_path": "results/registration",
+      "csv_files": [
+        "summary-performance.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "census-comparison",
+      "module": "compare_census",
+      "function": "compare",
+      "args": [
+        [
+          "results/inference/logistic-broad-tessera",
+          "results/inference/logistic-broad-alphaearth"
+        ],
+        [
+          "results/census-inference/logistic-broad-tessera",
+          "results/census-inference/logistic-broad-alphaearth"
+        ]
+      ],
+      "kwargs": {},
+      "expected_path": "results/census-comparison",
+      "csv_files": [
+        "census-changes.csv",
+        "census-unit-performance.csv"
+      ],
+      "quick": true
+    },
+    {
+      "name": "reference-sensitivity",
+      "module": "reference_sensitivity",
+      "function": "run",
+      "args": [
+        "data/population-main-v1.json"
+      ],
+      "kwargs": {},
+      "expected_path": "results/reference-sensitivity",
+      "csv_files": [
+        "reference-sensitivity.csv"
+      ],
+      "quick": true
+    },
+    {
+      "name": "scope-baselines",
+      "module": "scope_baselines",
+      "function": "run",
+      "args": [],
+      "kwargs": {},
+      "expected_path": "results/scope-baselines",
+      "csv_files": [
+        "scope-baselines.csv"
+      ],
+      "quick": true
+    },
+    {
+      "name": "covariance-context",
+      "module": "covariance_context",
+      "function": "run",
+      "args": [],
+      "kwargs": {},
+      "expected_path": "results/covariance-context",
+      "csv_files": [
+        "summary.csv"
+      ],
+      "quick": true
+    },
+    {
+      "name": "refreshed-controls",
+      "module": "check_refreshed_controls",
+      "function": "run",
+      "args": [],
+      "kwargs": {},
+      "expected_path": "results/refreshed-controls",
+      "csv_files": [
+        "comparison.csv"
+      ],
+      "quick": true
+    },
+    {
+      "name": "review-label-error",
+      "module": "review_label_error",
+      "function": "run",
+      "args": [],
+      "kwargs": {},
+      "expected_path": "results/review-label-error",
+      "csv_files": [
+        "comparisons.csv",
+        "summary.csv",
+        "unit-performance.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "review-summaries",
+      "module": "review_summaries",
+      "function": "run",
+      "args": [],
+      "kwargs": {},
+      "expected_path": "results/review-summaries",
+      "csv_files": [
+        "all-budget-point-baselines.csv",
+        "decision-context.csv",
+        "effective-group-errors.csv",
+        "landscape-resampling.csv",
+        "long-contrast.csv",
+        "preplanned-subsets.csv"
+      ],
+      "quick": false
+    },
+    {
+      "name": "description-main",
+      "module": "describe_data",
+      "function": "describe",
+      "args": [
+        "data/population-main-v1.json",
+        [
+          "results/models/logistic-broad-tessera",
+          "results/models/logistic-broad-alphaearth",
+          "results/models/logistic-fine-tessera",
+          "results/models/logistic-fine-alphaearth",
+          "results/models/forest-broad-tessera",
+          "results/models/forest-broad-alphaearth"
+        ]
+      ],
+      "kwargs": {},
+      "expected_path": "results/description-main",
+      "csv_files": [
+        "classification-context.csv",
+        "convergence.csv",
+        "landscape-description.csv",
+        "spatial-distances.csv",
+        "split-description.csv"
+      ],
+      "quick": true
+    },
+    {
+      "name": "description-final",
+      "module": "describe_data",
+      "function": "describe",
+      "args": [
+        "data/population-main-v1.json",
+        [
+          "results/models/logistic-broad-tessera",
+          "results/models/logistic-broad-alphaearth",
+          "results/models/logistic-fine-tessera",
+          "results/models/logistic-fine-alphaearth",
+          "results/models/forest-broad-tessera",
+          "results/models/forest-broad-alphaearth",
+          "results/models/logistic-broad-refreshed-tessera",
+          "results/models/logistic-broad-refreshed-alphaearth"
+        ]
+      ],
+      "kwargs": {},
+      "expected_path": "results/description-final",
+      "csv_files": [
+        "classification-context.csv",
+        "convergence.csv",
+        "landscape-description.csv",
+        "spatial-distances.csv",
+        "split-description.csv"
+      ],
+      "quick": true
+    }
+  ],
+  "render_documents": true,
+  "scope": "Original complete Monte Carlo comparisons plus completed robustness/exploratory tables. Quick mode checks summaries from saved Monte Carlo arrays and cheap context checks only."
+}

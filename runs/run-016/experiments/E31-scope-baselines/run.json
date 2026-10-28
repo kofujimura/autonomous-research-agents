@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E31-scope-baselines",
+  "start_time_utc": "2026-10-26T21:47:28.645943Z",
+  "end_time_utc": "2026-10-26T21:47:29.263944Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/scope_baselines.py",
+    "--destination",
+    "results/scope-baselines"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v10-arable-boundary.md",
+  "plan_commit_id": "bbdef5f49399f2017081809ccb9f5495d556f6a9",
+  "plan_sha256": "11888516aded4c03711eea42d43a9725bae609e43e6d65ee2fd1ef4ad7ac2f9f",
+  "code_commit_id": "bbdef5f49399f2017081809ccb9f5495d556f6a9",
+  "inputs": [
+    {
+      "path": "results/stable-arable/analysis.json",
+      "sha256": "37ca5f47fb29c87b98a59d067f739fc62addc35b182794e13655e05c43d40286"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E31-scope-baselines/stdout.txt",
+  "stderr_path": "experiments/E31-scope-baselines/stderr.txt",
+  "start_event_id": "E0340",
+  "pid": 8074,
+  "elapsed_seconds": 0.6179124161135405,
+  "end_event_id": "E0341"
+}

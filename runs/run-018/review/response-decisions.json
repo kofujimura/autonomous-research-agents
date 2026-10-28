@@ -1,0 +1,103 @@
+{
+  "recorded_at_utc": "2026-10-28T10:15:02.884933+00:00",
+  "points": [
+    {
+      "point_id": "R1-1",
+      "decision": "partly adopted",
+      "action": "State the primary answer, show the planned null/seed controls prominently, report homogeneous three-seed means, and apply plan-v6 qualification.",
+      "reason": "The attribution claim is not established under the planned descriptive rule. We avoid a formal \u201cindistinguishable\u201d claim because three permutations and heterogeneous perturbations do not define a calibrated null distribution. A narrow factual correction: submitted Figure4 already included all planned seeds/permutations; the revision clarifies its labels/caption and adds the full paired-scale table to the main text.",
+      "changes": "Abstract; \u00a7\u00a74.1,4.5,5; Figure4; C01/C04/C06; code/review_manuscript.py and review_claims.py",
+      "experiment_ids": [
+        "review-reanalysis-v1",
+        "review-reanalysis-v2"
+      ]
+    },
+    {
+      "point_id": "R1-2",
+      "decision": "adopted",
+      "action": "Report both weightings and small-window contributions.",
+      "reason": "The accepted sets can differ, so the one-error difference is described as one fewer mismatch among five accepted queries rather than one same-query prediction corrected. No window is excluded from the primary result. Polygon-C and other-window conclusions are explicitly restricted when pooled results differ.",
+      "changes": "Abstract; \u00a7\u00a74.1\u20134.4,4.6,4.9; C01/C08/C10/C13/C15",
+      "experiment_ids": [
+        "review-reanalysis-v1",
+        "review-reanalysis-v2"
+      ]
+    },
+    {
+      "point_id": "R1-3",
+      "decision": "adopted",
+      "action": "Frame zero-column changes as fitting randomness and add the fixed five further corrected-input seed fits.",
+      "reason": "Changing feature dimension can change randomized trees even at the same random-state integer. The zero-column result is a diagnostic of effect size relative to fitting variability, without a uniquely demonstrated tree-level mechanism. Homogeneous initial three-seed and corrected six-seed summaries are kept separate.",
+      "changes": "\u00a74.5; Discussion; C03/C17; analysis/review-seeds/",
+      "experiment_ids": [
+        "review-seed-3000",
+        "review-seed-4000",
+        "review-seed-5000",
+        "review-seed-6000",
+        "review-seed-7000"
+      ]
+    },
+    {
+      "point_id": "R1-4",
+      "decision": "adopted",
+      "action": "Add paired uncertainty for decoder log loss/recall and a compact real/null table on both scales.",
+      "reason": "Decoder prediction and accepted-reference mismatch answer different questions. Better probabilities from these fitted models do not establish conditional information absent from every possible physical model, field hydroperiod, or screening benefit. The new uncertainty is explicitly exploratory.",
+      "changes": "\u00a7\u00a74.3,4.5,5; C16; decoder-contrasts.csv and real-null.csv",
+      "experiment_ids": [
+        "review-reanalysis-v1",
+        "review-reanalysis-v2"
+      ]
+    },
+    {
+      "point_id": "R1-5",
+      "decision": "adopted",
+      "action": "Shorten the abstract around the answer, define the core terms, and give a plain-language practitioner interpretation.",
+      "reason": "The abstract retains the primary paired-scale contrasts, the small-window caveat and planned control range, with one exploratory decoder observation. The ambiguous claim about the earlier embedding year is removed from the abstract; alternate years remain in Results with fixed-label and model-randomness limits.",
+      "changes": "Abstract; Introduction; Methods glossary; Discussion; paper-template.md",
+      "experiment_ids": []
+    },
+    {
+      "point_id": "R1-6",
+      "decision": "partly adopted",
+      "action": "Position the close inundation studies and specify that no explicit SAR inundation predictor is in the physical baseline.",
+      "reason": "We checked the complete SFS conference abstract and relevant full-text passages of Rahman2026, DeVries2017 and Lang2008. The conference abstract reports methods without numerical outcomes and is labelled accordingly. The related2018poster was confirmed only in the author bibliography; no SWaRe abstract/product validation was located in the bounded search, so no unverified method or performance claim is added. Adding SAR acquisition is outside this response; the claim is narrowed instead.",
+      "changes": "\u00a72; \u00a76; references.md; sources.jsonl; sources/review-*",
+      "experiment_ids": []
+    },
+    {
+      "point_id": "R1-7",
+      "decision": "adopted",
+      "action": "Split planned secondary controls from the exploratory recent panel and correct the inspection timestamp.",
+      "reason": "C04 is planned; the recent-panel result is C14 and exploratory. VERIFY now names E0175 at17:18:57Z as the first explicitly logged aggregate inspection, distinguishing summary completion at17:16:34Z and the imprecise earlier clock note. An append-only correction event preserves the earlier record. Both times follow plan-v6.",
+      "changes": "\u00a73.5; \u00a74.5; C04/C14; VERIFY.md; events.jsonl",
+      "experiment_ids": []
+    },
+    {
+      "point_id": "R1-8",
+      "decision": "adopted",
+      "action": "Report the planned size, vegetation and source-image-date subgroups with available/accepted counts and windows represented.",
+      "reason": "The own-screen subgroup figures are descriptive and confounded with window. No rescreening, causal image-age explanation or age-adjusted effect is claimed.",
+      "changes": "\u00a74.8; planned-subgroups.csv",
+      "experiment_ids": [
+        "review-reanalysis-v1",
+        "review-reanalysis-v2"
+      ]
+    },
+    {
+      "point_id": "R1-9",
+      "decision": "adopted",
+      "action": "Name outdated-inventory auditing and locations without current regime labels as possible applications and state the deployment gap.",
+      "reason": "The present closed, inventory-delineated, label-masked experiment does not test either deployment or open-set mapping. Other-window training is a limited retrospective comparison that changes training size, seeds and indicators as well as geography.",
+      "changes": "Introduction; Discussion; Limitations",
+      "experiment_ids": []
+    },
+    {
+      "point_id": "R1-10",
+      "decision": "adopted",
+      "action": "Disable bytecode writes in the optional batch parent and every child, and document the environment safeguard.",
+      "reason": "run_rotation_batch.py sets sys.dont_write_bytecode and PYTHONDONTWRITEBYTECODE before importing local helpers, and invokes child scripts with -B. VERIFY also instructs optional refits to use both protections. The additional seed batches exercise this launcher; source immutability is checked again by the final end-to-end run.",
+      "changes": "code/run_rotation_batch.py; VERIFY.md; final verification",
+      "experiment_ids": []
+    }
+  ]
+}

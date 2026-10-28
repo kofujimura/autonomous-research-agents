@@ -1,0 +1,10 @@
+{
+  "purpose": "pilot technical check of non-identical annual vectors; no forest-recovery score or reference-year effect",
+  "aef_cross_year_pixel_cosine_min_median_max": [
+    0.910907301000303,
+    0.9302669302561729,
+    0.9617589887228395
+  ],
+  "tessera_cross_year_cosine": 0.8306638598442078,
+  "pilot_location_excluded_from_main": true
+}

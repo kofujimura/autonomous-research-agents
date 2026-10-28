@@ -1,0 +1,3 @@
+# V8 validation refinement before any adaptive-weight experiment
+
+Retain v8. Use a seven-point population with a six-label audit (three per fold) for the exact noncensus crossfit enumeration, and a separate six-point census check. With only two observations per training fold, a direct empirical entropy gradient can make the observed label contribution constant, so a four-of-six fixture can give a vacuous zero fitted weight. The seven-point fixture exercises nonconstant data-dependent weights while keeping exhaustive independent-year enumeration tractable. The estimator, primary n=128 comparison and all other v8 rules are unchanged. Record actual weight variation in validation.

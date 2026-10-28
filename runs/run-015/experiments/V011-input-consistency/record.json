@@ -1,0 +1,25 @@
+{
+  "experiment_id": "V011-input-consistency",
+  "started_at_utc": "2026-10-26T06:48:33Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/check_inputs.py",
+    "--output",
+    "review/input-consistency-working.json"
+  ],
+  "timeout_seconds": 300,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "f3e88ecc7fe6676a7dfce69662ee9829c65301db",
+  "code_commit_id": "210a69fa70d77f40f7fb985d069d5065e98d0dca",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/design-v4.json": "b32b2be5bab4474dfdd67c7d925eb44ad5c1b59b4148314dce11624685b68d24"
+  },
+  "status": "completed",
+  "start_event_id": "E0491",
+  "child_pid": 64665,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T06:48:39Z",
+  "elapsed_seconds": 6.305375374853611,
+  "end_event_id": "E0493"
+}

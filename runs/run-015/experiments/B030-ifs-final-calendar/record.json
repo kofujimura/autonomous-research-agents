@@ -1,0 +1,34 @@
+{
+  "experiment_id": "B030-ifs-final-calendar",
+  "started_at_utc": "2026-10-26T04:30:30Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pipeline.py",
+    "--model",
+    "ifs",
+    "--start",
+    "53",
+    "--count",
+    "5",
+    "--chunk-bytes",
+    "1048576",
+    "--subsets",
+    "--log",
+    "experiments/B030-ifs-final-calendar/units.jsonl"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2.3-message-range.md",
+  "plan_commit_id": "36c3dbd488867104bfda9e6fc2517d5390bec776",
+  "code_commit_id": "605b30ab9b594ec700f135417552edd16c4647a9",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/subset-design-v3.json": "4eb1e19e92ad317f517b62f711793a827a39ba31ad64f0e7698f70baa3f4d2c7"
+  },
+  "status": "completed",
+  "start_event_id": "E0286",
+  "child_pid": 58309,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T04:42:12Z",
+  "elapsed_seconds": 702.1388860000297,
+  "end_event_id": "E0302"
+}

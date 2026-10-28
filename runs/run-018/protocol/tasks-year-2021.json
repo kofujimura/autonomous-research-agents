@@ -1,0 +1,29 @@
+[
+  {
+    "task_id": "year-2021-fits",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/year-common/2021",
+      "--output",
+      "analysis/year-2021",
+      "--extra",
+      "--year",
+      "2021"
+    ]
+  },
+  {
+    "task_id": "year-2021-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/year-2021",
+      "--out",
+      "analysis/year-2021-summary"
+    ]
+  }
+]

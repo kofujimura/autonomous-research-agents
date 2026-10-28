@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "constant-corrected-seed-0",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-corrected-seed-0",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/main-corrected"
+    ],
+    "start_time_utc": "2026-10-28T04:58:57.289430+00:00",
+    "end_time_utc": "2026-10-28T05:02:14.558505+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "summary-seed-0",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-corrected-seed-0",
+      "--out",
+      "analysis/controls/constant-corrected-seed-0-summary"
+    ],
+    "start_time_utc": "2026-10-28T05:02:14.558925+00:00",
+    "end_time_utc": "2026-10-28T05:02:15.339000+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "constant-corrected-all",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-corrected-all",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/all-corrected-seed-0",
+      "--forest-all-features"
+    ],
+    "start_time_utc": "2026-10-28T05:02:15.339455+00:00",
+    "end_time_utc": "2026-10-28T05:06:44.543073+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "summary-all",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-corrected-all",
+      "--out",
+      "analysis/controls/constant-corrected-all-summary"
+    ],
+    "start_time_utc": "2026-10-28T05:06:44.543456+00:00",
+    "end_time_utc": "2026-10-28T05:06:45.325440+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "constant-corrected-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-corrected-hgb",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/hgb-corrected",
+      "--scalar-learner",
+      "hgb"
+    ],
+    "start_time_utc": "2026-10-28T05:06:45.325854+00:00",
+    "end_time_utc": "2026-10-28T05:07:10.813322+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "summary-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-corrected-hgb",
+      "--out",
+      "analysis/controls/constant-corrected-hgb-summary"
+    ],
+    "start_time_utc": "2026-10-28T05:07:10.813725+00:00",
+    "end_time_utc": "2026-10-28T05:07:11.589926+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "corrected-constant-audit",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_constant_controls.py",
+      "--corrected",
+      "--out",
+      "analysis/constant-corrected-audit"
+    ],
+    "start_time_utc": "2026-10-28T05:07:11.590374+00:00",
+    "end_time_utc": "2026-10-28T05:07:12.134071+00:00",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,1 @@
+{"status": "passed", "completed_at_utc": "2026-10-25T23:02:47Z", "elapsed_seconds": 2.8640393330715597, "numpy": "2.5.4", "scipy": "1.18.1", "lp_options": {"primal_feasibility_tolerance": 1e-08, "dual_feasibility_tolerance": 1e-08, "time_limit": 15.0, "threads": 1}, "fixture_count": 51, "scope": "Mathematical/code validation; not empirical meteorological or social evidence"}

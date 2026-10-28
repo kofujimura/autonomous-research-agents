@@ -1,0 +1,339 @@
+{
+  "trial_id": "free-research-018",
+  "start_time_utc": "2026-10-27T14:23:30+00:00",
+  "start_time_zone": "UTC",
+  "start_time_local": "2026-10-27T23:23:30+09:00",
+  "first_draft_deadline_utc": "2026-10-28T08:44:45+00:00",
+  "deadline_history": [
+    {
+      "observed_at_utc": "2026-10-27T16:39:37+00:00",
+      "reason": "confirmed_usage_limit_stop",
+      "old_deadline_utc": "2026-10-28T02:23:30+00:00",
+      "new_deadline_utc": "2026-10-28T02:37:02+00:00",
+      "extension_seconds": 812.0
+    },
+    {
+      "observed_at_utc": "2026-10-27T19:38:20+00:00",
+      "reason": "confirmed_usage_limit_stop",
+      "old_deadline_utc": "2026-10-28T02:37:02+00:00",
+      "new_deadline_utc": "2026-10-28T02:40:23.483175+00:00",
+      "extension_seconds": 201.483175
+    },
+    {
+      "observed_at_utc": "2026-10-27T19:52:04.698080+00:00",
+      "reason": "withdraw_unsupported_duplicate_resume_extension",
+      "old_deadline_utc": "2026-10-28T02:40:23.483175+00:00",
+      "new_deadline_utc": "2026-10-28T02:37:02+00:00",
+      "extension_seconds": -201.483175
+    },
+    {
+      "observed_at_utc": "2026-10-27T21:40:37+00:00",
+      "reason": "confirmed_usage_limit_stop",
+      "old_deadline_utc": "2026-10-28T02:37:02+00:00",
+      "new_deadline_utc": "2026-10-28T04:17:54+00:00",
+      "extension_seconds": 6052.0
+    },
+    {
+      "observed_at_utc": "2026-10-28T02:41:31+00:00",
+      "reason": "confirmed_usage_limit_stop",
+      "old_deadline_utc": "2026-10-28T04:17:54+00:00",
+      "new_deadline_utc": "2026-10-28T06:36:22+00:00",
+      "extension_seconds": 8308.0
+    },
+    {
+      "observed_at_utc": "2026-10-28T07:42:45+00:00",
+      "reason": "confirmed_usage_limit_stop",
+      "old_deadline_utc": "2026-10-28T06:36:22+00:00",
+      "new_deadline_utc": "2026-10-28T08:44:45+00:00",
+      "extension_seconds": 7703.0
+    }
+  ],
+  "research_directory": "/Users/fujimura/Research/ai-free-research-en/run-018",
+  "session_id": null,
+  "continuation_session_ids": [],
+  "conditions": {
+    "research_hours": 12,
+    "review_response_hours": 2,
+    "storage_limit_bytes": 10737418240,
+    "max_concurrent_experiments": 2,
+    "experiment_timeout_seconds": 1800,
+    "api_budget_usd": 20,
+    "api_provider": "OpenAI",
+    "critic_model": "gpt-6-astra",
+    "critic_reasoning_effort": "xhigh",
+    "subagents_permitted": false
+  },
+  "environment": {
+    "os": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "git": "git version 2.50.1 (Apple Git-155)",
+    "execution_environment": "Codex, as presented in developer instructions",
+    "conversation_model_description": "GPT-6, as presented in developer instructions",
+    "runtime_confirmed_model_identifier": null,
+    "provider": "OpenAI, as presented in developer instructions",
+    "reasoning_effort": null,
+    "other_model_settings": null,
+    "numerical_dependencies": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "scikit-learn": "1.9.1",
+      "rasterio": "1.5.2",
+      "pyproj": "3.8.0",
+      "shapely": "2.2.0",
+      "zarr": "3.4.1",
+      "matplotlib": "3.11.2",
+      "pyshp": "2.3.1"
+    },
+    "native_geospatial_versions": {
+      "GDAL": "3.12.2",
+      "PROJ": "9.8.1",
+      "GEOS": "3.14.1"
+    }
+  },
+  "tools_confirmed": [
+    "exec_command",
+    "apply_patch",
+    "web.run",
+    "clock.curr_time"
+  ],
+  "skills_used": [
+    {
+      "name": "research-question",
+      "path": "input_skills/research-question/SKILL.md",
+      "influence": "mandatory full topic-selection workflow"
+    },
+    {
+      "name": "OpenAI Docs",
+      "path": "/Users/fujimura/.codex-research/skills/.system/openai-docs/SKILL.md",
+      "influence": "official documentation and pricing check for permitted topic critique"
+    }
+  ],
+  "project_rules": "No project rule files supplied in context; files outside research directory not investigated.",
+  "persistent_memory_present": null,
+  "user_profile_present": false,
+  "input_prompt_provenance": "Manually transcribed from the complete visible user start-instruction message; no attachment or byte-identical message export available. Not a summary.",
+  "api_key_environment_present": true,
+  "api_cost_usd": 1.98624,
+  "prices_checked": true,
+  "usage_limit_stops": [
+    {
+      "stop_start_utc": "2026-10-27T16:26:05+00:00",
+      "resume_utc": "2026-10-27T16:39:37+00:00",
+      "excluded_seconds": 812.0,
+      "basis": "Human resume message explicitly confirms AI usage limit; last explicit live clock query before interruption and first live clock query after receipt. Exact runtime cutoff not directly observable.",
+      "human_message": "Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-28T02:23:30+00:00",
+      "extended_deadline_utc": "2026-10-28T02:37:02+00:00",
+      "processes_with_end_times_in_bookkeeping_gap": [
+        {
+          "experiment_id": "aef-panel-2024-b",
+          "start_time_utc": "2026-10-27T16:26:03.991754+00:00",
+          "end_time_utc": "2026-10-27T16:35:04.168896+00:00",
+          "exit_code": 0
+        },
+        {
+          "experiment_id": "input-audit-initial",
+          "start_time_utc": "2026-10-27T16:28:27.448278+00:00",
+          "end_time_utc": "2026-10-27T16:28:35.107581+00:00",
+          "exit_code": 0
+        }
+      ],
+      "process_timing_note": "AEF acquisition continued to completion during the gap. The input audit also ended in the gap; exact cutoff relative to its end is not directly observable. Bounded processes were not relaunched automatically."
+    },
+    {
+      "stop_start_utc": "2026-10-27T19:34:58.516825+00:00",
+      "resume_utc": "2026-10-27T19:38:20+00:00",
+      "excluded_seconds": 201.483175,
+      "basis": "New human resume message confirms usage-limit stop. Last retained tool-generated timestamp before stop is E0334 commit receipt; first resumed clock query is19:38:20UTC. Exact cutoff and any final clock output lost at compaction are not observable.",
+      "human_message": "Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-28T02:37:02+00:00",
+      "extended_deadline_utc": "2026-10-28T02:40:23.483175+00:00",
+      "processes_with_end_times_in_bookkeeping_gap": [],
+      "process_timing_note": "Both previously active bounded experiments ended before the retained pre-stop timestamp; no recorded experiment continued during this gap.",
+      "status": "withdrawn_duplicate_interpretation",
+      "effective_excluded_seconds": 0,
+      "correction": "No distinct new resume message was observed. The already-handled resume message was mistakenly processed again after context compaction. Compaction itself does not qualify as a usage-limit stop."
+    },
+    {
+      "stop_start_utc": "2026-10-27T19:59:45+00:00",
+      "resume_utc": "2026-10-27T21:40:37+00:00",
+      "excluded_seconds": 6052.0,
+      "status": "effective",
+      "basis": "Distinct new human resume message after last observed19:59:45UTC clock; first resumed clock21:40:37UTC. Human explicitly confirms usage limit; exact runtime cutoff not directly observable.",
+      "human_message": "Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-28T02:37:02+00:00",
+      "extended_deadline_utc": "2026-10-28T04:17:54+00:00",
+      "processes_with_end_times_in_bookkeeping_gap": [
+        {
+          "experiment_id": "corrected-learner-reader-recent",
+          "start_time_utc": "2026-10-27T19:54:16.989851+00:00",
+          "end_time_utc": "2026-10-27T20:09:49.924516+00:00",
+          "exit_code": 0
+        },
+        {
+          "experiment_id": "polygon-AB-comparisons",
+          "start_time_utc": "2026-10-27T19:57:52.893806+00:00",
+          "end_time_utc": "2026-10-27T20:15:55.040466+00:00",
+          "exit_code": 0
+        }
+      ],
+      "process_timing_note": "Previously started bounded groups continued to their recorded completion; no new experiment was automatically launched during the pause."
+    },
+    {
+      "stop_start_utc": "2026-10-28T00:23:03+00:00",
+      "resume_utc": "2026-10-28T02:41:31+00:00",
+      "excluded_seconds": 8308.0,
+      "status": "effective",
+      "basis": "Distinct new human message explicitly confirms AI usage-limit stop; last explicit tool clock00:23:03UTC before the stop and first resumed tool clock02:41:31UTC. Exact runtime cutoff is not directly observable.",
+      "human_message": "Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-28T04:17:54+00:00",
+      "extended_deadline_utc": "2026-10-28T06:36:22+00:00",
+      "processes_with_end_times_in_bookkeeping_gap": [
+        {
+          "experiment_id": "aef-2021-b",
+          "start_time_utc": "2026-10-28T00:15:27.234442+00:00",
+          "end_time_utc": "2026-10-28T00:28:20.989420+00:00",
+          "exit_code": 0
+        },
+        {
+          "experiment_id": "transfer-corrected-10",
+          "start_time_utc": "2026-10-28T00:17:22.554766+00:00",
+          "end_time_utc": "2026-10-28T00:29:15.781964+00:00",
+          "exit_code": 0
+        }
+      ],
+      "process_timing_note": "Both already-started bounded groups completed during the pause. No automatic new experiment group was launched."
+    },
+    {
+      "stop_start_utc": "2026-10-28T05:34:22+00:00",
+      "resume_utc": "2026-10-28T07:42:45+00:00",
+      "excluded_seconds": 7703.0,
+      "status": "effective",
+      "basis": "A distinct new human message explicitly confirms an AI usage-limit stop after the last tool clock05:34:22UTC; first resumed tool clock07:42:45UTC. Exact runtime cutoff and session ID are not directly observable.",
+      "human_message": "Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-28T06:36:22+00:00",
+      "extended_deadline_utc": "2026-10-28T08:44:45+00:00",
+      "processes_with_end_times_in_bookkeeping_gap": [
+        {
+          "experiment_id": "verification-primary-3",
+          "start_time_utc": "2026-10-28T05:16:50.568945+00:00",
+          "end_time_utc": "2026-10-28T05:36:24.208122+00:00",
+          "exit_code": 0
+        },
+        {
+          "experiment_id": "verification-polygonC-3",
+          "start_time_utc": "2026-10-28T05:16:51.727192+00:00",
+          "end_time_utc": "2026-10-28T05:37:29.970757+00:00",
+          "exit_code": 0
+        }
+      ],
+      "process_timing_note": "Both already-started bounded author-refit groups completed during the stop. Candidate4 was prepared before the stop; its corrected full-primary procedure has not started. No new group was launched automatically."
+    }
+  ],
+  "unknowns": [
+    "session ID",
+    "runtime model identifier and reasoning settings",
+    "execution environment version",
+    "session token usage/cost",
+    "persistent memory existence"
+  ],
+  "sources_of_information": {
+    "start_time": "clock.curr_time, first tool batch",
+    "directory_absence": "exec_command initial check",
+    "conditions": "user start instructions",
+    "environment": "platform, sys.version, git --version",
+    "api_key_presence": "boolean presence check only",
+    "skills": "full SKILL.md text read; research-question copied unchanged"
+  },
+  "stage": "Final revised study complete; preparing final tag",
+  "api_prices": {
+    "checked_at_utc": "2026-10-27T14:41:50.496162+00:00",
+    "source": "sources/openai-pricing.md",
+    "model": "gpt-6-astra",
+    "standard_input_per_million_usd": 10,
+    "cached_input_per_million_usd": 1,
+    "output_per_million_usd": 50,
+    "web_search_per_call_usd": 0.01,
+    "long_context_threshold_tokens": 272000
+  },
+  "api_critique": {
+    "model_returned": "gpt-6-astra",
+    "status": "completed",
+    "usage": {
+      "input_tokens": 116415,
+      "input_tokens_details": {
+        "cache_write_tokens": 6416,
+        "cached_tokens": 0
+      },
+      "output_tokens": 13521,
+      "output_tokens_details": {
+        "reasoning_tokens": 9184
+      },
+      "total_tokens": 129936
+    },
+    "web_search_calls": 13,
+    "cost_usd": 1.98624,
+    "response_path": "experiments/topic-critique/response-1.json",
+    "observed_complete_at_utc": "2026-10-27T15:13:43.073262+00:00"
+  },
+  "topic_selection_event": "E0026",
+  "last_checkpoint_utc": "2026-10-28T02:42:11.575170+00:00",
+  "active_experiments_at_checkpoint": [],
+  "first_primary_risk_inspected_at_utc": "2026-10-27T17:16:36+00:00",
+  "analysis_paths": {
+    "primary_features": "analysis/features-corrected",
+    "primary_predictions": "analysis/main-corrected",
+    "primary_summary": "analysis/primary-corrected-summary",
+    "recent_features": "analysis/recent-features-corrected",
+    "recent_predictions": "analysis/recent-corrected",
+    "recent_summary": "analysis/recent-corrected-summary",
+    "hgb_predictions": "analysis/controls/hgb-corrected",
+    "hgb_summary": "analysis/controls/hgb-corrected-summary",
+    "polygon_features": "analysis/polygon-features-v3",
+    "pool_influence": "analysis/pool-influence-v4",
+    "budget_allocation": "analysis/budget-allocation-v1",
+    "review_reanalysis": "analysis/review-reanalysis-v2"
+  },
+  "long_experiment_cutoff_utc": "2026-10-28T05:36:22+00:00",
+  "two_hours_remaining_utc": "2026-10-28T04:36:22+00:00",
+  "submission_preparation": {
+    "observed_at_utc": "2026-10-28T08:08:45.462175+00:00",
+    "reason_for_ending": "Fixed-panel experiments and sensitivity checks completed; reporting-path defect corrected and full end-to-end primary verification passed. Broader geographic-frame matching remains unexecuted. Submit the completed fixed-panel study for the planned single AI-agent review.",
+    "active_experiment_processes": [],
+    "verification_status_path": "analysis/verification-status.json"
+  },
+  "storage_accounting": "Observed with du -sk allocated blocks throughout; SHA-256-identical hardlinked immutable source-copy files share allocated storage. The inventory records each path separately. No OS quota enforcement assumed.",
+  "review_response_start_utc": "2026-10-28T09:44:20+00:00",
+  "review_response_deadline_utc": "2026-10-28T11:44:20+00:00",
+  "review": {
+    "review_id": "review-018-1",
+    "target_tag": "submission-1",
+    "target_commit": "739117262e02cdbec90900446e14776ce1f12624",
+    "reviewer_runtime_as_reported": "Claude Code 2.1.311; AI_AGENT=claude-code_2-1-311_agent; CLAUDE_EFFORT=xhigh",
+    "reviewer_name_in_conversation_as_reported": "Opus 5.5 (claude-opus-5-5), xhigh",
+    "serving_model_id": null,
+    "provenance": "All reviewer identities and checks reported by the human review message; not directly observed in this session.",
+    "added_seed_offsets": [
+      3000,
+      4000,
+      5000,
+      6000,
+      7000
+    ],
+    "scientific_additions_complete_at_utc": "2026-10-28T10:29:04.972209+00:00"
+  },
+  "review_completion": {
+    "observed_at_utc": "2026-10-28T10:54:13.351464+00:00",
+    "reason_for_ending": "All ten points in the single planned AI-agent review have explicit responses. Fixed additional seeds and saved-output analyses completed; final full-primary end-to-end verification passed. Submit the revised fixed-panel study; geographic-frame matching, field validity and practitioner benefit remain unverified.",
+    "active_experiment_processes": [],
+    "verification_source_commit": "f394f535cca460a605dc124d707ae73e1e4f2146",
+    "verification_report": "analysis/verification-review-primary.json",
+    "verification_checks": 108,
+    "review_points": 10,
+    "decision_counts": {
+      "partly adopted": 2,
+      "adopted": 8
+    }
+  }
+}

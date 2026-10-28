@@ -1,0 +1,2463 @@
+{
+  "observed_at_utc": "2026-10-27T03:25:02.667139Z",
+  "before_allocated_bytes": 10543570944,
+  "after_allocated_bytes": 10506215424,
+  "files_shared": 409,
+  "files": [
+    {
+      "source": "results/census-comparison/census-changes.csv",
+      "target": "verification-work/output-preliminary-1/supplements/census-comparison/census-changes.csv",
+      "sha256": "552903f16a77b775efc434cb9f37a93884b84fe9773d0f4303bb4c2ea179d565",
+      "bytes": 4904
+    },
+    {
+      "source": "results/census-comparison/census-unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/census-comparison/census-unit-performance.csv",
+      "sha256": "cd36fa63e8b46482ee4db4522d38d771a37012e3d42d364306faaa4035d6e2bb",
+      "bytes": 148684
+    },
+    {
+      "source": "results/coherent-panel/landscape-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/coherent-panel/landscape-performance.csv",
+      "sha256": "8a6341fad61d3c7483ec84d4cf3c912adc71c91bd2515927cfd3ee7eb3c5cc89",
+      "bytes": 31917
+    },
+    {
+      "source": "results/coherent-panel/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/coherent-panel/summary.csv",
+      "sha256": "92c7d0e08b3a33973790cec46d63bd4f630182e9f20dd96713f7bbce7602552d",
+      "bytes": 5896
+    },
+    {
+      "source": "results/coherent-panel/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/coherent-panel/unit-performance.csv",
+      "sha256": "f7e7f3576369996119a2caa408d0746303838f9456a4110507d3fc8233964a90",
+      "bytes": 206591
+    },
+    {
+      "source": "results/description-main/classification-context.csv",
+      "target": "verification-work/output-preliminary-1/supplements/description-main/classification-context.csv",
+      "sha256": "2fd9c406de02d5dc9e1898c3a9f8e3e7c73e4cfc0e59473763f0d66641e3940d",
+      "bytes": 9348
+    },
+    {
+      "source": "results/description-main/convergence.csv",
+      "target": "verification-work/output-preliminary-1/supplements/description-main/convergence.csv",
+      "sha256": "96e692725a994dc31dade20202f59a449c873fef3260162e10b0fbbeee9fcc57",
+      "bytes": 435
+    },
+    {
+      "source": "results/description-final/landscape-description.csv",
+      "target": "verification-work/output-preliminary-1/supplements/description-main/landscape-description.csv",
+      "sha256": "a8ce8486e930a32485ad5796f00e7c34a528d0773f0086e839062f063059dd4e",
+      "bytes": 7692
+    },
+    {
+      "source": "results/description-final/spatial-distances.csv",
+      "target": "verification-work/output-preliminary-1/supplements/description-main/spatial-distances.csv",
+      "sha256": "bba8aa56bc1c9c63e5cc849ee380465d635b408e1c3ad327f5cb161366223f79",
+      "bytes": 836
+    },
+    {
+      "source": "results/description-final/split-description.csv",
+      "target": "verification-work/output-preliminary-1/supplements/description-main/split-description.csv",
+      "sha256": "a8464912a835353a8ca5fddc3dbd2b730c7199d50db6530013ef1d633f7af47e",
+      "bytes": 309
+    },
+    {
+      "source": "results/gradient/broad-alphaearth/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/gradient-broad-alphaearth/summary.csv",
+      "sha256": "f34c2ac81ed904a57851760a8a5ab274ee588f50b0cfc07c4d8c57055c03333f",
+      "bytes": 6021
+    },
+    {
+      "source": "results/gradient/broad-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/gradient-broad-alphaearth/unit-performance.csv",
+      "sha256": "720fcc7277f6d46b2a07881e87b4032114f9288d69a758ffea3e2e974ea0ac04",
+      "bytes": 232625
+    },
+    {
+      "source": "results/gradient/broad-tessera/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/gradient-broad-tessera/summary.csv",
+      "sha256": "b59c38ad7a83e8427ab1804ebddd3e15b5ef1a3b219015e455acbc0fedbbb638",
+      "bytes": 5990
+    },
+    {
+      "source": "results/gradient/broad-tessera/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/gradient-broad-tessera/unit-performance.csv",
+      "sha256": "960d88b74bf7640fe3bd67fba7dc5e31363c007a9bfa3b9284c1196205e9ee35",
+      "bytes": 226936
+    },
+    {
+      "source": "results/gradient/fine-alphaearth/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/gradient-fine-alphaearth/summary.csv",
+      "sha256": "c104769a4e613ba509d766936cbd148a2c6a6cef9b4ec83cc0d8f3627e5d3d35",
+      "bytes": 5878
+    },
+    {
+      "source": "results/gradient/fine-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/gradient-fine-alphaearth/unit-performance.csv",
+      "sha256": "b2b637846f08ad0babcb1656f351e4ad6521e775138c63d3ed7c9223b686f93e",
+      "bytes": 229757
+    },
+    {
+      "source": "results/gradient/fine-tessera/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/gradient-fine-tessera/summary.csv",
+      "sha256": "d15739772328b13153e32f3486f4416641a9e4e9f275af9ba6f7b978f8d8bed4",
+      "bytes": 5744
+    },
+    {
+      "source": "results/gradient/fine-tessera/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/gradient-fine-tessera/unit-performance.csv",
+      "sha256": "0f69c1ac11f7a7f7e5e6eb256b35cfb9adeae5dc4eb10a15c504c3e22dedb176",
+      "bytes": 223660
+    },
+    {
+      "source": "results/jackknife/alphaearth/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/jackknife-alphaearth/summary.csv",
+      "sha256": "a6c308fd8300c8b3f13f9808b9aea983eeb6587696f31b7ceea93f857e10fa87",
+      "bytes": 2832
+    },
+    {
+      "source": "results/jackknife/alphaearth/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/jackknife-alphaearth/unit-performance.csv",
+      "sha256": "e9c939ba1fb485e67efdce8e20b38c2bd0719fe5bd31a208daedaaf3c9fcf057",
+      "bytes": 121996
+    },
+    {
+      "source": "results/jackknife/tessera/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/jackknife-tessera/summary.csv",
+      "sha256": "171e20d505a531fb8fc4496a1e9494268a0b4791764daaeb114c0101ab3b9a03",
+      "bytes": 2799
+    },
+    {
+      "source": "results/jackknife/tessera/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/jackknife-tessera/unit-performance.csv",
+      "sha256": "c5781ac9be861e7dbe02d0a8b0a6baf54ef1eb5f612d16b674b6a3dbe512ec3f",
+      "bytes": 119831
+    },
+    {
+      "source": "results/power/alphaearth/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/power-alphaearth/summary.csv",
+      "sha256": "432f3d219a1f97325fa7e49b9a3ecb5b645f8a54c2d70d610a412b8d852f2054",
+      "bytes": 2313
+    },
+    {
+      "source": "results/power/alphaearth/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/power-alphaearth/unit-performance.csv",
+      "sha256": "90c272496a1a2d7b954ab6794b712d3424f7d20c323a6c9e149c8296c13621f8",
+      "bytes": 85127
+    },
+    {
+      "source": "results/power/tessera/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/power-tessera/summary.csv",
+      "sha256": "e28a342c3c80c8fe5c542c5f426304dbd737f4a89cac4dbb2f71466c8f38a704",
+      "bytes": 2347
+    },
+    {
+      "source": "results/power/tessera/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/power-tessera/unit-performance.csv",
+      "sha256": "9743a4008c80463b9fa36f82397db5e30963af272d4490f1e3f8d686bf925f4a",
+      "bytes": 84065
+    },
+    {
+      "source": "results/reference-frame-context/frame-change-comparisons.csv",
+      "target": "verification-work/output-preliminary-1/supplements/reference-context/frame-change-comparisons.csv",
+      "sha256": "a4a0df27e430bf2ecb48afd0050649b9d92620f9c6ba7a54256690dc795b2f85",
+      "bytes": 24871
+    },
+    {
+      "source": "results/reference-frame-context/subset-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/reference-context/subset-performance.csv",
+      "sha256": "ebd3185fa08d05d448a92c495ca6fa50ec47b8cc39b2ff52c874a597f9d735b6",
+      "bytes": 75476
+    },
+    {
+      "source": "results/reference-frames/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/supplements/reference-frames/case-counts.csv",
+      "sha256": "857b347f50fdf3991bf879eecc4a8cd3bcfdc4394905b6d74b8be1ed3727a51b",
+      "bytes": 488
+    },
+    {
+      "source": "results/reference-frames/pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/supplements/reference-frames/pairing-ratios.csv",
+      "sha256": "da4e95afdd12e4387cf4a44d1df4d27bcd55eb250ef08ee59ff03c8fdbad8505",
+      "bytes": 1435
+    },
+    {
+      "source": "results/reference-frames/reference-changes.csv",
+      "target": "verification-work/output-preliminary-1/supplements/reference-frames/reference-changes.csv",
+      "sha256": "6e49ee5c75dbe1b69d746885380a440ae42a06b8462eab4acdad2bca447c4eee",
+      "bytes": 50574
+    },
+    {
+      "source": "results/reference-frames/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/reference-frames/summary.csv",
+      "sha256": "3d489881e2c4aa8d7083a72b0e98f646754cd884a5871044a093dcb745bb6fe8",
+      "bytes": 14967
+    },
+    {
+      "source": "results/reference-frames/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/reference-frames/unit-performance.csv",
+      "sha256": "9b4b5b69a355e014ab6044b37ccda38fbdb025e12d5a94826eca94053784ebc8",
+      "bytes": 725752
+    },
+    {
+      "source": "results/reference-sensitivity/reference-sensitivity.csv",
+      "target": "verification-work/output-preliminary-1/supplements/reference-sensitivity/reference-sensitivity.csv",
+      "sha256": "6e28e16933a371672d46ff86c04c50aecd817aed1f666dc304625b588cfa695a",
+      "bytes": 127297
+    },
+    {
+      "source": "results/registration/summary-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/registration/summary-performance.csv",
+      "sha256": "36f38423db2692e58426ac23b48c666fd1d0a701a5d8b28e27c49cd8aab8afcc",
+      "bytes": 7251
+    },
+    {
+      "source": "results/registration/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/registration/unit-performance.csv",
+      "sha256": "3b43394fb266d6e588218e2c563d81f2045654941b8695ba82c1631b85f201c8",
+      "bytes": 81343
+    },
+    {
+      "source": "results/scope-baselines/scope-baselines.csv",
+      "target": "verification-work/output-preliminary-1/supplements/scope-baselines/scope-baselines.csv",
+      "sha256": "55b35aaf842a471893d01f93b417af3569a4f35b76b8132eb999b3779c6162d3",
+      "bytes": 24124
+    },
+    {
+      "source": "results/sparse/tessera/conditional-on-observed-changes.csv",
+      "target": "verification-work/output-preliminary-1/supplements/sparse/conditional-on-observed-changes.csv",
+      "sha256": "3a19b6a548da1c54b7f34db3c3f59e621cefafae0aaadf068570943e98a428e7",
+      "bytes": 1874
+    },
+    {
+      "source": "results/sparse/tessera/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/sparse/summary.csv",
+      "sha256": "2f7cba619b42fcf6c787790c04cbffcca7f506d98f6ac2f4ff8ede7fdf18890c",
+      "bytes": 2936
+    },
+    {
+      "source": "results/sparse/tessera/unit-diagnostics.csv",
+      "target": "verification-work/output-preliminary-1/supplements/sparse/unit-diagnostics.csv",
+      "sha256": "5fd3d6ef2241b81322a898f720174ed64e53dbc3c7a2b392c86f3bf9d0226f9d",
+      "bytes": 107298
+    },
+    {
+      "source": "results/stable-arable/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stable-arable/case-counts.csv",
+      "sha256": "4dd1f474a5fe08017c0a07a396da53241daae1be7d7ed75c47150a682221013b",
+      "bytes": 352
+    },
+    {
+      "source": "results/stable-arable/pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stable-arable/pairing-ratios.csv",
+      "sha256": "ed0cc9750ef1c78792f16991e185b86f30365951db11ba5630629477ee897c9b",
+      "bytes": 721
+    },
+    {
+      "source": "results/stable-arable/reference-changes.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stable-arable/reference-changes.csv",
+      "sha256": "9d1aa9571953195f863ce981c23e15173c9eb6d9487bee8eddc08ffed8323d1a",
+      "bytes": 19754
+    },
+    {
+      "source": "results/stable-arable/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stable-arable/summary.csv",
+      "sha256": "8e9e0737a43f3f61989cd95693044ea8ad40941977a0661aa3439b5c4fb9f6d8",
+      "bytes": 6741
+    },
+    {
+      "source": "results/stable-arable/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stable-arable/unit-performance.csv",
+      "sha256": "7b9060e9db724b7b15c6848d273a042ec110f15a21f70c71e63e84f7724cb03b",
+      "bytes": 290410
+    },
+    {
+      "source": "results/stratified/alphaearth/stratum-context.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stratified-alphaearth/stratum-context.csv",
+      "sha256": "1fe04530fc960a1ac42b6f078a76d02b07b0348b281a1df6310a6659e0b018ae",
+      "bytes": 12487
+    },
+    {
+      "source": "results/stratified/alphaearth/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stratified-alphaearth/summary.csv",
+      "sha256": "5badfc7cea9435108840e38fd28edaf9f1152d5c07dd7ececebeec66eb16afb1",
+      "bytes": 8816
+    },
+    {
+      "source": "results/stratified/alphaearth/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stratified-alphaearth/unit-performance.csv",
+      "sha256": "1c6c8c74d8bc21b6674b81ab8e97e927b1334cc1f162a3b133b89c40437a8f55",
+      "bytes": 337305
+    },
+    {
+      "source": "results/stratified/tessera/stratum-context.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stratified-tessera/stratum-context.csv",
+      "sha256": "cf3e88ce6e981d28d92ba1ed0669649b596fe524cdc6135e9694770a51e9bcc5",
+      "bytes": 12176
+    },
+    {
+      "source": "results/stratified/tessera/summary.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stratified-tessera/summary.csv",
+      "sha256": "fda5788912c2d0f9af6552564d080c6410c2717534ec78be8728dccf76bfc190",
+      "bytes": 8652
+    },
+    {
+      "source": "results/stratified/tessera/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/supplements/stratified-tessera/unit-performance.csv",
+      "sha256": "b99c1d872f6146fa697a9e03dca39b568bb0183822c6c3094cb86f4cecff05e4",
+      "bytes": 332145
+    },
+    {
+      "source": "results/tables/census/audit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-census/audit-performance.csv",
+      "sha256": "2ea7ff957b652213242edf5e97573ecdacd358b37fcdf230eb4b5bf08db87ed4",
+      "bytes": 79558
+    },
+    {
+      "source": "results/tables/census/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/tables-census/case-counts.csv",
+      "sha256": "8b205da92a659d5e5246850e234f041c3cc52fd41ae530636a14b3ceca2f0dde",
+      "bytes": 599
+    },
+    {
+      "source": "results/tables/census/oracle-diagnostics.csv",
+      "target": "verification-work/output-preliminary-1/tables-census/oracle-diagnostics.csv",
+      "sha256": "ab620f628f963933aa1bdd650434f5f6ad736459e5d2e8817259b044a4db928f",
+      "bytes": 10473
+    },
+    {
+      "source": "results/tables/census/pairing-mse-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-census/pairing-mse-ratios.csv",
+      "sha256": "fb42740d6e0617f445b98b05dc75e6dc24abb2d8a39ac722d723bed01bf24b93",
+      "bytes": 13158
+    },
+    {
+      "source": "results/tables/census/point-estimates.csv",
+      "target": "verification-work/output-preliminary-1/tables-census/point-estimates.csv",
+      "sha256": "e39365a063b8b79f757abb65457d07728349ce6179bcb896f3e9452c30eeab6c",
+      "bytes": 1756
+    },
+    {
+      "source": "results/tables/census/unit-pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-census/unit-pairing-ratios.csv",
+      "sha256": "97af04a53962459cbef1840b9faa2e67ff1993d684d62d1ecd533c8819a8a802",
+      "bytes": 15830
+    },
+    {
+      "source": "results/tables/census/unit-performance-distributions.csv",
+      "target": "verification-work/output-preliminary-1/tables-census/unit-performance-distributions.csv",
+      "sha256": "3e064b3819c8306e9bd820c38bf84751cf9b280067c7321f1defc334e8539b1c",
+      "bytes": 3809
+    },
+    {
+      "source": "results/tables/census/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-census/unit-performance.csv",
+      "sha256": "6427fc3b26b0675428dd68dd41f2f39cda44e5f5c85f23641165fec1c31f9ca9",
+      "bytes": 82778
+    },
+    {
+      "source": "results/tables/fine/audit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-fine/audit-performance.csv",
+      "sha256": "33013d2b544e78a616e78b903e46f72fc15fbfb1df99c9c834a0c5db89bdcd6e",
+      "bytes": 82168
+    },
+    {
+      "source": "results/tables/fine/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/tables-fine/case-counts.csv",
+      "sha256": "e3ceac2f77c505c351b82282481fab6741c6f0428df374b31bddb91351227c54",
+      "bytes": 605
+    },
+    {
+      "source": "results/tables/fine/oracle-diagnostics.csv",
+      "target": "verification-work/output-preliminary-1/tables-fine/oracle-diagnostics.csv",
+      "sha256": "ee7e2a44af2c8b5617ed3991bd61c2c15b27d8b78a13f84999bf939a0d4a9ea5",
+      "bytes": 100432
+    },
+    {
+      "source": "results/tables/fine/pairing-mse-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-fine/pairing-mse-ratios.csv",
+      "sha256": "d9d68f2dcad56c84de6cf4df28e16ac7487a5b651ce6762f7ef5c969f5d3580b",
+      "bytes": 13078
+    },
+    {
+      "source": "results/tables/fine/point-estimates.csv",
+      "target": "verification-work/output-preliminary-1/tables-fine/point-estimates.csv",
+      "sha256": "eb4e2de9e389d47201a6a54b2b6f307128be02331610f199434d9028f9ee792f",
+      "bytes": 1752
+    },
+    {
+      "source": "results/tables/fine/unit-pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-fine/unit-pairing-ratios.csv",
+      "sha256": "fe66ada1110fb8ee1b5b071a390d99e3a0b46a3036e06a620d851a0ac952ce03",
+      "bytes": 155502
+    },
+    {
+      "source": "results/tables/fine/unit-performance-distributions.csv",
+      "target": "verification-work/output-preliminary-1/tables-fine/unit-performance-distributions.csv",
+      "sha256": "4f036d3240f4b1a2a530ffd79112c98b805b4fe234c1c75e1660da237ce0b44c",
+      "bytes": 3685
+    },
+    {
+      "source": "results/tables/fine/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-fine/unit-performance.csv",
+      "sha256": "5a929afdc3e52480b6d5cd2b89970a29417cfc3ed928f78ae68e00ecf8fcd612",
+      "bytes": 796788
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/audit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-alphaearth/audit-performance.csv",
+      "sha256": "a3ceb2b22b43f695ced7327b8181ef5b3008150dee24a6380e76fa83618efd2d",
+      "bytes": 55287
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-alphaearth/case-counts.csv",
+      "sha256": "76b6de856621afa9efc438fa07ea6b4534770648b5cfe3e29aef0f81df6b5f1a",
+      "bytes": 521
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/oracle-diagnostics.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-alphaearth/oracle-diagnostics.csv",
+      "sha256": "9846393672cd75895c17ac88abfa3ff6ec88ae6d96fdafca1b860bb91dd43f5f",
+      "bytes": 51173
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/pairing-mse-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-alphaearth/pairing-mse-ratios.csv",
+      "sha256": "a3f618fa1f01256d63d66ab8ac59c599519c8632109751ae1d084e386625c68a",
+      "bytes": 8582
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/point-estimates.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-alphaearth/point-estimates.csv",
+      "sha256": "b9cdade41ca8ffeb479009fc2edf2d97a781756d39e9540b37fa308411b45e27",
+      "bytes": 958
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/unit-pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-alphaearth/unit-pairing-ratios.csv",
+      "sha256": "cdc2cb8b882709c0aab59b4733366b2502c5c335a6f9fb0b419475b477999261",
+      "bytes": 102370
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/unit-performance-distributions.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-alphaearth/unit-performance-distributions.csv",
+      "sha256": "90ab64afa4a340ff161a03598f58738d60bcc44a421951fe152099334749ba4a",
+      "bytes": 2551
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-alphaearth/unit-performance.csv",
+      "sha256": "100391516e94819d9aa216993de94b8ff15452d4217566e3a1269b8acdab4b53",
+      "bytes": 544323
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/audit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-tessera/audit-performance.csv",
+      "sha256": "0e87059b875fc91f1604872e10f8c584ca462c291913f0e4e3cbc901c81512c9",
+      "bytes": 54892
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-tessera/case-counts.csv",
+      "sha256": "41bd952c254f5fe5d399b4119b1a5fdb5647e3b09e64981c0af171e4205482f2",
+      "bytes": 515
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/oracle-diagnostics.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-tessera/oracle-diagnostics.csv",
+      "sha256": "54a2d8623211810fbb666e38b60bb8840b1b44b68d55436e9f315758639ce73a",
+      "bytes": 50019
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/pairing-mse-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-tessera/pairing-mse-ratios.csv",
+      "sha256": "80cafa00539bff6e9667ce32cf5728d3a9b6b1998a41a2fdd08b375eb0b5384e",
+      "bytes": 8454
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/point-estimates.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-tessera/point-estimates.csv",
+      "sha256": "aa77bd7574285ade0740e320933a6c48b73683f440010d2af80476ba526075a5",
+      "bytes": 933
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/unit-pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-tessera/unit-pairing-ratios.csv",
+      "sha256": "5cd38f5e78edbed6c7bf813e1ab03c22cdacdc9a30c391d3720e0321350403f2",
+      "bytes": 100920
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/unit-performance-distributions.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-tessera/unit-performance-distributions.csv",
+      "sha256": "74b39df384334527d4c820cfabf4009763e8e4e70b65d024018c01ed2317f958",
+      "bytes": 2500
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-forest-broad-tessera/unit-performance.csv",
+      "sha256": "b1f6edabf42fe9076245c06d0a2ac40396ad84f92590751c00e1c54af4ae4651",
+      "bytes": 538836
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/audit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-alphaearth/audit-performance.csv",
+      "sha256": "854602ca2cd09b23f8dde86a59954b45fa2e1d5d19abd5ad45fd48c8faf87b4f",
+      "bytes": 58013
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-alphaearth/case-counts.csv",
+      "sha256": "348a57ed9fbaec6d150551e56842610c67eb1ccafb6369306456a1b51cee3e9e",
+      "bytes": 538
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/oracle-diagnostics.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-alphaearth/oracle-diagnostics.csv",
+      "sha256": "6e7e1d85be6d823b9a468da5ecfe48d875ac499212765ec5a285cf7a79d79ae7",
+      "bytes": 53944
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/pairing-mse-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-alphaearth/pairing-mse-ratios.csv",
+      "sha256": "d7f48f9f163f5d220ced957bd8cc2f914e2b1e52bb6edcadbc0d4f6be2f93729",
+      "bytes": 9233
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/point-estimates.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-alphaearth/point-estimates.csv",
+      "sha256": "ec6cecde8dd14a38d3fc88090a3c1f706f827f549d266d1fb783abf08fb32b35",
+      "bytes": 1025
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/unit-pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-alphaearth/unit-pairing-ratios.csv",
+      "sha256": "dd664e963e46b6f5c89674be97c829d6a5dafc09f4778f47ca144ad1411b169f",
+      "bytes": 109525
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/unit-performance-distributions.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-alphaearth/unit-performance-distributions.csv",
+      "sha256": "94cd21fcddc20a2a9acabe054d5fa8a2b82e6266d45afc985885174a2e669dc9",
+      "bytes": 2688
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-alphaearth/unit-performance.csv",
+      "sha256": "daff1a8843c6967cd5bbdbed2849964b1dd817c2159d22235c162a712c1caed3",
+      "bytes": 550677
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/audit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-tessera/audit-performance.csv",
+      "sha256": "ed49cf01092ef7805163759be46e1e74a3d4400c71a0035e70b3f92d74fccf16",
+      "bytes": 57507
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-tessera/case-counts.csv",
+      "sha256": "34122e5a00a85f260dbe75da4c2b940a8894c168a9080669c50b7354a1ba5c48",
+      "bytes": 532
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/oracle-diagnostics.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-tessera/oracle-diagnostics.csv",
+      "sha256": "5ea375ad9cd4ef730c04b3e37dd23af116fb9685003282828599a2f40ceb0462",
+      "bytes": 52893
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/pairing-mse-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-tessera/pairing-mse-ratios.csv",
+      "sha256": "875facf57d8d80ad3c6d389db28252a896675c1196b84ae6b680147fd244b235",
+      "bytes": 9112
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/point-estimates.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-tessera/point-estimates.csv",
+      "sha256": "18ac6772d9f3cac1348061409e3923477c0569f5945b34bb775475d9be7ad9d6",
+      "bytes": 997
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/unit-pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-tessera/unit-pairing-ratios.csv",
+      "sha256": "7fdf45b57143be293cc9a8156a891e63834211d5234c336435dde4ecd659aa3f",
+      "bytes": 108187
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/unit-performance-distributions.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-tessera/unit-performance-distributions.csv",
+      "sha256": "df3b029718a9137dd4889c92e34c22472728d098c49edae5c0dc34e5a16b6883",
+      "bytes": 2648
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-hard-tessera/unit-performance.csv",
+      "sha256": "b5bece909129b7baf462a5ffdf116a094d5ee596cd36a309f27b8c793c3ea1be",
+      "bytes": 548796
+    },
+    {
+      "source": "results/tables/main/audit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-main/audit-performance.csv",
+      "sha256": "b014d42999074429e792e6c3c466b1e613f9f5344cae971ad07127fc536fff0f",
+      "bytes": 84866
+    },
+    {
+      "source": "results/tables/main/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/tables-main/case-counts.csv",
+      "sha256": "4e1b6fcbddfe4cfd2cec228f99d84341b716c9526b2f0bef399a59ad615d1667",
+      "bytes": 607
+    },
+    {
+      "source": "results/tables/main/oracle-diagnostics.csv",
+      "target": "verification-work/output-preliminary-1/tables-main/oracle-diagnostics.csv",
+      "sha256": "c11e683c87b3facacd75f1127d58c3fa4e23f83033bbd1f42b37fbaee32d3287",
+      "bytes": 101438
+    },
+    {
+      "source": "results/tables/main/pairing-mse-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-main/pairing-mse-ratios.csv",
+      "sha256": "fc28e1d04fe45f7bad1eed4cd57d05979a49ccfdf518fea9939b313081fab75a",
+      "bytes": 13315
+    },
+    {
+      "source": "results/tables/main/point-estimates.csv",
+      "target": "verification-work/output-preliminary-1/tables-main/point-estimates.csv",
+      "sha256": "f0120c4136cbb420ef281a97182bd3a97b0c7eb522cd33db09368691f8295dee",
+      "bytes": 1771
+    },
+    {
+      "source": "results/tables/main/unit-pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-main/unit-pairing-ratios.csv",
+      "sha256": "d3f6c7ea1271c403deb46edf4c7fdf8e82df815440977625ead4840a590f2394",
+      "bytes": 157196
+    },
+    {
+      "source": "results/tables/main/unit-performance-distributions.csv",
+      "target": "verification-work/output-preliminary-1/tables-main/unit-performance-distributions.csv",
+      "sha256": "c21005303029cb678cc98de1e51823212723163a3bb240dec77d33a81d91757b",
+      "bytes": 3769
+    },
+    {
+      "source": "results/tables/main/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-main/unit-performance.csv",
+      "sha256": "c5d822af00829a1144b959829e62c225446fbec45b56609ef1fc991f0fd6b28b",
+      "bytes": 814279
+    },
+    {
+      "source": "results/tables/secondary-broad/audit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-broad/audit-performance.csv",
+      "sha256": "7df8f813ddb50e45df66b01e6e7dfa3d1111baa419ae208ded666467a4ad7010",
+      "bytes": 120380
+    },
+    {
+      "source": "results/tables/secondary-broad/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-broad/case-counts.csv",
+      "sha256": "8c1da288bec11cc0b179d35fdf8801d09aaa050f70df23e82e34ce1ac2dfc288",
+      "bytes": 777
+    },
+    {
+      "source": "results/tables/secondary-broad/oracle-diagnostics.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-broad/oracle-diagnostics.csv",
+      "sha256": "78696532b0792d829e81ff88eaab96896f517b5967faf9419728509ea9ed9a05",
+      "bytes": 134907
+    },
+    {
+      "source": "results/tables/secondary-broad/pairing-mse-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-broad/pairing-mse-ratios.csv",
+      "sha256": "ce6167ad149774cd658deb95434ba474bd99a1134ce5c33f327f1369e7d2f78f",
+      "bytes": 19870
+    },
+    {
+      "source": "results/tables/secondary-broad/point-estimates.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-broad/point-estimates.csv",
+      "sha256": "d589d34fde2d7f8e2d43e1aa7a6ed317b24ec77efd63ccb82ef8959c7b5708e5",
+      "bytes": 3402
+    },
+    {
+      "source": "results/tables/secondary-broad/unit-pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-broad/unit-pairing-ratios.csv",
+      "sha256": "47a3637ae9832430087217c7765a6101e489613717c7c667f77deec5aaaae787",
+      "bytes": 176779
+    },
+    {
+      "source": "results/tables/secondary-broad/unit-performance-distributions.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-broad/unit-performance-distributions.csv",
+      "sha256": "844b2143741c97eca8f1d19a66c370beb3132530a2c7e3bb3b18d0ed6c78857c",
+      "bytes": 6324
+    },
+    {
+      "source": "results/tables/secondary-broad/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-broad/unit-performance.csv",
+      "sha256": "db82a903f49aa19c49bf19e792deb404f8a4b2d93a72a804b2ca83941a18d795",
+      "bytes": 917984
+    },
+    {
+      "source": "results/tables/secondary-fine/audit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-fine/audit-performance.csv",
+      "sha256": "78d8686cd0f31811720589347d74cf10a11ff8de1b5453a42617609a905332a8",
+      "bytes": 68741
+    },
+    {
+      "source": "results/tables/secondary-fine/case-counts.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-fine/case-counts.csv",
+      "sha256": "d253fce948f14c337fab028f6f9a8a9d6134c7eecfac72cf55f5542232b7836a",
+      "bytes": 605
+    },
+    {
+      "source": "results/tables/secondary-fine/oracle-diagnostics.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-fine/oracle-diagnostics.csv",
+      "sha256": "cba469c11ecbe259299c397257d00bd982ea81146fbff39e4c8421379e01d97f",
+      "bytes": 67287
+    },
+    {
+      "source": "results/tables/secondary-fine/pairing-mse-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-fine/pairing-mse-ratios.csv",
+      "sha256": "a15734a7a7628374c56b1d84ed971e9d48dec5e0c27b79629769de21e6c9ab44",
+      "bytes": 11515
+    },
+    {
+      "source": "results/tables/secondary-fine/point-estimates.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-fine/point-estimates.csv",
+      "sha256": "b3701dae7c49d3f68125a6c1fa9cfbf56c564a37058b758fdce961d6166f44b3",
+      "bytes": 1756
+    },
+    {
+      "source": "results/tables/secondary-fine/unit-pairing-ratios.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-fine/unit-pairing-ratios.csv",
+      "sha256": "a7d224cba238e9f0adc2674ce96bf92b809b22d3cfeb3425e6d685127f64d69e",
+      "bytes": 103803
+    },
+    {
+      "source": "results/tables/secondary-fine/unit-performance-distributions.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-fine/unit-performance-distributions.csv",
+      "sha256": "454b087a4d0482f0147bbf8a4d060fcba2fe1d8a193210acd17b8d88a589da1b",
+      "bytes": 3711
+    },
+    {
+      "source": "results/tables/secondary-fine/unit-performance.csv",
+      "target": "verification-work/output-preliminary-1/tables-secondary-fine/unit-performance.csv",
+      "sha256": "4b0f55189e872ac12ccce1cd0bb2afcb79909389c6788f75f016979b08f3ce55",
+      "bytes": 532614
+    },
+    {
+      "source": "results/census-comparison/census-changes.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/census-comparison/census-changes.csv",
+      "sha256": "552903f16a77b775efc434cb9f37a93884b84fe9773d0f4303bb4c2ea179d565",
+      "bytes": 4904
+    },
+    {
+      "source": "results/census-comparison/census-unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/census-comparison/census-unit-performance.csv",
+      "sha256": "cd36fa63e8b46482ee4db4522d38d771a37012e3d42d364306faaa4035d6e2bb",
+      "bytes": 148684
+    },
+    {
+      "source": "results/description-final/classification-context.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/description-final/classification-context.csv",
+      "sha256": "6af201cf21c7dd7460e6138dee00085e17430d0e6403315f39864a971f031942",
+      "bytes": 12545
+    },
+    {
+      "source": "results/description-final/convergence.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/description-final/convergence.csv",
+      "sha256": "c3212e54bf1d019cd9f88c5e9ab725b1e3b245f7a9d21ca85a351bbdb894b133",
+      "bytes": 1009
+    },
+    {
+      "source": "results/description-final/landscape-description.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/description-final/landscape-description.csv",
+      "sha256": "a8ce8486e930a32485ad5796f00e7c34a528d0773f0086e839062f063059dd4e",
+      "bytes": 7692
+    },
+    {
+      "source": "results/description-final/spatial-distances.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/description-final/spatial-distances.csv",
+      "sha256": "bba8aa56bc1c9c63e5cc849ee380465d635b408e1c3ad327f5cb161366223f79",
+      "bytes": 836
+    },
+    {
+      "source": "results/description-final/split-description.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/description-final/split-description.csv",
+      "sha256": "a8464912a835353a8ca5fddc3dbd2b730c7199d50db6530013ef1d633f7af47e",
+      "bytes": 309
+    },
+    {
+      "source": "results/description-main/classification-context.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/description-main/classification-context.csv",
+      "sha256": "2fd9c406de02d5dc9e1898c3a9f8e3e7c73e4cfc0e59473763f0d66641e3940d",
+      "bytes": 9348
+    },
+    {
+      "source": "results/description-main/convergence.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/description-main/convergence.csv",
+      "sha256": "96e692725a994dc31dade20202f59a449c873fef3260162e10b0fbbeee9fcc57",
+      "bytes": 435
+    },
+    {
+      "source": "results/description-final/landscape-description.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/description-main/landscape-description.csv",
+      "sha256": "a8ce8486e930a32485ad5796f00e7c34a528d0773f0086e839062f063059dd4e",
+      "bytes": 7692
+    },
+    {
+      "source": "results/description-final/spatial-distances.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/description-main/spatial-distances.csv",
+      "sha256": "bba8aa56bc1c9c63e5cc849ee380465d635b408e1c3ad327f5cb161366223f79",
+      "bytes": 836
+    },
+    {
+      "source": "results/description-final/split-description.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/description-main/split-description.csv",
+      "sha256": "a8464912a835353a8ca5fddc3dbd2b730c7199d50db6530013ef1d633f7af47e",
+      "bytes": 309
+    },
+    {
+      "source": "results/reference-frame-context/frame-change-comparisons.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/reference-context/frame-change-comparisons.csv",
+      "sha256": "a4a0df27e430bf2ecb48afd0050649b9d92620f9c6ba7a54256690dc795b2f85",
+      "bytes": 24871
+    },
+    {
+      "source": "results/reference-frame-context/subset-performance.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/reference-context/subset-performance.csv",
+      "sha256": "ebd3185fa08d05d448a92c495ca6fa50ec47b8cc39b2ff52c874a597f9d735b6",
+      "bytes": 75476
+    },
+    {
+      "source": "results/reference-sensitivity/reference-sensitivity.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/reference-sensitivity/reference-sensitivity.csv",
+      "sha256": "6e28e16933a371672d46ff86c04c50aecd817aed1f666dc304625b588cfa695a",
+      "bytes": 127297
+    },
+    {
+      "source": "results/refreshed-controls/comparison.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/refreshed-controls/comparison.csv",
+      "sha256": "27474b3bc381443fd5871462c6eda4337a09708825c3411bf27503b649f0f4e9",
+      "bytes": 3118
+    },
+    {
+      "source": "results/scope-baselines/scope-baselines.csv",
+      "target": "verification-work/output-quick-refreshed/supplements/scope-baselines/scope-baselines.csv",
+      "sha256": "55b35aaf842a471893d01f93b417af3569a4f35b76b8132eb999b3779c6162d3",
+      "bytes": 24124
+    },
+    {
+      "source": "results/tables/census/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-census/audit-performance.csv",
+      "sha256": "2ea7ff957b652213242edf5e97573ecdacd358b37fcdf230eb4b5bf08db87ed4",
+      "bytes": 79558
+    },
+    {
+      "source": "results/tables/census/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-census/case-counts.csv",
+      "sha256": "8b205da92a659d5e5246850e234f041c3cc52fd41ae530636a14b3ceca2f0dde",
+      "bytes": 599
+    },
+    {
+      "source": "results/tables/census/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-census/oracle-diagnostics.csv",
+      "sha256": "ab620f628f963933aa1bdd650434f5f6ad736459e5d2e8817259b044a4db928f",
+      "bytes": 10473
+    },
+    {
+      "source": "results/tables/census/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-census/pairing-mse-ratios.csv",
+      "sha256": "fb42740d6e0617f445b98b05dc75e6dc24abb2d8a39ac722d723bed01bf24b93",
+      "bytes": 13158
+    },
+    {
+      "source": "results/tables/census/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-census/point-estimates.csv",
+      "sha256": "e39365a063b8b79f757abb65457d07728349ce6179bcb896f3e9452c30eeab6c",
+      "bytes": 1756
+    },
+    {
+      "source": "results/tables/census/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-census/unit-pairing-ratios.csv",
+      "sha256": "97af04a53962459cbef1840b9faa2e67ff1993d684d62d1ecd533c8819a8a802",
+      "bytes": 15830
+    },
+    {
+      "source": "results/tables/census/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-census/unit-performance-distributions.csv",
+      "sha256": "3e064b3819c8306e9bd820c38bf84751cf9b280067c7321f1defc334e8539b1c",
+      "bytes": 3809
+    },
+    {
+      "source": "results/tables/census/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-census/unit-performance.csv",
+      "sha256": "6427fc3b26b0675428dd68dd41f2f39cda44e5f5c85f23641165fec1c31f9ca9",
+      "bytes": 82778
+    },
+    {
+      "source": "results/tables/fine/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-fine/audit-performance.csv",
+      "sha256": "33013d2b544e78a616e78b903e46f72fc15fbfb1df99c9c834a0c5db89bdcd6e",
+      "bytes": 82168
+    },
+    {
+      "source": "results/tables/fine/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-fine/case-counts.csv",
+      "sha256": "e3ceac2f77c505c351b82282481fab6741c6f0428df374b31bddb91351227c54",
+      "bytes": 605
+    },
+    {
+      "source": "results/tables/fine/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-fine/oracle-diagnostics.csv",
+      "sha256": "ee7e2a44af2c8b5617ed3991bd61c2c15b27d8b78a13f84999bf939a0d4a9ea5",
+      "bytes": 100432
+    },
+    {
+      "source": "results/tables/fine/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-fine/pairing-mse-ratios.csv",
+      "sha256": "d9d68f2dcad56c84de6cf4df28e16ac7487a5b651ce6762f7ef5c969f5d3580b",
+      "bytes": 13078
+    },
+    {
+      "source": "results/tables/fine/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-fine/point-estimates.csv",
+      "sha256": "eb4e2de9e389d47201a6a54b2b6f307128be02331610f199434d9028f9ee792f",
+      "bytes": 1752
+    },
+    {
+      "source": "results/tables/fine/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-fine/unit-pairing-ratios.csv",
+      "sha256": "fe66ada1110fb8ee1b5b071a390d99e3a0b46a3036e06a620d851a0ac952ce03",
+      "bytes": 155502
+    },
+    {
+      "source": "results/tables/fine/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-fine/unit-performance-distributions.csv",
+      "sha256": "4f036d3240f4b1a2a530ffd79112c98b805b4fe234c1c75e1660da237ce0b44c",
+      "bytes": 3685
+    },
+    {
+      "source": "results/tables/fine/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-fine/unit-performance.csv",
+      "sha256": "5a929afdc3e52480b6d5cd2b89970a29417cfc3ed928f78ae68e00ecf8fcd612",
+      "bytes": 796788
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-alphaearth/audit-performance.csv",
+      "sha256": "a3ceb2b22b43f695ced7327b8181ef5b3008150dee24a6380e76fa83618efd2d",
+      "bytes": 55287
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-alphaearth/case-counts.csv",
+      "sha256": "76b6de856621afa9efc438fa07ea6b4534770648b5cfe3e29aef0f81df6b5f1a",
+      "bytes": 521
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-alphaearth/oracle-diagnostics.csv",
+      "sha256": "9846393672cd75895c17ac88abfa3ff6ec88ae6d96fdafca1b860bb91dd43f5f",
+      "bytes": 51173
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-alphaearth/pairing-mse-ratios.csv",
+      "sha256": "a3f618fa1f01256d63d66ab8ac59c599519c8632109751ae1d084e386625c68a",
+      "bytes": 8582
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-alphaearth/point-estimates.csv",
+      "sha256": "b9cdade41ca8ffeb479009fc2edf2d97a781756d39e9540b37fa308411b45e27",
+      "bytes": 958
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-alphaearth/unit-pairing-ratios.csv",
+      "sha256": "cdc2cb8b882709c0aab59b4733366b2502c5c335a6f9fb0b419475b477999261",
+      "bytes": 102370
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-alphaearth/unit-performance-distributions.csv",
+      "sha256": "90ab64afa4a340ff161a03598f58738d60bcc44a421951fe152099334749ba4a",
+      "bytes": 2551
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-alphaearth/unit-performance.csv",
+      "sha256": "100391516e94819d9aa216993de94b8ff15452d4217566e3a1269b8acdab4b53",
+      "bytes": 544323
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-tessera/audit-performance.csv",
+      "sha256": "0e87059b875fc91f1604872e10f8c584ca462c291913f0e4e3cbc901c81512c9",
+      "bytes": 54892
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-tessera/case-counts.csv",
+      "sha256": "41bd952c254f5fe5d399b4119b1a5fdb5647e3b09e64981c0af171e4205482f2",
+      "bytes": 515
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-tessera/oracle-diagnostics.csv",
+      "sha256": "54a2d8623211810fbb666e38b60bb8840b1b44b68d55436e9f315758639ce73a",
+      "bytes": 50019
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-tessera/pairing-mse-ratios.csv",
+      "sha256": "80cafa00539bff6e9667ce32cf5728d3a9b6b1998a41a2fdd08b375eb0b5384e",
+      "bytes": 8454
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-tessera/point-estimates.csv",
+      "sha256": "aa77bd7574285ade0740e320933a6c48b73683f440010d2af80476ba526075a5",
+      "bytes": 933
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-tessera/unit-pairing-ratios.csv",
+      "sha256": "5cd38f5e78edbed6c7bf813e1ab03c22cdacdc9a30c391d3720e0321350403f2",
+      "bytes": 100920
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-tessera/unit-performance-distributions.csv",
+      "sha256": "74b39df384334527d4c820cfabf4009763e8e4e70b65d024018c01ed2317f958",
+      "bytes": 2500
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-forest-broad-tessera/unit-performance.csv",
+      "sha256": "b1f6edabf42fe9076245c06d0a2ac40396ad84f92590751c00e1c54af4ae4651",
+      "bytes": 538836
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-alphaearth/audit-performance.csv",
+      "sha256": "854602ca2cd09b23f8dde86a59954b45fa2e1d5d19abd5ad45fd48c8faf87b4f",
+      "bytes": 58013
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-alphaearth/case-counts.csv",
+      "sha256": "348a57ed9fbaec6d150551e56842610c67eb1ccafb6369306456a1b51cee3e9e",
+      "bytes": 538
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-alphaearth/oracle-diagnostics.csv",
+      "sha256": "6e7e1d85be6d823b9a468da5ecfe48d875ac499212765ec5a285cf7a79d79ae7",
+      "bytes": 53944
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-alphaearth/pairing-mse-ratios.csv",
+      "sha256": "d7f48f9f163f5d220ced957bd8cc2f914e2b1e52bb6edcadbc0d4f6be2f93729",
+      "bytes": 9233
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-alphaearth/point-estimates.csv",
+      "sha256": "ec6cecde8dd14a38d3fc88090a3c1f706f827f549d266d1fb783abf08fb32b35",
+      "bytes": 1025
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-alphaearth/unit-pairing-ratios.csv",
+      "sha256": "dd664e963e46b6f5c89674be97c829d6a5dafc09f4778f47ca144ad1411b169f",
+      "bytes": 109525
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-alphaearth/unit-performance-distributions.csv",
+      "sha256": "94cd21fcddc20a2a9acabe054d5fa8a2b82e6266d45afc985885174a2e669dc9",
+      "bytes": 2688
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-alphaearth/unit-performance.csv",
+      "sha256": "daff1a8843c6967cd5bbdbed2849964b1dd817c2159d22235c162a712c1caed3",
+      "bytes": 550677
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-tessera/audit-performance.csv",
+      "sha256": "ed49cf01092ef7805163759be46e1e74a3d4400c71a0035e70b3f92d74fccf16",
+      "bytes": 57507
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-tessera/case-counts.csv",
+      "sha256": "34122e5a00a85f260dbe75da4c2b940a8894c168a9080669c50b7354a1ba5c48",
+      "bytes": 532
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-tessera/oracle-diagnostics.csv",
+      "sha256": "5ea375ad9cd4ef730c04b3e37dd23af116fb9685003282828599a2f40ceb0462",
+      "bytes": 52893
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-tessera/pairing-mse-ratios.csv",
+      "sha256": "875facf57d8d80ad3c6d389db28252a896675c1196b84ae6b680147fd244b235",
+      "bytes": 9112
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-tessera/point-estimates.csv",
+      "sha256": "18ac6772d9f3cac1348061409e3923477c0569f5945b34bb775475d9be7ad9d6",
+      "bytes": 997
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-tessera/unit-pairing-ratios.csv",
+      "sha256": "7fdf45b57143be293cc9a8156a891e63834211d5234c336435dde4ecd659aa3f",
+      "bytes": 108187
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-tessera/unit-performance-distributions.csv",
+      "sha256": "df3b029718a9137dd4889c92e34c22472728d098c49edae5c0dc34e5a16b6883",
+      "bytes": 2648
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-hard-tessera/unit-performance.csv",
+      "sha256": "b5bece909129b7baf462a5ffdf116a094d5ee596cd36a309f27b8c793c3ea1be",
+      "bytes": 548796
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-alphaearth/audit-performance.csv",
+      "sha256": "35d92cb5abe52ddbf258176641fc6a0168c174b572bbe36eb471aadfe2d2aa92",
+      "bytes": 55634
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-alphaearth/case-counts.csv",
+      "sha256": "998484d0a8a3cc3f0527a1504d9387da4454ba0ab4c396a4a036875104eef3e0",
+      "bytes": 526
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-alphaearth/oracle-diagnostics.csv",
+      "sha256": "3d6b69e82b4ac8d2b6378efa286493c3305786bf95132057f6d404f5704b3099",
+      "bytes": 51992
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-alphaearth/pairing-mse-ratios.csv",
+      "sha256": "5ce1a8186e6fcff5f617c445d4372257c0c3d69a3fa9f42fee28fd331b2cc5e4",
+      "bytes": 8769
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-alphaearth/point-estimates.csv",
+      "sha256": "cd37a5585e3cff5e812547630a68b154edd59ff0305662164cfd3934addc3f1c",
+      "bytes": 760
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-alphaearth/unit-pairing-ratios.csv",
+      "sha256": "1f3858594d53392b023ff86babbfceba338629dc033fbc0dba91c39077713e43",
+      "bytes": 104541
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-alphaearth/unit-performance-distributions.csv",
+      "sha256": "4c1973b4edb16720bc25a35c33101df97aa490756ec58c6c2a794148975d884b",
+      "bytes": 2588
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-alphaearth/unit-performance.csv",
+      "sha256": "0ef23c6b4c9e0943d445efa12b1bf5b8035ae2fafd292c9ec0c1c69ee54f24e4",
+      "bytes": 543321
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-tessera/audit-performance.csv",
+      "sha256": "7e96a5d6a9beb1a358b4d3a57a950d0499fbe3d8bce634279e27bd2ea4920d4e",
+      "bytes": 55414
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-tessera/case-counts.csv",
+      "sha256": "a88567592053d856ff5043c4a2b9e50e4a5dd51c01589a0529bd07a156824d09",
+      "bytes": 520
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-tessera/oracle-diagnostics.csv",
+      "sha256": "1119b5a718977766c4dc8e9006697a8bcc06e563cea010aa19876c04797c6cfb",
+      "bytes": 50882
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-tessera/pairing-mse-ratios.csv",
+      "sha256": "1d412b8e03d3687dc1bf31af9a5bb5deb9eaafca12764323af6de574eae2e300",
+      "bytes": 8655
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-tessera/point-estimates.csv",
+      "sha256": "25d0cf12b8fb2db5e681cb61b1d0cb962d976ecc2b44ac76b1876f0d0f8ef7a7",
+      "bytes": 741
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-tessera/unit-pairing-ratios.csv",
+      "sha256": "ed663dbb6f857a63a502889fe7772d0237283c4844e8625727156bc9d1d39a30",
+      "bytes": 103043
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-tessera/unit-performance-distributions.csv",
+      "sha256": "375dc5d78fb24931fd151366e202b1aa1843b58f79a1c19d4f51a5fb9d4454b0",
+      "bytes": 2544
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-logistic-broad-refreshed-tessera/unit-performance.csv",
+      "sha256": "823289d0360c6afe4281709119f67b3bcb0f70ef2360213a9980a6c6fff02083",
+      "bytes": 538210
+    },
+    {
+      "source": "results/tables/main/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-main/audit-performance.csv",
+      "sha256": "b014d42999074429e792e6c3c466b1e613f9f5344cae971ad07127fc536fff0f",
+      "bytes": 84866
+    },
+    {
+      "source": "results/tables/main/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-main/case-counts.csv",
+      "sha256": "4e1b6fcbddfe4cfd2cec228f99d84341b716c9526b2f0bef399a59ad615d1667",
+      "bytes": 607
+    },
+    {
+      "source": "results/tables/main/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-main/oracle-diagnostics.csv",
+      "sha256": "c11e683c87b3facacd75f1127d58c3fa4e23f83033bbd1f42b37fbaee32d3287",
+      "bytes": 101438
+    },
+    {
+      "source": "results/tables/main/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-main/pairing-mse-ratios.csv",
+      "sha256": "fc28e1d04fe45f7bad1eed4cd57d05979a49ccfdf518fea9939b313081fab75a",
+      "bytes": 13315
+    },
+    {
+      "source": "results/tables/main/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-main/point-estimates.csv",
+      "sha256": "f0120c4136cbb420ef281a97182bd3a97b0c7eb522cd33db09368691f8295dee",
+      "bytes": 1771
+    },
+    {
+      "source": "results/tables/main/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-main/unit-pairing-ratios.csv",
+      "sha256": "d3f6c7ea1271c403deb46edf4c7fdf8e82df815440977625ead4840a590f2394",
+      "bytes": 157196
+    },
+    {
+      "source": "results/tables/main/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-main/unit-performance-distributions.csv",
+      "sha256": "c21005303029cb678cc98de1e51823212723163a3bb240dec77d33a81d91757b",
+      "bytes": 3769
+    },
+    {
+      "source": "results/tables/main/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-main/unit-performance.csv",
+      "sha256": "c5d822af00829a1144b959829e62c225446fbec45b56609ef1fc991f0fd6b28b",
+      "bytes": 814279
+    },
+    {
+      "source": "results/tables/secondary-broad/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-broad/audit-performance.csv",
+      "sha256": "7df8f813ddb50e45df66b01e6e7dfa3d1111baa419ae208ded666467a4ad7010",
+      "bytes": 120380
+    },
+    {
+      "source": "results/tables/secondary-broad/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-broad/case-counts.csv",
+      "sha256": "8c1da288bec11cc0b179d35fdf8801d09aaa050f70df23e82e34ce1ac2dfc288",
+      "bytes": 777
+    },
+    {
+      "source": "results/tables/secondary-broad/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-broad/oracle-diagnostics.csv",
+      "sha256": "78696532b0792d829e81ff88eaab96896f517b5967faf9419728509ea9ed9a05",
+      "bytes": 134907
+    },
+    {
+      "source": "results/tables/secondary-broad/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-broad/pairing-mse-ratios.csv",
+      "sha256": "ce6167ad149774cd658deb95434ba474bd99a1134ce5c33f327f1369e7d2f78f",
+      "bytes": 19870
+    },
+    {
+      "source": "results/tables/secondary-broad/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-broad/point-estimates.csv",
+      "sha256": "d589d34fde2d7f8e2d43e1aa7a6ed317b24ec77efd63ccb82ef8959c7b5708e5",
+      "bytes": 3402
+    },
+    {
+      "source": "results/tables/secondary-broad/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-broad/unit-pairing-ratios.csv",
+      "sha256": "47a3637ae9832430087217c7765a6101e489613717c7c667f77deec5aaaae787",
+      "bytes": 176779
+    },
+    {
+      "source": "results/tables/secondary-broad/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-broad/unit-performance-distributions.csv",
+      "sha256": "844b2143741c97eca8f1d19a66c370beb3132530a2c7e3bb3b18d0ed6c78857c",
+      "bytes": 6324
+    },
+    {
+      "source": "results/tables/secondary-broad/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-broad/unit-performance.csv",
+      "sha256": "db82a903f49aa19c49bf19e792deb404f8a4b2d93a72a804b2ca83941a18d795",
+      "bytes": 917984
+    },
+    {
+      "source": "results/tables/secondary-fine/audit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-fine/audit-performance.csv",
+      "sha256": "78d8686cd0f31811720589347d74cf10a11ff8de1b5453a42617609a905332a8",
+      "bytes": 68741
+    },
+    {
+      "source": "results/tables/secondary-fine/case-counts.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-fine/case-counts.csv",
+      "sha256": "d253fce948f14c337fab028f6f9a8a9d6134c7eecfac72cf55f5542232b7836a",
+      "bytes": 605
+    },
+    {
+      "source": "results/tables/secondary-fine/oracle-diagnostics.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-fine/oracle-diagnostics.csv",
+      "sha256": "cba469c11ecbe259299c397257d00bd982ea81146fbff39e4c8421379e01d97f",
+      "bytes": 67287
+    },
+    {
+      "source": "results/tables/secondary-fine/pairing-mse-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-fine/pairing-mse-ratios.csv",
+      "sha256": "a15734a7a7628374c56b1d84ed971e9d48dec5e0c27b79629769de21e6c9ab44",
+      "bytes": 11515
+    },
+    {
+      "source": "results/tables/secondary-fine/point-estimates.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-fine/point-estimates.csv",
+      "sha256": "b3701dae7c49d3f68125a6c1fa9cfbf56c564a37058b758fdce961d6166f44b3",
+      "bytes": 1756
+    },
+    {
+      "source": "results/tables/secondary-fine/unit-pairing-ratios.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-fine/unit-pairing-ratios.csv",
+      "sha256": "a7d224cba238e9f0adc2674ce96bf92b809b22d3cfeb3425e6d685127f64d69e",
+      "bytes": 103803
+    },
+    {
+      "source": "results/tables/secondary-fine/unit-performance-distributions.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-fine/unit-performance-distributions.csv",
+      "sha256": "454b087a4d0482f0147bbf8a4d060fcba2fe1d8a193210acd17b8d88a589da1b",
+      "bytes": 3711
+    },
+    {
+      "source": "results/tables/secondary-fine/unit-performance.csv",
+      "target": "verification-work/output-quick-refreshed/tables-secondary-fine/unit-performance.csv",
+      "sha256": "4b0f55189e872ac12ccce1cd0bb2afcb79909389c6788f75f016979b08f3ce55",
+      "bytes": 532614
+    },
+    {
+      "source": "results/additional-arable-high-replication/case-counts.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-arable-high-replication/case-counts.csv",
+      "sha256": "71b24f03bbd0bbcf0cf90fbad66fbff5db096160f73d4657afb321511ae04234",
+      "bytes": 347
+    },
+    {
+      "source": "results/additional-arable-high-replication/pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-arable-high-replication/pairing-ratios.csv",
+      "sha256": "1ae55d1c47d01b1bdfaeef9267c10342d05ee859e43d90b5512c9afa0cd8cfbe",
+      "bytes": 722
+    },
+    {
+      "source": "results/additional-arable-high-replication/reference-changes.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-arable-high-replication/reference-changes.csv",
+      "sha256": "1f51fd4426ae013155954769940082b6184ac6c89eee1aa4eae10750bf6f9358",
+      "bytes": 4925
+    },
+    {
+      "source": "results/additional-arable-high-replication/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-arable-high-replication/summary.csv",
+      "sha256": "029bdd22cb125ef20e155edff554c3dd3c2957313b3ed3cfc2d59562851344d3",
+      "bytes": 6653
+    },
+    {
+      "source": "results/additional-arable-high-replication/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-arable-high-replication/unit-performance.csv",
+      "sha256": "6260b256f960fa279d10d1cc977cb4b4438abb97303419e1b7dfeeceddb404ce",
+      "bytes": 70769
+    },
+    {
+      "source": "results/additional-geography/case-counts.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography/case-counts.csv",
+      "sha256": "9e999acc7a914837f32b5084c0c4cd7368ef544d18b59be432fdeb6456ec40a6",
+      "bytes": 474
+    },
+    {
+      "source": "results/additional-geography/pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography/pairing-ratios.csv",
+      "sha256": "2ba7c1f1669e95dabd02a9a7d51c8f692046b4145a1c1cc8279d46f43fce564c",
+      "bytes": 1426
+    },
+    {
+      "source": "results/additional-geography/reference-changes.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography/reference-changes.csv",
+      "sha256": "2b18ccfdac46114a738496dc6f2a1a96af94bf2131a9c0653f089963232d76a0",
+      "bytes": 13656
+    },
+    {
+      "source": "results/additional-geography/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography/summary.csv",
+      "sha256": "f3282300591216d75865141b49bd90cf43eb4a0dfe5e5680460a0c303e594f28",
+      "bytes": 14294
+    },
+    {
+      "source": "results/additional-geography/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography/unit-performance.csv",
+      "sha256": "662cf60653265f2330609ea11187fcf2925daaca5ee365d648c321f0750cdcb2",
+      "bytes": 192159
+    },
+    {
+      "source": "results/additional-arable-high-replication/case-counts.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography-arable/case-counts.csv",
+      "sha256": "71b24f03bbd0bbcf0cf90fbad66fbff5db096160f73d4657afb321511ae04234",
+      "bytes": 347
+    },
+    {
+      "source": "results/additional-geography-arable/pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography-arable/pairing-ratios.csv",
+      "sha256": "521781e94501ef2a17d518bdf6610f0704ce9558c457d22a6c7533f56d7dc79c",
+      "bytes": 718
+    },
+    {
+      "source": "results/additional-arable-high-replication/reference-changes.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography-arable/reference-changes.csv",
+      "sha256": "1f51fd4426ae013155954769940082b6184ac6c89eee1aa4eae10750bf6f9358",
+      "bytes": 4925
+    },
+    {
+      "source": "results/additional-geography-arable/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography-arable/summary.csv",
+      "sha256": "3a642d3a9280b5b9d2fce9934ae3d9d1be0cf1dc96a304fbab28170d4db834a0",
+      "bytes": 6539
+    },
+    {
+      "source": "results/additional-geography-arable/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography-arable/unit-performance.csv",
+      "sha256": "8a63e6557d5f30afeb941cf9332ea68ada9cea275c4b9efe5171595b35409662",
+      "bytes": 68496
+    },
+    {
+      "source": "results/additional-geography-context/frame-change-comparisons.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography-context/frame-change-comparisons.csv",
+      "sha256": "d3f57eb98ba2e035d1e692a9e9502a789fb22866e18bcbcbe09a83871d269741",
+      "bytes": 6793
+    },
+    {
+      "source": "results/additional-geography-context/subset-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/additional-geography-context/subset-performance.csv",
+      "sha256": "56d978f6e74877f85d56d62815176bb2c45302aa1d618996ee80251bf2890dc1",
+      "bytes": 72672
+    },
+    {
+      "source": "results/census-comparison/census-changes.csv",
+      "target": "verification-work/output-submission-1/supplements/census-comparison/census-changes.csv",
+      "sha256": "552903f16a77b775efc434cb9f37a93884b84fe9773d0f4303bb4c2ea179d565",
+      "bytes": 4904
+    },
+    {
+      "source": "results/census-comparison/census-unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/census-comparison/census-unit-performance.csv",
+      "sha256": "cd36fa63e8b46482ee4db4522d38d771a37012e3d42d364306faaa4035d6e2bb",
+      "bytes": 148684
+    },
+    {
+      "source": "results/coherent-panel/landscape-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/coherent-panel/landscape-performance.csv",
+      "sha256": "8a6341fad61d3c7483ec84d4cf3c912adc71c91bd2515927cfd3ee7eb3c5cc89",
+      "bytes": 31917
+    },
+    {
+      "source": "results/coherent-panel/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/coherent-panel/summary.csv",
+      "sha256": "92c7d0e08b3a33973790cec46d63bd4f630182e9f20dd96713f7bbce7602552d",
+      "bytes": 5896
+    },
+    {
+      "source": "results/coherent-panel/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/coherent-panel/unit-performance.csv",
+      "sha256": "f7e7f3576369996119a2caa408d0746303838f9456a4110507d3fc8233964a90",
+      "bytes": 206591
+    },
+    {
+      "source": "results/covariance-context/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/covariance-context/summary.csv",
+      "sha256": "bbc7397d0cafcba69a3131f9331480db5837e99245e6dd47535560ade4124961",
+      "bytes": 2489
+    },
+    {
+      "source": "results/description-final/classification-context.csv",
+      "target": "verification-work/output-submission-1/supplements/description-final/classification-context.csv",
+      "sha256": "6af201cf21c7dd7460e6138dee00085e17430d0e6403315f39864a971f031942",
+      "bytes": 12545
+    },
+    {
+      "source": "results/description-final/convergence.csv",
+      "target": "verification-work/output-submission-1/supplements/description-final/convergence.csv",
+      "sha256": "c3212e54bf1d019cd9f88c5e9ab725b1e3b245f7a9d21ca85a351bbdb894b133",
+      "bytes": 1009
+    },
+    {
+      "source": "results/description-final/landscape-description.csv",
+      "target": "verification-work/output-submission-1/supplements/description-final/landscape-description.csv",
+      "sha256": "a8ce8486e930a32485ad5796f00e7c34a528d0773f0086e839062f063059dd4e",
+      "bytes": 7692
+    },
+    {
+      "source": "results/description-final/spatial-distances.csv",
+      "target": "verification-work/output-submission-1/supplements/description-final/spatial-distances.csv",
+      "sha256": "bba8aa56bc1c9c63e5cc849ee380465d635b408e1c3ad327f5cb161366223f79",
+      "bytes": 836
+    },
+    {
+      "source": "results/description-final/split-description.csv",
+      "target": "verification-work/output-submission-1/supplements/description-final/split-description.csv",
+      "sha256": "a8464912a835353a8ca5fddc3dbd2b730c7199d50db6530013ef1d633f7af47e",
+      "bytes": 309
+    },
+    {
+      "source": "results/description-main/classification-context.csv",
+      "target": "verification-work/output-submission-1/supplements/description-main/classification-context.csv",
+      "sha256": "2fd9c406de02d5dc9e1898c3a9f8e3e7c73e4cfc0e59473763f0d66641e3940d",
+      "bytes": 9348
+    },
+    {
+      "source": "results/description-main/convergence.csv",
+      "target": "verification-work/output-submission-1/supplements/description-main/convergence.csv",
+      "sha256": "96e692725a994dc31dade20202f59a449c873fef3260162e10b0fbbeee9fcc57",
+      "bytes": 435
+    },
+    {
+      "source": "results/description-final/landscape-description.csv",
+      "target": "verification-work/output-submission-1/supplements/description-main/landscape-description.csv",
+      "sha256": "a8ce8486e930a32485ad5796f00e7c34a528d0773f0086e839062f063059dd4e",
+      "bytes": 7692
+    },
+    {
+      "source": "results/description-final/spatial-distances.csv",
+      "target": "verification-work/output-submission-1/supplements/description-main/spatial-distances.csv",
+      "sha256": "bba8aa56bc1c9c63e5cc849ee380465d635b408e1c3ad327f5cb161366223f79",
+      "bytes": 836
+    },
+    {
+      "source": "results/description-final/split-description.csv",
+      "target": "verification-work/output-submission-1/supplements/description-main/split-description.csv",
+      "sha256": "a8464912a835353a8ca5fddc3dbd2b730c7199d50db6530013ef1d633f7af47e",
+      "bytes": 309
+    },
+    {
+      "source": "results/gradient/broad-alphaearth/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/gradient-broad-alphaearth/summary.csv",
+      "sha256": "f34c2ac81ed904a57851760a8a5ab274ee588f50b0cfc07c4d8c57055c03333f",
+      "bytes": 6021
+    },
+    {
+      "source": "results/gradient/broad-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/gradient-broad-alphaearth/unit-performance.csv",
+      "sha256": "720fcc7277f6d46b2a07881e87b4032114f9288d69a758ffea3e2e974ea0ac04",
+      "bytes": 232625
+    },
+    {
+      "source": "results/gradient/broad-tessera/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/gradient-broad-tessera/summary.csv",
+      "sha256": "b59c38ad7a83e8427ab1804ebddd3e15b5ef1a3b219015e455acbc0fedbbb638",
+      "bytes": 5990
+    },
+    {
+      "source": "results/gradient/broad-tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/gradient-broad-tessera/unit-performance.csv",
+      "sha256": "960d88b74bf7640fe3bd67fba7dc5e31363c007a9bfa3b9284c1196205e9ee35",
+      "bytes": 226936
+    },
+    {
+      "source": "results/gradient/fine-alphaearth/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/gradient-fine-alphaearth/summary.csv",
+      "sha256": "c104769a4e613ba509d766936cbd148a2c6a6cef9b4ec83cc0d8f3627e5d3d35",
+      "bytes": 5878
+    },
+    {
+      "source": "results/gradient/fine-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/gradient-fine-alphaearth/unit-performance.csv",
+      "sha256": "b2b637846f08ad0babcb1656f351e4ad6521e775138c63d3ed7c9223b686f93e",
+      "bytes": 229757
+    },
+    {
+      "source": "results/gradient/fine-tessera/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/gradient-fine-tessera/summary.csv",
+      "sha256": "d15739772328b13153e32f3486f4416641a9e4e9f275af9ba6f7b978f8d8bed4",
+      "bytes": 5744
+    },
+    {
+      "source": "results/gradient/fine-tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/gradient-fine-tessera/unit-performance.csv",
+      "sha256": "0f69c1ac11f7a7f7e5e6eb256b35cfb9adeae5dc4eb10a15c504c3e22dedb176",
+      "bytes": 223660
+    },
+    {
+      "source": "results/jackknife/alphaearth/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/jackknife-alphaearth/summary.csv",
+      "sha256": "a6c308fd8300c8b3f13f9808b9aea983eeb6587696f31b7ceea93f857e10fa87",
+      "bytes": 2832
+    },
+    {
+      "source": "results/jackknife/alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/jackknife-alphaearth/unit-performance.csv",
+      "sha256": "e9c939ba1fb485e67efdce8e20b38c2bd0719fe5bd31a208daedaaf3c9fcf057",
+      "bytes": 121996
+    },
+    {
+      "source": "results/jackknife/tessera/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/jackknife-tessera/summary.csv",
+      "sha256": "171e20d505a531fb8fc4496a1e9494268a0b4791764daaeb114c0101ab3b9a03",
+      "bytes": 2799
+    },
+    {
+      "source": "results/jackknife/tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/jackknife-tessera/unit-performance.csv",
+      "sha256": "c5781ac9be861e7dbe02d0a8b0a6baf54ef1eb5f612d16b674b6a3dbe512ec3f",
+      "bytes": 119831
+    },
+    {
+      "source": "results/power/alphaearth/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/power-alphaearth/summary.csv",
+      "sha256": "432f3d219a1f97325fa7e49b9a3ecb5b645f8a54c2d70d610a412b8d852f2054",
+      "bytes": 2313
+    },
+    {
+      "source": "results/power/alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/power-alphaearth/unit-performance.csv",
+      "sha256": "90c272496a1a2d7b954ab6794b712d3424f7d20c323a6c9e149c8296c13621f8",
+      "bytes": 85127
+    },
+    {
+      "source": "results/power/tessera/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/power-tessera/summary.csv",
+      "sha256": "e28a342c3c80c8fe5c542c5f426304dbd737f4a89cac4dbb2f71466c8f38a704",
+      "bytes": 2347
+    },
+    {
+      "source": "results/power/tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/power-tessera/unit-performance.csv",
+      "sha256": "9743a4008c80463b9fa36f82397db5e30963af272d4490f1e3f8d686bf925f4a",
+      "bytes": 84065
+    },
+    {
+      "source": "results/projection-derivative/broad-alphaearth/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-broad-alphaearth/summary.csv",
+      "sha256": "c4d7741e8873b5cf3ee44cb8122aa735fdede4ae4e369a9326b19dddc44c2f96",
+      "bytes": 3441
+    },
+    {
+      "source": "results/projection-derivative/broad-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-broad-alphaearth/unit-performance.csv",
+      "sha256": "307445b0d0a9c58591c1b02d1389bcbf761229715fff497a98302f71de7d3235",
+      "bytes": 113640
+    },
+    {
+      "source": "results/projection-derivative/broad-tessera/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-broad-tessera/summary.csv",
+      "sha256": "2fc0ddb7e88e376387836f0d1f6d1fcee587a5e70c1dd4fe4cfcef9efe3c36b1",
+      "bytes": 3415
+    },
+    {
+      "source": "results/projection-derivative/broad-tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-broad-tessera/unit-performance.csv",
+      "sha256": "9517b95bec320fc0cebfd6ebe7e2e713fccd9aab0e165491f24e6b39a7f871fa",
+      "bytes": 111528
+    },
+    {
+      "source": "results/projection-derivative/fine-alphaearth/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-fine-alphaearth/summary.csv",
+      "sha256": "886f13243fe22fc89239590a405c101469cbb6464ff4cf017b72221a40e8b5b1",
+      "bytes": 3284
+    },
+    {
+      "source": "results/projection-derivative/fine-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-fine-alphaearth/unit-performance.csv",
+      "sha256": "39e11241a852f56147cb0b7b78dbbb8980b94842e564d9cead22735c29d1bc69",
+      "bytes": 111598
+    },
+    {
+      "source": "results/projection-derivative/fine-tessera/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-fine-tessera/summary.csv",
+      "sha256": "689a90ef16d8e3daee8c530c376512e6493204b7df2e36c0dc91be83c848ebf9",
+      "bytes": 3310
+    },
+    {
+      "source": "results/projection-derivative/fine-tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-fine-tessera/unit-performance.csv",
+      "sha256": "ce0d63d021dab0512695604fd59e051fbd066feea37f50fc980566f2e329bc19",
+      "bytes": 109239
+    },
+    {
+      "source": "results/projection-derivative/forest-broad-alphaearth/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-forest-broad-alphaearth/summary.csv",
+      "sha256": "6fa8fed499648085c8cfcebfd07cee70dbd0cc6166ae02d1528dcca1ca03fd27",
+      "bytes": 3407
+    },
+    {
+      "source": "results/projection-derivative/forest-broad-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-forest-broad-alphaearth/unit-performance.csv",
+      "sha256": "3cd46ddcc1ca4472d52bacc109bcc836bf6bb2ee9ce761a16e78f6d51e295e34",
+      "bytes": 113954
+    },
+    {
+      "source": "results/projection-derivative/forest-broad-tessera/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-forest-broad-tessera/summary.csv",
+      "sha256": "82b0658fd1446df44708bf729967269fd4b8190bad577f30d43da7a16bb3b7b1",
+      "bytes": 3419
+    },
+    {
+      "source": "results/projection-derivative/forest-broad-tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-forest-broad-tessera/unit-performance.csv",
+      "sha256": "4a30a0f5bdce6ce3502a950c42cd0ef61c3dc2eb3bc8f4bf92c4f88519d74c3c",
+      "bytes": 111698
+    },
+    {
+      "source": "results/projection-derivative/refreshed-broad-alphaearth/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-refreshed-broad-alphaearth/summary.csv",
+      "sha256": "c3d44d5e5e3cc7dddb0307989e715cd0166ba6df262b360987810b5d5b685b9f",
+      "bytes": 3467
+    },
+    {
+      "source": "results/projection-derivative/refreshed-broad-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-refreshed-broad-alphaearth/unit-performance.csv",
+      "sha256": "9af6f18930e7f0cae696ddd08baa45b1e61897e6e988dc05a564774b4293c896",
+      "bytes": 113846
+    },
+    {
+      "source": "results/projection-derivative/refreshed-broad-tessera/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-refreshed-broad-tessera/summary.csv",
+      "sha256": "640a1aedb1b3d3f3627b56b3f7aa3c80ca5adec25877f2a3b2b5c95de524c38a",
+      "bytes": 3402
+    },
+    {
+      "source": "results/projection-derivative/refreshed-broad-tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-refreshed-broad-tessera/unit-performance.csv",
+      "sha256": "df1a52aff0fb7576978a824a247b497643560c3fae1e769b63730ebd30f5cc77",
+      "bytes": 111460
+    },
+    {
+      "source": "results/validation-projection-derivative/boundary-fixture.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-validation/boundary-fixture.csv",
+      "sha256": "26b0f1292f5993116b39410826a8365aa422e067d980adba22adb77091b5085e",
+      "bytes": 169
+    },
+    {
+      "source": "results/validation-projection-derivative/finite-differences.csv",
+      "target": "verification-work/output-submission-1/supplements/projection-derivative-validation/finite-differences.csv",
+      "sha256": "3388234d86af2d0ce73ad675235599893b098409767a50faf1d2f850ed394453",
+      "bytes": 9120
+    },
+    {
+      "source": "results/reference-frame-context/frame-change-comparisons.csv",
+      "target": "verification-work/output-submission-1/supplements/reference-context/frame-change-comparisons.csv",
+      "sha256": "a4a0df27e430bf2ecb48afd0050649b9d92620f9c6ba7a54256690dc795b2f85",
+      "bytes": 24871
+    },
+    {
+      "source": "results/reference-frame-context/subset-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/reference-context/subset-performance.csv",
+      "sha256": "ebd3185fa08d05d448a92c495ca6fa50ec47b8cc39b2ff52c874a597f9d735b6",
+      "bytes": 75476
+    },
+    {
+      "source": "results/reference-frames/case-counts.csv",
+      "target": "verification-work/output-submission-1/supplements/reference-frames/case-counts.csv",
+      "sha256": "857b347f50fdf3991bf879eecc4a8cd3bcfdc4394905b6d74b8be1ed3727a51b",
+      "bytes": 488
+    },
+    {
+      "source": "results/reference-frames/pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/supplements/reference-frames/pairing-ratios.csv",
+      "sha256": "da4e95afdd12e4387cf4a44d1df4d27bcd55eb250ef08ee59ff03c8fdbad8505",
+      "bytes": 1435
+    },
+    {
+      "source": "results/reference-frames/reference-changes.csv",
+      "target": "verification-work/output-submission-1/supplements/reference-frames/reference-changes.csv",
+      "sha256": "6e49ee5c75dbe1b69d746885380a440ae42a06b8462eab4acdad2bca447c4eee",
+      "bytes": 50574
+    },
+    {
+      "source": "results/reference-frames/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/reference-frames/summary.csv",
+      "sha256": "3d489881e2c4aa8d7083a72b0e98f646754cd884a5871044a093dcb745bb6fe8",
+      "bytes": 14967
+    },
+    {
+      "source": "results/reference-frames/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/reference-frames/unit-performance.csv",
+      "sha256": "9b4b5b69a355e014ab6044b37ccda38fbdb025e12d5a94826eca94053784ebc8",
+      "bytes": 725752
+    },
+    {
+      "source": "results/reference-sensitivity/reference-sensitivity.csv",
+      "target": "verification-work/output-submission-1/supplements/reference-sensitivity/reference-sensitivity.csv",
+      "sha256": "6e28e16933a371672d46ff86c04c50aecd817aed1f666dc304625b588cfa695a",
+      "bytes": 127297
+    },
+    {
+      "source": "results/refreshed-controls/comparison.csv",
+      "target": "verification-work/output-submission-1/supplements/refreshed-controls/comparison.csv",
+      "sha256": "27474b3bc381443fd5871462c6eda4337a09708825c3411bf27503b649f0f4e9",
+      "bytes": 3118
+    },
+    {
+      "source": "results/registration/summary-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/registration/summary-performance.csv",
+      "sha256": "36f38423db2692e58426ac23b48c666fd1d0a701a5d8b28e27c49cd8aab8afcc",
+      "bytes": 7251
+    },
+    {
+      "source": "results/registration/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/registration/unit-performance.csv",
+      "sha256": "3b43394fb266d6e588218e2c563d81f2045654941b8695ba82c1631b85f201c8",
+      "bytes": 81343
+    },
+    {
+      "source": "results/scope-baselines/scope-baselines.csv",
+      "target": "verification-work/output-submission-1/supplements/scope-baselines/scope-baselines.csv",
+      "sha256": "55b35aaf842a471893d01f93b417af3569a4f35b76b8132eb999b3779c6162d3",
+      "bytes": 24124
+    },
+    {
+      "source": "results/sparse/tessera/conditional-on-observed-changes.csv",
+      "target": "verification-work/output-submission-1/supplements/sparse/conditional-on-observed-changes.csv",
+      "sha256": "3a19b6a548da1c54b7f34db3c3f59e621cefafae0aaadf068570943e98a428e7",
+      "bytes": 1874
+    },
+    {
+      "source": "results/sparse/tessera/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/sparse/summary.csv",
+      "sha256": "2f7cba619b42fcf6c787790c04cbffcca7f506d98f6ac2f4ff8ede7fdf18890c",
+      "bytes": 2936
+    },
+    {
+      "source": "results/sparse/tessera/unit-diagnostics.csv",
+      "target": "verification-work/output-submission-1/supplements/sparse/unit-diagnostics.csv",
+      "sha256": "5fd3d6ef2241b81322a898f720174ed64e53dbc3c7a2b392c86f3bf9d0226f9d",
+      "bytes": 107298
+    },
+    {
+      "source": "results/stable-arable/case-counts.csv",
+      "target": "verification-work/output-submission-1/supplements/stable-arable/case-counts.csv",
+      "sha256": "4dd1f474a5fe08017c0a07a396da53241daae1be7d7ed75c47150a682221013b",
+      "bytes": 352
+    },
+    {
+      "source": "results/stable-arable/pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/supplements/stable-arable/pairing-ratios.csv",
+      "sha256": "ed0cc9750ef1c78792f16991e185b86f30365951db11ba5630629477ee897c9b",
+      "bytes": 721
+    },
+    {
+      "source": "results/stable-arable/reference-changes.csv",
+      "target": "verification-work/output-submission-1/supplements/stable-arable/reference-changes.csv",
+      "sha256": "9d1aa9571953195f863ce981c23e15173c9eb6d9487bee8eddc08ffed8323d1a",
+      "bytes": 19754
+    },
+    {
+      "source": "results/stable-arable/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/stable-arable/summary.csv",
+      "sha256": "8e9e0737a43f3f61989cd95693044ea8ad40941977a0661aa3439b5c4fb9f6d8",
+      "bytes": 6741
+    },
+    {
+      "source": "results/stable-arable/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/stable-arable/unit-performance.csv",
+      "sha256": "7b9060e9db724b7b15c6848d273a042ec110f15a21f70c71e63e84f7724cb03b",
+      "bytes": 290410
+    },
+    {
+      "source": "results/stratified/alphaearth/stratum-context.csv",
+      "target": "verification-work/output-submission-1/supplements/stratified-alphaearth/stratum-context.csv",
+      "sha256": "1fe04530fc960a1ac42b6f078a76d02b07b0348b281a1df6310a6659e0b018ae",
+      "bytes": 12487
+    },
+    {
+      "source": "results/stratified/alphaearth/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/stratified-alphaearth/summary.csv",
+      "sha256": "5badfc7cea9435108840e38fd28edaf9f1152d5c07dd7ececebeec66eb16afb1",
+      "bytes": 8816
+    },
+    {
+      "source": "results/stratified/alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/stratified-alphaearth/unit-performance.csv",
+      "sha256": "1c6c8c74d8bc21b6674b81ab8e97e927b1334cc1f162a3b133b89c40437a8f55",
+      "bytes": 337305
+    },
+    {
+      "source": "results/stratified/tessera/stratum-context.csv",
+      "target": "verification-work/output-submission-1/supplements/stratified-tessera/stratum-context.csv",
+      "sha256": "cf3e88ce6e981d28d92ba1ed0669649b596fe524cdc6135e9694770a51e9bcc5",
+      "bytes": 12176
+    },
+    {
+      "source": "results/stratified/tessera/summary.csv",
+      "target": "verification-work/output-submission-1/supplements/stratified-tessera/summary.csv",
+      "sha256": "fda5788912c2d0f9af6552564d080c6410c2717534ec78be8728dccf76bfc190",
+      "bytes": 8652
+    },
+    {
+      "source": "results/stratified/tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/supplements/stratified-tessera/unit-performance.csv",
+      "sha256": "b99c1d872f6146fa697a9e03dca39b568bb0183822c6c3094cb86f4cecff05e4",
+      "bytes": 332145
+    },
+    {
+      "source": "results/tables/census/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-census/audit-performance.csv",
+      "sha256": "2ea7ff957b652213242edf5e97573ecdacd358b37fcdf230eb4b5bf08db87ed4",
+      "bytes": 79558
+    },
+    {
+      "source": "results/tables/census/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-census/case-counts.csv",
+      "sha256": "8b205da92a659d5e5246850e234f041c3cc52fd41ae530636a14b3ceca2f0dde",
+      "bytes": 599
+    },
+    {
+      "source": "results/tables/census/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-census/oracle-diagnostics.csv",
+      "sha256": "ab620f628f963933aa1bdd650434f5f6ad736459e5d2e8817259b044a4db928f",
+      "bytes": 10473
+    },
+    {
+      "source": "results/tables/census/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-census/pairing-mse-ratios.csv",
+      "sha256": "fb42740d6e0617f445b98b05dc75e6dc24abb2d8a39ac722d723bed01bf24b93",
+      "bytes": 13158
+    },
+    {
+      "source": "results/tables/census/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-census/point-estimates.csv",
+      "sha256": "e39365a063b8b79f757abb65457d07728349ce6179bcb896f3e9452c30eeab6c",
+      "bytes": 1756
+    },
+    {
+      "source": "results/tables/census/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-census/unit-pairing-ratios.csv",
+      "sha256": "97af04a53962459cbef1840b9faa2e67ff1993d684d62d1ecd533c8819a8a802",
+      "bytes": 15830
+    },
+    {
+      "source": "results/tables/census/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-census/unit-performance-distributions.csv",
+      "sha256": "3e064b3819c8306e9bd820c38bf84751cf9b280067c7321f1defc334e8539b1c",
+      "bytes": 3809
+    },
+    {
+      "source": "results/tables/census/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-census/unit-performance.csv",
+      "sha256": "6427fc3b26b0675428dd68dd41f2f39cda44e5f5c85f23641165fec1c31f9ca9",
+      "bytes": 82778
+    },
+    {
+      "source": "results/tables/fine/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-fine/audit-performance.csv",
+      "sha256": "33013d2b544e78a616e78b903e46f72fc15fbfb1df99c9c834a0c5db89bdcd6e",
+      "bytes": 82168
+    },
+    {
+      "source": "results/tables/fine/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-fine/case-counts.csv",
+      "sha256": "e3ceac2f77c505c351b82282481fab6741c6f0428df374b31bddb91351227c54",
+      "bytes": 605
+    },
+    {
+      "source": "results/tables/fine/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-fine/oracle-diagnostics.csv",
+      "sha256": "ee7e2a44af2c8b5617ed3991bd61c2c15b27d8b78a13f84999bf939a0d4a9ea5",
+      "bytes": 100432
+    },
+    {
+      "source": "results/tables/fine/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-fine/pairing-mse-ratios.csv",
+      "sha256": "d9d68f2dcad56c84de6cf4df28e16ac7487a5b651ce6762f7ef5c969f5d3580b",
+      "bytes": 13078
+    },
+    {
+      "source": "results/tables/fine/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-fine/point-estimates.csv",
+      "sha256": "eb4e2de9e389d47201a6a54b2b6f307128be02331610f199434d9028f9ee792f",
+      "bytes": 1752
+    },
+    {
+      "source": "results/tables/fine/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-fine/unit-pairing-ratios.csv",
+      "sha256": "fe66ada1110fb8ee1b5b071a390d99e3a0b46a3036e06a620d851a0ac952ce03",
+      "bytes": 155502
+    },
+    {
+      "source": "results/tables/fine/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-fine/unit-performance-distributions.csv",
+      "sha256": "4f036d3240f4b1a2a530ffd79112c98b805b4fe234c1c75e1660da237ce0b44c",
+      "bytes": 3685
+    },
+    {
+      "source": "results/tables/fine/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-fine/unit-performance.csv",
+      "sha256": "5a929afdc3e52480b6d5cd2b89970a29417cfc3ed928f78ae68e00ecf8fcd612",
+      "bytes": 796788
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-alphaearth/audit-performance.csv",
+      "sha256": "a3ceb2b22b43f695ced7327b8181ef5b3008150dee24a6380e76fa83618efd2d",
+      "bytes": 55287
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-alphaearth/case-counts.csv",
+      "sha256": "76b6de856621afa9efc438fa07ea6b4534770648b5cfe3e29aef0f81df6b5f1a",
+      "bytes": 521
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-alphaearth/oracle-diagnostics.csv",
+      "sha256": "9846393672cd75895c17ac88abfa3ff6ec88ae6d96fdafca1b860bb91dd43f5f",
+      "bytes": 51173
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-alphaearth/pairing-mse-ratios.csv",
+      "sha256": "a3f618fa1f01256d63d66ab8ac59c599519c8632109751ae1d084e386625c68a",
+      "bytes": 8582
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-alphaearth/point-estimates.csv",
+      "sha256": "b9cdade41ca8ffeb479009fc2edf2d97a781756d39e9540b37fa308411b45e27",
+      "bytes": 958
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-alphaearth/unit-pairing-ratios.csv",
+      "sha256": "cdc2cb8b882709c0aab59b4733366b2502c5c335a6f9fb0b419475b477999261",
+      "bytes": 102370
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-alphaearth/unit-performance-distributions.csv",
+      "sha256": "90ab64afa4a340ff161a03598f58738d60bcc44a421951fe152099334749ba4a",
+      "bytes": 2551
+    },
+    {
+      "source": "results/tables/forest-broad-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-alphaearth/unit-performance.csv",
+      "sha256": "100391516e94819d9aa216993de94b8ff15452d4217566e3a1269b8acdab4b53",
+      "bytes": 544323
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-tessera/audit-performance.csv",
+      "sha256": "0e87059b875fc91f1604872e10f8c584ca462c291913f0e4e3cbc901c81512c9",
+      "bytes": 54892
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-tessera/case-counts.csv",
+      "sha256": "41bd952c254f5fe5d399b4119b1a5fdb5647e3b09e64981c0af171e4205482f2",
+      "bytes": 515
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-tessera/oracle-diagnostics.csv",
+      "sha256": "54a2d8623211810fbb666e38b60bb8840b1b44b68d55436e9f315758639ce73a",
+      "bytes": 50019
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-tessera/pairing-mse-ratios.csv",
+      "sha256": "80cafa00539bff6e9667ce32cf5728d3a9b6b1998a41a2fdd08b375eb0b5384e",
+      "bytes": 8454
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-tessera/point-estimates.csv",
+      "sha256": "aa77bd7574285ade0740e320933a6c48b73683f440010d2af80476ba526075a5",
+      "bytes": 933
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-tessera/unit-pairing-ratios.csv",
+      "sha256": "5cd38f5e78edbed6c7bf813e1ab03c22cdacdc9a30c391d3720e0321350403f2",
+      "bytes": 100920
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-tessera/unit-performance-distributions.csv",
+      "sha256": "74b39df384334527d4c820cfabf4009763e8e4e70b65d024018c01ed2317f958",
+      "bytes": 2500
+    },
+    {
+      "source": "results/tables/forest-broad-tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-forest-broad-tessera/unit-performance.csv",
+      "sha256": "b1f6edabf42fe9076245c06d0a2ac40396ad84f92590751c00e1c54af4ae4651",
+      "bytes": 538836
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-hard-alphaearth/audit-performance.csv",
+      "sha256": "854602ca2cd09b23f8dde86a59954b45fa2e1d5d19abd5ad45fd48c8faf87b4f",
+      "bytes": 58013
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-hard-alphaearth/case-counts.csv",
+      "sha256": "348a57ed9fbaec6d150551e56842610c67eb1ccafb6369306456a1b51cee3e9e",
+      "bytes": 538
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-hard-alphaearth/oracle-diagnostics.csv",
+      "sha256": "6e7e1d85be6d823b9a468da5ecfe48d875ac499212765ec5a285cf7a79d79ae7",
+      "bytes": 53944
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-hard-alphaearth/pairing-mse-ratios.csv",
+      "sha256": "d7f48f9f163f5d220ced957bd8cc2f914e2b1e52bb6edcadbc0d4f6be2f93729",
+      "bytes": 9233
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-hard-alphaearth/point-estimates.csv",
+      "sha256": "ec6cecde8dd14a38d3fc88090a3c1f706f827f549d266d1fb783abf08fb32b35",
+      "bytes": 1025
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-hard-alphaearth/unit-pairing-ratios.csv",
+      "sha256": "dd664e963e46b6f5c89674be97c829d6a5dafc09f4778f47ca144ad1411b169f",
+      "bytes": 109525
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-hard-alphaearth/unit-performance-distributions.csv",
+      "sha256": "94cd21fcddc20a2a9acabe054d5fa8a2b82e6266d45afc985885174a2e669dc9",
+      "bytes": 2688
+    },
+    {
+      "source": "results/tables/hard-auxiliary-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-hard-alphaearth/unit-performance.csv",
+      "sha256": "daff1a8843c6967cd5bbdbed2849964b1dd817c2159d22235c162a712c1caed3",
+      "bytes": 550677
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-hard-tessera/audit-performance.csv",
+      "sha256": "ed49cf01092ef7805163759be46e1e74a3d4400c71a0035e70b3f92d74fccf16",
+      "bytes": 57507
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-hard-tessera/case-counts.csv",
+      "sha256": "34122e5a00a85f260dbe75da4c2b940a8894c168a9080669c50b7354a1ba5c48",
+      "bytes": 532
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-hard-tessera/oracle-diagnostics.csv",
+      "sha256": "5ea375ad9cd4ef730c04b3e37dd23af116fb9685003282828599a2f40ceb0462",
+      "bytes": 52893
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-hard-tessera/pairing-mse-ratios.csv",
+      "sha256": "875facf57d8d80ad3c6d389db28252a896675c1196b84ae6b680147fd244b235",
+      "bytes": 9112
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-hard-tessera/point-estimates.csv",
+      "sha256": "18ac6772d9f3cac1348061409e3923477c0569f5945b34bb775475d9be7ad9d6",
+      "bytes": 997
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-hard-tessera/unit-pairing-ratios.csv",
+      "sha256": "7fdf45b57143be293cc9a8156a891e63834211d5234c336435dde4ecd659aa3f",
+      "bytes": 108187
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-hard-tessera/unit-performance-distributions.csv",
+      "sha256": "df3b029718a9137dd4889c92e34c22472728d098c49edae5c0dc34e5a16b6883",
+      "bytes": 2648
+    },
+    {
+      "source": "results/tables/hard-auxiliary-tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-hard-tessera/unit-performance.csv",
+      "sha256": "b5bece909129b7baf462a5ffdf116a094d5ee596cd36a309f27b8c793c3ea1be",
+      "bytes": 548796
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-alphaearth/audit-performance.csv",
+      "sha256": "35d92cb5abe52ddbf258176641fc6a0168c174b572bbe36eb471aadfe2d2aa92",
+      "bytes": 55634
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-alphaearth/case-counts.csv",
+      "sha256": "998484d0a8a3cc3f0527a1504d9387da4454ba0ab4c396a4a036875104eef3e0",
+      "bytes": 526
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-alphaearth/oracle-diagnostics.csv",
+      "sha256": "3d6b69e82b4ac8d2b6378efa286493c3305786bf95132057f6d404f5704b3099",
+      "bytes": 51992
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-alphaearth/pairing-mse-ratios.csv",
+      "sha256": "5ce1a8186e6fcff5f617c445d4372257c0c3d69a3fa9f42fee28fd331b2cc5e4",
+      "bytes": 8769
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-alphaearth/point-estimates.csv",
+      "sha256": "cd37a5585e3cff5e812547630a68b154edd59ff0305662164cfd3934addc3f1c",
+      "bytes": 760
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-alphaearth/unit-pairing-ratios.csv",
+      "sha256": "1f3858594d53392b023ff86babbfceba338629dc033fbc0dba91c39077713e43",
+      "bytes": 104541
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-alphaearth/unit-performance-distributions.csv",
+      "sha256": "4c1973b4edb16720bc25a35c33101df97aa490756ec58c6c2a794148975d884b",
+      "bytes": 2588
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-alphaearth/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-alphaearth/unit-performance.csv",
+      "sha256": "0ef23c6b4c9e0943d445efa12b1bf5b8035ae2fafd292c9ec0c1c69ee54f24e4",
+      "bytes": 543321
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-tessera/audit-performance.csv",
+      "sha256": "7e96a5d6a9beb1a358b4d3a57a950d0499fbe3d8bce634279e27bd2ea4920d4e",
+      "bytes": 55414
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-tessera/case-counts.csv",
+      "sha256": "a88567592053d856ff5043c4a2b9e50e4a5dd51c01589a0529bd07a156824d09",
+      "bytes": 520
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-tessera/oracle-diagnostics.csv",
+      "sha256": "1119b5a718977766c4dc8e9006697a8bcc06e563cea010aa19876c04797c6cfb",
+      "bytes": 50882
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-tessera/pairing-mse-ratios.csv",
+      "sha256": "1d412b8e03d3687dc1bf31af9a5bb5deb9eaafca12764323af6de574eae2e300",
+      "bytes": 8655
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-tessera/point-estimates.csv",
+      "sha256": "25d0cf12b8fb2db5e681cb61b1d0cb962d976ecc2b44ac76b1876f0d0f8ef7a7",
+      "bytes": 741
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-tessera/unit-pairing-ratios.csv",
+      "sha256": "ed663dbb6f857a63a502889fe7772d0237283c4844e8625727156bc9d1d39a30",
+      "bytes": 103043
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-tessera/unit-performance-distributions.csv",
+      "sha256": "375dc5d78fb24931fd151366e202b1aa1843b58f79a1c19d4f51a5fb9d4454b0",
+      "bytes": 2544
+    },
+    {
+      "source": "results/tables/logistic-broad-refreshed-tessera/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-logistic-broad-refreshed-tessera/unit-performance.csv",
+      "sha256": "823289d0360c6afe4281709119f67b3bcb0f70ef2360213a9980a6c6fff02083",
+      "bytes": 538210
+    },
+    {
+      "source": "results/tables/main/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-main/audit-performance.csv",
+      "sha256": "b014d42999074429e792e6c3c466b1e613f9f5344cae971ad07127fc536fff0f",
+      "bytes": 84866
+    },
+    {
+      "source": "results/tables/main/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-main/case-counts.csv",
+      "sha256": "4e1b6fcbddfe4cfd2cec228f99d84341b716c9526b2f0bef399a59ad615d1667",
+      "bytes": 607
+    },
+    {
+      "source": "results/tables/main/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-main/oracle-diagnostics.csv",
+      "sha256": "c11e683c87b3facacd75f1127d58c3fa4e23f83033bbd1f42b37fbaee32d3287",
+      "bytes": 101438
+    },
+    {
+      "source": "results/tables/main/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-main/pairing-mse-ratios.csv",
+      "sha256": "fc28e1d04fe45f7bad1eed4cd57d05979a49ccfdf518fea9939b313081fab75a",
+      "bytes": 13315
+    },
+    {
+      "source": "results/tables/main/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-main/point-estimates.csv",
+      "sha256": "f0120c4136cbb420ef281a97182bd3a97b0c7eb522cd33db09368691f8295dee",
+      "bytes": 1771
+    },
+    {
+      "source": "results/tables/main/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-main/unit-pairing-ratios.csv",
+      "sha256": "d3f6c7ea1271c403deb46edf4c7fdf8e82df815440977625ead4840a590f2394",
+      "bytes": 157196
+    },
+    {
+      "source": "results/tables/main/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-main/unit-performance-distributions.csv",
+      "sha256": "c21005303029cb678cc98de1e51823212723163a3bb240dec77d33a81d91757b",
+      "bytes": 3769
+    },
+    {
+      "source": "results/tables/main/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-main/unit-performance.csv",
+      "sha256": "c5d822af00829a1144b959829e62c225446fbec45b56609ef1fc991f0fd6b28b",
+      "bytes": 814279
+    },
+    {
+      "source": "results/tables/secondary-broad/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-broad/audit-performance.csv",
+      "sha256": "7df8f813ddb50e45df66b01e6e7dfa3d1111baa419ae208ded666467a4ad7010",
+      "bytes": 120380
+    },
+    {
+      "source": "results/tables/secondary-broad/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-broad/case-counts.csv",
+      "sha256": "8c1da288bec11cc0b179d35fdf8801d09aaa050f70df23e82e34ce1ac2dfc288",
+      "bytes": 777
+    },
+    {
+      "source": "results/tables/secondary-broad/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-broad/oracle-diagnostics.csv",
+      "sha256": "78696532b0792d829e81ff88eaab96896f517b5967faf9419728509ea9ed9a05",
+      "bytes": 134907
+    },
+    {
+      "source": "results/tables/secondary-broad/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-broad/pairing-mse-ratios.csv",
+      "sha256": "ce6167ad149774cd658deb95434ba474bd99a1134ce5c33f327f1369e7d2f78f",
+      "bytes": 19870
+    },
+    {
+      "source": "results/tables/secondary-broad/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-broad/point-estimates.csv",
+      "sha256": "d589d34fde2d7f8e2d43e1aa7a6ed317b24ec77efd63ccb82ef8959c7b5708e5",
+      "bytes": 3402
+    },
+    {
+      "source": "results/tables/secondary-broad/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-broad/unit-pairing-ratios.csv",
+      "sha256": "47a3637ae9832430087217c7765a6101e489613717c7c667f77deec5aaaae787",
+      "bytes": 176779
+    },
+    {
+      "source": "results/tables/secondary-broad/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-broad/unit-performance-distributions.csv",
+      "sha256": "844b2143741c97eca8f1d19a66c370beb3132530a2c7e3bb3b18d0ed6c78857c",
+      "bytes": 6324
+    },
+    {
+      "source": "results/tables/secondary-broad/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-broad/unit-performance.csv",
+      "sha256": "db82a903f49aa19c49bf19e792deb404f8a4b2d93a72a804b2ca83941a18d795",
+      "bytes": 917984
+    },
+    {
+      "source": "results/tables/secondary-fine/audit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-fine/audit-performance.csv",
+      "sha256": "78d8686cd0f31811720589347d74cf10a11ff8de1b5453a42617609a905332a8",
+      "bytes": 68741
+    },
+    {
+      "source": "results/tables/secondary-fine/case-counts.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-fine/case-counts.csv",
+      "sha256": "d253fce948f14c337fab028f6f9a8a9d6134c7eecfac72cf55f5542232b7836a",
+      "bytes": 605
+    },
+    {
+      "source": "results/tables/secondary-fine/oracle-diagnostics.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-fine/oracle-diagnostics.csv",
+      "sha256": "cba469c11ecbe259299c397257d00bd982ea81146fbff39e4c8421379e01d97f",
+      "bytes": 67287
+    },
+    {
+      "source": "results/tables/secondary-fine/pairing-mse-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-fine/pairing-mse-ratios.csv",
+      "sha256": "a15734a7a7628374c56b1d84ed971e9d48dec5e0c27b79629769de21e6c9ab44",
+      "bytes": 11515
+    },
+    {
+      "source": "results/tables/secondary-fine/point-estimates.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-fine/point-estimates.csv",
+      "sha256": "b3701dae7c49d3f68125a6c1fa9cfbf56c564a37058b758fdce961d6166f44b3",
+      "bytes": 1756
+    },
+    {
+      "source": "results/tables/secondary-fine/unit-pairing-ratios.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-fine/unit-pairing-ratios.csv",
+      "sha256": "a7d224cba238e9f0adc2674ce96bf92b809b22d3cfeb3425e6d685127f64d69e",
+      "bytes": 103803
+    },
+    {
+      "source": "results/tables/secondary-fine/unit-performance-distributions.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-fine/unit-performance-distributions.csv",
+      "sha256": "454b087a4d0482f0147bbf8a4d060fcba2fe1d8a193210acd17b8d88a589da1b",
+      "bytes": 3711
+    },
+    {
+      "source": "results/tables/secondary-fine/unit-performance.csv",
+      "target": "verification-work/output-submission-1/tables-secondary-fine/unit-performance.csv",
+      "sha256": "4b0f55189e872ac12ccce1cd0bb2afcb79909389c6788f75f016979b08f3ce55",
+      "bytes": 532614
+    }
+  ],
+  "scope": "Only CSVs in completed passed self-reruns; exact full-file SHA-256 match precedes hardlinking; every path/value retained. No original scientific file content changed."
+}

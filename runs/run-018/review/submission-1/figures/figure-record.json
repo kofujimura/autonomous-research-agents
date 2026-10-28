@@ -1,0 +1,11 @@
+{
+  "source_data": "analysis/report-data",
+  "figures": [
+    "risk-coverage",
+    "paired-contrasts",
+    "control-sensitivity",
+    "screen-components",
+    "physical-sampling"
+  ],
+  "scope": "Generated from archived predictions and fixed summary outputs; no independent reproduction claim"
+}

@@ -1,0 +1,23 @@
+{
+ "command": [
+  "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work/env/bin/python",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy/scripts/secondary.py",
+  "--task",
+  "integer",
+  "--cases",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy/results/primary/cases.csv",
+  "--start",
+  "0",
+  "--count",
+  "30",
+  "--output",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work/integer-000"
+ ],
+ "cwd": "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work",
+ "limit_seconds": 1800.0,
+ "start_utc": "2026-10-26T12:28:21Z",
+ "timed_out": false,
+ "end_utc": "2026-10-26T12:29:25Z",
+ "elapsed_seconds": 64.4,
+ "exit_code": 0
+}

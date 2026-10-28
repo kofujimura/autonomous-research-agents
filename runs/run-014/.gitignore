@@ -1,0 +1,6 @@
+.venv/
+.cache/
+verification-work/
+__pycache__/
+*.tmp.npz
+*.pyc

@@ -1,0 +1,2 @@
+{"task_id": "35a0342989d96e29b685-2019", "attempt": 1, "status": "saved", "source_url": "https://storage.googleapis.com/alphaearth_foundations/satellite_embedding/v1/annual/2019/11N/xevkkzckvn5mdqk97-0000000000-0000008192.tiff", "requested_at_utc": "2026-10-25T10:26:42Z", "ended_at_utc": "2026-10-25T10:27:57Z", "elapsed_seconds": 75.33103300002404, "path": "data/native-check/35a0342989d96e29b685-2019.npz", "sha256": "06e9a9547c3c2f130b50786739a4c73f48085dae576f4e6cc30e7582f99ed754", "error": null}
+{"start": 0, "count": 1, "saved": 1, "ended_at_utc": "2026-10-25T10:27:57Z"}

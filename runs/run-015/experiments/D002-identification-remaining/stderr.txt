@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/identification_diagnostics.py", line 99, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/identification_diagnostics.py", line 64, in main
+    diagnostics={r['k']:r for r in diagnose(X,group['k'].astype(int).tolist())}
+                                   ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/identification_diagnostics.py", line 19, in diagnose
+    U,s,Vt=np.linalg.svd(A,full_matrices=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/numpy/linalg/_linalg.py", line 1840, in svd
+    u, s, vh = gufunc(a, signature=signature)
+               ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/numpy/linalg/_linalg.py", line 153, in _raise_linalgerror_svd_nonconvergence
+    raise LinAlgError("SVD did not converge")
+numpy.linalg.LinAlgError: SVD did not converge

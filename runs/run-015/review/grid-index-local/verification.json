@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-10-26T06:10:35Z",
+  "fields_checked": 1,
+  "selected_slots_per_field": 288,
+  "checks": [
+    {
+      "source": "data/cities/ifs-land-mask.grib2",
+      "grid_definition_sha256": "6e8229bf09d191ccf7d719ef88dc9e848fe663cf45a91d0691b7e17815a03036",
+      "decoded_point_count": 1038240,
+      "nearest_cross_check": true,
+      "selected_value_mismatches": 0,
+      "selected_method": "validated_grid_indices",
+      "reuse_check": {
+        "grid_definition_sha256": "6e8229bf09d191ccf7d719ef88dc9e848fe663cf45a91d0691b7e17815a03036",
+        "decoded_point_count": 1038240,
+        "nearest_cross_check": false,
+        "selected_value_mismatches": 0,
+        "selected_method": "validated_grid_indices"
+      }
+    }
+  ],
+  "network_calls": 0
+}

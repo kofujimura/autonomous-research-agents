@@ -1,0 +1,38 @@
+{
+  "experiment_id": "nlcd-analysis-v4",
+  "start_at_utc": "2026-10-25T15:37:33Z",
+  "end_at_utc": "2026-10-25T15:38:14Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/extend_nlcd.py",
+    "--baseline",
+    "analysis/main-v1",
+    "--secondary",
+    "analysis/secondary-v2",
+    "--output",
+    "analysis/nlcd-v4"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v4.md",
+  "plan_commit_id": "3efd729c24e8e889e64c7bb5d2770173613721fa",
+  "additional_plan_commits": {
+    "protocol/plan-v2.md": "f71e51997970dd673782c69a7e45c54bd3245e82",
+    "protocol/plan-v6.md": "2eeb7d1b0a89f590fa1130e54261a1bd3492682a",
+    "protocol/plan-v7.md": "24546bfa3e433002ff1402f325a645ac53485089"
+  },
+  "code_commit_id": "2b8a187361c403a45976752597d56aff19d24245",
+  "input_sha256": {
+    "data/nlcd/prepared/targets.csv": "31c7557b6a16ba2bf8e68def846060c4103f31518289445784dd0f6ac0e8ecbb",
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+    "data/prepared/references.csv": "8d2161765a97982d362e57c7d9e4b1b41b51f9a9602f124e33474adee915e180",
+    "data/controls/controls.csv": "a045930a0d18e6bb2a3ee70ce7e23870e7818fe6808e64bf16cb819c4657a4d2"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0445",
+  "pid": 27410,
+  "elapsed_seconds": 40.899496249854565,
+  "end_event_id": "E0446"
+}

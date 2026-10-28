@@ -1,0 +1,25 @@
+{
+  "prepared_at_utc": "2026-10-28T10:57:01.191773+00:00",
+  "event_id": "E0849",
+  "expected_tag": "final",
+  "verified_pipeline_source_commit": "f394f535cca460a605dc124d707ae73e1e4f2146",
+  "verification_report": "analysis/verification-review-primary.json",
+  "verification_checks": 108,
+  "review_response_deadline_utc": "2026-10-28T11:44:20+00:00",
+  "secret_check": {
+    "checked_at_utc": "2026-10-28T10:57:01.191350+00:00",
+    "key_present": true,
+    "matches": 0
+  },
+  "main_documents": [
+    "paper.md",
+    "claims.jsonl",
+    "VERIFY.md",
+    "final_report.md",
+    "review/response-1.md",
+    "review/self-check.md"
+  ],
+  "hash_note": "SHA256SUMS files exclude themselves. Final Git/tag/submission receipts append two JSON objects to the local working events.jsonl after the final hash snapshot and commit. Those declared receipts are outside the tagged hash snapshot; inspect tag final for the frozen verifiable state.",
+  "scientific_files_unchanged_since_verification": true,
+  "active_experiment_processes": []
+}

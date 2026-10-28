@@ -1,0 +1,112 @@
+[
+  {
+    "region": "R02",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:09:07.453379+00:00",
+    "end_time_utc": "2026-10-27T16:09:11.183821+00:00",
+    "elapsed_seconds": 3.7303566669579595,
+    "error": null,
+    "input_selected_sha256": "7a5b2872eb6bc03634c09fcb8c771b477c2f426ff4a56608110b32f890409268"
+  },
+  {
+    "region": "R03",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:09:11.189123+00:00",
+    "end_time_utc": "2026-10-27T16:09:16.395501+00:00",
+    "elapsed_seconds": 5.206386958947405,
+    "error": null,
+    "input_selected_sha256": "fd978ed7e0d844d2018666e506d0cad876aba442e26517360d258636aab801c1"
+  },
+  {
+    "region": "R04",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:09:16.407044+00:00",
+    "end_time_utc": "2026-10-27T16:09:23.312291+00:00",
+    "elapsed_seconds": 6.905259583843872,
+    "error": null,
+    "input_selected_sha256": "78c51b16c3f42a57528e7749ae51225c0334d597d1401e2e56dca6e30f3b7dc2"
+  },
+  {
+    "region": "R05",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:09:23.313289+00:00",
+    "end_time_utc": "2026-10-27T16:09:28.209268+00:00",
+    "elapsed_seconds": 4.895990582881495,
+    "error": null,
+    "input_selected_sha256": "5dade49e15c593584dff3f271965308f2da180582572a83e486e8b05b98d6c19"
+  },
+  {
+    "region": "R06",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:09:28.209928+00:00",
+    "end_time_utc": "2026-10-27T16:09:36.336120+00:00",
+    "elapsed_seconds": 8.126209165900946,
+    "error": null,
+    "input_selected_sha256": "12d2ec168094a065358c0425d478a1da1b928888570070b15314928ee3e2bea1"
+  },
+  {
+    "region": "R07",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:09:36.336753+00:00",
+    "end_time_utc": "2026-10-27T16:09:44.828187+00:00",
+    "elapsed_seconds": 8.491452499991283,
+    "error": null,
+    "input_selected_sha256": "e0aa09a15dcc9d063abe5e449b55c97c34d2042044c816b516f91ea30178776c"
+  },
+  {
+    "region": "R08",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:09:44.828423+00:00",
+    "end_time_utc": "2026-10-27T16:09:49.538447+00:00",
+    "elapsed_seconds": 4.710034833056852,
+    "error": null,
+    "input_selected_sha256": "36cc8224fa3cd0bf30124223606e45168775d30d9393799e58a3d1e430aa0d28"
+  },
+  {
+    "region": "R09",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:09:49.538933+00:00",
+    "end_time_utc": "2026-10-27T16:09:57.679622+00:00",
+    "elapsed_seconds": 8.140707500046119,
+    "error": null,
+    "input_selected_sha256": "e69846f093ce76d0023aa43942261f881ceafb60a25712fcf000d44109ffbb33"
+  },
+  {
+    "region": "R10",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:09:57.680467+00:00",
+    "end_time_utc": "2026-10-27T16:10:14.607871+00:00",
+    "elapsed_seconds": 16.927437332924455,
+    "error": null,
+    "input_selected_sha256": "13f615caed14ceafbf1eae3355b72c8919b95036b76a9c4371ea2c368d9adce2"
+  },
+  {
+    "region": "R11",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:10:14.608621+00:00",
+    "end_time_utc": "2026-10-27T16:10:23.629695+00:00",
+    "elapsed_seconds": 9.0210943329148,
+    "error": null,
+    "input_selected_sha256": "7b71a16aa66f150a03f6c2a799a97a444bf388bcf75af110cc4098169857401f"
+  },
+  {
+    "region": "R12",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:10:23.630679+00:00",
+    "end_time_utc": "2026-10-27T16:10:30.550822+00:00",
+    "elapsed_seconds": 6.920158792054281,
+    "error": null,
+    "input_selected_sha256": "f63674fb2d941e379ef58c28a1fdd2cd402d7ecae8fc2e94c0fe0f1a197dbc87"
+  }
+]

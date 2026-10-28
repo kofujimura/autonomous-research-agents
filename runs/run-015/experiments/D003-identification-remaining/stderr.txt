@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/identification_diagnostics.py", line 104, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/identification_diagnostics.py", line 64, in main
+    if target.exists():raise RuntimeError('Refuse to overwrite completed diagnostics')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Refuse to overwrite completed diagnostics

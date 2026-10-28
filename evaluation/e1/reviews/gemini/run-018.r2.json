@@ -1,0 +1,135 @@
+{
+ "meta": {
+  "reviewer": "gemini",
+  "model": "gemini-4-argon",
+  "run": "018",
+  "rep": 2,
+  "started_utc": "2026-10-28T12:39:37Z",
+  "figures": 5,
+  "usage": {
+   "input_tokens": 36912,
+   "output_tokens": 9848,
+   "thought_tokens": 6042,
+   "search_queries": 4
+  },
+  "cost_usd": 0.228304,
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP"
+ },
+ "review": {
+  "summary": "This paper investigates whether annual satellite foundation-model embeddings (AlphaEarth Foundations V1 and TESSERA v1.1-dclimate) improve the matching of US National Wetlands Inventory (NWI) water regimes (temporarily, seasonally, and semipermanently flooded) beyond 30 public terrain, Height Above Nearest Drainage (HAND), and optical surface-water (JRC Global Surface Water) covariates. Using 3,667 palustrine wetlands (PEM1, PFO1, PSS1) across 12 convenience 16 km windows in a 4-fold spatial block design, the study evaluates reference matching at 50% screening coverage against both a pairwise Random Forest classifier and a category probability decoder. Although augmenting the physical pair classifier with AlphaEarth or TESSERA cosine distance nominally reduces equal-window mean mismatch by -2.95 and -3.72 percentage points (pp), the paper's planned qualification controls reveal that this improvement is not reliably attributable to the embeddings: (1) query-pooled mismatch changes are much smaller (-0.67 and -2.44 pp) because two tiny windows totaling just 19 accepted queries drive 76.8% of the AlphaEarth equal-window gain; (2) within-stratum embedding permutations (-4.53 to -0.29 pp) and even appending a constant zero column (-3.38 to +3.92 pp due to Random Forest feature-subsampling RNG shifts) produce comparable changes; and (3) most of the nominal AlphaEarth gain comes from shifting which queries are accepted rather than selecting better references for fixed queries. Conversely, standalone whitened TESSERA cosine distance (32.26% mismatch) and full-vector regime decoders (reducing log-loss by 0.038-0.057 nats) indicate that the embeddings do contain useful signal for NWI regime prediction, even though single-distance augmentation of the pairwise model does not establish a robust screening gain.",
+  "scores": {
+   "correctness": 4,
+   "verifiability": 4,
+   "novelty": 3,
+   "generality": 3,
+   "usefulness": 3,
+   "clarity": 2
+  },
+  "score_reasons": {
+   "correctness": "The central negative conclusion is rigorously supported by internal controls (permutations, multiple seeds, constant-column RNG checks, and pooled vs. equal-window decompositions), though several initial design choices (equal weighting of a 5-query window and an uncalibrated dot-product compatibility rule) introduced avoidable noise.",
+   "verifiability": "Dataset versions, preprocessing rules, spatial block equations, and model hyperparameters are documented in detail, though the paper text omits the geographic coordinates/locations of the 12 study windows and relies on external repository files for class distributions.",
+   "novelty": "The paper appropriately frames its narrow scope relative to recent hydrological foundation-model literature and contributes a novel empirical audit of wetland water-regime reference screening alongside a compelling demonstration of Random Forest feature-subsampling sensitivity, though it misses a recent preprint on AlphaEarth inundation mapping in Nebraska.",
+   "generality": "The methodological lessons on null controls and selective-classification decompositions generalize broadly, whereas the empirical findings are constrained to 12 US convenience windows, three vegetation classes, and mostly pre-2014 photo-interpreted NWI labels without SAR baseline predictors.",
+   "usefulness": "The study provides a valuable cautionary benchmark for geospatial ML researchers by showing how easily a ~3 pp gain from appending an embedding feature can arise from column-count RNG shifts, small-stratum weighting, and query-selection shifts rather than genuine reference-ranking improvements.",
+   "clarity": "The manuscript is heavily overloaded with chronological audit logs, 17 main-text tables, repetitive boilerplate disclaimers, internal version tags, a broken Markdown table in Section 4.10, and redundant verification tables, while omitting basic descriptive geography of the study sites."
+  },
+  "verdict": "major revision",
+  "overall_10": 5,
+  "workshop_level": "yes",
+  "main_track_level": "borderline",
+  "research_question": {
+   "question": "Does adding annual satellite embedding distance (AlphaEarth or TESSERA) improve wetland reference matching of NWI water regimes at 50% screening coverage beyond public terrain, HAND, and optical surface-water covariates when vegetation subclass and local geography are controlled?",
+   "question_quality": 4,
+   "predictable": "partly",
+   "predictable_reason": "While it was not obvious a priori whether multi-temporal embeddings would capture sub-canopy or seasonal water regimes better than JRC optical water history and HAND, compressing 64- or 128-dimensional embeddings into a single scalar cosine distance appended to ~90 physical pair features in a subsampled Random Forest predictably dilutes their representational capacity."
+  },
+  "main_issues": [
+   {
+    "severity": "moderate",
+    "issue": "Text and tables are severely overloaded with exploratory audit logs and chronological patch notes: Section 3.5 and Section 4 read like an execution log (referencing 'plan v6', 'plan v23', 'REVIEW-1', and 'gpt-6-astra') with 17 main-text tables and repetitive caveats after almost every paragraph, obscuring the core scientific narrative."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Extreme window-size imbalance makes the prespecified primary equal-window metric unstable: Window sample sizes span 18 to 890 queries, with Window R07 having only 5 accepted queries (and only 2 nontrivial matchable pools), so a single query error flip in R07 shifts that window by 20 pp and supplies 57% (-1.67 pp) of the entire AlphaEarth equal-window effect (-2.95 pp). Although the paper commendably diagnoses this and reports pooled metrics, the primary estimator is poorly powered for small windows."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Single-scalar augmentation in a feature-subsampled Random Forest (`max_features=0.7`) conflates representation signal with column-count RNG shifts: Adding one column to ~90 pair features alters the pseudo-random feature subset drawn at every tree split, causing a constant zero column to shift equal-window mismatch by -3.38 to +3.92 pp—exceeding the nominal embedding effect. Evaluating multi-seed averages with `max_features=1.0` or deterministic learners as the primary baseline would have avoided this artifact."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Uncalibrated dot-product scoring handicaps the category decoder models in pair matching: Scoring pair compatibility via the dot product of predicted class probability vectors p(q)·p(r) favors candidates with extreme probabilities in the majority class rather than calibrated probability agreement. Consequently, even though hybrid embedding decoders improve individual wetland log-loss (0.723 vs 0.780) and balanced accuracy (0.543 vs 0.502), they perform worse than geographic nearest neighbor on pair matching (41.36% vs 35.73% equal-window mismatch)."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Missing basic study-area and dataset descriptions in the manuscript text: The paper never states where the 12 primary windows and 6 recent-image windows are located in the United States (e.g., states, ecoregions, or coordinates), nor does it provide a table of overall class proportions for regimes A, C, and F in the main text, deferring essential context to external repository files."
+   },
+   {
+    "severity": "minor",
+    "issue": "Redundant tables and broken Markdown formatting: In Section 4.10, the table header ('| Embedding year | Hydrological pair model |...') is concatenated directly onto the end of the preceding sentence without a newline, breaking Markdown rendering. In Section 4.5, two separate tables report the exact same zero-column perturbation numbers (1,304 changed references, -3.38 pp) for initial vs. corrected extractions even though the physical inputs were identical."
+   },
+   {
+    "severity": "minor",
+    "issue": "The physical baseline omits explicit synthetic aperture radar (SAR) backscatter covariates and relies on mostly pre-2014 NWI labels (2,756 of 3,667 wetlands) compared against 2021-2024 embeddings and JRC water layers, creating a temporal mismatch between the inventory labels and remote sensing predictors (though rightly acknowledged in Limitations)."
+   }
+  ],
+  "strengths": [
+   "Exceptional scientific honesty and exemplary self-correction: Rather than overclaiming the initial -2.95/-3.72 pp equal-window improvements, the study systematically stress-tested its own findings with permutation controls, constant-column checks, seed sensitivity, and small-window influence diagnostics, transparently reporting a null attribution conclusion.",
+   "Insightful methodological decomposition of selective classification: Separating total mismatch reduction into fixed-screen reference ranking vs. query-selection shifts (Figure 3) clearly reveals that most of AlphaEarth's nominal equal-window change (-2.42 of -2.95 pp) came from changing which queries were retained rather than finding better references.",
+   "Discovery and clear explanation of the constant-column Random Forest perturbation effect: Showing that appending an all-zero column never used in any split changes mismatch by -3.38 pp under `max_features=0.7` is a striking, practical lesson for tabular feature-importance and augmentation benchmarks.",
+   "Comprehensive spatial and measurement sensitivity analyses: The paper thoroughly evaluates dispersed within-polygon sampling vs. interior patch sampling, whitened cosine distances, multi-year embeddings (2021, 2023, 2024), and leave-one-window-out geographic transfer."
+  ],
+  "closest_prior_work": [
+   {
+    "citation": "Abrahamson, J., and Stegen, J. (2026). Mapping Wetland Inundation Regimes using Google's AlphaEarth Embeddings: A Case Study in the Florida Everglades. Society for Freshwater Science Annual Meeting, Poster 222.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZYainx9kjzFiPSW6HCXLQRUdfhfHMnD2sKexvp7E9u-4BQ88f_wZ3WdV7bXdnU3gt7lK0iHgBybDYmzgLUQFeptk50wkA6InqiT0onCnn8GyIv4ROj3LmYbqHv4episkn_kpWSj7moYvUr9NY9UfCd6AlO6tF-n21",
+    "difference": "Cited in the paper; evaluates supervised Random Forest classification and unsupervised clustering of AlphaEarth embeddings against Everglades EDEN gauge inundation regimes and NWI/JRC benchmarks, whereas this paper tests pairwise reference matching across 12 US windows."
+   },
+   {
+    "citation": "Kapoor, A. (2026). Assessment of Inundation Dynamics in Nebraska Using AlphaEarth Foundations Embeddings. Research Square Preprint, DOI: 10.21203/rs.3.rs-11254365/v1.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY0RW5AvFvw3m9t-6PIf-G-4dLWr2kjeZw845P26qo3lm-yBtVKgMOA5dQdUZzmuNDcHdMzg4dJX04BFgSNPzPRvz7wFISEcdKcvaRAVu9lh9sBqSXIAz_tG0kUxnLOip480ddawJQqezyuiOmtrb_2uLlpy2xXYzRNfP0bV3QIbysJw-f4sXHN9erS5ezYYj6I-4q8D90UuKo-4IkbgCwAbB78xpCLFS7_8Q1FA7fH6p70XH_7XrpaoyHWjXgPg==",
+    "difference": "Not cited in the paper; uses a Random Forest classifier on annual AlphaEarth embeddings (2017-2025) to map annual surface-water inundation extents and frequencies across 901 water bodies in Nebraska, rather than screening same-vegetation NWI water-regime reference pairs."
+   },
+   {
+    "citation": "Qu, P., Ouyang, W., Zhang, C., Chai, Y., Xu, S., Ye, L., Piao, Y., Zhang, M., and Lu, H. (2026). Utilizing Earth Foundation Models to Enhance the Simulation Performance of Hydrological Models with AlphaEarth Embeddings. arXiv:2601.01558v2.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC6WV4i1hW_FTKWZkZkwnQkXedw0426AXlWv-21DeXqPxZQlYBZCUqdbKc22NLH1bdFYkP8uwk6RUSAzrpxoe2HfJkHHDqCT3Je2Bk1b5yHJAX-6YJHA==",
+    "difference": "Cited in the paper; uses AlphaEarth cosine similarity to select hydrologically similar donor basins for ungauged rainfall-runoff modeling, whereas this paper evaluates local wetland-to-wetland water-regime matching."
+   },
+   {
+    "citation": "Ryan, S., Powell, M., Ling, J., and Wen, L. (2026). Streamlining Wetland Vegetation Mapping with AlphaEarth Embeddings: Comparable Accuracy to Traditional Methods with Cleaner Maps and Minimal Preprocessing. Remote Sensing, 18(2), 293.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL5VQjDMC9mI6UVXZ2mhiy9ZNeANHnyVowhAy9m-HF37cp_VhWaf4ufbBzQWruA2YntVvB7VCIR3NTNqgqzvw6FHY3byPzpfQ0cCceF7-98XQ4w78PtXeBTw8Tk3c=",
+    "difference": "Cited in the paper; compares AlphaEarth embeddings with Sentinel-1/2 and terrain composites for wetland vegetation classification, whereas this paper controls for vegetation class and tests water-regime matching."
+   },
+   {
+    "citation": "Sharma, A., Kharbanda, A., Anand, A., Mishra, R., Zhang, Y., and Biswas, S. (2026). Wetland Mapping Under Boundary Uncertainty with AlphaEarth Embeddings, LiDAR and Sentinel. Preprints.org, 202610.0964.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9p1RGhtX8zSrpgGlfzyjoSJ_rQmW3BzaAMSJwEOWYz-_NVmQMGr3Se2Eui6Aj7EXa6mmF6DKh5WC2suQNxubcbBU8oxjRiZ6RFKhXvnfaanKTrtXb8rwagsy7G726a2EHBDvW48E=",
+    "difference": "Cited in the paper; combines AlphaEarth embeddings, LiDAR terrain, and Sentinel-2 for binary wetland segmentation after excluding boundary pixels, rather than matching NWI hydrological regimes across wetland polygons."
+   }
+  ],
+  "familiarity": "No, I do not recognize this specific manuscript outside of the provided prompt context.",
+  "figures_viewed": true
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP",
+  "web_search_queries": [
+   "\"Assessment of Inundation Dynamics in Nebraska Using AlphaEarth Foundations Embeddings\"",
+   "\"Wetland Mapping Under Boundary Uncertainty with AlphaEarth Embeddings\"",
+   "\"AlphaEarth\" wetland water regime",
+   "\"Utilizing Earth Foundation Models to Enhance the Simulation Performance of Hydrological Models\""
+  ],
+  "sources": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL5VQjDMC9mI6UVXZ2mhiy9ZNeANHnyVowhAy9m-HF37cp_VhWaf4ufbBzQWruA2YntVvB7VCIR3NTNqgqzvw6FHY3byPzpfQ0cCceF7-98XQ4w78PtXeBTw8Tk3c=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZYainx9kjzFiPSW6HCXLQRUdfhfHMnD2sKexvp7E9u-4BQ88f_wZ3WdV7bXdnU3gt7lK0iHgBybDYmzgLUQFeptk50wkA6InqiT0onCnn8GyIv4ROj3LmYbqHv4episkn_kpWSj7moYvUr9NY9UfCd6AlO6tF-n21",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC6WV4i1hW_FTKWZkZkwnQkXedw0426AXlWv-21DeXqPxZQlYBZCUqdbKc22NLH1bdFYkP8uwk6RUSAzrpxoe2HfJkHHDqCT3Je2Bk1b5yHJAX-6YJHA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9p1RGhtX8zSrpgGlfzyjoSJ_rQmW3BzaAMSJwEOWYz-_NVmQMGr3Se2Eui6Aj7EXa6mmF6DKh5WC2suQNxubcbBU8oxjRiZ6RFKhXvnfaanKTrtXb8rwagsy7G726a2EHBDvW48E=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY0RW5AvFvw3m9t-6PIf-G-4dLWr2kjeZw845P26qo3lm-yBtVKgMOA5dQdUZzmuNDcHdMzg4dJX04BFgSNPzPRvz7wFISEcdKcvaRAVu9lh9sBqSXIAz_tG0kUxnLOip480ddawJQqezyuiOmtrb_2uLlpy2xXYzRNfP0bV3QIbysJw-f4sXHN9erS5ezYYj6I-4q8D90UuKo-4IkbgCwAbB78xpCLFS7_8Q1FA7fH6p70XH_7XrpaoyHWjXgPg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNfHNJ9gh1fQfepfhfmHZqHnsO5ZUs9FxRs6OUAO7UIRkTWlQGzw0hXbGMoARezlJG3Tk-ToEEmQICPqfMsuIvRSqnVWx7f_hPu2LA5RLkK5rEnuVE0Sg2tQEEvYtP5Wa6J3uZNSlJNfmQSb_LjT3PWxv_3fMOtGmpDZRngWRT_XFwA2DJv6so0aFHIdP_1jhI-IYSQAUT-0LVyyR3vIUT1E71CX4SfPlNSZdL1vNquFRcpygPTEcKyk6UPowc_Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFodiicMvd40p-M4ByTgHsfx-thHOVBPxVp-X3KgNbHRWYEXBk3QCmc1xo0JOPhwzJ9671TS850JWQCXKx7iEXjlXKNjECSTO0TTkJaObtaGjdkbr6X0r2z8-d-kpLtVa0jU_OIexccLzh2a3mWDuUJorWuivlk_Lq_912QQQ0-iE9hdT4zhMleC6qOn-rDNDNhf0KXerSJDkIcem4cLWm9g6upnoFbjg8Oji7DDcWX8c8v8uNO3HAu1mIiDmD-EhPoB7eFZmrikN3LlwGSXzDmMRFC-EuZ21BxK8NE5xx58m2eYex4BUk07NRHGjPeGD23nrgj8lNSEkLm6miW5sDSxL6s",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9p1RGhtX8zSrpgGlfzyjoSJ_rQmW3BzaAMSJwEOWYz-_NVmQMGr3Se2Eui6Aj7EXa6mmF6DKh5WC2suQNxubcbBU8oxjRiZ6RFKhXvnfaanKTrtXb8rwagsy7G726a2EHBDvW48E="
+  ]
+ }
+}

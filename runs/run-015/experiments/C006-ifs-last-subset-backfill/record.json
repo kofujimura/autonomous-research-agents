@@ -1,0 +1,34 @@
+{
+  "experiment_id": "C006-ifs-last-subset-backfill",
+  "started_at_utc": "2026-10-26T04:43:47Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pipeline.py",
+    "--model",
+    "ifs",
+    "--start",
+    "10",
+    "--count",
+    "1",
+    "--chunk-bytes",
+    "1048576",
+    "--subsets",
+    "--log",
+    "experiments/C006-ifs-last-subset-backfill/units.jsonl"
+  ],
+  "timeout_seconds": 120,
+  "plan_path": "protocol/plan-v3.1-subset-clarification.md",
+  "plan_commit_id": "35b0ad3b7464bcd76c0902d986ce14353fd42f40",
+  "code_commit_id": "cce10aa483bdbabf4d2ba4abd462d940749ebc5b",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/subset-design-v3.json": "4eb1e19e92ad317f517b62f711793a827a39ba31ad64f0e7698f70baa3f4d2c7"
+  },
+  "status": "completed",
+  "start_event_id": "E0309",
+  "child_pid": 59016,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T04:43:52Z",
+  "elapsed_seconds": 4.98920933296904,
+  "end_event_id": "E0310"
+}

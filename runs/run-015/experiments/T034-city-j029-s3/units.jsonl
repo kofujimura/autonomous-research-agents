@@ -1,0 +1,5 @@
+{"date": "20260915", "ended_at_utc": "2026-10-26T10:06:43Z", "error": "Both documented endpoints failed bounded index-range recovery", "error_type": "RuntimeError", "lead": 72, "model": "ifs", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T10:05:57Z", "status": "failed"}
+{"date": "20260915", "ended_at_utc": "2026-10-26T10:08:03Z", "lead": 78, "model": "ifs", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T10:06:43Z", "status": "completed"}
+{"date": "20260915", "ended_at_utc": "2026-10-26T10:09:21Z", "lead": 84, "model": "ifs", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T10:08:03Z", "status": "completed"}
+{"date": "20260915", "ended_at_utc": "2026-10-26T10:11:27Z", "lead": 90, "model": "ifs", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T10:09:21Z", "status": "completed"}
+{"date": "20260915", "horizon": 3, "missing_leads": [72], "model": "ifs", "observed_at_utc": "2026-10-26T10:11:27Z", "status": "incomplete_horizon"}

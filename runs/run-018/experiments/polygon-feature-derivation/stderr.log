@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/derive_polygon_features.py", line 60, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=ROOT);p.add_argument('--out',type=Path,required=True);a=p.parse_args();derive(a.root,a.out)
+                                                                                                                                                 ~~~~~~^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/derive_polygon_features.py", line 27, in derive
+    assert np.array_equal(aa[p],pa['raw'][k,j]);assert np.array_equal(raw_t[p],pt['raw'][k,j]);assert np.array_equal(np.asarray(sc[p]),np.asarray(pt['scales'][k,j]),equal_nan=True);shared+=1
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

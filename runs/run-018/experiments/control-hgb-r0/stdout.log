@@ -1,0 +1,13 @@
+{"stage": "fit", "method": "hydro_pair", "mode": "hgb", "elapsed_seconds": 3.81519979191944}
+{"stage": "fit", "method": "pair_aef", "mode": "hgb", "elapsed_seconds": 7.550270542036742}
+{"stage": "fit", "method": "pair_tessera", "mode": "hgb", "elapsed_seconds": 11.229484874987975}
+{"stage": "fit", "method": "pair_both", "mode": "hgb", "elapsed_seconds": 14.927937124855816}
+{"stage": "fit", "method": "hydro_decoder", "mode": "hgb", "elapsed_seconds": 16.47983479197137}
+{"stage": "fit", "method": "aef_decoder", "mode": "hgb", "elapsed_seconds": 18.373377084033564}
+{"stage": "fit", "method": "tessera_decoder", "mode": "hgb", "elapsed_seconds": 21.340516208903864}
+{"stage": "fit", "method": "hydro_aef_decoder", "mode": "hgb", "elapsed_seconds": 24.307214333908632}
+{"stage": "fit", "method": "hydro_tessera_decoder", "mode": "hgb", "elapsed_seconds": 28.467840208904818}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 29.790848250035197}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 30.91979483398609}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 31.769922833889723}
+{"mode": "hgb", "rotation": 0, "seed_offset": 0, "permutation": 0, "start_time_utc": "2026-10-27T17:31:59.200354+00:00", "end_time_utc": "2026-10-27T17:32:31.853014+00:00", "elapsed_seconds": 32.65301808388904, "reused_methods": ["aef_centred", "aef_cosine", "aef_whitened", "geography", "hydro_euclidean", "label_oracle", "tessera_centred", "tessera_cosine", "tessera_whitened"], "primary_source": "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main/r0", "training_n": 1370, "training_pairs": 30570, "predictions": 13662}

@@ -1,0 +1,147 @@
+{
+  "checked_at_utc": "2026-10-28T03:27:03.441973+00:00",
+  "passed": true,
+  "common_n": 3667,
+  "reference_2024": "analysis/main-corrected",
+  "checks": [
+    {
+      "year": 2023,
+      "rotation": 0,
+      "rows": 3795,
+      "physical_methods": [
+        "geography",
+        "hydro_euclidean",
+        "hydro_pair",
+        "hydro_decoder",
+        "label_oracle"
+      ],
+      "maximum_float_error": 0.0,
+      "roles_pairs_exact": true
+    },
+    {
+      "year": 2023,
+      "rotation": 1,
+      "rows": 4845,
+      "physical_methods": [
+        "geography",
+        "hydro_euclidean",
+        "hydro_pair",
+        "hydro_decoder",
+        "label_oracle"
+      ],
+      "maximum_float_error": 0.0,
+      "roles_pairs_exact": true
+    },
+    {
+      "year": 2023,
+      "rotation": 2,
+      "rows": 4460,
+      "physical_methods": [
+        "geography",
+        "hydro_euclidean",
+        "hydro_pair",
+        "hydro_decoder",
+        "label_oracle"
+      ],
+      "maximum_float_error": 0.0,
+      "roles_pairs_exact": true
+    },
+    {
+      "year": 2023,
+      "rotation": 3,
+      "rows": 5085,
+      "physical_methods": [
+        "geography",
+        "hydro_euclidean",
+        "hydro_pair",
+        "hydro_decoder",
+        "label_oracle"
+      ],
+      "maximum_float_error": 0.0,
+      "roles_pairs_exact": true
+    },
+    {
+      "year": 2021,
+      "rotation": 0,
+      "rows": 3795,
+      "physical_methods": [
+        "geography",
+        "hydro_euclidean",
+        "hydro_pair",
+        "hydro_decoder",
+        "label_oracle"
+      ],
+      "maximum_float_error": 0.0,
+      "roles_pairs_exact": true
+    },
+    {
+      "year": 2021,
+      "rotation": 1,
+      "rows": 4845,
+      "physical_methods": [
+        "geography",
+        "hydro_euclidean",
+        "hydro_pair",
+        "hydro_decoder",
+        "label_oracle"
+      ],
+      "maximum_float_error": 0.0,
+      "roles_pairs_exact": true
+    },
+    {
+      "year": 2021,
+      "rotation": 2,
+      "rows": 4460,
+      "physical_methods": [
+        "geography",
+        "hydro_euclidean",
+        "hydro_pair",
+        "hydro_decoder",
+        "label_oracle"
+      ],
+      "maximum_float_error": 0.0,
+      "roles_pairs_exact": true
+    },
+    {
+      "year": 2021,
+      "rotation": 3,
+      "rows": 5085,
+      "physical_methods": [
+        "geography",
+        "hydro_euclidean",
+        "hydro_pair",
+        "hydro_decoder",
+        "label_oracle"
+      ],
+      "maximum_float_error": 0.0,
+      "roles_pairs_exact": true
+    }
+  ],
+  "input_sha256": {
+    "analysis/main-corrected/r0/roles-pairs.npz": "27ba0536068925761e637dc9adb197ff7822af33b5b5f2579f9bffd767bf8ac9",
+    "analysis/main-corrected/r0/predictions.csv": "441f6415a4de6954e5cab41faa3250f73180c4d39f81e5c1b5d66648ee2284f7",
+    "analysis/year-2023/r0/roles-pairs.npz": "27ba0536068925761e637dc9adb197ff7822af33b5b5f2579f9bffd767bf8ac9",
+    "analysis/year-2023/r0/predictions.csv": "284dd5d35241fc88735181628253b4f2884efa961f98a6d479ebbe3a8f6bc819",
+    "analysis/main-corrected/r1/roles-pairs.npz": "61696561c273cd568b33db7e08c767016f8e289818daa24d7b5e2dc614ab12cc",
+    "analysis/main-corrected/r1/predictions.csv": "9f120108e3b6fe97f68339cbfb484c000f1a2a6c59ff5fc85f3aa0ef85669e26",
+    "analysis/year-2023/r1/roles-pairs.npz": "61696561c273cd568b33db7e08c767016f8e289818daa24d7b5e2dc614ab12cc",
+    "analysis/year-2023/r1/predictions.csv": "451725ee0c9a888203f77fa43c5bdbc701efb66d4813e1fa3c049292dd87fd29",
+    "analysis/main-corrected/r2/roles-pairs.npz": "55a26b647b2ad3334433d996ad95284746bcd3a30eb28a663e8eb0bebc21c1d9",
+    "analysis/main-corrected/r2/predictions.csv": "a08b4a4ef7c6826746b4ad2954e532fb0e54c2e009472fda3a48096b6716e5f7",
+    "analysis/year-2023/r2/roles-pairs.npz": "55a26b647b2ad3334433d996ad95284746bcd3a30eb28a663e8eb0bebc21c1d9",
+    "analysis/year-2023/r2/predictions.csv": "a37e4a273843d21a5c55c7b17ac285082850cfeb05f7f5edd7fda9f98fffa342",
+    "analysis/main-corrected/r3/roles-pairs.npz": "27af942f7c08a363f5daa82c96b225ab482229e70cdbb5a49c8ea28b1fa37b24",
+    "analysis/main-corrected/r3/predictions.csv": "3b4c736ce6ee0f1c8220284607484ec3fe95ced8ab1bc44cb269ff16646235c2",
+    "analysis/year-2023/r3/roles-pairs.npz": "27af942f7c08a363f5daa82c96b225ab482229e70cdbb5a49c8ea28b1fa37b24",
+    "analysis/year-2023/r3/predictions.csv": "7cdf8af4067d72f21c6faa269c1fd46c26981b2bc1aea57fc09cca955bcacf36",
+    "analysis/year-2021/r0/roles-pairs.npz": "27ba0536068925761e637dc9adb197ff7822af33b5b5f2579f9bffd767bf8ac9",
+    "analysis/year-2021/r0/predictions.csv": "009ef55bfd0f4e7ecaf00e2e0d49313d7135f3f3e79f5bc8bf823643ba1cd931",
+    "analysis/year-2021/r1/roles-pairs.npz": "61696561c273cd568b33db7e08c767016f8e289818daa24d7b5e2dc614ab12cc",
+    "analysis/year-2021/r1/predictions.csv": "f1a9db0eba1f921772bb32a5a91722227417c03c4385b7c6b4189d46ffe62342",
+    "analysis/year-2021/r2/roles-pairs.npz": "55a26b647b2ad3334433d996ad95284746bcd3a30eb28a663e8eb0bebc21c1d9",
+    "analysis/year-2021/r2/predictions.csv": "aec388dcfe10eeaa80b1310647c688642365e3b1cfb7fa7d64c24bd4257e371a",
+    "analysis/year-2021/r3/roles-pairs.npz": "27af942f7c08a363f5daa82c96b225ab482229e70cdbb5a49c8ea28b1fa37b24",
+    "analysis/year-2021/r3/predictions.csv": "bd9f3135c407cd3ab0a42e6a98b29bd176c58a1c79c710f756c5c4ea7eaefedf"
+  },
+  "scope": "Fixed labels,2024physical covariates, cohort, roles and seeds; embedding-year comparison only, without annual field-hydrology validation"
+}

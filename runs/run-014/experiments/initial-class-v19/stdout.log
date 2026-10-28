@@ -1,0 +1,7 @@
+availability_mode              model support  seed reference_mode task                        method  n_positive  n_negative  true_positive  false_positive  sensitivity  false_positive_rate   J    auroc  bootstrap_valid  n_spatial_blocks  threshold_ties  sensitivity_lo  sensitivity_hi  false_positive_rate_lo  false_positive_rate_hi  J_lo  J_hi
+           paired initial_class_only  centre 14014 not_applicable gain initial_class_transition_rate          24          85              0               0          0.0                  0.0 0.0 0.238971             2000                37              62             0.0             0.0                     0.0                     0.0   0.0   0.0
+           paired initial_class_only  centre 14014 not_applicable loss initial_class_transition_rate         124         213              0               0          0.0                  0.0 0.0 0.493582             2000                38             337             0.0             0.0                     0.0                     0.0   0.0   0.0
+             availability_mode task   initial_class  n_positive  n_negative  n_cases
+paired_initial_Grass_forb_herb gain Grass/forb/herb           9          40       49
+         paired_initial_Shrubs gain          Shrubs          15          45       60
+          paired_initial_Trees loss           Trees         124         213      337

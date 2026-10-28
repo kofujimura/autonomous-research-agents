@@ -1,0 +1,44 @@
+[
+  {
+    "source": "features",
+    "corrected": "features-corrected",
+    "changed_rows": {
+      "hydro": [],
+      "aef": [
+        2283
+      ],
+      "tessera": [],
+      "aef_norm": [
+        2283
+      ],
+      "tessera_norm": []
+    },
+    "affected": [
+      5271690
+    ]
+  },
+  {
+    "source": "recent-features",
+    "corrected": "recent-features-corrected",
+    "changed_rows": {
+      "hydro": [],
+      "aef": [
+        25,
+        1043,
+        1108
+      ],
+      "tessera": [],
+      "aef_norm": [
+        25,
+        1043,
+        1108
+      ],
+      "tessera_norm": []
+    },
+    "affected": [
+      32231159,
+      32229669,
+      32239952
+    ]
+  }
+]

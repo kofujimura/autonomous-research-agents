@@ -1,0 +1,5 @@
+epsilon,condition,cases,dates,mean_width,identified
+0.005,exact_margins,120,27,0.14199933862433867,0
+0.005,exact_margins_and_aggregate,120,27,0.1362796735056848,0
+0.02,exact_margins,120,27,0.27179945671817124,0
+0.02,exact_margins_and_aggregate,120,27,0.2429262893826549,0

@@ -1,0 +1,15 @@
+{
+ "command": [
+  "verify-work/env/bin/python",
+  "-I",
+  "tools/reviewer_strata.py",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy"
+ ],
+ "cwd": "/Users/fujimura/Research/ai-free-research-en/review-015",
+ "limit_seconds": 600.0,
+ "start_utc": "2026-10-26T12:24:43Z",
+ "timed_out": false,
+ "end_utc": "2026-10-26T12:24:43Z",
+ "elapsed_seconds": 0.4,
+ "exit_code": 0
+}

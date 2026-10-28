@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/city_time_pipeline.py", line 109, in main
+    acquire.main(['--date',a.date,'--model',a.model,'--lead',str(lead),
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  '--design','protocol/design-v4.json','--data-root','data/weather-v4','--chunk-bytes',str(a.chunk_bytes),*flags])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/acquire.py", line 95, in main
+    body,url,stamp=recover(session,bases,relative,log)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/index_ranges.py", line 42, in recover
+    raise RuntimeError('Both documented endpoints failed bounded index-range recovery')
+RuntimeError: Both documented endpoints failed bounded index-range recovery
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/city_time_pipeline.py", line 109, in main
+    acquire.main(['--date',a.date,'--model',a.model,'--lead',str(lead),
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  '--design','protocol/design-v4.json','--data-root','data/weather-v4','--chunk-bytes',str(a.chunk_bytes),*flags])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/acquire.py", line 95, in main
+    body,url,stamp=recover(session,bases,relative,log)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/index_ranges.py", line 42, in recover
+    raise RuntimeError('Both documented endpoints failed bounded index-range recovery')
+RuntimeError: Both documented endpoints failed bounded index-range recovery

@@ -1,0 +1,32 @@
+[
+  {
+    "core_id": "R03C00",
+    "observed_at_utc": "2026-10-27T06:13:29.029986Z",
+    "embedding_norm_quantiles": [
+      0.992285430431366,
+      1.0000953674316406,
+      1.0088095664978027
+    ],
+    "valid_pixels": 63945,
+    "positive_pixels": 2005,
+    "main_small_patches": 8,
+    "zero_pixel_patches": 0,
+    "all_finite": true,
+    "orientation": "north-up target; native orientation preserved in source metadata"
+  },
+  {
+    "core_id": "R04C00",
+    "observed_at_utc": "2026-10-27T06:13:29.266046Z",
+    "embedding_norm_quantiles": [
+      0.9917552471160889,
+      1.000093698501587,
+      1.0080610513687134
+    ],
+    "valid_pixels": 65318,
+    "positive_pixels": 3354,
+    "main_small_patches": 22,
+    "zero_pixel_patches": 0,
+    "all_finite": true,
+    "orientation": "north-up target; native orientation preserved in source metadata"
+  }
+]

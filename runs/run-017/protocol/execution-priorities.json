@@ -1,0 +1,247 @@
+{
+  "fixed_at_utc": "2026-10-27T08:00:59.018960+00:00",
+  "mapping_models_fit": 0,
+  "supplements": "protocol/plan-v6.md",
+  "stages": [
+    {
+      "name": "original_primary",
+      "priority": 1,
+      "scopes": [
+        "within"
+      ],
+      "decoders": [
+        "rf"
+      ],
+      "budgets": [
+        2000
+      ],
+      "policies": [
+        "area",
+        "interior",
+        "object",
+        "proposal",
+        "uncertainty"
+      ],
+      "representations": [
+        "aef",
+        "optical",
+        "optical_context"
+      ],
+      "training_seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "fit_combinations": 75
+    },
+    {
+      "name": "minimum_unit_frame",
+      "priority": 2,
+      "scopes": [
+        "within"
+      ],
+      "decoders": [
+        "rf"
+      ],
+      "budgets": [
+        2000
+      ],
+      "policies": [
+        "object_mmu"
+      ],
+      "representations": [
+        "aef",
+        "optical"
+      ],
+      "training_seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "fit_combinations": 10
+    },
+    {
+      "name": "class_composition",
+      "priority": 3,
+      "scopes": [
+        "within"
+      ],
+      "decoders": [
+        "rf"
+      ],
+      "budgets": [
+        2000
+      ],
+      "policies": [
+        "proposal_classmatched",
+        "uncertainty_classmatched",
+        "natural_area"
+      ],
+      "representations": [
+        "aef",
+        "optical"
+      ],
+      "training_seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "fit_combinations": 30
+    },
+    {
+      "name": "regional_allocation",
+      "priority": 4,
+      "scopes": [
+        "within"
+      ],
+      "decoders": [
+        "rf"
+      ],
+      "budgets": [
+        2000
+      ],
+      "policies": [
+        "area_region",
+        "object_region"
+      ],
+      "representations": [
+        "aef",
+        "optical"
+      ],
+      "training_seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "fit_combinations": 20
+    },
+    {
+      "name": "capacity_main_contrast",
+      "priority": 5,
+      "scopes": [
+        "within"
+      ],
+      "decoders": [
+        "logit"
+      ],
+      "budgets": [
+        2000
+      ],
+      "policies": [
+        "area",
+        "object"
+      ],
+      "representations": [
+        "aef",
+        "optical"
+      ],
+      "training_seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "fit_combinations": 20
+    },
+    {
+      "name": "geographic_main_contrast",
+      "priority": 6,
+      "scopes": [
+        "leave_R01",
+        "leave_R02",
+        "leave_R03",
+        "leave_R04"
+      ],
+      "decoders": [
+        "rf"
+      ],
+      "budgets": [
+        2000
+      ],
+      "policies": [
+        "area",
+        "object"
+      ],
+      "representations": [
+        "aef",
+        "optical"
+      ],
+      "training_seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "fit_combinations": 80
+    },
+    {
+      "name": "budget_main_contrast",
+      "priority": 7,
+      "scopes": [
+        "within"
+      ],
+      "decoders": [
+        "rf"
+      ],
+      "budgets": [
+        500,
+        8000
+      ],
+      "policies": [
+        "area",
+        "object"
+      ],
+      "representations": [
+        "aef",
+        "optical"
+      ],
+      "training_seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "fit_combinations": 40
+    },
+    {
+      "name": "hybrid_main_contrast",
+      "priority": 8,
+      "scopes": [
+        "within"
+      ],
+      "decoders": [
+        "rf"
+      ],
+      "budgets": [
+        2000
+      ],
+      "policies": [
+        "area",
+        "object"
+      ],
+      "representations": [
+        "hybrid"
+      ],
+      "training_seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "fit_combinations": 10
+    }
+  ],
+  "meaning": "Execution priority within existing plans, not a claim of completion; after these, expand remaining original sensitivity-policy/context cells if resources permit. Preserve all unfinished arms in completion account."
+}

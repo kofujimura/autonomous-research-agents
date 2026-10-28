@@ -1,0 +1,421 @@
+{
+ "014": {
+  "version": "1.10",
+  "stops_s": 6763,
+  "resumes_limit": 2,
+  "resumes_other": 1,
+  "topic_min": 64,
+  "candidates": 15,
+  "techs": 6,
+  "critic_points": 26,
+  "critic_adopted": 22,
+  "critic_on_selected": 9,
+  "findings": [
+   0,
+   6,
+   2
+  ],
+  "responded": [
+   5,
+   3
+  ],
+  "verdict": "major",
+  "scores": [
+   4,
+   5,
+   3,
+   2,
+   3,
+   2
+  ],
+  "cost": "2.02",
+  "topic": "Screening one-year tree-cover change in the contiguous US with annual satellite embeddings",
+  "data": "LCMAP, NLCD; AlphaEarth, TESSERA embeddings",
+  "start": "2026-10-25T08:12:56+00:00",
+  "topic_selected": "2026-10-25T09:17:17+00:00",
+  "draft": "2026-10-26T04:18:05+09:00",
+  "final": "2026-10-26T05:48:32+09:00",
+  "draft_wall_s": 39909.0,
+  "draft_active_s": 33146.0,
+  "margin_s": 10054.0,
+  "review_min": 28,
+  "response_min": 57,
+  "review_received": "2026-10-25T19:51:29+00:00",
+  "claims": 22,
+  "claims_exploratory": 14,
+  "permission_requests": 0,
+  "research_advice": 0
+ },
+ "015": {
+  "version": "1.10.1",
+  "stops_s": 10052,
+  "resumes_limit": 3,
+  "resumes_other": 1,
+  "topic_min": 54,
+  "candidates": 15,
+  "techs": 6,
+  "critic_points": 26,
+  "critic_adopted": 21,
+  "critic_on_selected": 7,
+  "findings": [
+   0,
+   4,
+   3
+  ],
+  "responded": [
+   5,
+   2
+  ],
+  "verdict": "minor",
+  "scores": [
+   4,
+   5,
+   2,
+   2,
+   3,
+   2
+  ],
+  "cost": "2.02",
+  "topic": "Bounds on joint temperature-exceedance probabilities from published ensemble summaries",
+  "data": "ECMWF ensemble forecasts",
+  "start": "2026-10-25T21:33:35+00:00",
+  "topic_selected": "2026-10-25T22:50:27+00:00",
+  "draft": "2026-10-26T21:03:28+09:00",
+  "final": "2026-10-26T22:43:20+09:00",
+  "draft_wall_s": 52193.0,
+  "draft_active_s": 42141.0,
+  "margin_s": 1059.0,
+  "review_min": 44,
+  "response_min": 49,
+  "review_received": "2026-10-26T12:53:58+00:00",
+  "claims": 20,
+  "claims_exploratory": 12,
+  "permission_requests": 0,
+  "research_advice": 0
+ },
+ "016": {
+  "version": "1.10.2",
+  "stops_s": 6772,
+  "resumes_limit": 2,
+  "resumes_other": 0,
+  "topic_min": 72,
+  "candidates": 15,
+  "techs": 6,
+  "critic_points": 23,
+  "critic_adopted": 13,
+  "critic_on_selected": 7,
+  "findings": [
+   0,
+   6,
+   3
+  ],
+  "responded": [
+   5,
+   4
+  ],
+  "verdict": "major",
+  "scores": [
+   4,
+   5,
+   2,
+   2,
+   3,
+   2
+  ],
+  "cost": "1.94",
+  "topic": "Re-sampling reference locations to estimate change in Swiss crop-group diversity",
+  "data": "Swiss crop declarations; annual embeddings",
+  "start": "2026-10-26T14:35:09+00:00",
+  "topic_selected": "2026-10-26T15:47:13.968217+00:00",
+  "draft": "2026-10-27T11:21:31+09:00",
+  "final": "2026-10-27T12:59:26+09:00",
+  "draft_wall_s": 42382.0,
+  "draft_active_s": 35610.0,
+  "margin_s": 7590.0,
+  "review_min": 20,
+  "response_min": 69,
+  "review_received": "2026-10-27T02:50:00+00:00",
+  "claims": 13,
+  "claims_exploratory": 8,
+  "permission_requests": 0,
+  "research_advice": 0
+ },
+ "017": {
+  "version": "1.10.3",
+  "stops_s": 3533,
+  "resumes_limit": 1,
+  "resumes_other": 0,
+  "topic_min": 33,
+  "candidates": 15,
+  "techs": 6,
+  "critic_points": 23,
+  "critic_adopted": 19,
+  "critic_on_selected": 6,
+  "findings": [
+   0,
+   4,
+   2
+  ],
+  "responded": [
+   6,
+   0
+  ],
+  "verdict": "major",
+  "scores": [
+   3,
+   5,
+   3,
+   2,
+   3,
+   2
+  ],
+  "cost": "1.95--2.02",
+  "topic": "Training-point allocation and recovery of small wetland patches",
+  "data": "US National Wetlands Inventory; AlphaEarth, Sentinel-2",
+  "start": "2026-10-27T04:34:15+00:00",
+  "topic_selected": "2026-10-27T05:07:18.478334+00:00",
+  "draft": "2026-10-27T20:59:57+09:00",
+  "final": "2026-10-27T22:19:27+09:00",
+  "draft_wall_s": 26742.0,
+  "draft_active_s": 23209.0,
+  "margin_s": 19991.0,
+  "review_min": 31,
+  "response_min": 42,
+  "review_received": "2026-10-27T12:37:26+00:00",
+  "claims": 11,
+  "claims_exploratory": 7,
+  "permission_requests": 0,
+  "research_advice": 0
+ },
+ "018": {
+  "version": "1.10.4",
+  "stops_s": 22672,
+  "resumes_limit": 4,
+  "resumes_other": 0,
+  "topic_min": 60,
+  "candidates": 17,
+  "techs": 7,
+  "critic_points": 21,
+  "critic_adopted": 14,
+  "critic_on_selected": 6,
+  "findings": [
+   1,
+   5,
+   4
+  ],
+  "responded": [
+   8,
+   2
+  ],
+  "verdict": "major",
+  "scores": [
+   3,
+   5,
+   3,
+   2,
+   3,
+   2
+  ],
+  "cost": "1.99",
+  "topic": "Do satellite embedding distances improve matching of wetland water regimes?",
+  "data": "US National Wetlands Inventory; AlphaEarth, TESSERA; terrain and surface water",
+  "start": "2026-10-27T14:23:30+00:00",
+  "topic_selected": "2026-10-27T15:23:20.282916+00:00",
+  "draft": "2026-10-28T17:24:46+09:00",
+  "final": "2026-10-28T19:59:17+09:00",
+  "draft_wall_s": 64876.0,
+  "draft_active_s": 42204.0,
+  "margin_s": 996.0,
+  "review_min": 73,
+  "response_min": 75,
+  "review_received": "2026-10-28T09:44:09+00:00",
+  "claims": 17,
+  "claims_exploratory": 13,
+  "permission_requests": 0,
+  "research_advice": 0
+ },
+ "development": [
+  {
+   "run": "001",
+   "version": "v1.0",
+   "model": "gpt-6-sol",
+   "counts": {
+    "AI": 0,
+    "AI道具": 0,
+    "研究慣行": 0,
+    "システム": 0,
+    "数理": 2,
+    "社会": 0
+   },
+   "chosen": "数理"
+  },
+  {
+   "run": "002",
+   "version": "v1.0",
+   "model": "gpt-6.1-sol",
+   "counts": {
+    "AI": 0,
+    "AI道具": 0,
+    "研究慣行": 0,
+    "システム": 2,
+    "数理": 0,
+    "社会": 0
+   },
+   "chosen": "システム"
+  },
+  {
+   "run": "003",
+   "version": "v1.1",
+   "model": "Opus 5.5",
+   "counts": {
+    "AI": 2,
+    "AI道具": 1,
+    "研究慣行": 1,
+    "システム": 3,
+    "数理": 0,
+    "社会": 3
+   },
+   "chosen": "社会"
+  },
+  {
+   "run": "004",
+   "version": "v1.2",
+   "model": "Opus 5.5",
+   "counts": {
+    "AI": 5,
+    "AI道具": 4,
+    "研究慣行": 4,
+    "システム": 1,
+    "数理": 0,
+    "社会": 2
+   },
+   "chosen": "AI道具"
+  },
+  {
+   "run": "005",
+   "version": "v1.2.1",
+   "model": "GPT-6",
+   "counts": {
+    "AI": 0,
+    "AI道具": 8,
+    "研究慣行": 2,
+    "システム": 1,
+    "数理": 0,
+    "社会": 0
+   },
+   "chosen": "AI道具"
+  },
+  {
+   "run": "006",
+   "version": "v1.3",
+   "model": "Opus 5.5",
+   "counts": {
+    "AI": 9,
+    "AI道具": 2,
+    "研究慣行": 7,
+    "システム": 1,
+    "数理": 0,
+    "社会": 0
+   },
+   "chosen": "AI"
+  },
+  {
+   "run": "007",
+   "version": "v1.4",
+   "model": "Opus 5.5",
+   "counts": {
+    "AI": 8,
+    "AI道具": 0,
+    "研究慣行": 7,
+    "システム": 2,
+    "数理": 0,
+    "社会": 1
+   },
+   "chosen": "研究慣行"
+  },
+  {
+   "run": "008",
+   "version": "v1.5",
+   "model": "gpt-6.1-sol",
+   "counts": {
+    "AI": 1,
+    "AI道具": 0,
+    "研究慣行": 3,
+    "システム": 6,
+    "数理": 5,
+    "社会": 0
+   },
+   "chosen": "研究慣行"
+  },
+  {
+   "run": "009",
+   "version": "v1.6",
+   "model": "gpt-6.1-sol",
+   "counts": {
+    "AI": 0,
+    "AI道具": 0,
+    "研究慣行": 0,
+    "システム": 11,
+    "数理": 4,
+    "社会": 0
+   },
+   "chosen": "システム"
+  },
+  {
+   "run": "010",
+   "version": "v1.7",
+   "model": "gpt-6.1-sol",
+   "counts": {
+    "AI": 1,
+    "AI道具": 0,
+    "研究慣行": 2,
+    "システム": 9,
+    "数理": 3,
+    "社会": 0
+   },
+   "chosen": "システム"
+  },
+  {
+   "run": "011",
+   "version": "v1.8",
+   "model": "gpt-6.1-sol",
+   "counts": {
+    "AI": 0,
+    "AI道具": 0,
+    "研究慣行": 0,
+    "システム": 0,
+    "数理": 1,
+    "社会": 14
+   },
+   "chosen": "社会"
+  },
+  {
+   "run": "012",
+   "version": "v1.9",
+   "model": "gpt-6.1-sol",
+   "counts": {
+    "AI": 1,
+    "AI道具": 0,
+    "研究慣行": 1,
+    "システム": 0,
+    "数理": 0,
+    "社会": 15
+   },
+   "chosen": "社会"
+  },
+  {
+   "run": "013",
+   "version": "v1.9.1",
+   "model": "Opus 5.5",
+   "counts": {
+    "AI": 0,
+    "AI道具": 0,
+    "研究慣行": 0,
+    "システム": 0,
+    "数理": 0,
+    "社会": 15
+   },
+   "chosen": "社会"
+  }
+ ]
+}

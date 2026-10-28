@@ -1,0 +1,26 @@
+{
+  "experiment_id": "P01f-weather-second-date",
+  "started_at_utc": "2026-10-25T22:33:45Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pilot_weather.py",
+    "--date",
+    "20260702",
+    "--members",
+    "10"
+  ],
+  "timeout_seconds": 180,
+  "plan_path": "protocol/topic-selection.md",
+  "plan_commit_id": "fb7a5bb399598beb52db018208b4c3920fdf642f",
+  "code_commit_id": "2b1a3b1a211b8c3d30f27fda5cf8674eb805329b",
+  "input_sha256": {
+    "data/pilot/aifs-20260702-168.index": "5c075c903d20579d17e033b0acac9cb079aecc7e85231533cd22ab473fc9cd1b"
+  },
+  "status": "completed",
+  "start_event_id": "E0047",
+  "child_pid": 46072,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-25T22:34:49Z",
+  "elapsed_seconds": 64.417158333119,
+  "end_event_id": "E0049"
+}

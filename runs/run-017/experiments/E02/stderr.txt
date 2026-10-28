@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/retrieve_inputs.py", line 215, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/retrieve_inputs.py", line 213, in main
+    run_core(c,region)
+    ~~~~~~~~^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/retrieve_inputs.py", line 189, in run_core
+    embedding(core,directory)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/code/retrieve_inputs.py", line 89, in embedding
+    win=rasterio.windows.from_bounds(west,south,east,north,src.transform).round_offsets().round_lengths()
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/lib/python3.13/site-packages/rasterio/windows.py", line 324, in from_bounds
+    raise WindowError("Bounds and transform are inconsistent")
+rasterio.errors.WindowError: Bounds and transform are inconsistent

@@ -1,0 +1,318 @@
+{
+  "status": "PASS",
+  "candidate_commit": "40fdcf0d9ce3b467abee309def61fd494869d263",
+  "experiment_id": "end-to-end-self-rerun-4",
+  "start_at_utc": "2026-10-25T20:02:13Z",
+  "end_at_utc": "2026-10-25T20:17:11Z",
+  "elapsed_seconds": 896.3845676658675,
+  "wrapper_elapsed_seconds": 898.6051952908747,
+  "check_count": 256,
+  "stage_count": 37,
+  "stage_timings": [
+    {
+      "stage": "route_recovery",
+      "start_at_utc": "2026-10-25T20:02:15Z",
+      "end_at_utc": "2026-10-25T20:02:15Z",
+      "elapsed_seconds": 0.0054572089575231075
+    },
+    {
+      "stage": "prepare_lcmap",
+      "start_at_utc": "2026-10-25T20:02:18Z",
+      "end_at_utc": "2026-10-25T20:02:18Z",
+      "elapsed_seconds": 0.145301666110754
+    },
+    {
+      "stage": "prepare_controls",
+      "start_at_utc": "2026-10-25T20:02:18Z",
+      "end_at_utc": "2026-10-25T20:02:18Z",
+      "elapsed_seconds": 0.020643790950998664
+    },
+    {
+      "stage": "cohort_history_feasibility",
+      "start_at_utc": "2026-10-25T20:02:18Z",
+      "end_at_utc": "2026-10-25T20:02:19Z",
+      "elapsed_seconds": 0.8876734171062708
+    },
+    {
+      "stage": "prepare_nlcd",
+      "start_at_utc": "2026-10-25T20:02:19Z",
+      "end_at_utc": "2026-10-25T20:02:24Z",
+      "elapsed_seconds": 5.462056583026424
+    },
+    {
+      "stage": "prepare_native_sample",
+      "start_at_utc": "2026-10-25T20:02:24Z",
+      "end_at_utc": "2026-10-25T20:02:24Z",
+      "elapsed_seconds": 0.00788045790977776
+    },
+    {
+      "stage": "prepare_native_pairs",
+      "start_at_utc": "2026-10-25T20:02:24Z",
+      "end_at_utc": "2026-10-25T20:02:24Z",
+      "elapsed_seconds": 0.008662834065034986
+    },
+    {
+      "stage": "prepare_saved_native_dates",
+      "start_at_utc": "2026-10-25T20:02:24Z",
+      "end_at_utc": "2026-10-25T20:02:24Z",
+      "elapsed_seconds": 0.018465374829247594
+    },
+    {
+      "stage": "aef_closed_v11",
+      "start_at_utc": "2026-10-25T20:02:24Z",
+      "end_at_utc": "2026-10-25T20:02:45Z",
+      "elapsed_seconds": 20.693072041962296
+    },
+    {
+      "stage": "robustness_aef_v12",
+      "start_at_utc": "2026-10-25T20:02:45Z",
+      "end_at_utc": "2026-10-25T20:03:20Z",
+      "elapsed_seconds": 35.29195495904423
+    },
+    {
+      "stage": "main_v1",
+      "start_at_utc": "2026-10-25T20:03:20Z",
+      "end_at_utc": "2026-10-25T20:04:50Z",
+      "elapsed_seconds": 89.57197229098529
+    },
+    {
+      "stage": "review_diagnostics_r1",
+      "start_at_utc": "2026-10-25T20:04:50Z",
+      "end_at_utc": "2026-10-25T20:04:52Z",
+      "elapsed_seconds": 2.339458958012983
+    },
+    {
+      "stage": "partition_sensitivity_v24",
+      "start_at_utc": "2026-10-25T20:04:52Z",
+      "end_at_utc": "2026-10-25T20:10:33Z",
+      "elapsed_seconds": 341.092407542048
+    },
+    {
+      "stage": "endpoint_v13",
+      "start_at_utc": "2026-10-25T20:10:34Z",
+      "end_at_utc": "2026-10-25T20:11:24Z",
+      "elapsed_seconds": 50.17668320797384
+    },
+    {
+      "stage": "reference_completeness_v14",
+      "start_at_utc": "2026-10-25T20:11:24Z",
+      "end_at_utc": "2026-10-25T20:11:58Z",
+      "elapsed_seconds": 34.12903091707267
+    },
+    {
+      "stage": "secondary_v2",
+      "start_at_utc": "2026-10-25T20:11:58Z",
+      "end_at_utc": "2026-10-25T20:12:01Z",
+      "elapsed_seconds": 2.9081035829149187
+    },
+    {
+      "stage": "robustness_paired_v12",
+      "start_at_utc": "2026-10-25T20:12:01Z",
+      "end_at_utc": "2026-10-25T20:13:19Z",
+      "elapsed_seconds": 78.56537587498315
+    },
+    {
+      "stage": "initial_lcmap_v17",
+      "start_at_utc": "2026-10-25T20:13:19Z",
+      "end_at_utc": "2026-10-25T20:13:45Z",
+      "elapsed_seconds": 26.01909695798531
+    },
+    {
+      "stage": "geography_lcmap_v18",
+      "start_at_utc": "2026-10-25T20:13:45Z",
+      "end_at_utc": "2026-10-25T20:13:47Z",
+      "elapsed_seconds": 2.018248208099976
+    },
+    {
+      "stage": "class_lcmap_v19",
+      "start_at_utc": "2026-10-25T20:13:47Z",
+      "end_at_utc": "2026-10-25T20:13:49Z",
+      "elapsed_seconds": 1.7538935409393162
+    },
+    {
+      "stage": "reference_access_lcmap_v20",
+      "start_at_utc": "2026-10-25T20:13:49Z",
+      "end_at_utc": "2026-10-25T20:14:25Z",
+      "elapsed_seconds": 35.42029241705313
+    },
+    {
+      "stage": "direct_inputs_lcmap_v23",
+      "start_at_utc": "2026-10-25T20:14:25Z",
+      "end_at_utc": "2026-10-25T20:14:36Z",
+      "elapsed_seconds": 11.082359374966472
+    },
+    {
+      "stage": "main_figures",
+      "start_at_utc": "2026-10-25T20:14:36Z",
+      "end_at_utc": "2026-10-25T20:14:36Z",
+      "elapsed_seconds": 0.615100875031203
+    },
+    {
+      "stage": "diagnostic_figures",
+      "start_at_utc": "2026-10-25T20:14:36Z",
+      "end_at_utc": "2026-10-25T20:14:37Z",
+      "elapsed_seconds": 0.5117676251102239
+    },
+    {
+      "stage": "nlcd_v4",
+      "start_at_utc": "2026-10-25T20:14:37Z",
+      "end_at_utc": "2026-10-25T20:15:16Z",
+      "elapsed_seconds": 38.85485875001177
+    },
+    {
+      "stage": "initial_nlcd_v17",
+      "start_at_utc": "2026-10-25T20:15:16Z",
+      "end_at_utc": "2026-10-25T20:15:38Z",
+      "elapsed_seconds": 21.848866916028783
+    },
+    {
+      "stage": "geography_nlcd_v18",
+      "start_at_utc": "2026-10-25T20:15:38Z",
+      "end_at_utc": "2026-10-25T20:15:40Z",
+      "elapsed_seconds": 2.132116416003555
+    },
+    {
+      "stage": "class_nlcd_v19",
+      "start_at_utc": "2026-10-25T20:15:40Z",
+      "end_at_utc": "2026-10-25T20:15:46Z",
+      "elapsed_seconds": 5.870017832843587
+    },
+    {
+      "stage": "reference_access_nlcd_v20",
+      "start_at_utc": "2026-10-25T20:15:46Z",
+      "end_at_utc": "2026-10-25T20:16:26Z",
+      "elapsed_seconds": 40.25750962481834
+    },
+    {
+      "stage": "direct_inputs_nlcd_v23",
+      "start_at_utc": "2026-10-25T20:16:26Z",
+      "end_at_utc": "2026-10-25T20:16:39Z",
+      "elapsed_seconds": 12.728351917117834
+    },
+    {
+      "stage": "direct_input_figures",
+      "start_at_utc": "2026-10-25T20:16:39Z",
+      "end_at_utc": "2026-10-25T20:16:39Z",
+      "elapsed_seconds": 0.4878689171746373
+    },
+    {
+      "stage": "native_v5",
+      "start_at_utc": "2026-10-25T20:16:39Z",
+      "end_at_utc": "2026-10-25T20:16:39Z",
+      "elapsed_seconds": 0.12585854204371572
+    },
+    {
+      "stage": "unfinished_native_pairs_v21",
+      "start_at_utc": "2026-10-25T20:16:39Z",
+      "end_at_utc": "2026-10-25T20:16:55Z",
+      "elapsed_seconds": 15.27644516620785
+    },
+    {
+      "stage": "native_single_date_v22",
+      "start_at_utc": "2026-10-25T20:16:55Z",
+      "end_at_utc": "2026-10-25T20:17:10Z",
+      "elapsed_seconds": 15.31737191719003
+    },
+    {
+      "stage": "native_identity_v22",
+      "start_at_utc": "2026-10-25T20:17:10Z",
+      "end_at_utc": "2026-10-25T20:17:10Z",
+      "elapsed_seconds": 0.02169591700658202
+    },
+    {
+      "stage": "display_tables",
+      "start_at_utc": "2026-10-25T20:17:10Z",
+      "end_at_utc": "2026-10-25T20:17:10Z",
+      "elapsed_seconds": 0.016396041959524155
+    },
+    {
+      "stage": "saved_flag_audit",
+      "start_at_utc": "2026-10-25T20:17:10Z",
+      "end_at_utc": "2026-10-25T20:17:11Z",
+      "elapsed_seconds": 0.6467125830240548
+    }
+  ],
+  "source_unchanged": true,
+  "source_files_before": 8916,
+  "source_files_after": 8916,
+  "network_used": false,
+  "ai_api_calls": 0,
+  "working_copy_excluded_from_git": true,
+  "source_integrity_method": "All source working-file membership and SHA256 excluding.git; bundled compressed before/after inventories in review/.",
+  "recorded_at_utc": "2026-10-25T20:18:40Z",
+  "note": "Author rerun after AI-agent review; not independent reproduction.",
+  "covered_scientific_protocols": [
+    "critique-api-plan.md",
+    "critique-decisions.md",
+    "data-access-nlcd.md",
+    "deviations.md",
+    "interpretation-clarification.md",
+    "plan-v1.md",
+    "plan-v10.md",
+    "plan-v11.md",
+    "plan-v12.md",
+    "plan-v13.md",
+    "plan-v14.md",
+    "plan-v15.md",
+    "plan-v16.md",
+    "plan-v17.md",
+    "plan-v18.md",
+    "plan-v19.md",
+    "plan-v2.md",
+    "plan-v20.md",
+    "plan-v21.md",
+    "plan-v22.md",
+    "plan-v23.md",
+    "plan-v24.md",
+    "plan-v3.md",
+    "plan-v4.md",
+    "plan-v5.md",
+    "plan-v6.md",
+    "plan-v7.md",
+    "plan-v8.md",
+    "plan-v9.md",
+    "review-analysis-v1.md",
+    "saved-cohort-history-check.md",
+    "topic-selection.md",
+    "v15-recovery.md",
+    "v22-identity-reporting.md",
+    "verification-review-1.md",
+    "verification-v1.md",
+    "verification-v2.md",
+    "verification-v3.md"
+  ],
+  "coverage_note": "Includes every original numerical stage and exploratory post-review exact-fold/reference/ranking diagnostics; later changes are reporting only.",
+  "scientific_script_sha256": {
+    "scripts/analyse.py": "003f132b300d49189708183f3dad1d991002c5ae4dbefd72be6d1d07761601ee",
+    "scripts/api_wrapper.py": "4201626f3e1c93efe1499c0483adf15d60606ada56eb0123982e3c56bb11d453",
+    "scripts/audit_saved.py": "a4285d127c74823aa027e372f4227a1580207bdad9742412d540012f0430a930",
+    "scripts/closed_aef.py": "f5c0a98a3eb05a8f0b5544b22592d85487405c7556a8ec18f0c7ed2bb02d954b",
+    "scripts/cohort_history_feasibility.py": "5343809ed1c5c11a26325c5a613fd554544ea5669b10ffa5bef3b15c3573fd89",
+    "scripts/diagnostic_figures.py": "1a639edaf71f5484493a2020bcf891d4129052f7781175270d711fc87ae11b15",
+    "scripts/direct_inputs.py": "ff9d57cf25b7ae3bf624ebbef3e1a2ea83ed16215fe181e1cd241572f8207fb5",
+    "scripts/endpoint.py": "6e22511ac1af3f367b4cab463b5444ef517abf23afda11e5875b2606d7fa0a43",
+    "scripts/extend_nlcd.py": "769c502234e12c96135ac9675616fffc4a014a8a954ea07423c84aaf313e5fa7",
+    "scripts/features.py": "ff207b68c8c36f945a918ed162f649f6144aa2d74c4701567c0f4edc9327d447",
+    "scripts/figures.py": "e0a90aa75d77a08b9f7bfcb44eb1f9043e9653fcc0bdcc5c19353875d3fc7714",
+    "scripts/geography.py": "76eb3924d17cceafd90abd06f2cef0b401bebf9fb93adb58582e7c7c4fb2c1bb",
+    "scripts/initial_class.py": "60afa5b4608f0a6ebd04cdb785a2cf6c3df911badd6d0d8fe924b9b68f5aea4c",
+    "scripts/initial_readouts.py": "5aa6412c2a36e9f6f4a2b25066229962a871cb824c710942d081b04d9a593d85",
+    "scripts/input_figures.py": "9d42e9ee9501d9b6e5e2382eb2c4a9c598b0b39fcc881adca55f793459684daa",
+    "scripts/native_check.py": "c18e62e0d36b279ca7cbdd3290813481c00d3b52eccdfbc4c7dddcef2d52ffdf",
+    "scripts/native_identity.py": "676f3615514530c2821bbd1c6f1cd849401be6cf86d5e92fa1ed9857550009a4",
+    "scripts/native_pairs.py": "b80a116a728ebd46759ec71bde26011d47169e3728f1db91dea979a4e9d33073",
+    "scripts/partition_sensitivity.py": "35a31a81a60c22dfc29842f62074d3332580985176a44baa95713946a632dbb4",
+    "scripts/prepare.py": "ff6dcb2d63fc15fbf69248aafeb56244798840a6cac5fc305c2cd212d78c526d",
+    "scripts/prepare_controls.py": "b1adc4cfd841941735954f8afabd77e0221efb885dca0118976f83f6391e8ce8",
+    "scripts/prepare_nlcd.py": "f17fd8b8cfa917e60f4069470555111b7c9a242c029437ff8dbaee167414afbe",
+    "scripts/presentation.py": "3e04b734014b2dc387b309db50d86a2038369fbbb59c52c328ff5cb8b3035203",
+    "scripts/record.py": "b266801649a19295d32af4428de427970eef7e98f3b4ecbf10e76f7adbeb3820",
+    "scripts/reference_access.py": "25f580ea29a1e5b2cef774b6bb3776187c7c8ec38a5b5a9b00dc98a259d15fa2",
+    "scripts/reference_completeness.py": "cfb24377bd38d3c3e1c645fa73e8c3ed2f2c00ba396381fe59407547d12c451d",
+    "scripts/reproduce.py": "38b586b2cd80f6d5a1ba1cf5f57aa91a77684cdc16fa1c2b9fe28465537a57a6",
+    "scripts/review_diagnostics.py": "2fc8bb402915e54e3160add14a69bd5b7513d81dae2d334915f926d736b4c4c0",
+    "scripts/robustness.py": "3694e366d1142106643ba57fc6df167146d8e0ce28340e47a0c4e2031c7f3a8a",
+    "scripts/route_recover.py": "2c1eb8641da88f2e6414bc9b54413a95a81bb268b1a225f5cc9633a81ba3d50e",
+    "scripts/secondary.py": "bfdb25b9bd24b8d904b469a3bd8e1982af2a14fae853c7dfe308f67e30a49826"
+  }
+}

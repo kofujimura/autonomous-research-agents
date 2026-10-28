@@ -1,0 +1,62 @@
+[
+  {
+    "region": "R01",
+    "product": "tessera",
+    "year": 2021,
+    "start_time_utc": "2026-10-28T02:42:31.057085+00:00",
+    "end_time_utc": "2026-10-28T02:42:48.185194+00:00",
+    "elapsed_seconds": 17.127973333001137,
+    "error": null,
+    "input_selected_sha256": "399c234c2cde1d999e6f15eaa2dc6142d482e4499a27ab282053a92ff49890f0"
+  },
+  {
+    "region": "R02",
+    "product": "tessera",
+    "year": 2021,
+    "start_time_utc": "2026-10-28T02:42:48.187169+00:00",
+    "end_time_utc": "2026-10-28T02:43:02.763494+00:00",
+    "elapsed_seconds": 14.576299665961415,
+    "error": null,
+    "input_selected_sha256": "7a5b2872eb6bc03634c09fcb8c771b477c2f426ff4a56608110b32f890409268"
+  },
+  {
+    "region": "R03",
+    "product": "tessera",
+    "year": 2021,
+    "start_time_utc": "2026-10-28T02:43:02.769314+00:00",
+    "end_time_utc": "2026-10-28T02:43:15.435310+00:00",
+    "elapsed_seconds": 12.665973250055686,
+    "error": null,
+    "input_selected_sha256": "fd978ed7e0d844d2018666e506d0cad876aba442e26517360d258636aab801c1"
+  },
+  {
+    "region": "R04",
+    "product": "tessera",
+    "year": 2021,
+    "start_time_utc": "2026-10-28T02:43:15.447589+00:00",
+    "end_time_utc": "2026-10-28T02:43:31.896498+00:00",
+    "elapsed_seconds": 14.447908958187327,
+    "error": null,
+    "input_selected_sha256": "78c51b16c3f42a57528e7749ae51225c0334d597d1401e2e56dca6e30f3b7dc2"
+  },
+  {
+    "region": "R05",
+    "product": "tessera",
+    "year": 2021,
+    "start_time_utc": "2026-10-28T02:43:31.897562+00:00",
+    "end_time_utc": "2026-10-28T02:43:43.047896+00:00",
+    "elapsed_seconds": 11.150313667021692,
+    "error": null,
+    "input_selected_sha256": "5dade49e15c593584dff3f271965308f2da180582572a83e486e8b05b98d6c19"
+  },
+  {
+    "region": "R06",
+    "product": "tessera",
+    "year": 2021,
+    "start_time_utc": "2026-10-28T02:43:43.048581+00:00",
+    "end_time_utc": "2026-10-28T02:43:52.505099+00:00",
+    "elapsed_seconds": 9.456499832915142,
+    "error": null,
+    "input_selected_sha256": "12d2ec168094a065358c0425d478a1da1b928888570070b15314928ee3e2bea1"
+  }
+]

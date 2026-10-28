@@ -1,0 +1,128 @@
+{
+  "plan": "protocol/plan-v14-review-response.md",
+  "primary_cases": 12096,
+  "informative_cases": 2871,
+  "median_observed_patterns_informative": 19.0,
+  "pruning": [
+    {
+      "surviving_states": "\u226410",
+      "cases": 103,
+      "pair_identified": 87,
+      "identified_fraction": 0.8446601941747572,
+      "mean_pair_width": 0.008349514563106794
+    },
+    {
+      "surviving_states": "11\u201350",
+      "cases": 1158,
+      "pair_identified": 538,
+      "identified_fraction": 0.46459412780656306,
+      "mean_pair_width": 0.036925734024179625
+    },
+    {
+      "surviving_states": "51\u2013100",
+      "cases": 658,
+      "pair_identified": 230,
+      "identified_fraction": 0.3495440729483283,
+      "mean_pair_width": 0.05490193949920394
+    },
+    {
+      "surviving_states": "101\u2013500",
+      "cases": 773,
+      "pair_identified": 196,
+      "identified_fraction": 0.2535575679172057,
+      "mean_pair_width": 0.07184940089377348
+    },
+    {
+      "surviving_states": ">500",
+      "cases": 179,
+      "pair_identified": 17,
+      "identified_fraction": 0.09497206703910614,
+      "mean_pair_width": 0.12105493602186485
+    }
+  ],
+  "width_window": [
+    {
+      "cost_ratio": 0.1,
+      "stratum": "all",
+      "cases": 12096,
+      "wide_cases": 2928,
+      "certified_cases": 10389,
+      "wide_and_certified": 1553
+    },
+    {
+      "cost_ratio": 0.1,
+      "stratum": "near_boundary",
+      "cases": 5285,
+      "wide_cases": 530,
+      "certified_cases": 4424,
+      "wide_and_certified": 1
+    },
+    {
+      "cost_ratio": 0.1,
+      "stratum": "informative_near_boundary",
+      "cases": 532,
+      "wide_cases": 460,
+      "certified_cases": 1,
+      "wide_and_certified": 1
+    },
+    {
+      "cost_ratio": 0.25,
+      "stratum": "all",
+      "cases": 12096,
+      "wide_cases": 2928,
+      "certified_cases": 10582,
+      "wide_and_certified": 1414
+    },
+    {
+      "cost_ratio": 0.25,
+      "stratum": "near_boundary",
+      "cases": 695,
+      "wide_cases": 692,
+      "certified_cases": 17,
+      "wide_and_certified": 14
+    },
+    {
+      "cost_ratio": 0.25,
+      "stratum": "informative_near_boundary",
+      "cases": 693,
+      "wide_cases": 690,
+      "certified_cases": 16,
+      "wide_and_certified": 13
+    },
+    {
+      "cost_ratio": 0.5,
+      "stratum": "all",
+      "cases": 12096,
+      "wide_cases": 2928,
+      "certified_cases": 10622,
+      "wide_and_certified": 1455
+    },
+    {
+      "cost_ratio": 0.5,
+      "stratum": "near_boundary",
+      "cases": 627,
+      "wide_cases": 622,
+      "certified_cases": 6,
+      "wide_and_certified": 2
+    },
+    {
+      "cost_ratio": 0.5,
+      "stratum": "informative_near_boundary",
+      "cases": 623,
+      "wide_cases": 621,
+      "certified_cases": 3,
+      "wide_and_certified": 2
+    }
+  ],
+  "informative_pair_width_by_geometry": {
+    "compact": 0.029516753176163195,
+    "dispersed": 0.08468199248900686
+  },
+  "exploratory": [
+    "pruning-summary.csv",
+    "width-window-diagnostic.csv"
+  ],
+  "prespecified_reporting": [
+    "geometry-lead-summary.csv"
+  ]
+}

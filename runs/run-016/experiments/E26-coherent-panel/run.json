@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E26-coherent-panel",
+  "start_time_utc": "2026-10-26T21:38:38.036086Z",
+  "end_time_utc": "2026-10-26T21:38:50.927962Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/panel_analysis.py",
+    "--destination",
+    "results/coherent-panel"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v11-coherent-panel.md",
+  "plan_commit_id": "ca9f3ff52accb0adfbbb3c34a015807a01136239",
+  "plan_sha256": "9e1fb5a9047de85779575fb004e2a5af41390c5a6de32efdbbc01da179c0b7b1",
+  "code_commit_id": "ca9f3ff52accb0adfbbb3c34a015807a01136239",
+  "inputs": [
+    {
+      "path": "data/population-main-v1.json",
+      "sha256": "f2a5a27f70792807a8f29d289a559641c9b30a64636e9ddfe59eb63c1d91cb07"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E26-coherent-panel/stdout.txt",
+  "stderr_path": "experiments/E26-coherent-panel/stderr.txt",
+  "start_event_id": "E0316",
+  "pid": 7492,
+  "elapsed_seconds": 12.891821792116389,
+  "end_event_id": "E0319"
+}

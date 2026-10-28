@@ -1,0 +1,10 @@
+{
+  "inputs": [
+    "/Users/fujimura/Research/ai-free-research-en/run-014/analysis/main-v1",
+    "/Users/fujimura/Research/ai-free-research-en/run-014/analysis/secondary-v2",
+    "/Users/fujimura/Research/ai-free-research-en/run-014/analysis/nlcd-v4",
+    "/Users/fujimura/Research/ai-free-research-en/run-014/analysis/native-v5"
+  ],
+  "rounding": "Once on display; three decimals for rates/differences, six for native diagnostics.",
+  "methods_selected": "Explicit protocol-primary contrasts and fixed conditional-state comparators; full tables retain all methods."
+}

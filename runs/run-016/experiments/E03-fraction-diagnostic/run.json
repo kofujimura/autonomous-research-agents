@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E03-fraction-diagnostic",
+  "start_time_utc": "2026-10-26T16:01:40.016140Z",
+  "end_time_utc": "2026-10-26T16:01:55.780021Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/inspect_fraction_values.py"
+  ],
+  "timeout_seconds": 600,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "ec3a65be4cfe8587930b033f662b855a68ac2b71",
+  "plan_sha256": "ebe46e22b043010d9683376e5d76768edcaefe52760cdde4354e8a751cc29eb5",
+  "code_commit_id": "ec3a65be4cfe8587930b033f662b855a68ac2b71",
+  "inputs": [
+    {
+      "path": "data/catalogue-manifest.json",
+      "sha256": "422eda275322c49c14616d346c0bf917c62d8f742d6a4b3001623aab101e2f93"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E03-fraction-diagnostic/stdout.txt",
+  "stderr_path": "experiments/E03-fraction-diagnostic/stderr.txt",
+  "start_event_id": "E0054",
+  "pid": 92058,
+  "elapsed_seconds": 15.764016167027876,
+  "end_event_id": "E0055"
+}

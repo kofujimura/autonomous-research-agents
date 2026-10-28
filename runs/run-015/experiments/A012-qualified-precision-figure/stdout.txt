@@ -1,0 +1,334 @@
+{"started_at_utc": "2026-10-26T09:14:22Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/summarize.py", "--root", "/Users/fujimura/Research/ai-free-research-en/run-015", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/primary"]}
+{
+  "scheduled_dates": 29,
+  "matched_dates": 28,
+  "matched_date_list": [
+    "20260603",
+    "20260607",
+    "20260611",
+    "20260615",
+    "20260619",
+    "20260623",
+    "20260627",
+    "20260705",
+    "20260713",
+    "20260717",
+    "20260721",
+    "20260725",
+    "20260729",
+    "20260802",
+    "20260806",
+    "20260810",
+    "20260814",
+    "20260818",
+    "20260822",
+    "20260826",
+    "20260830",
+    "20260903",
+    "20260907",
+    "20260911",
+    "20260915",
+    "20260919",
+    "20260923",
+    "20260927"
+  ],
+  "scheduled_forecast_units": 116,
+  "complete_forecast_units": 115,
+  "all_available_rows": 37260,
+  "primary_cases": 12096,
+  "primary_informative_cases": 2871,
+  "primary_historical_missing": 1296,
+  "max_primal_residual": 9.50706180447014e-12,
+  "max_dual_violation": 5.137557046452912e-12,
+  "max_duality_gap": 1.393662962811959e-12,
+  "status": "adequate_predeclared_date_count",
+  "bootstrap_repetitions": 2000,
+  "bootstrap_block_length": 3,
+  "design_sha256": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12"
+}
+{"started_at_utc": "2026-10-26T09:14:37Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/summarize_subsets.py", "--root", "/Users/fujimura/Research/ai-free-research-en/run-015", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/subsets"]}
+{
+  "exploratory": true,
+  "scheduled_dates": 29,
+  "matched_dates": 28,
+  "matched_date_list": [
+    "20260603",
+    "20260607",
+    "20260611",
+    "20260615",
+    "20260619",
+    "20260623",
+    "20260627",
+    "20260705",
+    "20260713",
+    "20260717",
+    "20260721",
+    "20260725",
+    "20260729",
+    "20260802",
+    "20260806",
+    "20260810",
+    "20260814",
+    "20260818",
+    "20260822",
+    "20260826",
+    "20260830",
+    "20260903",
+    "20260907",
+    "20260911",
+    "20260915",
+    "20260919",
+    "20260923",
+    "20260927"
+  ],
+  "complete_forecast_units": 115,
+  "available_rows": 198720,
+  "matched_cases": 193536,
+  "informative_cases": 36337,
+  "encoding": {
+    "members": 50,
+    "universe_sites": 12,
+    "bits_per_counter": 6,
+    "marginal_bits": 72,
+    "marginal_bytes": 9,
+    "pair_bits": 468,
+    "pair_bytes": 59,
+    "pair_scalar_entries": 78,
+    "count_bits": 144,
+    "count_bytes": 18,
+    "count_scalar_entries": 24,
+    "coherent_mask_bits": 600,
+    "coherent_mask_bytes": 75,
+    "round_trip_errors": 0,
+    "scope": "Analytic fixed-width payload budgets, excluding headers/metadata/general compression; no optimal coding or measured traffic claim"
+  },
+  "oracle_max_absolute_error": 2.220446049250313e-16,
+  "max_primal_residual": 5.964118088286341e-13,
+  "max_dual_violation": 8.245515381588575e-12,
+  "max_duality_gap": 1.9317880628477724e-13
+}
+{"started_at_utc": "2026-10-26T09:14:46Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/summarize_city_time.py", "--root", "/Users/fujimura/Research/ai-free-research-en/run-015", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/city-time"]}
+{
+  "scheduled_dates": 12,
+  "matched_dates": 5,
+  "matched_date_list": [
+    "20260603",
+    "20260709",
+    "20260729",
+    "20260826",
+    "20260927"
+  ],
+  "complete_horizons": 22,
+  "complete_raw_forecast_units": 90,
+  "matched_cases": 8640,
+  "all_available_cases": 9504,
+  "exploratory": true,
+  "status": "undersized_or_incomplete",
+  "bootstrap_block_length": 2,
+  "bootstrap_repetitions": 2000,
+  "maximum_below_snapshot_cases": 0,
+  "old_members_compared": 1091,
+  "temperature_value_mismatches": 0,
+  "grib_hash_mismatches": 0,
+  "max_primal_residual": 5.956013460206577e-11,
+  "max_dual_violation": 2.192246384424834e-11,
+  "max_duality_gap": 1.6718848527830232e-12,
+  "design_sha256": "b32b2be5bab4474dfdd67c7d925eb44ad5c1b59b4148314dce11624685b68d24",
+  "land_fraction_diagnostic_available": true,
+  "land_fraction_input_sha256": "d040a36ecab5932553effa93060f9e18c1bcd70dd91a4f13164aaadafcb3bdfc"
+}
+{"started_at_utc": "2026-10-26T09:14:47Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/check_city_condition.py", "--directory", "/Users/fujimura/Research/ai-free-research-en/run-015/results/city-time", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/city-time/condition-audit.json"]}
+{"status": "passed", "observed_at_utc": "2026-10-26T09:14:48Z", "paired_rows": 4752, "summary_rows_checked": 162, "scope": "Direct counts and mean differences from saved cases; land flags recomputed from the bundled mask table. No new scientific comparison."}
+{"started_at_utc": "2026-10-26T09:14:48Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/coverage_robustness.py", "--primary", "/Users/fujimura/Research/ai-free-research-en/run-015/results/primary", "--subsets", "/Users/fujimura/Research/ai-free-research-en/run-015/results/subsets", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/coverage"]}
+{
+  "exploratory": true,
+  "scheduled_primary_cases": 12528,
+  "available_primary_cases": 12420,
+  "missing_primary_cases": 108,
+  "subset_envelopes": [
+    {
+      "stratum": "all",
+      "available_cases": 198720,
+      "unavailable_cases_or_unknown_eligibility": 1728,
+      "available_case_mean": 0.03052928228058405,
+      "full_schedule_difference_lower": 0.021645409157475565,
+      "full_schedule_difference_upper": 0.03888678846782039
+    },
+    {
+      "stratum": "informative",
+      "available_cases": 37879,
+      "unavailable_cases_or_unknown_eligibility": 1728,
+      "available_case_mean": 0.10547072225097102,
+      "full_schedule_difference_lower": 0.05724052536532764,
+      "full_schedule_difference_upper": 0.14449782836732222
+    }
+  ],
+  "scope": "Conservative missing-data envelopes, not sharp law bounds or confidence intervals; no missing-at-random assumption. Descriptive convenience-calendar resampling and geography weighting."
+}
+{"started_at_utc": "2026-10-26T09:14:49Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/midpoint_controls.py", "--cases", "/Users/fujimura/Research/ai-free-research-en/run-015/results/primary/cases.csv", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/midpoints"]}
+Midpoint controls generated
+{"started_at_utc": "2026-10-26T09:14:50Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/report_secondary.py", "--cases", "/Users/fujimura/Research/ai-free-research-en/run-015/results/primary/cases.csv", "--secondary", "/Users/fujimura/Research/ai-free-research-en/run-015/results/secondary-runs", "--members", "/Users/fujimura/Research/ai-free-research-en/run-015/results/member-sensitivity", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/sensitivity"]}
+{
+  "expected_selected_cases": 120,
+  "integer_cases_recorded": 120,
+  "epsilon_cases_recorded": 120,
+  "integer": [
+    {
+      "mode": "aggregate",
+      "attempted": 120,
+      "optimal_cases": 109,
+      "unresolved_cases": 11,
+      "mean_continuous_width_on_completed": 0.32534659901770036,
+      "mean_integer_width": 0.30568807339449544,
+      "mean_width_reduction": 0.01965852562320493,
+      "max_width_reduction": 0.06814814814814785,
+      "nonzero_reduction_cases": 99
+    },
+    {
+      "mode": "pair",
+      "attempted": 120,
+      "optimal_cases": 120,
+      "unresolved_cases": 0,
+      "mean_continuous_width_on_completed": 0.05142146464646467,
+      "mean_integer_width": 0.04966666666666667,
+      "mean_width_reduction": 0.0017547979797979951,
+      "max_width_reduction": 0.026242424242424955,
+      "nonzero_reduction_cases": 18
+    }
+  ],
+  "epsilon": [
+    {
+      "epsilon": 0.0,
+      "cases": 120,
+      "dates": 27,
+      "mean_width": 0.05142146464646467,
+      "identified_count": 44,
+      "min_width": -3.3306690738754696e-16,
+      "max_width": 0.3450000000000001
+    },
+    {
+      "epsilon": 0.005,
+      "cases": 120,
+      "dates": 27,
+      "mean_width": 0.18577037630253856,
+      "identified_count": 0,
+      "min_width": 0.07000000000000006,
+      "max_width": 0.5100000000000002
+    },
+    {
+      "epsilon": 0.02,
+      "cases": 120,
+      "dates": 27,
+      "mean_width": 0.3712287366765486,
+      "identified_count": 0,
+      "min_width": 0.15897435897435896,
+      "max_width": 0.6933333333333334
+    }
+  ],
+  "members": [
+    {
+      "members": 10,
+      "stratum": "all",
+      "cases": 12096,
+      "dates": 28,
+      "q_zero": 4546,
+      "q_one": 4231,
+      "at_most_two_uncertain": 6414,
+      "marginal_width": 0.1258228189037961,
+      "marginal_identified_count": 8363,
+      "aggregate_width": 0.060532142903867124,
+      "aggregate_identified_count": 9255,
+      "pair_width": 0.0006489748677248682,
+      "pair_identified_count": 12033
+    },
+    {
+      "members": 10,
+      "stratum": "informative",
+      "cases": 3176,
+      "dates": 28,
+      "q_zero": 0,
+      "q_one": 0,
+      "at_most_two_uncertain": 0,
+      "marginal_width": 0.45279918086042137,
+      "marginal_identified_count": 0,
+      "aggregate_width": 0.2150366760405728,
+      "aggregate_identified_count": 792,
+      "pair_width": 0.002314231738035266,
+      "pair_identified_count": 3117
+    },
+    {
+      "members": 25,
+      "stratum": "all",
+      "cases": 12096,
+      "dates": 28,
+      "q_zero": 4162,
+      "q_one": 3764,
+      "at_most_two_uncertain": 5556,
+      "marginal_width": 0.13684344686948852,
+      "marginal_identified_count": 7381,
+      "aggregate_width": 0.08054041817098619,
+      "aggregate_identified_count": 7765,
+      "pair_width": 0.005543826343125501,
+      "pair_identified_count": 11262
+    },
+    {
+      "members": 25,
+      "stratum": "informative",
+      "cases": 2726,
+      "dates": 28,
+      "q_zero": 0,
+      "q_one": 0,
+      "at_most_two_uncertain": 0,
+      "marginal_width": 0.5212004914462727,
+      "marginal_identified_count": 0,
+      "aggregate_width": 0.2998174789769619,
+      "aggregate_identified_count": 69,
+      "pair_width": 0.021892194954675738,
+      "pair_identified_count": 2018
+    },
+    {
+      "members": 50,
+      "stratum": "all",
+      "cases": 12096,
+      "dates": 28,
+      "q_zero": 3941,
+      "q_one": 3469,
+      "at_most_two_uncertain": 5064,
+      "marginal_width": 0.1406502989313009,
+      "marginal_identified_count": 6801,
+      "aggregate_width": 0.08849821982899049,
+      "aggregate_identified_count": 7000,
+      "pair_width": 0.014241999831565003,
+      "pair_identified_count": 9895
+    },
+    {
+      "members": 50,
+      "stratum": "informative",
+      "cases": 2871,
+      "dates": 28,
+      "q_zero": 0,
+      "q_one": 0,
+      "at_most_two_uncertain": 0,
+      "marginal_width": 0.5138929469849011,
+      "marginal_identified_count": 0,
+      "aggregate_width": 0.31462785031737533,
+      "aggregate_identified_count": 6,
+      "pair_width": 0.05466872052569728,
+      "pair_identified_count": 1068
+    }
+  ],
+  "scope": "Integer optimality only claimed for status0; moment perturbations are not confidence sets; member informative strata use each sample own criterion and may differ in composition."
+}
+{"started_at_utc": "2026-10-26T09:14:56Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/common_member_queries.py", "--cases", "/Users/fujimura/Research/ai-free-research-en/run-015/results/sensitivity/member-cases.csv", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/common-members"]}
+[{"stratum": "M50_informative", "members": 10, "cases": 2871, "dates": 28, "q_zero": 112, "q_one": 131, "at_most_two_uncertain": 78, "marginal_width": 0.46937771253863203, "marginal_identified": 147, "marginal_difference_from_M50": -0.04451523444626894, "aggregate_width": 0.22387689076665082, "aggregate_identified": 717, "aggregate_difference_from_M50": -0.09075095955072449, "pair_width": 0.002594914663880182, "pair_identified": 2812, "pair_difference_from_M50": -0.0520738058618171}, {"stratum": "M50_informative", "members": 25, "cases": 2871, "dates": 28, "q_zero": 7, "q_one": 3, "at_most_two_uncertain": 5, "marginal_width": 0.5036589817164531, "marginal_identified": 2, "marginal_difference_from_M50": -0.010233965268448046, "aggregate_width": 0.2902699758360506, "aggregate_identified": 97, "aggregate_difference_from_M50": -0.024357874481324752, "pair_width": 0.021471539572662044, "pair_identified": 2141, "pair_difference_from_M50": -0.03319718095303524}, {"stratum": "M50_informative", "members": 50, "cases": 2871, "dates": 28, "q_zero": 0, "q_one": 0, "at_most_two_uncertain": 0, "marginal_width": 0.5138929469849011, "marginal_identified": 0, "marginal_difference_from_M50": 0.0, "aggregate_width": 0.3146278503173753, "aggregate_identified": 6, "aggregate_difference_from_M50": 0.0, "pair_width": 0.05466872052569728, "pair_identified": 1068, "pair_difference_from_M50": 0.0}, {"stratum": "common_informative", "members": 10, "cases": 2405, "dates": 28, "q_zero": 0, "q_one": 0, "at_most_two_uncertain": 0, "marginal_width": 0.5299639144639144, "marginal_identified": 0, "marginal_difference_from_M50": -0.02057391677391679, "aggregate_width": 0.252091410566411, "aggregate_identified": 473, "aggregate_difference_from_M50": -0.0811943898143899, "pair_width": 0.002806652806652808, "pair_identified": 2352, "pair_difference_from_M50": -0.05597027143644314}, {"stratum": "common_informative", "members": 25, "cases": 2405, "dates": 28, "q_zero": 0, "q_one": 0, "at_most_two_uncertain": 0, "marginal_width": 0.5483728673728674, "marginal_identified": 0, "marginal_difference_from_M50": -0.0021649638649638863, "aggregate_width": 0.313902233802234, "aggregate_identified": 51, "aggregate_difference_from_M50": -0.01938356657856691, "pair_width": 0.023266302195334463, "pair_identified": 1745, "pair_difference_from_M50": -0.035510622047761495}, {"stratum": "common_informative", "members": 50, "cases": 2405, "dates": 28, "q_zero": 0, "q_one": 0, "at_most_two_uncertain": 0, "marginal_width": 0.5505378312378312, "marginal_identified": 0, "marginal_difference_from_M50": 0.0, "aggregate_width": 0.33328580038080086, "aggregate_identified": 3, "aggregate_difference_from_M50": 0.0, "pair_width": 0.05877692424309595, "pair_identified": 817, "pair_difference_from_M50": 0.0}]
+{"started_at_utc": "2026-10-26T09:14:57Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/repeated_members.py", "--summarize", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/repeated-members"]}
+{"exploratory": true, "planned_draws": 100, "completed_draws": 100, "draw_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99], "status": "complete", "rows": [{"stratum": "common_informative", "members": 10, "draws": 100, "mean_cases": 101.67, "min_cases": 92, "max_cases": 110, "nonempty_draws": 100, "pair_width_below_M50_draws": 100, "pair_width_mean": 0.0026446613974472283, "pair_width_draw_q025": 1.975028328017384e-18, "pair_width_draw_q975": 0.0077025527192008895, "aggregate_width_mean": 0.26926551232159485, "aggregate_width_draw_q025": 0.24598458789670927, "aggregate_width_draw_q975": 0.2915744864259641, "marginal_width_mean": 0.5275099860974563, "marginal_width_draw_q025": 0.4979448038661771, "marginal_width_draw_q975": 0.5553993296485261, "pair_identified_fraction_mean": 0.978794171505834, "pair_identified_fraction_draw_q025": 0.9470924908424908, "pair_identified_fraction_draw_q975": 1.0, "pair_difference_from_M50_mean": -0.053017649777783886, "pair_difference_from_M50_draw_q025": -0.058415864409400144, "pair_difference_from_M50_draw_q975": -0.047091318218593727}, {"stratum": "common_informative", "members": 25, "draws": 100, "mean_cases": 101.67, "min_cases": 92, "max_cases": 110, "nonempty_draws": 100, "pair_width_below_M50_draws": 100, "pair_width_mean": 0.02064098457401447, "pair_width_draw_q025": 0.015158062234794923, "pair_width_draw_q975": 0.026138911564625857, "aggregate_width_mean": 0.33671194155163725, "aggregate_width_draw_q025": 0.32312272066775427, "aggregate_width_draw_q975": 0.3524353113238389, "marginal_width_mean": 0.5499504019879338, "marginal_width_draw_q025": 0.5302308493589744, "marginal_width_draw_q975": 0.5772879281537177, "pair_identified_fraction_mean": 0.7230322375339199, "pair_identified_fraction_draw_q025": 0.6495000000000001, "pair_identified_fraction_draw_q975": 0.7889924242424242, "pair_difference_from_M50_mean": -0.035021326601216644, "pair_difference_from_M50_draw_q025": -0.04120648110265574, "pair_difference_from_M50_draw_q975": -0.030021647586660444}, {"stratum": "common_informative", "members": 50, "draws": 100, "mean_cases": 101.67, "min_cases": 92, "max_cases": 110, "nonempty_draws": 100, "pair_width_below_M50_draws": 0, "pair_width_mean": 0.055662311175231106, "pair_width_draw_q025": 0.05123147653000596, "pair_width_draw_q975": 0.05925055828695117, "aggregate_width_mean": 0.35453567249025175, "aggregate_width_draw_q025": 0.3446705339472365, "aggregate_width_draw_q975": 0.3637379963021458, "marginal_width_mean": 0.5521654834217863, "marginal_width_draw_q025": 0.5380238356442306, "marginal_width_draw_q975": 0.5674303337924266, "pair_identified_fraction_mean": 0.33985206848195665, "pair_identified_fraction_draw_q025": 0.30380178794578483, "pair_identified_fraction_draw_q975": 0.3781231424608678, "pair_difference_from_M50_mean": 0.0, "pair_difference_from_M50_draw_q025": 0.0, "pair_difference_from_M50_draw_q975": 0.0}, {"stratum": "fixed_M50_informative", "members": 10, "draws": 100, "mean_cases": 120.0, "min_cases": 120, "max_cases": 120, "nonempty_draws": 100, "pair_width_below_M50_draws": 100, "pair_width_mean": 0.0025222222222222247, "pair_width_draw_q025": 1.6075104210718414e-18, "pair_width_draw_q975": 0.0071041666666666605, "aggregate_width_mean": 0.24175841965788888, "aggregate_width_draw_q025": 0.21996420460808513, "aggregate_width_draw_q975": 0.26199222249779464, "marginal_width_mean": 0.4738080324074074, "marginal_width_draw_q025": 0.4449496858465608, "marginal_width_draw_q975": 0.4969634259259259, "pair_identified_fraction_mean": 0.9793333333333333, "pair_identified_fraction_draw_q025": 0.95, "pair_identified_fraction_draw_q975": 1.0, "pair_difference_from_M50_mean": -0.04889924242424244, "pair_difference_from_M50_draw_q025": -0.05142146464646467, "pair_difference_from_M50_draw_q975": -0.04431729797979801}, {"stratum": "fixed_M50_informative", "members": 25, "draws": 100, "mean_cases": 120.0, "min_cases": 120, "max_cases": 120, "nonempty_draws": 100, "pair_width_below_M50_draws": 100, "pair_width_mean": 0.01930368253968255, "pair_width_draw_q025": 0.014775000000000012, "pair_width_draw_q975": 0.023725000000000007, "aggregate_width_mean": 0.31408060732724086, "aggregate_width_draw_q025": 0.30260484782848424, "aggregate_width_draw_q975": 0.3268374490139488, "marginal_width_mean": 0.5088479907407408, "marginal_width_draw_q025": 0.49127749669312165, "marginal_width_draw_q975": 0.5192659490740741, "pair_identified_fraction_mean": 0.7377499999999998, "pair_identified_fraction_draw_q025": 0.675, "pair_identified_fraction_draw_q975": 0.7960416666666666, "pair_difference_from_M50_mean": -0.032117782106782115, "pair_difference_from_M50_draw_q025": -0.036646464646464656, "pair_difference_from_M50_draw_q975": -0.027696464646464664}, {"stratum": "fixed_M50_informative", "members": 50, "draws": 100, "mean_cases": 120.0, "min_cases": 120, "max_cases": 120, "nonempty_draws": 100, "pair_width_below_M50_draws": 0, "pair_width_mean": 0.05142146464646468, "pair_width_draw_q025": 0.05142146464646467, "pair_width_draw_q975": 0.05142146464646467, "aggregate_width_mean": 0.3371454116562452, "aggregate_width_draw_q025": 0.33714541165624523, "aggregate_width_draw_q975": 0.33714541165624523, "marginal_width_mean": 0.5198275132275132, "marginal_width_draw_q025": 0.5198275132275133, "marginal_width_draw_q975": 0.5198275132275133, "pair_identified_fraction_mean": 0.36666666666666664, "pair_identified_fraction_draw_q025": 0.36666666666666664, "pair_identified_fraction_draw_q975": 0.36666666666666664, "pair_difference_from_M50_mean": 0.0, "pair_difference_from_M50_draw_q025": 0.0, "pair_difference_from_M50_draw_q975": 0.0}], "partial_chunk_paths": [], "scope": "Conditional draw variation from a fixed finiteM50dataset, not population confidence or causal size effects."}
+{"started_at_utc": "2026-10-26T09:14:59Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/integer_precision.py", "--cases", "/Users/fujimura/Research/ai-free-research-en/run-015/results/primary/cases.csv", "--summarize", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/integer-precision"]}
+{"exploratory": true, "selected_cases": 120, "recorded_cases": 120, "optimal_cases": 94, "unresolved_cases": 26, "exact_integer_width_mean": 0.04966666666666667, "epsilon005_integer_width_mean": 0.04966666666666667, "epsilon005_lattice_equivalent_cases": 120, "epsilon02_mean_width_lower_bound": 0.3025, "epsilon02_mean_width_upper_bound": 0.36213022922763216, "epsilon02_optimal_mean_width": 0.35702127659574473, "epsilon02_structural_floor_cases": 120, "status": "complete"}
+{"started_at_utc": "2026-10-26T09:15:00Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/make_figures.py", "--primary", "/Users/fujimura/Research/ai-free-research-en/run-015/results/primary", "--subsets", "/Users/fujimura/Research/ai-free-research-en/run-015/results/subsets", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/results/figures", "--city", "/Users/fujimura/Research/ai-free-research-en/run-015/results/city-time", "--secondary", "/Users/fujimura/Research/ai-free-research-en/run-015/results/sensitivity", "--integer-precision", "/Users/fujimura/Research/ai-free-research-en/run-015/results/integer-precision"]}
+Figures regenerated from supplied analysis outputs
+{"started_at_utc": "2026-10-26T09:15:02Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/render_paper.py", "--root", "/Users/fujimura/Research/ai-free-research-en/run-015", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/paper.md"]}
+Manuscript rendered from analysis artifacts: /Users/fujimura/Research/ai-free-research-en/run-015/paper.md
+{"started_at_utc": "2026-10-26T09:15:03Z", "command": ["/Users/fujimura/Research/ai-free-research-en/run-015/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/write_claims.py", "--output", "/Users/fujimura/Research/ai-free-research-en/run-015/claims.jsonl"]}
+{"claims": 19, "exploratory": 11}
+{"status": "completed", "interim": false, "output": "/Users/fujimura/Research/ai-free-research-en/run-015/results", "completed_at_utc": "2026-10-26T09:15:04Z"}

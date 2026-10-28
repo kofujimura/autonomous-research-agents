@@ -1,0 +1,116 @@
+{
+ "meta": {
+  "reviewer": "gemini",
+  "model": "gemini-4-argon",
+  "run": "015",
+  "rep": 1,
+  "started_utc": "2026-10-28T12:23:08Z",
+  "figures": 4,
+  "usage": {
+   "input_tokens": 26699,
+   "output_tokens": 8072,
+   "thought_tokens": 5507,
+   "search_queries": 2
+  },
+  "cost_usd": 0.162118,
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP"
+ },
+ "review": {
+  "summary": "This paper conducts an empirical partial-identification study on operational 50-member weather ensembles (ECMWF IFS and AIFS ENS, June–September 2026) to quantify how tightly low-order spatial summaries bound the probability that at least k of 12 sites exceed a temperature threshold. Using exact linear programming over the 4,096 binary states, the study compares marginal exceedance probabilities alone, marginals plus a single aggregate second binomial moment, and full pairwise co-exceedance probabilities across 12,096 queries (2,871 in a prespecified non-trivial 'informative' stratum). In the informative stratum, mean compatible probability interval widths narrow from 0.5139 (marginals) to 0.3146 (marginals + aggregate moment, capturing 43.4% of narrowing) and 0.0547 (marginals + pairs). Crucially, through member subsampling (M=10, 25, 50), continuous versus integer-lattice moment perturbations, and state-pruning diagnostics, the paper demonstrates that the apparent near-identification by pairwise summaries is heavily driven by exact zero co-exceedance cells in finite ensembles rather than general mathematical sufficiency, and compares these summaries against simple bit-level encodings of the portfolio count distribution and coherent binary masks.",
+  "scores": {
+   "correctness": 5,
+   "verifiability": 4,
+   "novelty": 3,
+   "generality": 3,
+   "usefulness": 3,
+   "clarity": 3
+  },
+  "score_reasons": {
+   "correctness": "The linear programming formulations, integer-lattice comparisons, solver residual checks, and statistical interpretations are mathematically sound and internally consistent across all tables and figures.",
+   "verifiability": "Data sources, LP formulations, solver tolerances, and resampling procedures are documented in detail, though basic physical design parameters (the exact geographic centers, temperature thresholds in degrees, and capacity values k) are deferred to an external JSON file rather than stated in the manuscript text.",
+   "novelty": "While the Hailperin/Boros-Prekopa LP bounds are classical and honestly attributed, applying them to audit spatial information loss and finite-ensemble support artifacts in operational AI and physics-based weather ensembles is a new empirical contribution.",
+   "generality": "The findings are rigorously tested across two forecast systems, two lead times, and multiple geometries, but the 2^n state-space LP inherently restricts the exact methodology to small site portfolios (n=12) and one season of temperature data.",
+   "usefulness": "The study provides valuable diagnostic insights—especially showing that tight pairwise bounds are fragile finite-sample artifacts and that a 600-bit binary mask or 144-bit count distribution is more practical than a 468-bit pairwise table—though the lack of observational verification limits direct operational impact.",
+   "clarity": "Figures, tables, and mathematical definitions are precise, but the prose is heavily burdened by repetitive defensive disclaimers, audit meta-commentary, and 13 appendices of exploratory checks while omitting basic physical coordinates and threshold values from the main text."
+  },
+  "verdict": "minor revision",
+  "overall_10": 6,
+  "workshop_level": "yes",
+  "main_track_level": "borderline",
+  "research_question": {
+   "question": "For 12-site portfolios in operational 50-member weather ensembles, how tightly do marginal exceedance probabilities, an aggregate second binomial moment, and pairwise co-exceedance probabilities bound the probability that at least k sites exceed a temperature threshold, and how sensitive are those bounds to finite-ensemble support and moment precision?",
+   "question_quality": 3,
+   "predictable": "partly",
+   "predictable_reason": "That nested moment constraints tighten LP bounds and that smaller ensemble sizes (fewer support points and more zero cells) yield narrower intervals follow from linear programming structure, but the empirical magnitudes on IFS/AIFS ensembles (such as one scalar moment capturing 43.4% of narrowing) required empirical measurement."
+  },
+  "main_issues": [
+   {
+    "severity": "moderate",
+    "issue": "Omission of core physical parameters from the manuscript text: Section 3.1 states that six geographic centers, two offset geometries, three temperature thresholds, and three capacity fractions were used, but defers their actual values entirely to `protocol/design-v1.json`. A standalone scientific paper must explicitly list the geographic regions/coordinates, the temperature thresholds (in °C or K), and the exact k thresholds in the main text or an appendix."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Scalability limitation of the atom-based LP formulation: Solving the exact partial-identification LP over all 2^n binary states works cleanly for n=12 (4,096 states) but scales exponentially and becomes intractable for realistic gridded domains (e.g., n=100 to 1,000 grid cells). The paper should more explicitly discuss how polynomial-time closed-form bounds (e.g., Boros-Prekopa for aggregate moments) or tree-width relaxations behave when 2^n enumeration is infeasible."
+   },
+   {
+    "severity": "minor",
+    "issue": "Overly defensive meta-commentary and fragmented exploratory structure: The text is saturated with repetitive caveats and process logs (e.g., disclaimers about HTTP transfer errors, git commit hashes, robots.txt policies, and AI review logs) and splits sensitivity analyses across 13 short appendices (A–M), which hurts readability and obscures the narrative flow."
+   },
+   {
+    "severity": "minor",
+    "issue": "Stylized decision certification at cost-loss ratio c=0.1: Because the 'informative' stratum is defined by filtering on 0.1 <= q_k <= 0.9, every query in that stratum satisfies q_k >= 0.1 by construction. Although the paper notes this one-sided truncation, evaluating boundary certification at c=0.1 on a set truncated at 0.1 is an awkward artifact of the stratum definition."
+   }
+  ],
+  "strengths": [
+   "Thorough mechanistic diagnosis of why pairwise summaries appear to nearly identify joint tail probabilities: the paper convincingly proves via member subsampling (M=10, 25, 50), zero-cell state-pruning counts (Appendix M), and continuous vs. integer-lattice moment perturbations that narrow pairwise bounds are largely artifacts of exact zeros in small finite ensembles.",
+   "Practical information-theoretic perspective: comparing the bit-level payload of the coherent binary mask (600 bits) and full count distribution (144 bits) against the margins-plus-pairs table (468 bits) clearly demonstrates that pairwise probability tables are rarely an efficient summary format for fixed-threshold ensemble queries.",
+   "High statistical and numerical rigor: primal/dual LP residuals, integer programming optimality gaps, missing-data schedule envelopes, and circular block-bootstrap intervals across matched initialization dates are all carefully verified.",
+   "Exemplary scholarly honesty regarding prior mathematical literature (Hailperin, Boros-Prekopa, Padmanabhan & Natarajan, Giglio) and transparent separation of prespecified vs. exploratory analyses."
+  ],
+  "closest_prior_work": [
+   {
+    "citation": "Padmanabhan, D., & Natarajan, K. (2021). Tree bounds for sums of Bernoulli random variables: A linear optimization approach. INFORMS Journal on Optimization, 3(1), 23-45.",
+    "url": "https://arxiv.org/pdf/1910.06321v1",
+    "difference": "Formulates the same count-tail linear program with marginal and bivariate Bernoulli moments and studies tree-structured relaxations, whereas the present paper applies the full-pair and aggregate-moment LPs empirically to operational weather ensembles and analyzes finite-ensemble quantization effects."
+   },
+   {
+    "citation": "Ramachandra, A. K., & Natarajan, K. (2023). Tight probability bounds with pairwise independence. SIAM Journal on Discrete Mathematics, 37(2), 516-555.",
+    "url": "https://doi.org/10.1137/21M1408294",
+    "difference": "Reviews the classical Hailperin atom LP and Boros-Prekopa binomial moment bounds and derives theoretical bounds under pairwise independence, whereas the present work evaluates empirically correlated spatial temperature exceedances."
+   },
+   {
+    "citation": "Giglio, S. (2016). Credit default swap spreads and systemic financial risk. ESRB Working Paper No. 15.",
+    "url": "https://www.esrb.europa.eu/pub/pdf/wp/esrbwp15.en.pdf",
+    "difference": "Uses the same count-tail linear programming framework with marginal and pairwise constraints to bound the probability of at least k bank defaults from financial prices, whereas this paper applies the framework to spatial weather forecast ensembles and examines ensemble-size and integer-lattice sensitivities."
+   },
+   {
+    "citation": "Schefzik, R., Thorarinsdottir, T. L., & Gneiting, T. (2013). Uncertainty quantification in complex simulation models using ensemble copula coupling. Statistical Science, 28(4), 616-640.",
+    "url": "https://doi.org/10.1214/13-STS443",
+    "difference": "Addresses the loss of spatial/multivariate dependence in weather ensembles via empirical copula rank reconstruction, whereas this paper bounds the partial-identification ambiguity interval left by low-order moment summaries."
+   },
+   {
+    "citation": "Cooper, F., Nath, S., Weisheimer, A., & Palmer, T. (2026). Histogram compression of large ensemble forecasts. EGU General Assembly 2026, EGU26-15706.",
+    "url": "https://doi.org/10.5194/egusphere-egu26-15706",
+    "difference": "Proposes compressing 1,000-member rainfall ensembles into per-grid-point histograms by discarding spatial correlation, which motivates the present paper's audit of how much joint spatial exceedance ambiguity results from marginal-only summaries."
+   }
+  ],
+  "familiarity": "No, I do not recognize this specific paper prior to reviewing it.",
+  "figures_viewed": true
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP",
+  "web_search_queries": [
+   "\"Ramachandra\" \"Natarajan\" 2023 \"Tight probability bounds with pairwise independence\"",
+   "\"Cooper\" \"Weisheimer\" \"Palmer\" \"Histogram compression of large ensemble forecasts\""
+  ],
+  "sources": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJdVQQE62gg825WrYOxTT6mVas8GOF3lwiPh4LA8QvfCalDsiy3HBdWFgOGZ6xW92yW710ohGhf4X-19W3bvc11J5EAU2YcYHw4Fg7oE5cnONfj0bzEyDyZzvVxuQB66d2EQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCWINoyb_dhv6uItOMRnhQLEIPntrGIjSnGx3SowrjzNNVssCfzMU4kCIv_YXLtkryB2fU1UuOOKnt-kn1-orcrgOwOqpFtnn9KcyDI6tKvweeJyc3uO5qy4WRbhekZUHJh3OSVO1tc-aQBjUHWYX4dlCM8jWrItUmr1Quh5r36wa9-5l3D7Dqn1jcl31ysDtAKXvZ2zfYkchomM8hfvViQYu5BJZF5edh2mZ3Rrsi4qpFc0Q=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQCz0lkqTYKPQHQ2tz5kjUQWcZyKjZ3ljCQjEF6Fz55GYG2zot2VQPokc5j7ieJeGBFyPrcg4jXGx3hHaAnsy0HF0q2w0rqsTwRZ0TZpRalqdtqd1HGpQ0gjbZ2U8edMoH1qQXSh9ErQMirPwi-atJVQsgtA=="
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/swiss_labels.py", line 163, in collect
+    v=reader.tile(year,name);r=k//4;c=k%4
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/swiss_labels.py", line 57, in tile
+    refs=self.refs(year)
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/swiss_labels.py", line 52, in refs
+    name,sub=key.split('/',1)
+    ^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)

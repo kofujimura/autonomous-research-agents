@@ -1,0 +1,140 @@
+{
+ "meta": {
+  "reviewer": "gemini",
+  "model": "gemini-4-argon",
+  "run": "014",
+  "rep": 1,
+  "started_utc": "2026-10-28T12:20:42Z",
+  "figures": 4,
+  "usage": {
+   "input_tokens": 42449,
+   "output_tokens": 9110,
+   "thought_tokens": 5989,
+   "search_queries": 6
+  },
+  "cost_usd": 0.259998,
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP"
+ },
+ "review": {
+  "summary": "This paper evaluates annual satellite embeddings from AlphaEarth Foundations V1 (unofficial geographic mosaic) and TESSERA v1 for screening one-year tree-cover gains and losses in the conterminous United States (CONUS), conditioned on known initial cover classes from LCMAP (2017–2021) and an external Annual NLCD Collection 1.0 Forest test set (2020–2023). Specifically, it tests whether adjusting a baseline start-year reference-forest embedding direction using year-matched (concurrent) references or independent control-plot mean shifts improves transition detection at thresholds calibrated for a nominal 10% false-positive rate on earlier negative examples outside held-out geographic regions. The study finds that reference and control adjustments leave scores nearly unchanged (pooled Spearman rank correlation 0.947–0.996; 1.5–9.2% of alert decisions changed) and yield small, inconsistent changes in Youden's J (-0.037 to +0.011) that reverse sign across alternative calibration partitions. More importantly, the paper demonstrates a stark task asymmetry: while scalar cosine change magnitude strongly discriminates one-year tree-cover losses (AUROC 0.956–0.968), it detects 0 of 24 primary LCMAP tree gains and ranks gain plots below unchanged grass and shrub negatives (AUROC 0.287–0.318 overall; 0.339–0.352 against unchanged-only negatives). Supervised transition and subsequent-state classifiers substantially outperform reference-similarity change scores, and exploratory input ablations show that before-only embeddings retain strong gain discrimination, indicating that apparent one-year gain predictability is largely driven by baseline landscape state rather than the one-year embedding difference vector.",
+  "scores": {
+   "correctness": 4,
+   "verifiability": 5,
+   "novelty": 3,
+   "generality": 2,
+   "usefulness": 3,
+   "clarity": 2
+  },
+  "score_reasons": {
+   "correctness": "All numerical claims are scrupulously aligned with the reported tables and appropriately bounded by extensive sensitivity checks, though the primary correction comparisons are statistically underpowered due to small positive gain counts (n=24) and discrete calibration threshold jumps.",
+   "verifiability": "The paper provides complete mathematical definitions, exact dataset versions and DOIs, deterministic hash seeds, region/year denominators, and transparent disclosure of failed or incomplete checks.",
+   "novelty": "The paper makes appropriately modest novelty claims and provides a useful empirical audit of AlphaEarth V1 and TESSERA v1 change scores, though the methods are straightforward linear projections and standard classifiers applied to existing benchmark subsets.",
+   "generality": "Empirical generality is severely constrained by evaluating only one-year transitions on tiny gain samples (24 LCMAP test positives, with 21 in a single year pair, and 7 NLCD 2022–2023 positives) and pooling reference vectors across all of CONUS rather than ecologically matched biomes.",
+   "usefulness": "The finding that annual cosine change magnitude inverts one-year tree-gain rankings relative to unchanged non-tree cover—while baseline/subsequent-state classifiers succeed—is a valuable practical caution for teams deploying embedding change maps.",
+   "clarity": "The manuscript is written like a defensive audit log saturated with repetitive negative disclaimers, references to internal repository file paths, unnumbered tables, and fragmented prose that obscures the core scientific narrative."
+  },
+  "verdict": "major revision",
+  "overall_10": 5,
+  "workshop_level": "yes",
+  "main_track_level": "no",
+  "research_question": {
+   "question": "In one-year CONUS land-cover pairs with supplied initial cover classes, do year-matched reference centroids or control-plot mean adjustments improve tree-cover gain and loss screening over a fixed start-year reference score, and how do these unsupervised change scores compare against supervised state and transition classifiers?",
+   "question_quality": 3,
+   "predictable": "partly",
+   "predictable_reason": "It is algebraically predictable that subtracting a region-year constant control mean preserves within-year rankings and that pooling ~40–50 reference plots across CONUS in annualized embeddings yields minimal one-year centroid drift; similarly, one-year canopy gain is a gradual threshold-crossing process expected to show smaller one-year embedding jumps than abrupt tree-cover loss, though the exact magnitude of the gain-ranking inversion required empirical measurement."
+  },
+  "main_issues": [
+   {
+    "severity": "critical",
+    "issue": "Severe statistical underpowering on the tree-cover gain task and calibration instability: the primary LCMAP test set contains only 24 gain positives (21 in 2019–2020 and only 3 in 2020–2021, with 2–8 positives per held-out region), and the 2022–2023 NLCD extension has only 7 gain positives. Because sensitivity moves in coarse increments and thresholds are calibrated at the 90th percentile of small regional negative sets, only 3 to 19 decisions change across the primary correction contrasts, and all 8 primary contrasts flip sign across the 10 calibration cell partitions in Appendix F."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Ecological and spatial mismatch in reference and control construction: pooling 39–53 baseline tree plots across the entire conterminous US (outside each held-out region) into a single normalized centroid averages across vastly different forest biomes, making `(b - a) · r_a` a weak proxy for local reference-ecosystem similarity; even the nearest-8 sensitivity check has a median reference distance of 579–1,071 km."
+   },
+   {
+    "severity": "moderate",
+    "issue": "One-year horizon mismatch for tree-cover gain: tree canopy establishment is a multi-year ecological process, so one-year transitions into dominant Trees mostly capture plots that were already near the canopy threshold at the start date—as evidenced by Appendix D showing that a classifier given only the 'before' embedding achieves nearly the same gain discrimination (J = 0.436 / 0.407) as one given both dates (J = 0.429 / 0.489)."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Defensive, audit-log prose style and over-reliance on local file references: almost every paragraph contains repetitive disclaimers about what metrics do not prove (e.g., repeatedly stating that retrospective embeddings are not forecasts and local Git hashes do not prove chronology) and directs readers to local file paths (`scripts/prepare.py`, `VERIFY.md`, `analysis/nlcd-v4`) instead of presenting a self-contained scientific narrative."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Incomplete paired native-grid verification for AlphaEarth: the primary AlphaEarth results rely on an unofficial geographic mosaic (`tge-labs`) whose pixel footprint varies with latitude, while the planned paired native-grid COG check obtained 0/16 complete pairs (only 1/32 point-years fetched), leaving the impact of reprojection on paired change scores unresolved."
+   },
+   {
+    "severity": "minor",
+    "issue": "Missing training/calibration split denominators and inconsistent table formatting in the main text: Section 4.1 tabulates test-set counts by year pair and region, but the exact sample sizes of the 2017–2018 and 2018–2019 model-fitting and threshold-calibration partitions are omitted from the main text, and five of the seven main-text tables lack table numbers and captions."
+   },
+   {
+    "severity": "minor",
+    "issue": "Figure 3 (`figures/direct-inputs.png`) has its left y-axis label ('Youden's J') partially clipped along the left image border across all three subplot rows."
+   }
+  ],
+  "strengths": [
+   "Exemplary statistical honesty and transparency: negative results, tiny sample denominators, partition sign reversals, potential weak-supervision leakage in AlphaEarth, and incomplete native-grid experiments are disclosed upfront without selective reporting.",
+   "Actionable empirical finding on gain versus loss asymmetry: demonstrates across two distinct foundation models (AlphaEarth V1 and TESSERA v1) and two label definitions (LCMAP and Annual NLCD) that scalar annual cosine change magnitude excels at tree-cover loss detection (AUROC 0.96–0.97) but ranks one-year tree gains below unchanged non-tree vegetation (AUROC 0.29–0.35).",
+   "Well-designed conditional-state and input-ablation comparators: comparing before-only, after-only, difference-only, and concatenated inputs (Appendix D) cleanly isolates how much apparent transition performance comes from baseline landscape state versus temporal change.",
+   "Thorough post-review diagnostics quantifying actual year-to-year reference centroid motion (`1 - r_a · r_b`) relative to target change magnitudes, directly explaining why reference-drift adjustments have minimal effect over one-year intervals."
+  ],
+  "closest_prior_work": [
+   {
+    "citation": "Brown, C. F., et al. (2025). AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data. arXiv:2507.22291.",
+    "url": "https://arxiv.org/abs/2507.22291",
+    "difference": "Introduces the AlphaEarth Foundations model and the LCMAP change-detection evaluation dataset using validation-tuned angular anomaly thresholds, whereas the present paper separates tree gain from tree loss under supplied initial classes, evaluates spatio-temporally transferred thresholds, and compares against TESSERA v1 and supervised state classifiers."
+   },
+   {
+    "citation": "Heiman, A. (2026). Characterizing Brazilian Atlantic Forest Restoration Outcomes with Geospatial AlphaEarth Embeddings. arXiv:2605.05547 (ICLR 2026 ML4RS Workshop).",
+    "url": "https://arxiv.org/abs/2605.05547",
+    "difference": "Proposes Reference Trajectory Embeddings using cosine similarity to mature forest references across multi-year restoration sites in Brazil, whereas the present paper tests fixed, year-matched, and control-adjusted reference similarity for one-year tree-cover transitions in CONUS."
+   },
+   {
+    "citation": "Burns, M. (2026). Rethinking Change Detection and Attribution: How You Compare Satellite Embeddings Matters. Google Earth and Earth Engine Medium case study.",
+    "url": "https://medium.com/google-earth/rethinking-change-detection-and-attribution-how-you-compare-satellite-embeddings-matters-858f17f577d7",
+    "difference": "Qualitatively and empirically contrasts dot-product, difference-vector, and baseline-context constructions with AlphaEarth embeddings for landscape change attribution, whereas the present study provides a formal cross-product (AlphaEarth V1 and TESSERA v1) benchmark with pre-calibrated thresholds and reference/control drift adjustments."
+   },
+   {
+    "citation": "Feng, Z., Jaffer, S., Shokar, I., et al. (2026). TESSERA v2: Scaling Pixel-wise Earth Foundation Models. arXiv:2607.03949.",
+    "url": "https://arxiv.org/abs/2607.03949",
+    "difference": "Not cited by the paper; benchmarks TESSERA v2, TESSERA v1, AlphaEarth, and OlmoEarth across the shared AlphaEarth evaluation suite, whereas the present paper focuses specifically on one-year tree gain/loss threshold transfer and reference-centroid adjustments using TESSERA v1 and AlphaEarth V1."
+   },
+   {
+    "citation": "Gbodjo, Y. J. E., & Ienco, D. (2026). Assessing the generalization of geospatial embeddings for temporal transfer in land cover classification. SSRN 6890917.",
+    "url": "https://doi.org/10.2139/ssrn.6890917",
+    "difference": "Evaluates direct temporal transfer and unsupervised domain adaptation of AlphaEarth and TESSERA embeddings for multi-year land-cover classification in Burkina Faso, whereas the present paper evaluates one-year conditional tree-cover transitions and reference-vector corrections in CONUS."
+   }
+  ],
+  "familiarity": "No, I do not recognize this specific paper beyond the context provided in the prompt that it was produced and revised by an autonomous AI research system.",
+  "figures_viewed": true
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP",
+  "web_search_queries": [
+   "\"Rethinking Change Detection and Attribution: How You Compare Satellite Embeddings Matters\"",
+   "\"Heiman\" \"Characterizing Brazilian Atlantic Forest Restoration Outcomes\"",
+   "\"AlphaEarth Foundations\" \"TESSERA\" change detection",
+   "\"AlphaEarth\" \"LCMAP\" tree cover change",
+   "\"TESSERA v2: Scaling Pixel-wise Earth Foundation Models\"",
+   "\"Gbodjo\" \"Ienco\" \"geospatial embeddings\" \"temporal transfer\""
+  ],
+  "sources": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4aS8Rbas4oLHMEvGBIS8TA0CUNyNf1m7zLHiiqVG53RoR82xZ6ypKuv2tf-Ooykx9gHwTEeBJtJhF_C4WxN4_uVQEF41wJT3ncPSUDrDosQZCRUuqHuxGDg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN_a4-Mtf8-Uvdki9V30xquBBaW0M-Sqsf8dElxCmTHXenJ6fl8D12FG6BnJpZ0GHVEhLL8JiFqlFLKkAhl3h3KTOtGurcuQgt-kjrwvX2AU2PzULntmRg5Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzTvQu7C0A112KdNaxgd1phbGp_lHodwjFaglg6j6-0v92eJ7Db_YaxXqwsW6OgAkgv9Bo46j2aYZ5kPtFMDPKol-_VDoIbQU7HZ1vPFo23BtMhCu9HXIZerRPtevB5kJ6GNMkNqgRuAUTWr-tIg_Gox6HAVBpZMS1KtYJy9hXGpfY0AuhTbhmNSOGbHs-TEFxZgwoQdzUFGeyeI5vGbiNhntTcMJeWXlR5azdm5dja8srAUQfq7nfuXB0t5EuGS8paIoY5wAP_kP73Z84mkK2g-QWZ4EfVDO-2w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh-rnK1D3a44WWmqpK8YyjC8_VtYOpGIK0DPAGVCz_oCmZlQvQfW8jpAmcrAGN9BF0UQ4qpIKh_FdgJ66qBdljvRfZydFcy6BL-TN-qCPt8YlDMU4cnQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnxrFw21fYjSAf0-nbEAZm5nTih2fRt5_oF4NgNaL26oYCiMxVYc33Zmg1MNhOhKigPIBD5WDLcQapGoyPt_XLtmrvuMeUxxqeFBTKtOv3owYcgUaiFDh_Ep8TkfDql14B65Kz36GuUgLMHNJkg4nZ-YYUPBrP9BisnTql_OXMyjwlkFjbyhra_XkzY43Ocn4JMjCVxShMia07PxAE_aZVxTGH7jnPIWGWQ6ZNNXjogw1iqeZUawKk1meq1w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpKdBB94uK5t2PQtepi0-U3rnkIumERZuP9K_w1boMHh5OK4-Y0iqTnJVH2LvvgSbnY9mqFtbZkTFHwKbWoZFYDXzT1rabBnMeuEaVSVffjYj76JzUJFoH89JbDAceQsAHfz7Q_KOO-79TuSNEgSg4diXGXh9PpxVssYGSjhx1cm8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTdhg9DUSJoVD59Wb-bIrnq4hj4qeiQIN0iRaa2qGZxOM6DTsErNB7WWsiBaFQtrCxJfpIiLM9-YAl8I5i3cSpUKb3UK8OFyzKpbXfwUXWTbWsxLA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlYYEIvFTkByQ6lqJzsLGCrO3lWDA9avNzQIoUYrM-5EGzb7zLuO_lw7JW4XIAvuASUFYmL8PzoZ9L7rFzGg9gAqBeE_8dSKKDFlAP0onnf7tD0jVE-Aw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH63udGJ8sNsPVizpqA8H_q33marDLbnd2fOmiGDYrc2GG6qrCNnNDBWL-Z_XFetv5rsO5MP0ADQeNREdQnnIxXZD6LCdMqQ02r01Oj4s91hFCQhWHKcMlySoW5Wue-AdXM_7okzmLOtBa4s4hgisxAB4OedQGeRHM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeM6qwNy24t7m3dmx31YnkQO2OweNYfDuo8Yjfbb83pim_o3qbsU5EQM0ZaEKulqRYieq953ZieyjY9XzKf6zvmKIAMyprI3Bzg25XuiluxG8-mGCpZzgTwX4NZg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeM6qwNy24t7m3dmx31YnkQO2OweNYfDuo8Yjfbb83pim_o3qbsU5EQM0ZaEKulqRYieq953ZieyjY9XzKf6zvmKIAMyprI3Bzg25XuiluxG8-mGCpZzgTwX4NZg=="
+  ]
+ }
+}

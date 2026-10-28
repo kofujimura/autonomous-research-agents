@@ -1,0 +1,33 @@
+{
+  "experiment_id": "secondary-analysis-v2",
+  "start_at_utc": "2026-10-25T14:13:04Z",
+  "end_at_utc": "2026-10-25T14:13:09Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/secondary.py",
+    "--baseline",
+    "analysis/main-v1",
+    "--output",
+    "analysis/secondary-v2"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v2.md",
+  "plan_commit_id": "f71e51997970dd673782c69a7e45c54bd3245e82",
+  "additional_plan_commits": {
+    "protocol/plan-v10.md": "984fa493393bca4626fe6b604c661bba4053edf7"
+  },
+  "code_commit_id": "a9fe45af276d424f8bf6c229eece1e971cd5ab85",
+  "input_sha256": {
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+    "data/prepared/references.csv": "8d2161765a97982d362e57c7d9e4b1b41b51f9a9602f124e33474adee915e180",
+    "data/controls/controls.csv": "a045930a0d18e6bb2a3ee70ce7e23870e7818fe6808e64bf16cb819c4657a4d2"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0337",
+  "pid": 24024,
+  "elapsed_seconds": 4.930426917038858,
+  "end_event_id": "E0338"
+}

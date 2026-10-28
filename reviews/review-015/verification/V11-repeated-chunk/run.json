@@ -1,0 +1,21 @@
+{
+ "command": [
+  "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work/env/bin/python",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy/scripts/repeated_members.py",
+  "--cases",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy/results/primary/cases.csv",
+  "--start",
+  "20",
+  "--count",
+  "20",
+  "--output",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work/repeated-020"
+ ],
+ "cwd": "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work",
+ "limit_seconds": 1800.0,
+ "start_utc": "2026-10-26T12:30:20Z",
+ "timed_out": false,
+ "end_utc": "2026-10-26T12:32:05Z",
+ "elapsed_seconds": 105.1,
+ "exit_code": 0
+}

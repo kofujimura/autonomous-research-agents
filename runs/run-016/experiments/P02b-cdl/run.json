@@ -1,0 +1,22 @@
+{
+  "experiment_id": "P02b-cdl",
+  "start_time_utc": "2026-10-26T15:10:40.656413Z",
+  "end_time_utc": "2026-10-26T15:10:50.444437Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pilot_cdl.py"
+  ],
+  "timeout_seconds": 600,
+  "plan_path": "protocol/pilots.md",
+  "plan_commit_id": "245fd8bd07073c8fbf16a0a007e936e739267edb",
+  "plan_sha256": "e50e87e20926b8c89ccaa92b035d6a2fa081ac10b56420a1e09938cf2c9622d1",
+  "code_commit_id": "245fd8bd07073c8fbf16a0a007e936e739267edb",
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/P02b-cdl/stdout.txt",
+  "stderr_path": "experiments/P02b-cdl/stderr.txt",
+  "start_event_id": "E0019",
+  "pid": 89729,
+  "elapsed_seconds": 9.7877074170392,
+  "end_event_id": "E0022"
+}

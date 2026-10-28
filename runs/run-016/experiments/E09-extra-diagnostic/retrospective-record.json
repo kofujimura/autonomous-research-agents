@@ -1,0 +1,19 @@
+{
+  "experiment_id": "E09-extra-diagnostic",
+  "status": "completed_unwrapped_retrospective_record",
+  "retrospective": true,
+  "observed_end_utc_from_tool": "2026-10-26T18:48:41Z",
+  "start_time_utc": null,
+  "execution_wall_seconds_reported_by_tool": 0.7,
+  "exit_code": 0,
+  "source": "exec_command result followed by clock tool; command and outputs retained here retrospectively",
+  "plan_path": "protocol/plan-v5-optimization.md",
+  "purpose": "Explain two already-inspected pipeline units using changed-label counts and exact probability of no sampled changes",
+  "inputs": ["results/pipeline-check/inference/units.jsonl", "results/pipeline-check/audit-draws/manifest.json", "results/pipeline-check/model-tessera-broad/fit.json"],
+  "known_deviation": "This unwrapped short analysis overlapped the two acquisition jobs E04-embeddings-07-s0 and E04-embeddings-08-s1. It therefore briefly exceeded the two-experiment process limit. No limit is being relaxed; all further statistical calculations must use a runner slot.",
+  "outputs_transcribed_from_tool_result_not_rerun": [
+    {"unit": "L055_065-2022-2023", "N": 3799, "changed": 74, "changed_fraction": 0.019478810213214005, "prob_no_change_n128": 0.0771981792004997, "empirical_no_change": 0.072},
+    {"unit": "L055_065-2023-2024", "N": 3799, "changed": 95, "changed_fraction": 0.025006580679126086, "prob_no_change_n128": 0.036968336382429065, "empirical_no_change": 0.038}
+  ],
+  "paper_use": "Motivation only. Recompute all claim values in a properly recorded bounded analysis before using them as paper evidence."
+}

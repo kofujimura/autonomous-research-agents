@@ -1,0 +1,34 @@
+{
+  "experiment_id": "E08-source-logistic-v2",
+  "start_time_utc": "2026-10-26T18:38:47.999140Z",
+  "end_time_utc": "2026-10-26T18:40:45.169961Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/fit_source_heads.py",
+    "--manifest",
+    "data/population-source-v1.json",
+    "--max-iter",
+    "10000",
+    "--destination-root",
+    "results/source-models-v2"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v5-optimization.md",
+  "plan_commit_id": "c605092ae41d5be5268a935b1e59af83d4e3f1e3",
+  "plan_sha256": "1d8880e3fad80de2912da78fae11b57972a589345a6687db982067faf4916e58",
+  "code_commit_id": "c605092ae41d5be5268a935b1e59af83d4e3f1e3",
+  "inputs": [
+    {
+      "path": "data/population-source-v1.json",
+      "sha256": "5e1efc31ca059b1b005f593589f36b255a9ea32245e72a06aec811f7f2688377"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E08-source-logistic-v2/stdout.txt",
+  "stderr_path": "experiments/E08-source-logistic-v2/stderr.txt",
+  "start_event_id": "E0156",
+  "pid": 99372,
+  "elapsed_seconds": 117.17084116698243,
+  "end_event_id": "E0159"
+}

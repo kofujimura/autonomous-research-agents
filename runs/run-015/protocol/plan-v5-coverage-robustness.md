@@ -1,0 +1,15 @@
+# Exploratory v5: coverage, weighting and resampling sensitivity
+
+Fixed after the one-date primary reporting check and the original20260709AIFS/84h acquisition failure, before assembling final primary or subset summaries. This analysis deepens the same information-retention question. It does not replace the prespecified complete-date sample or introduce a new study.
+
+## Alternatives addressed
+
+1. A complete-case mean could conceal a consequence of missing forecast units. Preserve all observed complete-unit rows, including units on otherwise unmatched dates. A width lies in[0,1]. For a fixed scheduled population ofN queries withA available widths summing toT andK=N-A missing, report the conservative range[T/N,(T+K)/N] for the full scheduled mean. These are worst-case missing-data bounds, not confidence intervals or claims that all endpoints correspond to actual weather ensembles. Report the comparable complete-date estimate and observed available-unit estimate. For an informative stratum withm known eligible rows summing toT, unknown eligibility of theK missing rows gives the conservative range[T/(m+K),(T+K)/(m+K)]; ifm+K=0 mark undefined. Use actual denominators and never assume failures independent of weather.
+
+2. Aggregated query counts can emphasize centers contributing more informative events. Report descriptive informative/all counts and widths by center in fixed design order; no geographic rankings or judgments of forecast quality. Compare the query-weighted informative mean with the equal mean of center-specific informative means (show centers with no eligible rows). Report the minimum and maximum leave-one-center-out informative estimates. This is a sensitivity to an arbitrary experimental weighting, not a representative regional estimator.
+
+3. The circular moving-block length is a judgment for a short convenience calendar. Recompute mean-width resampling intervals at block lengths1 and5 alongside the fixed primary length3, holding2000repetitions,seed and scheduled slots unchanged. Do not select a preferred block length based on significance or call any of these population confidence guarantees.
+
+For the subset extension, full scheduled means of the count-minus-pair width difference lie within[(T-K)/N,(T+K)/N] because each difference is in[-1,1]. Report this only when all scheduled per-unit query counts are known from the fixed design. Informative differences have conservative bounds[(T-K)/(m+K),(T+K)/(m+K)] with unknown missing eligibility. These are safe envelopes rather than sharp feasible-law identification bounds. The original pair/count comparisons remain exploratory.
+
+Compute from saved complete-unit numerical outputs only; no further weather or AI requests, site exclusions or replacement dates. Code must verify available counts do not exceed the fixed calendar and query count. Keep all original main tables. Label these diagnostics exploratory and distinguish resampling variation from missing-data envelopes. If incomplete primary analyses rather than unavailable inputs cause a missing row, report that separately from retrieval failure.

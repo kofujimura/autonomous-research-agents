@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-26T11:49:47Z",
+  "final_verification_program_seconds": 935.5319122499786,
+  "final_worker_seconds": 936.3949925000779,
+  "full_subset_worker_seconds": 2433.6248235837556,
+  "all_repeated_member_block_worker_seconds": 528.8365779158194,
+  "scope": "Observed timings in this environment; reduced/full components are distinguished in VERIFY.md."
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "task_id": "year-2023-fits",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/year-common/2023",
+      "--output",
+      "analysis/year-2023",
+      "--extra",
+      "--year",
+      "2023"
+    ]
+  },
+  {
+    "task_id": "year-2023-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/year-2023",
+      "--out",
+      "analysis/year-2023-summary"
+    ]
+  }
+]

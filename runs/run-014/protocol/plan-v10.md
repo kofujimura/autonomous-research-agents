@@ -1,0 +1,5 @@
+# Technical amendment v10: isolate input cohorts by analysis
+
+Fixed 2026-10-25T12:35:05Z, before empirical performance analysis. The main v1 study requires only its original target and tree-reference point-years. The feature loader had also included optional v2 non-tree controls in input hashes and availability tables, despite their not entering any v1 score. This unnecessarily made the main artifact depend on completion of a later cohort and could trigger model-specific availability output based on irrelevant missing controls.
+
+The loader now defaults to the original cohort only. Secondary v2 explicitly includes non-tree controls; the NLCD v4 extension explicitly includes both controls and extension tasks. No score formula, threshold, sample, exclusion or metric changes. The main analysis starts only after its own planned original retrieval is complete or formally stopped; v2 starts after its additional cohort is complete or formally stopped. The v4 and v5 diagnostics remain separate. This makes each analysis snapshot reproducible while later retrieval continues.

@@ -1,0 +1,32 @@
+{
+  "experiment_id": "B006-aifs-batch",
+  "started_at_utc": "2026-10-25T23:23:28Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pipeline.py",
+    "--model",
+    "aifs-ens",
+    "--start",
+    "3",
+    "--count",
+    "4",
+    "--chunk-bytes",
+    "262144",
+    "--log",
+    "experiments/B006-aifs-batch/units.jsonl"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2-transport.md",
+  "plan_commit_id": "75a35d6d24de486757ef19dc39b47c0fac34f2db",
+  "code_commit_id": "2310d494bc8911ad598a1f3b428ce680b9ca1707",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12"
+  },
+  "status": "completed",
+  "start_event_id": "E0105",
+  "child_pid": 48013,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-25T23:33:12Z",
+  "elapsed_seconds": 584.1317184169311,
+  "end_event_id": "E0110"
+}

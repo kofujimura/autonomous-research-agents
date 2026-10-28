@@ -1,0 +1,9 @@
+# Exploratory revision v12: entropy-gradient numerical floor
+
+Fixed after the original soft-prediction, finer-taxonomy and first adaptive-weight results. Original intervals evaluate an entropy gradient at projected proportions with numerical floor10^-6. When a group has zero estimated proportion, the entropy derivative is undefined; the chosen floor can strongly affect model-assisted standard errors. This is an alternative explanation for conservative intervals, not evidence of reliable model-assisted inference in general.
+
+Using all30 original test landscapes, three primary transitions, n128,500 original draws, all four frozen logistic models (both taxonomies and representations), compare floors10^-2,10^-4,10^-6,10^-8,10^-10. Keep all proportion estimates, simplex projections and entropy changes identical. Only the gradient floor changes, hence standard errors, coverage and reporting. Include direct estimation as a control. Do not choose a preferred floor from the benchmark truth or replace the original primary result. The grid is a sensitivity check, not a regularization-tuning procedure.
+
+Save raw standard errors, directions, coverage/wrong indicators and source hashes. Report RMSE (invariant), nominal coverage, reporting and wrong reporting for every floor. Assert exact equality of entropy estimates across floors and reproduction of the original floor's standard errors/directions from saved Monte Carlo outputs. For direct sampling, floors below1/128 cannot change influences at observed categories; check the corresponding invariance. This algebraic invariance is software validation, not a scientific discovery.
+
+All results are exploratory. No new labels, models, downloads or AI calls. Run through the two-slot runner with a1,800-second timeout, preserve failures and every primary result. No finite-sample guarantee is assumed for any floor.

@@ -1,0 +1,38 @@
+[
+  {
+    "task_id": "seed-4000",
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "seed",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "4000",
+      "--output",
+      "analysis/review-seeds/seed-4000"
+    ],
+    "start_time_utc": "2026-10-28T09:56:35.826769+00:00",
+    "end_time_utc": "2026-10-28T10:06:20.863856+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "summary-4000",
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/review-seeds/seed-4000",
+      "--out",
+      "analysis/review-seeds/seed-4000-summary"
+    ],
+    "start_time_utc": "2026-10-28T10:06:20.864346+00:00",
+    "end_time_utc": "2026-10-28T10:06:23.626322+00:00",
+    "exit_code": 0
+  }
+]

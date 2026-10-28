@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-10-26T13:42:42Z",
+  "root": "/Users/fujimura/Research/ai-free-research-en/run-015/verification_work",
+  "excluded_directory_names": [
+    ".cache",
+    ".git",
+    ".venv",
+    "__pycache__"
+  ],
+  "additional_excluded_prefixes": [],
+  "output_list_excluded": "/Users/fujimura/Research/ai-free-research-en/run-015/review/verification-work-SHA256SUMS",
+  "symlinks": "not dereferenced; generated helper link trees are caches, original data files are regular files",
+  "scope": "All other regular files, including raw data, failed/partial results and logs. Verification working cache has its own auxiliary list; authoritative verification reports are included here. Hashes support consistency, not tamper-proofness or independent reproduction."
+}

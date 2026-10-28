@@ -1,0 +1,32 @@
+{
+  "experiment_id": "E29-reference-sensitivity",
+  "start_time_utc": "2026-10-26T21:47:12.996417Z",
+  "end_time_utc": "2026-10-26T21:47:13.624959Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/reference_sensitivity.py",
+    "--manifest",
+    "data/population-main-v1.json",
+    "--destination",
+    "results/reference-sensitivity"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "bbdef5f49399f2017081809ccb9f5495d556f6a9",
+  "plan_sha256": "ebe46e22b043010d9683376e5d76768edcaefe52760cdde4354e8a751cc29eb5",
+  "code_commit_id": "bbdef5f49399f2017081809ccb9f5495d556f6a9",
+  "inputs": [
+    {
+      "path": "data/population-main-v1.json",
+      "sha256": "f2a5a27f70792807a8f29d289a559641c9b30a64636e9ddfe59eb63c1d91cb07"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E29-reference-sensitivity/stdout.txt",
+  "stderr_path": "experiments/E29-reference-sensitivity/stderr.txt",
+  "start_event_id": "E0337",
+  "pid": 8056,
+  "elapsed_seconds": 0.6284483750350773,
+  "end_event_id": "E0338"
+}

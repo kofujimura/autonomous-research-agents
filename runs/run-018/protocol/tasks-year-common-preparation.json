@@ -1,0 +1,37 @@
+[
+  {
+    "task_id": "tile-edge-audit-2023",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_tile_edges.py",
+      "--year",
+      "2023",
+      "--pattern",
+      "R??",
+      "--out",
+      "analysis/year-edge-audit-2023"
+    ]
+  },
+  {
+    "task_id": "tile-edge-audit-2021",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_tile_edges.py",
+      "--year",
+      "2021",
+      "--pattern",
+      "R??",
+      "--out",
+      "analysis/year-edge-audit-2021"
+    ]
+  },
+  {
+    "task_id": "common-year-features",
+    "command": [
+      ".venv/bin/python",
+      "code/prepare_year_features.py",
+      "--out",
+      "analysis/year-common"
+    ]
+  }
+]

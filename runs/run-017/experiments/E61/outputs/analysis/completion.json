@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-27T10:31:42.890115Z",
+  "completed_fits": 465,
+  "original_primary_completed": 75,
+  "original_primary_required": 75,
+  "original_primary_complete": true,
+  "interpretation": "Observed cells are not a claim that every planned extension was completed; inspect the protocol and omitted-arm account."
+}

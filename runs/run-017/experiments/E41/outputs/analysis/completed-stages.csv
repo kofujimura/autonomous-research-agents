@@ -1,0 +1,2 @@
+scope,decoder,budget,completed_fits,observed_allocations,observed_representations,distinct_cells,minimum_seeds_per_observed_cell,maximum_seeds_per_observed_cell
+within,rf,2000,104,area;interior;natural_area;object;object_mmu;proposal;proposal_classmatched;uncertainty;uncertainty_classmatched,aef;optical;optical_context,23,3,5

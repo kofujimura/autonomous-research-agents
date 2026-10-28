@@ -1,0 +1,26 @@
+{"task_id": "rf-all-benchmark-combine", "command": [".venv/bin/python", "code/combine_transfer.py", "--inputs", "analysis/transfer-strong/rf-all-benchmark", "--output", "analysis/transfer-strong-combined/rf-all-benchmark", "--round-trip"], "start_time_utc": "2026-10-28T04:39:32.789795+00:00"}
+{"task_id": "rf-all-benchmark-summary", "command": [".venv/bin/python", "code/summarize_matching.py", "--inputs", "analysis/transfer-strong-combined/rf-all-benchmark", "--out", "analysis/transfer-strong/rf-all-benchmark-summary"], "start_time_utc": "2026-10-28T04:39:33.303698+00:00"}
+{"source_predictions": "analysis/transfer-strong-combined/rf-all-benchmark", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               43.22                44.51
+   hydro_pair               38.34                41.63
+     pair_aef               39.69                42.96
+ pair_tessera               37.05                37.53
+{"task_id": "hgb-raw-combine", "command": [".venv/bin/python", "code/combine_transfer.py", "--inputs", "analysis/transfer-strong/hgb-raw", "--output", "analysis/transfer-strong-combined/hgb-raw", "--round-trip"], "start_time_utc": "2026-10-28T04:39:34.258497+00:00"}
+{"task_id": "hgb-raw-summary", "command": [".venv/bin/python", "code/summarize_matching.py", "--inputs", "analysis/transfer-strong-combined/hgb-raw", "--out", "analysis/transfer-strong/hgb-raw-summary"], "start_time_utc": "2026-10-28T04:39:34.766098+00:00"}
+{"source_predictions": "analysis/transfer-strong-combined/hgb-raw", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               38.83                36.92
+   hydro_pair               41.01                42.29
+     pair_aef               43.14                38.75
+ pair_tessera               34.39                37.86
+{"task_id": "hgb-white-combine", "command": [".venv/bin/python", "code/combine_transfer.py", "--inputs", "analysis/transfer-strong/hgb-white", "--output", "analysis/transfer-strong-combined/hgb-white", "--round-trip"], "start_time_utc": "2026-10-28T04:39:35.711741+00:00"}
+{"task_id": "hgb-white-summary", "command": [".venv/bin/python", "code/summarize_matching.py", "--inputs", "analysis/transfer-strong-combined/hgb-white", "--out", "analysis/transfer-strong/hgb-white-summary"], "start_time_utc": "2026-10-28T04:39:36.220064+00:00"}
+{"source_predictions": "analysis/transfer-strong-combined/hgb-white", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               38.83                36.92
+   hydro_pair               41.01                42.29
+     pair_aef               40.29                39.97
+ pair_tessera               38.56                40.63
+{"task_id": "audit", "command": [".venv/bin/python", "code/audit_strong_transfer.py", "--out", "analysis/strong-transfer-audit"], "start_time_utc": "2026-10-28T04:39:37.172360+00:00"}
+{"passed": true, "checks": 7, "whitening_query_checks": 7274}

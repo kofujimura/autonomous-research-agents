@@ -1,0 +1,9 @@
+# Physical-context support for the exploratory polygon comparison
+
+Fixed before polygon-derived feature analysis or any polygon-condition fits. The larger polygon points have been selected and some embedding arrays collected, but no polygon-condition matching risk has been inspected. The original primary and all previous outcomes remain unchanged; this entire follow-up remains exploratory.
+
+The original physical covariates include distance to occurrence>=75%, capped2km. The archived physical grids extend at least2.1km beyond the original16km windows. A complete polygon can extend beyond its representative-point window, so some sampled interior pixels can lack the full2km physical search context even while their central raster values are finite. That would weaken the physical-footprint comparison.
+
+For the **common A/B/C/D comparison cohort**, additionally require **every sampled dispersed pixel** to be at least2030m from every edge of the archived30m physical grid. This conservatively covers the2km search plus one raster cell. Determine this solely from saved coordinates and grid bounds, without labels, water values, embedding values or predictions. Record every excluded polygon and its minimum edge distance; preserve all its collected data. Apply the resulting intersection to all four conditions and refitA if it differs from the original primary cohort. Do not change the original study population or silently use the original A predictions on changed pools. This prioritizes a supported physical search context over retaining boundary-spanning polygons; results do not automatically generalize to those excluded polygons.
+
+The original>=80% valid-vector/essential-physical-sample rules remain. All other methods, seeds, conditions, attributions and resource stops in v10 are unchanged. No new parameter choice will be based on the resulting risks.

@@ -1,0 +1,129 @@
+{
+ "meta": {
+  "reviewer": "gemini",
+  "model": "gemini-4-argon",
+  "run": "017",
+  "rep": 1,
+  "started_utc": "2026-10-28T12:26:47Z",
+  "figures": 2,
+  "usage": {
+   "input_tokens": 24339,
+   "output_tokens": 9414,
+   "thought_tokens": 6250,
+   "search_queries": 5
+  },
+  "cost_usd": 0.212818,
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP"
+ },
+ "review": {
+  "summary": "This paper investigates how training-point allocation strategies (pixel-uniform area sampling, 20 m interior sampling, privileged patch-first 'oracle' sampling, and two-stage image-proposal or uncertainty sampling) interact with frozen annual satellite embeddings (AlphaEarth Foundations v2.1) versus seasonal Sentinel-2 optical features when recovering small mapped wetland patches (0.2–1 ha) across four US National Wetlands Inventory (NWI) projects. At a standardized test operating point of 5% reference-upland false-positive rate (FPR) and requiring at least 50% pixel coverage per patch, patch-first oracle sampling substantially improves small-patch recovery for embeddings (+12.8 percentage points in the primary split, +8.4 pp across four rotated splits) despite leaving standard pixel-area metrics (IoU and producer's accuracy) virtually unchanged. However, extensive follow-up controls and sensitivity analyses reveal important qualifications: the representation-by-allocation interaction is much smaller across rotated splits (+4.5 pp pooled vs. +11.6 pp in the initial split) because optical predictors also benefit (+3.9 pp); optical predictors actually touch more small patches under an any-overlap (>=1 pixel) criterion whereas embeddings cover more patches at >=50% extent; much of the patch-first gain can be achieved simply by inverse-patch-size loss weighting on pixel-sampled data or core-level quota matching; and neither the allocation advantage nor validation-calibrated thresholds transport reliably to held-out geographic projects.",
+  "scores": {
+   "correctness": 4,
+   "verifiability": 4,
+   "novelty": 3,
+   "generality": 3,
+   "usefulness": 4,
+   "clarity": 3
+  },
+  "score_reasons": {
+   "correctness": "The empirical analyses, mechanism checks, and self-correcting sensitivity audits are rigorous and commendably transparent about how split rotation, coverage definitions, and threshold transfer attenuate the primary split's headline effect, though the primary estimand partially confounds within-core patch-size reweighting with between-core sample quota shifts.",
+   "verifiability": "Data sources, preprocessing rules, decoding formulas, model hyperparameters, block-bootstrap procedures, and protocol amendments are documented in high detail, with only minor gaps such as unlabelled project codes (R01–R04) in one table and references to external repository files for exact core coordinates.",
+   "novelty": "While patch-equal sampling, inverse-area loss weighting for small water bodies, and wetland mapping with AlphaEarth embeddings each have direct precedents, crossing training-point allocation with frozen embeddings versus seasonal optical predictors on held-out small-patch recovery provides a solid empirical contribution.",
+   "generality": "The study spans four distinct US wetland landscapes, four split rotations (978 small patches), multiple budgets, and two decoders, but shows that the representation-by-allocation interaction is highly sensitive to train/test split and coverage threshold and fails to generalize under leave-one-region-out geographic transfer.",
+   "usefulness": "The findings offer clear, practical guidance for remote-sensing teams: pixel-level accuracy metrics mask large shifts in small-patch recovery, embeddings trade off touching small patches for covering >=50% of their area, upweighting small patches improves recovery, and operating thresholds require local calibration.",
+   "clarity": "Individual statements are precise and carefully qualified, but the manuscript reads like a chronological compliance log of 11 protocol versions, contains numerous unnumbered tables, omits an appendix figure referenced in the text, and slightly clips the right edge of Figure 2."
+  },
+  "verdict": "minor revision",
+  "overall_10": 6,
+  "workshop_level": "yes",
+  "main_track_level": "borderline",
+  "research_question": {
+   "question": "How does training-point allocation (pixel-area vs. patch-first vs. two-stage image-guided sampling) interact with annual satellite embeddings versus seasonal optical predictors in recovering small mapped wetland patches (0.2–1 ha) at a fixed upland false-positive rate?",
+   "question_quality": 4,
+   "predictable": "partly",
+   "predictable_reason": "That uniform pixel sampling under-weights small patches relative to patch-first sampling or inverse-area weighting follows directly from sampling probabilities, but the specific interaction between frozen annual embeddings and seasonal optical features across coverage thresholds and geographic transfer regimes required empirical testing."
+  },
+  "main_issues": [
+   {
+    "severity": "moderate",
+    "issue": "Confounding of between-core geographical quotas and positive class counts in the primary allocations: In the primary comparison, drawing positive pixels uniformly across all training cores allocates samples toward cores with large total wetland area, whereas patch-first oracle sampling allocates samples toward cores with many small patches. As Section 4.5 shows, simply matching the oracle's core-level positive quotas under pixel-area sampling accounts for 4.4 pp of the 12.8 pp embedding gain. Similarly, the planned two-stage practical methods (Image proposals and Uncertainty) spend half their budget on balanced initialization and then query unlabelled pixels without class balancing, leaving them with fewer positive training pixels than the 1,000-positive Area and Oracle arms."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Suboptimal design of the planned practical proposal baseline: In the primary design, the two-stage 'Image proposals' allocation uses a 100-tree seasonal optical Random Forest teacher to generate candidate components even when selecting training points for the AlphaEarth embedding classifier. Unsurprisingly, optical-guided proposals fail to help the embedding model (-0.2 pp), whereas the exploratory check using embedding-guided uncertainty sampling yields a +5.4 pp gain."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Pooled test-set quantile thresholding redistributes false-positive rates across regions: The primary metric sets a single threshold at the 95th percentile of pooled test-upland scores, which induces disparate regional FPRs (from 0.3% in Vermont to 11.4% in Lake Ontario) that shift between Area and Oracle allocations. When thresholds are instead calibrated on validation cores (Table 5), the primary representation-by-allocation interaction drops from 11.6 pp [4.9, 18.5] to 4.5 pp [-2.4, 12.0] with a confidence interval spanning zero."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Presentation overloaded by chronological protocol auditing and unnumbered tables: The narrative is fragmented by tracking 11 sequential protocol amendments (v1–v11) and internal audit artifacts (`VERIFY.md`, `protocol/deviations.jsonl`, `completed-cells.csv`), and contains more than a dozen unnumbered tables across Sections 4.2–4.5 and the Appendices."
+   },
+   {
+    "severity": "minor",
+    "issue": "Figure formatting and missing figure reference: In Figure 2 (`figures/threshold-transfer.svg`), the right-hand panel title ('Validation threshold replay'), x-axis label, and rightmost data points near 7.5% FPR are partially clipped by the right SVG border. Additionally, Appendix G references `[coverage-by-size figure](figures/coverage-by-size.svg)`, which is not included among the paper's figures, and the transfer table in Section 4.3 uses undefined project codes (`R01`–`R04`) instead of the project names from Table 1."
+   }
+  ],
+  "strengths": [
+   "Exceptional scientific honesty and self-correction: After observing a large +11.6 pp interaction in the planned split, the study proactively evaluated three rotated splits across all 64 cores, found that the pooled interaction was much smaller (+4.5 pp) and that optical predictors also benefited (+3.9 pp), and elevated these attenuating findings to the Abstract and Discussion.",
+   "Insightful decomposition of patch-detection regimes: Comparing >=1-pixel ('any-overlap') against >=50% and >=75% pixel coverage reveals a clean structural trade-off where seasonal optical classifiers touch more small wetland patches (76.1% vs. 71.4%) while annual embeddings cover more small patches across at least half their area (50.0% vs. 41.8%).",
+   "Informative mechanism controls: By testing inverse-patch-size sample weights on the exact same pixel-sampled training positions and core-matched geographical quotas, the paper demonstrates that most of the patch-first sampling advantage comes from loss reweighting and regional quota balance rather than discovering new patches.",
+   "Rigorous evaluation of operational threshold transport: Explicitly testing validation-threshold replay and cross-project threshold transfer exposes severe calibration drift across regions (achieved FPRs of 0.1–15.2%), preventing over-optimistic deployment claims."
+  ],
+  "closest_prior_work": [
+   {
+    "citation": "Liu, D., Zhu, X., Holgerson, M., & Xu, X. (2026). Utility and Explainability of Earth Embeddings in Mapping Small Ponds. IEEE Geoscience and Remote Sensing Letters, 23, 1505805. DOI: 10.1109/LGRS.2026.3740204",
+    "url": "https://doi.org/10.1109/LGRS.2026.3740204",
+    "difference": "Liu et al. also evaluate AlphaEarth Foundations with Random Forest on small water bodies (0.1–1 ha ponds) and identify AEF's spatial-smoothing omissions on small features relative to Sentinel-1/2 and TESSERA embeddings, whereas the present paper specifically isolates the effect of pixel-area versus patch-first training-point allocation and cross-region threshold transfer."
+   },
+   {
+    "citation": "Ryan, S., Powell, M., Ling, J., & Wen, L. (2026). Streamlining Wetland Vegetation Mapping with AlphaEarth Embeddings: Comparable Accuracy to Traditional Methods with Cleaner Maps and Minimal Preprocessing. Remote Sensing, 18(2), 293.",
+    "url": "https://doi.org/10.3390/rs18020293",
+    "difference": "Ryan et al. compare AlphaEarth embeddings against multi-source optical/ancillary predictors for wetland vegetation mapping using homogeneous cluster samples, whereas this paper tests how training-point allocation across the full patch size distribution affects held-out small-patch recovery."
+   },
+   {
+    "citation": "Corcoran, J., Knight, J., Pelletier, K., Rampi, L., & Wang, Y. (2015). The Effects of Point or Polygon Based Training Data on RandomForest Classification Accuracy of Wetlands. Remote Sensing, 7(4), 4002–4025.",
+    "url": "https://doi.org/10.3390/rs70404002",
+    "difference": "Corcoran et al. compare point, window, and polygon training support for optical/topographic/radar wetland Random Forest classification, whereas this paper holds the 10 m pixel grid and predictors fixed to isolate point-allocation probabilities across patch sizes for pretrained embeddings versus optical imagery."
+   },
+   {
+    "citation": "Zhou, P., Foody, G., Zhang, Y., Wang, Y., Wang, X., Li, S., Shen, L., Du, Y., & Li, X. (2025). Using an Area-Weighted Loss Function to Address Class Imbalance in Deep Learning-Based Mapping of Small Water Bodies in a Low-Latitude Region. Remote Sensing, 17(11), 1868.",
+    "url": "https://doi.org/10.3390/rs17111868",
+    "difference": "Zhou et al. upweight small water bodies via an inverse-area loss function in end-to-end deep segmentation of PlanetScope imagery, whereas this paper studies sparse point allocation and inverse-size sample weighting on frozen 10 m satellite embeddings."
+   },
+   {
+    "citation": "Sharma, A., Kharbanda, A., Anand, A., Mishra, R., Zhang, Y., & Biswas, S. (2026). Wetland Mapping Under Boundary Uncertainty with AlphaEarth Embeddings, LiDAR and Sentinel. Preprints.org, 202610.0964.",
+    "url": "https://www.preprints.org/manuscript/202610.0964",
+    "difference": "Sharma et al. examine excluding a 20 m boundary zone around inventory polygons when mapping wetlands with AlphaEarth embeddings, LiDAR, and Sentinel-2, whereas this paper shows that a 20 m interior restriction eliminates most small patches (130 of 227) from the sampling frame and degrades small-patch recovery."
+   }
+  ],
+  "familiarity": "no",
+  "figures_viewed": true
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP",
+  "web_search_queries": [
+   "\"Corcoran\" \"The Effects of Point or Polygon Based Training Data on RandomForest Classification Accuracy of Wetlands\"",
+   "\"Utility and Explainability of Earth Embeddings in Mapping Small Ponds\"",
+   "\"Streamlining Wetland Vegetation Mapping with AlphaEarth Embeddings\"",
+   "\"Wetland Mapping Under Boundary Uncertainty with AlphaEarth Embeddings\"",
+   "\"Using an Area-Weighted Loss Function to Address Class Imbalance in Deep Learning-Based Mapping of Small Water Bodies\""
+  ],
+  "sources": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzmd2BDvU-6BJkVY2s9ZX2OxYsQ65sjfYBliXjfIe-eZcZL712LGjKkumb0PM1zr1zbCy-Dmg3Xj0kMQrxFPHw4IvbvGnFL1BEtUm8PvEtd1byn7pr11MdoCyzRHEIastkVnCaXqjqA8YKpP7ql61F",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBH5O0rOzA1UQ6gJyM8KrnfQg3bQDzdEL0IgXowNvhFL5XAj0bCqmD5gsvag62QOzFcsjVIvTS8b2YZrUCwgy3M4OkI7smfaYHug9MyuU1vEDq2Y5JUJES1D2z_9AaG0Ni-UA0xNp6GEpYSA7lYo8tQQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTLpK2oKnNCGQgsOj7HCxXNlH0sR00R-bnlC2krIZvGXPMPTjbkByg67H-hE05uq_Zady7tIrMvCAi-NDoRvnywTkzO5-9roMDTNaRSfH9J-RxYOItEISzwZwX",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-Q5DK-dSHxLBaBbV3_R6Z1q-ORymceKFIfaE5eny8tYlh6kJHRaFv0Q5K9KUQN3bikmMpIJmmrIR6vKosaZkgJv_9UkmFFEePfN3W4uaXsgplc0tjV_VWZTrK1-36Yuf8Kdl4lSJ1SSzKe9vTROYybLjtNoKFGK06HMMJo03ZIGwt6juOl8mODZUcxBuNGRE8PhRAF35KbBvESJeG3poo-L8L87AAOMXcsP1TjMohqZLUXXXWR_Rl2FvGAOx-F7IlDLptknfywb7GvofhBZ0L",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcd6VlJiZCf7OYV_hSSuK79I3P9iWaNNZJ3pPUC7U8Xylfp2cVej-Uh9lgrSxXLHbQ6gdl67sHlSkaWaY7yo1rul7q3fDFoEFR9SDH4CJiHPuVaiX4akGx9yjxgNVgR33WXaCF9RchdqrcIOQMR4LzkWe06A==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGy1NbCbV9pm_fHG29r6Ulrj8uyChF0RAqaenV5R_-ChqdXuYKeP960XZJEgy6QmQt2teUKWyL4rHKFwacUc7JUK7XkOEcJQDP7Ae3ddH30n3bAI-h_Qc9Q31meGofb271e7N8-Omfkf9vh4Cw3mrLRGKt6I6KdJxuntdKUQT0k",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG234czwAzQoxr_dbrcrseOHp3QNQKA0QpFNq1PuQJ4fFuYwTNwVwNUb5nmG7LILUsGxZzGz1nI51EHI8hV0fXhyw_WAIW38hQzp3tCl7OM-KsFDzTNejMROFQ=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDyFZaCPoem5pd3lLZyVJ-rgiKgx3oNOng35GyL1hTnWlRLoGem4vqVcZi7MsCf9XiKDlhiGEkSgNXrMxSR6MFNkfQ2quaVIZHf1Liyh1PVbMcIYhhOqDQdgN5k_CtbdWSxnBXqE4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDyFZaCPoem5pd3lLZyVJ-rgiKgx3oNOng35GyL1hTnWlRLoGem4vqVcZi7MsCf9XiKDlhiGEkSgNXrMxSR6MFNkfQ2quaVIZHf1Liyh1PVbMcIYhhOqDQdgN5k_CtbdWSxnBXqE4="
+  ]
+ }
+}

@@ -1,0 +1,158 @@
+{
+  "completed_at_utc": "2026-10-27T13:13:47.536568Z",
+  "prepared_revision": "36bc480627ec5dd0455fd08b4eaa4e86a71c94b7",
+  "working_location": "verification-work/run-2",
+  "shared_probability_inputs": true,
+  "verification": {
+    "status": "PASS",
+    "failures": [],
+    "numerical_tolerance": 1e-12,
+    "elapsed_seconds": 1498.1534775830805,
+    "steps": [
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/check_metrics.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/evaluate.py",
+          "--smoothing",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/evaluation"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/summarize.py",
+          "--evaluation",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/evaluation",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/robustness.py",
+          "--analysis",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis/robustness",
+          "--evaluation",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/evaluation"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/review_sensitivities.py",
+          "--analysis",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis",
+          "--evaluation",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/evaluation",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis/review-response"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/audit_samples.py",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/inventory_summary.py",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/completion.py",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/audit_evaluations.py",
+          "--evaluation",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/evaluation",
+          "--analysis",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/threshold_bootstrap.py",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/threshold-bootstrap"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/alignment_stress.py",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/alignment-stress"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/render_tables.py",
+          "--analysis",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/tables",
+          "--alignment",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/alignment-stress",
+          "--threshold-bootstrap",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/threshold-bootstrap"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/Users/fujimura/Research/ai-free-research-en/run-017/.venv/bin/python",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/input/code/plot_results.py",
+          "--analysis",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/analysis",
+          "--evaluation",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/evaluation",
+          "--out",
+          "/Users/fujimura/Research/ai-free-research-en/run-017/verification-work/run-2/output/figures"
+        ],
+        "exit_code": 0
+      }
+    ],
+    "committed_input_files_checked_unchanged": 886,
+    "input_copy_unchanged": true,
+    "interpretation": "Offline recomputation from bundled probabilities/reference arrays; no network or AI API; this program never fits a model"
+  },
+  "interpretation": "Self-rerun in a fresh selected committed-code/input copy using shared probability bytes and the existing dedicated environment; not independent reproduction"
+}

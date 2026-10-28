@@ -1,0 +1,6 @@
+{"region_id": "R07", "centre": [-74.55, 39.7], "epsg": 32618, "bounds": [530580, 4386560, 546580, 4402560], "raw_unique": 26, "eligible": 18, "selected": 18, "created_at_utc": "2026-10-27T15:29:18.763215+00:00"}
+{"region_id": "R08", "centre": [-121.8, 38.1], "epsg": 32610, "bounds": [597220, 4209590, 613220, 4225590], "raw_unique": 87, "eligible": 32, "selected": 32, "created_at_utc": "2026-10-27T15:29:42.008407+00:00"}
+{"region_id": "R09", "centre": [-90.3, 37.2], "epsg": 32615, "bounds": [731630, 4112470, 747630, 4128470], "raw_unique": 323, "eligible": 173, "selected": 173, "created_at_utc": "2026-10-27T15:30:08.687519+00:00"}
+{"region_id": "R10", "centre": [-82.25, 31.5], "epsg": 32617, "bounds": [373290, 3477690, 389290, 3493690], "raw_unique": 408, "eligible": 347, "selected": 347, "created_at_utc": "2026-10-27T15:30:41.597215+00:00"}
+{"region_id": "R11", "centre": [-91.2, 34.5], "epsg": 32615, "bounds": [657260, 3811070, 673260, 3827070], "raw_unique": 433, "eligible": 350, "selected": 350, "created_at_utc": "2026-10-27T15:31:41.894925+00:00"}
+{"region_id": "R12", "centre": [-123.0, 44.6], "epsg": 32610, "bounds": [492000, 4930520, 508000, 4946520], "raw_unique": 224, "eligible": 73, "selected": 73, "created_at_utc": "2026-10-27T15:31:53.260625+00:00"}

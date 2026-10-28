@@ -1,0 +1,44 @@
+{
+  "observed_at_utc": "2026-10-27T03:56:35.704364Z",
+  "review_id": "review-016-1",
+  "points": 9,
+  "decisions": {
+    "R1-1": "adopted",
+    "R1-2": "adopted",
+    "R1-3": "adopted",
+    "R1-4": "partly adopted",
+    "R1-5": "partly adopted",
+    "R1-6": "partly adopted",
+    "R1-7": "partly adopted",
+    "R1-8": "adopted",
+    "R1-9": "adopted"
+  },
+  "decision_counts": {
+    "adopted": 5,
+    "partly adopted": 4
+  },
+  "claims_changed": [
+    "C01",
+    "C02",
+    "C04",
+    "C06",
+    "C10"
+  ],
+  "claim_status_changes": [],
+  "claims_withdrawn": [],
+  "claims_added": [
+    "C12",
+    "C13"
+  ],
+  "analyses_added": [
+    "E56-review-label-error",
+    "E57-review-summaries"
+  ],
+  "new_statistical_analyses": 2,
+  "revision_code_commit": "fd7bed21eb31d92677fae1e55fd174e4900ca819",
+  "review_directly_observed": false,
+  "review_observability": "Human supplied AI-agent review; reviewer model/runtime and reviewer calculations are not directly observed by this research session.",
+  "verification_status": "passed",
+  "verified_source_commit": "fd7bed21eb31d92677fae1e55fd174e4900ca819",
+  "verification_elapsed_seconds": 795.9858575840481
+}

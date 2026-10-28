@@ -1,0 +1,13 @@
+availability_mode,task,initial_class,n_positive,n_negative,n_cases
+nlcd_beyond_2021_primary_initial_Grass_forb_herb,gain,Grass/forb/herb,0,60,60
+nlcd_beyond_2021_unambiguous_initial_Grass_forb_herb,gain,Grass/forb/herb,0,34,34
+nlcd_overlapping_2019_2021_primary_initial_Grass_forb_herb,gain,Grass/forb/herb,2,66,68
+nlcd_overlapping_2019_2021_unambiguous_initial_Grass_forb_herb,gain,Grass/forb/herb,2,38,40
+nlcd_beyond_2021_primary_initial_Shrubs,gain,Shrubs,7,55,62
+nlcd_beyond_2021_unambiguous_initial_Shrubs,gain,Shrubs,5,25,30
+nlcd_overlapping_2019_2021_primary_initial_Shrubs,gain,Shrubs,22,55,77
+nlcd_overlapping_2019_2021_unambiguous_initial_Shrubs,gain,Shrubs,11,22,33
+nlcd_beyond_2021_primary_initial_Trees,loss,Trees,26,100,126
+nlcd_beyond_2021_unambiguous_initial_Trees,loss,Trees,22,83,105
+nlcd_overlapping_2019_2021_primary_initial_Trees,loss,Trees,29,100,129
+nlcd_overlapping_2019_2021_unambiguous_initial_Trees,loss,Trees,23,85,108

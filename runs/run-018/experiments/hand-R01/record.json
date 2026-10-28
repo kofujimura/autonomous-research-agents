@@ -1,0 +1,37 @@
+{
+  "experiment_id": "hand-R01",
+  "start_time_utc": "2026-10-27T16:04:45.139505+00:00",
+  "end_time_utc": "2026-10-27T16:04:50.941748+00:00",
+  "command": [
+    ".venv/bin/python",
+    "code/collect_hand.py",
+    "R01"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v3.md",
+  "plan_commit": "25bed81a685a32c83eb3a1a5a5c9ff9cf193c2eb",
+  "code_commit": "566537ef056d3b15f0fca9150e7696517f39303e",
+  "input_manifest": "data/main/R01/labels-record.json",
+  "exit_code": 0,
+  "pid": 92904,
+  "plan_sha256": "ebcf243bead62c3334e7a4f93d4cc7f406ce120598e1b66c2d6732aa1174d6f0",
+  "code_sha256": {
+    "code/fetch.py": "e5c07a7b4855bca8b6d1f4c44772cadb554def47e7bbbe683eb942f84b0e52bb",
+    "code/ai_api.py": "d6ebcc7f7cf689a5937467df5effb018cc2831296cb043f0b7d93c672e176b23",
+    "code/collect_hydro.py": "e45cf6f6fc17aeddf58c6b02ac1140638d073aae0c9ad85a15dd869c70ba6293",
+    "code/pilot_wetlands.py": "c06d3b20a444f3221e6bff0527561dfb9ec02c86d7d3fc4a2ce4d50363437337",
+    "code/collect_batch.py": "c34f7309c353a479ae2a5f6e12b4f4cef113c0a310cbbc626514f5b99bce0c15",
+    "code/records.py": "76c2e2eb90697650b7774ac4607ab2cda0c0d3fc0c5058ce9b6223f45a81b98d",
+    "code/collect_embeddings.py": "a4565be9d6016386d98ed708c86beb44c4e540bb40a1c578172b72c3077a9598",
+    "code/select_recent_panel.py": "6900403764272be390dd1a4049c3b225b96714abb8b555a95b79aedc9869e40d",
+    "code/analyse_matching.py": "5fb3505a4356be3a515bf0905a1346a8b4fca6f89a447029ed5bcc514d7472f5",
+    "code/run_process.py": "9cb0be02b4bdd73cec6c7e469f7b98d23802077f756f8b5767fb7b8b8798b29c",
+    "code/collect_labels.py": "0385becc75babcd5f32a8a50bb39f2341aeccf6adc362c03c579fbb1f3c75acf",
+    "code/collect_hand.py": "e03a89b0c750a8c26ea78b55c874cc2cc791580171380162ea57bf01f18e9f98",
+    "code/derive_features.py": "210309adf04a1c309714aaf6a6f5243fac6fd77a1fd08a9e8e09554e3d335d87",
+    "code/summarize_matching.py": "16d7f188b53faba33faea43839269a860cb86e671fceb5821fa7ef0a5733fbde"
+  },
+  "input_manifest_sha256": "1cf8a5836229bbb1b4f9c6ec1ae84400f3f82a813f1d909bf9f2d2fb644db470",
+  "timed_out": false,
+  "elapsed_seconds": 5.775919999927282
+}

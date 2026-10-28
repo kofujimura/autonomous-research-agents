@@ -1,0 +1,24 @@
+{
+ "mode": "sample",
+ "cases": 60,
+ "q_maxabs": 0.0,
+ "uncertain_mismatch": 0,
+ "informative_mismatch": 0,
+ "informative_count_rev": 30,
+ "marginal_lower_maxabs": 1.3322676295501878e-15,
+ "marginal_upper_maxabs": 1.7763568394002505e-15,
+ "aggregate_lower_maxabs": 1.709743457922741e-14,
+ "aggregate_upper_maxabs": 1.1102230246251565e-14,
+ "pair_lower_maxabs": 5.1310067306076235e-12,
+ "pair_upper_maxabs": 1.5010215292932116e-13,
+ "independent_q_maxabs": 0.0,
+ "lp_nonoptimal": 0,
+ "mean_width_rev_marginal": 0.2534671957671958,
+ "mean_width_rev_aggregate": 0.14236957010582021,
+ "mean_width_rev_pair": 0.017388888888951983,
+ "mean_width_sub_reported": {
+  "marginal": 0.25346719576719573,
+  "aggregate": 0.14236957010582038,
+  "pair": 0.017388888888888884
+ }
+}

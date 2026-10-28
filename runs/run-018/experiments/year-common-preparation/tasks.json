@@ -1,0 +1,46 @@
+[
+  {
+    "task_id": "tile-edge-audit-2023",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_tile_edges.py",
+      "--year",
+      "2023",
+      "--pattern",
+      "R??",
+      "--out",
+      "analysis/year-edge-audit-2023"
+    ],
+    "start_time_utc": "2026-10-28T02:47:11.966187+00:00",
+    "end_time_utc": "2026-10-28T02:47:12.171406+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "tile-edge-audit-2021",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_tile_edges.py",
+      "--year",
+      "2021",
+      "--pattern",
+      "R??",
+      "--out",
+      "analysis/year-edge-audit-2021"
+    ],
+    "start_time_utc": "2026-10-28T02:47:12.171827+00:00",
+    "end_time_utc": "2026-10-28T02:47:12.362641+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "common-year-features",
+    "command": [
+      ".venv/bin/python",
+      "code/prepare_year_features.py",
+      "--out",
+      "analysis/year-common"
+    ],
+    "start_time_utc": "2026-10-28T02:47:12.363014+00:00",
+    "end_time_utc": "2026-10-28T02:47:20.717687+00:00",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "experiment_id": "V002-subset-validation",
+  "started_at_utc": "2026-10-25T23:37:37Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/validate_subsets.py",
+    "--output",
+    "experiments/V002-subset-validation/output"
+  ],
+  "timeout_seconds": 900,
+  "plan_path": "protocol/plan-v3-subset-products.md",
+  "plan_commit_id": "cf629650235c846706074aaf0b0c25bfd0984fc4",
+  "code_commit_id": "0c65efb086a6f83bdb22720baa79a57bfc7339ef",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/subset-design-v3.json": "4eb1e19e92ad317f517b62f711793a827a39ba31ad64f0e7698f70baa3f4d2c7",
+    "scripts/subset_bounds.py": "0a676e663adfefac51b65b24a17dc925d6ff6beff23e1e240c17cf15c4e86983"
+  },
+  "status": "completed",
+  "start_event_id": "E0118",
+  "child_pid": 48537,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-25T23:37:45Z",
+  "elapsed_seconds": 7.512610542122275,
+  "end_event_id": "E0119"
+}

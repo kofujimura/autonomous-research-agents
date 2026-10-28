@@ -1,0 +1,124 @@
+{
+ "meta": {
+  "reviewer": "gemini-pdf",
+  "model": "gemini-4-argon",
+  "run": "016",
+  "rep": 1,
+  "started_utc": "2026-10-28T13:30:23Z",
+  "figures": 1,
+  "usage": {
+   "input_tokens": 33770,
+   "output_tokens": 7173,
+   "thought_tokens": 4580,
+   "search_queries": 3
+  },
+  "cost_usd": 0.18127,
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP"
+ },
+ "review": {
+  "summary": "This paper presents a finite-population resampling benchmark evaluating whether revisiting reference locations (paired sampling) and incorporating model-assisted predictions from frozen satellite foundation-model embeddings (TESSERA and AlphaEarth Foundations) improve the estimation of annual changes in crop-group Shannon diversity across 30 held-out Swiss landscapes (90 adjacent-year transitions from 2022 to 2025 in SwissCrop25). At an illustrative budget of 128 reference labels per year, direct revisited sampling achieves a 0.275 mean squared error (MSE) ratio relative to independent sampling overall (0.198 in grassland-dominated landscapes and 0.597 in arable-dominated landscapes), though on stable arable support crop rotation can induce negative pixel-level influence covariance that eliminates the pairing advantage. Critically, because true annual landscape entropy changes are small (RMSE 0.0260 for predicting zero change), a simple no-change baseline outperforms direct sampling at all tested budgets (32 to 512 labels/year) and beats all model-assisted estimators except revisited random-forest assistance at 512 labels/year. Furthermore, the paper diagnoses two important interval-estimation pitfalls: (1) direct revisited Wald intervals undercover (83.4% vs. 93.1% independent) largely because error-free database repeatability yields zero observed label changes—and thus degenerate zero-width intervals—in 12.9% of draws, and (2) the prespecified model-assisted delta-method intervals appeared overly conservative (~99% coverage) only because they omitted the Jacobian of the Euclidean probability-simplex projection; propagating the derivative through the projection narrows standard errors by roughly half and brings coverage to ~93.6%–94.1%.",
+  "scores": {
+   "correctness": 5,
+   "verifiability": 5,
+   "novelty": 3,
+   "generality": 3,
+   "usefulness": 4,
+   "clarity": 2
+  },
+  "score_reasons": {
+   "correctness": "The statistical analyses are rigorous, internally consistent, and exemplary in diagnosing and correcting flaws in the initial prespecified procedures (such as the omitted simplex-projection Jacobian and unweighted difference variance inflation).",
+   "verifiability": "The paper provides exhaustive provenance, pinned dataset revisions, exact spatial splitting rules, random seeds, and complete reporting of both prespecified and exploratory checks.",
+   "novelty": "While the variance reduction of revisited sampling and boundary failures of Wald/entropy intervals follow known theory, benchmarking modern annual EO embeddings for model-assisted entropy-change inference and isolating the simplex-projection derivative and arable crop-rotation covariance effects are valuable empirical contributions.",
+   "generality": "Methodological lessons regarding simplex projection and sparse-change intervals generalize well, but quantitative results are conditioned on a pre-supplied five-year stable agricultural frame, error-free pixel database lookups, and Swiss agricultural structure.",
+   "usefulness": "Provides a sobering, practical benchmark for remote-sensing and agro-ecological monitoring programs by demonstrating that annual landscape diversity changes are small relative to sampling noise and that naive map-based or unweighted model-assisted estimates can perform worse than predicting no change.",
+   "clarity": "The manuscript reads like a defensive forensic audit log rather than a cohesive scientific paper, with repetitive scope disclaimers in nearly every paragraph and a fragmented trail of post-hoc exploratory patches."
+  },
+  "verdict": "major revision",
+  "overall_10": 6,
+  "workshop_level": "yes",
+  "main_track_level": "borderline",
+  "research_question": {
+   "question": "At a fixed annual reference-label budget, how reliably can model-assisted estimates based on frozen classifiers of annual satellite embeddings identify year-to-year changes in the Shannon diversity of declared crop groups, and does revisiting reference locations improve inference relative to independent samples?",
+   "question_quality": 4,
+   "predictable": "partly",
+   "predictable_reason": "The precision advantage of revisited sampling in persistent grassland landscapes and the zero-variance Wald failure under zero observed changes follow directly from classical survey theory and algebra, but the failure of frozen logistic assistance, the negative influence covariance on rotating arable land, and the dominance of the no-change baseline up to 512 labels/year were not obvious a priori."
+  },
+  "main_issues": [
+   {
+    "severity": "moderate",
+    "issue": "Overloaded narrative and defensive meta-commentary: The text is heavily burdened by repetitive negative disclaimers in almost every paragraph and a chronological trail of exploratory additions (Sections 4.4–4.8, Appendices A–E), obscuring the core scientific narrative."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Flawed prespecified model-assisted specification in the main comparison: The primary prespecified difference estimator uses fixed unit prediction weights (inflating variance when frozen logistic predictions are noisy and requiring simplex projection in >98% of draws) and omits the simplex-projection Jacobian in its standard error. Although exploratory checks (bounded prediction weighting and projection-derivative propagation) properly diagnose and fix both issues, the paper's main tables remain anchored to the flawed specification."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Idealized pixel sampling and pre-supplied stable frame: Treating 10m database readings on a known 5-year stable agricultural mask as error-free independent audit units ignores parcel clustering, field-visit logistics, interpreter error, and agricultural extent turnover, which strongly affect both the zero-observed-change coverage deficit and real-world survey costs."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Omission of standard post-stratification baseline: As noted in Section 4.2, standard post-stratification by mapped class—the most widely recommended operational estimator in remote-sensing area and change assessment—was not implemented as a comparator."
+   },
+   {
+    "severity": "minor",
+    "issue": "Presentation and formatting defects: In Figure 1 (right column), the rightmost x-axis tick label '512' is clipped to '5', and the inline tables in Section 4.3 (page 10) and Appendix C (page 19) lack table numbers and captions."
+   }
+  ],
+  "strengths": [
+   "Thorough self-diagnosis of statistical anomalies, notably proving that the apparent ~99% coverage of model-assisted intervals was an artifact of omitting the Euclidean simplex-projection Jacobian alongside a small gradient floor.",
+   "Insightful mechanistic analysis of when revisited sampling loses its efficiency advantage on stable arable land due to crop rotation inducing negative temporal covariance in pixel-level entropy influences.",
+   "Strong practical grounding via the 'no-change' point baseline and conditional wrong-direction reporting rates, exposing the high false-sign risk of reporting annual diversity trends from small samples.",
+   "Timely evaluation of recent annual satellite foundation-model embeddings (TESSERA and AlphaEarth Foundations) on a multi-year national agricultural declaration benchmark (SwissCrop25) with exceptional reproducibility records."
+  ],
+  "closest_prior_work": [
+   {
+    "citation": "Säurich, J., Schwieder, M., Preidl, S., Beyer, F., & Möller, M. (2026). Are remote sensing-based crop type classifications suitable for calculating a landscape heterogeneity metric? A data-fitness-for-purpose assessment. Ecological Informatics, 95, 103660.",
+    "url": "https://doi.org/10.1016/j.ecoinf.2026.103660",
+    "difference": "Assesses whether wall-to-wall satellite crop classifications are fit for single-year Shannon landscape heterogeneity against German IACS declarations, whereas this paper benchmarks fixed-budget probability reference sampling and model-assisted inference for multi-year diversity change."
+   },
+   {
+    "citation": "van der Velde, M., Claverie, M., d'Andrimont, R., Machefer, M., Bosco, S., Catarino, R., Dentener, F., & Angileri, V. (2025). Policy relevant crop diversity monitoring based on Earth observation and farmers' declarations. Environmental Research Letters, 20(1), 014054.",
+    "url": "https://doi.org/10.1088/1748-9326/ad9758",
+    "difference": "Compares wall-to-wall EO crop maps and complete parcel declarations for Shannon diversity and temporal trends, without evaluating sample-based reference auditing, panel rotation, or confidence interval coverage."
+   },
+   {
+    "citation": "Massey, A., & Mandallaz, D. (2015). Design-based regression estimation of net change for forest inventories. Canadian Journal of Forest Research, 45(12), 1775–1784.",
+    "url": "https://doi.org/10.1139/cjfr-2015-0266",
+    "difference": "Establishes design-based model-assisted net change estimation for permanent and temporary forest inventory plots on linear totals, whereas the present study targets a nonlinear compositional functional (Shannon entropy) requiring simplex projection."
+   },
+   {
+    "citation": "Lauber, T., Turkoglu, M. O., Ledain, S., & Aasen, H. (2026). SwissCrop25: A National Multi-Year Benchmark for Operational Crop Mapping. arXiv:2608.09497.",
+    "url": "https://arxiv.org/abs/2608.09497",
+    "difference": "Introduces the SwissCrop25 dataset and benchmarks deep spatio-temporal classifiers across years, whereas the present work uses SwissCrop25 declarations as a finite population to study reference-sampling designs for landscape diversity change."
+   },
+   {
+    "citation": "Angelopoulos, A. N., Duchi, J. C., & Zrnic, T. (2023). PPI++: Efficient Prediction-Powered Inference. arXiv:2311.01453.",
+    "url": "https://arxiv.org/abs/2311.01453",
+    "difference": "Develops general asymptotic theory for power-tuned prediction-powered inference, whereas this paper empirically evaluates finite-population unweighted and cross-fitted weighted difference estimators for projected Shannon entropy changes under paired and independent sampling."
+   }
+  ],
+  "familiarity": "no",
+  "figures_viewed": true
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP",
+  "web_search_queries": [
+   "\"SwissCrop25\" \"Lauber\" OR \"Turkoglu\"",
+   "\"Are remote sensing-based crop type classifications suitable for calculating a landscape heterogeneity metric\"",
+   "\"Policy relevant crop diversity monitoring based on earth observation and farmers\""
+  ],
+  "sources": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7Rz40N2HoGvwK4eSzQPgErXKpG3luDxYYbTjBJu0tSNrDpKEGrTp8QmOZuOpakaV0tD3iaKZiNPJj67ynvH-XFTFBtHEeTwuVaRYpmdHgFEiO0uw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoM33YWp69zDhzhgTfP-0DP9NkVLiqgdzXKtekcmTEvMAXbmjnBMuW-SI3LFUxmtMtYgU92Ff9dzO5zRAcxyOvVq462bLVbf-Tx1dtS3C1ZWN6SrFcns8KsA2Fs2wJgtIL8x5ZeeK6wdpNCY6TSF5poZM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn6pGR5N4tTSp9HRD-L6kPAAd-MCIvzopETghYxt8mfYP0KREA97Y9i385prJW_unRihzZCVvbc_qcM40D8nmfPP-YKmEKaEXj88TaNDuqsq5K7yCM9Vq1pI_TWuHEG8lSnQHCcgBrEX8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErUpA-2hXZmDMnnBNiz_sx50hAAUFXftYw7_yPIf5QAWTpBku0SbyLvqTg8nCeqzly0IUiE_3aF3EPU9RNeEJClk-p9bkXkTYvQyNG4wqjrqCe5L5to9npqbBgQhC_X8jjdoLBJdhSXoCB-UbNyLCgRWq2d3cfGg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDSLn6ajlP5Yi3HihVqOvX2D8s6ZpJqqjYjs8QQ7FfgGAbiK-9dXQcY2hOrgySUPtF2ZXhmGxKYRVotiaV8CfCMI-JACzKdaU-FJL6aDj6ena9n7LRnCZx_h222zO1fp0nteuVyA-egsr48S0tHLB3s2o=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1QUSFzYJIie0ZR1nQY5capFuwRowJTiMU-czuF2aK8IQb9qWEId5ABZKXGqbYziwjB91SrHcTGsqzXV6GoO7dPjAuqp7qaIlQjf-mpIBFtopDTTqoNA=="
+  ]
+ }
+}

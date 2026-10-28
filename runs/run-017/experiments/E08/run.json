@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E08",
+  "started_at_utc": "2026-10-27T05:39:54.220153Z",
+  "command": [
+    ".venv/bin/python",
+    "code/input_qc.py",
+    "--cores",
+    "R01C00",
+    "R02C00",
+    "--out",
+    "experiments/E08/qc"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2.md",
+  "plan_commit_id": "3f843c48f2a5582821dffa35d10d21a7bba2b7ac",
+  "code_commit_id": "3f843c48f2a5582821dffa35d10d21a7bba2b7ac",
+  "input_sha256": {
+    "data/derived/features/R01C00.json": "c995e34c3b3fd1d66a9cfe869c0feac5d4127822f5399195b86d316479181a4e",
+    "data/derived/features/R02C00.json": "7b7f65c6fe63c1a51dea3fe25bc944a3c078d843af20b6be2c1c38a4d43b3ca0"
+  },
+  "start_event_id": "E0059",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 50843,
+  "ended_at_utc": "2026-10-27T05:40:12.200406Z",
+  "elapsed_seconds": 17.980195416137576,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0060"
+}

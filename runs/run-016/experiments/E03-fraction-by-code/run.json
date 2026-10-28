@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E03-fraction-by-code",
+  "start_time_utc": "2026-10-26T16:05:21.448853Z",
+  "end_time_utc": "2026-10-26T16:05:23.619385Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/inspect_fraction_values.py"
+  ],
+  "timeout_seconds": 600,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "3e8277f4ec93fd6d98c0aac86372a4e7e9d3aa5e",
+  "plan_sha256": "ebe46e22b043010d9683376e5d76768edcaefe52760cdde4354e8a751cc29eb5",
+  "code_commit_id": "3e8277f4ec93fd6d98c0aac86372a4e7e9d3aa5e",
+  "inputs": [
+    {
+      "path": "data/catalogue-manifest.json",
+      "sha256": "422eda275322c49c14616d346c0bf917c62d8f742d6a4b3001623aab101e2f93"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E03-fraction-by-code/stdout.txt",
+  "stderr_path": "experiments/E03-fraction-by-code/stderr.txt",
+  "start_event_id": "E0058",
+  "pid": 92207,
+  "elapsed_seconds": 2.1704775420948863,
+  "end_event_id": "E0059"
+}

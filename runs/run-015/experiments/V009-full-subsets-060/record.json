@@ -1,0 +1,31 @@
+{
+  "experiment_id": "V009-full-subsets-060",
+  "started_at_utc": "2026-10-26T06:11:27Z",
+  "command": [
+    ".venv/bin/python",
+    "verification_work/primary-source/scripts/verify.py",
+    "--mode",
+    "subset-chunk",
+    "--start",
+    "60",
+    "--count",
+    "30",
+    "--output",
+    "/Users/fujimura/Research/ai-free-research-en/run-015/verification_work/subset-full-060"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v3.1-subset-clarification.md",
+  "plan_commit_id": "35b0ad3b7464bcd76c0902d986ce14353fd42f40",
+  "code_commit_id": "d162b73b0b3681fe3fce9ce484c82c9119fb9ebb",
+  "input_sha256": {
+    "review/primary-replay-source.json": "68447d1a088febd0850504f4babcd2f31458bc8a4f0d8f8c67639248931a3383",
+    "protocol/subset-design-v3.json": "4eb1e19e92ad317f517b62f711793a827a39ba31ad64f0e7698f70baa3f4d2c7"
+  },
+  "status": "completed",
+  "start_event_id": "E0449",
+  "child_pid": 62985,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T06:21:29Z",
+  "elapsed_seconds": 601.5005283749197,
+  "end_event_id": "E0461"
+}

@@ -1,0 +1,27 @@
+{
+  "experiment_id": "S013-controlled-moment-precision",
+  "started_at_utc": "2026-10-26T05:54:11Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/controlled_moments.py",
+    "--cases",
+    "results/primary/cases.csv",
+    "--output",
+    "results/controlled-moments"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v10-controlled-moment-precision.md",
+  "plan_commit_id": "990883cebb5dbd453033889b24b0ec5dad673b33",
+  "code_commit_id": "76833ac9f8131744b2e9cc131a92c2e3d7693637",
+  "input_sha256": {
+    "results/primary/cases.csv": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d",
+    "protocol/sensitivity-cohort-v1.json": "6f56e73beffa668423bb0e977b561cdb68c926136b68ff2a9e6489b44a5fed95"
+  },
+  "status": "completed",
+  "start_event_id": "E0425",
+  "child_pid": 62272,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T05:55:58Z",
+  "elapsed_seconds": 107.22189816599712,
+  "end_event_id": "E0427"
+}

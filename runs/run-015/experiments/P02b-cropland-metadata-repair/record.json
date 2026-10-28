@@ -1,0 +1,23 @@
+{
+  "experiment_id": "P02b-cropland-metadata-repair",
+  "started_at_utc": "2026-10-25T22:28:10Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pilot_satellite.py",
+    "cropland"
+  ],
+  "timeout_seconds": 480,
+  "plan_path": "protocol/topic-selection.md",
+  "plan_commit_id": "fb7a5bb399598beb52db018208b4c3920fdf642f",
+  "code_commit_id": "ad8eecc8a0d98b930c730054ff666af6c9ea3841",
+  "input_sha256": {
+    "data/pilot/cropland/embeddings.npz": "0d41b273f3a7bfffb8f5e0f0462a5299f9a28e506f56ad698434aae912d67e80"
+  },
+  "status": "completed",
+  "start_event_id": "E0031",
+  "child_pid": 45807,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-25T22:28:16Z",
+  "elapsed_seconds": 6.13276766682975,
+  "end_event_id": "E0033"
+}

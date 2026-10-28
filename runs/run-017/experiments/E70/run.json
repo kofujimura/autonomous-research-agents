@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E70",
+  "started_at_utc": "2026-10-27T13:14:16.095030Z",
+  "command": [
+    ".venv/bin/python",
+    "code/check_manuscript.py",
+    "--fresh",
+    "verification-work/run-2/output",
+    "--out",
+    "review/final-manuscript-check"
+  ],
+  "timeout_seconds": 120,
+  "plan_path": "protocol/plan-v11.md",
+  "plan_commit_id": "e186eb6a41c24a5ac2f34b823081233d6837a33e",
+  "code_commit_id": "e186eb6a41c24a5ac2f34b823081233d6837a33e",
+  "input_sha256": {
+    "paper.md": "3eec44241ea825069aa8ad661b4c74ba0a6bf0dd12900ae57fa118c8a1675d74",
+    "claims.jsonl": "667c0a798fa49e12d0878e0d1f797eac758772c1a034ec8efea42047bf104d16",
+    "review/offline-verification.json": "324d7c234b36b4f23a0d51ea86103b94275347787a9fd427c169baa13845c239",
+    "analysis/expected-artifacts.json": "43c40fc2a8d82e328df00dbe230b72212ace0c4fc2ff0150d2749710ec9659cb"
+  },
+  "start_event_id": "E0350",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 78858,
+  "ended_at_utc": "2026-10-27T13:14:17.347189Z",
+  "elapsed_seconds": 1.2520074169151485,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0351"
+}

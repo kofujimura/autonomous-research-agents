@@ -1,0 +1,11 @@
+{
+  "thresholds_compared": 620,
+  "thresholds_match": true,
+  "new_pairs": 523,
+  "new_plots": 488,
+  "primary_test_pairs_by_task": {
+    "gain": 267,
+    "loss": 255
+  },
+  "endpoint": "NLCD Forest-class transitions; distinct from LCMAP dominant Trees"
+}

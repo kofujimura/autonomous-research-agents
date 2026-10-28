@@ -1,0 +1,105 @@
+[
+  {
+    "task_id": "constant-seed-0",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-seed-0",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/main"
+    ],
+    "start_time_utc": "2026-10-27T19:19:51.680021+00:00",
+    "end_time_utc": "2026-10-27T19:23:05.688590+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "constant-seed-1000",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--seed-offset",
+      "1000",
+      "--output",
+      "analysis/controls/constant-seed-1000",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/seed-1000"
+    ],
+    "start_time_utc": "2026-10-27T19:23:05.689074+00:00",
+    "end_time_utc": "2026-10-27T19:26:20.283147+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "constant-seed-2000",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--seed-offset",
+      "2000",
+      "--output",
+      "analysis/controls/constant-seed-2000",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/seed-2000"
+    ],
+    "start_time_utc": "2026-10-27T19:26:20.283538+00:00",
+    "end_time_utc": "2026-10-27T19:29:34.203877+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "constant-all",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-all",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/full-features",
+      "--forest-all-features"
+    ],
+    "start_time_utc": "2026-10-27T19:29:34.204289+00:00",
+    "end_time_utc": "2026-10-27T19:34:00.032167+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "constant-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-hgb",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/hgb",
+      "--scalar-learner",
+      "hgb"
+    ],
+    "start_time_utc": "2026-10-27T19:34:00.032577+00:00",
+    "end_time_utc": "2026-10-27T19:34:24.944259+00:00",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,43 @@
+START L060_175 calibration 2026-10-26T17:32:19.637219Z
+END L060_175 accepted {'train': 10, 'calibration': 10, 'test': 10}
+START L130_105 train 2026-10-26T17:34:00.598236Z
+END L130_105 accepted {'train': 11, 'calibration': 10, 'test': 10}
+START L075_045 test 2026-10-26T17:35:34.920765Z
+END L075_045 accepted {'train': 11, 'calibration': 10, 'test': 11}
+START L030_200 test 2026-10-26T17:37:12.595522Z
+END L030_200 accepted {'train': 11, 'calibration': 10, 'test': 12}
+START L120_120 train 2026-10-26T17:38:51.348191Z
+END L120_120 ineligible {'train': 11, 'calibration': 10, 'test': 12}
+START L115_185 train 2026-10-26T17:39:09.309791Z
+END L115_185 accepted {'train': 12, 'calibration': 10, 'test': 12}
+START L125_110 train 2026-10-26T17:40:47.672109Z
+END L125_110 ineligible {'train': 12, 'calibration': 10, 'test': 12}
+START L050_100 test 2026-10-26T17:41:07.721498Z
+END L050_100 accepted {'train': 12, 'calibration': 10, 'test': 13}
+START L075_150 train 2026-10-26T17:42:50.421935Z
+END L075_150 accepted {'train': 13, 'calibration': 10, 'test': 13}
+START L100_185 train 2026-10-26T17:44:21.799823Z
+END L100_185 ineligible {'train': 13, 'calibration': 10, 'test': 13}
+START L100_120 train 2026-10-26T17:44:41.442169Z
+END L100_120 accepted {'train': 14, 'calibration': 10, 'test': 13}
+START L035_155 test 2026-10-26T17:46:21.932221Z
+END L035_155 ineligible {'train': 14, 'calibration': 10, 'test': 13}
+START L045_105 test 2026-10-26T17:46:41.482535Z
+END L045_105 accepted {'train': 14, 'calibration': 10, 'test': 14}
+START L020_185 train 2026-10-26T17:48:17.264321Z
+END L020_185 accepted {'train': 15, 'calibration': 10, 'test': 14}
+START L065_090 test 2026-10-26T17:50:01.699341Z
+END L065_090 accepted {'train': 15, 'calibration': 10, 'test': 15}
+START L115_125 train 2026-10-26T17:51:38.742467Z
+END L115_125 ineligible {'train': 15, 'calibration': 10, 'test': 15}
+START L035_210 test 2026-10-26T17:51:57.088610Z
+END L035_210 accepted {'train': 15, 'calibration': 10, 'test': 16}
+START L110_225 test 2026-10-26T17:53:36.470153Z
+END L110_225 ineligible {'train': 15, 'calibration': 10, 'test': 16}
+START L140_090 train 2026-10-26T17:53:56.450620Z
+END L140_090 accepted {'train': 16, 'calibration': 10, 'test': 16}
+START L105_175 train 2026-10-26T17:55:34.610309Z
+END L105_175 ineligible {'train': 16, 'calibration': 10, 'test': 16}
+START L140_115 train 2026-10-26T17:55:54.890845Z
+END L140_115 accepted {'train': 17, 'calibration': 10, 'test': 16}
+{"completed_at_utc": "2026-10-26T17:57:32.514717Z", "accepted": {"train": 17, "calibration": 10, "test": 16}, "attempted": 61, "batch_attempts": 21}

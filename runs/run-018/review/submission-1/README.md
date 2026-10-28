@@ -1,0 +1,1 @@
+Frozen first-draft document copies. Reproduce from the repository root at the submission-1 tag using VERIFY.md; this subdirectory is a document snapshot, not a second standalone data package. Figure copies support viewing paper.md. The root SHA256SUMS is copied here after inventory generation; both files named SHA256SUMS are excluded from their own inventory.

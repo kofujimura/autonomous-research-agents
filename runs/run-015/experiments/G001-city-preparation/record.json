@@ -1,0 +1,25 @@
+{
+  "experiment_id": "G001-city-preparation",
+  "started_at_utc": "2026-10-26T00:29:03Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_cities.py",
+    "--output",
+    "data/cities/preparation"
+  ],
+  "timeout_seconds": 900,
+  "plan_path": "protocol/plan-v4.1-city-source.md",
+  "plan_commit_id": "6d4e6570f7b6a920294e592f8dc94b847b7cfe6d",
+  "code_commit_id": "918481db7b06d640bd58614fb09a1a2890484a85",
+  "input_sha256": {
+    "protocol/city-time-parameters-v4.1.json": "d2d129950f6a3e2755547ffbb272df63f4e2fd670cb904657db6bd8b8469ec2d",
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12"
+  },
+  "status": "completed",
+  "start_event_id": "E0161",
+  "child_pid": 50368,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T00:29:08Z",
+  "elapsed_seconds": 5.5817105828318745,
+  "end_event_id": "E0162"
+}

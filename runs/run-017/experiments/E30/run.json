@@ -1,0 +1,26 @@
+{
+  "experiment_id": "E30",
+  "started_at_utc": "2026-10-27T08:11:51.620151Z",
+  "command": [
+    ".venv/bin/python",
+    "code/features.py",
+    "--cores",
+    "R03C12",
+    "R03C13"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6.md",
+  "plan_commit_id": "f0c36f115fb12dff4dd66b1e1e99f6d15bd5701b",
+  "code_commit_id": "f0c36f115fb12dff4dd66b1e1e99f6d15bd5701b",
+  "input_sha256": {
+    "data/main/core-selection.json": "0a3dd56ad77cacae3801cb7983d5b171b3e713de0321dfd85180848eedab7fc2"
+  },
+  "start_event_id": "E0179",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 55958,
+  "ended_at_utc": "2026-10-27T08:12:01.128818Z",
+  "elapsed_seconds": 9.508696583099663,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0180"
+}

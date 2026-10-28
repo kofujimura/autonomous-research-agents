@@ -1,0 +1,30 @@
+{
+  "experiment_id": "D001-identification-first",
+  "started_at_utc": "2026-10-26T03:45:58Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/identification_diagnostics.py",
+    "--cases",
+    "results/interim-003/primary/cases.csv",
+    "--start",
+    "0",
+    "--count",
+    "5",
+    "--output",
+    "results/identification"
+  ],
+  "timeout_seconds": 300,
+  "plan_path": "protocol/plan-v6-identification-diagnostics.md",
+  "plan_commit_id": "35c4acf4f98e82ae75524b8c161c61edb9aabc16",
+  "code_commit_id": "eba05b5c6d8b8779c18e4c12852f7e317d5a78eb",
+  "input_sha256": {
+    "results/interim-003/primary/cases.csv": "0bfec084d4cb5ae782c0bb5d1b563b4f5a3b1df6878274bc414026b52d6a7f72"
+  },
+  "status": "completed",
+  "start_event_id": "E0247",
+  "child_pid": 56328,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T03:45:59Z",
+  "elapsed_seconds": 0.9745708329137415,
+  "end_event_id": "E0248"
+}

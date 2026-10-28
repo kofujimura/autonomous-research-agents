@@ -1,0 +1,2100 @@
+{
+  "generated_at_utc": "2026-10-27T12:41:51.570693Z",
+  "plan": "protocol/plan-v11.md",
+  "review_prompted": true,
+  "interpretation": "Underlying definitions preplanned; expanded tabulation and intervals selected after REVIEW-1. Conditional on fixed models/maps/thresholds; not multiplicity-adjusted.",
+  "sensitivities": [
+    {
+      "family": "original",
+      "condition": "standardized_0.01",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.18777892489927778,
+          "mean_fpr": 0.009999774002966508,
+          "minimum_seed_fpr": 0.009999774002966508,
+          "maximum_seed_fpr": 0.009999774002966508,
+          "patches_per_seed": 227
+        },
+        "aef_object": {
+          "recovery": 0.2864696305579882,
+          "mean_fpr": 0.009999774002966508,
+          "minimum_seed_fpr": 0.009999774002966508,
+          "maximum_seed_fpr": 0.009999774002966508,
+          "patches_per_seed": 227
+        },
+        "optical_area": {
+          "recovery": 0.13839292337363696,
+          "mean_fpr": 0.009999774002966508,
+          "minimum_seed_fpr": 0.009999774002966508,
+          "maximum_seed_fpr": 0.009999774002966508,
+          "patches_per_seed": 227
+        },
+        "optical_object": {
+          "recovery": 0.16752732701746073,
+          "mean_fpr": 0.009999774002966508,
+          "minimum_seed_fpr": 0.009999774002966508,
+          "maximum_seed_fpr": 0.009999774002966508,
+          "patches_per_seed": 227
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.09869070565871035,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.04789170610722954,
+            0.14678969240277503
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.029134403643823747,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.0009534177572733328,
+            0.056343675427847545
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.0695563020148866,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.020533245345866074,
+            0.12155604800891759
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "original",
+      "condition": "standardized_0.05",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.44770398249830884,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "aef_object": {
+          "recovery": 0.5757396867011283,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "optical_area": {
+          "recovery": 0.3642790793455023,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "optical_object": {
+          "recovery": 0.37643672631575453,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.1280357042028195,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.08388012663012673,
+            0.17166703156132027
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.012157646970252234,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.04461048470345351,
+            0.06121674667361617
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.11587805723256728,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.04880914315946775,
+            0.1850795098204246
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "original",
+      "condition": "standardized_0.1",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.6022105794003059,
+          "mean_fpr": 0.09999892948773609,
+          "minimum_seed_fpr": 0.09999892948773609,
+          "maximum_seed_fpr": 0.09999892948773609,
+          "patches_per_seed": 227
+        },
+        "aef_object": {
+          "recovery": 0.683677547283241,
+          "mean_fpr": 0.09999892948773609,
+          "minimum_seed_fpr": 0.09999892948773609,
+          "maximum_seed_fpr": 0.09999892948773609,
+          "patches_per_seed": 227
+        },
+        "optical_area": {
+          "recovery": 0.4826135954748917,
+          "mean_fpr": 0.09999892948773609,
+          "minimum_seed_fpr": 0.09999892948773609,
+          "maximum_seed_fpr": 0.09999892948773609,
+          "patches_per_seed": 227
+        },
+        "optical_object": {
+          "recovery": 0.5046091181950938,
+          "mean_fpr": 0.09999892948773609,
+          "minimum_seed_fpr": 0.09999892948773609,
+          "maximum_seed_fpr": 0.09999892948773609,
+          "patches_per_seed": 227
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.08146696788293528,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.029666477729454195,
+            0.13500921674627453
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.02199552272020211,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.027034643005941758,
+            0.06772931900201372
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.05947144516273317,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.005281933205405512,
+            0.12993533205924504
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "original",
+      "condition": "regional_0.05",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.4430249538598824,
+          "mean_fpr": 0.049997680556761535,
+          "minimum_seed_fpr": 0.049997680556761535,
+          "maximum_seed_fpr": 0.049997680556761535,
+          "patches_per_seed": 227
+        },
+        "aef_object": {
+          "recovery": 0.5418158281362271,
+          "mean_fpr": 0.049997680556761535,
+          "minimum_seed_fpr": 0.049997680556761535,
+          "maximum_seed_fpr": 0.049997680556761535,
+          "patches_per_seed": 227
+        },
+        "optical_area": {
+          "recovery": 0.3835855549048024,
+          "mean_fpr": 0.049997680556761535,
+          "minimum_seed_fpr": 0.049997680556761535,
+          "maximum_seed_fpr": 0.049997680556761535,
+          "patches_per_seed": 227
+        },
+        "optical_object": {
+          "recovery": 0.4060248807885503,
+          "mean_fpr": 0.049997680556761535,
+          "minimum_seed_fpr": 0.049997680556761535,
+          "maximum_seed_fpr": 0.049997680556761535,
+          "patches_per_seed": 227
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.0987908742763447,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.05339293873625726,
+            0.13288079436313688
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.022439325883747974,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.03230249628719281,
+            0.07358267854075576
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.07635154839259672,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.009186761180129586,
+            0.13707056968559858
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "original",
+      "condition": "validation_0.05",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.5450093719519012,
+          "mean_fpr": 0.07333389634348694,
+          "minimum_seed_fpr": 0.07052059011393819,
+          "maximum_seed_fpr": 0.07671528774774924,
+          "patches_per_seed": 227
+        },
+        "aef_object": {
+          "recovery": 0.6121849158627898,
+          "mean_fpr": 0.06792471681976975,
+          "minimum_seed_fpr": 0.06429734548642294,
+          "maximum_seed_fpr": 0.07524511757198303,
+          "patches_per_seed": 227
+        },
+        "optical_area": {
+          "recovery": 0.39928322559002327,
+          "mean_fpr": 0.06576323361313353,
+          "minimum_seed_fpr": 0.058809185946790785,
+          "maximum_seed_fpr": 0.07031719278379578,
+          "patches_per_seed": 227
+        },
+        "optical_object": {
+          "recovery": 0.4209888544075852,
+          "mean_fpr": 0.06594855118059662,
+          "minimum_seed_fpr": 0.05612457908052512,
+          "maximum_seed_fpr": 0.07320400752213284,
+          "patches_per_seed": 227
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.06717554391088842,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.023687714494557154,
+            0.10718676055021832
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.02170562881756183,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.0397955290449055,
+            0.07561682872627537
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.045469915093326596,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.023703742366223093,
+            0.11983816543816529
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "original",
+      "condition": "regional_validation_0.05",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.5391085352851498,
+          "mean_fpr": 0.07340169545353442,
+          "minimum_seed_fpr": 0.07031005603536973,
+          "maximum_seed_fpr": 0.07628113555183123,
+          "patches_per_seed": 227
+        },
+        "aef_object": {
+          "recovery": 0.6025483848467772,
+          "mean_fpr": 0.06497081664622781,
+          "minimum_seed_fpr": 0.060275787748343974,
+          "maximum_seed_fpr": 0.07307792496660596,
+          "patches_per_seed": 227
+        },
+        "optical_area": {
+          "recovery": 0.4194696682007956,
+          "mean_fpr": 0.05818924040018127,
+          "minimum_seed_fpr": 0.05150115555851598,
+          "maximum_seed_fpr": 0.06161154916208626,
+          "patches_per_seed": 227
+        },
+        "optical_object": {
+          "recovery": 0.43791150508122534,
+          "mean_fpr": 0.06138745526150831,
+          "minimum_seed_fpr": 0.05395143918479302,
+          "maximum_seed_fpr": 0.06495273688354848,
+          "patches_per_seed": 227
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.06343984956162729,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.022334926646132906,
+            0.09712762283006847
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.01844183688042983,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.04976192460035528,
+            0.07614420660888897
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.04499801268119746,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.03408763832006596,
+            0.12643700350343912
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "original",
+      "condition": "standardized_0.05",
+      "coverage": "any",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.6321793469415773,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "aef_object": {
+          "recovery": 0.739713466271491,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "optical_area": {
+          "recovery": 0.6473171915808539,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "optical_object": {
+          "recovery": 0.7196756297143464,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": 0.10753411932991375,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": 0.07235843813349252,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": 0.03517568119642123,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    },
+    {
+      "family": "original",
+      "condition": "standardized_0.05",
+      "coverage": "75",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.3415793150559051,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "aef_object": {
+          "recovery": 0.48706783012465305,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "optical_area": {
+          "recovery": 0.23695362295414107,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "optical_object": {
+          "recovery": 0.22786530960655518,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": 0.14548851506874794,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": -0.009088313347585891,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": 0.15457682841633383,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    },
+    {
+      "family": "four_splits",
+      "condition": "standardized_0.01",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.1385424711764834,
+          "mean_fpr": 0.009999419866450282,
+          "minimum_seed_fpr": 0.009999419866450282,
+          "maximum_seed_fpr": 0.009999419866450282,
+          "patches_per_seed": 978
+        },
+        "aef_object": {
+          "recovery": 0.22514908595784516,
+          "mean_fpr": 0.009999419866450282,
+          "minimum_seed_fpr": 0.009999419866450282,
+          "maximum_seed_fpr": 0.009999419866450282,
+          "patches_per_seed": 978
+        },
+        "optical_area": {
+          "recovery": 0.19907318485726583,
+          "mean_fpr": 0.009999419866450282,
+          "minimum_seed_fpr": 0.009999419866450282,
+          "maximum_seed_fpr": 0.009999419866450282,
+          "patches_per_seed": 978
+        },
+        "optical_object": {
+          "recovery": 0.22519338978041964,
+          "mean_fpr": 0.009999419866450282,
+          "minimum_seed_fpr": 0.009999419866450282,
+          "maximum_seed_fpr": 0.009999419866450282,
+          "patches_per_seed": 978
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.08660661478136175,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.0524540065257028,
+            0.12107832048122841
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.02612020492315381,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.0009197262872484295,
+            0.049600877594374246
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.06048640985820794,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.02982369237461229,
+            0.09104523496746564
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "four_splits",
+      "condition": "standardized_0.05",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.4165938070842481,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "aef_object": {
+          "recovery": 0.5002571109246731,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "optical_area": {
+          "recovery": 0.37946407993827713,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "optical_object": {
+          "recovery": 0.4181438954439704,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.08366330384042492,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.045184191892423474,
+            0.12065038793379718
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.03867981550569327,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.016350241231664266,
+            0.06161043026528234
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.04498348833473165,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.0033814639283442707,
+            0.083348747181242
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "four_splits",
+      "condition": "standardized_0.1",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.589531475299937,
+          "mean_fpr": 0.09999925623903883,
+          "minimum_seed_fpr": 0.09999925623903883,
+          "maximum_seed_fpr": 0.09999925623903883,
+          "patches_per_seed": 978
+        },
+        "aef_object": {
+          "recovery": 0.6645419376463984,
+          "mean_fpr": 0.09999925623903883,
+          "minimum_seed_fpr": 0.09999925623903883,
+          "maximum_seed_fpr": 0.09999925623903883,
+          "patches_per_seed": 978
+        },
+        "optical_area": {
+          "recovery": 0.5137370856960386,
+          "mean_fpr": 0.09999925623903883,
+          "minimum_seed_fpr": 0.09999925623903883,
+          "maximum_seed_fpr": 0.09999925623903883,
+          "patches_per_seed": 978
+        },
+        "optical_object": {
+          "recovery": 0.5394032942011826,
+          "mean_fpr": 0.09999925623903883,
+          "minimum_seed_fpr": 0.09999925623903883,
+          "maximum_seed_fpr": 0.09999925623903883,
+          "patches_per_seed": 978
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.07501046234646125,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.042946962265118904,
+            0.1069558022902594
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.025666208505143895,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.0032575455000840325,
+            0.05166028787817071
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.049344253841317354,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.01525106740334051,
+            0.0864032392928643
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "four_splits",
+      "condition": "regional_0.05",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.4313223761327597,
+          "mean_fpr": 0.04999709933225141,
+          "minimum_seed_fpr": 0.04999709933225141,
+          "maximum_seed_fpr": 0.04999709933225141,
+          "patches_per_seed": 978
+        },
+        "aef_object": {
+          "recovery": 0.5114676143271669,
+          "mean_fpr": 0.04999709933225141,
+          "minimum_seed_fpr": 0.04999709933225141,
+          "maximum_seed_fpr": 0.04999709933225141,
+          "patches_per_seed": 978
+        },
+        "optical_area": {
+          "recovery": 0.3957088760365656,
+          "mean_fpr": 0.04999709933225141,
+          "minimum_seed_fpr": 0.04999709933225141,
+          "maximum_seed_fpr": 0.04999709933225141,
+          "patches_per_seed": 978
+        },
+        "optical_object": {
+          "recovery": 0.4187023120298142,
+          "mean_fpr": 0.04999709933225141,
+          "minimum_seed_fpr": 0.04999709933225141,
+          "maximum_seed_fpr": 0.04999709933225141,
+          "patches_per_seed": 978
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.08014523819440733,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.0480389891794002,
+            0.11056807595819164
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.022993435993248657,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.0009420249740927185,
+            0.0464427665807132
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.057151802201158675,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.020820574239798974,
+            0.09194760397195517
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "four_splits",
+      "condition": "validation_0.05",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.40497673491488306,
+          "mean_fpr": 0.052225050166676834,
+          "minimum_seed_fpr": 0.049751360710678476,
+          "maximum_seed_fpr": 0.054982677807214185,
+          "patches_per_seed": 978
+        },
+        "aef_object": {
+          "recovery": 0.4727866435007508,
+          "mean_fpr": 0.05007302245116838,
+          "minimum_seed_fpr": 0.0470184854349291,
+          "maximum_seed_fpr": 0.05230454333820745,
+          "patches_per_seed": 978
+        },
+        "optical_area": {
+          "recovery": 0.3861937239804914,
+          "mean_fpr": 0.052864803595042975,
+          "minimum_seed_fpr": 0.04933306954611243,
+          "maximum_seed_fpr": 0.057185697774220945,
+          "patches_per_seed": 978
+        },
+        "optical_object": {
+          "recovery": 0.411738990735617,
+          "mean_fpr": 0.050921921461817544,
+          "minimum_seed_fpr": 0.049075728253545135,
+          "maximum_seed_fpr": 0.052912047291296956,
+          "patches_per_seed": 978
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.06780990858586766,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.027821918852546618,
+            0.11040164226411982
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.02554526675512553,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.0037711308322067915,
+            0.04626149428298247
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.04226464183074213,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.0032975041369585623,
+            0.08353433108900828
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "four_splits",
+      "condition": "regional_validation_0.05",
+      "coverage": "50",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.43542954130296374,
+          "mean_fpr": 0.05852625253064667,
+          "minimum_seed_fpr": 0.05490621918040517,
+          "maximum_seed_fpr": 0.0619877160439652,
+          "patches_per_seed": 978
+        },
+        "aef_object": {
+          "recovery": 0.4969213429884428,
+          "mean_fpr": 0.05515796739054442,
+          "minimum_seed_fpr": 0.0535600118406745,
+          "maximum_seed_fpr": 0.056862310508301116,
+          "patches_per_seed": 978
+        },
+        "optical_area": {
+          "recovery": 0.41346891245148143,
+          "mean_fpr": 0.05695834492360831,
+          "minimum_seed_fpr": 0.053566854441517334,
+          "maximum_seed_fpr": 0.05965171161709996,
+          "patches_per_seed": 978
+        },
+        "optical_object": {
+          "recovery": 0.4317713843419829,
+          "mean_fpr": 0.05651488488811605,
+          "minimum_seed_fpr": 0.05506092146033002,
+          "maximum_seed_fpr": 0.0587618760031476,
+          "patches_per_seed": 978
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.06149180168547902,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.021819958640587056,
+            0.10450766244980343
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.01830247189050127,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.00854675226201591,
+            0.04369410442834016
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.04318932979497775,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.0012100090514079592,
+            0.08502754947078406
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "family": "four_splits",
+      "condition": "standardized_0.05",
+      "coverage": "any",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.6237654778267674,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "aef_object": {
+          "recovery": 0.7140807812149808,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "optical_area": {
+          "recovery": 0.7151700850276385,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "optical_object": {
+          "recovery": 0.7610882625364694,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": 0.09031530338821336,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": 0.04591817750883098,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": 0.04439712587938238,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    },
+    {
+      "family": "four_splits",
+      "condition": "standardized_0.05",
+      "coverage": "75",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.30295286588957715,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "aef_object": {
+          "recovery": 0.39181277754968874,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "optical_area": {
+          "recovery": 0.25920028997062616,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "optical_object": {
+          "recovery": 0.28420020071838137,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": 0.08885991166011159,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": 0.024999910747755205,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": 0.06386000091235638,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    }
+  ],
+  "transfer_replay": [
+    {
+      "label": "R01",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.28809523809523807,
+          "mean_fpr": 0.03228166298297258,
+          "minimum_seed_fpr": 0.023007922604915822,
+          "maximum_seed_fpr": 0.04826495924783181,
+          "patches_per_seed": 252
+        },
+        "aef_object": {
+          "recovery": 0.26825396825396824,
+          "mean_fpr": 0.021529536465793045,
+          "minimum_seed_fpr": 0.018170729843756728,
+          "maximum_seed_fpr": 0.0249528019459907,
+          "patches_per_seed": 252
+        },
+        "optical_area": {
+          "recovery": 0.3468253968253968,
+          "mean_fpr": 0.011602872308946863,
+          "minimum_seed_fpr": 0.010245346528876596,
+          "maximum_seed_fpr": 0.011987402738667953,
+          "patches_per_seed": 252
+        },
+        "optical_object": {
+          "recovery": 0.3746031746031746,
+          "mean_fpr": 0.012082423986474753,
+          "minimum_seed_fpr": 0.009696612714787613,
+          "maximum_seed_fpr": 0.01572157107353172,
+          "patches_per_seed": 252
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": -0.019841269841269826,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.11641098736702127,
+            0.06908168105492835
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.02777777777777779,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.0009334371754932625,
+            0.055753755916855385
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": -0.047619047619047616,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.14444661458333333,
+            0.04568015645771544
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "label": "R02",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.08675496688741721,
+          "mean_fpr": 0.0049488124006053045,
+          "minimum_seed_fpr": 0.004144879206683176,
+          "maximum_seed_fpr": 0.006670547920283046,
+          "patches_per_seed": 302
+        },
+        "aef_object": {
+          "recovery": 0.030463576158940398,
+          "mean_fpr": 0.0010635633760913352,
+          "minimum_seed_fpr": 0.0009439151717775785,
+          "maximum_seed_fpr": 0.001285308527556544,
+          "patches_per_seed": 302
+        },
+        "optical_area": {
+          "recovery": 0.04238410596026491,
+          "mean_fpr": 0.014968225803344583,
+          "minimum_seed_fpr": 0.01379593024873556,
+          "maximum_seed_fpr": 0.016975490311492005,
+          "patches_per_seed": 302
+        },
+        "optical_object": {
+          "recovery": 0.04370860927152318,
+          "mean_fpr": 0.005247611851807459,
+          "minimum_seed_fpr": 0.003370055414883894,
+          "maximum_seed_fpr": 0.007327649865261995,
+          "patches_per_seed": 302
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": -0.05629139072847682,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.09433080441411355,
+            -0.022132208770346412
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.0013245033112582738,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.011406031672100614,
+            0.013065796271075004
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": -0.05761589403973509,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.09739424415905924,
+            -0.018747199820788533
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "label": "R03",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.6,
+          "mean_fpr": 0.15249185362392104,
+          "minimum_seed_fpr": 0.14266778686754336,
+          "maximum_seed_fpr": 0.16260237852821743,
+          "patches_per_seed": 159
+        },
+        "aef_object": {
+          "recovery": 0.5471698113207546,
+          "mean_fpr": 0.13069801330475872,
+          "minimum_seed_fpr": 0.11797234148089607,
+          "maximum_seed_fpr": 0.14424722263755094,
+          "patches_per_seed": 159
+        },
+        "optical_area": {
+          "recovery": 0.4867924528301886,
+          "mean_fpr": 0.1263612695293495,
+          "minimum_seed_fpr": 0.10522056328066966,
+          "maximum_seed_fpr": 0.14302496956233846,
+          "patches_per_seed": 159
+        },
+        "optical_object": {
+          "recovery": 0.46163522012578617,
+          "mean_fpr": 0.12359233231993128,
+          "minimum_seed_fpr": 0.10735653952861378,
+          "maximum_seed_fpr": 0.13859637880826764,
+          "patches_per_seed": 159
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": -0.05283018867924538,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.1581818181818182,
+            0.02400869565217383
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": -0.025157232704402455,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.07922783738001142,
+            0.02245686079309773
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": -0.027672955974842928,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.1483908696472364,
+            0.06619904076738603
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "label": "R04",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.17433962264150943,
+          "mean_fpr": 0.014460677693140694,
+          "minimum_seed_fpr": 0.011373943707597901,
+          "maximum_seed_fpr": 0.01633377451570208,
+          "patches_per_seed": 265
+        },
+        "aef_object": {
+          "recovery": 0.15773584905660376,
+          "mean_fpr": 0.009474699888007553,
+          "minimum_seed_fpr": 0.006838712364521533,
+          "maximum_seed_fpr": 0.011694417963218347,
+          "patches_per_seed": 265
+        },
+        "optical_area": {
+          "recovery": 0.42566037735849055,
+          "mean_fpr": 0.10763885675147858,
+          "minimum_seed_fpr": 0.08307340595873865,
+          "maximum_seed_fpr": 0.130318484307174,
+          "patches_per_seed": 265
+        },
+        "optical_object": {
+          "recovery": 0.39698113207547164,
+          "mean_fpr": 0.12227029978804735,
+          "minimum_seed_fpr": 0.07773641050322556,
+          "maximum_seed_fpr": 0.2194195829438279,
+          "patches_per_seed": 265
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": -0.016603773584905668,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.04829938390450519,
+            0.017146384479717777
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": -0.028679245283018906,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.09779877483881948,
+            0.03251650085321482
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.012075471698113238,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.05575890946879392,
+            0.08132322293754557
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 1 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "label": "All four projects",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.2872974569060412,
+          "mean_fpr": 0.050238553890687966,
+          "minimum_seed_fpr": 0.04604772862840066,
+          "maximum_seed_fpr": 0.054189233613830386,
+          "patches_per_seed": 978
+        },
+        "aef_object": {
+          "recovery": 0.2509058011975668,
+          "mean_fpr": 0.040109838618746646,
+          "minimum_seed_fpr": 0.03673762642076937,
+          "maximum_seed_fpr": 0.04335650396647721,
+          "patches_per_seed": 978
+        },
+        "optical_area": {
+          "recovery": 0.32541558324358527,
+          "mean_fpr": 0.06600462024309084,
+          "minimum_seed_fpr": 0.05502254339473328,
+          "maximum_seed_fpr": 0.07413244002683489,
+          "patches_per_seed": 978
+        },
+        "optical_object": {
+          "recovery": 0.3192320340189889,
+          "mean_fpr": 0.06647330865038623,
+          "minimum_seed_fpr": 0.05355078920475591,
+          "maximum_seed_fpr": 0.0958913156982651,
+          "patches_per_seed": 978
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": -0.03639165570847441,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.06989631258397949,
+            -0.006284523374543346
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": -0.006183549224596296,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.03063791674706073,
+            0.01653031112110296
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": -0.030208106483878117,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.07334164422459832,
+            0.009298712252536812
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    }
+  ],
+  "rotation_replay": [
+    {
+      "label": "within",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.5450093719519012,
+          "mean_fpr": 0.07333389634348694,
+          "minimum_seed_fpr": 0.07052059011393819,
+          "maximum_seed_fpr": 0.07671528774774924,
+          "patches_per_seed": 227
+        },
+        "aef_object": {
+          "recovery": 0.6121849158627898,
+          "mean_fpr": 0.06792471681976975,
+          "minimum_seed_fpr": 0.06429734548642294,
+          "maximum_seed_fpr": 0.07524511757198303,
+          "patches_per_seed": 227
+        },
+        "optical_area": {
+          "recovery": 0.39928322559002327,
+          "mean_fpr": 0.06576323361313353,
+          "minimum_seed_fpr": 0.058809185946790785,
+          "maximum_seed_fpr": 0.07031719278379578,
+          "patches_per_seed": 227
+        },
+        "optical_object": {
+          "recovery": 0.4209888544075852,
+          "mean_fpr": 0.06594855118059662,
+          "minimum_seed_fpr": 0.05612457908052512,
+          "maximum_seed_fpr": 0.07320400752213284,
+          "patches_per_seed": 227
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.06717554391088842,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.023687714494557154,
+            0.10718676055021832
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.02170562881756183,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.0397955290449055,
+            0.07561682872627537
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.045469915093326596,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.023703742366223093,
+            0.11983816543816529
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "label": "rotation1",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.2698325192456648,
+          "mean_fpr": 0.03423734798825841,
+          "minimum_seed_fpr": 0.032070890992959455,
+          "maximum_seed_fpr": 0.037065483678739325,
+          "patches_per_seed": 277
+        },
+        "aef_object": {
+          "recovery": 0.4124799639588372,
+          "mean_fpr": 0.042684676333620254,
+          "minimum_seed_fpr": 0.04085612130040389,
+          "maximum_seed_fpr": 0.04549758326160366,
+          "patches_per_seed": 277
+        },
+        "optical_area": {
+          "recovery": 0.4479290219431064,
+          "mean_fpr": 0.05678452404599528,
+          "minimum_seed_fpr": 0.054119490608929795,
+          "maximum_seed_fpr": 0.06094374186144033,
+          "patches_per_seed": 277
+        },
+        "optical_object": {
+          "recovery": 0.47809159107281174,
+          "mean_fpr": 0.05180891213666159,
+          "minimum_seed_fpr": 0.047177161270387784,
+          "maximum_seed_fpr": 0.05553422057427884,
+          "patches_per_seed": 277
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.14264744471317237,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.03200106048166391,
+            0.1976240059476076
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.03016256912970533,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.010371775407901422,
+            0.06435017173352103
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.11248487558346704,
+          "conditional_block_bootstrap_95_percent_interval": [
+            0.0024467128182661187,
+            0.1699389918654889
+          ],
+          "undefined_replicates": 0,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "label": "rotation2",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.5126633287114535,
+          "mean_fpr": 0.07426354835732382,
+          "minimum_seed_fpr": 0.07116291827372433,
+          "maximum_seed_fpr": 0.07623530574068947,
+          "patches_per_seed": 233
+        },
+        "aef_object": {
+          "recovery": 0.4942315611565524,
+          "mean_fpr": 0.06379248709479073,
+          "minimum_seed_fpr": 0.05732499808258034,
+          "maximum_seed_fpr": 0.06855912737256309,
+          "patches_per_seed": 233
+        },
+        "optical_area": {
+          "recovery": 0.41625704245722267,
+          "mean_fpr": 0.06132415051809329,
+          "minimum_seed_fpr": 0.05832595614243763,
+          "maximum_seed_fpr": 0.06498687704985161,
+          "patches_per_seed": 233
+        },
+        "optical_object": {
+          "recovery": 0.42719680810365457,
+          "mean_fpr": 0.06373190963298639,
+          "minimum_seed_fpr": 0.0586860410548798,
+          "maximum_seed_fpr": 0.06840053401762466,
+          "patches_per_seed": 233
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": -0.018431767554901057,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.05688173909796888,
+            0.027419481300960762
+          ],
+          "undefined_replicates": 5,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.010939765646431787,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.019184295028579542,
+            0.03392067079731548
+          ],
+          "undefined_replicates": 5,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": -0.029371533201332845,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.08221487721441137,
+            0.03295271504810974
+          ],
+          "undefined_replicates": 5,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    },
+    {
+      "label": "rotation3",
+      "arms": {
+        "aef_area": {
+          "recovery": 0.33437548316850024,
+          "mean_fpr": 0.030453431590057423,
+          "minimum_seed_fpr": 0.026837196038966647,
+          "maximum_seed_fpr": 0.03554825098534787,
+          "patches_per_seed": 241
+        },
+        "aef_object": {
+          "recovery": 0.3832346190765837,
+          "mean_fpr": 0.027748768537023166,
+          "minimum_seed_fpr": 0.02580422253065494,
+          "maximum_seed_fpr": 0.029719582598241933,
+          "patches_per_seed": 241
+        },
+        "optical_area": {
+          "recovery": 0.24509824919113257,
+          "mean_fpr": 0.028130956902641356,
+          "minimum_seed_fpr": 0.01748245542417584,
+          "maximum_seed_fpr": 0.038402239647487436,
+          "patches_per_seed": 241
+        },
+        "optical_object": {
+          "recovery": 0.27661619480864386,
+          "mean_fpr": 0.02336271332441166,
+          "minimum_seed_fpr": 0.01963951236077635,
+          "maximum_seed_fpr": 0.029784661112511285,
+          "patches_per_seed": 241
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.04885913590808344,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.0021692633269450386,
+            0.0901037589509812
+          ],
+          "undefined_replicates": 10,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "optical_oracle_gain": {
+          "status": "complete",
+          "estimate": 0.031517945617511284,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.007179076750259078,
+            0.07294511974125674
+          ],
+          "undefined_replicates": 10,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        },
+        "H1_interaction": {
+          "status": "complete",
+          "estimate": 0.017341190290572156,
+          "conditional_block_bootstrap_95_percent_interval": [
+            -0.027597488690076406,
+            0.05269229946732449
+          ],
+          "undefined_replicates": 10,
+          "replicates": 2000,
+          "interpretation": "Conditional on evaluated thresholds and reference maps; 4 convenience regions fixed; paired cores within region and shared training-seed resampling"
+        }
+      }
+    }
+  ],
+  "additional": {
+    "original_small": {
+      "arms": {
+        "aef_area": {
+          "recovery": 0.44770398249830884,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "aef_object": {
+          "recovery": 0.5757396867011283,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "optical_area": {
+          "recovery": 0.3642790793455023,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        },
+        "optical_object": {
+          "recovery": 0.37643672631575453,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 227
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": 0.12803570420281946,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": 0.012157646970252234,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": 0.11587805723256722,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    },
+    "original_medium": {
+      "arms": {
+        "aef_area": {
+          "recovery": 0.5933303624480095,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 114
+        },
+        "aef_object": {
+          "recovery": 0.6376485442661912,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 114
+        },
+        "optical_area": {
+          "recovery": 0.3865790255496138,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 114
+        },
+        "optical_object": {
+          "recovery": 0.40891265597147947,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 114
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": 0.0443181818181817,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": 0.022333630421865647,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": 0.021984551396316054,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    },
+    "original_large": {
+      "arms": {
+        "aef_area": {
+          "recovery": 0.875,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 6
+        },
+        "aef_object": {
+          "recovery": 0.825,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 6
+        },
+        "optical_area": {
+          "recovery": 0.7,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 6
+        },
+        "optical_object": {
+          "recovery": 0.75,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 6
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": -0.050000000000000044,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": 0.050000000000000044,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": -0.10000000000000009,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    },
+    "four_splits_small": {
+      "arms": {
+        "aef_area": {
+          "recovery": 0.4165938070842481,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "aef_object": {
+          "recovery": 0.5002571109246731,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "optical_area": {
+          "recovery": 0.37946407993827713,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        },
+        "optical_object": {
+          "recovery": 0.4181438954439704,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 978
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": 0.08366330384042497,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": 0.03867981550569327,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": 0.0449834883347317,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    },
+    "four_splits_medium": {
+      "arms": {
+        "aef_area": {
+          "recovery": 0.6630499411948161,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 464
+        },
+        "aef_object": {
+          "recovery": 0.6761967700360346,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 464
+        },
+        "optical_area": {
+          "recovery": 0.48798068071227546,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 464
+        },
+        "optical_object": {
+          "recovery": 0.4793726163234172,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 464
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": 0.013146828841218539,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": -0.00860806438885825,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": 0.02175489323007679,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    },
+    "four_splits_large": {
+      "arms": {
+        "aef_area": {
+          "recovery": 0.8333333333333333,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 19
+        },
+        "aef_object": {
+          "recovery": 0.7775000000000001,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 19
+        },
+        "optical_area": {
+          "recovery": 0.6217857142857143,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 19
+        },
+        "optical_object": {
+          "recovery": 0.6,
+          "mean_fpr": 0.04999918186294271,
+          "minimum_seed_fpr": 0.04999918186294271,
+          "maximum_seed_fpr": 0.04999918186294271,
+          "patches_per_seed": 19
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": -0.05583333333333318,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": -0.021785714285714297,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": -0.03404761904761888,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    },
+    "without_vermont": {
+      "arms": {
+        "aef_area": {
+          "recovery": 0.547187399549984,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 160
+        },
+        "aef_object": {
+          "recovery": 0.6860608758005093,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 160
+        },
+        "optical_area": {
+          "recovery": 0.47177509086863,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 160
+        },
+        "optical_object": {
+          "recovery": 0.48301016245085676,
+          "mean_fpr": 0.04999887001483254,
+          "minimum_seed_fpr": 0.04999887001483254,
+          "maximum_seed_fpr": 0.04999887001483254,
+          "patches_per_seed": 160
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": 0.13887347625052537,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": 0.011235071582226752,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": 0.12763840466829862,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    },
+    "three_new_splits": {
+      "arms": {
+        "aef_area": {
+          "recovery": 0.4064345549738221,
+          "mean_fpr": 0.04999928587751371,
+          "minimum_seed_fpr": 0.04999928587751371,
+          "maximum_seed_fpr": 0.04999928587751371,
+          "patches_per_seed": 751
+        },
+        "aef_object": {
+          "recovery": 0.4766025788125209,
+          "mean_fpr": 0.04999928587751371,
+          "minimum_seed_fpr": 0.04999928587751371,
+          "maximum_seed_fpr": 0.04999928587751371,
+          "patches_per_seed": 751
+        },
+        "optical_area": {
+          "recovery": 0.3831659574468085,
+          "mean_fpr": 0.04999928587751371,
+          "minimum_seed_fpr": 0.04999928587751371,
+          "maximum_seed_fpr": 0.04999928587751371,
+          "patches_per_seed": 751
+        },
+        "optical_object": {
+          "recovery": 0.42964498718948424,
+          "mean_fpr": 0.04999928587751371,
+          "minimum_seed_fpr": 0.04999928587751371,
+          "maximum_seed_fpr": 0.04999928587751371,
+          "patches_per_seed": 751
+        }
+      },
+      "contrasts": {
+        "aef_oracle_gain": {
+          "estimate": 0.0701680238386988,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "optical_oracle_gain": {
+          "estimate": 0.04647902974267576,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        },
+        "H1_interaction": {
+          "estimate": 0.02368899409602304,
+          "conditional_block_bootstrap_95_percent_interval": null,
+          "interpretation": "Point estimate only; no coverage-specific bootstrap blocks"
+        }
+      }
+    }
+  },
+  "pixel_secondary": [
+    {
+      "representation": "aef",
+      "policy": "area",
+      "balanced_accuracy": 0.8176126329526163,
+      "average_precision": 0.728337053481721
+    },
+    {
+      "representation": "aef",
+      "policy": "object",
+      "balanced_accuracy": 0.8172763318756754,
+      "average_precision": 0.6916802551601589
+    },
+    {
+      "representation": "optical",
+      "policy": "area",
+      "balanced_accuracy": 0.7299517721773743,
+      "average_precision": 0.5861804162280081
+    },
+    {
+      "representation": "optical",
+      "policy": "object",
+      "balanced_accuracy": 0.7224404001467379,
+      "average_precision": 0.5523200055213614
+    }
+  ],
+  "transfer_regional_mean_fpr_range": [
+    0.0010635633760913352,
+    0.15249185362392104
+  ],
+  "transfer_seed_fpr_range": [
+    0.0009439151717775785,
+    0.2194195829438279
+  ]
+}

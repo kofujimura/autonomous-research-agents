@@ -1,0 +1,32 @@
+[
+  {
+    "region": "S01",
+    "product": "aef",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:56:59.701482+00:00",
+    "end_time_utc": "2026-10-27T16:59:24.411662+00:00",
+    "elapsed_seconds": 144.71034970809706,
+    "error": null,
+    "input_selected_sha256": "a5411c342b7604c8291a8a6006ac0907aee83edba3eedc56e0768a07006e366a"
+  },
+  {
+    "region": "S02",
+    "product": "aef",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T16:59:24.415674+00:00",
+    "end_time_utc": "2026-10-27T17:02:52.163429+00:00",
+    "elapsed_seconds": 207.7481488341,
+    "error": null,
+    "input_selected_sha256": "d27b3d65a387f7560e4b3d22950d81f3de84a1e24e898a0c646b3f899624947d"
+  },
+  {
+    "region": "S03",
+    "product": "aef",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T17:02:52.166490+00:00",
+    "end_time_utc": "2026-10-27T17:05:38.784011+00:00",
+    "elapsed_seconds": 166.61783970799297,
+    "error": null,
+    "input_selected_sha256": "66eb4ca47b8d73dccf42bebbc58fe10d854be1ee582544d9aec5157e57b3beb2"
+  }
+]

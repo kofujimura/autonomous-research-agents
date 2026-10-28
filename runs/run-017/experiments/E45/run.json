@@ -1,0 +1,23 @@
+{
+  "experiment_id": "E45",
+  "started_at_utc": "2026-10-27T09:01:42.004460Z",
+  "command": [
+    ".venv/bin/python",
+    "code/threshold_bootstrap.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6.md",
+  "plan_commit_id": "fc63cc607764d966c262c2b96a8fcd2640a0badd",
+  "code_commit_id": "fc63cc607764d966c262c2b96a8fcd2640a0badd",
+  "input_sha256": {
+    "data/derived/dataset-manifest.json": "c9311f6ab9444345c7ffbbfa98f9896e6f35b06f896d1b4d2954fa35d2bded35"
+  },
+  "start_event_id": "E0226",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 58144,
+  "ended_at_utc": "2026-10-27T09:04:57.303488Z",
+  "elapsed_seconds": 195.2999412920326,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0228"
+}

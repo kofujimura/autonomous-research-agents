@@ -1,0 +1,13 @@
+model,task,method,dJ,changed,n
+aef,gain,concurrent,-0.035294,3,109
+aef,gain,control_adjusted,0.00098,9,109
+aef,gain,direct_gradient_boosting,0.410294,28,109
+aef,loss,concurrent,-0.036953,19,337
+aef,loss,control_adjusted,-0.034908,6,337
+aef,loss,direct_gradient_boosting,0.30861,102,337
+tessera,gain,concurrent,-0.011765,7,109
+tessera,gain,control_adjusted,0.010784,10,109
+tessera,gain,direct_gradient_boosting,0.285294,35,109
+tessera,loss,concurrent,0.010828,18,337
+tessera,loss,control_adjusted,0.010715,5,337
+tessera,loss,direct_gradient_boosting,0.117712,64,337

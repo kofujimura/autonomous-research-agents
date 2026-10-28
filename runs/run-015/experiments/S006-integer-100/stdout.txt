@@ -1,0 +1,40 @@
+{"task": "integer", "position": 100, "case_key": "20260705|aifs-ens|84|Sahel|dispersed|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:15Z"}
+{"task": "integer", "position": 100, "case_key": "20260705|aifs-ens|84|Sahel|dispersed|12|35|9|50", "completed_at_utc": "2026-10-26T05:11:16Z"}
+{"task": "integer", "position": 101, "case_key": "20260603|aifs-ens|180|Sahel|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:16Z"}
+{"task": "integer", "position": 101, "case_key": "20260603|aifs-ens|180|Sahel|compact|12|30|6|50", "completed_at_utc": "2026-10-26T05:11:22Z"}
+{"task": "integer", "position": 102, "case_key": "20260607|ifs|180|France|dispersed|12|25|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:22Z"}
+{"task": "integer", "position": 102, "case_key": "20260607|ifs|180|France|dispersed|12|25|3|50", "completed_at_utc": "2026-10-26T05:11:24Z"}
+{"task": "integer", "position": 103, "case_key": "20260619|ifs|180|central_Europe|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:24Z"}
+{"task": "integer", "position": 103, "case_key": "20260619|ifs|180|central_Europe|compact|12|30|3|50", "completed_at_utc": "2026-10-26T05:11:28Z"}
+{"task": "integer", "position": 104, "case_key": "20260830|ifs|180|northern_India|dispersed|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:28Z"}
+{"task": "integer", "position": 104, "case_key": "20260830|ifs|180|northern_India|dispersed|12|30|6|50", "completed_at_utc": "2026-10-26T05:11:28Z"}
+{"task": "integer", "position": 105, "case_key": "20260627|ifs|180|northern_India|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:28Z"}
+{"task": "integer", "position": 105, "case_key": "20260627|ifs|180|northern_India|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T05:11:28Z"}
+{"task": "integer", "position": 106, "case_key": "20260806|aifs-ens|180|Balkans|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:28Z"}
+{"task": "integer", "position": 106, "case_key": "20260806|aifs-ens|180|Balkans|compact|12|30|6|50", "completed_at_utc": "2026-10-26T05:11:36Z"}
+{"task": "integer", "position": 107, "case_key": "20260603|aifs-ens|84|Sahel|compact|12|35|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:36Z"}
+{"task": "integer", "position": 107, "case_key": "20260603|aifs-ens|84|Sahel|compact|12|35|6|50", "completed_at_utc": "2026-10-26T05:11:37Z"}
+{"task": "integer", "position": 108, "case_key": "20260725|aifs-ens|180|Sahel|compact|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:37Z"}
+{"task": "integer", "position": 108, "case_key": "20260725|aifs-ens|180|Sahel|compact|12|35|9|50", "completed_at_utc": "2026-10-26T05:11:40Z"}
+{"task": "integer", "position": 109, "case_key": "20260705|aifs-ens|84|northern_India|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:40Z"}
+{"task": "integer", "position": 109, "case_key": "20260705|aifs-ens|84|northern_India|compact|12|30|9|50", "completed_at_utc": "2026-10-26T05:11:41Z"}
+{"task": "integer", "position": 110, "case_key": "20260830|aifs-ens|84|France|dispersed|12|25|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:41Z"}
+{"task": "integer", "position": 110, "case_key": "20260830|aifs-ens|84|France|dispersed|12|25|6|50", "completed_at_utc": "2026-10-26T05:11:41Z"}
+{"task": "integer", "position": 111, "case_key": "20260814|ifs|180|northern_India|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:41Z"}
+{"task": "integer", "position": 111, "case_key": "20260814|ifs|180|northern_India|compact|12|30|9|50", "completed_at_utc": "2026-10-26T05:11:46Z"}
+{"task": "integer", "position": 112, "case_key": "20260623|ifs|180|northern_India|dispersed|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:46Z"}
+{"task": "integer", "position": 112, "case_key": "20260623|ifs|180|northern_India|dispersed|12|35|9|50", "completed_at_utc": "2026-10-26T05:11:49Z"}
+{"task": "integer", "position": 113, "case_key": "20260729|ifs|84|northern_India|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:49Z"}
+{"task": "integer", "position": 113, "case_key": "20260729|ifs|84|northern_India|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T05:11:49Z"}
+{"task": "integer", "position": 114, "case_key": "20260814|ifs|180|France|compact|12|25|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:49Z"}
+{"task": "integer", "position": 114, "case_key": "20260814|ifs|180|France|compact|12|25|6|50", "completed_at_utc": "2026-10-26T05:11:52Z"}
+{"task": "integer", "position": 115, "case_key": "20260806|aifs-ens|180|France|dispersed|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:52Z"}
+{"task": "integer", "position": 115, "case_key": "20260806|aifs-ens|180|France|dispersed|12|35|9|50", "completed_at_utc": "2026-10-26T05:11:53Z"}
+{"task": "integer", "position": 116, "case_key": "20260903|aifs-ens|84|northern_India|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:53Z"}
+{"task": "integer", "position": 116, "case_key": "20260903|aifs-ens|84|northern_India|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T05:11:53Z"}
+{"task": "integer", "position": 117, "case_key": "20260907|ifs|180|Iberia|dispersed|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:53Z"}
+{"task": "integer", "position": 117, "case_key": "20260907|ifs|180|Iberia|dispersed|12|30|6|50", "completed_at_utc": "2026-10-26T05:11:53Z"}
+{"task": "integer", "position": 118, "case_key": "20260603|aifs-ens|84|Balkans|dispersed|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:53Z"}
+{"task": "integer", "position": 118, "case_key": "20260603|aifs-ens|84|Balkans|dispersed|12|25|9|50", "completed_at_utc": "2026-10-26T05:11:54Z"}
+{"task": "integer", "position": 119, "case_key": "20260818|aifs-ens|180|Sahel|compact|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:11:54Z"}
+{"task": "integer", "position": 119, "case_key": "20260818|aifs-ens|180|Sahel|compact|12|35|9|50", "completed_at_utc": "2026-10-26T05:11:59Z"}

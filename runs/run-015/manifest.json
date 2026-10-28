@@ -1,0 +1,256 @@
+{
+  "trial_id": "free-research-015",
+  "start_time_utc": "2026-10-25T21:33:35Z",
+  "start_time_local": "2026-10-26T06:33:35+09:00",
+  "timezone": "Asia/Tokyo",
+  "first_draft_deadline_utc": "2026-10-26T12:24:40Z",
+  "deadline_history": [
+    {
+      "type": "usage_limit_resume",
+      "last_tool_time_before_stop_utc": "2026-10-25T21:51:18Z",
+      "first_tool_time_after_resume_utc": "2026-10-25T22:13:57Z",
+      "excluded_stop_seconds": 1359.0,
+      "confirmation": "Human message: Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-26T09:33:35Z",
+      "extended_deadline_utc": "2026-10-26T09:56:14Z",
+      "running_experiment_processes": [],
+      "other_processes_during_stop": [
+        "Exec session 97851 completed successfully (package installation and public paper download); polled after resume; exact completion instant not observed",
+        "Exec session 64242 completed (public-document retrieval ended in documented HTTP 404); exact completion instant not observed"
+      ],
+      "session_id": null
+    },
+    {
+      "type": "usage_limit_resume",
+      "last_tool_time_before_stop_utc": "2026-10-25T22:40:25Z",
+      "first_tool_time_after_resume_utc": "2026-10-25T22:43:58Z",
+      "excluded_stop_seconds": 213.0,
+      "confirmation": "Human message: Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-26T09:56:14Z",
+      "extended_deadline_utc": "2026-10-26T09:59:47Z",
+      "running_experiment_processes": [],
+      "other_processes_during_stop": [
+        "OpenAI background topic critique remained in_progress at last saved response; provider processing may have continued; actual processing interval unobserved"
+      ],
+      "session_id": null,
+      "last_time_source": "experiments/topic-critique/state.json recorded_at_utc from last API polling tool call"
+    },
+    {
+      "type": "usage_limit_resume",
+      "first_tool_time_after_resume_utc": "2026-10-26T01:20:09Z",
+      "last_tool_time_before_stop_utc": null,
+      "last_recoverable_recorded_tool_time_utc": "2026-10-26T01:08:44Z",
+      "excluded_stop_seconds": 0,
+      "confirmation": "Human message: Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-26T09:59:47Z",
+      "extended_deadline_utc": "2026-10-26T09:59:47Z",
+      "duration_status": "Exact last tool clock reading before this stop is unavailable after context recovery. Later code-writing tool calls occurred after the last recoverable timestamp. Conservatively no additional time is excluded; productive time is not counted as a pause.",
+      "running_experiment_processes": [
+        "B017-aifs-mixed",
+        "B018-ifs-mixed"
+      ],
+      "process_observation": "Both processes remained running when polled after resume; data/analysis progressed during the pause.",
+      "session_id": null
+    },
+    {
+      "type": "usage_limit_resume",
+      "last_tool_time_before_stop_utc": "2026-10-26T01:48:22Z",
+      "first_tool_time_after_resume_utc": "2026-10-26T03:14:42Z",
+      "excluded_stop_seconds": 5180.0,
+      "confirmation": "Human message: Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-26T09:59:47Z",
+      "extended_deadline_utc": "2026-10-26T11:26:07Z",
+      "running_experiment_processes": [
+        "B019-aifs-august"
+      ],
+      "process_observation": "B019 completed01:52:21UTC during stop within its1800second timeout. T001 had already completed01:46:59UTC before the last pre-stop tool time; this completion had not yet been polled. No experiment remained running at resume.",
+      "session_id": null
+    },
+    {
+      "type": "usage_limit_resume",
+      "first_tool_time_after_resume_utc": "2026-10-26T05:38:01Z",
+      "excluded_stop_seconds": 0,
+      "confirmation": "Human message: Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-26T11:26:07Z",
+      "extended_deadline_utc": "2026-10-26T11:26:07Z",
+      "running_experiment_processes": [
+        "T005-city-j004"
+      ],
+      "process_observation": "T005 remains running at resume. S011 completed 05:32:49 UTC before the last pre-stop tool clock.",
+      "last_time_source": "checkpoint/E0377 last recovered tool clock, also confirmed in preceding context summary",
+      "session_id": null,
+      "originally_recorded_excluded_stop_seconds": 221,
+      "originally_recorded_extended_deadline_utc": "2026-10-26T11:29:48Z",
+      "last_recoverable_recorded_tool_time_utc": "2026-10-26T05:34:20Z",
+      "last_tool_time_before_stop_utc": null,
+      "duration_status": "Correction: checkpoint/E0377 gives05:34:20UTC, but the final separate clock-tool output of that prior call was unavailable after context recovery. Its exact value cannot be confirmed. Conservatively no extension is taken for this fifth pause; the earlier221second extension is superseded, not treated as an exact observed interval."
+    },
+    {
+      "type": "deadline_correction",
+      "observed_at_utc": "2026-10-26T06:20:10Z",
+      "original_deadline_utc": "2026-10-26T11:29:48Z",
+      "extended_deadline_utc": "2026-10-26T11:26:07Z",
+      "excluded_stop_seconds": 0,
+      "reason": "Supersede unconfirmed221second fifth-pause extension; preserve original claim in that entry and append-only correction logs."
+    },
+    {
+      "type": "usage_limit_resume",
+      "first_tool_time_after_resume_utc": "2026-10-26T08:35:47Z",
+      "last_tool_time_before_stop_utc": null,
+      "last_durable_clock_checkpoint_utc": "2026-10-26T08:32:32Z",
+      "excluded_stop_seconds": 0,
+      "confirmation": "Human message: Resuming after a stop caused by the AI usage limit.",
+      "original_deadline_utc": "2026-10-26T11:26:07Z",
+      "extended_deadline_utc": "2026-10-26T11:26:07Z",
+      "duration_status": "A durable clock checkpoint exists, but a later commit/start call was still executing and its exact final tool-clock output is unavailable after context recovery. Conservatively no extension is taken.",
+      "running_experiment_processes": [
+        "T020-city-j019-indexed",
+        "S019-repeated-members-080"
+      ],
+      "process_observation": "Both bounded workers completed during the stop: T020 at08:34:12UTC, S019 at08:34:27UTC. No experiment is running at resume.",
+      "session_id": null
+    },
+    {
+      "type": "usage_limit_resume",
+      "first_tool_time_after_resume_utc": "2026-10-26T11:10:35Z",
+      "last_tool_time_before_stop_utc": "2026-10-26T10:12:02Z",
+      "confirmation": "Human message: Resuming after a stop caused by the AI usage limit.",
+      "excluded_stop_seconds": 3513.0,
+      "original_deadline_utc": "2026-10-26T11:26:07Z",
+      "extended_deadline_utc": "2026-10-26T12:24:40Z",
+      "last_time_source": "Last explicit tool clock at end of previous call, persisted in checkpoint-time.json; visible output10:12:02UTC",
+      "running_experiment_processes": [],
+      "process_observation": "T033 completed10:10:53 and T034 failed10:11:27, both before the last pre-stop tool clock. No experiment was running during this stop.",
+      "session_id": null
+    }
+  ],
+  "research_directory": "/Users/fujimura/Research/ai-free-research-en/run-015",
+  "session_id": null,
+  "continuation_session_ids": [],
+  "limits": {
+    "research_hours": 12,
+    "review_response_hours": 2,
+    "storage_bytes": 10737418240,
+    "concurrent_experiment_processes": 2,
+    "experiment_timeout_seconds": 1800,
+    "ai_api_budget_usd": 20,
+    "new_paid_services": false
+  },
+  "model": {
+    "conversation_presented": "GPT-6 (Codex role)",
+    "runtime_confirmed_identifier": null,
+    "provider_presented": "OpenAI",
+    "provider_confirmed": null,
+    "reasoning_effort": null,
+    "other_settings": null,
+    "source": "developer role instructions; actual model identifier not observable"
+  },
+  "environment": {
+    "name_presented": "Codex",
+    "runtime_build": null,
+    "os": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "git": "2.50.1 (Apple Git-155)",
+    "source": "date, uname, python3 --version, git --version and Python platform module"
+  },
+  "tools": {
+    "confirmed": [
+      "functions.exec orchestration",
+      "exec_command",
+      "apply_patch",
+      "web.run",
+      "clock",
+      "collaboration tools available but not used"
+    ],
+    "source": "tool catalog in session",
+    "session_tool_marginal_billing": "unknown; existing session allowance, no new paid route"
+  },
+  "skills": [
+    {
+      "name": "research-question",
+      "path": "input_skills/research-question/SKILL.md",
+      "source": "user-requested skill, read in full",
+      "influence": "mandatory topic selection procedure"
+    },
+    {
+      "name": "openai-docs",
+      "path": "/Users/fujimura/.codex-research/skills/.system/openai-docs/SKILL.md",
+      "source": "installed skill, read in full",
+      "influence": "official documentation source order for permitted critique API"
+    }
+  ],
+  "project_rules": {
+    "source": "user Free Research Initial Instructions v1.10.1 plus higher-level runtime instructions",
+    "additional_files_read": false,
+    "persistent_memory_exists": null,
+    "user_profile_exists": null,
+    "past_trials_accessed": false
+  },
+  "ai_api": {
+    "budget_usd": 20,
+    "provider": "OpenAI",
+    "key_variable": "FREE_RESEARCH_OPENAI_API_KEY",
+    "key_variable_set": true,
+    "key_value_recorded": false,
+    "critic_model": "gpt-6-astra",
+    "critic_reasoning_effort": "xhigh",
+    "prices_confirmed_pending_archival": false,
+    "source": "key presence checked only by boolean; official pricing/model docs fetched with web tool",
+    "prices_archived": [
+      "literature/openai-pricing.md",
+      "literature/openai-prompt-caching.md"
+    ],
+    "actual_cost_usd": 2.02436,
+    "generation_calls": 1
+  },
+  "unknowns": [
+    "exact session ID",
+    "actual session model identifier and reasoning effort",
+    "runtime build",
+    "session model token usage and cost",
+    "persistent memory/profile existence",
+    "marginal billing of existing web tool"
+  ],
+  "missing_records": [
+    "Exact last tool clock reading before third confirmed usage-limit stop unavailable; no extension taken for unquantified interval.",
+    "G002 optional-mask first HTTP outcome was unavailable after a relative-path logging failure; one used attempt recorded retrospectively; G003 resumed without resetting cap.",
+    "Final separate pre-stop clock output for fifth confirmed pause unavailable; checkpoint timestamp recovered but no extension taken after correction.",
+    "Sixth confirmed usage-limit stop has a durable clock checkpoint but no confirmed final tool-clock output; zero extension taken."
+  ],
+  "record_initialized_at_utc": "2026-10-25T21:34:54Z",
+  "input_prompt": {
+    "path": "input_prompt.md",
+    "source": "literal transcription from visible start instruction in requesting conversation",
+    "attachment_available": false,
+    "completeness": "intended complete; no bytewise comparison to an attachment possible"
+  },
+  "first_draft_submission": {
+    "prepared_at_utc": "2026-10-26T12:02:56Z",
+    "tag": "submission-1",
+    "verified_scientific_files_checked": 15924,
+    "verification_report": "review/verification-summary.json",
+    "sealing_commit_id": null,
+    "commit_id_location": "Resolve refs/tags/submission-1 in local Git; the conversation reports the resulting ID. A commit cannot contain its own hash."
+  },
+  "review_response": {
+    "review_received_first_tool_time_utc": "2026-10-26T12:54:07Z",
+    "review_response_deadline_utc": "2026-10-26T14:54:07Z",
+    "review_id": "review-015-1",
+    "review_text_path": "review/review-1.md",
+    "reviewer_metadata_source": "Human-supplied REVIEW-1; not directly observed by the author",
+    "reviewer_model_presented": "Opus 5.5 / claude-opus-5-5",
+    "reviewer_environment_model_id": null,
+    "reviewer_cli_presented": "Claude Code CLI2.1.310",
+    "reviewer_effort_presented": "xhigh",
+    "reported_same_machine": true
+  },
+  "final_submission": {
+    "prepared_at_utc": "2026-10-26T13:42:42Z",
+    "tag": "final",
+    "review_id": "review-015-1",
+    "verification_report": "review/verification-summary.json",
+    "verified_scientific_files_checked": 15938,
+    "commit_id": null,
+    "commit_id_location": "Resolve local tag final; a commit cannot contain its own hash."
+  }
+}

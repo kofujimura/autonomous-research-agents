@@ -1,0 +1,35 @@
+{
+  "experiment_id": "native-single-date-v22",
+  "start_at_utc": "2026-10-25T17:20:38Z",
+  "end_at_utc": "2026-10-25T17:20:55Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/native_pairs.py",
+    "analyse",
+    "--baseline",
+    "analysis/main-v1",
+    "--sample",
+    "data/native-available",
+    "--partial-native-dates",
+    "--output",
+    "analysis/native-single-date-v22"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v22.md",
+  "plan_commit_id": "6c87cc36e3f155171108101bb01fd97894ec2220",
+  "additional_plan_commits": {},
+  "code_commit_id": "c2fbe0b967871c69fc4608e77fcc3caab8788a25",
+  "input_sha256": {
+    "data/native-available/targets.csv": "0d44b37731dab12b73817b644a292a65bbfc82fc39d4bce61943625dfcc1a23b",
+    "data/native-available/tasks.csv": "43d036b5ec3e5912672033d3c84bf056584bf3c091d0d54a699d851fff60d507",
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0499",
+  "pid": 29648,
+  "elapsed_seconds": 17.295209833187982,
+  "end_event_id": "E0500"
+}

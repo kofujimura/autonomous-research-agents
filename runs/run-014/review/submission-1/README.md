@@ -1,0 +1,1 @@
+First-draft snapshot. These files are copied from the repository root for review. Use the complete repository at tag submission-1 for raw data, code, records and verification; this subfolder alone is not the full research package. The copied SHA-256 list is rooted at the repository root.

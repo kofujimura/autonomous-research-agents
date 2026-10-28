@@ -1,0 +1,9 @@
+{
+  "completed_at_utc": "2026-10-26T21:34:05.755953Z",
+  "status": "passed",
+  "enumerated_pairs": 630,
+  "theoretical_variance": 3.0654761904761907,
+  "exact_variance": 3.0654761904761907,
+  "mean_estimated_variance": 3.0654761904761907,
+  "qualification": "Exact linear fixed-value design validation, not entropy confidence-interval validation"
+}

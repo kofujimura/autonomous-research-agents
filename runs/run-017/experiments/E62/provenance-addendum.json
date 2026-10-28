@@ -1,0 +1,4 @@
+{
+  "observed_at_utc": "2026-10-27T11:30:16.099483Z",
+  "clarification": "No code hash was measured at E62 launch. The later saved syntax-error snapshot agrees with the executed filename and reported error line; this is not a launch-time byte-identity proof. Original correction and failed logs are retained."
+}

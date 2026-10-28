@@ -1,0 +1,5 @@
+{"date": "20260615", "ended_at_utc": "2026-10-26T09:48:03Z", "lead": 168, "model": "aifs-ens", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T09:46:40Z", "status": "completed"}
+{"date": "20260615", "ended_at_utc": "2026-10-26T09:48:25Z", "error": "Range failed after bounded retries, member 2", "error_type": "RuntimeError", "lead": 174, "model": "aifs-ens", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T09:48:03Z", "status": "failed"}
+{"date": "20260615", "ended_at_utc": "2026-10-26T09:50:14Z", "lead": 180, "model": "aifs-ens", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T09:48:25Z", "status": "completed"}
+{"date": "20260615", "ended_at_utc": "2026-10-26T09:51:54Z", "lead": 186, "model": "aifs-ens", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T09:50:14Z", "status": "completed"}
+{"date": "20260615", "horizon": 7, "missing_leads": [174], "model": "aifs-ens", "observed_at_utc": "2026-10-26T09:51:54Z", "status": "incomplete_horizon"}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/verification_work/pilot-source/scripts/verify.py", line 233, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/verification_work/pilot-source/scripts/verify.py", line 218, in main
+    report['comparisons'].append(compare_csv(old,new,columns,tolerance=TOL))
+                                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/verification_work/pilot-source/scripts/verify.py", line 41, in compare_csv
+    assert a[column].fillna('<missing>').astype(str).equals(b[column].fillna('<missing>').astype(str)),(str(original),column)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('/Users/fujimura/Research/ai-free-research-en/run-015/verification_work/pilot-source/results/sensitivity/epsilon-cases.csv', 'source_path')

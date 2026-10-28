@@ -1,0 +1,26 @@
+{
+  "R01": {
+    "project": "Prairie Pothole Watersheds 2 NRCS",
+    "candidates": 153,
+    "selected": 16,
+    "reserves": 16
+  },
+  "R02": {
+    "project": "VT Winooski Otter Creek",
+    "candidates": 124,
+    "selected": 16,
+    "reserves": 16
+  },
+  "R03": {
+    "project": "GLRI NY Area 1",
+    "candidates": 181,
+    "selected": 16,
+    "reserves": 16
+  },
+  "R04": {
+    "project": "WI One Map",
+    "candidates": 40,
+    "selected": 16,
+    "reserves": 6
+  }
+}

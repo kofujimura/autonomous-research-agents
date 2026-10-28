@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/collect_batch.py", line 14, in main
+    if a.product in ['hydro','hand']:globals()[a.product](rid)
+                                     ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/collect_hydro.py", line 35, in collect
+    result=json.loads(dst.read_text());value=result.get('value')
+                      ~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py", line 546, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_abc.py", line 632, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/fujimura/Research/ai-free-research-en/run-018/data/main/R07/dem-check-explicit-crs-2.json'
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/collect_batch.py", line 14, in main
+    if a.product in ['hydro','hand']:globals()[a.product](rid)
+                                     ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/collect_hydro.py", line 60, in collect
+    assert allowed.all(),f'Unexpected {layer} values'
+           ~~~~~~~~~~~^^
+AssertionError: Unexpected occurrence values
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/collect_batch.py", line 14, in main
+    if a.product in ['hydro','hand']:globals()[a.product](rid)
+                                     ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/collect_hydro.py", line 35, in collect
+    result=json.loads(dst.read_text());value=result.get('value')
+                      ~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py", line 546, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_abc.py", line 632, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/fujimura/Research/ai-free-research-en/run-018/data/main/R12/dem-check-explicit-crs-1.json'

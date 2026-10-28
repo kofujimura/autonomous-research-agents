@@ -1,0 +1,22 @@
+{
+  "exploratory": true,
+  "added_after_v22_results": true,
+  "tolerance_absolute": 1e-12,
+  "pairs": 20,
+  "input_counts": [
+    {
+      "support": "centre",
+      "point_years": 20,
+      "identical_vectors": 10
+    },
+    {
+      "support": "patch",
+      "point_years": 20,
+      "identical_vectors": 7
+    }
+  ],
+  "changed_pairs": 5,
+  "changed_method_case_conditions": 23,
+  "method_case_conditions": 480,
+  "note": "Equal inputs and unchanged subsequent inputs can make unchanged scores inevitable; not independent evidence of stability."
+}

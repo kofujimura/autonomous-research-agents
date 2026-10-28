@@ -1,0 +1,58 @@
+[
+  {
+    "task_id": "report-data",
+    "command": [
+      ".venv/bin/python",
+      "code/build_report_data.py",
+      "--out",
+      "analysis/report-data"
+    ],
+    "start_time_utc": "2026-10-28T10:17:29.148567+00:00",
+    "end_time_utc": "2026-10-28T10:17:31.373564+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "figures",
+    "command": [
+      ".venv/bin/python",
+      "code/make_figures.py",
+      "--data",
+      "analysis/report-data",
+      "--out",
+      "figures"
+    ],
+    "start_time_utc": "2026-10-28T10:17:31.374064+00:00",
+    "end_time_utc": "2026-10-28T10:17:34.052253+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "paper",
+    "command": [
+      ".venv/bin/python",
+      "code/render_manuscript.py"
+    ],
+    "start_time_utc": "2026-10-28T10:17:34.052668+00:00",
+    "end_time_utc": "2026-10-28T10:17:35.559352+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "claims",
+    "command": [
+      ".venv/bin/python",
+      "code/build_claims.py"
+    ],
+    "start_time_utc": "2026-10-28T10:17:35.559843+00:00",
+    "end_time_utc": "2026-10-28T10:17:35.893098+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "completion-report",
+    "command": [
+      ".venv/bin/python",
+      "code/update_records_report.py"
+    ],
+    "start_time_utc": "2026-10-28T10:17:35.893638+00:00",
+    "end_time_utc": "2026-10-28T10:17:36.295451+00:00",
+    "exit_code": 0
+  }
+]

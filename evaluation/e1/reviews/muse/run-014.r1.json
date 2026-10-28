@@ -1,0 +1,181 @@
+{
+ "meta": {
+  "reviewer": "muse",
+  "model": "muse-wonder-1.0",
+  "run": "014",
+  "rep": 1,
+  "started_utc": "2026-10-28T13:43:40Z",
+  "figures": 1,
+  "usage": {
+   "input_tokens": 498810,
+   "cached_input_tokens": 120796,
+   "output_tokens": 5433,
+   "thought_tokens": 3178,
+   "search_queries": 7
+  },
+  "cost_usd": 1.662375,
+  "mode": "schema",
+  "model_version": "muse-wonder-1.0",
+  "finish_reason": "completed"
+ },
+ "review": {
+  "closest_prior_work": [
+   {
+    "citation": "Brown et al. (2025), AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data, arXiv:2507.22291",
+    "difference": "Already evaluates LCMAP cover change with a cosine/angular anomaly; this paper instead tests transferred 90th-percentile thresholds, fixed versus year-matched/control-adjusted references, and supplied initial class.",
+    "url": "https://arxiv.org/abs/2507.22291"
+   },
+   {
+    "citation": "Heiman (2026), Characterizing Brazilian Atlantic Forest Restoration Outcomes with Geospatial AlphaEarth Embeddings, arXiv:2605.05547",
+    "difference": "Introduces reference-trajectory cosine similarity to mature forest for restoration sites in Brazil; this paper does not test restoration success but audits one-year CONUS dominant-cover transitions and threshold transfer.",
+    "url": "https://arxiv.org/abs/2605.05547"
+   },
+   {
+    "citation": "Feng et al. (2025/2026), TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis, arXiv:2506.20380",
+    "difference": "Provides one of the two embedding products and downstream benchmarks; this paper uses TESSERA as a comparator product for conditional tree gain/loss screening, not as a new encoder.",
+    "url": "https://arxiv.org/abs/2506.20380"
+   },
+   {
+    "citation": "Lisaius et al. (2026), Embedding-based Crop Type Classification in the Groundnut Basin of Senegal, arXiv:2601.16900",
+    "difference": "Not cited in the paper; it already evaluates TESSERA and AlphaEarth under temporal transfer for land-cover/crop mapping, whereas this paper focuses on change scores, reference corrections and gain/loss asymmetry rather than state classification transfer.",
+    "url": "https://arxiv.org/abs/2601.16900"
+   },
+   {
+    "citation": "Stehman et al. (2021), Validation of the USGS LCMAP Collection 1.0 annual land cover products 1985-2017, Remote Sensing of Environment 265:112646",
+    "difference": "Validates operational LCMAP products and exact-year change timing nationally; this paper uses LCMAP/NLCD interpreted labels as an enriched conditional test sample and does not estimate population product accuracy.",
+    "url": "https://doi.org/10.1016/j.rse.2021.112646"
+   }
+  ],
+  "familiarity": "no",
+  "figures_viewed": true,
+  "main_issues": [
+   {
+    "issue": "Gain evidence is extremely thin: only 24 LCMAP gain positives, 21 in 2019-2020 and 3 in 2020-2021, and only 7 later NLCD gains, so temporal/geographic gain-transfer claims rest mainly on one year pair.",
+    "severity": "critical"
+   },
+   {
+    "issue": "The primary correction null has little signal to correct: reference-centroid dissimilarity is far smaller than loss-target change, corrected scores correlate 0.947-0.996 with the fixed score, and control-mean subtraction is constant within region/year and therefore rank-preserving by construction.",
+    "severity": "critical"
+   },
+   {
+    "issue": "AlphaEarth results use an unofficial geographic mosaic whose footprint varies with latitude, while the fixed paired native-grid check is unfinished with 0/16 complete pairs; transfer to the official AlphaEarth product remains untested.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "The reference/control pool is only 116 baseline Trees plots pooled across CONUS, with nearest references typically about 1,071 km away and later stability unknown, so the test covers one broad pooled reference construction rather than local restoration references.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "The direct supervised classifier comparison is not annotation-budget matched, and supplying the initial class makes subsequent-state classification a near-necessary comparator rather than evidence that a change-specific method is inferior under equal information.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "No LandTrendr, CCDC, spectral-index or exact Google Earth Detect Change comparator is run, limiting practical conclusions about the best available screening workflow.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "Uncertainty is understated structurally: bootstrap intervals condition on fitted scores and the fixed reference pool and omit training, encoder and future-year variance, while pooled AUROC mixes region and year effects.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "The manuscript is overloaded with post-review and exploratory appendices, dense caveats and split tables, which obscures the small primary result despite an appropriately narrowed title and question.",
+    "severity": "minor"
+   }
+  ],
+  "main_track_level": "no",
+  "overall_10": 4,
+  "research_question": {
+   "predictable": "partly",
+   "predictable_reason": "The correction null was largely predictable once reference drift was shown to be tiny and control subtraction was defined as a region/year constant, although the below-chance gain ranking for cosine magnitude was less obviously predictable.",
+   "question": "In CONUS one-year pairs with the initial cover class supplied, do year-matched references or separate control-plot mean changes improve tree gain/loss classification over a fixed start-year reference and supervised classifiers?",
+   "question_quality": 3
+  },
+  "score_reasons": {
+   "clarity": "Background and caveats are thorough, but the abstract and 35-page appendix-heavy structure bury the primary comparisons under exploratory diagnostics.",
+   "correctness": "Main counts, J differences and gain-magnitude inversion are internally reported with denominators and are carefully hedged, though the correction null and unequal-budget classifier comparison limit what can be inferred.",
+   "generality": "Evidence is CONUS-only, one-year, enriched, centre-pixel and dominated by 2019-2020 gains, so it does not support broader restoration, multi-year or other-region claims.",
+   "novelty": "The cross-product transferred-operating-point audit is specific, but reference similarity, CVA magnitude/direction, BACI controls, conditional change and temporal-transfer evaluation are all established and several close works are already discussed or found.",
+   "usefulness": "It gives practitioners a concrete caution to validate gain separately and report absolute sensitivity/FPR, but the tiny gain sample and lack of operational baselines limit decision value.",
+   "verifiability": "The paper names scripts, seeds, thresholds, hashes, VERIFY.md and bundled inputs, but key hyperparameters and exact selection rules are delegated to external files and the only rerun is a same-session self-rerun."
+  },
+  "scores": {
+   "clarity": 2,
+   "correctness": 4,
+   "generality": 2,
+   "novelty": 2,
+   "usefulness": 3,
+   "verifiability": 3
+  },
+  "strengths": [
+   "Careful held-out region and earlier-year calibration design with exact positive/negative counts, sensitivity, FPR, J and AUROC reported rather than only relative gains.",
+   "Unusually honest retention of failed, unfinished and exploratory checks, including the empty paired-native test and partition changes that reverse correction contrasts.",
+   "Separate reporting for AlphaEarth and TESSERA and for LCMAP Trees versus Annual NLCD Forest avoids pooling unlike cover definitions.",
+   "The unchanged-only diagnostic strengthens the descriptive finding that cosine magnitude ranks labelled gains below unchanged non-tree plots in this sample."
+  ],
+  "summary": "The paper audits whether year-matched references or control-mean adjustment improve fixed-reference screening of one-year tree-cover gain and loss in CONUS using AlphaEarth V1 mosaic and TESSERA v1 embeddings, with thresholds calibrated on earlier negatives outside each held-out region. It finds tiny J changes (-0.037 to +0.011), few changed decisions and highly correlated scores, while cosine change magnitude detects no gains and ranks gains below unchanged negatives even though losses are detected well. The study is exceptionally cautious and transparent, but the correction test contains very little reference drift to correct, gain positives are concentrated in one year pair, the AlphaEarth input is an unofficial mosaic with an unfinished native-grid check, and the contribution is a narrow negative audit rather than a general method or restoration validation.",
+  "verdict": "major revision",
+  "workshop_level": "yes"
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "muse-wonder-1.0",
+  "finish_reason": "completed",
+  "web_search_queries": [
+   "AlphaEarth Foundations embedding field model Brown 2025 arXiv 2507.22291",
+   "TESSERA temporal embeddings surface spectra Feng 2025 arXiv",
+   "Heiman Brazilian Atlantic Forest restoration AlphaEarth embeddings cosine similarity reference",
+   "satellite embedding change detection cosine magnitude tree cover gain loss AlphaEarth",
+   "LCMAP reference data Stehman 2021 validation annual land cover change timing accuracy",
+   "geospatial embeddings temporal transfer land cover classification domain adaptation AlphaEarth TESSERA",
+   null
+  ],
+  "sources": [
+   "https://arxiv.org/abs/2507.22291",
+   "https://github.com/cxy037/alphaearth-foundations",
+   "https://github.com/olympus-terminal/alphaearth-foundations",
+   "https://arxiv.org/abs/2506.20380v2",
+   "https://arxiv.org/abs/2506.20380v1",
+   "https://arxiv.org/pdf/2506.20380v1",
+   "https://github.com/tanmoych/tessera",
+   "https://arxiv.org/abs/2605.05547",
+   "https://dr.molodetz.nl/_proxy/https/arxiv.org/pdf/2605.05547",
+   "https://export.arxiv.org/pdf/2605.05547",
+   "http://arxiv.org/html/2605.05547",
+   "https://arxiv.org/pdf/2605.05547v2",
+   "https://github.com/tackang/daily_research_trend/blob/HEAD/2026/05/2026-05-09.md",
+   "https://arxiv.org/abs/2605.05547v1",
+   "https://medium.com/@aliceheimanxyz/how-do-alpha-earth-embeddings-for-stable-and-changing-lulc-vary-over-time-9aedfd727f0c",
+   "https://storage.staging.researchhub.com/uploads/papers/2026/08/05/2608.03410.pdf",
+   "https://arxiv.org/html/2608.03410v1",
+   "https://github.com/lkruer/hazard-watch/blob/HEAD/docs/CLAUDE.md",
+   "https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yao_et_al_research_abstract_CaGIS_2026.pdf",
+   "https://github.com/tomevault-io/codex-plugins/blob/HEAD/ktwu01--alphaearthhack/AGENTS.md",
+   "https://www.mdpi.com/2072-4292/18/18/3163",
+   "https://github.com/overxp/alphaearth",
+   "https://github.com/om2468/alpha",
+   "https://github.com/ktwu01/alphaearthhack/blob/HEAD/CLAUDE.md",
+   "https://github.com/bastienlebrou/portefolio_project/blob/HEAD/scrutech/packages/alphaearth/README.md",
+   "https://github.com/bastienlebrou/portefolio_project/commit/d96c79b3aeacd5a68c784f6bcbb100afd5e57dca",
+   "https://pubs.usgs.gov/publication/70223301",
+   "https://pubs.er.usgs.gov/publication/70223301",
+   "https://www.researchgate.net/publication/354020960_Validation_of_the_US_Geological_Survey's_Land_Change_Monitoring_Assessment_and_Projection_LCMAP_Collection_10_annual_land_cover_products_1985-2017",
+   "https://essd.copernicus.org/preprints/essd-2023-320/essd-2023-320-AC1-supplement.pdf",
+   "http://experts.esf.edu/esploro/outputs/journalArticle/Validation-of-the-US-Geological-Surveys/99892561704826?institution=01SUNY_ESF&recordUsage=false&skipUsageReporting=true",
+   "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313880",
+   "https://www.researchgate.net/publication/333807897_Quality_control_and_assessment_of_interpreter_consistency_of_annual_land_cover_reference_data_in_an_operational_national_monitoring_program",
+   "https://cfn-live-content-bucket-iop-org.s3.eu-west-1.amazonaws.com/journals/1748-9326/18/2/024007/revision2/erlacad15supp1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260522T162942Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAYDKQL6LTX22PGTP5%2F20260522%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=604800&X-Amz-Signature=58a34752aa7e9fd0bb5a6c407d9a78d6d19dda40108cde1c111ae7f72d279ebe",
+   "https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2025.1570580/full",
+   "https://www.usgs.gov/publications/validation-us-geological-surveys-land-change-monitoring-assessment-and-projection",
+   "https://arxiv.org/abs/2601.16900v1",
+   "https://arxiv.org/html/2601.16900",
+   "https://www.researchgate.net/scientific-contributions/Christopher-F-Brown-2223294434",
+   "https://www.CatalyzeX.com/author/Srinivasan%20Keshav",
+   "https://pdfs.assets.alphaxiv.org/2601.16900v1.pdf",
+   "http://anil.recoil.org/papers/2026-tessera-trentino.pdf",
+   "https://www.mdpi.com/2072-4292/18/18/3248",
+   "https://github.com/rayford295/rayford-knowledge-atlas/blob/HEAD/wiki/papers/beacon.md",
+   "https://arxiv.org/html/2608.03410v1",
+   "https://www.researchgate.net/figure/The-Living-Earth-LCCS-2-implementation-The-hierarchy-for-the-dichotomous-phase-L1-L3_fig1_353531178"
+  ]
+ }
+}

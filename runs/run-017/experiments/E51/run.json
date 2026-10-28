@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E51",
+  "started_at_utc": "2026-10-27T09:44:01.352198Z",
+  "command": [
+    ".venv/bin/python",
+    "code/analyse_results.py",
+    "--out",
+    "experiments/E51/outputs"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6.md",
+  "plan_commit_id": "caa5b3f90f618541365a9f9f1e84fb7fb35c783e",
+  "code_commit_id": "caa5b3f90f618541365a9f9f1e84fb7fb35c783e",
+  "input_sha256": {
+    "data/derived/dataset-manifest.json": "c9311f6ab9444345c7ffbbfa98f9896e6f35b06f896d1b4d2954fa35d2bded35"
+  },
+  "start_event_id": "E0250",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 60053,
+  "ended_at_utc": "2026-10-27T09:52:55.897679Z",
+  "elapsed_seconds": 534.5092993339058,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0257"
+}

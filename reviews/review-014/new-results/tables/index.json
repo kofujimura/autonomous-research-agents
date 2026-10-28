@@ -1,0 +1,10 @@
+{
+  "inputs": [
+    "/Users/fujimura/Research/ai-free-research-en/review-014/new-results/main-v1",
+    "/Users/fujimura/Research/ai-free-research-en/review-014/new-results/secondary-v2",
+    "/Users/fujimura/Research/ai-free-research-en/review-014/new-results/nlcd-v4",
+    "/Users/fujimura/Research/ai-free-research-en/review-014/new-results/native-v5"
+  ],
+  "rounding": "Once on display; three decimals for rates/differences, six for native diagnostics.",
+  "methods_selected": "Explicit protocol-primary contrasts and fixed conditional-state comparators; full tables retain all methods."
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "task_id": "polygon-factor-isolation",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_polygon_conditions.py",
+      "--out",
+      "analysis/polygon-condition-audit"
+    ]
+  },
+  {
+    "task_id": "report-data",
+    "command": [
+      ".venv/bin/python",
+      "code/build_report_data.py",
+      "--out",
+      "analysis/report-data"
+    ]
+  },
+  {
+    "task_id": "figures",
+    "command": [
+      ".venv/bin/python",
+      "code/make_figures.py",
+      "--data",
+      "analysis/report-data",
+      "--out",
+      "figures"
+    ]
+  },
+  {
+    "task_id": "paper",
+    "command": [
+      ".venv/bin/python",
+      "code/render_manuscript.py"
+    ]
+  },
+  {
+    "task_id": "claims",
+    "command": [
+      ".venv/bin/python",
+      "code/build_claims.py"
+    ]
+  },
+  {
+    "task_id": "completion-report",
+    "command": [
+      ".venv/bin/python",
+      "code/update_records_report.py"
+    ]
+  }
+]

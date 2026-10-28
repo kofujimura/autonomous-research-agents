@@ -1,0 +1,47 @@
+[
+  {
+    "task_id": "centre-features",
+    "command": [
+      ".venv/bin/python",
+      "code/derive_features.py",
+      "--out",
+      "analysis/features-centre-corrected",
+      "--centre",
+      "--aef-overrides",
+      "data/corrections"
+    ],
+    "start_time_utc": "2026-10-28T04:58:56.138739+00:00",
+    "end_time_utc": "2026-10-28T04:58:59.921409+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "centre-fits",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/features-centre-corrected",
+      "--output",
+      "analysis/boundaries-corrected/centre"
+    ],
+    "start_time_utc": "2026-10-28T04:58:59.921839+00:00",
+    "end_time_utc": "2026-10-28T05:12:43.831547+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "centre-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/boundaries-corrected/centre",
+      "--out",
+      "analysis/boundaries-corrected/centre-summary"
+    ],
+    "start_time_utc": "2026-10-28T05:12:43.832174+00:00",
+    "end_time_utc": "2026-10-28T05:12:47.906356+00:00",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "experiment_id": "V015-final-end-to-end",
+  "started_at_utc": "2026-10-26T11:29:44Z",
+  "command": [
+    ".venv/bin/python",
+    "verification_work/final-source/scripts/verify.py",
+    "--mode",
+    "reduced",
+    "--output",
+    "/Users/fujimura/Research/ai-free-research-en/run-015/verification_work/final-run"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/verification-final-v1.md",
+  "plan_commit_id": "8ad181f738faace9d3e042edd2af4879158f4cca",
+  "code_commit_id": "24ddff1f8b1170ddad2f8a767a1b8eda230713e5",
+  "input_sha256": {
+    "review/final-source.json": "01780ddb7964d3b0081878647333ee3d339a223ef3eaff6533d4ec6db5f520c1",
+    "review/final-source-before.SHA256SUMS": "d297aafce150f7259376cae426c2280076da25e58a27b8c7e270d5a79d4e3a08",
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/design-v4.json": "b32b2be5bab4474dfdd67c7d925eb44ad5c1b59b4148314dce11624685b68d24"
+  },
+  "status": "completed",
+  "start_event_id": "E0690",
+  "child_pid": 76175,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T11:45:20Z",
+  "elapsed_seconds": 936.3949925000779,
+  "end_event_id": "E0692"
+}

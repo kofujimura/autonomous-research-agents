@@ -1,0 +1,14 @@
+deprecated tions Save and categorize content based on your preferences. WeatherNext Gen is deprecated and is no longer producing real-time forecasts. We recommend WeatherNext 3 for all new projects. WeatherNext Gen (GenCast) is a probabilistic ensemble forecasting model
+developed by Google DeepMind and Google Research. It uses a conditional
+diffusion architecture
+coupled with a graph neural network and graph transformer to generate an
+ensemble of 50 possible weather trajectories, capturing forecast uncertainty. In
+evaluations, GenCast outperformed ECMWF's ENS (the leading operational 
+July 29, 2026 WeatherNext Gen  |  Google for Developers Skip to main content WeatherNext Home Guides Support / English Deutsch Español Français Indonesia Português – Brasil Русский 中文 – 简体 日本語 한국어 Sign in Guides WeatherNext Home Guides Support About the models WeatherNext WeatherNext 3 Previous models WeatherNext 2 WeatherNext Gen WeatherNext Graph Research and benchmarks Benefits and limitations Open source Weather Lab Operational forecast data Getting started Google Cloud Storage (Zarr) BigQuery Earth Engi
+Cloud Storage ations Open source Weather Lab Operational forecast data Getting started Google Cloud Storage (Zarr) BigQuery Earth Engine Managed inference and deployments Getting started Working with the model Model specifications Reference Terms and disclaimers Release notes Glossary Model deprecation Dissemination schedule Home Products WeatherNext Guides WeatherNext Gen Stay organized with collections Save and categorize content based on your preferences. WeatherNext Gen is deprecated and is no longer producing real-time forecasts. We recommend WeatherNext 3 for all new projects. Weat
+access al at 500 hPa. See the Glossary for definitions of
+meteorological terms. How to access WeatherNext Gen datasets on BigQuery and Earth Engine were deprecated on July
+29, 2026. Users previously on the allowlist for Gen automatically have access to
+WeatherNext 3 datasets. See the deprecation
+page for migration details and WeatherNext 3 for current operational forecasts. Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License , and code samples are licensed under the Apache 2.0 License . For details, see the Google Deve
+Earth Engine  Operational forecast data Getting started Google Cloud Storage (Zarr) BigQuery Earth Engine Managed inference and deployments Getting started Working with the model Model specifications Reference Terms and disclaimers Release notes Glossary Model deprecation Dissemination schedule Home Products WeatherNext Guides WeatherNext Gen Stay organized with collections Save and categorize content based on your preferences. WeatherNext Gen is deprecated and is no longer producing real-time forecasts. We recommend WeatherNext 3 for all new projects. WeatherNext Gen (GenCast) is a pro

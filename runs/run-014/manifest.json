@@ -1,0 +1,321 @@
+{
+  "trial_id": "free-research-014",
+  "start_time_utc": "2026-10-25T08:12:56+00:00",
+  "start_timezone": "UTC",
+  "local_timezone": "Asia/Tokyo",
+  "first_draft_deadline_utc": "2026-10-25T22:05:39+00:00",
+  "deadline_changes": [
+    {
+      "period": "research",
+      "reason": "confirmed_ai_usage_limit_stop",
+      "last_time_before_stop_utc": "2026-10-25T11:35:44+00:00",
+      "first_time_after_resume_utc": "2026-10-25T12:10:41+00:00",
+      "excluded_seconds": 2097,
+      "original_deadline_utc": "2026-10-25T20:12:56+00:00",
+      "extended_deadline_utc": "2026-10-25T20:47:53+00:00",
+      "confirmation": "Human message: Resuming after a stop caused by the AI usage limit.",
+      "runtime_error_directly_visible": false,
+      "experiments_continued": [
+        {
+          "experiment_id": "fetch-tessera-027-030",
+          "start_at_utc": "2026-10-25T11:20:41Z",
+          "end_at_utc": "2026-10-25T11:42:13Z",
+          "status": "completed",
+          "elapsed_seconds": 1291.7902727921028,
+          "pid": 18159
+        },
+        {
+          "experiment_id": "fetch-controls-aef",
+          "start_at_utc": "2026-10-25T11:24:19Z",
+          "end_at_utc": "2026-10-25T11:54:17Z",
+          "status": "timeout",
+          "elapsed_seconds": 1800.025892375037,
+          "pid": 18313
+        }
+      ]
+    },
+    {
+      "period": "research",
+      "reason": "confirmed_ai_usage_limit_stop",
+      "last_time_before_stop_utc": "2026-10-25T15:54:43+00:00",
+      "first_time_after_resume_utc": "2026-10-25T17:12:29+00:00",
+      "excluded_seconds": 4666,
+      "original_deadline_utc": "2026-10-25T20:47:53+00:00",
+      "extended_deadline_utc": "2026-10-25T22:05:39+00:00",
+      "confirmation": "Human message: Resuming after a stop caused by the AI usage limit.",
+      "runtime_error_directly_visible": false,
+      "experiments_continued": [
+        {
+          "experiment_id": "native-check-097-104",
+          "start_at_utc": "2026-10-25T15:52:18Z",
+          "end_at_utc": "2026-10-25T16:00:17Z",
+          "status": "completed",
+          "elapsed_seconds": 479.6663907500915,
+          "pid": 28120
+        },
+        {
+          "experiment_id": "native-check-105-112",
+          "start_at_utc": "2026-10-25T15:52:19Z",
+          "end_at_utc": "2026-10-25T16:00:24Z",
+          "status": "completed",
+          "elapsed_seconds": 484.85341033292934,
+          "pid": 28126
+        }
+      ]
+    }
+  ],
+  "review_received_at_utc": "2026-10-25T19:51:35Z",
+  "research_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "session_id": null,
+  "continuation_session_ids": [
+    null
+  ],
+  "resource_limits": {
+    "research_hours": 12,
+    "review_response_hours": 2,
+    "storage_bytes": 10737418240,
+    "concurrent_experiment_processes": 2,
+    "experiment_timeout_seconds": 1800,
+    "api_budget_usd": 20
+  },
+  "model": {
+    "presented_description": "Codex based on GPT-6 (developer message)",
+    "deployment_identifier": null,
+    "provider_presented": "OpenAI",
+    "reasoning_effort": null,
+    "other_settings": null,
+    "source": "conversation, not independently verified from runtime"
+  },
+  "execution_environment": {
+    "name": "Codex",
+    "version": null,
+    "source": "developer instructions and available tool names"
+  },
+  "os": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "git": "2.50.1 (Apple Git-155)",
+  "environment_source": "minimal local commands at initialization; no environment dump",
+  "tools_confirmed": [
+    "exec_command",
+    "apply_patch",
+    "web.run",
+    "clock.curr_time",
+    "view_image",
+    "collaboration tools (not authorized for use)"
+  ],
+  "skills_used": [
+    {
+      "name": "research-question",
+      "source": "input_skills/research-question/SKILL.md",
+      "influence": "mandatory topic-divergence and selection procedure"
+    },
+    {
+      "name": "openai-docs",
+      "source": "/Users/fujimura/.codex-research/skills/.system/openai-docs/SKILL.md",
+      "influence": "official documentation verification for the candidate critique API"
+    }
+  ],
+  "project_rules_read": [],
+  "persistent_memory": {
+    "existence": "not observable; no memory search performed"
+  },
+  "user_profile": {
+    "existence": "environment context visible; no separate profile confirmed",
+    "used_for_topic_selection": false
+  },
+  "api": {
+    "provider": "OpenAI",
+    "environment_variable": "FREE_RESEARCH_OPENAI_API_KEY",
+    "key_exists": true,
+    "key_nonempty": true,
+    "budget_usd": 20,
+    "critic_model_requested": "gpt-6-astra",
+    "critic_reasoning_effort": "xhigh",
+    "price_confirmation": {
+      "checked_at_utc": "2026-10-25T08:55:14Z",
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "snapshot": "sources/openai-pricing.md",
+      "model_input_usd_per_million": 10,
+      "model_output_usd_per_million": 50,
+      "cached_input_usd_per_million": 1,
+      "web_search_usd_per_call": 0.01,
+      "tier": "default/standard",
+      "long_context_rates": "see snapshot; threshold over 272K input"
+    },
+    "actual_cost_usd": 2.01982,
+    "usage": {
+      "input_tokens": 115237,
+      "input_tokens_details": {
+        "cache_write_tokens": 6120,
+        "cached_tokens": 0
+      },
+      "output_tokens": 14443,
+      "output_tokens_details": {
+        "reasoning_tokens": 9680
+      },
+      "total_tokens": 129680
+    },
+    "calls": 1,
+    "critique_model_returned": "gpt-6-astra",
+    "cost_method": "returned usage, including cache writes at published default 30m rate; 13 web_search_call items; no invoice access",
+    "cost_caveat": "Response retains legacy prompt_cache_retention=24h and lacks write-lifetime breakdown; request has no prompt_cache_options. Official GPT-6 default is 30m. No later paid calls planned."
+  },
+  "normal_tool_billing": "existing session allowance; additional billing not confirmed; no new paid service authorized",
+  "unknowns": [
+    "session ID",
+    "deployment model ID",
+    "session reasoning effort",
+    "Codex runtime version",
+    "session token usage and pricing",
+    "persistent-memory existence"
+  ],
+  "missing_records": [
+    {
+      "observed_at_utc": "2026-10-25T11:32:52Z",
+      "scope": "fetch-controls-aef metadata-path failures",
+      "missing": "Returned patch arrays were not saved before metadata construction failed; only failure logs retained",
+      "effect": "No scientific results drawn; new fixed-sample acquisition after repair required"
+    }
+  ],
+  "higher_level_conditions_observed": [
+    "workspace filesystem sandbox and possible execution approvals",
+    "additional installed skills visible",
+    "no proactive sub-agent delegation",
+    "Runtime blocked signalling a researcher-started experiment group from another exec; existing experiment timeout remains the stopping mechanism"
+  ],
+  "input_prompt_record": {
+    "source": "full visible user message transcribed into input_prompt.md; no attachment path exposed",
+    "complete": true,
+    "byte_identity_to_transport": "not independently checkable"
+  },
+  "topic_selection": {
+    "candidate": "C3",
+    "completed_at_utc": "2026-10-25T09:17:17Z",
+    "research_question": "Do concurrent reference forests or control adjustment improve transfer of satellite-embedding tree-cover transition screening to later years and held-out regions compared with fixed-reference scores and supervised comparators?",
+    "critique_call_id": "API001",
+    "critique_role": "sole authorized topic-selection exception; not paper review",
+    "incomplete_check": "EVEE full text unavailable for rejected C7"
+  },
+  "active_study": {
+    "protocols": [
+      "protocol/plan-v1.md",
+      "protocol/plan-v2.md",
+      "protocol/plan-v3.md",
+      "protocol/plan-v4.md",
+      "protocol/plan-v5.md",
+      "protocol/plan-v6.md",
+      "protocol/plan-v7.md",
+      "protocol/plan-v8.md",
+      "protocol/plan-v9.md",
+      "protocol/plan-v10.md",
+      "protocol/plan-v11.md",
+      "protocol/plan-v12.md",
+      "protocol/plan-v13.md",
+      "protocol/plan-v14.md",
+      "protocol/plan-v15.md",
+      "protocol/plan-v16.md",
+      "protocol/plan-v17.md",
+      "protocol/v15-recovery.md",
+      "protocol/plan-v18.md",
+      "protocol/plan-v19.md",
+      "protocol/plan-v20.md",
+      "protocol/plan-v21.md",
+      "protocol/plan-v22.md",
+      "protocol/plan-v23.md",
+      "protocol/plan-v24.md"
+    ],
+    "endpoint_scope": "LCMAP dominant tree-cover transitions primary; distinct NLCD Forest-class transition boundary secondary",
+    "score_outcomes_first_inspected_at_utc": "2026-10-25T12:47:59Z",
+    "first_analysis": "analysis/aef-closed-v11",
+    "paired_score_outcomes_first_inspected_at_utc": "2026-10-25T13:27:20Z",
+    "status": "Study and one review-response round finished within recorded scope; final seal prepared. Paired-native experiment retained not_tested; no processes remain.",
+    "main_analysis_end_at_utc": "2026-10-25T13:25:55Z",
+    "nlcd_structured_score_inspection_at_utc": "2026-10-25T15:38:59Z"
+  },
+  "unknown_conditions": [
+    "TESSERA pre-v9 actual HTTP concurrency and lower-level request/retry counts unmeasured; library POINT_CONCURRENCY=32 overrode outer2 setting. Subsequent jobs explicitly pin2."
+  ],
+  "resource_limit_breaches": [
+    {
+      "observed_at_utc": "2026-10-25T12:52:20Z",
+      "type": "concurrent_experiments",
+      "permitted": 2,
+      "registered_peak": 3,
+      "registered_overlap_seconds": 21.0,
+      "start_at_utc": "2026-10-25T12:50:47Z",
+      "end_at_utc": "2026-10-25T12:51:08Z",
+      "cause": "Unconditional next-batch launch despite predecessor status running",
+      "correction": "Locked active-run check in run_experiment.py; no further child allowed when2 active"
+    }
+  ],
+  "other_resumptions": [
+    {
+      "observed_at_utc": "2026-10-25T13:09:04Z",
+      "human_message": "Resuming after a stop.",
+      "last_tool_time_before_utc": "2026-10-25T13:04:40Z",
+      "cause": "unconfirmed",
+      "deadline_extension_seconds": 0
+    }
+  ],
+  "transport_change": {
+    "observed_at_utc": "2026-10-25T13:54:04Z",
+    "dataset_unchanged": "TESSERA v1/vultr",
+    "route": "documented public Source Cooperative gateway",
+    "verification": "experiments/route-check-v15-recovery/results/summary.json",
+    "caveat": "Three arrays/spatial-version metadata checked; historical timings confounded; original reporting errors preserved."
+  },
+  "self_verification": {
+    "record": "review/self-rerun-4.json",
+    "candidate_commit": "40fdcf0d9ce3b467abee309def61fd494869d263",
+    "completed_at_utc": "2026-10-25T20:17:11Z",
+    "status": "PASS",
+    "check_count": 256,
+    "stage_count": 37,
+    "current_numerical_code_covered": true,
+    "source_unchanged": true,
+    "independent": false
+  },
+  "first_draft": {
+    "seal_prepared_at_utc": "2026-10-25T19:17:54Z",
+    "commit_ref": "refs/tags/submission-1^{commit}",
+    "completion_evidence": "Existence of annotated submission-1 tag; actual hexadecimal commit ID and tag UTC time are observable in Git and the submission message.",
+    "status": "submitted; preserved immutable tag/snapshot",
+    "verification_record": "review/self-rerun-3.json",
+    "paper_sha256": "e9038f118843861d68f6c6089cdf7c07ee06fc2c398ba9fc76ad758d3038beb8",
+    "waiting_for": "Human-provided REVIEW-1 after the tag is created; no directory changes during the waiting interval",
+    "submitted_at_utc": "2026-10-25T19:18:05Z",
+    "commit_id": "e459b6c0ba39032e1a8069ccc882717d2fac2d71",
+    "time_source": "Annotated Git tag timestamp obtained with a tool during review response; self-reported Git time, submission also reported in conversation"
+  },
+  "review_response_deadline_utc": "2026-10-25T21:51:35Z",
+  "review_response_period": {
+    "start_time_utc": "2026-10-25T19:51:35Z",
+    "deadline_utc": "2026-10-25T21:51:35Z",
+    "review_id": "review-014-1",
+    "target_commit": "e459b6c0ba39032e1a8069ccc882717d2fac2d71",
+    "excluded_seconds": 0
+  },
+  "current_title": "Screening one-year tree-cover transitions in CONUS with annual satellite embeddings",
+  "review_response_summary": {
+    "review_id": "review-014-1",
+    "writing_commit": "7c3f673ce5b4fb87ce3db08f1bd67ad5aa28ebf6",
+    "response_path": "review/response-1.md",
+    "numerical_verification": "review/self-rerun-4.json",
+    "points": 8,
+    "decisions": {
+      "adopted": 5,
+      "partly adopted": 3
+    },
+    "status": "Complete; final tag is the sealed revision marker"
+  },
+  "final_submission": {
+    "seal_prepared_at_utc": "2026-10-25T20:48:09Z",
+    "commit_ref": "refs/tags/final^{commit}",
+    "completion_evidence": "Annotated final tag; exact hexadecimal commit and UTC tag time in Git and conversation",
+    "paper_sha256": "07b2485ce429e8d57b79f33aca6358b453c3ad763866ed49471ddd596985aa16",
+    "verification_record": "review/self-rerun-4.json",
+    "response": "review/response-1.md",
+    "status": "Final seal prepared; tag is completion marker"
+  }
+}

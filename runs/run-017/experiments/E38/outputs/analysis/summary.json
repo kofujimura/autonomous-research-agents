@@ -1,0 +1,236 @@
+{
+  "generated_at_utc": "2026-10-27T08:41:04.753712Z",
+  "fit_count": 75,
+  "primary_contrasts": {
+    "H1_interaction": {
+      "status": "complete",
+      "estimate": 0.11587805723256728,
+      "conditional_block_bootstrap_95_percent_interval": [
+        0.04880914315946775,
+        0.1850795098204246
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "regional_allocation_interaction": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "aef_oracle_gain": {
+      "status": "complete",
+      "estimate": 0.1280357042028195,
+      "conditional_block_bootstrap_95_percent_interval": [
+        0.08388012663012673,
+        0.17166703156132027
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "optical_oracle_gain": {
+      "status": "complete",
+      "estimate": 0.012157646970252234,
+      "conditional_block_bootstrap_95_percent_interval": [
+        -0.04461048470345351,
+        0.06121674667361617
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "aef_proposal_gain": {
+      "status": "complete",
+      "estimate": -0.00157420559837107,
+      "conditional_block_bootstrap_95_percent_interval": [
+        -0.026155547891736963,
+        0.022544231005510455
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "optical_proposal_gain": {
+      "status": "complete",
+      "estimate": 0.029328585172941013,
+      "conditional_block_bootstrap_95_percent_interval": [
+        -0.016117764232227143,
+        0.08104281281837548
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "aef_proposal_vs_uncertainty": {
+      "status": "complete",
+      "estimate": -0.0031339076444791836,
+      "conditional_block_bootstrap_95_percent_interval": [
+        -0.02441726340940828,
+        0.015674659471807968
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "optical_proposal_vs_uncertainty": {
+      "status": "complete",
+      "estimate": 0.024567605928520697,
+      "conditional_block_bootstrap_95_percent_interval": [
+        0.002448483492336927,
+        0.05565190737898952
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "aef_mmu_frame_change": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "optical_mmu_frame_change": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "aef_proposal_vs_classmatched": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "aef_uncertainty_vs_classmatched": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "aef_natural_vs_balanced": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "optical_proposal_vs_classmatched": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "optical_uncertainty_vs_classmatched": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "optical_natural_vs_balanced": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    }
+  },
+  "region_standardized_contrasts": {
+    "H1_interaction": {
+      "status": "complete",
+      "estimate": 0.07635154839259672,
+      "conditional_block_bootstrap_95_percent_interval": [
+        0.009186761180129586,
+        0.13707056968559858
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "regional_allocation_interaction": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "aef_oracle_gain": {
+      "status": "complete",
+      "estimate": 0.0987908742763447,
+      "conditional_block_bootstrap_95_percent_interval": [
+        0.05339293873625726,
+        0.13288079436313688
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "optical_oracle_gain": {
+      "status": "complete",
+      "estimate": 0.022439325883747974,
+      "conditional_block_bootstrap_95_percent_interval": [
+        -0.03230249628719281,
+        0.07358267854075576
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "aef_proposal_gain": {
+      "status": "complete",
+      "estimate": -0.008150332087061118,
+      "conditional_block_bootstrap_95_percent_interval": [
+        -0.04150325310943175,
+        0.02183434729243796
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "optical_proposal_gain": {
+      "status": "complete",
+      "estimate": 0.02479052331252285,
+      "conditional_block_bootstrap_95_percent_interval": [
+        -0.019417805138149946,
+        0.07359803709438145
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "aef_proposal_vs_uncertainty": {
+      "status": "complete",
+      "estimate": 0.0033148975838854233,
+      "conditional_block_bootstrap_95_percent_interval": [
+        -0.017921996091086793,
+        0.02492849874791582
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "optical_proposal_vs_uncertainty": {
+      "status": "complete",
+      "estimate": 0.004413619167717542,
+      "conditional_block_bootstrap_95_percent_interval": [
+        -0.033847638972932026,
+        0.030018731754835055
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000,
+      "interpretation": "Conditional on evaluated thresholds and reference maps; four convenience regions fixed; paired cores within region and shared training-seed resampling"
+    },
+    "aef_mmu_frame_change": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "optical_mmu_frame_change": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "aef_proposal_vs_classmatched": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "aef_uncertainty_vs_classmatched": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "aef_natural_vs_balanced": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "optical_proposal_vs_classmatched": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "optical_uncertainty_vs_classmatched": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    },
+    "optical_natural_vs_balanced": {
+      "status": "incomplete",
+      "reason": "All five seeds not yet evaluated for every arm"
+    }
+  },
+  "missing_primary_arms": 0,
+  "bootstrap_replicates": 2000
+}

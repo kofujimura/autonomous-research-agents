@@ -1,0 +1,5 @@
+queries 3667 without region 0
+aef_decoder            pooled dLL -0.0510; window-mean dLL -0.0515 [-0.0829, -0.0163]; windows better 11/12
+tessera_decoder        pooled dLL -0.0385; window-mean dLL -0.0235 [-0.0616, +0.0141]; windows better 7/12
+hydro_aef_decoder      pooled dLL -0.0566; window-mean dLL -0.0467 [-0.0734, -0.0185]; windows better 9/12
+hydro_tessera_decoder  pooled dLL -0.0488; window-mean dLL -0.0376 [-0.0753, -0.0025]; windows better 8/12

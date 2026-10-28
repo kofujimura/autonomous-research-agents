@@ -1,0 +1,52 @@
+within_rf_aef_area_n2000_s101 threshold bootstrap complete; 825703 distinct scores
+within_rf_aef_area_n2000_s202 threshold bootstrap complete; 826585 distinct scores
+within_rf_aef_area_n2000_s303 threshold bootstrap complete; 825615 distinct scores
+within_rf_aef_area_n2000_s404 threshold bootstrap complete; 828037 distinct scores
+within_rf_aef_area_n2000_s505 threshold bootstrap complete; 827563 distinct scores
+within_rf_aef_object_n2000_s101 threshold bootstrap complete; 824851 distinct scores
+within_rf_aef_object_n2000_s202 threshold bootstrap complete; 825264 distinct scores
+within_rf_aef_object_n2000_s303 threshold bootstrap complete; 825308 distinct scores
+within_rf_aef_object_n2000_s404 threshold bootstrap complete; 823668 distinct scores
+within_rf_aef_object_n2000_s505 threshold bootstrap complete; 823753 distinct scores
+within_rf_optical_area_n2000_s101 threshold bootstrap complete; 826780 distinct scores
+within_rf_optical_area_n2000_s202 threshold bootstrap complete; 823650 distinct scores
+within_rf_optical_area_n2000_s303 threshold bootstrap complete; 822530 distinct scores
+within_rf_optical_area_n2000_s404 threshold bootstrap complete; 823732 distinct scores
+within_rf_optical_area_n2000_s505 threshold bootstrap complete; 826402 distinct scores
+within_rf_optical_object_n2000_s101 threshold bootstrap complete; 823553 distinct scores
+within_rf_optical_object_n2000_s202 threshold bootstrap complete; 826335 distinct scores
+within_rf_optical_object_n2000_s303 threshold bootstrap complete; 825399 distinct scores
+within_rf_optical_object_n2000_s404 threshold bootstrap complete; 825732 distinct scores
+within_rf_optical_object_n2000_s505 threshold bootstrap complete; 825294 distinct scores
+{
+  "completed_at_utc": "2026-10-27T09:04:57.244946Z",
+  "contrasts": {
+    "H1_interaction": {
+      "reselected_threshold_block_bootstrap_95_percent_interval": [
+        0.021428853963780466,
+        0.19501709577429147
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000
+    },
+    "aef_oracle_gain": {
+      "reselected_threshold_block_bootstrap_95_percent_interval": [
+        0.026956937875353464,
+        0.19231482925592444
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000
+    },
+    "optical_oracle_gain": {
+      "reselected_threshold_block_bootstrap_95_percent_interval": [
+        -0.06316707925963264,
+        0.06962788221945368
+      ],
+      "undefined_replicates": 0,
+      "replicates": 2000
+    }
+  },
+  "interpretation": "Thresholds reselected from exactly weighted score distributions for resampled test blocks; fitted models and reference maps remain fixed; convenience regions fixed",
+  "seed": 20261027,
+  "manifest_sha256": "c9311f6ab9444345c7ffbbfa98f9896e6f35b06f896d1b4d2954fa35d2bded35"
+}

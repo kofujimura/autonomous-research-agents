@@ -1,0 +1,36 @@
+{
+  "experiment_id": "E12-reference-frames",
+  "start_time_utc": "2026-10-26T19:40:04.374410Z",
+  "end_time_utc": "2026-10-26T19:40:46.182052Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/reference_frame_analysis.py",
+    "--source-manifest",
+    "data/population-source-v1.json",
+    "--destination",
+    "results/reference-frames"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v7-reference-frame.md",
+  "plan_commit_id": "77d8cb9748f8741b628bf786b87ae0fad12915eb",
+  "plan_sha256": "cec48ec502f92a78df69034d6d3628445d1e83ea0427a22cd9dfef7fed7f7551",
+  "code_commit_id": "77d8cb9748f8741b628bf786b87ae0fad12915eb",
+  "inputs": [
+    {
+      "path": "data/population-source-v1.json",
+      "sha256": "5e1efc31ca059b1b005f593589f36b255a9ea32245e72a06aec811f7f2688377"
+    },
+    {
+      "path": "data/selection-results.jsonl",
+      "sha256": "a3775f537290add3b84dc64a039d31a411ced10cdc1681b137660d7dbcbaa241"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E12-reference-frames/stdout.txt",
+  "stderr_path": "experiments/E12-reference-frames/stderr.txt",
+  "start_event_id": "E0195",
+  "pid": 2463,
+  "elapsed_seconds": 41.80764487502165,
+  "end_event_id": "E0196"
+}

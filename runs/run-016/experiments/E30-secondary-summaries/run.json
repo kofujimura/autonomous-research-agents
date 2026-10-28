@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E30-secondary-summaries",
+  "start_time_utc": "2026-10-26T21:47:27.490820Z",
+  "end_time_utc": "2026-10-26T21:47:33.392670Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/secondary_summaries.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "bbdef5f49399f2017081809ccb9f5495d556f6a9",
+  "plan_sha256": "ebe46e22b043010d9683376e5d76768edcaefe52760cdde4354e8a751cc29eb5",
+  "code_commit_id": "bbdef5f49399f2017081809ccb9f5495d556f6a9",
+  "inputs": [
+    {
+      "path": "results/inference/logistic-broad-tessera/analysis.json",
+      "sha256": "b3ead536c904bbb0651c6bf97588a3c86e7e1274ae38aab6ed748eb785ca9823"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E30-secondary-summaries/stdout.txt",
+  "stderr_path": "experiments/E30-secondary-summaries/stderr.txt",
+  "start_event_id": "E0339",
+  "pid": 8070,
+  "elapsed_seconds": 5.901776584098116,
+  "end_event_id": "E0342"
+}

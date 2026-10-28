@@ -1,0 +1,11 @@
+{
+  "recovered_from_saved_arrays": true,
+  "network_used": false,
+  "new_queries": 0,
+  "patches": 3,
+  "same_raw_arrays_and_spatial_version_metadata": true,
+  "gateway_median_upper_bound_seconds": 4.73470150004141,
+  "historical_default_median_seconds": 15.072157749906182,
+  "switch_to_gateway": true,
+  "timing_caveat": "Gateway logged durations include post-read save/reporting-failure overhead and upper-bound raw read times. Historical timings are confounded by time/network/cache; no causal speed claim."
+}

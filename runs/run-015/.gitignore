@@ -1,0 +1,7 @@
+.venv/
+.cache/
+__pycache__/
+verification_work/
+*.pyc
+
+results/overlap-recovery/calendar-input/

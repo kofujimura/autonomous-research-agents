@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-25T13:48:04Z",
+  "same_raw_arrays": false,
+  "gateway_median_seconds": 4.73470150004141,
+  "historical_default_median_seconds": 15.072157749906182,
+  "switch_to_gateway": false,
+  "timing_caveat": "Historical times are confounded by date, network and caches; no causal speed claim."
+}

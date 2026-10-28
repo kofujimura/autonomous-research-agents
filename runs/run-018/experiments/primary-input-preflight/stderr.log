@@ -1,0 +1,37 @@
+/Users/fujimura/Research/ai-free-research-en/run-018/code/audit_data.py:36: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  p=f['properties'];raw=original[p['objectid']];g=transform(forward,shape(raw['geometry']));g=make_valid(g) if not g.is_valid else g;point=Point(p['x'],p['y']);expected=hashlib.sha256(f"free-research-018|{p['objectid']}".encode()).hexdigest();assert p['hash']==expected
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/summarize_matching.py", line 84, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--inputs',required=True,type=Path);p.add_argument('--out',required=True,type=Path);a=p.parse_args();summarize(a.inputs,a.out)
+                                                                                                                                                    ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/summarize_matching.py", line 50, in summarize
+    pair=frame[[method,base]].dropna();d=pair[method]-pair[base];ci=bootstrap(d.to_numpy())
+         ~~~~~^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/.venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4336, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6557, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6606, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['pair_aef', 'hydro_pair'], dtype='str', name='method')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/check_analysis.py", line 31, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);main(p.parse_args().out)
+                                                                                ~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/check_analysis.py", line 21, in main
+    script=Path(__file__).with_name('summarize_matching.py');subprocess.run([sys.executable,str(script),'--inputs',str(inputs),'--out',str(results)],check=True)
+                                                             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python', '/Users/fujimura/Research/ai-free-research-en/run-018/code/summarize_matching.py', '--inputs', 'analysis/metric-check/input', '--out', 'analysis/metric-check/summary']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from pathlib import Path; import subprocess,sys; [compile(p.read_text(),str(p),"exec") for p in Path("code").glob("*.py")]; subprocess.run([sys.executable,"code/audit_data.py","--root",str(Path.cwd()),"--out","analysis/input-audit-final"],check=True); subprocess.run([sys.executable,"code/derive_features.py","--out","analysis/features"],check=True); subprocess.run([sys.executable,"code/check_analysis.py","--out","analysis/metric-check"],check=True)
+                                                                                                                                                                                                                                                                                                                                                                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python', 'code/check_analysis.py', '--out', 'analysis/metric-check']' returned non-zero exit status 1.

@@ -1,0 +1,31 @@
+{
+  "pilot_id": "P02",
+  "started_at_utc": "2026-10-26T15:06:30.346105Z",
+  "ended_at_utc": "2026-10-26T15:06:59.322619Z",
+  "store_url": "https://data.source.coop/tessera/tessera/zarr/v1.1-dclimate",
+  "model_version": "https://geotessera.org/model/1.1",
+  "dataset": "Dataset(version='1.1', variant='dclimate', description='Complete global run', npy=None, zarr='v1.1-dclimate', icechunk='s3://tessera-embeddings/v1.1/dclimate.icechunk', tile_registry='s3://tessera-embeddings/v1.1/dclimate.registry/parts')",
+  "year": 2021,
+  "center_lon": -93.5,
+  "center_lat": 42.0,
+  "shape": [
+    256,
+    256,
+    128
+  ],
+  "crs": "EPSG:32615",
+  "transform": [
+    10.0,
+    0.0,
+    457310.0,
+    0.0,
+    -10.0,
+    4651180.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "finite_fraction": 1.0,
+  "sha256": "6515459e6b2b715f3e8182b3575e283420751e3256e81343145bcfe0482227d1",
+  "inference": "none; published embedding data"
+}

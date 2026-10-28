@@ -1,0 +1,61 @@
+{"task_id": "margin-30", "command": [".venv/bin/python", "code/run_rotation_batch.py", "--kind", "primary", "--inputs", "analysis/features-corrected", "--output", "analysis/boundaries-corrected/margin-30", "--extra", "--min-margin", "30"], "start_time_utc": "2026-10-28T04:40:17.109617+00:00"}
+{"rotation": 0, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/features-corrected", "--rotation", "0", "--output", "analysis/boundaries-corrected/margin-30/r0", "--min-margin", "30"], "start_time_utc": "2026-10-28T04:40:17.148344+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 729, "pairs": 13480, "elapsed_seconds": 19.239668416092172}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 729, "pairs": 13480, "elapsed_seconds": 38.69437116617337}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 729, "pairs": 13480, "elapsed_seconds": 58.122038666158915}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 729, "pairs": 13480, "elapsed_seconds": 77.9616301250644}
+{"stage": "predict", "queries": 100, "total": 341, "elapsed_seconds": 86.23409191612154}
+{"stage": "predict", "queries": 200, "total": 341, "elapsed_seconds": 88.59951129113324}
+{"stage": "predict", "queries": 300, "total": 341, "elapsed_seconds": 90.94349945802242}
+{"start_time_utc": "2026-10-28T04:40:18.482355+00:00", "end_time_utc": "2026-10-28T04:41:50.513242+00:00", "elapsed_seconds": 92.03065625019372, "rotation": 0, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 30.0, "within_region_scale": false, "cohort_n": 1684, "training_nominal_n": 905, "training_retained_n": 729, "training_pairs": 13480, "query_n": 341, "reference_n": 438, "prediction_rows": 6066, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}
+{"rotation": 1, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/features-corrected", "--rotation", "1", "--output", "analysis/boundaries-corrected/margin-30/r1", "--min-margin", "30"], "start_time_utc": "2026-10-28T04:41:50.625341+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 614, "pairs": 10582, "elapsed_seconds": 14.676639416022226}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 614, "pairs": 10582, "elapsed_seconds": 29.25499429111369}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 614, "pairs": 10582, "elapsed_seconds": 43.688634291058406}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 614, "pairs": 10582, "elapsed_seconds": 58.48571362509392}
+{"stage": "predict", "queries": 100, "total": 438, "elapsed_seconds": 65.46753729111515}
+{"stage": "predict", "queries": 200, "total": 438, "elapsed_seconds": 67.84617120819166}
+{"stage": "predict", "queries": 300, "total": 438, "elapsed_seconds": 70.01369179110043}
+{"stage": "predict", "queries": 400, "total": 438, "elapsed_seconds": 72.4149870001711}
+{"start_time_utc": "2026-10-28T04:41:51.943420+00:00", "end_time_utc": "2026-10-28T04:43:05.323919+00:00", "elapsed_seconds": 73.380314250011, "rotation": 1, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 30.0, "within_region_scale": false, "cohort_n": 1684, "training_nominal_n": 835, "training_retained_n": 614, "training_pairs": 10582, "query_n": 438, "reference_n": 411, "prediction_rows": 7812, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}
+{"rotation": 2, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/features-corrected", "--rotation", "2", "--output", "analysis/boundaries-corrected/margin-30/r2", "--min-margin", "30"], "start_time_utc": "2026-10-28T04:43:05.476806+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 601, "pairs": 10280, "elapsed_seconds": 14.198773916112259}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 601, "pairs": 10280, "elapsed_seconds": 28.35393854090944}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 601, "pairs": 10280, "elapsed_seconds": 42.52171749994159}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 601, "pairs": 10280, "elapsed_seconds": 58.701518333051354}
+{"stage": "predict", "queries": 100, "total": 411, "elapsed_seconds": 65.93368558306247}
+{"stage": "predict", "queries": 200, "total": 411, "elapsed_seconds": 68.30870466609485}
+{"stage": "predict", "queries": 300, "total": 411, "elapsed_seconds": 70.64479883294553}
+{"stage": "predict", "queries": 400, "total": 411, "elapsed_seconds": 73.11945437500253}
+{"start_time_utc": "2026-10-28T04:43:06.826653+00:00", "end_time_utc": "2026-10-28T04:44:18.274272+00:00", "elapsed_seconds": 73.45979412505403, "rotation": 2, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 30.0, "within_region_scale": false, "cohort_n": 1684, "training_nominal_n": 779, "training_retained_n": 601, "training_pairs": 10280, "query_n": 411, "reference_n": 494, "prediction_rows": 7272, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}
+{"rotation": 3, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/features-corrected", "--rotation", "3", "--output", "analysis/boundaries-corrected/margin-30/r3", "--min-margin", "30"], "start_time_utc": "2026-10-28T04:44:18.405981+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 630, "pairs": 11032, "elapsed_seconds": 14.736436708131805}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 630, "pairs": 11032, "elapsed_seconds": 29.580570708028972}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 630, "pairs": 11032, "elapsed_seconds": 44.19281116616912}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 630, "pairs": 11032, "elapsed_seconds": 59.18285754113458}
+{"stage": "predict", "queries": 100, "total": 494, "elapsed_seconds": 66.52213550009765}
+{"stage": "predict", "queries": 200, "total": 494, "elapsed_seconds": 68.9432706660591}
+{"stage": "predict", "queries": 300, "total": 494, "elapsed_seconds": 71.3639233331196}
+{"stage": "predict", "queries": 400, "total": 494, "elapsed_seconds": 73.69613083312288}
+{"start_time_utc": "2026-10-28T04:44:19.784017+00:00", "end_time_utc": "2026-10-28T04:45:35.923397+00:00", "elapsed_seconds": 76.13919137511402, "rotation": 3, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 30.0, "within_region_scale": false, "cohort_n": 1684, "training_nominal_n": 849, "training_retained_n": 630, "training_pairs": 11032, "query_n": 494, "reference_n": 341, "prediction_rows": 8568, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}
+{"task_id": "margin-30-summary", "command": [".venv/bin/python", "code/summarize_matching.py", "--inputs", "analysis/boundaries-corrected/margin-30", "--out", "analysis/boundaries-corrected/margin-30-summary"], "start_time_utc": "2026-10-28T04:45:36.065637+00:00"}
+{"source_predictions": "analysis/boundaries-corrected/margin-30", "queries": 1684, "nonempty_queries": 1651, "empty_queries": 33, "single_all_correct": 84, "single_all_wrong": 16, "unmatchable": 48, "nontrivial_matchable": 1519, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.48096300329690617}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               40.19                36.81
+           aef_cosine               39.41                37.67
+          aef_decoder               33.10                34.85
+         aef_whitened               35.50                36.44
+            geography               45.49                47.36
+    hydro_aef_decoder               30.53                32.52
+        hydro_decoder               43.61                45.89
+      hydro_euclidean               43.73                45.64
+           hydro_pair               45.66                43.31
+hydro_tessera_decoder               45.80                43.80
+         label_oracle                4.86                 0.25
+             pair_aef               45.42                41.72
+            pair_both               47.06                40.37
+         pair_tessera               45.22                39.51
+      tessera_centred               38.17                38.40
+       tessera_cosine               37.36                37.79
+      tessera_decoder               42.13                39.39
+     tessera_whitened               37.04                38.40

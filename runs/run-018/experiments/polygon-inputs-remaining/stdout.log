@@ -1,0 +1,109 @@
+{"task_id": "tessera-R04", "command": [".venv/bin/python", "code/collect_polygon.py", "tessera", "R04"], "start_time_utc": "2026-10-27T18:48:34.841684+00:00"}
+{"region": "R04", "product": "tessera", "points_done": 4096, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 8192, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 12288, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 16384, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 20480, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 24576, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 28672, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 32768, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 36864, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 40960, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 45056, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 49152, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 53248, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 57344, "total": 60864}
+{"region": "R04", "product": "tessera", "points_done": 60864, "total": 60864}
+{"url": "https://data.source.coop/tessera/tessera/zarr/v1.1-dclimate/utm17", "time_index": 7, "decode": "int8 * float32 scale; NaN scale missing", "checkpoint": "tessera_v1_1_aws_encoder.pt", "primary_metadata_exactly_equal": true, "region": "R04", "product": "tessera", "year": 2024, "saved_at_utc": "2026-10-27T18:49:42.026768+00:00", "path": "data/polygon/R04/tessera-2024.npz", "sha256": "dbe34be95957b8c349db4582fcfa71a5901f506c8007cc7cf7879c487f1c4dba", "raw_sha256": "bb0cee63242de530f89838a5bbecaacd08bfac0b7d5e07512f9abbc9a300e192", "points_sha256": "49f4de1e2fa6e355f82a8795d20e77ad2ff40f9c7813ebe3940f723fecf16120"}
+{"task_id": "tessera-R05", "command": [".venv/bin/python", "code/collect_polygon.py", "tessera", "R05"], "start_time_utc": "2026-10-27T18:49:42.084462+00:00"}
+{"region": "R05", "product": "tessera", "points_done": 4096, "total": 25897}
+{"region": "R05", "product": "tessera", "points_done": 8192, "total": 25897}
+{"region": "R05", "product": "tessera", "points_done": 12288, "total": 25897}
+{"region": "R05", "product": "tessera", "points_done": 16384, "total": 25897}
+{"region": "R05", "product": "tessera", "points_done": 20480, "total": 25897}
+{"region": "R05", "product": "tessera", "points_done": 24576, "total": 25897}
+{"region": "R05", "product": "tessera", "points_done": 25897, "total": 25897}
+{"url": "https://data.source.coop/tessera/tessera/zarr/v1.1-dclimate/utm18", "time_index": 7, "decode": "int8 * float32 scale; NaN scale missing", "checkpoint": "tessera_v1_1_aws_encoder.pt", "primary_metadata_exactly_equal": true, "region": "R05", "product": "tessera", "year": 2024, "saved_at_utc": "2026-10-27T18:50:06.733355+00:00", "path": "data/polygon/R05/tessera-2024.npz", "sha256": "99f4f159340193fa95d3297eaa8ef72f9caa81d2ca3e98eea13c86d6fbfed6e0", "raw_sha256": "582e36f38680e50b4b24c4b3e034507f6977396547bf20c5462061c326fa7f5b", "points_sha256": "37041868401e77b23d3ea23b08681e61251e2bff82b22ef35af23347e384aa61"}
+{"task_id": "tessera-R06", "command": [".venv/bin/python", "code/collect_polygon.py", "tessera", "R06"], "start_time_utc": "2026-10-27T18:50:06.784811+00:00"}
+{"region": "R06", "product": "tessera", "points_done": 4096, "total": 40434}
+{"region": "R06", "product": "tessera", "points_done": 8192, "total": 40434}
+{"region": "R06", "product": "tessera", "points_done": 12288, "total": 40434}
+{"region": "R06", "product": "tessera", "points_done": 16384, "total": 40434}
+{"region": "R06", "product": "tessera", "points_done": 20480, "total": 40434}
+{"region": "R06", "product": "tessera", "points_done": 24576, "total": 40434}
+{"region": "R06", "product": "tessera", "points_done": 28672, "total": 40434}
+{"region": "R06", "product": "tessera", "points_done": 32768, "total": 40434}
+{"region": "R06", "product": "tessera", "points_done": 36864, "total": 40434}
+{"region": "R06", "product": "tessera", "points_done": 40434, "total": 40434}
+{"url": "https://data.source.coop/tessera/tessera/zarr/v1.1-dclimate/utm15", "time_index": 7, "decode": "int8 * float32 scale; NaN scale missing", "checkpoint": "tessera_v1_1_aws_encoder.pt", "primary_metadata_exactly_equal": true, "region": "R06", "product": "tessera", "year": 2024, "saved_at_utc": "2026-10-27T18:50:47.612259+00:00", "path": "data/polygon/R06/tessera-2024.npz", "sha256": "d92d91b103455cb4612f9160293aa0d794becafe3f03f27a94f35173309365cf", "raw_sha256": "2bec8fec598d741d65d1d684c9fad47b8b17a3234d1ffaa7b18cd9b02dbe665a", "points_sha256": "5b4756cea31ebe50b58c217c46ecdbae7c6170fe401a7a2546f0a38bfd715d6d"}
+{"task_id": "tessera-R07", "command": [".venv/bin/python", "code/collect_polygon.py", "tessera", "R07"], "start_time_utc": "2026-10-27T18:50:47.664967+00:00"}
+{"region": "R07", "product": "tessera", "points_done": 2941, "total": 2941}
+{"url": "https://data.source.coop/tessera/tessera/zarr/v1.1-dclimate/utm18", "time_index": 7, "decode": "int8 * float32 scale; NaN scale missing", "checkpoint": "tessera_v1_1_aws_encoder.pt", "primary_metadata_exactly_equal": true, "region": "R07", "product": "tessera", "year": 2024, "saved_at_utc": "2026-10-27T18:50:53.200867+00:00", "path": "data/polygon/R07/tessera-2024.npz", "sha256": "06bb78af9d50f8819e7d5370f44fa13bec015ffb75e94d066c350598934b11f5", "raw_sha256": "b634a7ebb334c064704e0e59b43a498b4711500c79237b4d8fb10a5d1d6f303e", "points_sha256": "63eee09d33dae506ac23f164c9e41aa6f2e6279a734322461c004e9e4519afa6"}
+{"task_id": "tessera-R08", "command": [".venv/bin/python", "code/collect_polygon.py", "tessera", "R08"], "start_time_utc": "2026-10-27T18:50:53.245298+00:00"}
+{"region": "R08", "product": "tessera", "points_done": 4096, "total": 4721}
+{"region": "R08", "product": "tessera", "points_done": 4721, "total": 4721}
+{"url": "https://data.source.coop/tessera/tessera/zarr/v1.1-dclimate/utm10", "time_index": 7, "decode": "int8 * float32 scale; NaN scale missing", "checkpoint": "tessera_v1_1_aws_encoder.pt", "primary_metadata_exactly_equal": true, "region": "R08", "product": "tessera", "year": 2024, "saved_at_utc": "2026-10-27T18:51:03.293182+00:00", "path": "data/polygon/R08/tessera-2024.npz", "sha256": "281d7ad217dc57617d2c6f919b05557845316dea5e6127931d5133ed4c1a6ff3", "raw_sha256": "518fac4469ed67b070e04441f1e694c7149a1eecc441d177ffeb5337f035af54", "points_sha256": "90ae05aa8356f221097684e0f87ec926aadefa9a0ce2fba01fce0d81dc814d21"}
+{"task_id": "tessera-R09", "command": [".venv/bin/python", "code/collect_polygon.py", "tessera", "R09"], "start_time_utc": "2026-10-27T18:51:03.339509+00:00"}
+{"region": "R09", "product": "tessera", "points_done": 4096, "total": 21869}
+{"region": "R09", "product": "tessera", "points_done": 8192, "total": 21869}
+{"region": "R09", "product": "tessera", "points_done": 12288, "total": 21869}
+{"region": "R09", "product": "tessera", "points_done": 16384, "total": 21869}
+{"region": "R09", "product": "tessera", "points_done": 20480, "total": 21869}
+{"region": "R09", "product": "tessera", "points_done": 21869, "total": 21869}
+{"url": "https://data.source.coop/tessera/tessera/zarr/v1.1-dclimate/utm15", "time_index": 7, "decode": "int8 * float32 scale; NaN scale missing", "checkpoint": "tessera_v1_1_aws_encoder.pt", "primary_metadata_exactly_equal": true, "region": "R09", "product": "tessera", "year": 2024, "saved_at_utc": "2026-10-27T18:51:29.271892+00:00", "path": "data/polygon/R09/tessera-2024.npz", "sha256": "ab82bdf2eff5820c1e10f780f069ace801827f5b57266c946dcb8a8cfe5c74c8", "raw_sha256": "4403116cc7dfbb97b9168c4a4af0480bfb65dcc990a696d4af498f05098a64e4", "points_sha256": "7b4c9d3e5778416a98b5a9e6ddc3372449bffeaed396aec3c82773d622f1cde0"}
+{"task_id": "tessera-R10", "command": [".venv/bin/python", "code/collect_polygon.py", "tessera", "R10"], "start_time_utc": "2026-10-27T18:51:29.322888+00:00"}
+{"region": "R10", "product": "tessera", "points_done": 4096, "total": 42444}
+{"region": "R10", "product": "tessera", "points_done": 8192, "total": 42444}
+{"region": "R10", "product": "tessera", "points_done": 12288, "total": 42444}
+{"region": "R10", "product": "tessera", "points_done": 16384, "total": 42444}
+{"region": "R10", "product": "tessera", "points_done": 20480, "total": 42444}
+{"region": "R10", "product": "tessera", "points_done": 24576, "total": 42444}
+{"region": "R10", "product": "tessera", "points_done": 28672, "total": 42444}
+{"region": "R10", "product": "tessera", "points_done": 32768, "total": 42444}
+{"region": "R10", "product": "tessera", "points_done": 36864, "total": 42444}
+{"region": "R10", "product": "tessera", "points_done": 40960, "total": 42444}
+{"region": "R10", "product": "tessera", "points_done": 42444, "total": 42444}
+{"url": "https://data.source.coop/tessera/tessera/zarr/v1.1-dclimate/utm17", "time_index": 7, "decode": "int8 * float32 scale; NaN scale missing", "checkpoint": "tessera_v1_1_aws_encoder.pt", "primary_metadata_exactly_equal": true, "region": "R10", "product": "tessera", "year": 2024, "saved_at_utc": "2026-10-27T18:52:18.491664+00:00", "path": "data/polygon/R10/tessera-2024.npz", "sha256": "4e0ffafdadd54549f1b1eef0cddb4f6ac28fc3b4672e92078b03358fb8801fb4", "raw_sha256": "a69d24bd33bf4bc1284b0135a8deb1954abd227b7c47e2fadb0eabfeb047c552", "points_sha256": "1feeb80f1f628e752928fe6c3563b68505ce94bae46e92e9a19eae58b4b4f0ff"}
+{"task_id": "tessera-R11", "command": [".venv/bin/python", "code/collect_polygon.py", "tessera", "R11"], "start_time_utc": "2026-10-27T18:52:18.545930+00:00"}
+{"region": "R11", "product": "tessera", "points_done": 4096, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 8192, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 12288, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 16384, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 20480, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 24576, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 28672, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 32768, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 36864, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 40960, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 45056, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 49152, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 53248, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 57344, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 61440, "total": 63794}
+{"region": "R11", "product": "tessera", "points_done": 63794, "total": 63794}
+{"url": "https://data.source.coop/tessera/tessera/zarr/v1.1-dclimate/utm15", "time_index": 7, "decode": "int8 * float32 scale; NaN scale missing", "checkpoint": "tessera_v1_1_aws_encoder.pt", "primary_metadata_exactly_equal": true, "region": "R11", "product": "tessera", "year": 2024, "saved_at_utc": "2026-10-27T18:53:34.552430+00:00", "path": "data/polygon/R11/tessera-2024.npz", "sha256": "8069875b92acc02cefab54cb81a96078c6151b3d07506bba997a7bf584155828", "raw_sha256": "9ef989ace487a14b3bdacf91ecee008499360d27166a9e667982584b41982c95", "points_sha256": "140e5b2bbe65db7788c1aa210704d19f7a64b0b806baad162d0aac423f9c286e"}
+{"task_id": "tessera-R12", "command": [".venv/bin/python", "code/collect_polygon.py", "tessera", "R12"], "start_time_utc": "2026-10-27T18:53:34.607347+00:00"}
+{"region": "R12", "product": "tessera", "points_done": 4096, "total": 8138}
+{"region": "R12", "product": "tessera", "points_done": 8138, "total": 8138}
+{"url": "https://data.source.coop/tessera/tessera/zarr/v1.1-dclimate/utm10", "time_index": 7, "decode": "int8 * float32 scale; NaN scale missing", "checkpoint": "tessera_v1_1_aws_encoder.pt", "primary_metadata_exactly_equal": true, "region": "R12", "product": "tessera", "year": 2024, "saved_at_utc": "2026-10-27T18:53:47.677917+00:00", "path": "data/polygon/R12/tessera-2024.npz", "sha256": "30c5dc52b19dbbd846e78bf18c462ace0f658ffcc87f1a4a6592154fa894f961", "raw_sha256": "927b3bca17c065280ebf24576dd903014f53b678f746bb6bae666090b322f3ff", "points_sha256": "c8e0b2e3be8b75378d9d690e83be7b35c5cdb4a4b9f1baf7cb12a68c00dc0d6f"}
+{"task_id": "aef-R07", "command": [".venv/bin/python", "code/collect_polygon.py", "aef", "R07"], "start_time_utc": "2026-10-27T18:53:47.725811+00:00"}
+{"source_id": "R07-polygon-aef-vrt-0", "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/18N/xos08tua102qt1yr2-0000008192-0000000000.vrt", "requested_at_utc": "2026-10-27T18:53:51.823253+00:00", "obtained_at_utc": "2026-10-27T18:53:52.956025+00:00", "path": "data/polygon/R07/aef-0-source.vrt", "licence": "AEF CC BY4.0", "licence_checked_at_utc": null, "range_checked": "Downloaded, relevant passages not yet inspected", "exit_code": 0, "error": null, "sha256": "5f585fcfea0cbe5f7a116f38856f26fd38aa13e4a50a899aa38e7dc88f8fa4cc", "bytes": 27474, "bundled": true}
+{"unassigned": 0, "decode": "sign(q)*(q/127.5)^2; -128 missing", "region": "R07", "product": "aef", "year": 2024, "saved_at_utc": "2026-10-27T18:55:30.710558+00:00", "path": "data/polygon/R07/aef-2024.npz", "sha256": "d0c00238eae05484161586ba90286bfcb030916b6a77c39bbbca7dbb75b439a0", "raw_sha256": "9bfca2a39e77c4253166ca63e90b541b5565e3dc770fcde6c6ef27dc384f279f", "points_sha256": "63eee09d33dae506ac23f164c9e41aa6f2e6279a734322461c004e9e4519afa6"}
+{"task_id": "aef-R08", "command": [".venv/bin/python", "code/collect_polygon.py", "aef", "R08"], "start_time_utc": "2026-10-27T18:55:30.739842+00:00"}
+{"source_id": "R08-polygon-aef-vrt-0", "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/10N/xcyo46pot2fg6a61t-0000008192-0000008192.vrt", "requested_at_utc": "2026-10-27T18:55:34.871759+00:00", "obtained_at_utc": "2026-10-27T18:55:35.484095+00:00", "path": "data/polygon/R08/aef-0-source.vrt", "licence": "AEF CC BY4.0", "licence_checked_at_utc": null, "range_checked": "Downloaded, relevant passages not yet inspected", "exit_code": 0, "error": null, "sha256": "d10334c94f3285fcbcc4961718c16db3bb8d56b595b44e1fa9e7b5591598a334", "bytes": 27475, "bundled": true}
+{"unassigned": 0, "decode": "sign(q)*(q/127.5)^2; -128 missing", "region": "R08", "product": "aef", "year": 2024, "saved_at_utc": "2026-10-27T18:57:35.384962+00:00", "path": "data/polygon/R08/aef-2024.npz", "sha256": "0605132762206aa3ccba7079928528df912bb8eb438f8d481bc6aacbfa1fee82", "raw_sha256": "9f3398a1360e0f1229db54a4da79c2e6bfd4a453d8a3ac7e6b090486f1f8d45f", "points_sha256": "90ae05aa8356f221097684e0f87ec926aadefa9a0ce2fba01fce0d81dc814d21"}
+{"task_id": "aef-R09", "command": [".venv/bin/python", "code/collect_polygon.py", "aef", "R09"], "start_time_utc": "2026-10-27T18:57:35.415410+00:00"}
+{"source_id": "R09-polygon-aef-vrt-0", "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/15N/xhqkb9e76z5mtmwud-0000000000-0000000000.vrt", "requested_at_utc": "2026-10-27T18:57:39.550681+00:00", "obtained_at_utc": "2026-10-27T18:57:40.222207+00:00", "path": "data/polygon/R09/aef-0-source.vrt", "licence": "AEF CC BY4.0", "licence_checked_at_utc": null, "range_checked": "Downloaded, relevant passages not yet inspected", "exit_code": 0, "error": null, "sha256": "d1b7879b47362546ca91f94c118af03ba9a340c7f04108d720a71327386a038b", "bytes": 27474, "bundled": true}
+{"source_id": "R09-polygon-aef-vrt-1", "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/15N/xhqkb9e76z5mtmwud-0000000000-0000008192.vrt", "requested_at_utc": "2026-10-27T18:59:19.825235+00:00", "obtained_at_utc": "2026-10-27T18:59:20.542344+00:00", "path": "data/polygon/R09/aef-1-source.vrt", "licence": "AEF CC BY4.0", "licence_checked_at_utc": null, "range_checked": "Downloaded, relevant passages not yet inspected", "exit_code": 0, "error": null, "sha256": "b51e677e6d96417c80259bdd1eabdb7d731593736e69fe02e523673eba3633dd", "bytes": 27474, "bundled": true}
+{"unassigned": 0, "decode": "sign(q)*(q/127.5)^2; -128 missing", "region": "R09", "product": "aef", "year": 2024, "saved_at_utc": "2026-10-27T19:00:00.696732+00:00", "path": "data/polygon/R09/aef-2024.npz", "sha256": "64f89b00d2206401cdf69536d1a5f2df48edfead5857af87d9fe4e087310bb9e", "raw_sha256": "61759f3032d6c8d70d0b158860b40370ed5f7eb85bbcf7698df6f78ec909810b", "points_sha256": "7b4c9d3e5778416a98b5a9e6ddc3372449bffeaed396aec3c82773d622f1cde0"}
+{"task_id": "aef-R10", "command": [".venv/bin/python", "code/collect_polygon.py", "aef", "R10"], "start_time_utc": "2026-10-27T19:00:00.727221+00:00"}
+{"source_id": "R10-polygon-aef-vrt-0", "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/17N/x2xu517vdkt3n6cen-0000000000-0000000000.vrt", "requested_at_utc": "2026-10-27T19:00:04.860145+00:00", "obtained_at_utc": "2026-10-27T19:00:05.598296+00:00", "path": "data/polygon/R10/aef-0-source.vrt", "licence": "AEF CC BY4.0", "licence_checked_at_utc": null, "range_checked": "Downloaded, relevant passages not yet inspected", "exit_code": 0, "error": null, "sha256": "1ded9a42e436089143d7c9a88aa11596aea6ab93febbdbcb9dd6d0c491438741", "bytes": 27474, "bundled": true}
+{"unassigned": 0, "decode": "sign(q)*(q/127.5)^2; -128 missing", "region": "R10", "product": "aef", "year": 2024, "saved_at_utc": "2026-10-27T19:03:08.168117+00:00", "path": "data/polygon/R10/aef-2024.npz", "sha256": "95eddef60615810b82ef854df5949be3144e34a7cb26c64e9d57b10dddd1d83a", "raw_sha256": "d87836886b32a7e996bc50ef61e29f4d1f8eda19732cc892803c105648d7efb5", "points_sha256": "1feeb80f1f628e752928fe6c3563b68505ce94bae46e92e9a19eae58b4b4f0ff"}
+{"task_id": "aef-R11", "command": [".venv/bin/python", "code/collect_polygon.py", "aef", "R11"], "start_time_utc": "2026-10-27T19:03:08.202742+00:00"}
+{"source_id": "R11-polygon-aef-vrt-0", "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/15N/xcxust88aiuewi7iy-0000000000-0000008192.vrt", "requested_at_utc": "2026-10-27T19:03:12.272145+00:00", "obtained_at_utc": "2026-10-27T19:03:12.888338+00:00", "path": "data/polygon/R11/aef-0-source.vrt", "licence": "AEF CC BY4.0", "licence_checked_at_utc": null, "range_checked": "Downloaded, relevant passages not yet inspected", "exit_code": 0, "error": null, "sha256": "032fdb83be43d1e7755d55d89412a4cf61eb06d31d28341d46bd46ed53ec917d", "bytes": 27474, "bundled": true}
+{"source_id": "R11-polygon-aef-vrt-1", "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/15N/xbarlzs4ub3ch7myr-0000000000-0000000000.vrt", "requested_at_utc": "2026-10-27T19:04:16.572527+00:00", "obtained_at_utc": "2026-10-27T19:04:17.299243+00:00", "path": "data/polygon/R11/aef-1-source.vrt", "licence": "AEF CC BY4.0", "licence_checked_at_utc": null, "range_checked": "Downloaded, relevant passages not yet inspected", "exit_code": 0, "error": null, "sha256": "1747fb550665e106b05841aa18d01b9b51f03d141a024fea784423886f04278d", "bytes": 27474, "bundled": true}
+{"unassigned": 0, "decode": "sign(q)*(q/127.5)^2; -128 missing", "region": "R11", "product": "aef", "year": 2024, "saved_at_utc": "2026-10-27T19:05:13.233107+00:00", "path": "data/polygon/R11/aef-2024.npz", "sha256": "c420d64c3da0fa3b1371933db867cc611d685be43176366a17a1bd0ca31e5488", "raw_sha256": "cfa418fb4a168239112aa99670139ecceb15187644f6122d84e62a0c75d328bd", "points_sha256": "140e5b2bbe65db7788c1aa210704d19f7a64b0b806baad162d0aac423f9c286e"}
+{"task_id": "aef-R12", "command": [".venv/bin/python", "code/collect_polygon.py", "aef", "R12"], "start_time_utc": "2026-10-27T19:05:13.267855+00:00"}
+{"source_id": "R12-polygon-aef-vrt-0", "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/10N/x086q72fv2f9q1x4a-0000000000-0000008192.vrt", "requested_at_utc": "2026-10-27T19:05:17.402141+00:00", "obtained_at_utc": "2026-10-27T19:05:18.109181+00:00", "path": "data/polygon/R12/aef-0-source.vrt", "licence": "AEF CC BY4.0", "licence_checked_at_utc": null, "range_checked": "Downloaded, relevant passages not yet inspected", "exit_code": 0, "error": null, "sha256": "a54f5f41d218fc5fe757890202bedc37bf339d08b6338f0410043adb4b742576", "bytes": 27475, "bundled": true}
+{"source_id": "R12-polygon-aef-vrt-1", "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/10N/xkojkqt084cyse5di-0000000000-0000000000.vrt", "requested_at_utc": "2026-10-27T19:06:36.964136+00:00", "obtained_at_utc": "2026-10-27T19:06:37.686622+00:00", "path": "data/polygon/R12/aef-1-source.vrt", "licence": "AEF CC BY4.0", "licence_checked_at_utc": null, "range_checked": "Downloaded, relevant passages not yet inspected", "exit_code": 0, "error": null, "sha256": "c53d6f48ba9a2a3ba97195d8e07f1c87a8c646a4b05f46778913b663c3ab6405", "bytes": 27475, "bundled": true}
+{"unassigned": 0, "decode": "sign(q)*(q/127.5)^2; -128 missing", "region": "R12", "product": "aef", "year": 2024, "saved_at_utc": "2026-10-27T19:07:49.488952+00:00", "path": "data/polygon/R12/aef-2024.npz", "sha256": "0f61db002a7fce9cc749d4e47d15fe0b76f9229e354ca9725361981c6349a20b", "raw_sha256": "d12b625401810e7d3ed14dc86c1002a77fcd557f66811fd8328251d9c61b29a7", "points_sha256": "c8e0b2e3be8b75378d9d690e83be7b35c5cdb4a4b9f1baf7cb12a68c00dc0d6f"}

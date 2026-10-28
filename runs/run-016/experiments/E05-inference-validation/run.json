@@ -1,0 +1,23 @@
+{
+  "experiment_id": "E05-inference-validation",
+  "start_time_utc": "2026-10-26T16:55:25.263322Z",
+  "end_time_utc": "2026-10-26T16:55:25.398028Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/validate_inference.py"
+  ],
+  "timeout_seconds": 600,
+  "plan_path": "protocol/plan-v2.md",
+  "plan_commit_id": "d225d51c95ddd88cc0e9b5d66634057431f0ae9c",
+  "plan_sha256": "1f34b097d01ea04e138c0fab643dd114a11aee0c16e6d89d1cca3aa948c74dde",
+  "code_commit_id": "d225d51c95ddd88cc0e9b5d66634057431f0ae9c",
+  "inputs": [],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E05-inference-validation/stdout.txt",
+  "stderr_path": "experiments/E05-inference-validation/stderr.txt",
+  "start_event_id": "E0094",
+  "pid": 94504,
+  "elapsed_seconds": 0.13460962497629225,
+  "end_event_id": "E0095"
+}

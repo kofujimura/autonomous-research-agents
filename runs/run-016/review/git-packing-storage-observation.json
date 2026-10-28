@@ -1,0 +1,13 @@
+{
+  "observed_at_utc": "2026-10-26T23:15:05.970309Z",
+  "observed_packs": [
+    {
+      "name": "pack-e4ab8fdd3d38416ca9f21716a91e9428f3ae4942.pack",
+      "bytes": 2766107878,
+      "filesystem_mtime_utc": "2026-10-26T22:49:40.136055+00:00"
+    }
+  ],
+  "current_unique_inode_bytes": 9237624737,
+  "temporary_high_water_bytes": null,
+  "interpretation": "Git automatic packing occurred between storage checkpoints. The temporary coexistence of loose and packed objects was not measured; a transient ceiling breach is possible and cannot be ruled out. Current observed storage is below the limit. No claim of continuous storage compliance is made."
+}

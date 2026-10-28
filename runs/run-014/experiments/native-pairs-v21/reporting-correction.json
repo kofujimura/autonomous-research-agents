@@ -1,0 +1,13 @@
+{
+  "kind": "reporting_only",
+  "scientific_csv_hashes_unchanged": true,
+  "csv_sha256": {
+    "summary.csv": "598e094c49b9594d8eaf141c41a3325395bd1f6ae1cb302618e5c5826c7494c2",
+    "thresholds.csv": "e766bf3cd7e2148545da06097a81b395a073850be5c145184042b8d6dfad14b6",
+    "availability.csv": "836236fad3fa793ff4afd0b293943f032a627b33f4349c004c6c5b4bc6c31d27",
+    "comparisons.csv": "0dfc51378b44d9d76f4ebdc15c96259664351fb1adf571eb18fc5393729f6bb7",
+    "threshold-equality.csv": "00007493c2092e846fdd1c8902214842c9d261aa46d9ce74e3098f31ef4f1767"
+  },
+  "old_checks": "experiments/native-pairs-v21/checks-before-status-clarification.json",
+  "new_checks": "analysis/native-pairs-v21/checks.json"
+}

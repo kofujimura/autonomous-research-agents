@@ -1,0 +1,264 @@
+{
+  "status": "checks_passed",
+  "created_at_utc": "2026-10-26T06:33:10Z",
+  "exploratory": true,
+  "date": "20260709",
+  "model": "aifs-ens",
+  "lead": 84,
+  "new_raw_source": "data/weather-v4/20260709/aifs-ens/84/temperatures.npz",
+  "new_raw_sha256": "29cb1fb1d928e3ed46c84ae0460dc2038837f3e0e9f5f3c68661f29c174d8a26",
+  "derived_sha256": "cda0e0f0b39eb88d71cb5ab6581ded616c97c37a9a2d99a11f01f7d0862684ff",
+  "old_attempt_ledger_sha256": "04fcc8a4c1c1703ec0202259f4994a0533c321350882fb25b41ce3c758876cd1",
+  "index_sha256": "ac81f0c4f969828c811a08c0733ba395195df75cae1da842e8c6d28fe133b5d3",
+  "original_members_compared": 41,
+  "member_checks": [
+    {
+      "member": 1,
+      "original_vector_sha256": "6e834882838b0ccb58d0e98049d490cb155c503ae41a9545eb241d999ef40c09",
+      "new_vector_sha256": "07ed5a93652cb7e61b9b938150705b2b0c57e688d6d5d91c409518605d988334",
+      "matching_global_field_sha256": "a5e8dca6b1898972f2ad2a60594436ee2187d52de6de394913dcda58af0db073"
+    },
+    {
+      "member": 2,
+      "original_vector_sha256": "a10f6c9c767993e414db3816d45801c912cc0688cdcefe68456c3fa5a244c613",
+      "new_vector_sha256": "c3d1215786552a5e6ee87bc85382c33fa2d9652194e48f2d8ab12624c381493b",
+      "matching_global_field_sha256": "fef9030a2584ee179f1a554d2251e83fed46be078b8326766587c5d8c7e551c6"
+    },
+    {
+      "member": 3,
+      "original_vector_sha256": "1d869f05f6726dce323d19fe20d4090403474b672f85715e10e0a0eba8c98121",
+      "new_vector_sha256": "aec5c34ad0f7d010fcbc014ac4b347c79e1abd109e380c96960208f84cb33dfa",
+      "matching_global_field_sha256": "7dc8e4d71191cf66dc2fbd492b2770edba488a0fa93fd8a14b617cd48ad5740a"
+    },
+    {
+      "member": 4,
+      "original_vector_sha256": "23fb155e01ab9bf6e8188bd8eb344b47faccc8fa7c4cf3fcbe4fc3b90ffe4f80",
+      "new_vector_sha256": "6e0417a7f740ccaedcc645190943058f307b9b2ad8e243aed3cd27447343dc4f",
+      "matching_global_field_sha256": "169d312bede0831f80512f6fb4257c84f88569e112435786d16a08ac8e31c502"
+    },
+    {
+      "member": 5,
+      "original_vector_sha256": "58de32fee87df876791aba194af357a42b7bfce2e968208235a3cfef746dbbd9",
+      "new_vector_sha256": "1c5b4d3f8543483b80bd5a2d182dccb4887212f4981865816a0a5582a5c26fa5",
+      "matching_global_field_sha256": "357778b1d3849d64b82bec5d6d81f76f0c584e22dd567fd2d2db181078c4436f"
+    },
+    {
+      "member": 6,
+      "original_vector_sha256": "f456a06dc2110997f55d828ee63abbfc8b95caf34e292f6c85abe5ea131ddc63",
+      "new_vector_sha256": "65e3e5dfc5a6883cad2d0a9dbed9a599a18fc74298eb33b0c18acdf3e7bb164c",
+      "matching_global_field_sha256": "db60f64dd9b32033f8dc5874e37787dabe2b3b1dbffeb96587b7e9a530d4ee65"
+    },
+    {
+      "member": 7,
+      "original_vector_sha256": "d938f2407225dddad958ea47ce92bde92185d9d990dbc7f1af16795c39323950",
+      "new_vector_sha256": "fcbe7b2df76f7ff9642015ed74f6abeca4fe8a5ba57d768bf0eb710fcc5b3a10",
+      "matching_global_field_sha256": "25a20dc5b450a45675a1a8bb9b762bbc1df963ee39b4af7c9b0cfc9ab0ca3596"
+    },
+    {
+      "member": 8,
+      "original_vector_sha256": "82b6ed9e3e6fad8866ede900f5459f4cd7134ee7fa11dcc6dcdf2246a04c2bb3",
+      "new_vector_sha256": "da9dc46b9b7a3ad0fbbd00b61079707760e09d15891b65e74eddfb9fb7c5c8f3",
+      "matching_global_field_sha256": "dd417cc71f7f16c0d1db497879f9788d2c6fc9ad56921b35ee178ed9a9f00b62"
+    },
+    {
+      "member": 9,
+      "original_vector_sha256": "da1a01a53cf4b8494980a74d30faa5aea2c46182ad7a1485d85e52cc374dfdb5",
+      "new_vector_sha256": "a3aeb60fafe29ffde261ba14482903a7cd4785eb2486f487afa3aadba84d960e",
+      "matching_global_field_sha256": "56623e5e6611db7c6708216f295d1804bbac09fc0770f29305be36fea12d2ab9"
+    },
+    {
+      "member": 10,
+      "original_vector_sha256": "f2fdd54f6e278f25eb6608febd3687870ad61707b835568350889c4d61ee065b",
+      "new_vector_sha256": "2bcd638bff957d81cdc7272be2962a0019313c5bb4d0efb59d91ea148b5ac59a",
+      "matching_global_field_sha256": "a85ac7f5d3021e6671f3f4a81b5460919dc6b5126999619310b79aca2292679d"
+    },
+    {
+      "member": 11,
+      "original_vector_sha256": "51fee882686c2c74d687d78737fc18a3562afaca683b6efc582b79879be61a03",
+      "new_vector_sha256": "f2a6c8f85071b1d79804f50d8af5e4de5c1528c77c63fc37d627516cfa5f32fa",
+      "matching_global_field_sha256": "c0f64dc42b8114fc5c11749b3333e9c7e4ed82d8a6aa82d269212899d889051f"
+    },
+    {
+      "member": 12,
+      "original_vector_sha256": "7c32eed641d1f89779070cb463683bd5d2ba0a606f4b73dbdea0f002654a0e22",
+      "new_vector_sha256": "5d931e6f505a19d0ece321e63c75edc6c411427ce021aa6fe29256d83c2d39f3",
+      "matching_global_field_sha256": "5e517e3318d4ac5f6289f4afcc764b4092aa4f87cb649aa296e880ae52876b76"
+    },
+    {
+      "member": 13,
+      "original_vector_sha256": "63623e7ea657dfdf56bda359f09bd30aea0702ac59f0e4e39a664cbb351cf791",
+      "new_vector_sha256": "be5ae74b8c3abe990de08f2a2b089680d7213cac57935fb7db9cd60fd0a4d41a",
+      "matching_global_field_sha256": "fbad0cdabc5f4d9c529d0ca30f0a0023d575b14e4bb4f9b82e30840773d1b191"
+    },
+    {
+      "member": 14,
+      "original_vector_sha256": "5dde99ae85b602059ccf7ec67aad2972f9722357c54a8bcf97e12f9e93513298",
+      "new_vector_sha256": "39fe6bc4a65f9333e28f04b527e26dbfd34bc13d8a67e9c8507d41a85da77d93",
+      "matching_global_field_sha256": "a87b76da5c6682f97398151bb659e3fd8d47c508ee98a73dcfe31a5a91ef93b5"
+    },
+    {
+      "member": 15,
+      "original_vector_sha256": "fb68f052b17555fff8eebc58f7b09b2cbd36af42a04496e95dbb35c9af72d8ab",
+      "new_vector_sha256": "86ba9e5a8eb27b5b4f5c58672e5df6badf5a042bf83f700538b5251a76bc6100",
+      "matching_global_field_sha256": "50d6ac94477c9fe7433a8168076989a5915d4a9d29cca4cf128107968e0c419c"
+    },
+    {
+      "member": 16,
+      "original_vector_sha256": "37ac3080019fdb87fe93d92c03277083031dc7ca4ed22e7717097934c9e56276",
+      "new_vector_sha256": "5bafd848e80e652be9cef069994a827e576d5e9ddc3486bc11e1b8969e612156",
+      "matching_global_field_sha256": "d8a1bfd0c0d928bb03fbceb8412bdfc26567a19daaa119b02ec61096dd8f2dbd"
+    },
+    {
+      "member": 17,
+      "original_vector_sha256": "ea22c90e3a86062fafffca10e7e8381a40397ebfe3d4f86aff3fd7a23f06314d",
+      "new_vector_sha256": "df99a5724773dad1da14229d8ace27a1f648a0835bee661b1d5b9aa23ba6c038",
+      "matching_global_field_sha256": "3fc1db63fee82774591173a0dd9fa0f8df2441e655625a49ff3ecc8eb78ba82e"
+    },
+    {
+      "member": 18,
+      "original_vector_sha256": "9c0e1bfc8c09dedb86de1dd6ac1466f3ff0949c37c0ed92fb11cb40cb5deba3d",
+      "new_vector_sha256": "59c13216ab28a9ba61e128f09eb1800fc014b9ce48a739e34f6d109d55b7db7f",
+      "matching_global_field_sha256": "3834137d528d6785f456d9329fc00a9e3567c60aac7ee2a31542587815dd927f"
+    },
+    {
+      "member": 19,
+      "original_vector_sha256": "3f61e26ea85f55541124284b085ac292c669875baaaa27a16ff01d33259e1bf5",
+      "new_vector_sha256": "aec27227bf325008ece1034cfb554b737b8c0d24e216ab4620b1b7dccd44b33c",
+      "matching_global_field_sha256": "e9449df5977064b9156c385012cae6b002ab50eac10166d358e8b0cb2b358ba6"
+    },
+    {
+      "member": 20,
+      "original_vector_sha256": "f4148dac6dcc6158c6e8c0561f3692932f270890f917a0c95b68ffd9d366b954",
+      "new_vector_sha256": "7b0af0569084075533478961536eff3bc876a5cf719eec547155e937fd86c110",
+      "matching_global_field_sha256": "3c6501988ebc8784deedd69f8d66c708edb494276cdbfa8963aa37585f85b4c6"
+    },
+    {
+      "member": 21,
+      "original_vector_sha256": "16f581472d809de135190beb0eddd23d541aa6d4e1e89cf274f6f1485cc80a5c",
+      "new_vector_sha256": "63324074affdd0ebb0b980e9a255a561d4f2945774fd5bc2faa9fb8224867797",
+      "matching_global_field_sha256": "d90e548442668b913da84a5f5ef8ab8ed4c99479b57d40dc5a6c588138d2f2e7"
+    },
+    {
+      "member": 22,
+      "original_vector_sha256": "0c2dcd1e353f760e5b6f83aa825bdd174d6eaad7cd6426d38c0c5b514a46087e",
+      "new_vector_sha256": "4138c4b2dee4239a3e89d6094e2b6f254b3365dd2f78102d413e7150767f4470",
+      "matching_global_field_sha256": "37fa740f6b410ab7a104d8b945372926962351a3c6ef1eca96e0527380fda116"
+    },
+    {
+      "member": 23,
+      "original_vector_sha256": "8fe95bd42ce582c8ca9191621dee87ba3278f8a74c986ec4357e2b75b5523aab",
+      "new_vector_sha256": "40a94015aaf77a2726878d55625b99f0fdfe2d0edcf89a5a9435214f0abcbcd6",
+      "matching_global_field_sha256": "d395b9b6338a84ab3947d90f2c635c710175fc490a365c886b656580987c8be0"
+    },
+    {
+      "member": 24,
+      "original_vector_sha256": "3727b697d0d7469484df184ca2ef89b5b650414ca0f22bcd53152f34cbd5c329",
+      "new_vector_sha256": "dea903bf93902d87c34b4dada754dbb4b2190385e14b0a8b315e8d800aebf1de",
+      "matching_global_field_sha256": "fdf6eaaa3274605bae5a0f54181153bf8c60781a27940a36e346bd6f62c58834"
+    },
+    {
+      "member": 25,
+      "original_vector_sha256": "2e86cb066345af58f24dcdeb8f8b4b9d104d30d58711c69c8ff80a1f9fc5a37a",
+      "new_vector_sha256": "a7c04ae5603b51766702288d388405a9ec95afd9c4056e9282734ba04312c988",
+      "matching_global_field_sha256": "6b0021a5971ac027bf9f3d816b0dd540b21a7f980f09626dc7df75f9414a7420"
+    },
+    {
+      "member": 26,
+      "original_vector_sha256": "2bef062e4332b7269f7e0d7da7225645cad2bcd90f334c2ada92d6e744871087",
+      "new_vector_sha256": "d7056ed47f4cb2b82b9250b6635e7a09c822982dbe50ecd9fb370f44eaca7b1a",
+      "matching_global_field_sha256": "f54716c472e51f476cc3a5e8b25e795741d678872c613118818b787a9db8a0f5"
+    },
+    {
+      "member": 27,
+      "original_vector_sha256": "77a49871f61929637a727c264b6549630348d28ed9817b07247f60d60626b579",
+      "new_vector_sha256": "b2cdcd981104b79547c6923b378007aa97d5babb73c13bdf19c51d4efb090baf",
+      "matching_global_field_sha256": "a7b471f3c04b2f0f0df09d6c5d83636b9af5c904991f667a00823418054387e8"
+    },
+    {
+      "member": 28,
+      "original_vector_sha256": "f2b5999a3df7de891e3d3ce395e0e88ec7f9f5c95616c101073acff030799473",
+      "new_vector_sha256": "d0e89dd4eb6fe68af686416bcffaa2ee956d8e2f1b61bb426a48dfc8c8e4a430",
+      "matching_global_field_sha256": "98eb0b0688bd12e8ae6ada349948880bac035bb257991bc076995006a56ae28f"
+    },
+    {
+      "member": 29,
+      "original_vector_sha256": "ce8df66c0b4aea8395ea701f8d7ac629044d69a938edb27e23899c44d87776f4",
+      "new_vector_sha256": "22d11173c26f48fcedc9b8f781ce6e63d8b5367bed551190bcec60f064106941",
+      "matching_global_field_sha256": "33a711a06d4db30cf9bec307d813b0b4622a495560e5aa8d66bbd5a1fe5e3729"
+    },
+    {
+      "member": 30,
+      "original_vector_sha256": "aa6de017798d2981364fb1791729e693b423348801b126570c845d1c544e6571",
+      "new_vector_sha256": "cead7a067494d05fe8b44c181d95c05ee0ce75d097dbc663f1cb0b463e49b109",
+      "matching_global_field_sha256": "2e825e19e3e8befa942635b84f06d86afba25f1fd3752795d396065819a0b79a"
+    },
+    {
+      "member": 31,
+      "original_vector_sha256": "3c2fd1f01af7d0f22d2d1f4c77ed9fe0d24ca07f20f1a7ea65647dfdbec78288",
+      "new_vector_sha256": "7d286aa4ae45a9f13acb79b89c82224bc60503ac9c6663d6463bab789f9b2968",
+      "matching_global_field_sha256": "005b415b60ef4817f02f62fc2ddfdca3b899e450f22b1b852cba5b1ddb8926e5"
+    },
+    {
+      "member": 32,
+      "original_vector_sha256": "d4d5c92118f290b3b52bba68eaded18f69af3957885c9d50dcf0917f289a043a",
+      "new_vector_sha256": "a76054dc437892bc8c2aa5bcfcac559e75b244453672efe7c3efe71477230256",
+      "matching_global_field_sha256": "1779f80467fd9965bd8cbd7aec4c7e87622dd4080fbb62cabf1f2cec5c0e32cb"
+    },
+    {
+      "member": 33,
+      "original_vector_sha256": "34cc7d1d05cb37779827a1cd25750ea6cf4cdb6c71c517fc78a082f01d3e04f1",
+      "new_vector_sha256": "c57fba5d93bff46f853f167aa807212583bc1d2903295d51f90710955450cc26",
+      "matching_global_field_sha256": "188a6c4d7248f6804bc4482a69bc46ac72e2bb38c71510c619f34ff9a4fbba8b"
+    },
+    {
+      "member": 34,
+      "original_vector_sha256": "3b2fc1a282d8685a4a0eb3c584c8aedf6362c58aa4970013d51c21d95c1c6203",
+      "new_vector_sha256": "692b43a1e83cdfdb23322fce32266eea9e7ed6d0a11e147152c71095f83fb2ef",
+      "matching_global_field_sha256": "90ee870ddbd20a7daa2a4b229927939b1f01f9c092ed69a3882ee109f4151040"
+    },
+    {
+      "member": 35,
+      "original_vector_sha256": "f0fee3f9e72c1e949bbde3a163d0cf04d7876856f03b6d56cc2290b563abe9e0",
+      "new_vector_sha256": "3834b76c8724926fa7df7d585f3382a6e1ed701c3ba9bbc31280a46b584ad739",
+      "matching_global_field_sha256": "ae7ceed0c3f8f4547f8eed9ee17429baf62cafade99a5de3d51444d4afefd581"
+    },
+    {
+      "member": 36,
+      "original_vector_sha256": "2a3f34849f10bb3ecfee27866c9055e4420849835244e25a112a673b2d0efade",
+      "new_vector_sha256": "fa797422a461daaa2415e4fd155082465c4669dcd128c758835964911e646e30",
+      "matching_global_field_sha256": "89b4cc24345e75971c7b0f91781aaebc704bfcc66dfbcf06e3b69048244976f2"
+    },
+    {
+      "member": 37,
+      "original_vector_sha256": "20e18ebc26c42bc91e538ec72f21b1ecee025d1cb51e3c9cfd95448e3eaba113",
+      "new_vector_sha256": "0a9b49d2236334439d6da18a2d16f9119f0b04105ffab622b856e985bb4ec714",
+      "matching_global_field_sha256": "472e3d96faf9ddb5c055577c207a08abeb773d074e2657130b097c39043b16d4"
+    },
+    {
+      "member": 38,
+      "original_vector_sha256": "e2ecfe295ef7e007313cfa78abc179067749112f8aa288ee0040daa22ff3acaf",
+      "new_vector_sha256": "83b2f53843ebc840ffc4840b9f540785fa5df59838c4fc897f6c5225260d29c3",
+      "matching_global_field_sha256": "36fbe84a5e993b8913a1f103defc39ead9c405d241ca004891647a6706ad295c"
+    },
+    {
+      "member": 39,
+      "original_vector_sha256": "74b1d286809d14d4161421c73455346aaa2063c52a5b108be64387812648cc2a",
+      "new_vector_sha256": "4ec7134425c8910c8c4e035e3c4fa969ffc8e65a9f6be677ed41a05289e3a0cc",
+      "matching_global_field_sha256": "2f932a21fb36e77b2dbc68086836d864f0fbf875f8496b2d6549afebcaa1e66f"
+    },
+    {
+      "member": 40,
+      "original_vector_sha256": "80fc323dc96d68ac823ddd874d25fe6635bce10d1a645a4adac3b930f9f6e896",
+      "new_vector_sha256": "83338c4a1cacc16925f995ec46c963518579969fcbab0bfbfc73311f2d9ccefa",
+      "matching_global_field_sha256": "c9062e7ddec24cfc83b506677af13fcd09aad52acb4cfff9e77a1fb39acdb37b"
+    },
+    {
+      "member": 41,
+      "original_vector_sha256": "ca400a20c20d659fffe3ffd43c80fea587b24e16f9d17328fa4f2796a3c59983",
+      "new_vector_sha256": "6d64a537fab7acd1a2d12707f6918b046506c8bc5c48d5d0386b5bd3ec9ec16c",
+      "matching_global_field_sha256": "929be301f78f1deb8264ffa92e28086635479ac388ac276f266248ea50188f6f"
+    }
+  ],
+  "index_check_scope": "The v4 index was reused byte-for-byte from the original cached index, not independently downloaded; identity is a cache-consistency check, not evidence of archive stability for unobserved fields.",
+  "scope": "Original v1exclusion preserved; new inputs already required by v4; no independent forecast sample or guarantee for never-observed original fields."
+}

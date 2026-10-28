@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-10-27T11:51:02.213166Z",
+  "retrospective": true,
+  "recorded_entrypoint_code_commit": "e7c4fcf81738657e2ca099340299ab4bc3391999",
+  "issue": "The presentation helper manuscript_sections.py is imported lazily by render_tables at the end of analysis. It was edited while E64 was running, so the entrypoint commit is not a complete provenance claim for the presentation helper loaded later. No import-time file hash was measured.",
+  "matching_later_presentation_snapshot": "e7b4703e372fd4fe142dabc5221da98683d5b9a2",
+  "scope": "Presentation/prose and extra rendered tables; fitting and statistical definitions unchanged. All numeric rows and intervals compared equal in E65; E66 later recomputed every numeric table from an immutable committed copy, and E67 checked the final manuscript on fresh outputs.",
+  "exact_late_import_time_utc": null,
+  "possible_interval_utc": [
+    "2026-10-27T10:38:50.318532Z",
+    "2026-10-27T10:43:47.487205Z"
+  ],
+  "source": "Recorded run/code versions and observed file-edit sequence; not a launch-time byte-identity proof"
+}

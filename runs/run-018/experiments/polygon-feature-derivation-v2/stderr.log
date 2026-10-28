@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/derive_polygon_features.py", line 64, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=ROOT);p.add_argument('--out',type=Path,required=True);p.add_argument('--primary-features',type=Path);a=p.parse_args();derive(a.root,a.out,a.primary_features)
+                                                                                                                                                                                                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/derive_polygon_features.py", line 17, in derive
+    values={c:{k:np.full_like(original[k],np.nan,dtype=float) for k in ['hydro','aef','tessera','aef_norm','tessera_norm']} for c in ['A','B','C','D']};valid_count={c:{k:np.zeros(n,int) for k in ['aef','tessera']} for c in values};eligible=np.ones(n,bool);audit=[];exclusions=[];input_hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [primary_features/'features-2024.npz',primary_features/'rows-2024.json',root/'data/main/main-input-manifest.json']}
+                                                                                                                                                                                                                                                                                                         ~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py", line 385, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: 'analysis/features-corrected/features-2024.npz' is not in the subpath of '/Users/fujimura/Research/ai-free-research-en/run-018'

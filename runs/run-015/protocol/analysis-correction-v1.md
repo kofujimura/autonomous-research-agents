@@ -1,0 +1,7 @@
+# Correction of paired land-condition selection
+
+A manual code audit found that summarize_city_time.py used the common-informative mask for both its common-informative and all-land-common-informative paired-width rows. The latter label therefore described the wrong sample. Preserve the old table, summary and source in review/corrections/city-paired-land-before before fixing the code. Select the named boolean mask for each non-all stratum. No change to input data, released information, LP endpoints, matched-date rule, land threshold, ordinary paired comparisons or other metrics. This repairs a previously planned diagnostic, not a new hypothesis.
+
+Regenerate canonical city summaries when an experiment slot is free. Independently group the saved paired-cases.csv by location type, product and horizon; count rows with matched_date_snapshot and the conjunction of common_informative and all_cells_at_least_half_land_snapshot. Require those counts to match every all_land_common_informative paired-width row, and require their direct mean width differences to match each mode. Include counts showing whether the conditional mask actually removes cases. Save this audit and the corrected summaries. Earlier integrated replay passed numerical consistency with the earlier code; it did not independently establish that this stratum filter was correct. Repeat final fresh-copy verification after the fix.
+
+Fixed at 2026-10-26T08:47:26Z. No corrected city summary has been computed.

@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-26T09:00:58Z",
+  "status": "passed",
+  "claims": 19,
+  "issues": [],
+  "primary_cases_sha256": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d",
+  "scope": "Record-link/schema and frozen-case consistency check, not scientific validation or independent reproduction."
+}

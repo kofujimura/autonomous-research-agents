@@ -1,0 +1,31 @@
+{
+  "experiment_id": "S018-repeated-members-060",
+  "started_at_utc": "2026-10-26T08:27:36Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/repeated_members.py",
+    "--cases",
+    "results/primary/cases.csv",
+    "--start",
+    "60",
+    "--count",
+    "20",
+    "--output",
+    "results/repeated-members"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v11-repeated-member-draws.md",
+  "plan_commit_id": "7805fd0e3eb9ebffb3c3f7db9a707697d89a196a",
+  "code_commit_id": "fb82ace1364ec6661a8e899ad45c405c711c1e6e",
+  "input_sha256": {
+    "results/primary/cases.csv": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d",
+    "protocol/sensitivity-cohort-v1.json": "6f56e73beffa668423bb0e977b561cdb68c926136b68ff2a9e6489b44a5fed95"
+  },
+  "status": "completed",
+  "start_event_id": "E0566",
+  "child_pid": 69199,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T08:29:22Z",
+  "elapsed_seconds": 105.57789287506603,
+  "end_event_id": "E0567"
+}

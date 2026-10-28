@@ -1,0 +1,33 @@
+{
+  "experiment_id": "fetch-controls-tessera-000",
+  "start_at_utc": "2026-10-25T13:27:23Z",
+  "end_at_utc": "2026-10-25T13:42:54Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/retrieve.py",
+    "tessera",
+    "0",
+    "--batch-count",
+    "1",
+    "--tasks",
+    "data/controls/tasks.csv"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/plan-v2.md",
+  "plan_commit_id": "f71e51997970dd673782c69a7e45c54bd3245e82",
+  "additional_plan_commits": {
+    "protocol/plan-v9.md": "bb8a67c52d106a7db4eaefbf78732b53349ed4e0"
+  },
+  "code_commit_id": "17a54b89abf377c16b503fd5f376393c60f1b73b",
+  "input_sha256": {
+    "data/controls/tasks.csv": "2ee765082dce1597cf9f375ad89de15eb0207520029c6a5a9683c66c4ab32c55"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0282",
+  "pid": 22275,
+  "elapsed_seconds": 931.4823539999779,
+  "end_event_id": "E0299"
+}

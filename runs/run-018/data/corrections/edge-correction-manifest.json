@@ -1,0 +1,304 @@
+[
+  {
+    "region": "R04",
+    "year": 2024,
+    "corrected_at_utc": "2026-10-27T19:32:56.535676+00:00",
+    "corrected_pixels": 3,
+    "affected_polygons": 1,
+    "previously_valid_pixels_checked": 6,
+    "previously_valid_values_exactly_equal": true,
+    "original_path": "data/main/R04/aef-2024.npz",
+    "original_sha256": "b2da2f9186d324e571aa66f6e33c196cd12a98f1cfcaedeaf9aae1623a5c2761",
+    "corrected_path": "data/corrections/R04/aef-2024.npz",
+    "corrected_sha256": "1c3e86c74e74e91a38a0a8210f027bcb76baf9e0b996ae468c63ff394586778f",
+    "fresh_samples_path": "data/corrections/R04/aef-2024-fresh-edge-samples.npz",
+    "fresh_samples_sha256": "d136704c2198fdcb6c1f1b2d43c2755d1b73fa4f167b6948018b244f52a263da",
+    "filled": [
+      {
+        "region": "R04",
+        "objectid": 5271690,
+        "patch_index": 6,
+        "xy": [
+          453825.0,
+          3112955.0
+        ],
+        "centre_owner_read_indices": [
+          1
+        ],
+        "outside_centre_tile": true
+      },
+      {
+        "region": "R04",
+        "objectid": 5271690,
+        "patch_index": 7,
+        "xy": [
+          453835.0,
+          3112955.0
+        ],
+        "centre_owner_read_indices": [
+          1
+        ],
+        "outside_centre_tile": true
+      },
+      {
+        "region": "R04",
+        "objectid": 5271690,
+        "patch_index": 8,
+        "xy": [
+          453845.0,
+          3112955.0
+        ],
+        "centre_owner_read_indices": [
+          1
+        ],
+        "outside_centre_tile": true
+      }
+    ],
+    "reads": [
+      {
+        "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/17N/x9lvqtcsajalom2fl-0000008192-0000008192.tiff",
+        "requested_at_utc": "2026-10-27T19:32:10.827425+00:00",
+        "obtained_at_utc": "2026-10-27T19:32:30.459536+00:00",
+        "shape": [
+          8192,
+          8192
+        ],
+        "transform": [
+          10.0,
+          0.0,
+          418080.0,
+          0.0,
+          10.0,
+          3031040.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "window": [
+          3574,
+          8191,
+          3,
+          1
+        ],
+        "source_window_sha256": "fd82e286c58026104839f3cad2fabe943be418b34c62cf0e1b775114fd36c89e"
+      },
+      {
+        "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/17N/xo1fyt05mcmguib6w-0000000000-0000008192.tiff",
+        "requested_at_utc": "2026-10-27T19:32:31.613684+00:00",
+        "obtained_at_utc": "2026-10-27T19:32:56.524085+00:00",
+        "shape": [
+          8192,
+          8192
+        ],
+        "transform": [
+          10.0,
+          0.0,
+          418080.0,
+          0.0,
+          10.0,
+          3112960.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "window": [
+          3574,
+          0,
+          3,
+          2
+        ],
+        "source_window_sha256": "93292361be0f755d19af4ba6ef58d973ce8412cc9762df159a335d73d04191bd"
+      }
+    ]
+  },
+  {
+    "region": "S01",
+    "year": 2024,
+    "corrected_at_utc": "2026-10-27T19:34:43.866526+00:00",
+    "corrected_pixels": 9,
+    "affected_polygons": 3,
+    "previously_valid_pixels_checked": 18,
+    "previously_valid_values_exactly_equal": true,
+    "original_path": "data/main/S01/aef-2024.npz",
+    "original_sha256": "9e6f96df303842d4f714e9c796d5eeae72d0bc4001029cbc157039b37c43e303",
+    "corrected_path": "data/corrections/S01/aef-2024.npz",
+    "corrected_sha256": "c3584c2a607dfb538dc276097b4e63d5bdfd6bda3b13c5eeeb418ca53ffba678",
+    "fresh_samples_path": "data/corrections/S01/aef-2024-fresh-edge-samples.npz",
+    "fresh_samples_sha256": "1796c448f12dd508df9ea4c57adf9e606d46d259f33c365def5ae72a2f8a039b",
+    "filled": [
+      {
+        "region": "S01",
+        "objectid": 32231159,
+        "patch_index": 0,
+        "xy": [
+          575645.0,
+          5079045.0
+        ],
+        "centre_owner_read_indices": [
+          0
+        ],
+        "outside_centre_tile": true
+      },
+      {
+        "region": "S01",
+        "objectid": 32231159,
+        "patch_index": 1,
+        "xy": [
+          575655.0,
+          5079045.0
+        ],
+        "centre_owner_read_indices": [
+          0
+        ],
+        "outside_centre_tile": true
+      },
+      {
+        "region": "S01",
+        "objectid": 32231159,
+        "patch_index": 2,
+        "xy": [
+          575665.0,
+          5079045.0
+        ],
+        "centre_owner_read_indices": [
+          0
+        ],
+        "outside_centre_tile": true
+      },
+      {
+        "region": "S01",
+        "objectid": 32229669,
+        "patch_index": 0,
+        "xy": [
+          569525.0,
+          5079045.0
+        ],
+        "centre_owner_read_indices": [
+          0
+        ],
+        "outside_centre_tile": true
+      },
+      {
+        "region": "S01",
+        "objectid": 32229669,
+        "patch_index": 1,
+        "xy": [
+          569535.0,
+          5079045.0
+        ],
+        "centre_owner_read_indices": [
+          0
+        ],
+        "outside_centre_tile": true
+      },
+      {
+        "region": "S01",
+        "objectid": 32229669,
+        "patch_index": 2,
+        "xy": [
+          569545.0,
+          5079045.0
+        ],
+        "centre_owner_read_indices": [
+          0
+        ],
+        "outside_centre_tile": true
+      },
+      {
+        "region": "S01",
+        "objectid": 32239952,
+        "patch_index": 0,
+        "xy": [
+          578945.0,
+          5079045.0
+        ],
+        "centre_owner_read_indices": [
+          0
+        ],
+        "outside_centre_tile": true
+      },
+      {
+        "region": "S01",
+        "objectid": 32239952,
+        "patch_index": 1,
+        "xy": [
+          578955.0,
+          5079045.0
+        ],
+        "centre_owner_read_indices": [
+          0
+        ],
+        "outside_centre_tile": true
+      },
+      {
+        "region": "S01",
+        "objectid": 32239952,
+        "patch_index": 2,
+        "xy": [
+          578965.0,
+          5079045.0
+        ],
+        "centre_owner_read_indices": [
+          0
+        ],
+        "outside_centre_tile": true
+      }
+    ],
+    "reads": [
+      {
+        "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/14N/x5m6u58f2hbco6i7n-0000008192-0000000000.tiff",
+        "requested_at_utc": "2026-10-27T19:33:02.673306+00:00",
+        "obtained_at_utc": "2026-10-27T19:33:51.357395+00:00",
+        "shape": [
+          8192,
+          8192
+        ],
+        "transform": [
+          10.0,
+          0.0,
+          500000.0,
+          0.0,
+          10.0,
+          4997120.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "window": [
+          6952,
+          8190,
+          945,
+          2
+        ],
+        "source_window_sha256": "cc2ae4929aa3844f2bd3db5f22ac8ed7bc601158f8c74f8a90f7e5579d0394d1"
+      },
+      {
+        "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/14N/x2bn9qlaukvzs1g77-0000000000-0000000000.tiff",
+        "requested_at_utc": "2026-10-27T19:33:52.381510+00:00",
+        "obtained_at_utc": "2026-10-27T19:34:43.836502+00:00",
+        "shape": [
+          8192,
+          8192
+        ],
+        "transform": [
+          10.0,
+          0.0,
+          500000.0,
+          0.0,
+          10.0,
+          5079040.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "window": [
+          6952,
+          0,
+          945,
+          1
+        ],
+        "source_window_sha256": "d3727dad332a8fc5ccead84aff6eb8fc85e6d859caa136a10cffba23f842f101"
+      }
+    ]
+  }
+]

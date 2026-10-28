@@ -1,0 +1,8 @@
+{
+  "observed_at_utc": "2026-10-26T05:50:47Z",
+  "runner_code_commit_id": "44da1ce908cc0bd8e36e949263454902ce0bcd1c",
+  "analysis_code_commit_id": "e6f5f194866fa8cc73b2d41c77aa6799c7e49927",
+  "analysis_source_path": "verification_work/primary-source",
+  "source_manifest_sha256": "68447d1a088febd0850504f4babcd2f31458bc8a4f0d8f8c67639248931a3383",
+  "scope": "Runner is from current root commit; actually executed verifier and imported analysis programs are from the recorded frozen source copy."
+}

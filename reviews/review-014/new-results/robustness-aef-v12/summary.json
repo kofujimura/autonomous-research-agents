@@ -1,0 +1,18 @@
+{
+  "exploratory": true,
+  "models": [
+    "aef"
+  ],
+  "availability_mode": "model_specific",
+  "calibration_score_invariance": true,
+  "nominal_fprs": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "added_methods": [
+    "baseline_cohort_random_forest",
+    "baseline_cohort_logistic",
+    "embedding_matched_controls"
+  ]
+}

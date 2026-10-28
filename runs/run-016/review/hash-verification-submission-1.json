@@ -1,0 +1,11 @@
+{
+  "observed_at_utc": "2026-10-27T02:21:28.352068Z",
+  "status": "passed",
+  "manifest": "SHA256SUMS.json",
+  "checked_files": 36535,
+  "missing_optional_files": [],
+  "complete_inventory_checked": true,
+  "event_prefix_rule": "events.jsonl is hashed through the recorded byte length. Later append-only commit/submission receipts are outside that prefix. All scientific artifacts use whole-file hashes.",
+  "network_used": false,
+  "ai_api_called": false
+}

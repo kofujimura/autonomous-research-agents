@@ -1,0 +1,129 @@
+{
+ "meta": {
+  "reviewer": "gemini",
+  "model": "gemini-4-argon",
+  "run": "016",
+  "rep": 2,
+  "started_utc": "2026-10-28T12:35:41Z",
+  "figures": 1,
+  "usage": {
+   "input_tokens": 25188,
+   "output_tokens": 5237,
+   "thought_tokens": 2698,
+   "search_queries": 4
+  },
+  "cost_usd": 0.158746,
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP"
+ },
+ "review": {
+  "summary": "This paper presents a design-based resampling benchmark evaluating whether revisiting reference locations improves the estimation of year-to-year changes in crop-group Shannon diversity across 30 Swiss agricultural landscapes (90 adjacent-year transitions from SwissCrop25, 2021-2025), both with direct sampling and with model-assisted difference estimators using frozen classifiers trained on TESSERA and AlphaEarth annual satellite embeddings. The authors find that revisiting locations substantially reduces point MSE relative to independent sampling (MSE ratio 0.275 at n=128), largely driven by grassland-dominated landscapes, but suffers from severe confidence-interval undercoverage (83.4% vs. 95% nominal) due to samples with zero observed label changes producing zero-width Wald intervals. Furthermore, because true annual diversity changes are very small, a trivial no-change baseline outperforms direct sampling at all tested budgets (up to n=512) and outperforms all frozen model-assisted estimators at n=128, while the apparent conservatism of the primary model-assisted intervals is shown in exploratory checks to be an artifact of omitting the probability-simplex projection Jacobian and clipping small proportions in the entropy gradient.",
+  "scores": {
+   "correctness": 4,
+   "verifiability": 4,
+   "novelty": 2,
+   "generality": 2,
+   "usefulness": 3,
+   "clarity": 2
+  },
+  "score_reasons": {
+   "correctness": "The empirical simulations and post-hoc mathematical diagnostics are sound and carefully caveated, though the primary preplanned model-assisted interval rule was flawed (omitting the simplex projection Jacobian) and Figure 1 is visually truncated.",
+   "verifiability": "Dataset revisions, embedding sources, and simulation protocols are specified in detail, though the text relies heavily on pointers to local repository files (e.g., protocol/ and VERIFY.md) rather than making all design parameters self-contained.",
+   "novelty": "The statistical mechanisms (variance reduction from positive covariance in repeated sampling and Wald interval failure under sparse transitions or simplex boundaries) are classical, making the contribution primarily a narrow empirical benchmark of recent embeddings.",
+   "generality": "Sampling single 10m pixels uniformly from a pre-supplied five-year stable agricultural mask with error-free administrative declarations is an idealized setup that does not reflect cluster sampling, frame turnover, or human audit errors in operational surveys.",
+   "usefulness": "The paper offers a valuable cautionary demonstration for Earth observation practitioners that out-of-the-box foundation-model embeddings and small reference samples struggle to beat a zero-change baseline for nonlinear diversity change and frequently violate simplex bounds.",
+   "clarity": "Readability is severely hampered by defensive meta-commentary, chronological patching (15 plan versions), process logs in the main text, and a cropped Figure 1 that cuts off the third panel."
+  },
+  "verdict": "major revision",
+  "overall_10": 4,
+  "workshop_level": "yes",
+  "main_track_level": "no",
+  "research_question": {
+   "question": "At a fixed annual reference-label budget, how reliably can direct and frozen embedding-assisted estimators quantify year-to-year changes in landscape crop-group Shannon diversity, and how much does revisiting reference locations improve inference over independent sampling?",
+   "question_quality": 3,
+   "predictable": "partly",
+   "predictable_reason": "The large MSE reduction from revisiting stable grassland pixels and the collapse of plug-in Wald intervals when zero sampled pixels change follow directly from classical successive-sampling covariance and the algebra of sample entropy, whereas the exact degree of residual variance reduction from TESSERA and AlphaEarth embeddings required empirical testing."
+  },
+  "main_issues": [
+   {
+    "severity": "critical",
+    "issue": "Flawed primary interval construction for model-assisted estimators: In the main results (Table 1), roughly 99% of model-assisted proportion vectors fall outside the probability simplex and require Euclidean projection. However, the primary delta-method interval rule omitted the Jacobian of the simplex projection and relied on an arbitrary 1e-6 gradient floor, artificially inflating standard errors and creating a misleading 98.8%-99.1% coverage result that had to be Walked back in exploratory Section 4.6."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Broken and truncated Figure 1: The attached figure (results/tables/main/budget-curves.svg) is clipped on the right border, cutting off the 512 label on the TESSERA panels and completely omitting the AlphaEarth panels, while leaving a large blank margin at the bottom."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Idealized sampling frame and circular declaration benchmark: Where complete wall-to-wall administrative declarations (SwissCrop25) exist, sampling 128 pixels is unnecessary; where field or photo audits are needed, observations involve parcel-level clustering, changing agricultural extent, and non-deterministic human error. Assuming a free five-year stable agricultural mask and error-free 10m pixel repeatability overstates both the revisiting MSE gain and the zero-change coverage deficit."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Overloaded structure and audit-log prose: Instead of synthesizing the final scientific methodology cleanly, the paper reads like a chronological lab notebook across 15 plan revisions, cluttering the narrative with repetitive negative disclaimers, Git storage logs, and appendices that revisit and correct earlier design choices."
+   },
+   {
+    "severity": "minor",
+    "issue": "Missing baseline comparator (post-stratification) and weak auxiliary models: The primary assisted estimator uses uncalibrated multinomial logistic regression frozen from 2021, which actually worsens paired RMSE compared to direct sampling (0.0605 vs. 0.0559). Standard map-based post-stratification is mentioned as untested, and random forest hyperparameters are not specified in the text."
+   },
+   {
+    "severity": "minor",
+    "issue": "Lack of self-containment: Critical details regarding candidate landscape coordinates, exact random forest settings, and secondary contrast tables are deferred to external local file paths (e.g., data/selection-results.jsonl, protocol/implementation-notes.md) that are not part of the manuscript text."
+   }
+  ],
+  "strengths": [
+   "Exceptionally thorough self-diagnosis of statistical artifacts, particularly identifying how the omitted simplex-projection Jacobian and gradient clipping floor distorted the initial model-assisted confidence intervals.",
+   "Honest and prominent reporting of negative results, including that a trivial no-change prediction beats direct sampling across all budgets and beats frozen embedding-assisted estimators at n=128.",
+   "Rigorous design-based validation, including exact finite-population enumeration checks on synthetic fixtures, coherent multi-year rotating panel simulations, and synthetic label-noise sensitivity analyses.",
+   "Timely empirical evaluation of two recent geospatial embedding products (TESSERA and AlphaEarth Foundations) on a newly released multi-year agricultural benchmark (SwissCrop25)."
+  ],
+  "closest_prior_work": [
+   {
+    "citation": "Säurich, J., Schwieder, M., Preidl, S., Beyer, F., & Möller, M. (2026). Are remote sensing-based crop type classifications suitable for calculating a landscape heterogeneity metric? A data-fitness-for-purpose assessment. Ecological Informatics, 95, 103660.",
+    "url": "https://literatur.thuenen.de/digbib_extern/dn070924.pdf",
+    "difference": "Evaluates fitness of wall-to-wall remote-sensing crop maps against declarations for static landscape Shannon heterogeneity, whereas the reviewed paper studies probability-sample auditing and repeated-location sampling for year-to-year diversity change."
+   },
+   {
+    "citation": "van der Velde, M., Claverie, M., d'Andrimont, R., Machefer, M., Bosco, S., Catarino, R., Dentener, F., & Angileri, V. (2025). Policy relevant crop diversity monitoring based on earth observation and farmers' declarations. Environmental Research Letters, 20(1), 014054.",
+    "url": "https://doi.org/10.1088/1748-9326/ad9d61",
+    "difference": "Compares wall-to-wall EO crop diversity maps with census farmer declarations and tracks multi-year declaration trends, rather than benchmarking finite-budget reference sampling and design-based confidence intervals."
+   },
+   {
+    "citation": "Massey, A., & Mandallaz, D. (2015). Design-based regression estimation of net change for forest inventories. Canadian Journal of Forest Research, 45(12), 1775-1784.",
+    "url": "https://doi.org/10.1139/cjfr-2015-0266",
+    "difference": "Establishes the design-based model-assisted change estimation framework for permanent and temporary plots on linear inventory totals, whereas this paper applies the framework to a nonlinear functional (Shannon entropy) requiring simplex projection."
+   },
+   {
+    "citation": "Lauber, T., Turkoglu, M. O., Ledain, S., & Aasen, H. (2026). SwissCrop25: A National Multi-Year Benchmark for Operational Crop Mapping. arXiv:2608.09497.",
+    "url": "https://arxiv.org/html/2608.09497v1",
+    "difference": "Introduces the underlying multi-year Swiss crop declaration dataset and benchmarks cross-year pixel classification, whereas this paper repurposes the dataset as a finite population for landscape diversity-change sampling simulations."
+   },
+   {
+    "citation": "Olofsson, P., Foody, G. M., Herold, M., Stehman, S. V., Woodcock, C. E., & Wulder, M. A. (2014). Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment, 148, 42-57.",
+    "url": "https://doi.org/10.1016/j.rse.2014.02.015",
+    "difference": "Provides the foundational remote-sensing guidelines for probability-based reference sampling and class-area change estimation, which this paper extends to a nonlinear entropy change target."
+   }
+  ],
+  "familiarity": "no",
+  "figures_viewed": true
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP",
+  "web_search_queries": [
+   "\"Policy relevant crop diversity monitoring based on earth observation and farmers\"",
+   "\"Are remote sensing-based crop type classifications suitable for calculating a landscape heterogeneity metric\"",
+   "\"Design-based regression estimation of net change for forest inventories\" Massey Mandallaz",
+   "\"SwissCrop25: A National Multi-Year Benchmark for Operational Crop Mapping\""
+  ],
+  "sources": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcuLfbLidVhEqfeSdii5raS9_DmP5bUHRZuDBu62d7EosmbOHyC7yqowfVitLHue0P1LGrRVX5eJtCKhkRotlE05BM1ildjNb2vA3xMjGmcl_I_l25pfZFRuiYvl3rgOaYyznnySRxjVI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIAvGu0t_86SWJRYdJ_jh9pQE0F9_g6yU4GoJ4VchUX0f0EkR-DXgPGFEWUdMh1apoiUaeLc-Mi9HV2l8ah9nhdwQ_S0heATsYMhuHFEx479MKB6niI5WS56nYFAa5rEStVWqoAd63tjbTN20AWtoGkW3aE4FhMQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFITRm_OwMulAIhjjSDHr41mTx-DbnXnGN3RKTambaRABRmS6kmjlStk-AZRqSdaQLLlRc5zFyglpCMChd5HBAhsGQq3NHFWUKTlmAAT7Dopp0HdDxsEqP4bNEGo55s64Ck3Uh2_FoEAgEo1ULNY7Lbhizzdtdi6YFASxbwyCRkGgwGj6gZQsVMdZsGx1REVudaXZipsGObcH52ESW8H3fQB00ku0xfCOONrg2qy5FuWA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOTQ-S7jReB2MmymEivHyuvPcORjcEQw7mI8LGtq-gYqDw1BnpkbTj6HSanGi1A9USAlxfmr6n6ojfYeE-cG-18Pxa5hXjBiUlaCsjgQUudkA0-lDxfEmnGOyqtj9XT-pSkVC9H167Gm1jrWWQT6z8eJRnAfPsKtIpTg6JiPpbbyd3AUb7CddDBWnhzoXkWqs3hNP3GlRU8Dihxs3Hmz1aiQ3sJoEWvSFrZfAmmbz7dLuVgzazKvvGoHgwSw_WAPFD7Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEws9Fiw7e8wrMQdNOgzVm9IbeMfv47T9Ps1jB9YhIILZvdX20oG2dJY2dV_wudSUMv2-LpabSoVeqbVepDS6kZ5dQ6eR1O77kSFDnXotbiy_WkCc8jIQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNUGTzS85og7QP6QUC78vcqugUtKfafjSHC755JIBZvOyt_w1QpHO2asozJ8UH7iv9kCUzL5XbWvJt_m4LU7UheK-1VUEzTjwA4UFfuFUdwDXDKFKulyIhrM_dyUrLcRkyr8GAGqSWovTCDE5b6qfWEHQqiDmvSaxbO1zo"
+  ]
+ }
+}

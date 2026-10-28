@@ -1,0 +1,33 @@
+{
+  "experiment_id": "S008-epsilon-020",
+  "started_at_utc": "2026-10-26T05:19:25Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/secondary.py",
+    "--task",
+    "epsilon",
+    "--cases",
+    "results/primary/cases.csv",
+    "--start",
+    "20",
+    "--count",
+    "20",
+    "--output",
+    "results/secondary-runs/epsilon-020"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "f3e88ecc7fe6676a7dfce69662ee9829c65301db",
+  "code_commit_id": "aaa020206081499f068b341a0063e35ab3e5b356",
+  "input_sha256": {
+    "results/primary/cases.csv": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d",
+    "protocol/sensitivity-cohort-v1.json": "6f56e73beffa668423bb0e977b561cdb68c926136b68ff2a9e6489b44a5fed95"
+  },
+  "status": "completed",
+  "start_event_id": "E0361",
+  "child_pid": 60655,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T05:19:36Z",
+  "elapsed_seconds": 10.882086209021509,
+  "end_event_id": "E0362"
+}

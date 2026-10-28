@@ -1,0 +1,7 @@
+# Exploratory v14a: saved forest and refreshed controls
+
+Fixed 2026-10-27T00:06:58.930080Z, after v14frozen-logistic results and before these controls. V14shows that the local projection derivative changes coverage/reporting with identical point estimates. To check whether that observation is limited to the original logistic heads, apply exactly the same two interval rules to all four saved broad robustness maps: two frozen forests and two annually refreshed logistic heads. No choice among heads based on the new-rule outcome is allowed.
+
+Keep n128,all90primary units,500 original draws, original point-estimate/SE/direction reproduction assertions, local derivative, active-support/threshold diagnostics, FPC, multiplier and report rules unchanged from v14. Save to separate forest-broad- and refreshed-broad- destinations; originals remain. Annual refreshed maps use their existing large training budget, not a new fit or a budget-matched method. Direct results are shared controls and counted once.
+
+No new scientific metric, simulation draws, labels, fitting, model API or network. A module precondition is relaxed to permit already-fixed refreshed maps and an explicit plan_pathargument records this extension. Earlier v14CSVschemas/values remain unchanged. Before execution commit this plan/code; one bounded process<=1800seconds, at most two concurrent. Archive every outcome and index all four completed controls for offline regeneration. All are exploratory; no normal interval gains a validity theorem from a local Jacobian.

@@ -1,0 +1,79 @@
+[
+  {
+    "task_id": "constant-decision-audit",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_constant_controls.py",
+      "--out",
+      "analysis/constant-audit"
+    ]
+  },
+  {
+    "task_id": "corrected-primary-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/main-corrected",
+      "--out",
+      "analysis/primary-corrected-summary"
+    ]
+  },
+  {
+    "task_id": "corrected-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "hgb",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--output",
+      "analysis/controls/hgb-corrected"
+    ]
+  },
+  {
+    "task_id": "corrected-hgb-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/hgb-corrected",
+      "--out",
+      "analysis/controls/hgb-corrected-summary"
+    ]
+  },
+  {
+    "task_id": "tile-safe-reader-check",
+    "command": [
+      ".venv/bin/python",
+      "code/check_tile_safe_reader.py"
+    ]
+  },
+  {
+    "task_id": "corrected-recent",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/recent-features-corrected",
+      "--output",
+      "analysis/recent-corrected"
+    ]
+  },
+  {
+    "task_id": "corrected-recent-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/recent-corrected",
+      "--out",
+      "analysis/recent-corrected-summary"
+    ]
+  }
+]

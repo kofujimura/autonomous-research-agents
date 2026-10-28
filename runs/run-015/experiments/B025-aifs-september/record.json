@@ -1,0 +1,34 @@
+{
+  "experiment_id": "B025-aifs-september",
+  "started_at_utc": "2026-10-26T03:46:42Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pipeline.py",
+    "--model",
+    "aifs-ens",
+    "--start",
+    "43",
+    "--count",
+    "5",
+    "--chunk-bytes",
+    "1048576",
+    "--subsets",
+    "--log",
+    "experiments/B025-aifs-september/units.jsonl"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2.3-message-range.md",
+  "plan_commit_id": "36c3dbd488867104bfda9e6fc2517d5390bec776",
+  "code_commit_id": "6f3ffac95cbf1629fb616f107d67385cb5c9c5a3",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/subset-design-v3.json": "4eb1e19e92ad317f517b62f711793a827a39ba31ad64f0e7698f70baa3f4d2c7"
+  },
+  "status": "completed",
+  "start_event_id": "E0251",
+  "child_pid": 56377,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T03:59:21Z",
+  "elapsed_seconds": 759.1241616250481,
+  "end_event_id": "E0262"
+}

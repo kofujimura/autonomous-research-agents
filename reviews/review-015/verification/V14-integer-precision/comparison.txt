@@ -1,0 +1,2 @@
+shape (120, 9) (120, 9) cols equal True
+max numeric diff (excluding timing cols) 0.0 columns with differences []

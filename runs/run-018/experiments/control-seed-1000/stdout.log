@@ -1,0 +1,40 @@
+{"rotation": 0, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/features", "--rotation", "0", "--output", "analysis/controls/seed-1000/r0", "--mode", "seed", "--primary", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main", "--seed-offset", "1000", "--permutation", "0"], "start_time_utc": "2026-10-27T17:36:30.297127+00:00"}
+{"stage": "fit", "method": "hydro_pair", "mode": "seed", "elapsed_seconds": 49.033450999995694}
+{"stage": "fit", "method": "pair_aef", "mode": "seed", "elapsed_seconds": 98.32655283389613}
+{"stage": "fit", "method": "pair_tessera", "mode": "seed", "elapsed_seconds": 147.40671541681513}
+{"stage": "fit", "method": "hydro_decoder", "mode": "seed", "elapsed_seconds": 148.12885958398692}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 152.75336720887572}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 157.07575554191135}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 160.7021883339621}
+{"mode": "seed", "rotation": 0, "seed_offset": 1000, "permutation": 0, "start_time_utc": "2026-10-27T17:36:31.649883+00:00", "end_time_utc": "2026-10-27T17:39:15.601730+00:00", "elapsed_seconds": 163.95364658394828, "reused_methods": ["aef_centred", "aef_cosine", "aef_whitened", "geography", "hydro_euclidean", "label_oracle", "tessera_centred", "tessera_cosine", "tessera_whitened"], "primary_source": "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main/r0", "training_n": 1370, "training_pairs": 30570, "predictions": 9867}
+{"rotation": 1, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/features", "--rotation", "1", "--output", "analysis/controls/seed-1000/r1", "--mode", "seed", "--primary", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main", "--seed-offset", "1000", "--permutation", "0"], "start_time_utc": "2026-10-27T17:39:15.752180+00:00"}
+{"stage": "fit", "method": "hydro_pair", "mode": "seed", "elapsed_seconds": 38.66180329211056}
+{"stage": "fit", "method": "pair_aef", "mode": "seed", "elapsed_seconds": 77.7740847079549}
+{"stage": "fit", "method": "pair_tessera", "mode": "seed", "elapsed_seconds": 116.34532683296129}
+{"stage": "fit", "method": "hydro_decoder", "mode": "seed", "elapsed_seconds": 116.9830207079649}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 121.73309116694145}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 126.20353049994446}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 130.20891487505287}
+{"stage": "predict", "queries": 800, "elapsed_seconds": 133.66804887494072}
+{"mode": "seed", "rotation": 1, "seed_offset": 1000, "permutation": 0, "start_time_utc": "2026-10-27T17:39:17.126027+00:00", "end_time_utc": "2026-10-27T17:41:34.141872+00:00", "elapsed_seconds": 137.01734800008126, "reused_methods": ["aef_centred", "aef_cosine", "aef_whitened", "geography", "hydro_euclidean", "label_oracle", "tessera_centred", "tessera_cosine", "tessera_whitened"], "primary_source": "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main/r1", "training_n": 1168, "training_pairs": 24358, "predictions": 12597}
+{"rotation": 2, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/features", "--rotation", "2", "--output", "analysis/controls/seed-1000/r2", "--mode", "seed", "--primary", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main", "--seed-offset", "1000", "--permutation", "0"], "start_time_utc": "2026-10-27T17:41:34.257682+00:00"}
+{"stage": "fit", "method": "hydro_pair", "mode": "seed", "elapsed_seconds": 40.59841724997386}
+{"stage": "fit", "method": "pair_aef", "mode": "seed", "elapsed_seconds": 81.74937979201786}
+{"stage": "fit", "method": "pair_tessera", "mode": "seed", "elapsed_seconds": 122.75909108296037}
+{"stage": "fit", "method": "hydro_decoder", "mode": "seed", "elapsed_seconds": 123.41065416694619}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 127.79670983296819}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 131.9966470419895}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 135.66617133305408}
+{"stage": "predict", "queries": 800, "elapsed_seconds": 139.3359834579751}
+{"mode": "seed", "rotation": 2, "seed_offset": 1000, "permutation": 0, "start_time_utc": "2026-10-27T17:41:35.607871+00:00", "end_time_utc": "2026-10-27T17:43:57.013513+00:00", "elapsed_seconds": 141.40719304210506, "reused_methods": ["aef_centred", "aef_cosine", "aef_whitened", "geography", "hydro_euclidean", "label_oracle", "tessera_centred", "tessera_cosine", "tessera_whitened"], "primary_source": "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main/r2", "training_n": 1216, "training_pairs": 25754, "predictions": 11596}
+{"rotation": 3, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/features", "--rotation", "3", "--output", "analysis/controls/seed-1000/r3", "--mode", "seed", "--primary", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main", "--seed-offset", "1000", "--permutation", "0"], "start_time_utc": "2026-10-27T17:43:57.171785+00:00"}
+{"stage": "fit", "method": "hydro_pair", "mode": "seed", "elapsed_seconds": 38.185098624788225}
+{"stage": "fit", "method": "pair_aef", "mode": "seed", "elapsed_seconds": 77.07018399983644}
+{"stage": "fit", "method": "pair_tessera", "mode": "seed", "elapsed_seconds": 116.17569899978116}
+{"stage": "fit", "method": "hydro_decoder", "mode": "seed", "elapsed_seconds": 116.79582833382301}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 121.12671695882455}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 125.12101524998434}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 129.00713883386925}
+{"stage": "predict", "queries": 800, "elapsed_seconds": 132.58096670894884}
+{"stage": "predict", "queries": 1000, "elapsed_seconds": 136.4162081249524}
+{"mode": "seed", "rotation": 3, "seed_offset": 1000, "permutation": 0, "start_time_utc": "2026-10-27T17:43:58.525955+00:00", "end_time_utc": "2026-10-27T17:46:15.409856+00:00", "elapsed_seconds": 136.88544370885938, "reused_methods": ["aef_centred", "aef_cosine", "aef_whitened", "geography", "hydro_euclidean", "label_oracle", "tessera_centred", "tessera_cosine", "tessera_whitened"], "primary_source": "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main/r3", "training_n": 1187, "training_pairs": 25105, "predictions": 13221}

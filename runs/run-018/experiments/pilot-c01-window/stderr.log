@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "rasterio/_base.pyx", line 322, in rasterio._base.DatasetBase.__init__
+  File "rasterio/_base.pyx", line 234, in rasterio._base.open_dataset
+  File "rasterio/_err.pyx", line 359, in rasterio._err.exc_wrap_pointer
+rasterio._err.CPLE_IllegalArgError: GDALWarpOptions.Validate(): hSrcDS is not set.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/pilot_wetlands.py", line 34, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/code/pilot_wetlands.py", line 18, in main
+    with rasterio.open(url) as src:
+         ~~~~~~~~~~~~~^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/.venv/lib/python3.13/site-packages/rasterio/env.py", line 464, in wrapper
+    return f(*args, **kwds)
+  File "/Users/fujimura/Research/ai-free-research-en/run-018/.venv/lib/python3.13/site-packages/rasterio/__init__.py", line 367, in open
+    dataset = DatasetReader(path, driver=driver, sharing=sharing, thread_safe=thread_safe, **kwargs)
+  File "rasterio/_base.pyx", line 331, in rasterio._base.DatasetBase.__init__
+rasterio.errors.RasterioIOError: GDALWarpOptions.Validate(): hSrcDS is not set.

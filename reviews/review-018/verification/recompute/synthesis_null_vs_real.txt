@@ -1,0 +1,23 @@
+forest 0.7 real AEF
+  window-mean pp: -2.95, -0.73, -1.42  (mean -1.70, range -2.95..-0.73)
+  pooled pp:      -0.67, -0.44, -0.83  (mean -0.65, range -0.83..-0.44)
+forest 0.7 real TESSERA
+  window-mean pp: -3.72, +1.37, -2.87  (mean -1.74, range -3.72..+1.37)
+  pooled pp:      -2.44, -1.16, -0.78  (mean -1.46, range -2.44..-0.78)
+forest 0.7 null (constant x3 seeds, scalar x3, permuted AEF x3, permuted TESSERA x3)
+  window-mean pp: -3.38, +3.92, -2.50, -4.56, -1.24, -1.02, -0.29, -2.76, -3.81, -1.55, -1.78, -4.53  (mean -1.96, range -4.56..+3.92)
+  pooled pp:      -0.44, +0.50, +0.89, -1.05, +0.17, -0.72, +0.28, -1.00, +0.78, -0.33, -0.78, -0.61  (mean -0.19, range -1.05..+0.89)
+all-feature forest real AEF
+  window-mean pp: +0.12, -0.01, -3.42  (mean -1.10, range -3.42..+0.12)
+  pooled pp:      -1.11, -0.83, -0.83  (mean -0.92, range -1.11..-0.83)
+all-feature forest real TESSERA
+  window-mean pp: -0.79, -1.08, -4.84  (mean -2.24, range -4.84..-0.79)
+  pooled pp:      -2.22, -2.16, -3.55  (mean -2.64, range -3.55..-2.16)
+all-feature forest null (scalar x3, constant x1)
+  window-mean pp: +0.07, +0.47, -0.13, +0.92  (mean +0.33, range -0.13..+0.92)
+  pooled pp:      -0.28, -0.11, -0.17, +0.00  (mean -0.14, range -0.28..+0.00)
+boosted trees real AEF / TESSERA
+  window-mean pp: -1.65, -2.89  (mean -2.27, range -2.89..-1.65)
+  pooled pp:      -0.83, -0.33  (mean -0.58, range -0.83..-0.33)
+Seed variation of hydro_pair baseline (forest 0.7): window-mean [36.97841534882462, 32.569438786815894, 37.42252799816341] pooled [34.146341463414636, 33.5920177383592, 34.146341463414636]
+Seed variation of hydro_pair baseline (all-feature forest): window-mean [32.7783783518791, 33.11118391472793, 36.33371847287463] pooled [34.25720620842572, 33.5920177383592, 34.58980044345898]

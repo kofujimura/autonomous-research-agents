@@ -1,0 +1,32 @@
+{"rotation": 0, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/features", "--rotation", "0", "--output", "analysis/controls/permute-2/r0", "--mode", "permute", "--primary", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main", "--seed-offset", "0", "--permutation", "2"], "start_time_utc": "2026-10-27T18:04:12.400479+00:00"}
+{"stage": "fit", "method": "pair_aef", "mode": "permute", "elapsed_seconds": 49.234245834173635}
+{"stage": "fit", "method": "pair_tessera", "mode": "permute", "elapsed_seconds": 98.76085683400743}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 101.75540770916268}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 104.5825020421762}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 106.9722111672163}
+{"mode": "permute", "rotation": 0, "seed_offset": 0, "permutation": 2, "start_time_utc": "2026-10-27T18:04:13.750641+00:00", "end_time_utc": "2026-10-27T18:06:02.833155+00:00", "elapsed_seconds": 109.08374908403493, "reused_methods": ["hydro_decoder", "hydro_pair"], "primary_source": "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main/r0", "training_n": 1370, "training_pairs": 30570, "predictions": 3036}
+{"rotation": 1, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/features", "--rotation", "1", "--output", "analysis/controls/permute-2/r1", "--mode", "permute", "--primary", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main", "--seed-offset", "0", "--permutation", "2"], "start_time_utc": "2026-10-27T18:06:02.956121+00:00"}
+{"stage": "fit", "method": "pair_aef", "mode": "permute", "elapsed_seconds": 39.32891825004481}
+{"stage": "fit", "method": "pair_tessera", "mode": "permute", "elapsed_seconds": 78.50236895913258}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 81.62909541698173}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 84.56979533401318}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 87.21683883410878}
+{"stage": "predict", "queries": 800, "elapsed_seconds": 89.50577995902859}
+{"mode": "permute", "rotation": 1, "seed_offset": 0, "permutation": 2, "start_time_utc": "2026-10-27T18:06:04.311715+00:00", "end_time_utc": "2026-10-27T18:07:36.000370+00:00", "elapsed_seconds": 91.6896620420739, "reused_methods": ["hydro_decoder", "hydro_pair"], "primary_source": "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main/r1", "training_n": 1168, "training_pairs": 24358, "predictions": 3876}
+{"rotation": 2, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/features", "--rotation", "2", "--output", "analysis/controls/permute-2/r2", "--mode", "permute", "--primary", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main", "--seed-offset", "0", "--permutation", "2"], "start_time_utc": "2026-10-27T18:07:36.152439+00:00"}
+{"stage": "fit", "method": "pair_aef", "mode": "permute", "elapsed_seconds": 41.72275900002569}
+{"stage": "fit", "method": "pair_tessera", "mode": "permute", "elapsed_seconds": 83.09594266698696}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 86.03172991704196}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 88.86628416692838}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 91.3370192500297}
+{"stage": "predict", "queries": 800, "elapsed_seconds": 93.81304645887576}
+{"mode": "permute", "rotation": 2, "seed_offset": 0, "permutation": 2, "start_time_utc": "2026-10-27T18:07:37.519439+00:00", "end_time_utc": "2026-10-27T18:09:12.685841+00:00", "elapsed_seconds": 95.16744841705076, "reused_methods": ["hydro_decoder", "hydro_pair"], "primary_source": "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main/r2", "training_n": 1216, "training_pairs": 25754, "predictions": 3568}
+{"rotation": 3, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/features", "--rotation", "3", "--output", "analysis/controls/permute-2/r3", "--mode", "permute", "--primary", "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main", "--seed-offset", "0", "--permutation", "2"], "start_time_utc": "2026-10-27T18:09:12.835727+00:00"}
+{"stage": "fit", "method": "pair_aef", "mode": "permute", "elapsed_seconds": 39.42743166605942}
+{"stage": "fit", "method": "pair_tessera", "mode": "permute", "elapsed_seconds": 78.54234087490477}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 81.37876379094087}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 84.10013591591269}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 86.70748412492685}
+{"stage": "predict", "queries": 800, "elapsed_seconds": 89.10169204091653}
+{"stage": "predict", "queries": 1000, "elapsed_seconds": 91.63960308302194}
+{"mode": "permute", "rotation": 3, "seed_offset": 0, "permutation": 2, "start_time_utc": "2026-10-27T18:09:14.185294+00:00", "end_time_utc": "2026-10-27T18:10:46.095410+00:00", "elapsed_seconds": 91.9111244159285, "reused_methods": ["hydro_decoder", "hydro_pair"], "primary_source": "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/main/r3", "training_n": 1187, "training_pairs": 25105, "predictions": 4068}

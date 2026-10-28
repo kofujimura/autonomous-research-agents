@@ -1,0 +1,59 @@
+{
+  "review_id": "review-014-1",
+  "start_time_utc": "2026-10-25T19:21:35Z",
+  "start_time_local": "2026-10-26T04:21:35+09:00 (JST)",
+  "deadline_utc": "2026-10-25T22:21:35Z",
+  "deadline_local": "2026-10-26T07:21:35+09:00 (JST)",
+  "target": {
+    "research_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+    "tag": "submission-1",
+    "tag_object_id": "17f82ae9dfae7f8b0e65142444682d236e790a32",
+    "tag_commit_id": "e459b6c0ba39032e1a8069ccc882717d2fac2d71",
+    "head_commit_at_start": "e459b6c0ba39032e1a8069ccc882717d2fac2d71"
+  },
+  "model": {
+    "name_given_in_conversation": "Opus 5.5, reasoning effort xhigh (specified by the human in input_prompt.md)",
+    "identifier_from_system_prompt": "claude-opus-5-5",
+    "identifiers_from_execution_environment": {
+      "CLAUDE_EFFORT": "xhigh",
+      "CLAUDE_CODE_ENTRYPOINT": "cli",
+      "ANTHROPIC_MODEL": "(unset)"
+    },
+    "note": "The model ID is taken from the runtime's system prompt; no environment variable names the model. The provider is presumed to be Anthropic via Claude Code; the API endpoint was not inspected."
+  },
+  "provider": "Anthropic (via Claude Code CLI) - presumed, endpoint not inspected",
+  "runtime": {
+    "claude_code_executable": "/Users/fujimura/.local/share/claude/versions/2.1.310 (version inferred from path)",
+    "os": "Darwin 25.5.0 arm64 (macOS)",
+    "python": "Python 3.13.7 (system python3)",
+    "git": "git version 2.50.1 (Apple Git-155)"
+  },
+  "unknowns": [
+    "Model identity is confirmed only through the system prompt text; not independently verifiable from the environment",
+    "Whether the effective reasoning effort equals xhigh beyond the CLAUDE_EFFORT environment variable",
+    "Provider endpoint (not inspected)"
+  ],
+  "end_time_utc": "2026-10-25T19:49:38Z",
+  "excluded_usage_limit_stop_seconds": 0,
+  "usage_limit_stops": [],
+  "deadline_extensions": [],
+  "end_state": "complete",
+  "target_state_end": {
+    "checked_at_utc": "2026-10-25T19:48:31Z",
+    "head": "e459b6c0ba39032e1a8069ccc882717d2fac2d71",
+    "tag_submission-1_commit": "e459b6c0ba39032e1a8069ccc882717d2fac2d71",
+    "git_status": "clean",
+    "sha256_entries": 8891,
+    "match": 8891,
+    "mismatch": 0,
+    "missing": 0,
+    "difference_from_start": "none"
+  },
+  "processes_remaining": "none (background full reproduction finished at 2026-10-25T19:43:39Z, exit 0)",
+  "storage_review_dir": "1.2G (du -sh at 19:48Z)",
+  "notes": [
+    "WebFetch (which uses an internal model) was not used; pages were fetched with curl and read directly; WebSearch was used for searching.",
+    "No sub-agents, no other AI/CLI, no AI API calls.",
+    "prior_expectation.md is not blind: written after viewing the abstract and Sections 1-3.5."
+  ]
+}

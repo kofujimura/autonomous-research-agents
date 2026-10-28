@@ -1,0 +1,258 @@
+{
+  "trial_id": "free-research-017",
+  "start_time_utc": "2026-10-27T04:34:15Z",
+  "start_time_zone": "UTC",
+  "local_time_zone": "Asia/Tokyo",
+  "first_draft_deadline_utc": "2026-10-27T17:37:35.523723Z",
+  "research_directory": "/Users/fujimura/Research/ai-free-research-en/run-017",
+  "limits": {
+    "research_hours": 12,
+    "review_response_hours": 2,
+    "storage_bytes": 10737418240,
+    "concurrent_experiment_processes": 2,
+    "experiment_process_timeout_seconds": 1800,
+    "ai_api_budget_usd": 20
+  },
+  "session_id": null,
+  "continuation_session_ids": [],
+  "model": {
+    "conversation_description": "Codex based on GPT-6; exact execution model identifier not exposed",
+    "provider": "OpenAI (conversation context)",
+    "reasoning_effort": null,
+    "runtime_confirmed_model_id": null
+  },
+  "execution_environment": {
+    "description": "Codex tool environment (developer instructions)",
+    "version": null,
+    "os": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7",
+    "git": "git version 2.50.1 (Apple Git-155)",
+    "shell": "zsh (environment context)"
+  },
+  "tools": {
+    "confirmed": [
+      "functions.exec",
+      "exec_command",
+      "web.run",
+      "clock.curr_time"
+    ],
+    "billing_category": "existing session allowance; additional billing unknown; no new paid tools authorized"
+  },
+  "skills": [
+    {
+      "name": "research-question",
+      "source": "/Users/fujimura/Research/ai-free-research-en/skills/research-question/SKILL.md",
+      "copied_to": "input_skills/research-question",
+      "read_full": true,
+      "influence": "topic-selection procedure"
+    },
+    {
+      "name": "openai-docs",
+      "source": "/Users/fujimura/.codex-research/skills/.system/openai-docs/SKILL.md",
+      "read_full": true,
+      "influence": "official API and pricing documentation only; no topic influence"
+    }
+  ],
+  "project_rules": {
+    "supplied": "start instructions v1.10.3; developer and tool restrictions",
+    "other_files_read": false
+  },
+  "persistent_memory": {
+    "existence": null,
+    "accessed": false
+  },
+  "user_profile": {
+    "visible_personal_environment_context": true,
+    "used_for_topic_selection": false,
+    "other_profile_existence": null
+  },
+  "ai_api": {
+    "budget_usd": 20,
+    "providers": [
+      "OpenAI"
+    ],
+    "key_env_name": "FREE_RESEARCH_OPENAI_API_KEY",
+    "key_env_exists": true,
+    "actual_cost_usd": null,
+    "prices_confirmed": true,
+    "critic_model_requested": "gpt-6-astra",
+    "critic_reasoning_effort": "xhigh",
+    "price_checked_at_utc": "2026-10-27T04:55:55.986246Z",
+    "price_source": "data/literature/openai-pricing.md",
+    "terms_checked_date": "2026-10-27",
+    "actual_cost_usd_lower_bound": 1.9453625,
+    "actual_cost_usd_upper_bound": 2.021775,
+    "cost_uncertainty": "Returned write-token count lacks the current 30m/12h lifetime breakdown and legacy retention is 24h. Prices for both current lifetimes are confirmed, but exact invoice-priced write charge is not observable. Do not invent a lifetime. Search item count follows skill step 6, which differs from provider tool_usage request count.",
+    "calls_completed": 1,
+    "further_calls_planned": false
+  },
+  "unknowns": [
+    "session identifier",
+    "exact session model identifier and settings",
+    "execution environment version",
+    "session usage and cost counters",
+    "persistent memory existence",
+    "Physical memory query was denied by sandbox; no escalation needed because bounded arrays avoid requiring it.",
+    "AI API exact cache-write lifetime charge remains unknown despite confirmed current price tiers"
+  ],
+  "sources": {
+    "start_time": "first date -u tool result",
+    "resources_and_paths": "user start instruction",
+    "os_python_git": "initial local runtime query",
+    "api_key_presence": "boolean-only environment check",
+    "model_description": "developer conversation context, not execution environment"
+  },
+  "deadline_extensions": [
+    {
+      "reason": "AI usage-limit stop confirmed explicitly by human resume message",
+      "last_pre_stop_tool_time_utc": "2026-10-27T06:15:24.175858Z",
+      "first_post_resume_tool_time_utc": "2026-10-27T07:14:25.085086Z",
+      "excluded_seconds": 3540.909228,
+      "original_deadline_utc": "2026-10-27T16:34:15Z",
+      "previous_deadline_utc": "2026-10-27T16:34:15Z",
+      "extended_deadline_utc": "2026-10-27T17:33:15.909228Z",
+      "processes_continued": [
+        {
+          "experiment_id": "E15",
+          "ended_at_utc": "2026-10-27T06:19:42.068146Z"
+        },
+        {
+          "experiment_id": "E18",
+          "ended_at_utc": "2026-10-27T06:27:53.022412Z"
+        }
+      ]
+    },
+    {
+      "reason": "AI usage-limit stop explicitly confirmed by human resume message",
+      "last_pre_stop_tool_time_utc": "2026-10-27T09:39:04.385505Z",
+      "last_time_source": "E0247: last recorded tool-produced UTC timestamp in previous execution; no later timestamp visible",
+      "first_post_resume_tool_time_utc": "2026-10-27T09:43:24Z",
+      "excluded_seconds": 259.614495,
+      "original_deadline_utc": "2026-10-27T16:34:15Z",
+      "previous_deadline_utc": "2026-10-27T17:33:15.909228Z",
+      "extended_deadline_utc": "2026-10-27T17:37:35.523723Z",
+      "processes_continued": [],
+      "process_note": "E50 ended at last recorded pre-stop timestamp; E48/E49 had already ended. No experiment process remained running."
+    }
+  ],
+  "input_prompt": {
+    "source": "manually copied in full from user message",
+    "finalized": true,
+    "attachment_available": false,
+    "byte_identity_to_original_attachment_verified": false
+  },
+  "research_question": "How does training-point allocation interact with annual satellite embeddings versus seasonal optical predictors in recovering small mapped wetland patches, and does an allocation benefit require an oracle object sampling frame?",
+  "topic_selection_commit": "4979e913c1184e7c54a955b82436dec70cb4101d",
+  "plan_versions": [
+    {
+      "path": "protocol/plan-v1.md",
+      "commit": "28988d87ab7958e0f85f9ca5c0d00bde4750b043"
+    },
+    {
+      "path": "protocol/plan-v2.md",
+      "commit": "a8bd6a86e732e9631ff620ac30181148a7994015"
+    },
+    {
+      "path": "protocol/plan-v3.md",
+      "commit": "e3c69c792aa2d4f71e4c560e8fed9c70aafbf62a"
+    },
+    {
+      "path": "protocol/plan-v4.md",
+      "commit": "4ba4211694c4f7588f002a600fbb33f302151211"
+    },
+    {
+      "path": "protocol/plan-v5.md",
+      "commit": "f6d09944dce26013f98a373b1a4b3b796be4074b"
+    },
+    {
+      "path": "protocol/plan-v6.md",
+      "commit": "cfec9f72e768a287a29fd751ab42c30b71c8e384"
+    },
+    {
+      "path": "protocol/plan-v7.md",
+      "commit": "21476d96ef27a9bef5e7e3ea7f2257a8ac5ca111",
+      "exploratory": true
+    },
+    {
+      "path": "protocol/plan-v8.md",
+      "commit": "74da6f1d17ba458cfcabe9af9bab28cf779a4175",
+      "exploratory": true
+    },
+    {
+      "path": "protocol/plan-v9.md",
+      "commit": "e2b47fb142ad9bf5cc03b3bfaf4c2ed8fe6cf58d",
+      "exploratory": true
+    },
+    {
+      "path": "protocol/plan-v10.md",
+      "commit": "e87add37ab24d5d2c5e6abb6777c1ca3a6f28585",
+      "exploratory": true
+    },
+    {
+      "path": "protocol/plan-v11.md",
+      "commit": "28a0c093d248b075e359d64b75f8890df1aa45fe",
+      "review_prompted": true,
+      "purpose": "Complete preplanned sensitivity/transfer reporting from saved outputs; no model/data changes"
+    }
+  ],
+  "hardware_memory_bytes": null,
+  "known_technical_conditions": [
+    "AEF COGs have south-up native row order; lossless flips used",
+    "Sentinel COG radiometric offset interpreted using item harmonization flag; original metadata retained"
+  ],
+  "dataset_fixed": {
+    "observed_at_utc": "2026-10-27T08:20:53.273913Z",
+    "event_id": "E0186",
+    "manifest_path": "data/derived/dataset-manifest.json",
+    "sha256": "c9311f6ab9444345c7ffbbfa98f9896e6f35b06f896d1b4d2954fa35d2bded35",
+    "core_count": 64,
+    "eligible_small_patches": 978
+  },
+  "large_output_storage": {
+    "predictions": "Bundled under data/results/predictions; new arrays excluded from Git for size; previously tracked arrays retained",
+    "integrity": "Every fit metadata JSON records SHA-256; all raw prediction arrays included in final hash list",
+    "verification": "Copy bundled arrays into a copy of submitted commit before running offline verification",
+    "reason": "Avoid a duplicate multi-gigabyte copy in Git while staying within 10 GiB; no raw measurements deleted"
+  },
+  "paper_question": "How does training-point allocation interact with annual satellite embeddings versus seasonal optical predictors at a common reference-upland FPR, and can tested image-derived allocation recover an oracle object-frame benefit?",
+  "question_wording_clarification": {
+    "observed_at_utc": "2026-10-27T11:30:16.098834Z",
+    "reason": "Original necessity wording cannot be established by finite alternatives; narrow reported wording to tested alternatives, retaining original plan/question and primary contrast unchanged."
+  },
+  "data_privacy": {
+    "individual_household_business_data_analyzed": false,
+    "incidental_public_literature_contacts": "Original scholarly PDFs contain author names and professional contact details incidentally; retained only as original sources for citation checking, not extracted, linked or analyzed",
+    "NWCA_site_or_ownership_data_downloaded": false
+  },
+  "first_draft_prepared_at_utc": "2026-10-27T11:55:24.365166Z",
+  "submission_protocol": {
+    "target_tag": "submission-1",
+    "final_receipt_location": "Working events.jsonl after tag creation; hashes use tagged tracked bytes plus bundled raw files",
+    "review_state": "No review received; freeze once tag created",
+    "final_tag": "final"
+  },
+  "review_response": {
+    "review_id": "review-017-1",
+    "received_first_tool_time_utc": "2026-10-27T12:37:33Z",
+    "deadline_utc": "2026-10-27T14:37:33Z",
+    "reviewer_information_source": "Human REVIEW-1 message; not directly observable by research agent",
+    "reviewer_runtime_reported": "Claude Code 2.1.311 (AI_AGENT=claude-code_2-1-311_agent), CLAUDE_EFFORT=xhigh",
+    "reviewer_model_conversation_reported": "Opus 5.5 (system prompt model ID claude-opus-5-5); served model not confirmed",
+    "original_text_path": "review/review-1.md",
+    "target_commit": "8ff25a6335b4ec3aee0b998032633a6948f840b9",
+    "original_text_source": "Manually copied in full from human REVIEW-1 message; no attachment/byte identity independently available",
+    "deadline_computation": "First post-review tool timestamp plus configured2hours, verified with datetime arithmetic",
+    "status": "complete",
+    "completed_at_utc": "2026-10-27T13:15:50.058580Z",
+    "decisions": {
+      "adopted": 6
+    },
+    "new_model_fits": 0,
+    "new_ai_api_calls": 0,
+    "verification_reports": [
+      "review/offline-verification.json",
+      "review/final-manuscript-check/comparison.json"
+    ]
+  },
+  "final_submission_prepared_at_utc": "2026-10-27T13:15:50.058740Z"
+}

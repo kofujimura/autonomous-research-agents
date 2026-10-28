@@ -1,0 +1,235 @@
+{
+ "meta": {
+  "reviewer": "muse",
+  "model": "muse-wonder-1.0",
+  "run": "017",
+  "rep": 2,
+  "started_utc": "2026-10-28T13:59:52Z",
+  "figures": 1,
+  "usage": {
+   "input_tokens": 435937,
+   "cached_input_tokens": 242643,
+   "output_tokens": 7048,
+   "thought_tokens": 4420,
+   "search_queries": 11
+  },
+  "cost_usd": 0.990165,
+  "mode": "schema",
+  "model_version": "muse-wonder-1.0",
+  "finish_reason": "completed"
+ },
+ "review": {
+  "closest_prior_work": [
+   {
+    "citation": "Brown, C. F. et al. (2025). AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data. arXiv:2507.22291.",
+    "difference": "Establishes the multi-source annual embedding and sparse-label mapping paradigm; this paper instead tests whether patch-first fitting allocation changes small-patch recovery for frozen embeddings versus optical predictors.",
+    "url": "https://arxiv.org/abs/2507.22291"
+   },
+   {
+    "citation": "Ryan, S., Powell, M., Ling, J. & Wen, L. (2026). Streamlining Wetland Vegetation Mapping with AlphaEarth Embeddings. Remote Sensing, 18, 293.",
+    "difference": "Directly compares AlphaEarth with a conventional wetland-vegetation workflow, but uses aggregate accuracy and map-coherence measures rather than matched training-position allocation and held-out small-patch recovery.",
+    "url": "https://doi.org/10.3390/rs18020293"
+   },
+   {
+    "citation": "Corcoran, J. et al. (2015). The Effects of Point or Polygon Based Training Data on RandomForest Classification Accuracy of Wetlands. Remote Sensing, 7, 4002-4025.",
+    "difference": "Already compared point, fixed-window and image-object training for wetland random forests; this paper keeps pixel predictors and output grid fixed and isolates fitting-position allocation, including an embedding interaction.",
+    "url": "https://doi.org/10.3390/rs70404002"
+   },
+   {
+    "citation": "Zhou, P. et al. (2025). Using an Area-Weighted Loss Function to Address Class Imbalance in Deep Learning-Based Mapping of Small Water Bodies. Remote Sensing, 17, 1868.",
+    "difference": "Already upweights smaller water bodies because imbalance biases models against them; the present inverse-size weighting is only an exploratory diagnostic, so the novelty is the allocation comparison, not size-aware weighting.",
+    "url": "https://doi.org/10.3390/rs17111868"
+   },
+   {
+    "citation": "Radoux, J. & Bogaert, P. (2017). Good Practices for Object-Based Accuracy Assessment. Remote Sensing, 9, 646.",
+    "difference": "Provides established object-based validation guidance for polygon-partitioned maps; this paper applies equal-patch thinking to training allocation and patch recovery, rather than introducing the underlying sampling principle.",
+    "url": "https://doi.org/10.3390/rs9070646"
+   }
+  ],
+  "familiarity": "no",
+  "figures_viewed": true,
+  "main_issues": [
+   {
+    "issue": "The headline interaction is highly split-dependent: the planned split gives 11.6 pp and is the largest of four splits, whereas exploratory pooling gives 4.5 pp and the three new split interactions range from -0.4 to 4.7 pp; the primary conditional interval excludes split-selection and retraining uncertainty.",
+    "severity": "critical"
+   },
+   {
+    "issue": "The primary operating point is standardized using pooled test-reference-upland scores, so it is not a deployable threshold; under validation-selected thresholds the interaction interval includes zero, and thresholds transferred from other projects produce a negative pooled embedding gain with achieved FPRs of 0.1-15.2%.",
+    "severity": "critical"
+   },
+   {
+    "issue": "The embedding-versus-optical contrast is confounded by information content: AlphaEarth is a multisensor annual representation, whereas the optical baseline is limited to seasonal Sentinel-2 medians plus indices and simple context features, so the interaction cannot be attributed to embeddings as a general class.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "The oracle allocation is privileged and partly circular for the stated inventory-owner setting because it uses the same inventory boundaries whose agreement is being reproduced; it demonstrates a diagnostic sampling effect, not annotation-cost savings or a de novo mapping benefit, and the planned optical-guided proposals do not recover it.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "Generality is narrow: four convenience US NWI projects, 64 small cores, nominally 2020 but temporally heterogeneous reference mapping, palustrine wetlands only, simple RF/logistic decoders, and null whole-project transfer.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "Reproducibility from the PDF alone is limited because no repository URL or DOI is given and exact core identifiers, scene lists, code and records are said to be in bundled files that are not inspectable from the manuscript as presented.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "The many pre-performance amendments and post-primary exploratory families, all with unadjusted conditional intervals, create multiplicity and emphasis risks despite generally careful labelling of planned versus exploratory results.",
+    "severity": "moderate"
+   },
+   {
+    "issue": "The manuscript is overloaded with protocol history and appendix sensitivities, and at least one main figure panel is visually cropped at the right edge, making the central message harder to extract.",
+    "severity": "minor"
+   }
+  ],
+  "main_track_level": "no",
+  "overall_10": 4,
+  "research_question": {
+   "predictable": "partly",
+   "predictable_reason": "A patch-first gain on an equal-patch-weighted recovery metric is partly expected because patch-first sampling deliberately over-represents small patches relative to area sampling, but the embedding-specific excess, its split dependence and the transfer failure were not determined by the design.",
+   "question": "How does patch-first versus area-based allocation of a fixed number of training positions interact with annual satellite embeddings versus seasonal optical predictors in recovering small mapped wetland patches at a common false-positive rate, and can image-derived allocation recover the oracle patch-frame benefit?",
+   "question_quality": 4
+  },
+  "score_reasons": {
+   "clarity": "Terms and caveats are carefully defined, but the abstract, results and appendices are overloaded with exploratory analyses, protocol versions and conditional intervals, obscuring the main finding.",
+   "correctness": "The reported arithmetic and narrow within-study interpretations are mostly sound and unusually well caveated, but the central magnitude is split-sensitive and the primary test-standardized threshold does not support a deployable-effect interpretation.",
+   "generality": "Evidence is limited to within-project prediction in four convenience NWI projects from one nominal year; whole-project transfer and threshold transport do not retain the finding.",
+   "novelty": "The exact frozen-embedding by allocation interaction for small-patch recovery appears incremental rather than conceptually new, since patch-first sampling, object-based validation and size weighting have clear precedents that the paper itself acknowledges.",
+   "usefulness": "It usefully warns inventory teams to report patch recovery beside pixel metrics and to validate thresholds locally, but the actionable benefit is restricted to actors already holding a comparable inventory.",
+   "verifiability": "Methods, data processing, seeds, thresholds and sensitivity definitions are detailed and public sources are named, but the PDF provides no direct code/data repository and relies on bundled records and hashes that cannot be checked from the paper alone."
+  },
+  "scores": {
+   "clarity": 2,
+   "correctness": 4,
+   "generality": 2,
+   "novelty": 2,
+   "usefulness": 3,
+   "verifiability": 3
+  },
+  "strengths": [
+   "Matched fitting positions, shared negative positions, common seeds and multiple class-count, region-quota, core-quota and minimum-mapping-unit controls make the core allocation comparison unusually disciplined.",
+   "The paper transparently reports results that weaken its headline, including split rotations, validation-threshold replay, failed optical proposals, lower average precision under oracle allocation and poor cross-project threshold transport.",
+   "Patch recovery at several coverage definitions is reported alongside pixel metrics, revealing that any-overlap and at-least-half coverage can lead to different practical conclusions.",
+   "Definitions, threshold construction, reference limitations and the distinction between inventory agreement and ecological completeness are stated with exceptional care."
+  ],
+  "summary": "This is a careful, heavily controlled empirical study showing that patch-first training allocation can improve recovery of small mapped wetland patches, more for AlphaEarth embeddings than for a seasonal Sentinel-2 baseline in the planned split. Its own exploratory split pooling halves the embedding-specific interaction, however, and validation replay plus cross-project threshold transfer do not establish a deployable or transportable benefit. The contribution is therefore a useful but incremental diagnostic for inventory-owning mapping teams, not yet a general demonstration that embeddings uniquely benefit from object-frame allocation.",
+  "verdict": "major revision",
+  "workshop_level": "borderline"
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "muse-wonder-1.0",
+  "finish_reason": "completed",
+  "web_search_queries": [
+   "AlphaEarth Foundations embedding field model sparse label data Brown 2025 arXiv 2507.22291",
+   "Ryan 2026 Streamlining Wetland Vegetation Mapping AlphaEarth Embeddings Remote Sensing 18 293",
+   "Corcoran 2015 Effects Point Polygon Based Training Data Random Forest Wetlands",
+   "Zhou 2025 area-weighted loss small water bodies mapping class imbalance",
+   "Liu 2026 Utility Explainability Earth Embeddings Mapping Small Ponds LGRS",
+   "Radoux Bogaert 2017 Good Practices Object-Based Accuracy Assessment equal polygon sampling",
+   "training sample allocation object based sampling equal probability polygons remote sensing small objects patch recovery",
+   "Wetland Intrinsic Potential tool Halabisky 2023 preliminary model probability strata uncertain sampling",
+   "AlphaEarth embeddings wetland mapping small patches object recovery patch level evaluation",
+   null,
+   null
+  ],
+  "sources": [
+   "https://github.com/Brayden-Zhang/alphaearth-foundations",
+   "https://bb.jaff.eu.org:443/https/arxiv.org/pdf/2507.22291",
+   "https://rogue-scholar.org/records/xesay-pec98",
+   "https://resources.trase.earth/data/facilities-data/Brazil_soy_facilities_methods_2026_02.pdf",
+   "https://embed2scale.eu/download/d1-2-extended-openeo-api-specification/?ind=1765980777735&filename=Embed2Scale-D1.2 - EXTENDED openEO API SPECIFICATION.pdf&wpdmdl=1975&refresh=6a4bb6a6a2c401783346854",
+   "https://arxiv.org/pdf/2507.22291",
+   "https://njnbhqqzlphccjyajddb.supabase.co/storage/v1/object/public/portofolio/masters-thesis/alphaearth/papers/AlphaEarth.pdf",
+   "https://www.mdpi.com/2072-4292/18/18/3248",
+   "https://storage.staging.researchhub.com/uploads/papers/2026/02/15/2602.10354.pdf",
+   "https://arxiv.org/pdf/2602.17250",
+   "https://ccai-papers.s3.us-east-1.amazonaws.com/neurips2025/56/paper.pdf",
+   "https://ouci.dntb.gov.ua/en/works/4Mn1YDPl/",
+   "https://ouci.dntb.gov.ua/works/422mg3W4/",
+   "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-18-00293/article_deploy/remotesensing-18-00293.pdf",
+   "https://arxiv.org/html/2610.32617v1",
+   "https://arxiv.org/pdf/2610.32617",
+   "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-18-00293/article_deploy/remotesensing-18-00293-v2.pdf?version=1768546544",
+   "https://www.Preprints.Org/manuscript/202605.0981",
+   "https://www.mdpi.com/2072-4292/18/2/293",
+   "https://www.researchsquare.com/article/rs-11254365/v1.pdf",
+   "https://www.mdpi.com/2072-4292/18/17/2952",
+   "https://export.arxiv.org/pdf/2604.14756",
+   "https://ouci.dntb.gov.ua/en/works/73WMNeq7/",
+   "https://paperity.org/p/229945002/the-effects-of-point-or-polygon-based-training-data-on-randomforest-classification",
+   "https://ouci.dntb.gov.ua/en/works/7nJnOk67/",
+   "https://www2.mdpi.com/journal/remotesensing/special_issues/wetland-landscapes",
+   "https://mdpi-res.com/d_attachment/sensors/sensors-23-08530/article_deploy/sensors-23-08530-v2.pdf?version=1697614402",
+   "http://pdfs.semanticscholar.org/b75e/279e0ee7cec0bd6eaf3bb9f85576bc1f97c2.pdf",
+   "https://www.csauthors.net/jennifer-corcoran/",
+   "https://mdpi-res.com/d_attachment/sensors/sensors-23-08530/article_deploy/sensors-23-08530.pdf",
+   "https://www.thefreelibrary.com/Comparing+Three+Methods+of+Selecting+Training+Samples+in+Supervised...-a0772529450",
+   "http://mdpi.com/1424-8220/23/20/8530/xml",
+   "https://link.springer.com/chapter/10.1007/978-3-319-75193-1_29?error=cookies_not_supported&code=d571a705-43bb-4ede-9496-18aed9d1da09",
+   "https://openaccess.library.uitm.edu.my/Record/doaj-3d312553d97849c0aea342a11ec7d66d",
+   "https://ouci.dntb.gov.ua/en/works/4awwjk09/",
+   "https://ouci.dntb.gov.ua/works/lmB8GyB9/",
+   "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-17-01868/article_deploy/remotesensing-17-01868.pdf?version=1748417464",
+   "https://ouci.dntb.gov.ua/en/works/lmy88qjl/",
+   "https://www.researchgate.net/publication/342291542_Focal_Loss_Function_based_DeepLabv3_for_Pathological_Lymph_Node_Segmentation_on_PETCT",
+   "https://ouci.dntb.gov.ua/works/7WkWrwL7/",
+   "https://www.mdpi.com/2072-4292/17/11/1868",
+   "https://www.Mdpi.com/journal/remotesensing/special_issues/BY0JUDUO3P",
+   "https://dl.acm.org/doi/abs/10.1145/3399637.3399651?cookieSet=1",
+   "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-17-02738/article_deploy/remotesensing-17-02738-v2.pdf?version=1754641038",
+   "https://arxiv.org/pdf/2609.25731",
+   "https://arxiv.org/pdf/2610.23110",
+   "https://www.sciencedirect.com/author/56541527400/mila-n-koeva",
+   "https://github.com/yanghuisong/proc-sam3",
+   "https://arxiv.org/pdf/2604.14756v1",
+   "https://ouci.dntb.gov.ua/en/works/4gVNAr67/",
+   "https://www.preprints.org/frontend/manuscript/e6a403429b91855da33c96b9d269e7b4/download_pub",
+   "https://arxiv.org/pdf/2606.24424",
+   "https://export.arxiv.org/pdf/2604.19591",
+   "https://www.vliz.be/imisdocs/publications/ocrd/303583.pdf",
+   "https://www.vliz.be/imisdocs/publications/303583.pdf",
+   "https://meetingorganizer.copernicus.org/EGU2012/EGU2012-10330.pdf",
+   "http://www.mdpi.com/2072-4292/9/7/646",
+   "http://www.mdpi.com/204548",
+   "https://dial.uclouvain.be/pr/boreal/object/boreal:135611/datastream/PDF_01/view",
+   "https://ouci.dntb.gov.ua/en/works/4avqgQNl/",
+   "https://Www.Mdpi.Com/2072-4292/10/2/303",
+   "https://www.mdpi.com/2072-4292/10/2/303/htm",
+   "https://www.asprs.org/a/publications/proceedings/Sacramento2012/files/MacLean.pdf",
+   "https://core.ac.uk/outputs/84637113/",
+   "https://scerin.eu/scerin2016/presentations/21_02_Ozdogan_SCERIN4_2016.pdf",
+   "https://www2.mdpi.com/2072-4292/14/9/2281",
+   "https://www.researchgate.net/publication/360496157_Augmentation-Based_Methodology_for_Enhancement_of_Trees_Map_Detalization_on_a_Large_Scale\r",
+   "https://mdpi-res.com/d_attachment/forests/forests-12-01413/article_deploy/forests-12-01413-v2.pdf",
+   "https://mdpi-res.com/forests/forests-12-01413/article_deploy/forests-12-01413-v4.pdf?version=1634871311",
+   "https://www.mdpi.com/2072-4292/18/16/2844",
+   "https://www.mdpi.com/1999-4907/12/10/1413/xml",
+   "https://www.mdpi.com/2072-4292/18/16/2844/pdf?version=1787322968",
+   "https://wahyu-ramadhan.medium.com/remote-sensing-image-classification-strategies-d2f9f42aa0a7",
+   "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-12-00377/article_deploy/remotesensing-12-00377-v2.pdf?version=1580817116",
+   "https://zenodo.org/records/14317461/files/fulltext.pdf?download=1",
+   "https://etd.auburn.edu/bitstream/handle/10415/9363/MS_Thesis_KurtisFisher.pdf?sequence=2&isAllowed=y",
+   "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025JG009633",
+   "https://egusphere.copernicus.org/preprints/2022/egusphere-2022-665/egusphere-2022-665-manuscript-version3.pdf",
+   "https://dev-dnr-dnr2.pantheonsite.io/sites/default/files/2025-07/bc_fpb_wip_final_report_20210811.pdf",
+   "https://clear-https-nbsxg4zomnxxazlsnzuwg5ltfzxxezy.proxy.exploreos.com/articles/27/3687/2023/hess-27-3687-2023.pdf",
+   "https://www.dnr.wa.gov/publications/bc_fpb_wip_final_report_20210811.pdf",
+   "http://nawm.aswm.org/nawm/nawm-category/2023-past-wetland-mapping-consortium-webinars.html",
+   "https://hess.copernicus.org/articles/27/3687/2023/hess-27-3687-2023.pdf",
+   "https://www.nawm.org/nawm/nawm-category.html?start=20",
+   "https://www.researchgate.net/publication/377695784_Revealing_the_hidden_carbon_in_forested_wetland_soils",
+   "https://www.mdpi.com/2072-4292/18/2/293",
+   "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-18-00293/article_deploy/remotesensing-18-00293.pdf",
+   "https://ouci.dntb.gov.ua/works/422mg3W4/",
+   "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-18-00293/article_deploy/remotesensing-18-00293-v2.pdf?version=1768546544",
+   "https://www.researchgate.net/figure/PAs-and-UAs-obtained-by-comparing-the-L-CWI-map-with-each-of-the-in-situ-dataset-The_fig9_346807979",
+   "https://github.com/charlesmerritt/artemis-model/blob/HEAD/docs/treemap_holes/README.md",
+   "https://github.com/mkovac03/wetland_segmentation",
+   "https://ode.partners/en/insights/using-large-earth-observation-foundation-models-to-map-soy",
+   "https://medium.com/@ya_71389/lucera-land-use-classification-with-embeddings-and-regional-annotations-36915ca3a855",
+   "https://github.com/mashrekur/hydrojepa",
+   "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-18-02964/article_deploy/remotesensing-18-02964.pdf?version=1788341733"
+  ]
+ }
+}

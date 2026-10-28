@@ -1,0 +1,11 @@
+model,fold,states,tree_plots,non_tree_plots,available
+aef,0,258,104,25,True
+aef,1,276,95,43,True
+aef,2,278,101,38,True
+aef,3,244,77,45,True
+aef,4,272,87,49,True
+tessera,0,251,103,25,True
+tessera,1,269,94,43,True
+tessera,2,271,100,38,True
+tessera,3,237,76,45,True
+tessera,4,272,87,49,True

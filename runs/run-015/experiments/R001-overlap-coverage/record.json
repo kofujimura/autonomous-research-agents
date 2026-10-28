@@ -1,0 +1,26 @@
+{
+  "experiment_id": "R001-overlap-coverage",
+  "started_at_utc": "2026-10-26T06:33:09Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/overlap_recovery.py",
+    "--output",
+    "results/overlap-recovery"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v8-overlap-recovery.md",
+  "plan_commit_id": "e805b300d419402f983ac61a063390a9e6527cbc",
+  "code_commit_id": "69e57ead8760e61617873d0b1d4dfe3ca9cde718",
+  "input_sha256": {
+    "data/weather-v4/20260709/aifs-ens/84/temperatures.npz": "29cb1fb1d928e3ed46c84ae0460dc2038837f3e0e9f5f3c68661f29c174d8a26",
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "results/primary/cases.csv": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d"
+  },
+  "status": "completed",
+  "start_event_id": "E0477",
+  "child_pid": 63937,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T06:33:27Z",
+  "elapsed_seconds": 17.758422791957855,
+  "end_event_id": "E0478"
+}

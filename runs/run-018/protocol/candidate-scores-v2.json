@@ -1,0 +1,410 @@
+[
+  {
+    "candidate_id": "C01",
+    "scores": {
+      "impact": 4,
+      "novelty": 3,
+      "non_obviousness": 2,
+      "generality": 3,
+      "unpredictability": 4,
+      "feasibility": 4,
+      "verification": 3
+    },
+    "reasons": {
+      "impact": "Validates whether an emerging reference-selection shortcut retains a necessary habitat condition.",
+      "novelty": "No direct within-vegetation wetland-neighbour evaluation found in the bounded search; adjacent work is substantial.",
+      "non_obviousness": "Separating metric geometry from retained hydrological information is less obvious than mapping vegetation.",
+      "generality": "Two independently trained representations plus spatial and temporal conditions can test a broader distinction.",
+      "unpredictability": "Either reliable or unreliable conditional matches would inform evidence requirements.",
+      "feasibility": "Actual public labels and a correctly oriented 64-band window retrieved.",
+      "verification": "Official labels are verifiable but are not field hydrographs or validated restoration outcomes."
+    },
+    "main_criterion_total": 16,
+    "all_axes_total": 23,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C02",
+    "scores": {
+      "impact": 4,
+      "novelty": 1,
+      "non_obviousness": 2,
+      "generality": 3,
+      "unpredictability": 3,
+      "feasibility": 3,
+      "verification": 4
+    },
+    "reasons": {
+      "impact": "Agricultural alerts have a practical decision path.",
+      "novelty": "Crop rotation and temporal consistency already directly studied.",
+      "non_obviousness": "Temporal drift is a readily foreseeable concern.",
+      "generality": "Transfer issue extends beyond one tool but yearly products remain central.",
+      "unpredictability": "Actual cross-year performance is empirical.",
+      "feasibility": "Data access plausible; feasibility is an estimate without a dedicated pilot.",
+      "verification": "Annual public labels provide checks, with map errors."
+    },
+    "main_criterion_total": 13,
+    "all_axes_total": 20,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C03",
+    "scores": {
+      "impact": 4,
+      "novelty": 2,
+      "non_obviousness": 2,
+      "generality": 4,
+      "unpredictability": 3,
+      "feasibility": 1,
+      "verification": 4
+    },
+    "reasons": {
+      "impact": "Joint energy scarcity changes backup decisions.",
+      "novelty": "Marginal versus joint skill and regional wind power are already studied.",
+      "non_obviousness": "Tail dependence is an established concern.",
+      "generality": "Dependence-aware decisions are general.",
+      "unpredictability": "Joint-tail performance needs data but direction of dependence effects is familiar.",
+      "feasibility": "Official saved forecasts require unapproved access; pilot fails.",
+      "verification": "If obtained, coherent forecasts and reanalysis allow direct checks."
+    },
+    "main_criterion_total": 15,
+    "all_axes_total": 20,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C04",
+    "scores": {
+      "impact": 4,
+      "novelty": 1,
+      "non_obviousness": 2,
+      "generality": 4,
+      "unpredictability": 2,
+      "feasibility": 2,
+      "verification": 2
+    },
+    "reasons": {
+      "impact": "Mutual-aid capacity can be affected.",
+      "novelty": "Spatial heat concurrence and resource dependence are known.",
+      "non_obviousness": "Nearby regions sharing heat is obvious.",
+      "generality": "Resource-sharing issue is broad.",
+      "unpredictability": "Scarcity direction is predictable.",
+      "feasibility": "Humidity, subdaily data and demand unavailable; feasibility is an estimate.",
+      "verification": "Weather is a proxy for relief demand."
+    },
+    "main_criterion_total": 13,
+    "all_axes_total": 17,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C05",
+    "scores": {
+      "impact": 3,
+      "novelty": 2,
+      "non_obviousness": 3,
+      "generality": 3,
+      "unpredictability": 3,
+      "feasibility": 1,
+      "verification": 2
+    },
+    "reasons": {
+      "impact": "May guide structural triage, not treatment efficacy.",
+      "novelty": "Confidence audits exist; environmental difference unestablished.",
+      "non_obviousness": "Cofactor context is somewhat cross-disciplinary.",
+      "generality": "Context sensitivity extends across proteins.",
+      "unpredictability": "Actual geometry dependence needs observations.",
+      "feasibility": "Relevant paired environmental predictions unavailable; feasibility is an estimate.",
+      "verification": "Structures check geometry only, not treatment."
+    },
+    "main_criterion_total": 14,
+    "all_axes_total": 17,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C06",
+    "scores": {
+      "impact": 3,
+      "novelty": 1,
+      "non_obviousness": 2,
+      "generality": 3,
+      "unpredictability": 3,
+      "feasibility": 1,
+      "verification": 2
+    },
+    "reasons": {
+      "impact": "May refine crop-protein screening.",
+      "novelty": "No clear difference from existing binding benchmarks.",
+      "non_obviousness": "Missing ionic context is foreseeable.",
+      "generality": "Potential relevance spans proteins.",
+      "unpredictability": "Specific structural outcomes empirical.",
+      "feasibility": "Relevant paired plant data not located; feasibility is an estimate.",
+      "verification": "Function and uptake unverified."
+    },
+    "main_criterion_total": 12,
+    "all_axes_total": 15,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C07",
+    "scores": {
+      "impact": 4,
+      "novelty": 3,
+      "non_obviousness": 3,
+      "generality": 3,
+      "unpredictability": 4,
+      "feasibility": 1,
+      "verification": 4
+    },
+    "reasons": {
+      "impact": "Occupancy monitoring depends on preserving calls.",
+      "novelty": "Task-specific source separation exists; broad-separation occupancy preservation not found.",
+      "non_obviousness": "Ecological evidence preservation differs from perceptual quality.",
+      "generality": "Could generalize across separators, but one new model remains central.",
+      "unpredictability": "Insertion, deletion and timing errors are empirical.",
+      "feasibility": "Weights gated and appropriate saved outputs not found; feasibility is an estimate from access documentation.",
+      "verification": "Event annotations can check presence/timing if licensed data obtained."
+    },
+    "main_criterion_total": 17,
+    "all_axes_total": 22,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C08",
+    "scores": {
+      "impact": 3,
+      "novelty": 2,
+      "non_obviousness": 2,
+      "generality": 3,
+      "unpredictability": 2,
+      "feasibility": 1,
+      "verification": 1
+    },
+    "reasons": {
+      "impact": "Event counts matter to acousticians.",
+      "novelty": "Environmental source extraction is established.",
+      "non_obviousness": "Amplitude preservation is an obvious issue.",
+      "generality": "Relevant to many separators.",
+      "unpredictability": "Threshold effects partly follow from rescaling.",
+      "feasibility": "Calibrated outputs unavailable; feasibility is an estimate.",
+      "verification": "Perceptual data do not establish regulatory sound levels."
+    },
+    "main_criterion_total": 12,
+    "all_axes_total": 14,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C09",
+    "scores": {
+      "impact": 4,
+      "novelty": 2,
+      "non_obviousness": 1,
+      "generality": 3,
+      "unpredictability": 2,
+      "feasibility": 4,
+      "verification": 4
+    },
+    "reasons": {
+      "impact": "Demand margins are operationally relevant.",
+      "novelty": "Cold-start forecasts, probabilistic demand and extreme-condition evaluation already studied.",
+      "non_obviousness": "Short-history tail failures are foreseeable.",
+      "generality": "Could test multiple priors, with domain-specific limits.",
+      "unpredictability": "Actual calibrated decision losses need data.",
+      "feasibility": "Licensed aggregate archive and small-model config obtained; no inference yet.",
+      "verification": "Observed inflows validate forecasts but shortage effects are not observed."
+    },
+    "main_criterion_total": 12,
+    "all_axes_total": 20,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C10",
+    "scores": {
+      "impact": 4,
+      "novelty": 1,
+      "non_obviousness": 2,
+      "generality": 4,
+      "unpredictability": 1,
+      "feasibility": 2,
+      "verification": 1
+    },
+    "reasons": {
+      "impact": "Restoring service is an actionable question.",
+      "novelty": "Censored demand is a classic problem.",
+      "non_obviousness": "Closure zeros clearly change observations.",
+      "generality": "Censorship occurs across services.",
+      "unpredictability": "Latent demand cannot be identified from observed zeros alone.",
+      "feasibility": "Data exist but target missing; feasibility is an estimate.",
+      "verification": "No ground truth for unmet demand."
+    },
+    "main_criterion_total": 12,
+    "all_axes_total": 15,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C11",
+    "scores": {
+      "impact": 3,
+      "novelty": 1,
+      "non_obviousness": 1,
+      "generality": 3,
+      "unpredictability": 1,
+      "feasibility": 3,
+      "verification": 2
+    },
+    "reasons": {
+      "impact": "Potential screening blind spots matter.",
+      "novelty": "Threshold exclusion and forest-definition issues well known.",
+      "non_obviousness": "Threshold omissions are obvious.",
+      "generality": "Definitions general, numeric prevalence product-specific.",
+      "unpredictability": "Core conclusion is definitional.",
+      "feasibility": "Public heights feasible; feasibility is an estimate.",
+      "verification": "Height does not verify additionality or recovery."
+    },
+    "main_criterion_total": 9,
+    "all_axes_total": 14,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C12",
+    "scores": {
+      "impact": 3,
+      "novelty": 2,
+      "non_obviousness": 2,
+      "generality": 3,
+      "unpredictability": 3,
+      "feasibility": 3,
+      "verification": 3
+    },
+    "reasons": {
+      "impact": "Could change where detailed urban shade assessment is commissioned.",
+      "novelty": "Canopy-cover limitations already clearly established; transfer-error question narrower.",
+      "non_obviousness": "Error propagation into shade priorities is foreseeable.",
+      "generality": "Global maps offer broader scope, but two map products remain central.",
+      "unpredictability": "Actual ranking changes need empirical geometry.",
+      "feasibility": "Public lidar/heights plausible; feasibility is an estimate without pilot.",
+      "verification": "Lidar checks geometry, not thermal comfort or health."
+    },
+    "main_criterion_total": 13,
+    "all_axes_total": 19,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C13",
+    "scores": {
+      "impact": 4,
+      "novelty": 1,
+      "non_obviousness": 2,
+      "generality": 4,
+      "unpredictability": 1,
+      "feasibility": 1,
+      "verification": 3
+    },
+    "reasons": {
+      "impact": "Rule boundary errors matter to implementers.",
+      "novelty": "Catala and formal computational-law tools already address this.",
+      "non_obviousness": "Boundary testing is obvious.",
+      "generality": "Invariants apply broadly.",
+      "unpredictability": "Constructed examples can make outcome tautological.",
+      "feasibility": "General proof system not public; feasibility is an estimate.",
+      "verification": "Proofs verify formalization, not statutory interpretation."
+    },
+    "main_criterion_total": 12,
+    "all_axes_total": 16,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "C14",
+    "scores": {
+      "impact": 3,
+      "novelty": 1,
+      "non_obviousness": 1,
+      "generality": 4,
+      "unpredictability": 1,
+      "feasibility": 1,
+      "verification": 3
+    },
+    "reasons": {
+      "impact": "Would clarify electoral guarantees.",
+      "novelty": "Mathematical apportionment theory already extensive.",
+      "non_obviousness": "Checking quotas is obvious.",
+      "generality": "Mathematical statements general.",
+      "unpredictability": "Many violations derivable analytically.",
+      "feasibility": "New capability inaccessible/unnecessary; feasibility is an estimate.",
+      "verification": "Kernel checks formal models only."
+    },
+    "main_criterion_total": 10,
+    "all_axes_total": 14,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "O01",
+    "scores": {
+      "impact": 4,
+      "novelty": 2,
+      "non_obviousness": 2,
+      "generality": 4,
+      "unpredictability": 3,
+      "feasibility": 2,
+      "verification": 2
+    },
+    "reasons": {
+      "impact": "Heat-sharing capacity matters.",
+      "novelty": "Broad concern known.",
+      "non_obviousness": "Obvious candidate cap 2.",
+      "generality": "Joint resource risk general.",
+      "unpredictability": "Frequencies empirical.",
+      "feasibility": "No pilot; estimate.",
+      "verification": "Demand proxy weak."
+    },
+    "main_criterion_total": 15,
+    "all_axes_total": 19,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "O02",
+    "scores": {
+      "impact": 4,
+      "novelty": 2,
+      "non_obviousness": 2,
+      "generality": 3,
+      "unpredictability": 3,
+      "feasibility": 3,
+      "verification": 3
+    },
+    "reasons": {
+      "impact": "Shade priority decisions matter.",
+      "novelty": "Height and canopy quality already known.",
+      "non_obviousness": "Obvious candidate cap 2.",
+      "generality": "Some generality across cities.",
+      "unpredictability": "Actual map error empirical.",
+      "feasibility": "No pilot; estimate.",
+      "verification": "Geometry not health."
+    },
+    "main_criterion_total": 14,
+    "all_axes_total": 20,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  },
+  {
+    "candidate_id": "O03",
+    "scores": {
+      "impact": 4,
+      "novelty": 2,
+      "non_obviousness": 2,
+      "generality": 3,
+      "unpredictability": 3,
+      "feasibility": 2,
+      "verification": 2
+    },
+    "reasons": {
+      "impact": "Flood evacuation decisions matter.",
+      "novelty": "Three-dimensional routing already investigated.",
+      "non_obviousness": "Obvious candidate cap 2.",
+      "generality": "Spatial access issue broad.",
+      "unpredictability": "Actual errors empirical.",
+      "feasibility": "No pilot; estimate.",
+      "verification": "Building height not route passability."
+    },
+    "main_criterion_total": 14,
+    "all_axes_total": 18,
+    "revised_at_utc": "2026-10-27T15:23:20.278327+00:00"
+  }
+]

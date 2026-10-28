@@ -1,0 +1,3 @@
+tag,taxonomy,representation,units,landscapes,zero_change,tiny_change,entropy_floor,entropy_ceiling,observed_support_entropy_ceiling,single_group_either_year,single_group_both_years,labels_unchanged_all,reference_proportions_identical,identical_predictions,spatially_constant_predictions_either_year,degenerate_direct_oracle,degenerate_assisted_oracle,unsupported_target_any,arable_dominated_landscapes,grassland_dominated_landscapes
+logistic-broad-frozen-tessera,broad,tessera,90,30,4,35,0,0,0,0,0,3,4,0,0,0,0,2,8,20
+logistic-broad-frozen-alphaearth,broad,alphaearth,90,30,4,35,0,0,0,0,0,3,4,0,0,0,0,2,8,20

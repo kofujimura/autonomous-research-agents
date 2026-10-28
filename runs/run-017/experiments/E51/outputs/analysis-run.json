@@ -1,0 +1,7 @@
+{
+  "completed_at_utc": "2026-10-27T09:52:55.672200Z",
+  "status": "complete",
+  "source": "data/results completed fits and data/evaluation",
+  "analysis_path": "experiments/E51/outputs/analysis",
+  "note": "During ongoing fitting this snapshot may cover fewer evaluated fits than the live completion audit; primary comparisons require all five seeds"
+}

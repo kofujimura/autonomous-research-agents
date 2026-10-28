@@ -1,0 +1,5 @@
+# V22 self-check: identical inputs and scores
+
+Fixed 2026-10-25T17:24:49Z, after seeing the20-case substitution outcomes. This is explicitly post-result descriptive reporting required by the trial self-check, not a new hypothesis or replacement metric. Count, per support, how many substituted native vectors are identical to the original decoded vector at absolute tolerance1e-12; raw centre equality is already in the v5diagnostic. Count identical scores (absolute difference<=1e-12) and changed flags within every existing readout/task/support comparison. Preserve all original scores, flags and summary CSVs.
+
+Save input-identity.csv, decision-identity.csv, exact counts and raw/dependency hashes under analysis/native-single-date-v22/identity. Identify any case where no change was inevitable from equal inputs, or from a subsequent-state readout receiving an unchanged subsequent vector. Do not present these as independent evidence for robustness. The original fixed-pairv21test remains untested. This uses only saved files, no network/API or changed fitting/calibration. Include in offline verification; expected under1minute with1800second hardtimeout/max2processes.

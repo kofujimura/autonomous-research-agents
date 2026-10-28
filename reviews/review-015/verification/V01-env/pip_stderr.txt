@@ -1,0 +1,3 @@
+
+[notice] A new release of pip is available: 25.2 -> 26.2.2
+[notice] To update, run: /Users/fujimura/Research/ai-free-research-en/review-015/verify-work/env/bin/python3.13 -m pip install --upgrade pip

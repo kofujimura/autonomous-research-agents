@@ -1,0 +1,9 @@
+{
+  "exploratory": true,
+  "dataset": "nlcd",
+  "features": "Four sine/cosine latitude/longitude coordinates",
+  "no_embedding_values_supplied_to_learners": true,
+  "availability_mask_uses_both_products_both_years": true,
+  "no_year_or_initial_subclass_feature": true,
+  "independent_baseline_count": 1
+}

@@ -1,0 +1,34 @@
+{
+  "experiment_id": "E24-registration",
+  "start_time_utc": "2026-10-26T21:34:31.021506Z",
+  "end_time_utc": "2026-10-26T21:34:36.976997Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/registration_check.py",
+    "--model",
+    "results/census-models/logistic-broad-tessera",
+    "--model",
+    "results/census-models/logistic-broad-alphaearth",
+    "--destination",
+    "results/registration"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v4-registration-check.md",
+  "plan_commit_id": "2e0239090b83965d2fc742d7fbb377e92b5c536f",
+  "plan_sha256": "580d7279a861095085bc3338970fc4dc37fc7bb2ca77764faf7b8edd52b9366e",
+  "code_commit_id": "2e0239090b83965d2fc742d7fbb377e92b5c536f",
+  "inputs": [
+    {
+      "path": "data/population-census-v1.json",
+      "sha256": "b1346589bc05563123d39eb1001a76f0cdd73be40180b383c6b3f45f8bb802d4"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E24-registration/stdout.txt",
+  "stderr_path": "experiments/E24-registration/stderr.txt",
+  "start_event_id": "E0305",
+  "pid": 7265,
+  "elapsed_seconds": 5.955411874921992,
+  "end_event_id": "E0307"
+}

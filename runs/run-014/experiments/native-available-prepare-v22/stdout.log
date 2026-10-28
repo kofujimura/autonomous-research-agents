@@ -1,0 +1,1 @@
+{"created_at_utc": "2026-10-25T17:20:00Z", "selected_pairs": 20, "native_point_years": 20, "before_only": 6, "after_only": 14, "both_dates": 0, "groups": {"loss_positive": 10, "loss_negative": 8, "gain_positive": 1, "gain_negative": 1}, "selection": "All saved native point-years for original later targets; availability-selected, no new retrieval."}

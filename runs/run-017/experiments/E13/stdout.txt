@@ -1,0 +1,1 @@
+PASS: tied threshold; even/odd patch coverage; common mask; normalized smoothing; unique finite object allocation; confusion counts; hand-computed factorial contrast and paired bootstrap

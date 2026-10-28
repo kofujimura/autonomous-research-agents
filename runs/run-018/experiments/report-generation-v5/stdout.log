@@ -1,0 +1,10 @@
+{"task_id": "report-data", "command": [".venv/bin/python", "code/build_report_data.py", "--out", "analysis/report-data"], "start_time_utc": "2026-10-28T03:04:50.951146+00:00"}
+{"analyses": 40, "primary_wetlands": 3667, "primary_windows": 12}
+{"task_id": "figures", "command": [".venv/bin/python", "code/make_figures.py", "--data", "analysis/report-data", "--out", "figures"], "start_time_utc": "2026-10-28T03:04:52.604339+00:00"}
+{"figures": ["risk-coverage", "paired-contrasts", "control-sensitivity", "screen-components", "physical-sampling"]}
+{"task_id": "paper", "command": [".venv/bin/python", "code/render_manuscript.py"], "start_time_utc": "2026-10-28T03:04:55.228358+00:00"}
+{"paper": "/Users/fujimura/Research/ai-free-research-en/run-018/paper.md", "words": 9525, "fields": 21}
+{"task_id": "claims", "command": [".venv/bin/python", "code/build_claims.py"], "start_time_utc": "2026-10-28T03:04:56.618975+00:00"}
+{"claims": 11, "supported": 11}
+{"task_id": "completion-report", "command": [".venv/bin/python", "code/update_records_report.py"], "start_time_utc": "2026-10-28T03:04:56.954042+00:00"}
+{"experiment_records": 116, "experiment_statuses": {"completed": 106, "failed": 8, "active": 2}, "effective_confirmed_usage_limit_stops": 3, "unique_api_generation_calls": 1, "actual_api_cost_usd": 1.98624}

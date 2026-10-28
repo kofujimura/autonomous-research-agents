@@ -1,0 +1,124 @@
+{
+  "primary_features_source": "/Users/fujimura/Research/ai-free-research-en/run-018/analysis/features-corrected",
+  "derived_at_utc": "2026-10-27T19:41:49.029694+00:00",
+  "original_n": 3667,
+  "common_n": 3624,
+  "excluded_n": 43,
+  "original_cohort_unchanged": false,
+  "conditions": {
+    "A": "Original contiguous3x3 and physical features",
+    "B": "Dispersed up to256embedding pixels, original physical features",
+    "C": "Dispersed up to256embedding pixels and sample-mean physical features",
+    "D": "Dispersed geometric-pixel count equal to original contiguous patch, original physical features"
+  },
+  "audits": [
+    {
+      "region": "R01",
+      "polygon_n": 495,
+      "sampled_pixels": 38983,
+      "primary_patch_overlap_pixels": 4169,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 493
+    },
+    {
+      "region": "R02",
+      "polygon_n": 890,
+      "sampled_pixels": 48529,
+      "primary_patch_overlap_pixels": 7729,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 882
+    },
+    {
+      "region": "R03",
+      "polygon_n": 390,
+      "sampled_pixels": 51071,
+      "primary_patch_overlap_pixels": 3045,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 387
+    },
+    {
+      "region": "R04",
+      "polygon_n": 552,
+      "sampled_pixels": 60864,
+      "primary_patch_overlap_pixels": 4486,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 549
+    },
+    {
+      "region": "R05",
+      "polygon_n": 135,
+      "sampled_pixels": 25897,
+      "primary_patch_overlap_pixels": 856,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 134
+    },
+    {
+      "region": "R06",
+      "polygon_n": 212,
+      "sampled_pixels": 40434,
+      "primary_patch_overlap_pixels": 1261,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 207
+    },
+    {
+      "region": "R07",
+      "polygon_n": 18,
+      "sampled_pixels": 2941,
+      "primary_patch_overlap_pixels": 154,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 17
+    },
+    {
+      "region": "R08",
+      "polygon_n": 32,
+      "sampled_pixels": 4721,
+      "primary_patch_overlap_pixels": 233,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 31
+    },
+    {
+      "region": "R09",
+      "polygon_n": 173,
+      "sampled_pixels": 21869,
+      "primary_patch_overlap_pixels": 1398,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 169
+    },
+    {
+      "region": "R10",
+      "polygon_n": 347,
+      "sampled_pixels": 42444,
+      "primary_patch_overlap_pixels": 2806,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 346
+    },
+    {
+      "region": "R11",
+      "polygon_n": 350,
+      "sampled_pixels": 63794,
+      "primary_patch_overlap_pixels": 2244,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 339
+    },
+    {
+      "region": "R12",
+      "polygon_n": 73,
+      "sampled_pixels": 8138,
+      "primary_patch_overlap_pixels": 612,
+      "raw_values_on_overlap_exactly_equal": true,
+      "essential_physical_fraction_min": 1.0,
+      "common_eligible_n": 70
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "experiment_id": "native-pairs-v21",
+  "start_at_utc": "2026-10-25T17:14:53Z",
+  "end_at_utc": "2026-10-25T17:15:11Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/native_pairs.py",
+    "analyse",
+    "--baseline",
+    "analysis/main-v1",
+    "--output",
+    "analysis/native-pairs-v21"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v21.md",
+  "plan_commit_id": "8d0d285d770c93388b57789f15207fc11dd453d6",
+  "additional_plan_commits": {},
+  "code_commit_id": "89d8c2c9bea7cac74e47918581169281669d8e5f",
+  "input_sha256": {
+    "data/native-pairs/targets.csv": "6cdd66adb975dc5d70778b9a1913a7fc522e78a0ff0e76f0760b4dc9e0492c4f",
+    "data/native-pairs/tasks.csv": "faa0c3f2c1a05ef651721d57eca042d55ce047edfa8dc3f0e6af63aa59347f34",
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0483",
+  "pid": 29439,
+  "elapsed_seconds": 17.283140208106488,
+  "end_event_id": "E0485"
+}

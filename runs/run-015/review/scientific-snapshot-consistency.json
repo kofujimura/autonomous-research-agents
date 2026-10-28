@@ -1,0 +1,6 @@
+{
+  "checked_at_utc": "2026-10-26T11:59:53Z",
+  "status": "passed",
+  "scientific_snapshot_commit": "24ddff1f8b1170ddad2f8a767a1b8eda230713e5",
+  "scope": "Git diff confirms tracked scientific code/data/protocol/results/templates/literature/requirements unchanged after final replay; sealing also checks individual file hashes. Administrative documents and evidence records were finalized afterward."
+}

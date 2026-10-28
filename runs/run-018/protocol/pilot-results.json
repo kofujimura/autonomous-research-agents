@@ -1,0 +1,40 @@
+{
+  "C01": {
+    "start_utc": "2026-10-27T14:37:51.674165+00:00",
+    "end_utc": "2026-10-27T14:50:40.143219+00:00",
+    "elapsed_seconds": 768.469054,
+    "outcome": "Wetland labels and 64-band pixel window obtained; remote VRT failed first and public-HTTPS SourceDataset adaptation succeeded. No retrieval effects measured.",
+    "evidence": [
+      "data/pilot/wetland-pilot-result.json",
+      "experiments/pilot-c01-window/record.json",
+      "experiments/pilot-c01-window-https/record.json"
+    ],
+    "pilot_reused_in_main": false
+  },
+  "C03": {
+    "observed_at_utc": "2026-10-27T14:58:32.178431+00:00",
+    "outcome": "Official forecast catalogue requires an access form for research forecasts, including 2019. No restricted data queried and no access request sent. Feasibility fails without new resources.",
+    "evidence": [
+      "sources/close_fulltexts_2.json"
+    ],
+    "exact_tool_start_utc": null,
+    "time_scope": "Ordinary catalogue inspection during bounded selection pilot; exact interval not separately recorded, not estimated."
+  },
+  "C09": {
+    "start_utc": "2026-10-27T14:42:42.702604+00:00",
+    "end_utc": "2026-10-27T14:52:57.626780+00:00",
+    "elapsed_seconds": 614.924176,
+    "outcome": "Data licence and aggregate inflow archive inspected. Zenodo transfer failed partially; public tagged source archive succeeded. Tiny model config accessible; inference not run.",
+    "sheets": [
+      "InflowData"
+    ],
+    "worksheet_row_counts": {
+      "xl/worksheets/sheet1.xml": 19680
+    },
+    "evidence": [
+      "sources/water-battle-readme.md",
+      "data/pilot/water-battle-complete.zip",
+      "sources/chronos-tiny-config.json"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+# Prospective supplement v3 — full native-pixel populations
+
+This supplement is fixed after input-access/decoding validation and before any classifier performance, diversity-change or audit-inference result. It incorporates v1 and v2. It does not change their primary 30-landscape comparison. It addresses a pre-outcome limitation: the primary audit experiments condition on 4,096 sampled reference pixels, while a whole-landscape application also has uncertainty from that first sample and a different finite-population correction.
+
+## Selection without seeing changes
+
+After the fixed test-landscape selection is complete, choose at most three test landscapes in their original candidate order: the first arable-dominated landscape (>50% arable in the whole 2021 agricultural reference raster), the first grassland-dominated landscape (>50%), and the first remaining landscape. For tractable exact raster indexing, require the whole reference footprint to lie in native UTM zone 32N and inside one public AlphaEarth COG footprint in every year 2021–2025. These are geometry/access conditions, not criteria based on diversity, drift or estimator performance. If a stratum has no eligible case, report it; do not choose the largest change as a replacement. Save the selection and commit it before full-grid retrieval.
+
+## Measurements and comparisons
+
+Retrieve the native 512×512 embedding grid in each year for the same footprint and both representations. Save exact TESSERA int8 values plus float32 scales where available, or another lossless extract within the storage cap; save AlphaEarth int8 values. Pin source grid transforms and metadata. Validate sampled full-grid values against previously saved point extracts before inference. Correct AlphaEarth's bottom-up storage using the supplied VRT or an exactly validated native-index transformation; do not use overviews. No new model training or API calls are required.
+
+The full finite population consists of stable agricultural reference pixels with valid features in both representations and all five years. Record its size M, the reference support lost to feature missingness and all failures. Use the frozen primary logistic models trained under v2 to predict every included pixel. Confirm that prediction reconstruction from saved coefficients and standardization matches the saved point predictions at common locations. The benchmark reference is the same administrative declared crop hierarchy, with the same uncertainty about realized harvest use.
+
+Repeat the v1 broad-taxonomy audit comparison (direct/model-assisted, paired/independent, n=32,64,128,256,512; 500 replications; 2022→2023, 2023→2024, 2024→2025 primary contrasts). Apply the finite-population correction with M. Preserve all cases and all metrics; do not replace these checks with favorable examples. Secondary 2021→2022 and 2022→2025 contrasts may be computed by the same entry point. Save uniform without-replacement audit draws using uint32 indices when M exceeds 65,535; do not reuse uint16 indices incorrectly.
+
+Compare (a) the direction and magnitude of reference changes in the original point population and full population, (b) paired/independent MSE ratios and nominal interval coverage at the same label budgets, and (c) the relative size of a first-phase reference sampling contribution. For (c), report the linearized design component (1-N/M) Var_M(phi_reference)/N for the original N-point population; its paired version uses the difference of year-specific reference influences. It is an approximation/diagnostic, not measured unconditional coverage for a two-phase operational procedure. The full-grid experiments themselves use the actual native-pixel finite population, so they remove the first-phase approximation in those cases.
+
+This small selected supplement checks scope; it is not a nationally representative replication. Changes to the main conclusion from these checks must appear in the abstract with their limited case count and their prospectively added status. All original point-population results remain. Do not call a same-session check independent reproduction.
+
+## Resources and stopping
+
+Use the same two-process and 30-minute per-process limits. Separate each landscape acquisition and analysis into resumable jobs. Inspect storage before each native-grid case; reserve space for the clean-copy verification and stop new acquisition if the 10 GiB cap would be approached. Stop long new jobs with 60 minutes left. If the supplement cannot be completed, report exactly which cases/years were obtained and why it stopped, without relabeling unperformed checks as successful.

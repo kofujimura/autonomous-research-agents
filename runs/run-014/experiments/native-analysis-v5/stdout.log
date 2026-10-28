@@ -1,0 +1,40 @@
+                      group                   metric   n  minimum      q05   median  maximum
+                    overall            centre_cosine 113 0.907660 0.982823 0.999399 1.000000
+                    overall             patch_cosine 113 0.977003 0.991166 0.999435 1.000000
+                    overall pixel_centres_distance_m 113 0.304594 1.364329 5.021877 9.867387
+role:extra_non_tree_control            centre_cosine  33 0.992408 0.993489 0.999543 1.000000
+role:extra_non_tree_control             patch_cosine  33 0.984510 0.996449 0.999569 1.000000
+role:extra_non_tree_control pixel_centres_distance_m  33 1.651284 1.879871 4.603928 9.707601
+        role:reference_pool            centre_cosine  40 0.979498 0.986535 0.999160 1.000000
+        role:reference_pool             patch_cosine  40 0.994572 0.995464 0.999224 1.000000
+        role:reference_pool pixel_centres_distance_m  40 1.389073 2.715725 5.358710 8.820728
+                role:target            centre_cosine  40 0.907660 0.970162 0.999358 1.000000
+                role:target             patch_cosine  40 0.977003 0.988175 0.999535 1.000000
+                role:target pixel_centres_distance_m  40 0.304594 0.868803 4.841618 9.867387
+                  year:2017            centre_cosine  23 0.979498 0.987350 0.999399 1.000000
+                  year:2017             patch_cosine  23 0.994067 0.995975 0.999656 1.000000
+                  year:2017 pixel_centres_distance_m  23 1.448754 1.950483 5.292601 9.707601
+                  year:2018            centre_cosine  23 0.984322 0.992245 0.999023 1.000000
+                  year:2018             patch_cosine  23 0.989301 0.994587 0.999091 1.000000
+                  year:2018 pixel_centres_distance_m  23 1.327213 2.901708 5.376456 9.419171
+                  year:2019            centre_cosine  23 0.907660 0.972402 0.998520 1.000000
+                  year:2019             patch_cosine  23 0.977003 0.984578 0.998953 1.000000
+                  year:2019 pixel_centres_distance_m  23 1.892290 2.388618 5.543216 9.867387
+                  year:2020            centre_cosine  22 0.944862 0.989966 0.999330 1.000000
+                  year:2020             patch_cosine  22 0.991425 0.993725 0.999412 1.000000
+                  year:2020 pixel_centres_distance_m  22 0.873790 1.118079 5.019487 9.673703
+                  year:2021            centre_cosine  22 0.979864 0.992139 1.000000 1.000000
+                  year:2021             patch_cosine  22 0.988332 0.995541 0.999919 1.000000
+                  year:2021 pixel_centres_distance_m  22 0.304594 0.794500 4.488530 8.583169
+        latitude_quartile:0            centre_cosine  28 0.979498 0.984524 1.000000 1.000000
+        latitude_quartile:0             patch_cosine  28 0.994067 0.995519 0.999843 1.000000
+        latitude_quartile:0 pixel_centres_distance_m  28 0.873790 1.224544 4.620144 9.707601
+        latitude_quartile:1            centre_cosine  28 0.971494 0.988840 0.999302 1.000000
+        latitude_quartile:1             patch_cosine  28 0.985192 0.992794 0.999595 1.000000
+        latitude_quartile:1 pixel_centres_distance_m  28 1.182704 1.554332 5.704617 9.753467
+        latitude_quartile:2            centre_cosine  28 0.907660 0.985207 0.999083 1.000000
+        latitude_quartile:2             patch_cosine  28 0.977003 0.988671 0.999377 1.000000
+        latitude_quartile:2 pixel_centres_distance_m  28 0.774069 1.440638 4.732235 9.867387
+        latitude_quartile:3            centre_cosine  29 0.944862 0.983898 0.998371 1.000000
+        latitude_quartile:3             patch_cosine  29 0.984510 0.992318 0.998797 1.000000
+        latitude_quartile:3 pixel_centres_distance_m  29 0.304594 2.259723 5.386823 9.673703

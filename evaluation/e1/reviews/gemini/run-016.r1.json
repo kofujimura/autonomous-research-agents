@@ -1,0 +1,125 @@
+{
+ "meta": {
+  "reviewer": "gemini",
+  "model": "gemini-4-argon",
+  "run": "016",
+  "rep": 1,
+  "started_utc": "2026-10-28T12:25:02Z",
+  "figures": 1,
+  "usage": {
+   "input_tokens": 25188,
+   "output_tokens": 6813,
+   "thought_tokens": 4099,
+   "search_queries": 4
+  },
+  "cost_usd": 0.174506,
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP"
+ },
+ "review": {
+  "summary": "This paper presents a design-based resampling benchmark evaluating whether revisiting reference locations (paired sampling) and incorporating model-assisted predictions from frozen classifiers trained on annual satellite embeddings (TESSERA and AlphaEarth Foundations) improve the estimation of year-to-year changes in the Shannon diversity of declared crop groups across 30 landscapes in Switzerland (SwissCrop25, 2021–2025). The study finds that: (1) direct paired sampling reduces mean squared error (MSE) by 72.5% overall at 128 labels/year compared to independent sampling (MSE ratio 0.275), driven strongly by persistent grassland-dominated landscapes (ratio 0.198) as opposed to arable-dominated landscapes (ratio 0.597) or pure rotating arable pixels where temporal influence covariance can even turn negative; (2) because true annual landscape-level diversity changes are very small (RMS change of 0.0260 entropy units), simply predicting zero change beats direct sampling at all budgets up to 512 labels/year and beats all estimators at 128 labels/year; (3) paired direct sampling suffers from severe 95% confidence interval undercoverage (83.4% overall, 78.9% in grassland landscapes), largely due to samples where zero sampled pixels change classes and plug-in standard errors collapse to zero; and (4) unweighted model-assisted difference estimators using frozen multinomial logistic classifiers fail to improve paired RMSE over direct sampling, require Euclidean projection onto the probability simplex in ~99% of draws, and only appear to have ~99% interval coverage when the simplex projection Jacobian is omitted.",
+  "scores": {
+   "correctness": 5,
+   "verifiability": 4,
+   "novelty": 3,
+   "generality": 3,
+   "usefulness": 3,
+   "clarity": 2
+  },
+  "score_reasons": {
+   "correctness": "All numerical claims, proportions, and variance identities are internally consistent, and the paper rigorously diagnoses and corrects an initial flaw in its model-assisted interval formula (omitting the simplex projection Jacobian) rather than overclaiming performance.",
+   "verifiability": "The study pins exact public dataset revisions (SwissCrop25) and embedding sources (TESSERA v1.1, AlphaEarth v1), provides explicit estimator equations and simulation settings, and documents verification procedures, though full external reproduction relies on local candidate-selection logs.",
+   "novelty": "Applying design-based difference estimators with recent satellite foundation embeddings to evaluate multi-year Shannon crop diversity change is a novel empirical benchmark, though the statistical mechanisms follow from classical successive-occasion sampling and delta-method theory.",
+   "generality": "Claims are carefully scoped to the Swiss declaration benchmark and tested across taxonomic granularities and land-use subsets, but the idealized setup (uniform 10m pixel sampling on a pre-supplied 5-year stable agricultural mask with error-free database labels) limits direct generalization to field surveys.",
+   "usefulness": "The findings provide a valuable cautionary benchmark for Earth-observation monitoring—demonstrating that unweighted difference estimation with frozen classifiers can hurt paired precision when signal-to-noise is low and simplex boundaries are hit—though standard post-stratification and parcel-cluster sampling are not evaluated.",
+   "clarity": "The manuscript is heavily cluttered with chronological protocol audit logs, runtime/storage compliance notes, and a fragmented structure that presents flawed unprojected-gradient intervals in the main tables before correcting them five pages later, alongside a badly cropped Figure 1."
+  },
+  "verdict": "major revision",
+  "overall_10": 5,
+  "workshop_level": "yes",
+  "main_track_level": "no",
+  "research_question": {
+   "question": "At a fixed annual reference-label budget, how reliably can model-assisted estimators using frozen classifiers on annual satellite embeddings estimate year-to-year changes in the Shannon diversity of declared crop groups, and how much does revisiting reference locations improve inference over independent annual samples?",
+   "question_quality": 4,
+   "predictable": "partly",
+   "predictable_reason": "The large precision gain from revisiting in persistent grasslands versus minimal or negative gain in rotating arable cropland—as well as zero-variance interval failures when no sampled pixels change—follows directly from classical successive-occasion sampling covariance identities and elementary properties of plug-in Wald intervals."
+  },
+  "main_issues": [
+   {
+    "severity": "moderate",
+    "issue": "Figure 1 (budget-curves.svg) is severely cropped on the right and bottom: the third panel column (AlphaEarth) is completely missing outside the SVG viewport, the x-axis label '512' on the TESSERA column is cut in half, and there is a large empty whitespace at the bottom."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Flawed variance propagation is kept as the primary result in Table 1 and Figure 1: the 'original' model-assisted intervals omit the Jacobian of the Euclidean projection onto the probability simplex and clip log-gradients at 10^-6, inflating standard errors by ~2x on the ~99% of draws that fall outside the simplex. While Section 4.6 transparently diagnoses and fixes this via the local projection derivative (dropping coverage from ~99% to ~93.7%), a scientific paper should present the mathematically sound Jacobian propagation as the primary method rather than treating a calculus omission as the main baseline."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Severe organizational clutter and process meta-commentary: the text reads like a chronological compliance log ('After review, plan v15 fixes...', 'Automatic Git packing occurred between storage checkpoints...', 'A documented short unwrapped diagnostic briefly exceeded the two-experiment limit') with 15 sequential protocol versions layered into the narrative, making the core scientific storyline difficult to follow."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Suboptimal primary model-assisted estimator: the main text focuses on an unweighted difference estimator (weight = 1 on frozen 2021 classifier predictions), which injects substantial prediction variance when true diversity change is tiny and pushes 99% of proportion estimates outside the simplex. Optimal prediction-powered weighting (which downweights predictions to ~0.10–0.13 in paired sampling, Table A2) and standard map-class post-stratification should be foregrounded in the main comparison."
+   },
+   {
+    "severity": "minor",
+    "issue": "Idealized sampling frame and unit: sampling individual 10m pixels via simple random sampling on a pre-supplied 5-year stable agricultural mask abstracts away parcel-level clustering, boundary registration errors in field audits, and land-use entry/exit across years."
+   }
+  ],
+  "strengths": [
+   "Exceptional scientific honesty and self-correction: the paper transparently reports negative results (that predicting zero change beats almost all estimators due to tiny true annual diversity shifts, and that frozen logistic assistance fails to improve paired RMSE) and thoroughly diagnoses why its initial model-assisted intervals were artificially wide.",
+   "Insightful covariance analysis: connecting the paired/independent MSE ratio to the population covariance of the linearized entropy influence function cleanly explains why revisiting yields a 5x variance reduction in grassland-dominated landscapes (MSE ratio 0.198) but can yield negative covariance and MSE ratios > 1 in rotating arable cropland.",
+   "Comprehensive sensitivity checks: the benchmark systematically evaluates two recent EO foundation embeddings (TESSERA and AlphaEarth), two taxonomic depths (17 and 54 classes), rotating panel designs, synthetic label-error coupling (Table 8), and whole-landscape bootstrap uncertainty."
+  ],
+  "closest_prior_work": [
+   {
+    "citation": "Säurich, J., Schwieder, M., Preidl, S., Beyer, F., & Möller, M. (2026). Are remote sensing-based crop type classifications suitable for calculating a landscape heterogeneity metric? A data-fitness-for-purpose assessment. Ecological Informatics, 95, 103660.",
+    "url": "https://doi.org/10.1016/j.ecoinf.2026.103660",
+    "difference": "Säurich et al. evaluate wall-to-wall remote-sensing crop maps against field declarations for single-year Shannon evenness fitness-for-purpose, whereas the present paper evaluates probability-sampled reference audits (paired vs. independent) and model-assisted estimators for year-to-year Shannon diversity change."
+   },
+   {
+    "citation": "van der Velde, M., Claverie, M., d'Andrimont, R., Machefer, M., Bosco, S., Catarino, R., Dentener, F., & Angileri, V. (2025). Policy relevant crop diversity monitoring based on Earth observation and farmers' declarations. Environmental Research Letters, 20(1), 014054.",
+    "url": "https://doi.org/10.1088/1748-9326/ad9d61",
+    "difference": "van der Velde et al. compare full wall-to-wall EO crop maps and complete parcel declarations to track Shannon crop diversity trends, rather than studying finite-budget reference sampling designs or confidence interval calibration for annual change."
+   },
+   {
+    "citation": "Lauber, T., Turkoglu, M. O., Ledain, S., & Aasen, H. (2026). SwissCrop25: A National Multi-Year Benchmark for Operational Crop Mapping. arXiv:2608.09497.",
+    "url": "https://arxiv.org/abs/2608.09497",
+    "difference": "Lauber et al. introduce the underlying SwissCrop25 dataset and benchmark cross-year pixel/parcel classification architectures, whereas the present study uses SwissCrop25 declarations as a finite-population benchmark for design-based entropy change estimation."
+   },
+   {
+    "citation": "Massey, A., & Mandallaz, D. (2015). Design-based regression estimation of net change for forest inventories. Canadian Journal of Forest Research, 45(12), 1775-1784.",
+    "url": "https://doi.org/10.1139/cjfr-2015-0266",
+    "difference": "Massey and Mandallaz establish design-based model-assisted net change estimation for linear inventory totals using permanent and temporary plots, whereas the present paper applies model-assisted difference estimation to a nonlinear functional (Shannon entropy) of class proportions that requires simplex projection."
+   },
+   {
+    "citation": "Angelopoulos, A. N., Duchi, J. C., & Zrnic, T. (2023). PPI++: Efficient Prediction-Powered Inference. arXiv:2311.01453.",
+    "url": "https://arxiv.org/abs/2311.01453",
+    "difference": "Angelopoulos et al. develop general asymptotic prediction-powered inference with optimal tuning weights, whereas this paper evaluates finite-population paired vs. independent sampling for projected Shannon entropy changes under sparse annual transitions."
+   }
+  ],
+  "familiarity": "No, I do not recognize this specific paper previously; it is clearly an autonomous research agent manuscript produced and revised in October 2026.",
+  "figures_viewed": true
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP",
+  "web_search_queries": [
+   "\"Policy relevant crop diversity monitoring based on earth observation and farmers\"",
+   "\"Are remote sensing-based crop type classifications suitable for calculating a landscape heterogeneity metric\"",
+   "\"SwissCrop25\" \"National Multi-Year Benchmark\"",
+   "\"Design-based regression estimation of net change for forest inventories\" Massey Mandallaz"
+  ],
+  "sources": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdIYY2V3N8WU7H1mwOsdOsGuYiryTloNWjAyPYRGMPrWxzvOnts0Mg7j272HszNor8THKGykUKg_NaiKnz_IrL0F-BMcuiFtzED8hhD5dwscM_zEAh2nGlcyjztrFDnMxv3z4WCe6LFIo=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkmKAeCYsp83GGIdS6TnlmItnA9EhmzfqaJNYgwxI1kHJmW129Ank3CptZCuTMHJhsTgHYdKOzi7FDr09LH_asv_kYIm-xFN7Ku5yG1cThq65oo4GaK9PYo6oNIQyJc7o9CaX87FC33LEjhLnY6SOp0MV9XDjgJg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxZT6ujmb4-xX89N0mjcfkuvhYfwcP7ElGBT5VjecX6Llyub3CPi31qZuDyWniTp0YD12kgWaH0g5UOC5shf26dc_qw435u7pTnVoIpHWIOB6wIgKogwlxnphvRrLG2CejtPCgsYuyGnVnzXyf3j9d6ZI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl3ljP_D2eeXVS_2c7BM1ZgRLVPxEfCl1eDildlKUIbmJq9fCh8tivbS5usffPO1h3jeIGgy4oXOFoJWnV8mIx_uIG0xy91w3jj3q1FoQQoQRYC-gGY8aKog==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjcHI6t0DCuNT74VFs_J_aGHva4E5AI_NjfncoPl4cLN1jWPyckBwnYLKeluU2dB3xWnG23bqHFYovY3P3Wtr1rZXBy6sgyrPykVy7pIE0x2PAmdPJlc8TSTS7dXWrp7Qr9souYmE_36xKMMyKhYK13OKlpwPx4SVq2cqeWeFql5Unc8-GXBZWDzxwhQBQB2GzvTArbAhVx1HbsG1YnoG2zZfwlYHpSW6r4fUDG78Egczau27YVbsUmhVJI2J0mG3bKsjHb-ZuiBS6M8jm28Oj6_TLzqA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9L1PoI6fS3BiIjkgcBYyw-iLcNyurtO3crvvwKSXZmXm23jx-kTzAxAZZcbOcZ91XjlLKkEKmHOdh25J76_zQGZSGPiOEuIMui299BJY5oy33vLHI5V_UZ4T9gsVJBzloabP4gLCt0SLVKFbMVlbQrxocI9dOuQzvtMYL4KJhdJdjBGzzUFARIBFZeDRWhdfjWS5cjYd-7-nKs-9x1q5lEHhkmcWYQu1KUEQaGi758Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtJKRPOwCaL5Ik3VTTYYsEVvdp-HlmuJc2QrG8UkocN02LdPAvDfSI8YlOxlhRGL6tzTVd7MdLdJkfz8t3W5oGfnzXU4j9kUN1qc3zaGNCxjN98nkjUifs53SDrFWxep5OIY4qz5Kg7fEHN5p9ERmN75a7_kwGjnv1rX9EWZd3oaVVMLNp9hP9b6rSYDEdR6czohs9J7S9kk06S3wE_V-hLBVAFPCjwV1KqtSCSbzZqayjX3VnIGqISp_EGTpTE91qIA=="
+  ]
+ }
+}

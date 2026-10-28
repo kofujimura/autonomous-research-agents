@@ -1,0 +1,25 @@
+{
+  "experiment_id": "V001-bounds-validation",
+  "started_at_utc": "2026-10-25T23:02:39Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/validate_bounds.py",
+    "--output",
+    "experiments/V001-bounds-validation/output"
+  ],
+  "timeout_seconds": 900,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "f3e88ecc7fe6676a7dfce69662ee9829c65301db",
+  "code_commit_id": "9dd8113f1ef78ddc758a1ae9f0f687ed5a34ddf8",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "scripts/bounds.py": "48dea5a97a21440f75c552ddcf5811e72bef55b5a4992c489a1980c5971c764b"
+  },
+  "status": "completed",
+  "start_event_id": "E0072",
+  "child_pid": 47213,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-25T23:02:47Z",
+  "elapsed_seconds": 8.070560083026066,
+  "end_event_id": "E0075"
+}

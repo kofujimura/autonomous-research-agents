@@ -1,0 +1,31 @@
+{
+  "experiment_id": "final-presentation-v1",
+  "start_at_utc": "2026-10-25T17:21:48Z",
+  "end_at_utc": "2026-10-25T17:21:50Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/render.py"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+  "additional_plan_commits": {
+    "protocol/plan-v4.md": "3efd729c24e8e889e64c7bb5d2770173613721fa",
+    "protocol/plan-v12.md": "8bfef374633c94f4f7f92b3757829808556436de"
+  },
+  "code_commit_id": "983d3a6ee4e36fe10cd87d597b7edfba2f11ecd3",
+  "input_sha256": {
+    "analysis/main-v1/main-table.csv": "91a35ce9488a277910837838ba2111bc676b3575063bbf691ee9109553137b94",
+    "analysis/nlcd-v4/metrics.csv": "cf7d4b414cc2226f031406e1f922df8c2d7ebcade856c2d35e45a73f01f902bd",
+    "analysis/native-v5/summary.csv": "25765b575410bc6500a72d09027575912f5da8c52a4bdc9a12e3b20ce27d6b9b",
+    "analysis/robustness-paired-v12/calibration-metrics.csv": "16b87e2716b5dfe376e3c9712707424bfe268e913f61e9f84844984f54efac77"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0503",
+  "pid": 29727,
+  "elapsed_seconds": 1.9037303749937564,
+  "end_event_id": "E0504"
+}

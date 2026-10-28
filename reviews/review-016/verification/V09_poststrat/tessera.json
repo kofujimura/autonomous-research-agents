@@ -1,0 +1,10 @@
+{
+ "paired": {
+  "poststrat_rmse": 0.05604572489527518,
+  "direct_rmse": 0.05589046539476335
+ },
+ "independent": {
+  "poststrat_rmse": 0.09245404393741077,
+  "direct_rmse": 0.10655095850519974
+ }
+}

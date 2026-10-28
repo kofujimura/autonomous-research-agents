@@ -1,0 +1,8 @@
+{
+  "command": "verification/env/bin/python -I scripts/poststrat_check.py verification/source results/models/logistic-broad-tessera verification/V09_poststrat/tessera.json && verification/env/bin/python -I scripts/poststrat_check.py verification/source results/models/logistic-broad-alphaearth verification/V09_poststrat/alphaearth.json",
+  "cwd": "/Users/fujimura/Research/ai-free-research-en/review-016",
+  "timeout_s": 1500.0,
+  "start_utc": "2026-10-27T02:39:06.620423+00:00",
+  "exit_code": 0,
+  "end_utc": "2026-10-27T02:39:26.293847+00:00"
+}

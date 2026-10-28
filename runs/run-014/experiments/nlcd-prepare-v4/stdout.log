@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-10-25T10:12:43Z",
+  "seed": 14014,
+  "pairs": 523,
+  "unique_plots": 488,
+  "point_year_tasks": 1364,
+  "batches": 22,
+  "source_plots": 8360,
+  "excluded_near_v1_v2": 4,
+  "excluded_pilot": 0,
+  "unambiguous_pairs": 351,
+  "by_horizon": {
+    "overlapping_2019_2021": 275,
+    "beyond_2021": 248
+  },
+  "min_distance_selected_m": 1996.931787245275,
+  "endpoint": "NLCD Forest class, not LCMAP dominant Trees",
+  "coordinate_crs": "PROJCRS[\"Albers_Conic_Equal_Area\",BASEGEOGCRS[\"WGS 84\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Albers Equal Area\",ID[\"EPSG\",9822]],PARAMETER[\"Latitude of false origin\",23,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",-96,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",29.5,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",45.5,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]"
+}

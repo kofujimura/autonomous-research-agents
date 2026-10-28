@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "mode": "full_subset_chunks",
+  "source_commit_id": "e6f5f194866fa8cc73b2d41c77aa6799c7e49927",
+  "units": 115,
+  "query_rows": 198720,
+  "maximum_absolute_difference": 0.0,
+  "elapsed_worker_seconds": 2433.6248235837556,
+  "completed_at_utc": "2026-10-26T06:32:26Z",
+  "scope": "Author re-run in frozen source copy, not independent reproduction. All115original available units, including otherwise unmatched-date units; scientific subset endpoints unchanged."
+}

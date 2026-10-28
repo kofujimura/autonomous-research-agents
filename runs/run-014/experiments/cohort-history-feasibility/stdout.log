@@ -1,0 +1,9 @@
+{
+  "cohort_plots": 166,
+  "nlcd_source_plots": 8360,
+  "matching_radius_m": 1,
+  "cohort_plots_with_match": 0,
+  "cohort_plots_with_unique_match": 0,
+  "minimum_cross_source_distance_m": 1879.4542786716631,
+  "scope": "Coordinate feasibility only. NLCD Forest differs from LCMAP Trees; no annual label or primary cohort is changed. No new retrieval."
+}

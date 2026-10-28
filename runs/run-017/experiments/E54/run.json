@@ -1,0 +1,43 @@
+{
+  "experiment_id": "E54",
+  "started_at_utc": "2026-10-27T09:54:07.209487Z",
+  "command": [
+    ".venv/bin/python",
+    "code/fit_models.py",
+    "--budget",
+    "2000",
+    "--seeds",
+    "101",
+    "202",
+    "303",
+    "404",
+    "505",
+    "--policies",
+    "proposal_aef",
+    "uncertainty_aef",
+    "proposal_aef_classmatched",
+    "uncertainty_aef_classmatched",
+    "proposal_uniform_aef",
+    "uncertainty_uniform_aef",
+    "--representations",
+    "aef",
+    "optical",
+    "--decoders",
+    "rf"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v7.md",
+  "plan_commit_id": "f5d7b86d9ab3df45f30d7c9e6ba9aba0236893c4",
+  "code_commit_id": "f5d7b86d9ab3df45f30d7c9e6ba9aba0236893c4",
+  "input_sha256": {
+    "data/derived/dataset-manifest.json": "c9311f6ab9444345c7ffbbfa98f9896e6f35b06f896d1b4d2954fa35d2bded35"
+  },
+  "start_event_id": "E0264",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 60644,
+  "ended_at_utc": "2026-10-27T10:07:28.490609Z",
+  "elapsed_seconds": 801.2781333748717,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0281"
+}

@@ -1,0 +1,24 @@
+{
+  "experiment_id": "main-prepare-v1",
+  "start_at_utc": "2026-10-25T09:35:40Z",
+  "end_at_utc": "2026-10-25T09:36:05Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare.py"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+  "code_commit_id": "f55197d69566069a78c37c741507a8a31b40f0a4",
+  "input_sha256": {
+    "data/aef-evaluation.zip": "87a4f1ab0907420aa76804a83dddba50930b347456dea355ed05c2521b980c5e"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0047",
+  "pid": 14033,
+  "elapsed_seconds": 25.39688350004144,
+  "end_event_id": "E0048"
+}

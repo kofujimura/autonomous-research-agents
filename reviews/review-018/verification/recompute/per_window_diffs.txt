@@ -1,0 +1,26 @@
+pair_aef|hydro_pair
+   R01 n= 246 base 0.504 aug 0.524 diff 2.03 pp contrib to wm 0.17 pp
+   R02 n= 444 base 0.110 aug 0.090 diff -2.03 pp contrib to wm -0.17 pp
+   R03 n= 187 base 0.390 aug 0.369 diff -2.14 pp contrib to wm -0.18 pp
+   R04 n= 275 base 0.425 aug 0.440 diff 1.45 pp contrib to wm 0.12 pp
+   R05 n= 65 base 0.431 aug 0.400 diff -3.08 pp contrib to wm -0.26 pp
+   R06 n= 106 base 0.585 aug 0.528 diff -5.66 pp contrib to wm -0.47 pp
+   R07 n= 5 base 0.400 aug 0.200 diff -20.00 pp contrib to wm -1.67 pp
+   R08 n= 14 base 0.500 aug 0.429 diff -7.14 pp contrib to wm -0.60 pp
+   R09 n= 82 base 0.024 aug 0.024 diff 0.00 pp contrib to wm 0.00 pp
+   R10 n= 172 base 0.366 aug 0.413 diff 4.65 pp contrib to wm 0.39 pp
+   R11 n= 174 base 0.466 aug 0.431 diff -3.45 pp contrib to wm -0.29 pp
+   R12 n= 34 base 0.235 aug 0.235 diff 0.00 pp contrib to wm 0.00 pp
+pair_tessera|hydro_pair
+   R01 n= 246 base 0.504 aug 0.435 diff -6.91 pp contrib to wm -0.58 pp
+   R02 n= 444 base 0.110 aug 0.086 diff -2.48 pp contrib to wm -0.21 pp
+   R03 n= 187 base 0.390 aug 0.401 diff 1.07 pp contrib to wm 0.09 pp
+   R04 n= 275 base 0.425 aug 0.436 diff 1.09 pp contrib to wm 0.09 pp
+   R05 n= 65 base 0.431 aug 0.292 diff -13.85 pp contrib to wm -1.15 pp
+   R06 n= 106 base 0.585 aug 0.509 diff -7.55 pp contrib to wm -0.63 pp
+   R07 n= 5 base 0.400 aug 0.400 diff 0.00 pp contrib to wm 0.00 pp
+   R08 n= 14 base 0.500 aug 0.286 diff -21.43 pp contrib to wm -1.79 pp
+   R09 n= 82 base 0.024 aug 0.049 diff 2.44 pp contrib to wm 0.20 pp
+   R10 n= 172 base 0.366 aug 0.360 diff -0.58 pp contrib to wm -0.05 pp
+   R11 n= 174 base 0.466 aug 0.443 diff -2.30 pp contrib to wm -0.19 pp
+   R12 n= 34 base 0.235 aug 0.294 diff 5.88 pp contrib to wm 0.49 pp

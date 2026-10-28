@@ -1,0 +1,18 @@
+{
+  "observed_at_utc": "2026-10-25T19:12:44Z",
+  "status": "PASS",
+  "paper_sha256": "e9038f118843861d68f6c6089cdf7c07ee06fc2c398ba9fc76ad758d3038beb8",
+  "paper_rebuild_bytes_identical": true,
+  "local_image_paths": [
+    "figures/operating-points.png",
+    "analysis/endpoint-v13/reference-similarity.png",
+    "figures/direct-inputs.png",
+    "figures/diagnostics/calibration-sensitivity.png"
+  ],
+  "claims": 20,
+  "reference_count": 19,
+  "source_evidence_paths_exist": true,
+  "current_numerical_code_covered": true,
+  "verification_record": "review/self-rerun-3.json",
+  "note": "Author consistency/presentation check, not independent reproduction; full numerical checks are in the separate copied-candidate record."
+}

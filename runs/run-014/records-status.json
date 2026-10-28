@@ -1,0 +1,1002 @@
+{
+  "observed_at_utc": "2026-10-25T10:59:28Z",
+  "runs": [
+    {
+      "experiment_id": "code-validation-v1",
+      "start_at_utc": "2026-10-25T09:58:02Z",
+      "end_at_utc": "2026-10-25T09:58:34Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_analysis.py"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+      "code_commit_id": "34d8d5ddcd8ab1f42e2c0eda554dac4cfc069389",
+      "input_sha256": {},
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0089",
+      "pid": 15043,
+      "elapsed_seconds": 32.75224891700782,
+      "end_event_id": "E0090",
+      "record_path": "experiments/code-validation-v1/run.json"
+    },
+    {
+      "experiment_id": "code-validation-v6",
+      "start_at_utc": "2026-10-25T10:41:56Z",
+      "end_at_utc": "2026-10-25T10:42:30Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_analysis.py",
+        "--output",
+        "experiments/code-validation-v6/result.json"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": 14014,
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+      "additional_plan_commits": {
+        "protocol/plan-v6.md": "2eeb7d1b0a89f590fa1130e54261a1bd3492682a"
+      },
+      "code_commit_id": "78e5d66358268c3c388985bfc47eb79e00658edc",
+      "input_sha256": {},
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0148",
+      "pid": 16826,
+      "elapsed_seconds": 33.69038508296944,
+      "end_event_id": "E0151",
+      "record_path": "experiments/code-validation-v6/run.json"
+    },
+    {
+      "experiment_id": "extra-controls-prepare-v2",
+      "start_at_utc": "2026-10-25T09:46:30Z",
+      "end_at_utc": "2026-10-25T09:46:32Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/prepare_controls.py"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v2.md",
+      "plan_commit_id": "f71e51997970dd673782c69a7e45c54bd3245e82",
+      "code_commit_id": "f71e51997970dd673782c69a7e45c54bd3245e82",
+      "input_sha256": {
+        "data/aef-evaluation.zip": "87a4f1ab0907420aa76804a83dddba50930b347456dea355ed05c2521b980c5e",
+        "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0072",
+      "pid": 14623,
+      "elapsed_seconds": 1.8073319580871612,
+      "end_event_id": "E0073",
+      "record_path": "experiments/extra-controls-prepare-v2/run.json"
+    },
+    {
+      "experiment_id": "fetch-aef-000",
+      "start_at_utc": "2026-10-25T09:36:59Z",
+      "end_at_utc": "2026-10-25T09:38:39Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "aef",
+        "0"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+      "code_commit_id": "60abf89a0b5dc0249db11fbd3737f1f9dc988ae4",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0051",
+      "pid": 14093,
+      "elapsed_seconds": 99.90797279193066,
+      "end_event_id": "E0053",
+      "record_path": "experiments/fetch-aef-000/run.json"
+    },
+    {
+      "experiment_id": "fetch-aef-001",
+      "start_at_utc": "2026-10-25T09:40:41Z",
+      "end_at_utc": "2026-10-25T09:42:23Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "aef",
+        "1"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+      "code_commit_id": "928528dd5af71c5c700ed1b9caa2eb933f97619a",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0059",
+      "pid": 14359,
+      "elapsed_seconds": 102.09482674999163,
+      "end_event_id": "E0060",
+      "record_path": "experiments/fetch-aef-001/run.json"
+    },
+    {
+      "experiment_id": "fetch-aef-002",
+      "start_at_utc": "2026-10-25T09:43:18Z",
+      "end_at_utc": "2026-10-25T09:44:57Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "aef",
+        "2"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+      "code_commit_id": "b676d2f35ac2120d528ae51e2fbb553df2c18263",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0065",
+      "pid": 14463,
+      "elapsed_seconds": 98.85122729209252,
+      "end_event_id": "E0068",
+      "record_path": "experiments/fetch-aef-002/run.json"
+    },
+    {
+      "experiment_id": "fetch-aef-003-006",
+      "start_at_utc": "2026-10-25T09:48:27Z",
+      "end_at_utc": "2026-10-25T09:55:06Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "aef",
+        "3",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "code_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0079",
+      "pid": 14692,
+      "elapsed_seconds": 399.0513333750423,
+      "end_event_id": "E0082",
+      "record_path": "experiments/fetch-aef-003-006/run.json"
+    },
+    {
+      "experiment_id": "fetch-aef-007-010",
+      "start_at_utc": "2026-10-25T09:56:43Z",
+      "end_at_utc": "2026-10-25T10:02:56Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "aef",
+        "7",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "code_commit_id": "3c709d9db5d37b342adfdc8a2638f532c1052a31",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0085",
+      "pid": 14991,
+      "elapsed_seconds": 372.91097841691226,
+      "end_event_id": "E0098",
+      "record_path": "experiments/fetch-aef-007-010/run.json"
+    },
+    {
+      "experiment_id": "fetch-aef-011-014",
+      "start_at_utc": "2026-10-25T10:04:44Z",
+      "end_at_utc": "2026-10-25T10:11:31Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "aef",
+        "11",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "code_commit_id": "32dcb24bc0e8ebbe3436ae3586e7ea6d85f09b04",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0103",
+      "pid": 15348,
+      "elapsed_seconds": 406.74404479097575,
+      "end_event_id": "E0109",
+      "record_path": "experiments/fetch-aef-011-014/run.json"
+    },
+    {
+      "experiment_id": "fetch-aef-015-018",
+      "start_at_utc": "2026-10-25T10:15:25Z",
+      "end_at_utc": "2026-10-25T10:22:18Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "aef",
+        "15",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "code_commit_id": "27c7edb9f417009ef7ad08176f8845c15f5b6174",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0119",
+      "pid": 15748,
+      "elapsed_seconds": 413.07379850000143,
+      "end_event_id": "E0121",
+      "record_path": "experiments/fetch-aef-015-018/run.json"
+    },
+    {
+      "experiment_id": "fetch-aef-019-022",
+      "start_at_utc": "2026-10-25T10:30:30Z",
+      "end_at_utc": "2026-10-25T10:37:42Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "aef",
+        "19",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "code_commit_id": "ed9d6df065a907921173caeaa1d375b993afdc22",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0139",
+      "pid": 16303,
+      "elapsed_seconds": 431.48559245909564,
+      "end_event_id": "E0142",
+      "record_path": "experiments/fetch-aef-019-022/run.json"
+    },
+    {
+      "experiment_id": "fetch-aef-023-026",
+      "start_at_utc": "2026-10-25T10:42:18Z",
+      "end_at_utc": "2026-10-25T10:49:21Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "aef",
+        "23",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "additional_plan_commits": {},
+      "code_commit_id": "78e5d66358268c3c388985bfc47eb79e00658edc",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0149",
+      "pid": 16843,
+      "elapsed_seconds": 422.5106014581397,
+      "end_event_id": "E0155",
+      "record_path": "experiments/fetch-aef-023-026/run.json"
+    },
+    {
+      "experiment_id": "fetch-aef-027-030",
+      "start_at_utc": "2026-10-25T10:55:30Z",
+      "end_at_utc": null,
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "aef",
+        "27",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "additional_plan_commits": {},
+      "code_commit_id": "6a9052cf200701bbcf8b74d46a0c6327d70259c5",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": null,
+      "status": "running",
+      "start_event_id": "E0161",
+      "pid": 17292,
+      "record_path": "experiments/fetch-aef-027-030/run.json"
+    },
+    {
+      "experiment_id": "fetch-tessera-000",
+      "start_at_utc": "2026-10-25T09:36:59Z",
+      "end_at_utc": "2026-10-25T09:39:36Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "tessera",
+        "0"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+      "code_commit_id": "60abf89a0b5dc0249db11fbd3737f1f9dc988ae4",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0051",
+      "pid": 14092,
+      "elapsed_seconds": 156.43640537490137,
+      "end_event_id": "E0055",
+      "record_path": "experiments/fetch-tessera-000/run.json"
+    },
+    {
+      "experiment_id": "fetch-tessera-001",
+      "start_at_utc": "2026-10-25T09:40:41Z",
+      "end_at_utc": "2026-10-25T09:43:09Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "tessera",
+        "1"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+      "code_commit_id": "928528dd5af71c5c700ed1b9caa2eb933f97619a",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0058",
+      "pid": 14358,
+      "elapsed_seconds": 147.70004470809363,
+      "end_event_id": "E0064",
+      "record_path": "experiments/fetch-tessera-001/run.json"
+    },
+    {
+      "experiment_id": "fetch-tessera-002",
+      "start_at_utc": "2026-10-25T09:45:12Z",
+      "end_at_utc": "2026-10-25T09:47:22Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "tessera",
+        "2"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+      "code_commit_id": "52c09eca79e6833ab15dfd97e7a7537d95647198",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0069",
+      "pid": 14543,
+      "elapsed_seconds": 129.89790979097597,
+      "end_event_id": "E0074",
+      "record_path": "experiments/fetch-tessera-002/run.json"
+    },
+    {
+      "experiment_id": "fetch-tessera-003-006",
+      "start_at_utc": "2026-10-25T09:48:27Z",
+      "end_at_utc": "2026-10-25T09:57:36Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "tessera",
+        "3",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "code_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0080",
+      "pid": 14693,
+      "elapsed_seconds": 549.5306780000683,
+      "end_event_id": "E0088",
+      "record_path": "experiments/fetch-tessera-003-006/run.json"
+    },
+    {
+      "experiment_id": "fetch-tessera-007-010",
+      "start_at_utc": "2026-10-25T10:03:47Z",
+      "end_at_utc": "2026-10-25T10:12:28Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "tessera",
+        "7",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "code_commit_id": "32dcb24bc0e8ebbe3436ae3586e7ea6d85f09b04",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0102",
+      "pid": 15300,
+      "elapsed_seconds": 521.6606983749662,
+      "end_event_id": "E0113",
+      "record_path": "experiments/fetch-tessera-007-010/run.json"
+    },
+    {
+      "experiment_id": "fetch-tessera-011-014",
+      "start_at_utc": "2026-10-25T10:15:25Z",
+      "end_at_utc": "2026-10-25T10:27:46Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "tessera",
+        "11",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "code_commit_id": "27c7edb9f417009ef7ad08176f8845c15f5b6174",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0118",
+      "pid": 15747,
+      "elapsed_seconds": 740.7483771669213,
+      "end_event_id": "E0133",
+      "record_path": "experiments/fetch-tessera-011-014/run.json"
+    },
+    {
+      "experiment_id": "fetch-tessera-015-018",
+      "start_at_utc": "2026-10-25T10:30:30Z",
+      "end_at_utc": "2026-10-25T10:40:12Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "tessera",
+        "15",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "code_commit_id": "ed9d6df065a907921173caeaa1d375b993afdc22",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0138",
+      "pid": 16302,
+      "elapsed_seconds": 581.4747214170638,
+      "end_event_id": "E0145",
+      "record_path": "experiments/fetch-tessera-015-018/run.json"
+    },
+    {
+      "experiment_id": "fetch-tessera-019-022",
+      "start_at_utc": "2026-10-25T10:45:55Z",
+      "end_at_utc": "2026-10-25T10:56:27Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "tessera",
+        "19",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "additional_plan_commits": {},
+      "code_commit_id": "ccc95a432af07c319f16abefaa84eb6a98fe65e8",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0154",
+      "pid": 16978,
+      "elapsed_seconds": 631.2643642909825,
+      "end_event_id": "E0162",
+      "record_path": "experiments/fetch-tessera-019-022/run.json"
+    },
+    {
+      "experiment_id": "fetch-tessera-023-026",
+      "start_at_utc": "2026-10-25T10:59:26Z",
+      "end_at_utc": null,
+      "command": [
+        ".venv/bin/python",
+        "scripts/retrieve.py",
+        "tessera",
+        "23",
+        "--batch-count",
+        "4"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+      "additional_plan_commits": {},
+      "code_commit_id": "7af7f49c9cb7b1e6b9616f392ff204516b5cf0e5",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+      },
+      "exit_code": null,
+      "status": "running",
+      "start_event_id": "E0165",
+      "pid": 17443,
+      "record_path": "experiments/fetch-tessera-023-026/run.json"
+    },
+    {
+      "experiment_id": "main-prepare-v1",
+      "start_at_utc": "2026-10-25T09:35:40Z",
+      "end_at_utc": "2026-10-25T09:36:05Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/prepare.py"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit_id": "16950d0443b1a60305016500941e1c6448a65d40",
+      "code_commit_id": "f55197d69566069a78c37c741507a8a31b40f0a4",
+      "input_sha256": {
+        "data/aef-evaluation.zip": "87a4f1ab0907420aa76804a83dddba50930b347456dea355ed05c2521b980c5e"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0047",
+      "pid": 14033,
+      "elapsed_seconds": 25.39688350004144,
+      "end_event_id": "E0048",
+      "record_path": "experiments/main-prepare-v1/run.json"
+    },
+    {
+      "experiment_id": "native-access-v5",
+      "start_at_utc": "2026-10-25T10:26:38Z",
+      "end_at_utc": "2026-10-25T10:27:57Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/native_check.py",
+        "retrieve",
+        "--start",
+        "0",
+        "--count",
+        "1"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v5.md",
+      "plan_commit_id": "f473329cd07acdf0a7dca8564845c1f322613fe4",
+      "code_commit_id": "705081573845b3ee13b0c1542c79f093841b80a9",
+      "input_sha256": {
+        "data/native-check/tasks.csv": "9ce49d4c7f9c7afc03b2162706917a6acafb67cda1c42639a4ca8e5732331dc0",
+        "data/aef-native-index.parquet": "5d216665ff2e4b8871157d217230cc42d542f1ac9a4b224c16d5c1dbff9cb947"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0132",
+      "pid": 16181,
+      "elapsed_seconds": 79.47972237505019,
+      "end_event_id": "E0134",
+      "record_path": "experiments/native-access-v5/run.json"
+    },
+    {
+      "experiment_id": "native-prepare-v5",
+      "start_at_utc": "2026-10-25T10:25:06Z",
+      "end_at_utc": "2026-10-25T10:25:09Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/native_check.py",
+        "prepare"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v5.md",
+      "plan_commit_id": "f473329cd07acdf0a7dca8564845c1f322613fe4",
+      "code_commit_id": "f21dcec77be0a3fe2654f39bfdd1902da40bcd54",
+      "input_sha256": {
+        "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948",
+        "data/controls/tasks.csv": "2ee765082dce1597cf9f375ad89de15eb0207520029c6a5a9683c66c4ab32c55"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0126",
+      "pid": 16083,
+      "elapsed_seconds": 2.102094750152901,
+      "end_event_id": "E0127",
+      "record_path": "experiments/native-prepare-v5/run.json"
+    },
+    {
+      "experiment_id": "nlcd-access-index",
+      "start_at_utc": "2026-10-25T10:01:04Z",
+      "end_at_utc": "2026-10-25T10:01:05Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/remote_zip.py"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/data-access-nlcd.md",
+      "plan_commit_id": "bff2743517a8d1b71e6a882e8d74cf4689f5fd81",
+      "code_commit_id": "bff2743517a8d1b71e6a882e8d74cf4689f5fd81",
+      "input_sha256": {
+        "sources/mrlc-robots.txt": "7bcb246c07b94a02b9f0b2186b37ed1e83158de24abd80af50806dff7200ad1f"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0093",
+      "pid": 15168,
+      "elapsed_seconds": 1.403289332985878,
+      "end_event_id": "E0094",
+      "record_path": "experiments/nlcd-access-index/run.json"
+    },
+    {
+      "experiment_id": "nlcd-access-schema",
+      "start_at_utc": "2026-10-25T10:02:55Z",
+      "end_at_utc": "2026-10-25T10:03:01Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/nlcd_schema.py"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/data-access-nlcd.md",
+      "plan_commit_id": "bff2743517a8d1b71e6a882e8d74cf4689f5fd81",
+      "code_commit_id": "8df2be44644f5fb9ed15044180ddf328cf4d02b1",
+      "input_sha256": {
+        "data/nlcd/archive-index.json": "0e26ce5262af202efab6a2e8b6fcf312cfe8bf969599369e14ff73f53c617e22"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0097",
+      "pid": 15243,
+      "elapsed_seconds": 5.193433583946899,
+      "end_event_id": "E0099",
+      "record_path": "experiments/nlcd-access-schema/run.json"
+    },
+    {
+      "experiment_id": "nlcd-prepare-v4",
+      "start_at_utc": "2026-10-25T10:12:36Z",
+      "end_at_utc": "2026-10-25T10:12:43Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/prepare_nlcd.py"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 1800,
+      "seed": null,
+      "plan_path": "protocol/plan-v4.md",
+      "plan_commit_id": "3efd729c24e8e889e64c7bb5d2770173613721fa",
+      "code_commit_id": "e1f146521db17c768f6334bee652a2fcf6e81bfb",
+      "input_sha256": {
+        "data/nlcd/NLCD2023_Full8360_AnnualAttributes.csv": "1447bb03636c2f1d9f78ad164aeb4ef42ab86a9e82332bc8899e812d13f63079",
+        "data/nlcd/Plot_Coordinates_List_Simple_and_Stratified.csv": "d353a6539e7296c40725ece20475fbb4d938b2ce9a0d6db148de91a67beca8d5",
+        "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+        "data/prepared/references.csv": "8d2161765a97982d362e57c7d9e4b1b41b51f9a9602f124e33474adee915e180",
+        "data/controls/controls.csv": "a045930a0d18e6bb2a3ee70ce7e23870e7818fe6808e64bf16cb819c4657a4d2"
+      },
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0114",
+      "pid": 15645,
+      "elapsed_seconds": 7.263694999972358,
+      "end_event_id": "E0115",
+      "record_path": "experiments/nlcd-prepare-v4/run.json"
+    },
+    {
+      "experiment_id": "pilot-c1",
+      "start_at_utc": "2026-10-25T08:37:14Z",
+      "end_at_utc": "2026-10-25T08:37:14Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/pilot_access.py",
+        "c1"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 900,
+      "seed": null,
+      "plan_path": "protocol/topic-selection.md",
+      "plan_commit_id": "1f6791187c73fbb075eed82a602067aab482b6e3",
+      "code_commit_id": "1f6791187c73fbb075eed82a602067aab482b6e3",
+      "input_sha256": {},
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0012",
+      "pid": 11834,
+      "elapsed_seconds": 0.6323352500330657,
+      "end_event_id": "E0013",
+      "record_path": "experiments/pilot-c1/run.json"
+    },
+    {
+      "experiment_id": "pilot-c11",
+      "start_at_utc": "2026-10-25T08:37:14Z",
+      "end_at_utc": "2026-10-25T08:37:17Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/pilot_access.py",
+        "c11"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 900,
+      "seed": null,
+      "plan_path": "protocol/topic-selection.md",
+      "plan_commit_id": "1f6791187c73fbb075eed82a602067aab482b6e3",
+      "code_commit_id": "1f6791187c73fbb075eed82a602067aab482b6e3",
+      "input_sha256": {},
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0014",
+      "pid": 11839,
+      "elapsed_seconds": 2.6148501669522375,
+      "end_event_id": "E0015",
+      "record_path": "experiments/pilot-c11/run.json"
+    },
+    {
+      "experiment_id": "pilot-c3",
+      "start_at_utc": "2026-10-25T08:38:01Z",
+      "end_at_utc": "2026-10-25T08:38:11Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/pilot_access.py",
+        "c3"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 900,
+      "seed": null,
+      "plan_path": "protocol/topic-selection.md",
+      "plan_commit_id": "1f6791187c73fbb075eed82a602067aab482b6e3",
+      "code_commit_id": "1f6791187c73fbb075eed82a602067aab482b6e3",
+      "input_sha256": {},
+      "exit_code": 1,
+      "status": "failed",
+      "start_event_id": "E0016",
+      "pid": 11902,
+      "elapsed_seconds": 10.154690083116293,
+      "end_event_id": "E0017",
+      "record_path": "experiments/pilot-c3/run.json"
+    },
+    {
+      "experiment_id": "pilot-c3-retry",
+      "start_at_utc": "2026-10-25T08:38:58Z",
+      "end_at_utc": "2026-10-25T08:39:07Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/pilot_access.py",
+        "c3"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 750,
+      "seed": null,
+      "plan_path": "protocol/topic-selection.md",
+      "plan_commit_id": "1f6791187c73fbb075eed82a602067aab482b6e3",
+      "code_commit_id": "92dbba6800069178311f024353c41fe8c1975f4c",
+      "input_sha256": {},
+      "exit_code": 0,
+      "status": "completed",
+      "start_event_id": "E0020",
+      "pid": 11975,
+      "elapsed_seconds": 9.170638083014637,
+      "end_event_id": "E0021",
+      "record_path": "experiments/pilot-c3-retry/run.json"
+    },
+    {
+      "experiment_id": "pilot-c3-tessera",
+      "start_at_utc": "2026-10-25T08:42:58Z",
+      "end_at_utc": "2026-10-25T08:43:30Z",
+      "command": [
+        ".venv/bin/python",
+        "scripts/pilot_tessera.py"
+      ],
+      "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+      "timeout_seconds": 600,
+      "seed": null,
+      "plan_path": "protocol/topic-selection.md",
+      "plan_commit_id": "1f6791187c73fbb075eed82a602067aab482b6e3",
+      "code_commit_id": "ee9bea2701c410b974d58a68527648639ce1707d",
+      "input_sha256": {},
+      "exit_code": 1,
+      "status": "failed",
+      "start_event_id": "E0024",
+      "pid": 12179,
+      "elapsed_seconds": 32.11061350000091,
+      "end_event_id": "E0025",
+      "record_path": "experiments/pilot-c3-tessera/run.json"
+    }
+  ],
+  "run_status_counts": {
+    "completed": 29,
+    "running": 2,
+    "failed": 2
+  },
+  "registered_experiment_count": 33,
+  "maximum_registered_concurrency": 2,
+  "maximum_completed_duration_seconds": 740.7483771669213,
+  "api_latest_records": [
+    {
+      "call_id": "API001",
+      "experiment_id": "topic-selection-step-6",
+      "purpose": "candidate critique (explicit sole research-decision exception)",
+      "requested_at_utc": "2026-10-25T08:56:16Z",
+      "provider": "OpenAI",
+      "model_requested": "gpt-6-astra",
+      "model_returned": "gpt-6-astra",
+      "parameters": {
+        "model": "gpt-6-astra",
+        "reasoning": {
+          "effort": "xhigh"
+        },
+        "background": true,
+        "store": true,
+        "service_tier": "default",
+        "tools": [
+          {
+            "type": "web_search"
+          }
+        ],
+        "include": [
+          "web_search_call.action.sources"
+        ]
+      },
+      "request_path": "experiments/topic-critique/API001-request.json",
+      "response_path": "experiments/topic-critique/API001-response-004.json",
+      "usage": {
+        "input_tokens": 115237,
+        "input_tokens_details": {
+          "cache_write_tokens": 6120,
+          "cached_tokens": 0
+        },
+        "output_tokens": 14443,
+        "output_tokens_details": {
+          "reasoning_tokens": 9680
+        },
+        "total_tokens": 129680
+      },
+      "cost_usd": 2.01982,
+      "cumulative_cost_usd": 2.01982,
+      "status": "completed",
+      "error": null,
+      "budget_check": {
+        "actual_before_usd": 0,
+        "maximum_next_usd": null,
+        "maximum_check_exception": "research-question skill step 6; no max_output_tokens",
+        "budget_usd": 20.0,
+        "price_source": "sources/openai-pricing.md",
+        "rates_standard_short_context": {
+          "input_per_million": 10.0,
+          "cached_input_per_million": 1.0,
+          "output_per_million": 50.0,
+          "web_search_per_call": 0.01
+        }
+      },
+      "retry_limit": 0,
+      "attempt": 1,
+      "updated_at_utc": "2026-10-25T09:07:35Z",
+      "web_search_calls": 13,
+      "accounting_note": "Locally recomputed from saved response; no new API request. Includes cache-write tokens at published default 30m rate. Legacy retention field and absent lifetime detail retained as a reporting caveat."
+    }
+  ],
+  "intervention_counts": {},
+  "intervention_count": 0,
+  "retrievals": {
+    "aef": {
+      "attempts": 1867,
+      "status_counts": {
+        "saved": 1867
+      },
+      "saved_files": 1867,
+      "max_attempt": 1
+    },
+    "tessera": {
+      "attempts": 1472,
+      "status_counts": {
+        "saved": 1472
+      },
+      "saved_files": 1472,
+      "max_attempt": 1
+    }
+  },
+  "logical_storage_bytes": 1592552573,
+  "allocated_storage_bytes": 1675739136,
+  "git_commit_count": 37,
+  "caveats": [
+    "Durations/times are locally reported. Same-second ends sort before starts.",
+    "Model generation calls are deduplicated by call_id; polling/accounting rows are not separate generations.",
+    "Session-token usage, deployment identifier, invoice and normal-tool billing remain unobservable."
+  ]
+}

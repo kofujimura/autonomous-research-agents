@@ -1,0 +1,22 @@
+{
+  "experiment_id": "P03-ts",
+  "start_time_utc": "2026-10-26T15:06:30.750572Z",
+  "end_time_utc": "2026-10-26T15:07:22.219421Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pilot_ts.py"
+  ],
+  "timeout_seconds": 900,
+  "plan_path": "protocol/pilots.md",
+  "plan_commit_id": "d14c9c4ecdfa4dae7e777d8faaeabd58f0cf4419",
+  "plan_sha256": "e50e87e20926b8c89ccaa92b035d6a2fa081ac10b56420a1e09938cf2c9622d1",
+  "code_commit_id": "d14c9c4ecdfa4dae7e777d8faaeabd58f0cf4419",
+  "status": "failed",
+  "exit_code": 1,
+  "stdout_path": "experiments/P03-ts/stdout.txt",
+  "stderr_path": "experiments/P03-ts/stderr.txt",
+  "start_event_id": "E0013",
+  "pid": 89545,
+  "elapsed_seconds": 51.46781162498519,
+  "end_event_id": "E0015"
+}

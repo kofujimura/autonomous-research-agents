@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/acquire.py", line 112, in byte_range
+    status=response.status_code;crange=response.headers.get('Content-Range');response.raise_for_status()
+                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Slow Down for url: https://ecmwf-forecasts.s3.eu-central-1.amazonaws.com/20260806/00z/ifs/0p25/enfo/20260806000000-72h-enfo-ef.grib2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/city_time_pipeline.py", line 109, in main
+    acquire.main(['--date',a.date,'--model',a.model,'--lead',str(lead),
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  '--design','protocol/design-v4.json','--data-root','data/weather-v4','--chunk-bytes',str(a.chunk_bytes),*flags])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/acquire.py", line 155, in main
+    content=b''.join(byte_range(offset,min(offset+a.chunk_bytes-1,start+length-1),member) for offset in range(start,start+length,a.chunk_bytes))
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/acquire.py", line 155, in <genexpr>
+    content=b''.join(byte_range(offset,min(offset+a.chunk_bytes-1,start+length-1),member) for offset in range(start,start+length,a.chunk_bytes))
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/acquire.py", line 141, in byte_range
+    raise RuntimeError(f'Range failed after bounded retries, member {field_id}') from failure
+RuntimeError: Range failed after bounded retries, member 10

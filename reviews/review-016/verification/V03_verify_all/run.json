@@ -1,0 +1,8 @@
+{
+  "command": "OPENBLAS_NUM_THREADS=4 OMP_NUM_THREADS=4 VECLIB_MAXIMUM_THREADS=4 NUMEXPR_MAX_THREADS=4 /Users/fujimura/Research/ai-free-research-en/review-016/verification/env/bin/python -B /Users/fujimura/Research/ai-free-research-en/review-016/verification/source/scripts/verify.py --all --output /Users/fujimura/Research/ai-free-research-en/review-016/verification/out-full",
+  "cwd": "/Users/fujimura/Research/ai-free-research-en/review-016/verification/source",
+  "timeout_s": 1800.0,
+  "start_utc": "2026-10-27T02:29:57.263416+00:00",
+  "exit_code": 0,
+  "end_utc": "2026-10-27T02:43:29.732755+00:00"
+}

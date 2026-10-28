@@ -1,0 +1,1674 @@
+{
+  "status": "PASS",
+  "elapsed_seconds": 893.8719775408972,
+  "checks": [
+    {
+      "check": "Saved AI-response usage and computed cost; no API call",
+      "call_id": "API001",
+      "model": "gpt-6-astra",
+      "computed_cost_usd": 2.01982,
+      "status": "matched",
+      "caveat": "Default30m cache-write accounting; legacy retention field lacks lifetime token breakdown. Invoice not observed."
+    },
+    {
+      "file": "comparisons.csv",
+      "rows": 3,
+      "columns": 5,
+      "status": "matched"
+    },
+    {
+      "check": "aef-closed-v11 raw input hashes",
+      "files": 2294,
+      "status": "matched"
+    },
+    {
+      "check": "robustness-aef-v12 raw input hashes",
+      "files": 2544,
+      "status": "matched"
+    },
+    {
+      "check": "main-v1 raw input hashes",
+      "files": 4588,
+      "status": "matched"
+    },
+    {
+      "check": "endpoint-v13 raw input hashes",
+      "files": 4588,
+      "status": "matched"
+    },
+    {
+      "check": "reference-completeness-v14 raw input hashes",
+      "files": 4588,
+      "status": "matched"
+    },
+    {
+      "check": "secondary-v2 raw input hashes",
+      "files": 5088,
+      "status": "matched"
+    },
+    {
+      "check": "robustness-paired-v12 raw input hashes",
+      "files": 5088,
+      "status": "matched"
+    },
+    {
+      "check": "initial-vector-v17 raw input hashes",
+      "files": 5088,
+      "status": "matched"
+    },
+    {
+      "check": "geography-v18 raw input hashes",
+      "files": 1,
+      "status": "matched"
+    },
+    {
+      "check": "initial-class-v19 raw input hashes",
+      "files": 1,
+      "status": "matched"
+    },
+    {
+      "check": "reference-access-v20 raw input hashes",
+      "files": 4588,
+      "status": "matched"
+    },
+    {
+      "check": "direct-inputs-v23 raw input hashes",
+      "files": 4588,
+      "status": "matched"
+    },
+    {
+      "check": "partition-sensitivity-v24 raw input hashes",
+      "files": 4588,
+      "status": "matched"
+    },
+    {
+      "check": "cohort-history-feasibility raw input hashes",
+      "files": 4,
+      "status": "matched"
+    },
+    {
+      "check": "nlcd-v4 raw input hashes",
+      "files": 7816,
+      "status": "matched"
+    },
+    {
+      "check": "nlcd-initial-v17 raw input hashes",
+      "files": 7816,
+      "status": "matched"
+    },
+    {
+      "check": "nlcd-geography-v18 raw input hashes",
+      "files": 2,
+      "status": "matched"
+    },
+    {
+      "check": "nlcd-class-v19 raw input hashes",
+      "files": 2,
+      "status": "matched"
+    },
+    {
+      "check": "nlcd-reference-access-v20 raw input hashes",
+      "files": 7316,
+      "status": "matched"
+    },
+    {
+      "check": "nlcd-direct-inputs-v23 raw input hashes",
+      "files": 7316,
+      "status": "matched"
+    },
+    {
+      "check": "native-v5 raw input hashes",
+      "files": 226,
+      "status": "matched"
+    },
+    {
+      "check": "native-pairs-v21 raw input hashes",
+      "files": 4589,
+      "status": "matched"
+    },
+    {
+      "check": "native-single-date-v22 raw input hashes",
+      "files": 4608,
+      "status": "matched"
+    },
+    {
+      "file": "targets.csv",
+      "rows": 857,
+      "columns": 31,
+      "status": "matched"
+    },
+    {
+      "file": "references.csv",
+      "rows": 116,
+      "columns": 26,
+      "status": "matched"
+    },
+    {
+      "file": "tasks.csv",
+      "rows": 2294,
+      "columns": 8,
+      "status": "matched"
+    },
+    {
+      "file": "sample_counts.csv",
+      "rows": 34,
+      "columns": 4,
+      "status": "matched"
+    },
+    {
+      "file": "controls.csv",
+      "rows": 50,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "tasks.csv",
+      "rows": 250,
+      "columns": 8,
+      "status": "matched"
+    },
+    {
+      "file": "coordinate-matches.csv",
+      "rows": 166,
+      "columns": 5,
+      "status": "matched"
+    },
+    {
+      "file": "targets.csv",
+      "rows": 523,
+      "columns": 31,
+      "status": "matched"
+    },
+    {
+      "file": "tasks.csv",
+      "rows": 1364,
+      "columns": 8,
+      "status": "matched"
+    },
+    {
+      "file": "sample-counts.csv",
+      "rows": 32,
+      "columns": 4,
+      "status": "matched"
+    },
+    {
+      "file": "tasks.csv",
+      "rows": 120,
+      "columns": 9,
+      "status": "matched"
+    },
+    {
+      "file": "tasks.csv",
+      "rows": 32,
+      "columns": 8,
+      "status": "matched"
+    },
+    {
+      "file": "targets.csv",
+      "rows": 16,
+      "columns": 33,
+      "status": "matched"
+    },
+    {
+      "file": "tasks.csv",
+      "rows": 20,
+      "columns": 7,
+      "status": "matched"
+    },
+    {
+      "file": "targets.csv",
+      "rows": 20,
+      "columns": 34,
+      "status": "matched"
+    },
+    {
+      "file": "availability.csv",
+      "rows": 2294,
+      "columns": 8,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 336,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 296,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "main-table.csv",
+      "rows": 24,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 1680,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 2352,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "identities.csv",
+      "rows": 200,
+      "columns": 13,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 30,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 28,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 30,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "fitting-counts.csv",
+      "rows": 5,
+      "columns": 6,
+      "status": "matched"
+    },
+    {
+      "file": "matching-counts.csv",
+      "rows": 40,
+      "columns": 7,
+      "status": "matched"
+    },
+    {
+      "file": "calibration-metrics.csv",
+      "rows": 90,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "calibration-paired.csv",
+      "rows": 84,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "calibration-thresholds.csv",
+      "rows": 450,
+      "columns": 15,
+      "status": "matched"
+    },
+    {
+      "file": "partial-label-audit.csv",
+      "rows": 166,
+      "columns": 9,
+      "status": "matched"
+    },
+    {
+      "file": "partial-label-audit-summary.csv",
+      "rows": 3,
+      "columns": 9,
+      "status": "matched"
+    },
+    {
+      "file": "availability.csv",
+      "rows": 4588,
+      "columns": 8,
+      "status": "matched"
+    },
+    {
+      "file": "availability-targets.csv",
+      "rows": 3428,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "coverage.csv",
+      "rows": 456,
+      "columns": 9,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 1344,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 1184,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "main-table.csv",
+      "rows": 48,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 6720,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 9408,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "identities.csv",
+      "rows": 800,
+      "columns": 13,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 960,
+      "columns": 25,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 880,
+      "columns": 19,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 4800,
+      "columns": 15,
+      "status": "matched"
+    },
+    {
+      "file": "fitting-counts.csv",
+      "rows": 400,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "cell-assignments.csv",
+      "rows": 460,
+      "columns": 3,
+      "status": "matched"
+    },
+    {
+      "file": "invariance-checks.csv",
+      "rows": 10,
+      "columns": 6,
+      "status": "matched"
+    },
+    {
+      "file": "condition-availability.csv",
+      "rows": 4800,
+      "columns": 9,
+      "status": "matched"
+    },
+    {
+      "file": "primary-ranges.csv",
+      "rows": 12,
+      "columns": 15,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 672,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "excluded-gain-negative-pairs.csv",
+      "rows": 53,
+      "columns": 5,
+      "status": "matched"
+    },
+    {
+      "file": "class-route-counts.csv",
+      "rows": 34,
+      "columns": 5,
+      "status": "matched"
+    },
+    {
+      "file": "reference-state-pairs.csv",
+      "rows": 892,
+      "columns": 22,
+      "status": "matched"
+    },
+    {
+      "file": "scalar-reconstruction-check.csv",
+      "rows": 20,
+      "columns": 5,
+      "status": "matched"
+    },
+    {
+      "file": "reference-state-summary.csv",
+      "rows": 18,
+      "columns": 13,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 96,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 88,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 480,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-membership.csv",
+      "rows": 80,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "changes-versus-original.csv",
+      "rows": 96,
+      "columns": 13,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 124,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 116,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 140,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 868,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "control-availability.csv",
+      "rows": 80,
+      "columns": 10,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 60,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 56,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 60,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "fitting-counts.csv",
+      "rows": 10,
+      "columns": 6,
+      "status": "matched"
+    },
+    {
+      "file": "matching-counts.csv",
+      "rows": 80,
+      "columns": 7,
+      "status": "matched"
+    },
+    {
+      "file": "calibration-metrics.csv",
+      "rows": 180,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "calibration-paired.csv",
+      "rows": 168,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "calibration-thresholds.csv",
+      "rows": 900,
+      "columns": 15,
+      "status": "matched"
+    },
+    {
+      "file": "partial-label-audit.csv",
+      "rows": 166,
+      "columns": 9,
+      "status": "matched"
+    },
+    {
+      "file": "partial-label-audit-summary.csv",
+      "rows": 3,
+      "columns": 9,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 94,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 90,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 658,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "initial-versus-subsequent.csv",
+      "rows": 16,
+      "columns": 19,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 100,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "cohort-fitting-counts.csv",
+      "rows": 10,
+      "columns": 6,
+      "status": "matched"
+    },
+    {
+      "file": "permutation-map.csv",
+      "rows": 446,
+      "columns": 3,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 6,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 42,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 30,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "fitting-counts.csv",
+      "rows": 30,
+      "columns": 7,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 2,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 14,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 10,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "fitting-counts.csv",
+      "rows": 15,
+      "columns": 7,
+      "status": "matched"
+    },
+    {
+      "file": "subgroup-metrics.csv",
+      "rows": 156,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "subgroup-strata.csv",
+      "rows": 1090,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "subgroup-initial-versus-subsequent.csv",
+      "rows": 24,
+      "columns": 19,
+      "status": "matched"
+    },
+    {
+      "file": "subgroup-counts.csv",
+      "rows": 3,
+      "columns": 6,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 160,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 144,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 1120,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 800,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 160,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "identities.csv",
+      "rows": 80,
+      "columns": 13,
+      "status": "matched"
+    },
+    {
+      "file": "nearest-reference-distances.csv",
+      "rows": 1784,
+      "columns": 6,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 16,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 112,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "contrasts.csv",
+      "rows": 16,
+      "columns": 19,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 80,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "fitting-counts.csv",
+      "rows": 80,
+      "columns": 9,
+      "status": "matched"
+    },
+    {
+      "file": "both-threshold-equality.csv",
+      "rows": 20,
+      "columns": 20,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 496,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 464,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 620,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 3472,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "threshold-equality.csv",
+      "rows": 620,
+      "columns": 20,
+      "status": "matched"
+    },
+    {
+      "file": "availability-targets.csv",
+      "rows": 2092,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "coverage.csv",
+      "rows": 416,
+      "columns": 9,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 376,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 360,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 2632,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "initial-versus-subsequent.csv",
+      "rows": 64,
+      "columns": 19,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 100,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "cohort-fitting-counts.csv",
+      "rows": 10,
+      "columns": 6,
+      "status": "matched"
+    },
+    {
+      "file": "post-threshold-equality.csv",
+      "rows": 60,
+      "columns": 20,
+      "status": "matched"
+    },
+    {
+      "file": "initial-threshold-equality.csv",
+      "rows": 100,
+      "columns": 20,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 24,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 168,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 30,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "fitting-counts.csv",
+      "rows": 30,
+      "columns": 7,
+      "status": "matched"
+    },
+    {
+      "file": "threshold-equality.csv",
+      "rows": 30,
+      "columns": 21,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 8,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 56,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 10,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "fitting-counts.csv",
+      "rows": 15,
+      "columns": 7,
+      "status": "matched"
+    },
+    {
+      "file": "subgroup-metrics.csv",
+      "rows": 624,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "subgroup-strata.csv",
+      "rows": 4252,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "subgroup-initial-versus-subsequent.csv",
+      "rows": 96,
+      "columns": 19,
+      "status": "matched"
+    },
+    {
+      "file": "subgroup-counts.csv",
+      "rows": 12,
+      "columns": 6,
+      "status": "matched"
+    },
+    {
+      "file": "threshold-equality.csv",
+      "rows": 10,
+      "columns": 20,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 640,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "paired-comparisons.csv",
+      "rows": 576,
+      "columns": 18,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 4480,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 800,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "reference-availability.csv",
+      "rows": 240,
+      "columns": 11,
+      "status": "matched"
+    },
+    {
+      "file": "identities.csv",
+      "rows": 160,
+      "columns": 13,
+      "status": "matched"
+    },
+    {
+      "file": "nearest-reference-distances.csv",
+      "rows": 2088,
+      "columns": 6,
+      "status": "matched"
+    },
+    {
+      "file": "threshold-equality.csv",
+      "rows": 800,
+      "columns": 20,
+      "status": "matched"
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 64,
+      "columns": 24,
+      "status": "matched"
+    },
+    {
+      "file": "strata.csv",
+      "rows": 448,
+      "columns": 12,
+      "status": "matched"
+    },
+    {
+      "file": "contrasts.csv",
+      "rows": 64,
+      "columns": 19,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 80,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "fitting-counts.csv",
+      "rows": 80,
+      "columns": 9,
+      "status": "matched"
+    },
+    {
+      "file": "both-threshold-equality.csv",
+      "rows": 20,
+      "columns": 20,
+      "status": "matched"
+    },
+    {
+      "file": "threshold-equality.csv",
+      "rows": 80,
+      "columns": 20,
+      "status": "matched"
+    },
+    {
+      "file": "comparisons.csv",
+      "rows": 120,
+      "columns": 13,
+      "status": "matched"
+    },
+    {
+      "file": "summary.csv",
+      "rows": 39,
+      "columns": 7,
+      "status": "matched"
+    },
+    {
+      "file": "comparisons.csv",
+      "rows": 384,
+      "columns": 19,
+      "status": "matched"
+    },
+    {
+      "file": "summary.csv",
+      "rows": 48,
+      "columns": 13,
+      "status": "matched"
+    },
+    {
+      "file": "availability.csv",
+      "rows": 32,
+      "columns": 8,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 240,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "threshold-equality.csv",
+      "rows": 240,
+      "columns": 20,
+      "status": "matched"
+    },
+    {
+      "file": "comparisons.csv",
+      "rows": 480,
+      "columns": 19,
+      "status": "matched"
+    },
+    {
+      "file": "summary.csv",
+      "rows": 48,
+      "columns": 13,
+      "status": "matched"
+    },
+    {
+      "file": "availability.csv",
+      "rows": 20,
+      "columns": 8,
+      "status": "matched"
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 240,
+      "columns": 14,
+      "status": "matched"
+    },
+    {
+      "file": "threshold-equality.csv",
+      "rows": 240,
+      "columns": 20,
+      "status": "matched"
+    },
+    {
+      "file": "input-identity.csv",
+      "rows": 40,
+      "columns": 8,
+      "status": "matched"
+    },
+    {
+      "file": "decision-identity.csv",
+      "rows": 48,
+      "columns": 8,
+      "status": "matched"
+    },
+    {
+      "check": "independent confusion recount and calibration operating point",
+      "status": "matched",
+      "rows": 48
+    },
+    {
+      "check": "separate saved-flag recount across all result sets",
+      "status": "PASS",
+      "folders": 30
+    }
+  ],
+  "stage_timings": [
+    {
+      "stage": "route_recovery",
+      "start_at_utc": "2026-10-25T18:50:38Z",
+      "end_at_utc": "2026-10-25T18:50:38Z",
+      "elapsed_seconds": 0.0054838748183101416
+    },
+    {
+      "stage": "prepare_lcmap",
+      "start_at_utc": "2026-10-25T18:50:41Z",
+      "end_at_utc": "2026-10-25T18:50:41Z",
+      "elapsed_seconds": 0.1094380000140518
+    },
+    {
+      "stage": "prepare_controls",
+      "start_at_utc": "2026-10-25T18:50:41Z",
+      "end_at_utc": "2026-10-25T18:50:41Z",
+      "elapsed_seconds": 0.020799124846234918
+    },
+    {
+      "stage": "cohort_history_feasibility",
+      "start_at_utc": "2026-10-25T18:50:41Z",
+      "end_at_utc": "2026-10-25T18:50:42Z",
+      "elapsed_seconds": 0.8955033749807626
+    },
+    {
+      "stage": "prepare_nlcd",
+      "start_at_utc": "2026-10-25T18:50:42Z",
+      "end_at_utc": "2026-10-25T18:50:47Z",
+      "elapsed_seconds": 5.462915791897103
+    },
+    {
+      "stage": "prepare_native_sample",
+      "start_at_utc": "2026-10-25T18:50:47Z",
+      "end_at_utc": "2026-10-25T18:50:47Z",
+      "elapsed_seconds": 0.00788362487219274
+    },
+    {
+      "stage": "prepare_native_pairs",
+      "start_at_utc": "2026-10-25T18:50:47Z",
+      "end_at_utc": "2026-10-25T18:50:48Z",
+      "elapsed_seconds": 0.008571249898523092
+    },
+    {
+      "stage": "prepare_saved_native_dates",
+      "start_at_utc": "2026-10-25T18:50:48Z",
+      "end_at_utc": "2026-10-25T18:50:48Z",
+      "elapsed_seconds": 0.018099875189363956
+    },
+    {
+      "stage": "aef_closed_v11",
+      "start_at_utc": "2026-10-25T18:50:48Z",
+      "end_at_utc": "2026-10-25T18:51:08Z",
+      "elapsed_seconds": 20.739395499927923
+    },
+    {
+      "stage": "robustness_aef_v12",
+      "start_at_utc": "2026-10-25T18:51:08Z",
+      "end_at_utc": "2026-10-25T18:51:44Z",
+      "elapsed_seconds": 35.24058416718617
+    },
+    {
+      "stage": "main_v1",
+      "start_at_utc": "2026-10-25T18:51:44Z",
+      "end_at_utc": "2026-10-25T18:53:13Z",
+      "elapsed_seconds": 89.67224562517367
+    },
+    {
+      "stage": "partition_sensitivity_v24",
+      "start_at_utc": "2026-10-25T18:53:13Z",
+      "end_at_utc": "2026-10-25T18:58:54Z",
+      "elapsed_seconds": 340.91195487510413
+    },
+    {
+      "stage": "endpoint_v13",
+      "start_at_utc": "2026-10-25T18:58:54Z",
+      "end_at_utc": "2026-10-25T18:59:44Z",
+      "elapsed_seconds": 49.94059795793146
+    },
+    {
+      "stage": "reference_completeness_v14",
+      "start_at_utc": "2026-10-25T18:59:44Z",
+      "end_at_utc": "2026-10-25T19:00:18Z",
+      "elapsed_seconds": 34.16448083310388
+    },
+    {
+      "stage": "secondary_v2",
+      "start_at_utc": "2026-10-25T19:00:18Z",
+      "end_at_utc": "2026-10-25T19:00:21Z",
+      "elapsed_seconds": 2.8863120831083506
+    },
+    {
+      "stage": "robustness_paired_v12",
+      "start_at_utc": "2026-10-25T19:00:21Z",
+      "end_at_utc": "2026-10-25T19:01:40Z",
+      "elapsed_seconds": 78.61423270776868
+    },
+    {
+      "stage": "initial_lcmap_v17",
+      "start_at_utc": "2026-10-25T19:01:40Z",
+      "end_at_utc": "2026-10-25T19:02:06Z",
+      "elapsed_seconds": 26.05995574989356
+    },
+    {
+      "stage": "geography_lcmap_v18",
+      "start_at_utc": "2026-10-25T19:02:06Z",
+      "end_at_utc": "2026-10-25T19:02:08Z",
+      "elapsed_seconds": 2.02138733305037
+    },
+    {
+      "stage": "class_lcmap_v19",
+      "start_at_utc": "2026-10-25T19:02:08Z",
+      "end_at_utc": "2026-10-25T19:02:10Z",
+      "elapsed_seconds": 1.772446749964729
+    },
+    {
+      "stage": "reference_access_lcmap_v20",
+      "start_at_utc": "2026-10-25T19:02:10Z",
+      "end_at_utc": "2026-10-25T19:02:45Z",
+      "elapsed_seconds": 35.42191595910117
+    },
+    {
+      "stage": "direct_inputs_lcmap_v23",
+      "start_at_utc": "2026-10-25T19:02:45Z",
+      "end_at_utc": "2026-10-25T19:02:57Z",
+      "elapsed_seconds": 11.152325000148267
+    },
+    {
+      "stage": "main_figures",
+      "start_at_utc": "2026-10-25T19:02:57Z",
+      "end_at_utc": "2026-10-25T19:02:57Z",
+      "elapsed_seconds": 0.6147435419261456
+    },
+    {
+      "stage": "diagnostic_figures",
+      "start_at_utc": "2026-10-25T19:02:57Z",
+      "end_at_utc": "2026-10-25T19:02:58Z",
+      "elapsed_seconds": 0.5617195828817785
+    },
+    {
+      "stage": "nlcd_v4",
+      "start_at_utc": "2026-10-25T19:02:58Z",
+      "end_at_utc": "2026-10-25T19:03:37Z",
+      "elapsed_seconds": 38.835574415978044
+    },
+    {
+      "stage": "initial_nlcd_v17",
+      "start_at_utc": "2026-10-25T19:03:37Z",
+      "end_at_utc": "2026-10-25T19:03:59Z",
+      "elapsed_seconds": 21.942762750200927
+    },
+    {
+      "stage": "geography_nlcd_v18",
+      "start_at_utc": "2026-10-25T19:03:59Z",
+      "end_at_utc": "2026-10-25T19:04:01Z",
+      "elapsed_seconds": 2.125675375107676
+    },
+    {
+      "stage": "class_nlcd_v19",
+      "start_at_utc": "2026-10-25T19:04:01Z",
+      "end_at_utc": "2026-10-25T19:04:07Z",
+      "elapsed_seconds": 5.860164624871686
+    },
+    {
+      "stage": "reference_access_nlcd_v20",
+      "start_at_utc": "2026-10-25T19:04:07Z",
+      "end_at_utc": "2026-10-25T19:04:47Z",
+      "elapsed_seconds": 40.329742291010916
+    },
+    {
+      "stage": "direct_inputs_nlcd_v23",
+      "start_at_utc": "2026-10-25T19:04:47Z",
+      "end_at_utc": "2026-10-25T19:05:00Z",
+      "elapsed_seconds": 12.795726958895102
+    },
+    {
+      "stage": "direct_input_figures",
+      "start_at_utc": "2026-10-25T19:05:00Z",
+      "end_at_utc": "2026-10-25T19:05:00Z",
+      "elapsed_seconds": 0.48739949986338615
+    },
+    {
+      "stage": "native_v5",
+      "start_at_utc": "2026-10-25T19:05:00Z",
+      "end_at_utc": "2026-10-25T19:05:00Z",
+      "elapsed_seconds": 0.07611379213631153
+    },
+    {
+      "stage": "unfinished_native_pairs_v21",
+      "start_at_utc": "2026-10-25T19:05:00Z",
+      "end_at_utc": "2026-10-25T19:05:16Z",
+      "elapsed_seconds": 15.30987949995324
+    },
+    {
+      "stage": "native_single_date_v22",
+      "start_at_utc": "2026-10-25T19:05:16Z",
+      "end_at_utc": "2026-10-25T19:05:31Z",
+      "elapsed_seconds": 15.30430299998261
+    },
+    {
+      "stage": "native_identity_v22",
+      "start_at_utc": "2026-10-25T19:05:31Z",
+      "end_at_utc": "2026-10-25T19:05:31Z",
+      "elapsed_seconds": 0.021539916982874274
+    },
+    {
+      "stage": "display_tables",
+      "start_at_utc": "2026-10-25T19:05:31Z",
+      "end_at_utc": "2026-10-25T19:05:31Z",
+      "elapsed_seconds": 0.016363583970814943
+    },
+    {
+      "stage": "saved_flag_audit",
+      "start_at_utc": "2026-10-25T19:05:31Z",
+      "end_at_utc": "2026-10-25T19:05:32Z",
+      "elapsed_seconds": 0.6496862499043345
+    }
+  ],
+  "network_used": false,
+  "ai_api_calls": 0,
+  "note": "Self reruns and third-party reruns must be distinguished in reporting."
+}

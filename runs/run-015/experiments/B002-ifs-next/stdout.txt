@@ -1,0 +1,132 @@
+{"unit_start": {"date": "20260603", "model": "ifs", "lead": 180, "started_at_utc": "2026-10-25T23:04:21Z", "chunk_bytes": 65536}}
+{"member": 1, "cached": false, "observed_at_utc": "2026-10-25T23:04:28Z"}
+{"member": 2, "cached": false, "observed_at_utc": "2026-10-25T23:04:33Z"}
+{"member": 3, "cached": false, "observed_at_utc": "2026-10-25T23:04:39Z"}
+{"member": 4, "cached": false, "observed_at_utc": "2026-10-25T23:04:44Z"}
+{"member": 5, "cached": false, "observed_at_utc": "2026-10-25T23:04:48Z"}
+{"member": 6, "cached": false, "observed_at_utc": "2026-10-25T23:04:54Z"}
+{"member": 7, "cached": false, "observed_at_utc": "2026-10-25T23:04:59Z"}
+{"member": 8, "cached": false, "observed_at_utc": "2026-10-25T23:05:03Z"}
+{"member": 9, "cached": false, "observed_at_utc": "2026-10-25T23:05:09Z"}
+{"member": 10, "cached": false, "observed_at_utc": "2026-10-25T23:05:15Z"}
+{"member": 11, "cached": false, "observed_at_utc": "2026-10-25T23:05:20Z"}
+{"member": 12, "cached": false, "observed_at_utc": "2026-10-25T23:05:24Z"}
+{"member": 13, "cached": false, "observed_at_utc": "2026-10-25T23:05:30Z"}
+{"member": 14, "cached": false, "observed_at_utc": "2026-10-25T23:05:35Z"}
+{"member": 15, "cached": false, "observed_at_utc": "2026-10-25T23:05:39Z"}
+{"member": 16, "cached": false, "observed_at_utc": "2026-10-25T23:05:44Z"}
+{"member": 17, "cached": false, "observed_at_utc": "2026-10-25T23:05:50Z"}
+{"member": 18, "cached": false, "observed_at_utc": "2026-10-25T23:05:54Z"}
+{"member": 19, "cached": false, "observed_at_utc": "2026-10-25T23:06:20Z"}
+{"member": 20, "cached": false, "observed_at_utc": "2026-10-25T23:06:26Z"}
+{"member": 21, "cached": false, "observed_at_utc": "2026-10-25T23:06:30Z"}
+{"member": 22, "cached": false, "observed_at_utc": "2026-10-25T23:06:35Z"}
+{"member": 23, "cached": false, "observed_at_utc": "2026-10-25T23:06:40Z"}
+{"member": 24, "cached": false, "observed_at_utc": "2026-10-25T23:06:44Z"}
+{"member": 25, "cached": false, "observed_at_utc": "2026-10-25T23:06:49Z"}
+{"member": 26, "cached": false, "observed_at_utc": "2026-10-25T23:06:54Z"}
+{"member": 27, "cached": false, "observed_at_utc": "2026-10-25T23:06:59Z"}
+{"member": 28, "cached": false, "observed_at_utc": "2026-10-25T23:07:05Z"}
+{"member": 29, "cached": false, "observed_at_utc": "2026-10-25T23:07:11Z"}
+{"member": 30, "cached": false, "observed_at_utc": "2026-10-25T23:07:16Z"}
+{"member": 31, "cached": false, "observed_at_utc": "2026-10-25T23:07:21Z"}
+{"member": 32, "cached": false, "observed_at_utc": "2026-10-25T23:07:26Z"}
+{"member": 33, "cached": false, "observed_at_utc": "2026-10-25T23:07:31Z"}
+{"member": 34, "cached": false, "observed_at_utc": "2026-10-25T23:07:36Z"}
+{"member": 35, "cached": false, "observed_at_utc": "2026-10-25T23:07:40Z"}
+{"member": 36, "cached": false, "observed_at_utc": "2026-10-25T23:07:45Z"}
+{"member": 37, "cached": false, "observed_at_utc": "2026-10-25T23:07:50Z"}
+{"member": 38, "cached": false, "observed_at_utc": "2026-10-25T23:08:08Z"}
+{"member": 39, "cached": false, "observed_at_utc": "2026-10-25T23:08:26Z"}
+{"member": 40, "cached": false, "observed_at_utc": "2026-10-25T23:08:30Z"}
+{"member": 41, "cached": false, "observed_at_utc": "2026-10-25T23:08:44Z"}
+{"member": 42, "cached": false, "observed_at_utc": "2026-10-25T23:08:48Z"}
+{"member": 43, "cached": false, "observed_at_utc": "2026-10-25T23:08:53Z"}
+{"member": 44, "cached": false, "observed_at_utc": "2026-10-25T23:08:58Z"}
+{"member": 45, "cached": false, "observed_at_utc": "2026-10-25T23:09:03Z"}
+{"member": 46, "cached": false, "observed_at_utc": "2026-10-25T23:09:08Z"}
+{"member": 47, "cached": false, "observed_at_utc": "2026-10-25T23:09:13Z"}
+{"member": 48, "cached": false, "observed_at_utc": "2026-10-25T23:09:18Z"}
+{"member": 49, "cached": false, "observed_at_utc": "2026-10-25T23:09:22Z"}
+{"member": 50, "cached": false, "observed_at_utc": "2026-10-25T23:09:27Z"}
+{"completed_at_utc": "2026-10-25T23:09:27Z", "date": "20260603", "model_requested": "ifs", "lead": 180, "shape": [50, 12, 12], "units": "K", "finite_values": 7200, "measurements": "data/weather/20260603/ifs/180/measurements.jsonl", "selected_data_sha256": "6c22d1fb3d0ffbe9b369a1f9fd587dffd400de7cb441ebda74d5f0d25654181c", "index_sha256": "c1e38aa33a71d0293ecd41c2a71ed17edb88e10b3d32fab849f4b2d0e413aaa5"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "rows_so_far": 27, "observed_at_utc": "2026-10-25T23:09:28Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "rows_so_far": 54, "observed_at_utc": "2026-10-25T23:09:28Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "rows_so_far": 81, "observed_at_utc": "2026-10-25T23:09:28Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "rows_so_far": 108, "observed_at_utc": "2026-10-25T23:09:28Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "rows_so_far": 135, "observed_at_utc": "2026-10-25T23:09:28Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "rows_so_far": 162, "observed_at_utc": "2026-10-25T23:09:28Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "rows_so_far": 189, "observed_at_utc": "2026-10-25T23:09:28Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "rows_so_far": 216, "observed_at_utc": "2026-10-25T23:09:28Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "rows_so_far": 243, "observed_at_utc": "2026-10-25T23:09:28Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "rows_so_far": 270, "observed_at_utc": "2026-10-25T23:09:28Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "rows_so_far": 297, "observed_at_utc": "2026-10-25T23:09:29Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "rows_so_far": 324, "observed_at_utc": "2026-10-25T23:09:29Z"}
+{"completed_at_utc": "2026-10-25T23:09:29Z", "source_path": "data/weather/20260603/ifs/180/temperatures.npz", "source_sha256": "6c22d1fb3d0ffbe9b369a1f9fd587dffd400de7cb441ebda74d5f0d25654181c", "output_path": "results/units/20260603/ifs/180/bounds-50.csv", "output_sha256": "708dad88d8b88fed2dc5f8ce74f18db5fe8b7681de59d2641dc84ce4596e71fb", "date": "20260603", "model": "ifs", "lead": 180, "member_count": 50, "member_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50], "rows": 324, "elapsed_seconds": 1.650635417085141, "lp_options": {"primal_feasibility_tolerance": 1e-08, "dual_feasibility_tolerance": 1e-08, "time_limit": 15.0, "threads": 1}, "lp_count": 456, "max_primal_residual": 9.450218385609332e-13, "max_dual_violation": 3.1019631308026874e-13, "max_duality_gap": 2.1860291354869332e-13}
+{"unit_end": {"date": "20260603", "model": "ifs", "lead": 180, "started_at_utc": "2026-10-25T23:04:21Z", "chunk_bytes": 65536, "analysis_reused": false, "status": "completed", "source_sha256": "6c22d1fb3d0ffbe9b369a1f9fd587dffd400de7cb441ebda74d5f0d25654181c", "analysis_sha256": "708dad88d8b88fed2dc5f8ce74f18db5fe8b7681de59d2641dc84ce4596e71fb", "ended_at_utc": "2026-10-25T23:09:29Z"}}
+{"unit_start": {"date": "20260607", "model": "ifs", "lead": 84, "started_at_utc": "2026-10-25T23:09:29Z", "chunk_bytes": 65536}}
+{"member": 1, "cached": false, "observed_at_utc": "2026-10-25T23:09:38Z"}
+{"member": 2, "cached": false, "observed_at_utc": "2026-10-25T23:09:43Z"}
+{"member": 3, "cached": false, "observed_at_utc": "2026-10-25T23:09:50Z"}
+{"member": 4, "cached": false, "observed_at_utc": "2026-10-25T23:09:54Z"}
+{"member": 5, "cached": false, "observed_at_utc": "2026-10-25T23:09:59Z"}
+{"member": 6, "cached": false, "observed_at_utc": "2026-10-25T23:10:04Z"}
+{"member": 7, "cached": false, "observed_at_utc": "2026-10-25T23:10:10Z"}
+{"member": 8, "cached": false, "observed_at_utc": "2026-10-25T23:10:14Z"}
+{"member": 9, "cached": false, "observed_at_utc": "2026-10-25T23:10:19Z"}
+{"member": 10, "cached": false, "observed_at_utc": "2026-10-25T23:10:36Z"}
+{"member": 11, "cached": false, "observed_at_utc": "2026-10-25T23:10:41Z"}
+{"member": 12, "cached": false, "observed_at_utc": "2026-10-25T23:10:46Z"}
+{"member": 13, "cached": false, "observed_at_utc": "2026-10-25T23:10:52Z"}
+{"member": 14, "cached": false, "observed_at_utc": "2026-10-25T23:10:57Z"}
+{"member": 15, "cached": false, "observed_at_utc": "2026-10-25T23:11:02Z"}
+{"member": 16, "cached": false, "observed_at_utc": "2026-10-25T23:11:07Z"}
+{"member": 17, "cached": false, "observed_at_utc": "2026-10-25T23:11:12Z"}
+{"member": 18, "cached": false, "observed_at_utc": "2026-10-25T23:11:18Z"}
+{"member": 19, "cached": false, "observed_at_utc": "2026-10-25T23:11:26Z"}
+{"member": 20, "cached": false, "observed_at_utc": "2026-10-25T23:11:45Z"}
+{"member": 21, "cached": false, "observed_at_utc": "2026-10-25T23:12:10Z"}
+{"member": 22, "cached": false, "observed_at_utc": "2026-10-25T23:12:15Z"}
+{"member": 23, "cached": false, "observed_at_utc": "2026-10-25T23:12:20Z"}
+{"member": 24, "cached": false, "observed_at_utc": "2026-10-25T23:12:25Z"}
+{"member": 25, "cached": false, "observed_at_utc": "2026-10-25T23:12:30Z"}
+{"member": 26, "cached": false, "observed_at_utc": "2026-10-25T23:12:35Z"}
+{"member": 27, "cached": false, "observed_at_utc": "2026-10-25T23:12:51Z"}
+{"member": 28, "cached": false, "observed_at_utc": "2026-10-25T23:12:56Z"}
+{"member": 29, "cached": false, "observed_at_utc": "2026-10-25T23:13:01Z"}
+{"member": 30, "cached": false, "observed_at_utc": "2026-10-25T23:13:06Z"}
+{"member": 31, "cached": false, "observed_at_utc": "2026-10-25T23:13:10Z"}
+{"member": 32, "cached": false, "observed_at_utc": "2026-10-25T23:13:15Z"}
+{"member": 33, "cached": false, "observed_at_utc": "2026-10-25T23:13:20Z"}
+{"member": 34, "cached": false, "observed_at_utc": "2026-10-25T23:13:25Z"}
+{"member": 35, "cached": false, "observed_at_utc": "2026-10-25T23:13:30Z"}
+{"member": 36, "cached": false, "observed_at_utc": "2026-10-25T23:13:35Z"}
+{"member": 37, "cached": false, "observed_at_utc": "2026-10-25T23:14:03Z"}
+{"member": 38, "cached": false, "observed_at_utc": "2026-10-25T23:14:17Z"}
+{"member": 39, "cached": false, "observed_at_utc": "2026-10-25T23:14:21Z"}
+{"member": 40, "cached": false, "observed_at_utc": "2026-10-25T23:14:26Z"}
+{"member": 41, "cached": false, "observed_at_utc": "2026-10-25T23:14:30Z"}
+{"member": 42, "cached": false, "observed_at_utc": "2026-10-25T23:14:35Z"}
+{"member": 43, "cached": false, "observed_at_utc": "2026-10-25T23:14:40Z"}
+{"member": 44, "cached": false, "observed_at_utc": "2026-10-25T23:14:44Z"}
+{"member": 45, "cached": false, "observed_at_utc": "2026-10-25T23:14:49Z"}
+{"member": 46, "cached": false, "observed_at_utc": "2026-10-25T23:14:54Z"}
+{"member": 47, "cached": false, "observed_at_utc": "2026-10-25T23:15:16Z"}
+{"member": 48, "cached": false, "observed_at_utc": "2026-10-25T23:15:32Z"}
+{"member": 49, "cached": false, "observed_at_utc": "2026-10-25T23:15:37Z"}
+{"member": 50, "cached": false, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"completed_at_utc": "2026-10-25T23:15:42Z", "date": "20260607", "model_requested": "ifs", "lead": 84, "shape": [50, 12, 12], "units": "K", "finite_values": 7200, "measurements": "data/weather/20260607/ifs/84/measurements.jsonl", "selected_data_sha256": "aa990c77f3426da8c0b23053de625136513439f245f1ab4cb6237b8b6b2ca17d", "index_sha256": "5d7a4638bc101f02a1b45cd906ca2facc904eaaa90ecf1a0708fb9c7a2e14058"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "rows_so_far": 27, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "rows_so_far": 54, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "rows_so_far": 81, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "rows_so_far": 108, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "rows_so_far": 135, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "rows_so_far": 162, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "rows_so_far": 189, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "rows_so_far": 216, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "rows_so_far": 243, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "rows_so_far": 270, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "rows_so_far": 297, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "rows_so_far": 324, "observed_at_utc": "2026-10-25T23:15:42Z"}
+{"completed_at_utc": "2026-10-25T23:15:42Z", "source_path": "data/weather/20260607/ifs/84/temperatures.npz", "source_sha256": "aa990c77f3426da8c0b23053de625136513439f245f1ab4cb6237b8b6b2ca17d", "output_path": "results/units/20260607/ifs/84/bounds-50.csv", "output_sha256": "0c3bed4093546f3b6c3bf26090974054abe8bd2b5ada426b5e468bc06f2dd329", "date": "20260607", "model": "ifs", "lead": 84, "member_count": 50, "member_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50], "rows": 324, "elapsed_seconds": 0.3400000419933349, "lp_options": {"primal_feasibility_tolerance": 1e-08, "dual_feasibility_tolerance": 1e-08, "time_limit": 15.0, "threads": 1}, "lp_count": 168, "max_primal_residual": 4.618527782440651e-14, "max_dual_violation": 1.48991929904696e-13, "max_duality_gap": 4.063416270128073e-14}
+{"unit_end": {"date": "20260607", "model": "ifs", "lead": 84, "started_at_utc": "2026-10-25T23:09:29Z", "chunk_bytes": 65536, "analysis_reused": false, "status": "completed", "source_sha256": "aa990c77f3426da8c0b23053de625136513439f245f1ab4cb6237b8b6b2ca17d", "analysis_sha256": "0c3bed4093546f3b6c3bf26090974054abe8bd2b5ada426b5e468bc06f2dd329", "ended_at_utc": "2026-10-25T23:15:42Z"}}

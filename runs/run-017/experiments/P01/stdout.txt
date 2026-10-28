@@ -1,0 +1,16 @@
+schema Wetlands ['OBJECTID', 'Shape', 'Shape_Length', 'Shape_Area', 'GlobalID', 'ATTRIBUTE', 'WETLAND_TYPE', 'QAQC_CODE', 'ACRES']
+wetland_features 500 exceeded True
+{
+  "observed_at_utc": "2026-10-27T04:50:43.064310Z",
+  "wetland_features": 500,
+  "reference_truncated": true,
+  "shape": [
+    64,
+    128,
+    128
+  ],
+  "valid_pixels": 16384,
+  "median_decoded_norm": 1.0000842874540958,
+  "aef_source_url": "https://storage.googleapis.com/alphaearth_foundations/satellite_embedding/v1/annual/2017/15N/xwaw723hn0iypjbtt-0000000000-0000000000.tiff",
+  "main_outcomes_compared": false
+}

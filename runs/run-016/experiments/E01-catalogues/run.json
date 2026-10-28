@@ -1,0 +1,22 @@
+{
+  "experiment_id": "E01-catalogues",
+  "start_time_utc": "2026-10-26T15:52:48.389318Z",
+  "end_time_utc": "2026-10-26T15:53:39.649728Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/acquire_catalogues.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "cdf0ec3a0d50235da7deef64a21a308d49d33b22",
+  "plan_sha256": "ebe46e22b043010d9683376e5d76768edcaefe52760cdde4354e8a751cc29eb5",
+  "code_commit_id": "cdf0ec3a0d50235da7deef64a21a308d49d33b22",
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E01-catalogues/stdout.txt",
+  "stderr_path": "experiments/E01-catalogues/stderr.txt",
+  "start_event_id": "E0039",
+  "pid": 91628,
+  "elapsed_seconds": 51.26105445809662,
+  "end_event_id": "E0040"
+}

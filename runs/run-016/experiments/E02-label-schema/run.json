@@ -1,0 +1,22 @@
+{
+  "experiment_id": "E02-label-schema",
+  "start_time_utc": "2026-10-26T15:55:37.488531Z",
+  "end_time_utc": "2026-10-26T15:55:39.597013Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/inspect_label_schema.py"
+  ],
+  "timeout_seconds": 600,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "4dd56538257e8b522dc6990dfbfe8b2da9fb5709",
+  "plan_sha256": "ebe46e22b043010d9683376e5d76768edcaefe52760cdde4354e8a751cc29eb5",
+  "code_commit_id": "4dd56538257e8b522dc6990dfbfe8b2da9fb5709",
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E02-label-schema/stdout.txt",
+  "stderr_path": "experiments/E02-label-schema/stderr.txt",
+  "start_event_id": "E0045",
+  "pid": 91777,
+  "elapsed_seconds": 2.1084229999687523,
+  "end_event_id": "E0046"
+}

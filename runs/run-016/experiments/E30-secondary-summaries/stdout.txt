@@ -1,0 +1,2 @@
+{"destination": "/Users/fujimura/Research/ai-free-research-en/run-016/results/tables/secondary-broad", "performance_rows": 350, "input_analyses": 4}
+{"destination": "/Users/fujimura/Research/ai-free-research-en/run-016/results/tables/secondary-fine", "performance_rows": 210, "input_analyses": 2}

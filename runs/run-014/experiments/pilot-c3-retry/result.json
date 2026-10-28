@@ -1,0 +1,26 @@
+{
+  "candidate": "C3",
+  "checked_at_utc": "2026-10-25T08:39:07Z",
+  "coordinate": [
+    -119.6,
+    37.7
+  ],
+  "shape": [
+    2,
+    64,
+    16,
+    16
+  ],
+  "valid_pixels_by_year": [
+    256,
+    256
+  ],
+  "dequantized_norm_range": [
+    0.9937548890280533,
+    1.0059503796859595
+  ],
+  "zarr_version": "3.4.1",
+  "data_source": "https://data.source.coop/tge-labs/aef-mosaic/",
+  "licence": "CC BY 4.0",
+  "note": "Pilot location to be excluded from main sampling; no recovery effect estimated."
+}

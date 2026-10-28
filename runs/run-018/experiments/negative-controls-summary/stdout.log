@@ -1,0 +1,18 @@
+{"queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+     pair_aef               36.69                34.42
+ pair_tessera               35.43                33.81
+{"queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+     pair_aef               34.21                33.15
+ pair_tessera               35.19                33.37
+{"queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 4, "uniform_expected_macro_risk": 0.45073034784939}
+       method  macro_risk_percent  pooled_risk_percent
+hydro_decoder               39.71                37.80
+   hydro_pair               36.98                34.15
+     pair_aef               33.17                34.92
+ pair_tessera               32.45                33.54

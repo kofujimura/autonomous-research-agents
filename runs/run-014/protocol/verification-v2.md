@@ -1,0 +1,5 @@
+# Expanded end-to-end self-rerun
+
+Fixed2026-10-25T18:31:18Z. The first candidate ca3aa0917953c2f12c776dceeddf7bf68fb9be34 passed169checks31stages in its recorded527.6319514580537seconds and left8731source working files unchanged. It predates the matched direct-inputv23and saved-cohort-history feasibility additions and is retained with that limited scope.
+
+Repeat the same network-free single entry point on a new local copy under verification-work/attempt-2/source with output outside that copy. Include allv23metrics/contrasts/reconstructed-both/threshold equality, input figure and history feasibility checks. Use the original dedicated analysis environment, hard1800second timeout/max2experiment processes. Record before/after source membership+SHA256, actual stage times/check counts, candidate commit and numerical-module dependency hashes in review/self-rerun-2.json. Preserve earlier results and any failure; do not overwriteattempt1. The working copy is excluded fromGit/SHAinventory and counted towardstorage. A PASS is author self-verification, not an independent reproduction or paper review.

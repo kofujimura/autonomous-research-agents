@@ -1,0 +1,24 @@
+{
+ "mode": "informative",
+ "cases": 2871,
+ "q_maxabs": 0.0,
+ "uncertain_mismatch": 0,
+ "informative_mismatch": 0,
+ "informative_count_rev": 2871,
+ "marginal_lower_maxabs": 4.5630166312093934e-14,
+ "marginal_upper_maxabs": 1.149080830487037e-14,
+ "aggregate_lower_maxabs": 4.451994328746878e-14,
+ "aggregate_upper_maxabs": 9.130474154517287e-13,
+ "pair_lower_maxabs": 8.642586646345762e-12,
+ "pair_upper_maxabs": 6.011413589135373e-12,
+ "independent_q_maxabs": 0.0,
+ "lp_nonoptimal": 0,
+ "mean_width_rev_marginal": 0.513892946984901,
+ "mean_width_rev_aggregate": 0.31462785031737495,
+ "mean_width_rev_pair": 0.0546687205256942,
+ "mean_width_sub_reported": {
+  "marginal": 0.5138929469849011,
+  "aggregate": 0.31462785031737533,
+  "pair": 0.054668720525697274
+ }
+}

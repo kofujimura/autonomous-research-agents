@@ -1,0 +1,1 @@
+{"candidates": 82, "supercells": 13, "target": 10}

@@ -1,0 +1,79 @@
+[
+  {
+    "task_id": "constant-seed-0",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-seed-0",
+      "--out",
+      "analysis/controls/constant-seed-0-summary"
+    ]
+  },
+  {
+    "task_id": "constant-seed-1000",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-seed-1000",
+      "--out",
+      "analysis/controls/constant-seed-1000-summary"
+    ]
+  },
+  {
+    "task_id": "constant-seed-2000",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-seed-2000",
+      "--out",
+      "analysis/controls/constant-seed-2000-summary"
+    ]
+  },
+  {
+    "task_id": "constant-all",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-all",
+      "--out",
+      "analysis/controls/constant-all-summary"
+    ]
+  },
+  {
+    "task_id": "constant-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-hgb",
+      "--out",
+      "analysis/controls/constant-hgb-summary"
+    ]
+  },
+  {
+    "task_id": "polygon-role-overlap",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_polygon_roles.py",
+      "--rows",
+      "analysis/polygon-features-v3/A/rows-2024.json",
+      "--out",
+      "analysis/polygon-role-audit"
+    ]
+  },
+  {
+    "task_id": "reference0-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/boundaries/reference-0",
+      "--out",
+      "analysis/boundaries/reference-0-summary"
+    ]
+  }
+]

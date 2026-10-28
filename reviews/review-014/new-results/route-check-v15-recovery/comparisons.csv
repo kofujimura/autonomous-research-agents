@@ -1,0 +1,4 @@
+task_id,raw_bitwise_equal,spatial_version_metadata_equal,gateway_elapsed_with_reporting_overhead,historical_default_elapsed
+bafe6a4bb3abab1c7cf0-2018,True,True,6.350092625012621,15.072157749906182
+d1870861f0f2882000fd-2021,True,True,4.73470150004141,14.570873375050724
+6f30ee90321068c335c9-2020,True,True,3.5495858751237392,17.992554833879694

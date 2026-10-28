@@ -1,0 +1,10 @@
+pair_aef|hydro_pair: pooled diff -0.67 pp [-2.47, +1.20]
+pair_aef|hydro_decoder: pooled diff -4.32 pp [-10.34, -0.15]
+pair_tessera|hydro_pair: pooled diff -2.44 pp [-5.03, -0.32]
+pair_tessera|hydro_decoder: pooled diff -6.10 pp [-12.77, -1.44]
+pair_both|hydro_pair: pooled diff -1.94 pp [-4.32, +0.00]
+pair_both|hydro_decoder: pooled diff -5.60 pp [-11.70, -0.82]
+pair_aef|hydro_pair window-mean without ['R07']: -1.40 pp
+pair_aef|hydro_pair window-mean without ['R07', 'R08']: -0.82 pp
+pair_tessera|hydro_pair window-mean without ['R07']: -4.06 pp
+pair_tessera|hydro_pair window-mean without ['R07', 'R08']: -2.32 pp

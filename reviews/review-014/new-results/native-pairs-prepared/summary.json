@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-10-25T19:28:46Z",
+  "pairs": 16,
+  "point_years": 32,
+  "seed": 14014,
+  "groups": {
+    "gain_positive": 4,
+    "gain_negative": 4,
+    "loss_positive": 4,
+    "loss_negative": 4
+  },
+  "already_present_at_preparation": 1,
+  "note": "Presence at preparation is historical metadata, not a reproducible result from current files; pre-existing values not inspected for selection."
+}

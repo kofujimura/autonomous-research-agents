@@ -1,0 +1,22 @@
+{
+  "experiment_id": "P02",
+  "started_at_utc": "2026-10-27T04:49:55.417874Z",
+  "command": [
+    ".venv/bin/python",
+    "code/pilot_access.py",
+    "weather"
+  ],
+  "timeout_seconds": 900,
+  "plan_path": "protocol/pilot-checks.md",
+  "plan_commit_id": "93ed7ec93e5374b52a73ef3717e98b0267392374",
+  "code_commit_id": "93ed7ec93e5374b52a73ef3717e98b0267392374",
+  "input_sha256": {},
+  "start_event_id": "E0013",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 32117,
+  "ended_at_utc": "2026-10-27T04:49:56.383539Z",
+  "elapsed_seconds": 0.9655208750627935,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0014"
+}

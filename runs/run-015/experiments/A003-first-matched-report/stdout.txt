@@ -1,0 +1,20 @@
+{
+  "scheduled_dates": 29,
+  "matched_dates": 1,
+  "matched_date_list": [
+    "20260603"
+  ],
+  "scheduled_forecast_units": 116,
+  "complete_forecast_units": 6,
+  "all_available_rows": 1944,
+  "primary_cases": 432,
+  "primary_informative_cases": 80,
+  "primary_historical_missing": 432,
+  "max_primal_residual": 1.8118839761882555e-12,
+  "max_dual_violation": 7.153687364702677e-13,
+  "max_duality_gap": 3.000932835561798e-13,
+  "status": "undersized_or_incomplete",
+  "bootstrap_repetitions": 2000,
+  "bootstrap_block_length": 3,
+  "design_sha256": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12"
+}

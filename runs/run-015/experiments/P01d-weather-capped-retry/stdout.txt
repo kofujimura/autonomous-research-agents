@@ -1,0 +1,12 @@
+{"member": 1, "observed_at_utc": "2026-10-25T22:29:16Z"}
+{"member": 2, "observed_at_utc": "2026-10-25T22:29:19Z"}
+{"member": 3, "offset": 3179149786, "attempt": 1, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:29:20Z"}
+{"member": 3, "observed_at_utc": "2026-10-25T22:29:27Z"}
+{"member": 4, "observed_at_utc": "2026-10-25T22:29:32Z"}
+{"member": 5, "offset": 1645837831, "attempt": 1, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:29:32Z"}
+{"member": 5, "observed_at_utc": "2026-10-25T22:29:39Z"}
+{"member": 6, "offset": 1779652406, "attempt": 1, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:29:40Z"}
+{"member": 6, "observed_at_utc": "2026-10-25T22:29:45Z"}
+{"member": 7, "offset": 911199620, "attempt": 1, "error": "ChunkedEncodingError", "observed_at_utc": "2026-10-25T22:29:48Z"}
+{"member": 7, "offset": 911199620, "attempt": 2, "error": "ChunkedEncodingError", "observed_at_utc": "2026-10-25T22:29:51Z"}
+{"member": 7, "offset": 911199620, "attempt": 3, "error": "ChunkedEncodingError", "observed_at_utc": "2026-10-25T22:29:55Z"}

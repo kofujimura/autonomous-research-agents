@@ -1,0 +1,6 @@
+{
+  "observed_at_utc": "2026-10-27T02:21:04.946819Z",
+  "allocated_bytes_from_du_kib": 10486054912,
+  "limit_bytes": 10737418240,
+  "qualification": "Point observation including hardlinks once; not a measured high-water mark. Earlier Git packing peak remains unknown."
+}

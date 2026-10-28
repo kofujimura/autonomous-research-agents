@@ -1,0 +1,162 @@
+{"task_id": "D-rf", "command": [".venv/bin/python", "code/run_rotation_batch.py", "--kind", "primary", "--inputs", "analysis/polygon-features-v3/D", "--output", "analysis/polygon/D-rf"], "start_time_utc": "2026-10-27T21:41:12.351741+00:00"}
+{"rotation": 0, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/polygon-features-v3/D", "--rotation", "0", "--output", "analysis/polygon/D-rf/r0"], "start_time_utc": "2026-10-27T21:41:12.391816+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1347, "pairs": 29830, "elapsed_seconds": 47.607513959053904}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1347, "pairs": 29830, "elapsed_seconds": 95.59246125002392}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1347, "pairs": 29830, "elapsed_seconds": 143.12222524988465}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1347, "pairs": 29830, "elapsed_seconds": 192.06456516706385}
+{"stage": "predict", "queries": 100, "total": 755, "elapsed_seconds": 208.50059716706164}
+{"stage": "predict", "queries": 200, "total": 755, "elapsed_seconds": 211.6662949169986}
+{"stage": "predict", "queries": 300, "total": 755, "elapsed_seconds": 214.5971231670119}
+{"stage": "predict", "queries": 400, "total": 755, "elapsed_seconds": 217.40474299993366}
+{"stage": "predict", "queries": 500, "total": 755, "elapsed_seconds": 219.85344054200687}
+{"stage": "predict", "queries": 600, "total": 755, "elapsed_seconds": 222.21773916692473}
+{"stage": "predict", "queries": 700, "total": 755, "elapsed_seconds": 224.76255175005645}
+{"start_time_utc": "2026-10-27T21:41:13.727224+00:00", "end_time_utc": "2026-10-27T21:45:00.022221+00:00", "elapsed_seconds": 226.29231320903637, "rotation": 0, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3624, "training_nominal_n": 1903, "training_retained_n": 1347, "training_pairs": 29830, "query_n": 755, "reference_n": 966, "prediction_rows": 13536, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9bccbcfc0e4cd1f58604ef20372a4054a61f8e502f04836074ac1012ea8093df", "features-2024.npz": "b15ae6da32792f64febb4c210f34e2ca9ca283e3c180e87b56a1902e5d403e1b"}}
+{"rotation": 1, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/polygon-features-v3/D", "--rotation", "1", "--output", "analysis/polygon/D-rf/r1"], "start_time_utc": "2026-10-27T21:45:00.147841+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1148, "pairs": 23847, "elapsed_seconds": 37.443090750137344}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1148, "pairs": 23847, "elapsed_seconds": 75.45565666700713}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1148, "pairs": 23847, "elapsed_seconds": 113.07192495814525}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1148, "pairs": 23847, "elapsed_seconds": 151.59763166704215}
+{"stage": "predict", "queries": 100, "total": 966, "elapsed_seconds": 166.30392995802686}
+{"stage": "predict", "queries": 200, "total": 966, "elapsed_seconds": 169.43101612501778}
+{"stage": "predict", "queries": 300, "total": 966, "elapsed_seconds": 172.60220258310437}
+{"stage": "predict", "queries": 400, "total": 966, "elapsed_seconds": 175.49884575000033}
+{"stage": "predict", "queries": 500, "total": 966, "elapsed_seconds": 178.17587075009942}
+{"stage": "predict", "queries": 600, "total": 966, "elapsed_seconds": 180.9446662501432}
+{"stage": "predict", "queries": 700, "total": 966, "elapsed_seconds": 183.31825275020674}
+{"stage": "predict", "queries": 800, "total": 966, "elapsed_seconds": 185.64767670817673}
+{"stage": "predict", "queries": 900, "total": 966, "elapsed_seconds": 188.17824354209006}
+{"start_time_utc": "2026-10-27T21:45:01.502630+00:00", "end_time_utc": "2026-10-27T21:48:11.439659+00:00", "elapsed_seconds": 189.93477329215966, "rotation": 1, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3624, "training_nominal_n": 1759, "training_retained_n": 1148, "training_pairs": 23847, "query_n": 966, "reference_n": 899, "prediction_rows": 17262, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9bccbcfc0e4cd1f58604ef20372a4054a61f8e502f04836074ac1012ea8093df", "features-2024.npz": "b15ae6da32792f64febb4c210f34e2ca9ca283e3c180e87b56a1902e5d403e1b"}}
+{"rotation": 2, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/polygon-features-v3/D", "--rotation", "2", "--output", "analysis/polygon/D-rf/r2"], "start_time_utc": "2026-10-27T21:48:11.577817+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1203, "pairs": 25473, "elapsed_seconds": 39.83380000013858}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1203, "pairs": 25473, "elapsed_seconds": 80.31426958320662}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1203, "pairs": 25473, "elapsed_seconds": 120.74105262500234}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1203, "pairs": 25473, "elapsed_seconds": 162.28766762511805}
+{"stage": "predict", "queries": 100, "total": 899, "elapsed_seconds": 177.44194966717623}
+{"stage": "predict", "queries": 200, "total": 899, "elapsed_seconds": 180.4020166671835}
+{"stage": "predict", "queries": 300, "total": 899, "elapsed_seconds": 183.38516516704112}
+{"stage": "predict", "queries": 400, "total": 899, "elapsed_seconds": 186.2401361670345}
+{"stage": "predict", "queries": 500, "total": 899, "elapsed_seconds": 188.43254237505607}
+{"stage": "predict", "queries": 600, "total": 899, "elapsed_seconds": 191.33674362511374}
+{"stage": "predict", "queries": 700, "total": 899, "elapsed_seconds": 193.93095420813188}
+{"stage": "predict", "queries": 800, "total": 899, "elapsed_seconds": 196.37768862512894}
+{"start_time_utc": "2026-10-27T21:48:12.931951+00:00", "end_time_utc": "2026-10-27T21:51:31.960788+00:00", "elapsed_seconds": 199.0264754171949, "rotation": 2, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3624, "training_nominal_n": 1721, "training_retained_n": 1203, "training_pairs": 25473, "query_n": 899, "reference_n": 1004, "prediction_rows": 15912, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9bccbcfc0e4cd1f58604ef20372a4054a61f8e502f04836074ac1012ea8093df", "features-2024.npz": "b15ae6da32792f64febb4c210f34e2ca9ca283e3c180e87b56a1902e5d403e1b"}}
+{"rotation": 3, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/polygon-features-v3/D", "--rotation", "3", "--output", "analysis/polygon/D-rf/r3"], "start_time_utc": "2026-10-27T21:51:32.085512+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1174, "pairs": 24704, "elapsed_seconds": 37.93575179181062}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1174, "pairs": 24704, "elapsed_seconds": 75.87569512496702}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1174, "pairs": 24704, "elapsed_seconds": 113.97415133402683}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1174, "pairs": 24704, "elapsed_seconds": 153.25403145886958}
+{"stage": "predict", "queries": 100, "total": 1004, "elapsed_seconds": 167.33611137489788}
+{"stage": "predict", "queries": 200, "total": 1004, "elapsed_seconds": 170.18051233398728}
+{"stage": "predict", "queries": 300, "total": 1004, "elapsed_seconds": 172.9183446248062}
+{"stage": "predict", "queries": 400, "total": 1004, "elapsed_seconds": 175.67550370888785}
+{"stage": "predict", "queries": 500, "total": 1004, "elapsed_seconds": 178.31416983390227}
+{"stage": "predict", "queries": 600, "total": 1004, "elapsed_seconds": 181.0109637088608}
+{"stage": "predict", "queries": 700, "total": 1004, "elapsed_seconds": 183.58478325000033}
+{"stage": "predict", "queries": 800, "total": 1004, "elapsed_seconds": 185.86721741687506}
+{"stage": "predict", "queries": 900, "total": 1004, "elapsed_seconds": 188.45063766697422}
+{"stage": "predict", "queries": 1000, "total": 1004, "elapsed_seconds": 191.05996808386408}
+{"start_time_utc": "2026-10-27T21:51:33.441386+00:00", "end_time_utc": "2026-10-27T21:54:44.753820+00:00", "elapsed_seconds": 191.31016424996778, "rotation": 3, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3624, "training_nominal_n": 1865, "training_retained_n": 1174, "training_pairs": 24704, "query_n": 1004, "reference_n": 755, "prediction_rows": 18000, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "9bccbcfc0e4cd1f58604ef20372a4054a61f8e502f04836074ac1012ea8093df", "features-2024.npz": "b15ae6da32792f64febb4c210f34e2ca9ca283e3c180e87b56a1902e5d403e1b"}}
+{"task_id": "D-rf-summary", "command": [".venv/bin/python", "code/summarize_matching.py", "--inputs", "analysis/polygon/D-rf", "--out", "analysis/polygon/D-rf-summary"], "start_time_utc": "2026-10-27T21:54:44.915029+00:00"}
+{"source_predictions": "analysis/polygon/D-rf", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45374135403603605}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               38.32                36.01
+           aef_cosine               37.77                35.84
+          aef_decoder               39.57                35.61
+         aef_whitened               36.28                33.88
+            geography               34.93                39.48
+    hydro_aef_decoder               37.10                32.92
+        hydro_decoder               41.50                37.86
+      hydro_euclidean               42.05                41.78
+           hydro_pair               38.65                35.17
+hydro_tessera_decoder               35.74                32.36
+         label_oracle                0.00                 0.00
+             pair_aef               35.29                33.93
+            pair_both               32.92                30.68
+         pair_tessera               33.42                31.58
+      tessera_centred               36.66                34.55
+       tessera_cosine               35.78                33.99
+      tessera_decoder               37.73                31.86
+     tessera_whitened               35.78                34.72
+{"task_id": "D-hgb", "command": [".venv/bin/python", "code/run_rotation_batch.py", "--kind", "hgb", "--inputs", "analysis/polygon-features-v3/D", "--primary", "analysis/polygon/D-rf", "--output", "analysis/polygon/D-hgb"], "start_time_utc": "2026-10-27T21:54:49.063113+00:00"}
+{"rotation": 0, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "analysis/polygon-features-v3/D", "--rotation", "0", "--output", "analysis/polygon/D-hgb/r0", "--mode", "hgb", "--primary", "analysis/polygon/D-rf", "--seed-offset", "0", "--permutation", "0"], "start_time_utc": "2026-10-27T21:54:49.102511+00:00"}
+{"stage": "fit", "method": "hydro_pair", "mode": "hgb", "elapsed_seconds": 3.7741285001393408}
+{"stage": "fit", "method": "pair_aef", "mode": "hgb", "elapsed_seconds": 7.419178792042658}
+{"stage": "fit", "method": "pair_tessera", "mode": "hgb", "elapsed_seconds": 11.06289125001058}
+{"stage": "fit", "method": "pair_both", "mode": "hgb", "elapsed_seconds": 14.719867167063057}
+{"stage": "fit", "method": "hydro_decoder", "mode": "hgb", "elapsed_seconds": 16.372560792136937}
+{"stage": "fit", "method": "aef_decoder", "mode": "hgb", "elapsed_seconds": 18.341627958929166}
+{"stage": "fit", "method": "tessera_decoder", "mode": "hgb", "elapsed_seconds": 21.37594550009817}
+{"stage": "fit", "method": "hydro_aef_decoder", "mode": "hgb", "elapsed_seconds": 24.46907112491317}
+{"stage": "fit", "method": "hydro_tessera_decoder", "mode": "hgb", "elapsed_seconds": 28.771903542103246}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 30.20470308396034}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 31.403516584075987}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 32.34426808403805}
+{"mode": "hgb", "constant_feature": false, "scalar_learner": "forest", "feature_checks": {}, "forest_all_features": false, "baseline_source": "analysis/polygon/D-rf/r0/predictions.csv", "noise_seed": null, "rotation": 0, "seed_offset": 0, "permutation": 0, "start_time_utc": "2026-10-27T21:54:50.490936+00:00", "end_time_utc": "2026-10-27T21:55:23.744789+00:00", "elapsed_seconds": 33.25345874996856, "reused_methods": ["aef_centred", "aef_cosine", "aef_whitened", "geography", "hydro_euclidean", "label_oracle", "tessera_centred", "tessera_cosine", "tessera_whitened"], "primary_source": "analysis/polygon/D-rf/r0", "training_n": 1347, "training_pairs": 29830, "predictions": 13536}
+{"rotation": 1, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "analysis/polygon-features-v3/D", "--rotation", "1", "--output", "analysis/polygon/D-hgb/r1", "--mode", "hgb", "--primary", "analysis/polygon/D-rf", "--seed-offset", "0", "--permutation", "0"], "start_time_utc": "2026-10-27T21:55:23.864803+00:00"}
+{"stage": "fit", "method": "hydro_pair", "mode": "hgb", "elapsed_seconds": 3.045036958064884}
+{"stage": "fit", "method": "pair_aef", "mode": "hgb", "elapsed_seconds": 5.953379333019257}
+{"stage": "fit", "method": "pair_tessera", "mode": "hgb", "elapsed_seconds": 8.886913625057787}
+{"stage": "fit", "method": "pair_both", "mode": "hgb", "elapsed_seconds": 11.806145125068724}
+{"stage": "fit", "method": "hydro_decoder", "mode": "hgb", "elapsed_seconds": 13.389184082858264}
+{"stage": "fit", "method": "aef_decoder", "mode": "hgb", "elapsed_seconds": 15.288582124980167}
+{"stage": "fit", "method": "tessera_decoder", "mode": "hgb", "elapsed_seconds": 18.1671648749616}
+{"stage": "fit", "method": "hydro_aef_decoder", "mode": "hgb", "elapsed_seconds": 21.03554324992001}
+{"stage": "fit", "method": "hydro_tessera_decoder", "mode": "hgb", "elapsed_seconds": 25.00034716585651}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 26.429159707855433}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 27.651930624851957}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 28.685789540875703}
+{"stage": "predict", "queries": 800, "elapsed_seconds": 29.54616737505421}
+{"mode": "hgb", "constant_feature": false, "scalar_learner": "forest", "feature_checks": {}, "forest_all_features": false, "baseline_source": "analysis/polygon/D-rf/r1/predictions.csv", "noise_seed": null, "rotation": 1, "seed_offset": 0, "permutation": 0, "start_time_utc": "2026-10-27T21:55:25.215616+00:00", "end_time_utc": "2026-10-27T21:55:55.648392+00:00", "elapsed_seconds": 30.483036583056673, "reused_methods": ["aef_centred", "aef_cosine", "aef_whitened", "geography", "hydro_euclidean", "label_oracle", "tessera_centred", "tessera_cosine", "tessera_whitened"], "primary_source": "analysis/polygon/D-rf/r1", "training_n": 1148, "training_pairs": 23847, "predictions": 17262}
+{"rotation": 2, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "analysis/polygon-features-v3/D", "--rotation", "2", "--output", "analysis/polygon/D-hgb/r2", "--mode", "hgb", "--primary", "analysis/polygon/D-rf", "--seed-offset", "0", "--permutation", "0"], "start_time_utc": "2026-10-27T21:55:55.767829+00:00"}
+{"stage": "fit", "method": "hydro_pair", "mode": "hgb", "elapsed_seconds": 3.200713833095506}
+{"stage": "fit", "method": "pair_aef", "mode": "hgb", "elapsed_seconds": 6.294067166047171}
+{"stage": "fit", "method": "pair_tessera", "mode": "hgb", "elapsed_seconds": 9.382832958130166}
+{"stage": "fit", "method": "pair_both", "mode": "hgb", "elapsed_seconds": 12.528082458069548}
+{"stage": "fit", "method": "hydro_decoder", "mode": "hgb", "elapsed_seconds": 14.120350333163515}
+{"stage": "fit", "method": "aef_decoder", "mode": "hgb", "elapsed_seconds": 16.01990233315155}
+{"stage": "fit", "method": "tessera_decoder", "mode": "hgb", "elapsed_seconds": 18.945970250060782}
+{"stage": "fit", "method": "hydro_aef_decoder", "mode": "hgb", "elapsed_seconds": 21.970721708144993}
+{"stage": "fit", "method": "hydro_tessera_decoder", "mode": "hgb", "elapsed_seconds": 26.16357845813036}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 27.59716129116714}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 28.86146687506698}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 29.924243500223383}
+{"stage": "predict", "queries": 800, "elapsed_seconds": 31.015698166098446}
+{"mode": "hgb", "constant_feature": false, "scalar_learner": "forest", "feature_checks": {}, "forest_all_features": false, "baseline_source": "analysis/polygon/D-rf/r2/predictions.csv", "noise_seed": null, "rotation": 2, "seed_offset": 0, "permutation": 0, "start_time_utc": "2026-10-27T21:55:57.103629+00:00", "end_time_utc": "2026-10-27T21:56:28.800401+00:00", "elapsed_seconds": 31.696785583160818, "reused_methods": ["aef_centred", "aef_cosine", "aef_whitened", "geography", "hydro_euclidean", "label_oracle", "tessera_centred", "tessera_cosine", "tessera_whitened"], "primary_source": "analysis/polygon/D-rf/r2", "training_n": 1203, "training_pairs": 25473, "predictions": 15912}
+{"rotation": 3, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_controls.py", "--inputs", "analysis/polygon-features-v3/D", "--rotation", "3", "--output", "analysis/polygon/D-hgb/r3", "--mode", "hgb", "--primary", "analysis/polygon/D-rf", "--seed-offset", "0", "--permutation", "0"], "start_time_utc": "2026-10-27T21:56:28.941354+00:00"}
+{"stage": "fit", "method": "hydro_pair", "mode": "hgb", "elapsed_seconds": 3.3405550830066204}
+{"stage": "fit", "method": "pair_aef", "mode": "hgb", "elapsed_seconds": 6.575729166157544}
+{"stage": "fit", "method": "pair_tessera", "mode": "hgb", "elapsed_seconds": 9.764474750030786}
+{"stage": "fit", "method": "pair_both", "mode": "hgb", "elapsed_seconds": 12.976463583065197}
+{"stage": "fit", "method": "hydro_decoder", "mode": "hgb", "elapsed_seconds": 14.541120000183582}
+{"stage": "fit", "method": "aef_decoder", "mode": "hgb", "elapsed_seconds": 16.460085291182622}
+{"stage": "fit", "method": "tessera_decoder", "mode": "hgb", "elapsed_seconds": 19.376627625199035}
+{"stage": "fit", "method": "hydro_aef_decoder", "mode": "hgb", "elapsed_seconds": 22.301168750040233}
+{"stage": "fit", "method": "hydro_tessera_decoder", "mode": "hgb", "elapsed_seconds": 26.40565479104407}
+{"stage": "predict", "queries": 200, "elapsed_seconds": 27.73924274998717}
+{"stage": "predict", "queries": 400, "elapsed_seconds": 28.895847875159234}
+{"stage": "predict", "queries": 600, "elapsed_seconds": 29.93837120803073}
+{"stage": "predict", "queries": 800, "elapsed_seconds": 30.904846500139683}
+{"stage": "predict", "queries": 1000, "elapsed_seconds": 31.911669375142083}
+{"mode": "hgb", "constant_feature": false, "scalar_learner": "forest", "feature_checks": {}, "forest_all_features": false, "baseline_source": "analysis/polygon/D-rf/r3/predictions.csv", "noise_seed": null, "rotation": 3, "seed_offset": 0, "permutation": 0, "start_time_utc": "2026-10-27T21:56:30.313912+00:00", "end_time_utc": "2026-10-27T21:57:02.426347+00:00", "elapsed_seconds": 32.11244458309375, "reused_methods": ["aef_centred", "aef_cosine", "aef_whitened", "geography", "hydro_euclidean", "label_oracle", "tessera_centred", "tessera_cosine", "tessera_whitened"], "primary_source": "analysis/polygon/D-rf/r3", "training_n": 1174, "training_pairs": 24704, "predictions": 18000}
+{"task_id": "D-hgb-summary", "command": [".venv/bin/python", "code/summarize_matching.py", "--inputs", "analysis/polygon/D-hgb", "--out", "analysis/polygon/D-hgb-summary"], "start_time_utc": "2026-10-27T21:57:02.567391+00:00"}
+{"source_predictions": "analysis/polygon/D-hgb", "queries": 3624, "nonempty_queries": 3595, "empty_queries": 29, "single_all_correct": 199, "single_all_wrong": 26, "unmatchable": 58, "nontrivial_matchable": 3338, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45374135403603605}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               38.32                36.01
+           aef_cosine               37.77                35.84
+          aef_decoder               44.04                37.52
+         aef_whitened               36.28                33.88
+            geography               34.93                39.48
+    hydro_aef_decoder               38.80                36.34
+        hydro_decoder               37.73                37.75
+      hydro_euclidean               42.05                41.78
+           hydro_pair               38.53                35.11
+hydro_tessera_decoder               36.79                30.62
+         label_oracle                0.00                 0.00
+             pair_aef               36.12                31.74
+            pair_both               33.81                30.62
+         pair_tessera               36.85                31.97
+      tessera_centred               36.66                34.55
+       tessera_cosine               35.78                33.99
+      tessera_decoder               34.11                31.91
+     tessera_whitened               35.78                34.72

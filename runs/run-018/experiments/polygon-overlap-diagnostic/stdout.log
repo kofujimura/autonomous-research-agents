@@ -1,0 +1,13 @@
+region  shared  aef_both_valid_equal  aef_both_valid_different  aef_old_missing_new_valid  aef_old_valid_new_missing  aef_both_missing  tessera_raw_or_scale_different
+   R01    4169                  4169                         0                          0                          0                 0                               0
+   R02    7729                  7729                         0                          0                          0                 0                               0
+   R03    3045                  3045                         0                          0                          0                 0                               0
+   R04    4486                  4483                         0                          3                          0                 0                               0
+   R05     856                   856                         0                          0                          0                 0                               0
+   R06    1261                  1261                         0                          0                          0                 0                               0
+   R07     154                   154                         0                          0                          0                 0                               0
+   R08     233                   233                         0                          0                          0                 0                               0
+   R09    1398                  1398                         0                          0                          0                 0                               0
+   R10    2806                  2806                         0                          0                          0                 0                               0
+   R11    2244                  2244                         0                          0                          0                 0                               0
+   R12     612                   612                         0                          0                          0                 0                               0

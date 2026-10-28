@@ -1,0 +1,140 @@
+{
+ "meta": {
+  "reviewer": "gemini",
+  "model": "gemini-4-argon",
+  "run": "018",
+  "rep": 1,
+  "started_utc": "2026-10-28T12:29:13Z",
+  "figures": 5,
+  "usage": {
+   "input_tokens": 36912,
+   "output_tokens": 10209,
+   "thought_tokens": 6870,
+   "search_queries": 8
+  },
+  "cost_usd": 0.287914,
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP"
+ },
+ "review": {
+  "summary": "This paper evaluates whether appending annual satellite embedding distances from two geospatial foundation models—AlphaEarth Foundations V1 and TESSERA v1.1-dclimate—to 30 terrain (USGS 3DEP), drainage (HAND), and optical surface-water (JRC v1.5) covariates improves the matching of wetland water regimes (temporarily, seasonally, or semipermanently flooded in the US National Wetlands Inventory [NWI]) across 3,667 wetlands in 12 geographic windows at 50% screening coverage. While the primary equal-window random forest pair-model comparison shows nominal mismatch reductions of -2.95 percentage points (AlphaEarth) and -3.72 percentage points (TESSERA), the authors apply prespecified qualification controls and demonstrate that an embedding-attributable gain is not established. Specifically, they uncover that (1) two tiny windows with only 5 and 14 accepted queries account for 76.8% of the equal-window AlphaEarth improvement (shrinking to -0.67 percentage points when pooled across all 1,804 accepted queries), (2) appending a single feature to a random forest with column subsampling (max_features=0.7) shifts the pseudo-random number generator sequence enough that a constant column of zeros or shuffled embeddings alters equal-window mismatch by -3.38 to -4.53 percentage points, and (3) considering all features per split (max_features=1.0) or averaging physical covariates across up to 256 interior polygon pixels strengthens the physical baselines and eliminates the raw-distance advantage. Conversely, exploratory category-decoding experiments and whitened TESSERA cosine distance comparisons show that the full embedding vectors do contain predictive signal for NWI regime labels, even though single-scalar pairwise augmentation in a subsampled random forest is an unstable mechanism to extract it.",
+  "scores": {
+   "correctness": 5,
+   "verifiability": 4,
+   "novelty": 3,
+   "generality": 3,
+   "usefulness": 3,
+   "clarity": 2
+  },
+  "score_reasons": {
+   "correctness": "Claims are exceptionally well-calibrated to the evidence; rather than overclaiming the nominal -2.95/-3.72 pp primary gains, the paper rigorously proves through permutation, zero-column, seed, pooling, and spatial-support controls why the primary increment cannot be attributed to the embeddings.",
+   "verifiability": "Data sources, NWI filtering rules, spatial block formulas, hyperparameter settings, whitening floors, and even a 4-wetland tile-edge bug are documented in exhaustive detail, lacking only a main-text table giving the coordinates and sample counts of the 12 primary and 6 supplementary windows.",
+   "novelty": "Evaluating AlphaEarth and TESSERA distances for NWI water-regime reference screening is a new empirical test and the diagnosis of random-forest column-subsampling perturbations in single-feature augmentation is methodologically valuable, though several concurrent 2026 studies have examined satellite embeddings for wetland inundation and hydrologic donor selection.",
+   "generality": "While the methodological diagnostics generalize broadly to tabular-plus-embedding benchmarks, the empirical findings are restricted to retrospective NWI photo-interpreted regime codes (75% pre-2014) in 12 convenience windows without field hydroperiod validation or an explicit SAR baseline.",
+   "usefulness": "Provides a valuable cautionary benchmark for geospatial ML researchers showing how small-window weighting, feature-subsampling PRNG shifts, and mismatched spatial support can manufacture or obscure 2–4 percentage point gains when augmenting physical covariates with foundation model distances.",
+   "clarity": "The manuscript is severely overloaded with chronological protocol amendments (reading like a diff of 23 Git plans), contains 17 main-text tables plus a 61-row appendix table with redundant control runs, and buries key structural findings under defensive audit logs and minor formatting glitches."
+  },
+  "verdict": "major revision",
+  "overall_10": 5,
+  "workshop_level": "yes",
+  "main_track_level": "no",
+  "research_question": {
+   "question": "Does adding annual satellite embedding cosine distance (AlphaEarth or TESSERA) to public terrain, drainage, and optical surface-water covariates reduce water-regime mismatch when screening same-vegetation NWI reference wetlands at 50% coverage?",
+   "question_quality": 3,
+   "predictable": "partly",
+   "predictable_reason": "It was predictable that compressing 64- or 128-dimensional embeddings into a single scalar distance among ~60 pairwise covariates in a max_features=0.7 random forest and averaging unweighted across windows with as few as 5 accepted queries would suffer from severe feature dilution and high variance, even though the full embeddings (especially TESSERA, which ingests Sentinel-1 SAR) carry regime signal."
+  },
+  "main_issues": [
+   {
+    "severity": "critical",
+    "issue": "Narrative and structural overload from chronological reporting: Sections 3 and 4 are written as a sequential log of 23 protocol versions ('After seeing primary and permutation outcomes, we added...', 'A later author verification repeat applied...', 'After review by an AI agent, plan v23 fixed...') with 17 tables in the main text. This makes the paper exhausting to read and obscures the core scientific story. The paper needs a major reorganization into a clean thematic structure (1. Primary Design & Weighting Sensitivity, 2. Null & Learner Controls, 3. Spatial Support & Metric Ablations, 4. Direct Regime Decoding), moving the chronological protocol audit trail to an appendix."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Flawed statistical efficiency of the primary prespecified estimator: Giving equal weight to 12 convenience windows whose query counts vary 50-fold (from 18 total / 5 accepted queries in R07 to 890 queries in the largest window) allowed a single query flip in R07 to shift the 12-window mean by 1.67 percentage points (57% of the AlphaEarth effect). Similarly, feeding one scalar embedding distance into a random forest pair classifier alongside ~60 symmetric physical features with max_features=0.7 diluted the feature and introduced ±3.5 pp column-sampling PRNG noise. Although diagnosed thoroughly post-hoc, the primary experimental setup was under-powered by design."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Missing descriptive table of the geographic study windows: Neither the main text nor the appendix lists the geographic coordinates, ecoregions/states, total wetland counts, nontrivial pool counts, or regime class distributions (A, C, F) of the 12 primary windows and 6 supplementary windows. Readers are only given codes 'R07' and 'R08' in Section 4.2 without knowing where any of the 12 windows are located."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Uncalibrated category compatibility scoring and artificial task framing: The category decoder scores reference compatibility via the uncalibrated probability dot product sum_c p_q(c)*p_r(c), which conflates class sharpness/majority-class prevalence with regime equivalence and underperforms even when the underlying classifier achieves better log loss and balanced accuracy (Section 4.3). Furthermore, masking NWI water regimes while conditioning on exact NWI polygon boundaries and NWI vegetation subclasses is somewhat artificial for real-world deployment, where direct regime classification (rather than O(N^2) pairwise matching) is simpler and more effective for inventory auditing."
+   },
+   {
+    "severity": "minor",
+    "issue": "Omission of an explicit SAR inundation covariate in the physical baseline: TESSERA explicitly fuses multi-temporal Sentinel-1 C-band SAR and Sentinel-2 optical observations, and AlphaEarth also assimilates radar and multi-sensor inputs, whereas the 30-feature physical baseline relies solely on optical surface water (JRC v1.5) and static DEM/HAND layers. While acknowledged in Sections 2 and 6, any genuine advantage of TESSERA in forested/scrub-shrub wetlands (PFO1/PSS1) may reflect canopy-penetrating radar rather than learned representation superiority."
+   },
+   {
+    "severity": "minor",
+    "issue": "Text formatting and markdown rendering errors: In Section 4.10, the table header '| Embedding year | ...' is concatenated directly onto the end of the preceding sentence ('excluding 0 from the original cohort. | Embedding year |'), breaking markdown table rendering. In Section 3.5, 'at least 2030 m inside the archived physical grid' appears to have lost a hyphen or space (e.g., 20–30 m), and spaces are missing around numbers in multiple citations and passages (e.g., 'version1', 'sections2.5–2.8', 'original2024', 'All18')."
+   }
+  ],
+  "strengths": [
+   "Exemplary scientific honesty and self-skepticism: rather than publishing a p-hacked narrative around the -2.95/-3.72 pp primary point estimates, the study systematically stress-tests its own result and transparently concludes that the increment is not established.",
+   "Clean empirical demonstration of how appending a single column (even all zeros) to a scikit-learn RandomForest with max_features < 1.0 alters column-sampling PRNG trajectories enough to shift downstream selective-classification risk by over 3 percentage points (Figure 4).",
+   "Insightful diagnostic decomposition separating reference-ranking improvements on a fixed query screen from shifts in which queries pass the 50% confidence threshold (Figure 3), alongside a careful comparison of point-patch versus 256-pixel polygon-averaged spatial support (Figure 5).",
+   "High reproducibility standards, including spatial block separation with 1 km buffers, preservation of both pre- and post-bugfix feature arrays for a 4-wetland tile-edge assembly defect, and complete uncertainty intervals."
+  ],
+  "closest_prior_work": [
+   {
+    "citation": "Abrahamson, J., and Stegen, J. (2026). Mapping Wetland Inundation Regimes using Google's AlphaEarth Embeddings: A Case Study in the Florida Everglades. Society for Freshwater Science Annual Meeting, Abstract 135001.",
+    "url": "https://sfs-2026.p.asnevents.com.au/days/2026-05-20/abstract/135001",
+    "difference": "Cited in the paper; evaluates supervised and unsupervised AlphaEarth classification of Everglades inundation regimes against gauge-derived EDEN ground truth, Sentinel-2 NDWI, JRC GSW, and NWI, whereas the present paper tests pairwise NWI water-regime reference screening across 12 US windows with a 30-variable terrain/JRC/HAND baseline."
+   },
+   {
+    "citation": "Kapoor, A. (2026). Assessment of Inundation Dynamics in Nebraska Using AlphaEarth Foundations Embeddings. Research Square Preprint rs-11254365/v1 (and Zenodo dataset).",
+    "url": "https://doi.org/10.21203/rs.3.rs-11254365/v1",
+    "difference": "Not cited in the paper; uses Random Forest and K-Means on annual AlphaEarth embeddings (2017–2025) to map inundation extent and permanent vs. ephemeral inundation frequency across 901 lakes and wetlands in Nebraska, whereas the present work evaluates pairwise wetland reference matching on NWI regime classes and compares against TESSERA and terrain/HAND covariates."
+   },
+   {
+    "citation": "Sharma, A., Kharbanda, A., Anand, A., Mishra, R., Zhang, Y., and Biswas, S. (2026). Wetland Mapping Under Boundary Uncertainty with AlphaEarth Embeddings, LiDAR and Sentinel. Preprints.org 202610.0964v1.",
+    "url": "https://www.preprints.org/manuscript/202610.0964",
+    "difference": "Cited in the paper; evaluates binary wetland extent mapping with AlphaEarth, LiDAR, and Sentinel-2 after excluding uncertain polygon boundary pixels, whereas the present paper classifies and matches intra-wetland NWI water regimes (A, C, F) within fixed vegetation subclasses."
+   },
+   {
+    "citation": "Qu, P., Ouyang, W., Zhang, C., et al. (2026). Utilizing Earth Foundation Models to Enhance the Simulation Performance of Hydrological Models with AlphaEarth Embeddings. arXiv:2601.01558v2.",
+    "url": "https://arxiv.org/pdf/2601.01558v2",
+    "difference": "Cited in the paper; uses AlphaEarth cosine similarity to select donor catchments for rainfall-runoff parameter transfer, whereas the present paper tests embedding cosine distances for site-level wetland water-regime reference selection."
+   },
+   {
+    "citation": "Yu, Y., Peng, J., Lin, Y., Keenan, T. F., and Bishop, T. F. A. (2026). Earth Observation Foundation Models for Terrestrial Ecohydrology: From Representation Learning to Process Inference. arXiv:2608.15282v1.",
+    "url": "https://arxiv.org/abs/2608.15282",
+    "difference": "Not cited in the paper; synthesizes Earth observation foundation model capabilities and evaluation pitfalls (scale mismatch, uncertain reference labels, spatial context vs. process inference) across ecohydrology, providing a conceptual counterpart to the empirical diagnostic controls executed here."
+   }
+  ],
+  "familiarity": "No, I do not recognize this specific manuscript or know its exact origin beyond the prompt's statement that it was produced by an autonomous AI research system.",
+  "figures_viewed": true
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP",
+  "web_search_queries": [
+   "\"Assessment of Inundation Dynamics in Nebraska Using AlphaEarth Foundations Embeddings\"",
+   "\"AlphaEarth Foundations\" \"2507.22291\"",
+   "\"National Wetlands Inventory\" \"water regime\" machine learning classification \"temporarily flooded\" \"seasonally flooded\"",
+   "\"AlphaEarth\" wetland \"water regime\" OR \"inundation\"",
+   "\"Streamlining Wetland Vegetation Mapping with AlphaEarth Embeddings\"",
+   "\"Foundation-Scale Satellite Embeddings Reframe Hydrological Generalization\"",
+   "\"Earth Observation Foundation Models for Terrestrial Ecohydrology\"",
+   "\"TESSERA\" \"2506.20380\""
+  ],
+  "sources": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBpE4BssexXRZtuMUKo47xZSnyaEh-l7Ad4mSKETjHiSpdvbE9Wn6yu0CnJPjtwqxMnsIvf4QXc9agiqQlR7FwBBVpLhUzIOAZuAP5CbgYkJdy0PdR",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWj7MDxMbNOpIDPTQVgABDaPLNZoo3x0-TAcASuKRT1PucG5p_2tNdyUmrBhWNqfp0omO8uht1UZZ7w44kzzccGTZzI2iXWipeply2ljF7dav91sQm",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu_UEcHrg_r5FTSsEcvVkDRAbtWuos8KdVlcVgM0ILr_0tIdGLvRYkuy-Mw2g4svgf_u2KYwIhLVJGKvvuqV-dF_yD-YNrE1sOdwDkzvwIJC4BGen5xk6z0nVJ_VGj093Ct_p3uZPJAOlEfUMz3rcfkI04XCUUBHJgeUdUKGsrajRlYVz6jumRhQ5W2RKASzkY2rKXXzKxnYK4UD-kXzUHpQlYjJsG9zCdUKH7jgvq4FwD5a2VHfLhmxlNPW-bniXaAA6kOnavNm0llgvnQZcQzqlVpe6-YDFg_EwW5dZfBuyvEZRNDux4kC31P34ijpGeQUBsFWChKftz8eiIoRr6uYBpmA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdM_4l5j9MqPihgBnxPHJBJ47u518InaLVXup6D-uzIe-7g7edkDG33n_8HKNw1TQEq4nSBul9v4L4GCDYMKaUW9s7fZVG7N5C_qnkvFw71Jol3UQY8X6WojDf7ywfs5L34v0gw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPhmxO6CrjcVoe-wUj6qnXN7CPLK5F1ihtioRwgFbKlrij6WHfN-4HtYjkpx10ZG7NwQVQBue2o05kuwUtfxPT70zWH_mCpymFvCZShFpSwRVn1MqPIdhIYsXFlplVSqy-pyFpuDFt280JBEwEbKF9Z9bm9cJ1is_TKvO7xRxFRjOOo0TFZreZXVX0H9gvvqwiQerlM1Ya8zgeZWHjqAQ3vC8dxYQIH_WAQqpO49PzgiW63v-cQJb-fHFnefYi",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWBDhbfON2zfdVH_FjNnxsQ_0iB8zvGDx8TyNFNvCRDltE2BLNFhvn_mPZ3vcuS3gEYVdgtcCHpJ2NkYl26d5MinTrw_8ODX_nB0k8y-3R8tk7c07MEMuXM3PJMAM47BS3MoQN257qEVWGJRsRUxZby22p5Ak7YtI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq2c6G-UySelP4emvwDuiYX_hK0-TZimzDI5hmweUKMUeyJ8vFwCqMc6ehFooRAfI14_h1K02ePZlNHAto7xmg4p6pLxrjUxx3npUlENjU7ZQkhl0ArfQUo_AM",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV7j2lrnko0xO50LW7SZh33mUeC48BmgPJJPU5Nr9aM43TyVi4CzjhdoNuy_2VZf5SVF1Xx1DdNUhTd-WNp72jL6YuPFVfOSzujRqBtZPm7lTcJm10MEYefimpQsdQgNdfdLxiuZyq2e8s6hfjPYhNMMtU",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvitfPjeOgcCl__lyKvIwH9zTV80JZUZyEqDCEX1-69hhgNRqnzDv1SqxuVHkGdn-0x0DKVC3mgPTc9h5cuSUBUrMeiCdC99FyAUsodJSNsq268xUSy0tz",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWdC9BdyLuzeJviIsZoLNXJRbKIRz2j_HpiLewOS_CsN8Q8ulJ0UPzWIP8mzZaMTeTUw5KODLdqo7vcGQqyeVSqIVGbKj1ap1v0Wk_YSwju6M7d2TIcpzaxyM_dXotdCDv8tdqWNYBGwol47oXiZPWewgCrvOIbclBosh3UPWmA-Sc7Vp18kRjtCR8GQ1Kph3UDdXl4-c4yix-YnYnuzFdFi-M7RxbmVnxUFOr2oUtJ0PuGS64UfvMLwzTe9dVyA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqLbDzSpsbSs2mH8hGfil8yliLOwSrwhCYpKV23mGPVAux8qSa6N7xddoblfY55qXfhmxGRMIxmGJYrf0GmXqC41ZFdzZHxyIqKhFDNBVLSwPaw721GXkApYkWUTtjRh-xZwIYAg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH8elhlpIiqQu0odIPQyBNCvxgRhJEl7J7dk-V5OZ513JARYZmYduw2tPtIGHfYuPGfBfO-IaGB3tNlvPSI5KHaBRhXF3ARNAxaPotSEO4YK7oUzFL4hi3",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBtJEGkB9sHpc7FEn32E0DXFlUfenyUObkUzI2Pq0X9gE9hDgMjBRxTGh4aO9-bwO-tkyaLYXRtQfTEtjuTB67cItG_AD8_ZdbQIF3J-WYwnH2Ohsm9Kh4"
+  ]
+ }
+}

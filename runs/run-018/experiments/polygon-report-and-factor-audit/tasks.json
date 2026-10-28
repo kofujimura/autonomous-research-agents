@@ -1,0 +1,70 @@
+[
+  {
+    "task_id": "polygon-factor-isolation",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_polygon_conditions.py",
+      "--out",
+      "analysis/polygon-condition-audit"
+    ],
+    "start_time_utc": "2026-10-27T22:00:43.320479+00:00",
+    "end_time_utc": "2026-10-27T22:00:44.152818+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "report-data",
+    "command": [
+      ".venv/bin/python",
+      "code/build_report_data.py",
+      "--out",
+      "analysis/report-data"
+    ],
+    "start_time_utc": "2026-10-27T22:00:44.153323+00:00",
+    "end_time_utc": "2026-10-27T22:00:45.674393+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "figures",
+    "command": [
+      ".venv/bin/python",
+      "code/make_figures.py",
+      "--data",
+      "analysis/report-data",
+      "--out",
+      "figures"
+    ],
+    "start_time_utc": "2026-10-27T22:00:45.674853+00:00",
+    "end_time_utc": "2026-10-27T22:00:47.993154+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "paper",
+    "command": [
+      ".venv/bin/python",
+      "code/render_manuscript.py"
+    ],
+    "start_time_utc": "2026-10-27T22:00:47.993568+00:00",
+    "end_time_utc": "2026-10-27T22:00:49.319167+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "claims",
+    "command": [
+      ".venv/bin/python",
+      "code/build_claims.py"
+    ],
+    "start_time_utc": "2026-10-27T22:00:49.319624+00:00",
+    "end_time_utc": "2026-10-27T22:00:49.638190+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "completion-report",
+    "command": [
+      ".venv/bin/python",
+      "code/update_records_report.py"
+    ],
+    "start_time_utc": "2026-10-27T22:00:49.638656+00:00",
+    "end_time_utc": "2026-10-27T22:00:49.860637+00:00",
+    "exit_code": 0
+  }
+]

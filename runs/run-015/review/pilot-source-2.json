@@ -1,0 +1,7 @@
+{
+  "created_at_utc": "2026-10-26T07:17:32Z",
+  "source_copy_path": "verification_work/pilot-source-2",
+  "source_commit_id": "ec21bcc35e9456171b7e90ef911f05445fb355ad",
+  "primary_cases_sha256": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d",
+  "scope": "Second intermediate integrated author verification after portable-path repair; final-state submission replay still required."
+}

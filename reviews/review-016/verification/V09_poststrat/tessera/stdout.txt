@@ -1,0 +1,4 @@
+results/models/logistic-broad-tessera paired {'poststrat_rmse': 0.05604572489527518, 'direct_rmse': 0.05589046539476335}
+results/models/logistic-broad-tessera independent {'poststrat_rmse': 0.09245404393741077, 'direct_rmse': 0.10655095850519974}
+results/models/logistic-broad-alphaearth paired {'poststrat_rmse': 0.05553122036418624, 'direct_rmse': 0.05589046539476335}
+results/models/logistic-broad-alphaearth independent {'poststrat_rmse': 0.0923461224745362, 'direct_rmse': 0.10655095850519974}

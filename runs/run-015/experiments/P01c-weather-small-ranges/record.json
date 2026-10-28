@@ -1,0 +1,22 @@
+{
+  "experiment_id": "P01c-weather-small-ranges",
+  "started_at_utc": "2026-10-25T22:27:27Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pilot_weather.py"
+  ],
+  "timeout_seconds": 480,
+  "plan_path": "protocol/topic-selection.md",
+  "plan_commit_id": "fb7a5bb399598beb52db018208b4c3920fdf642f",
+  "code_commit_id": "ad8eecc8a0d98b930c730054ff666af6c9ea3841",
+  "input_sha256": {
+    "data/pilot/aifs-168.index": "46acb53c7c11f455f42aaac87eaf67c00fe11f7b8603922fbf753439f758a8af"
+  },
+  "status": "failed",
+  "start_event_id": "E0029",
+  "child_pid": 45773,
+  "exit_code": 1,
+  "ended_at_utc": "2026-10-25T22:27:31Z",
+  "elapsed_seconds": 4.496253916993737,
+  "end_event_id": "E0030"
+}

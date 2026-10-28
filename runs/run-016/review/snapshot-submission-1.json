@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-27T00:37:15.403223Z",
+  "source_commit": "384a16a633ccf793da1423266852b47151eab24b",
+  "destination": "verification-work/input-submission-1",
+  "method": "Shared Git object store; mutable documents, ledgers, code and figures copied from commit blobs. Immutable NPZ/NPY/PDF inputs and frozen versioned data/scientific-result manifests/tables/raw-output metadata hardlinked only after their Git blob hash matched. Bookkeeping tallies are excluded from sharing. Old scientific artifacts must remain immutable; revisions use new destinations. No original inputs are written.",
+  "immutable_hardlinks": 7007,
+  "copied_files": 649,
+  "excluded_from_git": true,
+  "qualification": "New working location for this session self-rerun, not independent reproduction. Shared immutable bytes avoid storage duplication; all verification outputs use a different fresh path."
+}

@@ -1,0 +1,98 @@
+{
+  "audited_at_utc": "2026-10-28T02:54:51.103890+00:00",
+  "physical": [
+    {
+      "rotation": 0,
+      "wetland_n": 3624,
+      "exactly_unchanged_n": 0,
+      "missingness_changed_n": 0,
+      "maximum_scaled_le001_n": 0,
+      "maximum_scaled_le01_n": 80,
+      "maximum_scaled_gt1_n": 1665
+    },
+    {
+      "rotation": 1,
+      "wetland_n": 3624,
+      "exactly_unchanged_n": 0,
+      "missingness_changed_n": 0,
+      "maximum_scaled_le001_n": 0,
+      "maximum_scaled_le01_n": 69,
+      "maximum_scaled_gt1_n": 1761
+    },
+    {
+      "rotation": 2,
+      "wetland_n": 3624,
+      "exactly_unchanged_n": 0,
+      "missingness_changed_n": 0,
+      "maximum_scaled_le001_n": 0,
+      "maximum_scaled_le01_n": 90,
+      "maximum_scaled_gt1_n": 1694
+    },
+    {
+      "rotation": 3,
+      "wetland_n": 3624,
+      "exactly_unchanged_n": 0,
+      "missingness_changed_n": 0,
+      "maximum_scaled_le001_n": 0,
+      "maximum_scaled_le01_n": 93,
+      "maximum_scaled_gt1_n": 1741
+    }
+  ],
+  "embedding": [
+    {
+      "product": "aef",
+      "comparison": "A-B",
+      "wetland_n": 3624,
+      "median": 0.008518981075511967,
+      "q95": 0.049397542503496046,
+      "distance_le1e12_n": 5,
+      "distance_le1e4_n": 22,
+      "distance_le1e3_n": 319
+    },
+    {
+      "product": "aef",
+      "comparison": "A-D",
+      "wetland_n": 3624,
+      "median": 0.00982712236200639,
+      "q95": 0.057962418554536856,
+      "distance_le1e12_n": 5,
+      "distance_le1e4_n": 17,
+      "distance_le1e3_n": 304
+    },
+    {
+      "product": "tessera",
+      "comparison": "A-B",
+      "wetland_n": 3624,
+      "median": 0.01837467648572,
+      "q95": 0.08887334273139572,
+      "distance_le1e12_n": 5,
+      "distance_le1e4_n": 5,
+      "distance_le1e3_n": 66
+    },
+    {
+      "product": "tessera",
+      "comparison": "A-D",
+      "wetland_n": 3624,
+      "median": 0.022088643900149307,
+      "q95": 0.10593325793503792,
+      "distance_le1e12_n": 5,
+      "distance_le1e4_n": 5,
+      "distance_le1e3_n": 67
+    }
+  ],
+  "input_sha256": {
+    "analysis/polygon-features-v3/A/features-2024.npz": "1c518f900118ed14756973ff8d186afef27d3e4ecd9544d2196c3b731aa51495",
+    "analysis/polygon-features-v3/A/rows-2024.json": "99f7aade24cbd9e2f91ac6f0b0e69bfed5533c9e67751eea16955c2322d47719",
+    "analysis/polygon-features-v3/B/features-2024.npz": "9fb9d2ebfc4da1a359b70ed9c8f40abab0eeccf19a22f0c4de0deeadd4b98a73",
+    "analysis/polygon-features-v3/B/rows-2024.json": "b9bc4ec3d3a5878938c7839deb84065ce596e07fff605f5c38db1789a2f937d8",
+    "analysis/polygon-features-v3/C/features-2024.npz": "fe1366c02e2a8f071b4cd240c24ab10fcf1f9b89f421f2ca82e0d7a356a59ecf",
+    "analysis/polygon-features-v3/C/rows-2024.json": "b9bc4ec3d3a5878938c7839deb84065ce596e07fff605f5c38db1789a2f937d8",
+    "analysis/polygon-features-v3/D/features-2024.npz": "b15ae6da32792f64febb4c210f34e2ca9ca283e3c180e87b56a1902e5d403e1b",
+    "analysis/polygon-features-v3/D/rows-2024.json": "9bccbcfc0e4cd1f58604ef20372a4054a61f8e502f04836074ac1012ea8093df",
+    "analysis/polygon/B-rf/r0/transforms.json": "6902ddaf6d54945fdabb45d76e2766913b113db4b289e951ef14c0f939f3bb45",
+    "analysis/polygon/B-rf/r1/transforms.json": "8bddba9f342ebbc4ec674da5e4d454028502e5f226404d83aed05dd4555b89bd",
+    "analysis/polygon/B-rf/r2/transforms.json": "5a4c930b9dc14557fb3eae7f23dd544046fca37443f33849cb51dec2ba7d6ffa",
+    "analysis/polygon/B-rf/r3/transforms.json": "fb3126616da20ce7100af58cc5435027f80b1036b6331b07b7ed12d9c0a889f7"
+  },
+  "scope": "Exploratory input magnitude check; robust scales are archived B training transforms, including unit fallback; thresholds do not establish ecological equivalence or independent observations"
+}

@@ -1,0 +1,2 @@
+/Users/fujimura/Research/ai-free-research-en/run-015/scripts/common_member_queries.py:19: DtypeWarning: Columns (29: source_sha256, 30: matched_date) have mixed types. Specify dtype option on import or set low_memory=False.
+  f=pd.read_csv(a.cases,dtype={'date':str})

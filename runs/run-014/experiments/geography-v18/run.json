@@ -1,0 +1,32 @@
+{
+  "experiment_id": "geography-v18",
+  "start_at_utc": "2026-10-25T14:57:12Z",
+  "end_at_utc": "2026-10-25T14:57:16Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/geography.py",
+    "--dataset",
+    "lcmap",
+    "--main",
+    "analysis/main-v1",
+    "--output",
+    "analysis/geography-v18"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v18.md",
+  "plan_commit_id": "31fc90750eedea5015dba384842c4a7fe1cbbf4a",
+  "additional_plan_commits": {},
+  "code_commit_id": "c2b4b0ec2fca4b4043d99535eea35ca5705496d7",
+  "input_sha256": {
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+    "analysis/main-v1/availability-targets.csv": "8df37c4aa3abc05022d93285e143d169572ccdefbfd6135814c226a82153ecbd"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0382",
+  "pid": 25692,
+  "elapsed_seconds": 3.891555832931772,
+  "end_event_id": "E0383"
+}

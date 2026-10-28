@@ -1,0 +1,33 @@
+{
+  "observed_at_utc": "2026-10-25T20:43:11Z",
+  "review_id": "review-014-1",
+  "points": 8,
+  "decisions": {
+    "adopted": 5,
+    "partly adopted": 3
+  },
+  "claims_modified": [
+    "C001",
+    "C002",
+    "C003",
+    "C005",
+    "C009",
+    "C012",
+    "C014",
+    "C017",
+    "C018"
+  ],
+  "claims_added": [
+    "C019",
+    "C020"
+  ],
+  "status_changes": [],
+  "claims_withdrawn": [],
+  "scientific_experiments_added": [
+    "review-diagnostics-r1"
+  ],
+  "self_reruns_added": [
+    "end-to-end-self-rerun-4"
+  ],
+  "new_ai_api_calls": 0
+}

@@ -1,0 +1,32 @@
+{
+  "experiment_id": "E19-jackknife-alphaearth",
+  "start_time_utc": "2026-10-26T21:28:08.836551Z",
+  "end_time_utc": "2026-10-26T21:28:31.604204Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/extensions_pipeline.py",
+    "--representation",
+    "alphaearth",
+    "--stage",
+    "jackknife"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6a-jackknife-fpc.md",
+  "plan_commit_id": "a829e40f643963d601f38e340da210891afccd06",
+  "plan_sha256": "2f18d9c83bdc5f2ced8686d8e2eb83c3fe1eb6febc51dcaf0b043c4332929a98",
+  "code_commit_id": "a829e40f643963d601f38e340da210891afccd06",
+  "inputs": [
+    {
+      "path": "results/inference/logistic-broad-alphaearth/analysis.json",
+      "sha256": "64e3fae6c9cb305f8fefe0a56275569327d160c4640e2179ea258af4f5ce3fb1"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E19-jackknife-alphaearth/stdout.txt",
+  "stderr_path": "experiments/E19-jackknife-alphaearth/stderr.txt",
+  "start_event_id": "E0278",
+  "pid": 6881,
+  "elapsed_seconds": 22.767650957917795,
+  "end_event_id": "E0279"
+}

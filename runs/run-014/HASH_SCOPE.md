@@ -1,0 +1,9 @@
+# SHA-256 scope
+
+SHA256SUMS.txt covers the stable files in this research directory: raw selected measurements, retained failed/pilot outputs, original API requests/responses and usage records, source snapshots and label archives, code, fixed plans, logs, claims, paper, figures, verification instructions and submission snapshot copies. It is generated with scripts/hash_outputs.py after final content and pre-commit event records are fixed.
+
+Exclusions are Git internals (.git), dedicated environment (.venv), package/data caches (.cache), Python bytecode and __pycache__, Matplotlib cache directories named matplotlib-cache, and the explicitly excluded verification working copies under verification-work. These still count toward the directory storage limit. SHA256SUMS and SHA256SUMS.txt at any location are excluded to avoid self-reference, including the copy placed in a submission snapshot. Symlinks are excluded rather than dereferenced outside the authorized directory. Stable raw .npz inputs and retained failure files are included, not treated as caches. No selected raw input is excluded solely because it failed.
+
+Run `python3 -B scripts/hash_outputs.py --check` on a read-only submitted copy to verify both hashes and covered file membership. It neither writes into the source directory nor uses a network. Generate mode writes the list and is used only by the author on the active workspace.
+
+Hashes detect differences relative to this recorded list. They do not prove provenance, chronology, absence of manipulation or independent reproduction. Local Git times and event times are self-reported. For the last sealed submission event, a resolvable tag can identify its own commit without embedding the commit's hash inside its own content; the exact hexadecimal commit ID is available from Git and the submission message. No records should be appended after sealing the hash list for a submission.

@@ -1,0 +1,21 @@
+{
+  "generated_at_utc": "2026-10-28T10:57:01.261479+00:00",
+  "algorithm": "SHA-256",
+  "excluded_path_components": [
+    ".cache",
+    ".git",
+    ".matplotlib-cache",
+    ".venv",
+    "__pycache__"
+  ],
+  "excluded_basenames": [
+    "SHA256SUMS"
+  ],
+  "nonbundled_paths": {
+    "data/pilot/aef_index.csv": "Large public tile-locator index excluded from Git; needed for reacquisition only. All selected raw measurements required for offline analysis are bundled."
+  },
+  "nonbundled_prefixes": {
+    "verification-work/": "Fresh author-verification Git archives and regenerated outputs are excluded from Git as duplicated workspaces, but their raw files are hashed here. Copy these optional workspaces from the local submission directory for complete inventory checking. Source commits and verification reports are bundled; all scientific inputs and canonical predictions are bundled separately."
+  },
+  "scope": "All other files under the research directory, including raw measurements, failed experiment outputs, verification workspace inputs/outputs, logs, plans, paper, figures and submission snapshots. Hashes establish content consistency, not independence or tamper-proofness."
+}

@@ -1,0 +1,616 @@
+{
+  "started_at_utc": "2026-10-26T15:10:42.233786Z",
+  "ended_at_utc": "2026-10-26T15:10:50.321143Z",
+  "snapshot_id": "0MAE4SH4SD525EX33MF0",
+  "shape": [
+    2,
+    333,
+    333
+  ],
+  "classes": {
+    "1": 93717,
+    "5": 63898,
+    "12": 51,
+    "23": 25,
+    "24": 587,
+    "27": 106,
+    "28": 384,
+    "36": 2169,
+    "37": 529,
+    "58": 2,
+    "59": 34,
+    "111": 688,
+    "121": 10664,
+    "122": 10214,
+    "123": 5568,
+    "124": 1376,
+    "131": 339,
+    "141": 6382,
+    "142": 73,
+    "143": 1016,
+    "152": 8,
+    "176": 22224,
+    "190": 1091,
+    "195": 627,
+    "205": 6
+  },
+  "source": "https://data.source.coop/chill/usda-cropland-data-layer/v0.1.0.icechunk",
+  "license": "USDA NASS CDL public domain, checked official FAQ; mirror provenance in group attributes",
+  "output_sha256": "72c66e8d4c092ef7de2a96bc61a69fca0bd9b81684501af71e6cd2f416cb3ea0",
+  "attrs": {
+    "spatial_resolution": "30 m",
+    "spatial_domain": "Conterminous United States (CONUS)",
+    "crs": "EPSG:5070",
+    "grid_note": "Canonical union grid; yearly source rasters are placed by affine offset and areas outside a given year's source extent are 0 (Background). See per-year attrs source_urls / source_extents.",
+    "methodology_by_era": {
+      "2008": "Supervised decision-tree classification of satellite imagery (Landsat TM/ETM+/OLI, AWiFS, and similar sensors depending on year) trained on FSA Common Land Unit data, with NLCD-derived non-agricultural classes.",
+      "2024": "Random-forest classification of harmonized Landsat 8/9 OLI and Sentinel-2 A/B surface reflectance composites in Google Earth Engine; native product resolution 10 m. The 30 m product from 2024 onward is a resampling of the official 10 m CDL provided for historical consistency."
+    },
+    "source_files": {
+      "2008": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2008_30m_cdls.zip",
+        "zip_size_bytes": 1813824795,
+        "zip_sha256": "f88dcf9dbf26fbca88984cfe65ffc2a5ec7f5a8e18e1aa307be08330facd8f54",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2009": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2009_30m_cdls.zip",
+        "zip_size_bytes": 1839306721,
+        "zip_sha256": "4c714c1af89c73d106874186b043a869dc6a25f65d7e06512be405d55b05e818",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2010": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2010_30m_cdls.zip",
+        "zip_size_bytes": 1866483557,
+        "zip_sha256": "ebfe28d5b9697aeba1186303dec8cfa5926170eb9e4317c555a73554b7628a07",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2011": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2011_30m_cdls.zip",
+        "zip_size_bytes": 1849298633,
+        "zip_sha256": "2d48ba062fd2a2935053a8dc5d1bde91c92f442ae021ef3584983894c5cf93a9",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2012": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2012_30m_cdls.zip",
+        "zip_size_bytes": 1819245510,
+        "zip_sha256": "89d4a30c41fa89fb284cb35e97d986a13104176fbbc3c2fcc606cb41897020bb",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2013": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2013_30m_cdls.zip",
+        "zip_size_bytes": 1806704775,
+        "zip_sha256": "19fbc9563945057bb7e1906a273aec0c87852e6d78267ffe71ea904e0f8d9014",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2014": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2014_30m_cdls.zip",
+        "zip_size_bytes": 1854193491,
+        "zip_sha256": "07ee7bad039382f0506c1f3ea1e0802f4582f0e1c10b51d8b0994d5a2b726825",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2015": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2015_30m_cdls.zip",
+        "zip_size_bytes": 1807983697,
+        "zip_sha256": "ff4d01be84764b9efee316fcd65f671d244bd908e91fedba7d82d0a72e4b8f4e",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2016": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2016_30m_cdls.zip",
+        "zip_size_bytes": 1804126975,
+        "zip_sha256": "85f2e2bd5a912d9a6939e8107d4d0140ebe2b41013e6b32d3e42a2fb5427e478",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2017": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2017_30m_cdls.zip",
+        "zip_size_bytes": 1790196900,
+        "zip_sha256": "ad1a029ded004f53520d4a6b7d2994267d8bbd5e9dc000f730e8152a37125ce5",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2018": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2018_30m_cdls.zip",
+        "zip_size_bytes": 1873535968,
+        "zip_sha256": "06fe3490743f842d7299bad54e33b18d5e2e632e0217f06bf14aa92e892fbc32",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2019": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2019_30m_cdls.zip",
+        "zip_size_bytes": 1964882898,
+        "zip_sha256": "f9ed397cb3535865039c4bcdd08d78960644349f4b67afeb3a64b62810152bd8",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2020": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2020_30m_cdls.zip",
+        "zip_size_bytes": 2007640337,
+        "zip_sha256": "f09b918a65a8401897f9b47794d627ff2039750306e82d0e269f54f222b9dec1",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2021": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2021_30m_cdls.zip",
+        "zip_size_bytes": 2021909155,
+        "zip_sha256": "a16b19bc78ed0ab4c79d7761e46f866921460d0047f6832e7da55a4696bb6a78",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2022": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2022_30m_cdls.zip",
+        "zip_size_bytes": 2070138298,
+        "zip_sha256": "996a73aeb09a68218e5e132dea0eb59bd53006ae85e42ccdf50cc366513c1358",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2023": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2023_30m_cdls.zip",
+        "zip_size_bytes": 2059094665,
+        "zip_sha256": "d135d649e79a98d2e365877e335bdc9760436dfb9e42524d5ce6f58bfd7ca66f",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2024": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2024_30m_cdls.zip",
+        "zip_size_bytes": 1656243429,
+        "zip_sha256": "e5dd682dba8acbcde36527cde348c7a2fdc54134b87a619e1d7d15cd7ef420d6",
+        "source_shape": [
+          96523,
+          153811
+        ],
+        "placement_offset": [
+          4954,
+          2058
+        ]
+      },
+      "2025": {
+        "source_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/datasets/2025_30m_cdls.zip",
+        "zip_size_bytes": 1887184211,
+        "zip_sha256": "3621cf215579b1748b0949279539533e36861e3def64acaeef0b043e8981aa51",
+        "source_shape": [
+          105432,
+          160171
+        ],
+        "placement_offset": [
+          0,
+          0
+        ]
+      }
+    },
+    "zarr_conventions": [
+      {
+        "schema_url": "https://raw.githubusercontent.com/zarr-conventions/multiscales/refs/tags/v0.1/schema.json",
+        "spec_url": "https://github.com/zarr-conventions/multiscales/blob/v0.1/README.md",
+        "uuid": "d35379db-88df-4056-af3a-620245f8e347",
+        "name": "multiscales",
+        "description": "Multiscale layout of zarr datasets"
+      },
+      {
+        "schema_url": "https://raw.githubusercontent.com/zarr-experimental/geo-proj/refs/tags/v1/schema.json",
+        "spec_url": "https://github.com/zarr-experimental/geo-proj/blob/v1/README.md",
+        "uuid": "f17cb550-5864-4468-aeb7-f3180cfb622f",
+        "name": "proj:",
+        "description": "Coordinate reference system information for geospatial data"
+      },
+      {
+        "schema_url": "https://raw.githubusercontent.com/zarr-conventions/spatial/refs/tags/v1/schema.json",
+        "spec_url": "https://github.com/zarr-conventions/spatial/blob/v1/README.md",
+        "uuid": "689b58e2-cf7b-45e0-9fff-9cfc0883d6b4",
+        "name": "spatial:",
+        "description": "Spatial coordinate information"
+      }
+    ],
+    "multiscales": {
+      "layout": [
+        {
+          "asset": ".",
+          "transform": {
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "spatial:transform": [
+            30.0,
+            0.0,
+            -2417835.0,
+            0.0,
+            -30.0,
+            3321225.0
+          ],
+          "spatial:shape": [
+            105432,
+            160171
+          ]
+        },
+        {
+          "asset": "2x",
+          "derived_from": ".",
+          "transform": {
+            "scale": [
+              1.0,
+              2.0,
+              2.0
+            ],
+            "translation": [
+              0.0,
+              0.5,
+              0.5
+            ]
+          },
+          "spatial:transform": [
+            60.0,
+            0.0,
+            -2417835.0,
+            0.0,
+            -60.0,
+            3321225.0
+          ],
+          "spatial:shape": [
+            52716,
+            80086
+          ],
+          "resampling_method": "mode"
+        },
+        {
+          "asset": "4x",
+          "derived_from": ".",
+          "transform": {
+            "scale": [
+              1.0,
+              2.0,
+              2.0
+            ],
+            "translation": [
+              0.0,
+              0.5,
+              0.5
+            ]
+          },
+          "spatial:transform": [
+            120.0,
+            0.0,
+            -2417835.0,
+            0.0,
+            -120.0,
+            3321225.0
+          ],
+          "spatial:shape": [
+            26358,
+            40043
+          ],
+          "resampling_method": "mode"
+        },
+        {
+          "asset": "8x",
+          "derived_from": ".",
+          "transform": {
+            "scale": [
+              1.0,
+              2.0,
+              2.0
+            ],
+            "translation": [
+              0.0,
+              0.5,
+              0.5
+            ]
+          },
+          "spatial:transform": [
+            240.0,
+            0.0,
+            -2417835.0,
+            0.0,
+            -240.0,
+            3321225.0
+          ],
+          "spatial:shape": [
+            13179,
+            20022
+          ],
+          "resampling_method": "mode"
+        },
+        {
+          "asset": "16x",
+          "derived_from": ".",
+          "transform": {
+            "scale": [
+              1.0,
+              2.0,
+              2.0
+            ],
+            "translation": [
+              0.0,
+              0.5,
+              0.5
+            ]
+          },
+          "spatial:transform": [
+            480.0,
+            0.0,
+            -2417835.0,
+            0.0,
+            -480.0,
+            3321225.0
+          ],
+          "spatial:shape": [
+            6590,
+            10011
+          ],
+          "resampling_method": "mode"
+        },
+        {
+          "asset": "32x",
+          "derived_from": ".",
+          "transform": {
+            "scale": [
+              1.0,
+              2.0,
+              2.0
+            ],
+            "translation": [
+              0.0,
+              0.5,
+              0.5
+            ]
+          },
+          "spatial:transform": [
+            960.0,
+            0.0,
+            -2417835.0,
+            0.0,
+            -960.0,
+            3321225.0
+          ],
+          "spatial:shape": [
+            3295,
+            5006
+          ],
+          "resampling_method": "mode"
+        },
+        {
+          "asset": "64x",
+          "derived_from": ".",
+          "transform": {
+            "scale": [
+              1.0,
+              2.0,
+              2.0
+            ],
+            "translation": [
+              0.0,
+              0.5,
+              0.5
+            ]
+          },
+          "spatial:transform": [
+            1920.0,
+            0.0,
+            -2417835.0,
+            0.0,
+            -1920.0,
+            3321225.0
+          ],
+          "spatial:shape": [
+            1648,
+            2503
+          ],
+          "resampling_method": "mode"
+        },
+        {
+          "asset": "128x",
+          "derived_from": ".",
+          "transform": {
+            "scale": [
+              1.0,
+              2.0,
+              2.0
+            ],
+            "translation": [
+              0.0,
+              0.5,
+              0.5
+            ]
+          },
+          "spatial:transform": [
+            3840.0,
+            0.0,
+            -2417835.0,
+            0.0,
+            -3840.0,
+            3321225.0
+          ],
+          "spatial:shape": [
+            824,
+            1252
+          ],
+          "resampling_method": "mode"
+        },
+        {
+          "asset": "256x",
+          "derived_from": ".",
+          "transform": {
+            "scale": [
+              1.0,
+              2.0,
+              2.0
+            ],
+            "translation": [
+              0.0,
+              0.5,
+              0.5
+            ]
+          },
+          "spatial:transform": [
+            7680.0,
+            0.0,
+            -2417835.0,
+            0.0,
+            -7680.0,
+            3321225.0
+          ],
+          "spatial:shape": [
+            412,
+            626
+          ],
+          "resampling_method": "mode"
+        }
+      ],
+      "resampling_method": "mode"
+    },
+    "spatial:dimensions": [
+      "y",
+      "x"
+    ],
+    "spatial:transform": [
+      30.0,
+      0.0,
+      -2417835.0,
+      0.0,
+      -30.0,
+      3321225.0
+    ],
+    "spatial:bbox": [
+      -2417835.0,
+      158265.0,
+      2387295.0,
+      3321225.0
+    ],
+    "spatial:shape": [
+      105432,
+      160171
+    ],
+    "proj:code": "EPSG:5070",
+    "overview_years": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  }
+}

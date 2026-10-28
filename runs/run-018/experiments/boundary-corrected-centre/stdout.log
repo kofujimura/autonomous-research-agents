@@ -1,0 +1,82 @@
+{"task_id": "centre-features", "command": [".venv/bin/python", "code/derive_features.py", "--out", "analysis/features-centre-corrected", "--centre", "--aef-overrides", "data/corrections"], "start_time_utc": "2026-10-28T04:58:56.138739+00:00"}
+{"rows": 3667, "missing": [], "hydro_features": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"]}
+{"task_id": "centre-fits", "command": [".venv/bin/python", "code/run_rotation_batch.py", "--kind", "primary", "--inputs", "analysis/features-centre-corrected", "--output", "analysis/boundaries-corrected/centre"], "start_time_utc": "2026-10-28T04:58:59.921839+00:00"}
+{"rotation": 0, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/features-centre-corrected", "--rotation", "0", "--output", "analysis/boundaries-corrected/centre/r0"], "start_time_utc": "2026-10-28T04:58:59.962607+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1370, "pairs": 30570, "elapsed_seconds": 48.833310624817386}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1370, "pairs": 30570, "elapsed_seconds": 98.41605658293702}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1370, "pairs": 30570, "elapsed_seconds": 147.55150549998507}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1370, "pairs": 30570, "elapsed_seconds": 197.85012774984352}
+{"stage": "predict", "queries": 100, "total": 763, "elapsed_seconds": 213.0813925829716}
+{"stage": "predict", "queries": 200, "total": 763, "elapsed_seconds": 216.25860991585068}
+{"stage": "predict", "queries": 300, "total": 763, "elapsed_seconds": 219.222604499897}
+{"stage": "predict", "queries": 400, "total": 763, "elapsed_seconds": 222.00168874999508}
+{"stage": "predict", "queries": 500, "total": 763, "elapsed_seconds": 224.4684514158871}
+{"stage": "predict", "queries": 600, "total": 763, "elapsed_seconds": 226.82007583300583}
+{"stage": "predict", "queries": 700, "total": 763, "elapsed_seconds": 229.3848324159626}
+{"start_time_utc": "2026-10-28T04:59:01.317333+00:00", "end_time_utc": "2026-10-28T05:02:52.457451+00:00", "elapsed_seconds": 231.1395472078584, "rotation": 0, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3667, "training_nominal_n": 1928, "training_retained_n": 1370, "training_pairs": 30570, "query_n": 763, "reference_n": 976, "prediction_rows": 13662, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "98061bb83adc0f3bebd8ffd013c6f9fff2b11e1e8e76e367b4190ea0ab4f7306", "features-2024.npz": "71d69070bac8dbe33a7be43007b73cb35a74587abecebcc11046bb244b2bdf66"}}
+{"rotation": 1, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/features-centre-corrected", "--rotation", "1", "--output", "analysis/boundaries-corrected/centre/r1"], "start_time_utc": "2026-10-28T05:02:52.613920+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1168, "pairs": 24358, "elapsed_seconds": 38.70731195900589}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1168, "pairs": 24358, "elapsed_seconds": 77.76527524995618}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1168, "pairs": 24358, "elapsed_seconds": 116.40671737492085}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1168, "pairs": 24358, "elapsed_seconds": 155.98305604187772}
+{"stage": "predict", "queries": 100, "total": 976, "elapsed_seconds": 169.9808950838633}
+{"stage": "predict", "queries": 200, "total": 976, "elapsed_seconds": 173.09396749990992}
+{"stage": "predict", "queries": 300, "total": 976, "elapsed_seconds": 176.23802404198796}
+{"stage": "predict", "queries": 400, "total": 976, "elapsed_seconds": 179.12778795906343}
+{"stage": "predict", "queries": 500, "total": 976, "elapsed_seconds": 181.78167595900595}
+{"stage": "predict", "queries": 600, "total": 976, "elapsed_seconds": 184.53132508392446}
+{"stage": "predict", "queries": 700, "total": 976, "elapsed_seconds": 186.90943445893936}
+{"stage": "predict", "queries": 800, "total": 976, "elapsed_seconds": 189.19176449999213}
+{"stage": "predict", "queries": 900, "total": 976, "elapsed_seconds": 191.72267187503166}
+{"start_time_utc": "2026-10-28T05:02:53.954605+00:00", "end_time_utc": "2026-10-28T05:06:07.689214+00:00", "elapsed_seconds": 193.73412133404054, "rotation": 1, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3667, "training_nominal_n": 1784, "training_retained_n": 1168, "training_pairs": 24358, "query_n": 976, "reference_n": 907, "prediction_rows": 17442, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "98061bb83adc0f3bebd8ffd013c6f9fff2b11e1e8e76e367b4190ea0ab4f7306", "features-2024.npz": "71d69070bac8dbe33a7be43007b73cb35a74587abecebcc11046bb244b2bdf66"}}
+{"rotation": 2, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/features-centre-corrected", "--rotation", "2", "--output", "analysis/boundaries-corrected/centre/r2"], "start_time_utc": "2026-10-28T05:06:07.819761+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 40.9270052080974}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 82.07050441717729}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 122.76606754213572}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1216, "pairs": 25754, "elapsed_seconds": 164.4146704170853}
+{"stage": "predict", "queries": 100, "total": 907, "elapsed_seconds": 178.3652137920726}
+{"stage": "predict", "queries": 200, "total": 907, "elapsed_seconds": 181.2325880001299}
+{"stage": "predict", "queries": 300, "total": 907, "elapsed_seconds": 184.09548841719516}
+{"stage": "predict", "queries": 400, "total": 907, "elapsed_seconds": 186.86939833313227}
+{"stage": "predict", "queries": 600, "total": 907, "elapsed_seconds": 191.75724950013682}
+{"stage": "predict", "queries": 700, "total": 907, "elapsed_seconds": 194.2869617920369}
+{"stage": "predict", "queries": 800, "total": 907, "elapsed_seconds": 196.64182416698895}
+{"stage": "predict", "queries": 900, "total": 907, "elapsed_seconds": 199.08943358319812}
+{"start_time_utc": "2026-10-28T05:06:09.158741+00:00", "end_time_utc": "2026-10-28T05:09:30.584308+00:00", "elapsed_seconds": 199.4097709581256, "rotation": 2, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3667, "training_nominal_n": 1739, "training_retained_n": 1216, "training_pairs": 25754, "query_n": 907, "reference_n": 1021, "prediction_rows": 16056, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "98061bb83adc0f3bebd8ffd013c6f9fff2b11e1e8e76e367b4190ea0ab4f7306", "features-2024.npz": "71d69070bac8dbe33a7be43007b73cb35a74587abecebcc11046bb244b2bdf66"}}
+{"rotation": 3, "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_matching.py", "--inputs", "analysis/features-centre-corrected", "--rotation", "3", "--output", "analysis/boundaries-corrected/centre/r3"], "start_time_utc": "2026-10-28T05:09:30.735943+00:00"}
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 38.14993816707283}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 76.80087570799515}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 115.27566124987788}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 154.8125184578821}
+{"stage": "predict", "queries": 100, "total": 1021, "elapsed_seconds": 167.98059883294627}
+{"stage": "predict", "queries": 200, "total": 1021, "elapsed_seconds": 170.7484335419722}
+{"stage": "predict", "queries": 300, "total": 1021, "elapsed_seconds": 173.4192185830325}
+{"stage": "predict", "queries": 400, "total": 1021, "elapsed_seconds": 176.08907537488267}
+{"stage": "predict", "queries": 500, "total": 1021, "elapsed_seconds": 178.6213352920022}
+{"stage": "predict", "queries": 600, "total": 1021, "elapsed_seconds": 181.22035720804706}
+{"stage": "predict", "queries": 700, "total": 1021, "elapsed_seconds": 183.72451520804316}
+{"stage": "predict", "queries": 800, "total": 1021, "elapsed_seconds": 185.94303470803425}
+{"stage": "predict", "queries": 900, "total": 1021, "elapsed_seconds": 188.40734458295628}
+{"stage": "predict", "queries": 1000, "total": 1021, "elapsed_seconds": 190.98795341700315}
+{"start_time_utc": "2026-10-28T05:09:32.080516+00:00", "end_time_utc": "2026-10-28T05:12:43.698557+00:00", "elapsed_seconds": 191.61754783289507, "rotation": 3, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3667, "training_nominal_n": 1883, "training_retained_n": 1187, "training_pairs": 25105, "query_n": 1021, "reference_n": 763, "prediction_rows": 18306, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "98061bb83adc0f3bebd8ffd013c6f9fff2b11e1e8e76e367b4190ea0ab4f7306", "features-2024.npz": "71d69070bac8dbe33a7be43007b73cb35a74587abecebcc11046bb244b2bdf66"}}
+{"task_id": "centre-summary", "command": [".venv/bin/python", "code/summarize_matching.py", "--inputs", "analysis/boundaries-corrected/centre", "--out", "analysis/boundaries-corrected/centre-summary"], "start_time_utc": "2026-10-28T05:12:43.832174+00:00"}
+{"source_predictions": "analysis/boundaries-corrected/centre", "queries": 3667, "nonempty_queries": 3637, "empty_queries": 30, "single_all_correct": 204, "single_all_wrong": 26, "unmatchable": 59, "nontrivial_matchable": 3374, "regions": 12, "method_n": 18, "uniform_expected_macro_risk": 0.45073034784939}
+               method  macro_risk_percent  pooled_risk_percent
+          aef_centred               35.46                33.26
+           aef_cosine               38.72                34.20
+          aef_decoder               35.42                31.82
+         aef_whitened               38.53                34.48
+            geography               35.73                39.58
+    hydro_aef_decoder               40.75                35.64
+        hydro_decoder               39.71                37.80
+      hydro_euclidean               42.37                41.80
+           hydro_pair               36.98                34.15
+hydro_tessera_decoder               37.52                32.37
+         label_oracle                0.00                 0.00
+             pair_aef               32.59                32.71
+            pair_both               33.18                32.76
+         pair_tessera               32.97                32.37
+      tessera_centred               34.88                34.53
+       tessera_cosine               36.27                34.87
+      tessera_decoder               41.66                37.08
+     tessera_whitened               35.24                34.15

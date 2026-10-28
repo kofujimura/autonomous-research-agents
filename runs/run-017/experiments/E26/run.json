@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E26",
+  "started_at_utc": "2026-10-27T07:57:27.511919Z",
+  "command": [
+    ".venv/bin/python",
+    "code/check_pipeline.py",
+    "--out",
+    "experiments/E26/synthetic-fixture"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6.md",
+  "plan_commit_id": "880c8e3e599e2c3a6a29ca793c9d13de439f99b8",
+  "code_commit_id": "880c8e3e599e2c3a6a29ca793c9d13de439f99b8",
+  "input_sha256": {
+    "protocol/analysis-settings-v1.json": "62922d355a104c2ad51b2b24678b3e1e92690df3ebb7dfc51e67dbda1e7c1621"
+  },
+  "start_event_id": "E0162",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 55363,
+  "ended_at_utc": "2026-10-27T07:57:37.278224Z",
+  "elapsed_seconds": 9.766347917029634,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0163"
+}

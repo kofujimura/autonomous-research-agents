@@ -1,0 +1,6 @@
+{"region_id": "R01", "centre": [-99.5, 47.5], "epsg": 32614, "bounds": [454340, 5252850, 470340, 5268850], "raw_unique": 631, "eligible": 495, "selected": 495, "created_at_utc": "2026-10-27T15:29:08.000901+00:00"}
+{"region_id": "R02", "centre": [-95.2, 47.1], "epsg": 32615, "bounds": [325060, 5210630, 341060, 5226630], "raw_unique": 2800, "eligible": 890, "selected": 890, "created_at_utc": "2026-10-27T15:31:32.524613+00:00"}
+{"region": "R03", "error": "Public NWI query failed: R03-wetlands-1", "observed_at_utc": "2026-10-27T15:35:39.273920+00:00"}
+{"region_id": "R04", "centre": [-81.55, 28.15], "epsg": 32617, "bounds": [438000, 3105940, 454000, 3121940], "raw_unique": 654, "eligible": 552, "selected": 552, "created_at_utc": "2026-10-27T15:35:53.176734+00:00"}
+{"region_id": "R05", "centre": [-77.35, 35.7], "epsg": 32618, "bounds": [279380, 3945220, 295380, 3961220], "raw_unique": 159, "eligible": 135, "selected": 135, "created_at_utc": "2026-10-27T15:36:02.890987+00:00"}
+{"region_id": "R06", "centre": [-91.35, 30.2], "epsg": 32615, "bounds": [650830, 3334100, 666830, 3350100], "raw_unique": 278, "eligible": 212, "selected": 212, "created_at_utc": "2026-10-27T15:36:19.517295+00:00"}

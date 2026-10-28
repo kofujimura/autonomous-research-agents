@@ -1,0 +1,7 @@
+# Technical amendment v9: enforce library request concurrency
+
+Fixed 2026-10-25T12:25:54Z, before empirical score inspection. Code inspection found that GeoTessera0.11.0 store.py defines POINT_CONCURRENCY=32 and locally overrides the outer zarr async.concurrency=2 during read_patch. Thus the v1 intended two-request bound was not enforced for TESSERA. Actual simultaneous request counts were not instrumented and are unknown;32 is the configured internal ceiling, not an observed request count. AlphaEarth does not use this override.
+
+For subsequent TESSERA jobs set geotessera.store.POINT_CONCURRENCY=2 before constructing the reader; preserve the library, source, raw values, point order and retry rules. The already-running fetch-tessera-031-032 retains its process configuration and is allowed to end under its existing1800second timeout. No additional experiment process is started for timing. Reduce future source-batch groups to one64-task batch, and resume a timed-out batch by skipping saved files, without replacing points. If64 tasks still cannot finish, the fixed timeout preserves partial output; continue remaining tasks in another bounded job. The17:00UTC retrieval stop remains. No score, metric, label or sample selection changes.
+
+This corrects an implementation departure from the planned retrieval bound; it cannot retroactively establish past HTTP concurrency or exact lower-level retry counts. Patch-level attempts are logged; library internal requests/retries are not enumerated.

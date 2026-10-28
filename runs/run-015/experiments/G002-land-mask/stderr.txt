@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/land_mask.py", line 83, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/land_mask.py", line 48, in main
+    record['observed_at_utc']=now();append(str((out/'transfers.jsonl').relative_to(ROOT)),record)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py", line 385, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: 'data/cities/land-mask/transfers.jsonl' is not in the subpath of '/Users/fujimura/Research/ai-free-research-en/run-015'

@@ -1,0 +1,23 @@
+{
+  "experiment_id": "E11-extension-validation",
+  "start_time_utc": "2026-10-26T19:02:59.907827Z",
+  "end_time_utc": "2026-10-26T19:03:00.935616Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/validate_extensions.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6a-jackknife-fpc.md",
+  "plan_commit_id": "31732e99464682c01915d5244745fd1809599fe2",
+  "plan_sha256": "2f18d9c83bdc5f2ced8686d8e2eb83c3fe1eb6febc51dcaf0b043c4332929a98",
+  "code_commit_id": "31732e99464682c01915d5244745fd1809599fe2",
+  "inputs": [],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E11-extension-validation/stdout.txt",
+  "stderr_path": "experiments/E11-extension-validation/stderr.txt",
+  "start_event_id": "E0176",
+  "pid": 804,
+  "elapsed_seconds": 1.0276999578345567,
+  "end_event_id": "E0177"
+}

@@ -1,0 +1,70 @@
+{
+  "observed_at_utc": "2026-10-25T19:01:19Z",
+  "scope": "Descriptive support counts added during self-check; no bootstrap draw, interval, metric or exclusion changed",
+  "input_sha256": {
+    "analysis/main-v1/predictions.parquet": "9f6273c2cd8e39405dc0caf5477684ab5e860ece9d96576963c1f7c73ad55417",
+    "analysis/nlcd-v4/predictions.parquet": "9d01543836e7f2314a62afcaf16fbf2f40997d4d06830b616513c195e098709d"
+  },
+  "rows": [
+    {
+      "analysis": "main-v1",
+      "population": "paired",
+      "task": "gain",
+      "pairs": 109,
+      "positive_pairs": 24,
+      "cells": 37,
+      "positive_cells": 13,
+      "negative_cells": 33
+    },
+    {
+      "analysis": "main-v1",
+      "population": "paired",
+      "task": "loss",
+      "pairs": 337,
+      "positive_pairs": 124,
+      "cells": 38,
+      "positive_cells": 29,
+      "negative_cells": 34
+    },
+    {
+      "analysis": "nlcd-v4",
+      "population": "nlcd_beyond_2021_primary",
+      "task": "gain",
+      "pairs": 122,
+      "positive_pairs": 7,
+      "cells": 31,
+      "positive_cells": 4,
+      "negative_cells": 31
+    },
+    {
+      "analysis": "nlcd-v4",
+      "population": "nlcd_beyond_2021_primary",
+      "task": "loss",
+      "pairs": 126,
+      "positive_pairs": 26,
+      "cells": 32,
+      "positive_cells": 10,
+      "negative_cells": 31
+    },
+    {
+      "analysis": "nlcd-v4",
+      "population": "nlcd_overlapping_2019_2021_primary",
+      "task": "gain",
+      "pairs": 145,
+      "positive_pairs": 24,
+      "cells": 38,
+      "positive_cells": 11,
+      "negative_cells": 34
+    },
+    {
+      "analysis": "nlcd-v4",
+      "population": "nlcd_overlapping_2019_2021_primary",
+      "task": "loss",
+      "pairs": 129,
+      "positive_pairs": 29,
+      "cells": 31,
+      "positive_cells": 15,
+      "negative_cells": 28
+    }
+  ]
+}

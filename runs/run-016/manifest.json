@@ -1,0 +1,184 @@
+{
+  "trial_id": "free-research-016",
+  "research_directory": "/Users/fujimura/Research/ai-free-research-en/run-016",
+  "start_time_utc": "2026-10-26T14:35:09Z",
+  "start_timezone": "UTC",
+  "local_timezone": "Asia/Tokyo",
+  "first_draft_deadline_utc": "2026-10-27T04:31:56.086862Z",
+  "review_response_deadline_utc": "2026-10-27T04:50:07Z",
+  "deadline_adjustments": [
+    {
+      "period": "research",
+      "reason": "confirmed_AI_usage_limit_stop",
+      "interval_start_utc": "2026-10-26T20:49:18Z",
+      "interval_end_utc": "2026-10-26T21:12:10Z",
+      "excluded_seconds": 1372,
+      "original_deadline_utc": "2026-10-27T02:35:09Z",
+      "extended_deadline_utc": "2026-10-27T02:58:01Z",
+      "confirmation_source": "User resume message: Resuming after a stop caused by the AI usage limit.",
+      "runtime_error_directly_observable": false,
+      "experiments_continued": [
+        {
+          "experiment_id": "E10-census-L145_065",
+          "start_time_utc": "2026-10-26T20:37:56.784792Z",
+          "end_time_utc": "2026-10-26T20:54:35.610415Z",
+          "status": "completed",
+          "continued_during_stop": true
+        }
+      ]
+    },
+    {
+      "period": "research",
+      "reason": "confirmed_AI_usage_limit_stop",
+      "interval_start_utc": "2026-10-26T23:33:29.913138Z",
+      "interval_end_utc": "2026-10-26T23:36:53Z",
+      "excluded_seconds": 203.086862,
+      "original_deadline_utc": "2026-10-27T02:58:01Z",
+      "extended_deadline_utc": "2026-10-27T03:01:24.086862Z",
+      "confirmation_source": "User resume message: Resuming after a stop caused by the AI usage limit.",
+      "runtime_error_directly_observable": false,
+      "interval_start_source": "Latest recoverable prior tool-recorded timestamp, E0416 experiment completion. The subsequent standalone clock result is unavailable in compacted context. The recovered interval may overstate the pause by unobserved tool-processing seconds; exact duration is not claimed.",
+      "experiments_continued": []
+    },
+    {
+      "period": "research",
+      "reason": "confirmed_AI_usage_limit_stop",
+      "interval_start_utc": "2026-10-27T00:43:01Z",
+      "interval_end_utc": "2026-10-27T02:13:33Z",
+      "excluded_seconds": 5432.0,
+      "original_deadline_utc": "2026-10-27T03:01:24.086862Z",
+      "extended_deadline_utc": "2026-10-27T04:31:56.086862Z",
+      "confirmation_source": "User resume message: Resuming after a stop caused by the AI usage limit.",
+      "runtime_error_directly_observable": false,
+      "interval_start_source": "Last clock.curr_time response immediately before the confirmed stop, visible in current conversation history",
+      "experiments_continued": [
+        {
+          "experiment_id": "E55-final-full-verification",
+          "start_time_utc": "2026-10-27T00:37:33.365080Z",
+          "end_time_utc": "2026-10-27T00:50:29.438621Z",
+          "status": "completed",
+          "continued_during_stop": true
+        }
+      ]
+    }
+  ],
+  "session_id": null,
+  "continuation_session_ids": [],
+  "resource_limits": {
+    "research_hours": 12,
+    "review_response_hours": 2,
+    "storage_bytes": 10737418240,
+    "concurrent_experiment_processes": 2,
+    "experiment_timeout_seconds": 1800,
+    "api_budget_usd": 20
+  },
+  "session_model": {
+    "conversation_presented": "GPT-6 (Codex)",
+    "runtime_confirmed": null,
+    "provider": "OpenAI (conversation configuration)",
+    "reasoning_effort": null,
+    "other_settings": null
+  },
+  "execution_environment": {
+    "name": "Codex via API",
+    "version": null,
+    "os": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "git": "2.50.1 (Apple Git-155)"
+  },
+  "tools": [
+    "exec_command",
+    "apply_patch",
+    "web.run",
+    "clock.curr_time",
+    "view_image"
+  ],
+  "skills": [
+    {
+      "name": "research-question",
+      "source": "../skills/research-question/SKILL.md",
+      "copied": "input_skills/research-question/SKILL.md",
+      "influence": "required full topic selection procedure"
+    },
+    {
+      "name": "openai-docs",
+      "source": "/Users/fujimura/.codex-research/skills/.system/openai-docs/SKILL.md",
+      "influence": "official documentation for mandatory critic API only"
+    }
+  ],
+  "project_rules": {
+    "source": "user initial instructions v1.10.2",
+    "additional_rules_checked": false
+  },
+  "persistent_memory_or_profile": {
+    "existence": "unknown; no personal profile used; no histories searched"
+  },
+  "api": {
+    "budget_usd": 20,
+    "provider": "OpenAI",
+    "key_environment_variable": "FREE_RESEARCH_OPENAI_API_KEY",
+    "key_is_set": true,
+    "actual_cost_usd": 1.9439099999999998,
+    "price_source": {
+      "input_per_million": 10.0,
+      "cached_input_per_million": 1.0,
+      "output_per_million": 50.0,
+      "web_search_call": 0.01,
+      "long_input_per_million": 20.0,
+      "long_cached_input_per_million": 2.0,
+      "long_output_per_million": 75.0,
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked_date": "2026-10-26",
+      "saved_path": "sources/openai-pricing.md"
+    },
+    "cost_incomplete": false
+  },
+  "unknowns": [
+    "session identifier",
+    "exact session model identifier and reasoning effort",
+    "runtime version",
+    "session tool usage and billing beyond API",
+    "persistent memory existence"
+  ],
+  "provenance": {
+    "start_time": "first exec_command date -u tool result",
+    "limits": "user initial instructions",
+    "environment": "uname, python --version, git --version, Python platform",
+    "model": "developer conversation description, not independently runtime-confirmed",
+    "key_presence": "boolean os.environ lookup, no value printed"
+  },
+  "missing_records": [],
+  "input_prompt_provenance": "Full visible user message transcribed into input_prompt.md; no attachment export interface available.",
+  "environment_notes": [
+    "Dedicated .venv and package cache inside research directory; no global installs.",
+    "No subagents or other AI CLIs called. The sole external model use is the mandatory planned topic critique.",
+    "Ordinary web-tool billing beyond existing session allowance is not visible; no new billing route configured.",
+    "No personal user files outside research directory read, except the required research-question skill and applicable installed OpenAI Docs skill."
+  ],
+  "topic": {
+    "candidate": "Q04",
+    "selection_event": "E0031",
+    "state": "Final reviewed study complete; full offline self-rerun passed. Local final tag and terminal receipt establish sealing."
+  },
+  "incidental_personal_information": "Public scholarly PDFs/metadata contain authors professional contact details incidentally; retained only within cited source documents, not extracted for analysis or used for contact. No farmer, household or participant identities collected.",
+  "last_resource_checkpoint": {
+    "observed_at_utc": "2026-10-27T02:19:04.374583Z",
+    "storage_unique_inode_bytes": 10284112915,
+    "storage_logical_path_bytes": 19321101358
+  },
+  "review_response_start_utc": "2026-10-27T02:50:07Z",
+  "review": {
+    "review_id": "review-016-1",
+    "received_at_utc": "2026-10-27T02:50:07Z",
+    "reviewer_model_reported_runtime_prompt": "claude-opus-5-5",
+    "reviewer_model_reported_conversation": "Opus 5.5; human-specified xhigh",
+    "reviewer_environment_reported": "Claude Code CLI 2.1.311; CLAUDE_EFFORT=xhigh; no model identifier confirmed from execution environment",
+    "directly_observed_by_research_session": false,
+    "target_commit": "faf7dce40c1a27313b4ae7fb51554fa5d061393b",
+    "response_summary_path": "review/response-summary.json",
+    "final_verification_path": "review/verification-final.json",
+    "response_usage_limit_excluded_seconds": 0
+  },
+  "review_response_scientific_work_completed_at_utc": "2026-10-27T03:57:47.994580Z"
+}

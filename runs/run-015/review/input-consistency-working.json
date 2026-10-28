@@ -1,0 +1,1325 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-10-26T06:48:39Z",
+  "forecast_folders_checked": 164,
+  "member_vectors_checked": 8191,
+  "complete_forecast_units": 163,
+  "legacy_member_records_without_design_fields": 2260,
+  "legacy_scope": "Earlier records lack optional design fields; complete combined points and fixed-design geometry are checked directly. No metadata is retrospectively filled.",
+  "units": [
+    {
+      "phase": "weather",
+      "date": "20260603",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260603",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260603",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260603",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260607",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260607",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260607",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260607",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260611",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260611",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260611",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260611",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260615",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260615",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260615",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260615",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260619",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260619",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260619",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260619",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260623",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260623",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260623",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260623",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260627",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260627",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260627",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260627",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260705",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260705",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260705",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260705",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260709",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260709",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 41,
+      "complete": false
+    },
+    {
+      "phase": "weather",
+      "date": "20260709",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260709",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260713",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260713",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260713",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260713",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260717",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260717",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260717",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260717",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260721",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260721",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260721",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260721",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260725",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260725",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260725",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260725",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260729",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260729",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260729",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260729",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260802",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260802",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260802",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260802",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260806",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260806",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260806",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260806",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260810",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260810",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260810",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260810",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260814",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260814",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260814",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260814",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260818",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260818",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260818",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260818",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260822",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260822",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260822",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260822",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260826",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260826",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260826",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260826",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260830",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260830",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260830",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260830",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260903",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260903",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260903",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260903",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260907",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260907",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260907",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260907",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260911",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260911",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260911",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260911",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260915",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260915",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260915",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260915",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260919",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260919",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260919",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260919",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260923",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260923",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260923",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260923",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260927",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260927",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260927",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather",
+      "date": "20260927",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "aifs-ens",
+      "lead": 168,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "aifs-ens",
+      "lead": 174,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "aifs-ens",
+      "lead": 186,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "aifs-ens",
+      "lead": 72,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "aifs-ens",
+      "lead": 78,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "aifs-ens",
+      "lead": 90,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "ifs",
+      "lead": 168,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "ifs",
+      "lead": 174,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "ifs",
+      "lead": 186,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "ifs",
+      "lead": 72,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "ifs",
+      "lead": 78,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260603",
+      "model": "ifs",
+      "lead": 90,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "aifs-ens",
+      "lead": 168,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "aifs-ens",
+      "lead": 174,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "aifs-ens",
+      "lead": 186,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "aifs-ens",
+      "lead": 72,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "aifs-ens",
+      "lead": 78,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "aifs-ens",
+      "lead": 90,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "ifs",
+      "lead": 168,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "ifs",
+      "lead": 174,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "ifs",
+      "lead": 186,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "ifs",
+      "lead": 72,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "ifs",
+      "lead": 78,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260709",
+      "model": "ifs",
+      "lead": 90,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "aifs-ens",
+      "lead": 168,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "aifs-ens",
+      "lead": 174,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "aifs-ens",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "aifs-ens",
+      "lead": 186,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "aifs-ens",
+      "lead": 72,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "aifs-ens",
+      "lead": 78,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "aifs-ens",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "aifs-ens",
+      "lead": 90,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "ifs",
+      "lead": 168,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "ifs",
+      "lead": 174,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "ifs",
+      "lead": 180,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "ifs",
+      "lead": 186,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "ifs",
+      "lead": 72,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "ifs",
+      "lead": 78,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "ifs",
+      "lead": 84,
+      "members": 50,
+      "complete": true
+    },
+    {
+      "phase": "weather-v4",
+      "date": "20260927",
+      "model": "ifs",
+      "lead": 90,
+      "members": 50,
+      "complete": true
+    }
+  ],
+  "network_calls": 0,
+  "ai_api_calls": 0
+}

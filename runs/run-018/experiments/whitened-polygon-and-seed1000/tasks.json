@@ -1,0 +1,78 @@
+[
+  {
+    "task_id": "polygonC-rf-all",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "metric",
+      "--inputs",
+      "analysis/polygon-features-v3/C",
+      "--primary",
+      "analysis/polygon/C-rf",
+      "--output",
+      "analysis/metric-whitened/polygonC-rf-all",
+      "--extra",
+      "--baselines",
+      "analysis/metric-whitened/polygonC-raw-rf-all",
+      "--metric-learner",
+      "forest",
+      "--distance-transform",
+      "whitened",
+      "--forest-all-features"
+    ],
+    "start_time_utc": "2026-10-27T22:51:05.113889+00:00",
+    "end_time_utc": "2026-10-27T23:01:00.501296+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "polygonC-rf-all-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/metric-whitened/polygonC-rf-all",
+      "--out",
+      "analysis/metric-whitened/polygonC-rf-all-summary"
+    ],
+    "start_time_utc": "2026-10-27T23:01:00.501860+00:00",
+    "end_time_utc": "2026-10-27T23:01:01.506305+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "all-features-seed-1000",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "seed",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "1000",
+      "--output",
+      "analysis/controls/all-corrected-seed-1000",
+      "--extra",
+      "--forest-all-features"
+    ],
+    "start_time_utc": "2026-10-27T23:01:01.506703+00:00",
+    "end_time_utc": "2026-10-27T23:14:34.049992+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/all-corrected-seed-1000",
+      "--out",
+      "analysis/controls/all-corrected-seed-1000-summary"
+    ],
+    "start_time_utc": "2026-10-27T23:14:34.050451+00:00",
+    "end_time_utc": "2026-10-27T23:14:36.802383+00:00",
+    "exit_code": 0
+  }
+]

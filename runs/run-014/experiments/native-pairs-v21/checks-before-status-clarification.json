@@ -1,0 +1,10 @@
+{
+  "exploratory": true,
+  "planned_pairs": 16,
+  "planned_point_years": 32,
+  "present_point_years": 1,
+  "unselected_invariance_rows": 10320,
+  "unselected_scores_flags_unchanged": true,
+  "earlier_thresholds_unchanged": true,
+  "interpretation": "Small stratified target-input substitution only; fitting, references, controls and calibration remain mosaic. Not population native-grid performance."
+}

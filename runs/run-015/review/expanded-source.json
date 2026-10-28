@@ -1,0 +1,7 @@
+{
+  "created_at_utc": "2026-10-26T08:58:04Z",
+  "source_commit_id": "9b1ea574549fec35fb66a760d755295bd700bccf",
+  "source_path": "verification_work/expanded-source",
+  "scope": "Intermediate expanded verification of completed R100, fixed-size precision and paired-land correction. City data snapshot is earlier than current collection; not final-state submission verification.",
+  "root_wrapper_code_commit_id": "44f18c3595a9b72d33dde2bd6e0856e7b24d66ba"
+}

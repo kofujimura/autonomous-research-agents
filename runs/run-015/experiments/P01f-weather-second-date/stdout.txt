@@ -1,0 +1,17 @@
+{"member": 1, "offset": 1264056150, "attempt": 1, "bytes_retained": 0, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:33:48Z"}
+{"member": 1, "offset": 1264056150, "attempt": 2, "bytes_retained": 0, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:33:51Z"}
+{"member": 1, "offset": 1264121686, "attempt": 1, "bytes_retained": 0, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:33:56Z"}
+{"member": 1, "offset": 1264252758, "attempt": 1, "bytes_retained": 0, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:34:00Z"}
+{"member": 1, "observed_at_utc": "2026-10-25T22:34:06Z"}
+{"member": 2, "offset": 1392421700, "attempt": 1, "bytes_retained": 0, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:34:07Z"}
+{"member": 2, "observed_at_utc": "2026-10-25T22:34:14Z"}
+{"member": 3, "offset": 3286896706, "attempt": 1, "bytes_retained": 0, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:34:16Z"}
+{"member": 3, "observed_at_utc": "2026-10-25T22:34:21Z"}
+{"member": 4, "observed_at_utc": "2026-10-25T22:34:25Z"}
+{"member": 5, "observed_at_utc": "2026-10-25T22:34:29Z"}
+{"member": 6, "observed_at_utc": "2026-10-25T22:34:33Z"}
+{"member": 7, "observed_at_utc": "2026-10-25T22:34:37Z"}
+{"member": 8, "observed_at_utc": "2026-10-25T22:34:41Z"}
+{"member": 9, "observed_at_utc": "2026-10-25T22:34:45Z"}
+{"member": 10, "observed_at_utc": "2026-10-25T22:34:49Z"}
+{"observed_at_utc": "2026-10-25T22:34:49Z", "shape": [10, 8, 12], "finite_values": 960, "min_kelvin": 272.64479064941406, "max_kelvin": 311.3243713378906, "units": "K", "threshold_checks": {"25": {"uncertain_sites": 19, "sites_with_any_member_exceedance": 52}, "30": {"uncertain_sites": 30, "sites_with_any_member_exceedance": 30}, "35": {"uncertain_sites": 8, "sites_with_any_member_exceedance": 8}}}

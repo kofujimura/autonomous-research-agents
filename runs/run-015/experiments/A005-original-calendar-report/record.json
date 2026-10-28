@@ -1,0 +1,28 @@
+{
+  "experiment_id": "A005-original-calendar-report",
+  "started_at_utc": "2026-10-26T04:45:37Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/report_bundle.py",
+    "--output",
+    "results"
+  ],
+  "timeout_seconds": 300,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "f3e88ecc7fe6676a7dfce69662ee9829c65301db",
+  "code_commit_id": "0e73c394b738e1dee2be0d827f91c57d5039f22b",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/plan-v3.1-subset-clarification.md": "fe032492db430b4b2f5bf3c0f3b07eeafb75bddc0181d8bde89f750d8205a6a1",
+    "protocol/plan-v4.2-land-diagnostic.md": "5bc48462a07270a0bcdb8faa54d853727171b251e93e0441713d3484b9f70882",
+    "protocol/plan-v5-coverage-robustness.md": "227f51e6a68aa97aee751c4cb40af3dd53d116d146c76c08f5d35261264bc879",
+    "protocol/plan-v7-midpoint-controls.md": "23d87d2b55f74e6a3ecef3e74371ca84ed091085c3067495b477ee5660c34046"
+  },
+  "status": "completed",
+  "start_event_id": "E0313",
+  "child_pid": 59096,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T04:46:06Z",
+  "elapsed_seconds": 29.4676027498208,
+  "end_event_id": "E0314"
+}

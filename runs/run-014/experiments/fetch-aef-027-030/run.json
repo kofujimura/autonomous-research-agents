@@ -1,0 +1,29 @@
+{
+  "experiment_id": "fetch-aef-027-030",
+  "start_at_utc": "2026-10-25T10:55:30Z",
+  "end_at_utc": "2026-10-25T11:02:47Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/retrieve.py",
+    "aef",
+    "27",
+    "--batch-count",
+    "4"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/plan-v3.md",
+  "plan_commit_id": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+  "additional_plan_commits": {},
+  "code_commit_id": "6a9052cf200701bbcf8b74d46a0c6327d70259c5",
+  "input_sha256": {
+    "data/prepared/tasks.csv": "362a945a7faf7bb388a08ee1e8f21c6c6f09968f4830a3ce36c33f54ed63a948"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0161",
+  "pid": 17292,
+  "elapsed_seconds": 436.9582713341806,
+  "end_event_id": "E0166"
+}

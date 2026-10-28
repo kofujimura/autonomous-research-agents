@@ -1,0 +1,23 @@
+[
+  {
+    "task_id": "tessera-2021-b",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_batch.py",
+      "tessera",
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "--year",
+      "2021",
+      "--output",
+      "experiments/tessera-2021-b/region-results.json"
+    ],
+    "start_time_utc": "2026-10-28T02:44:50.101708+00:00",
+    "end_time_utc": "2026-10-28T02:46:09.934956+00:00",
+    "exit_code": 0
+  }
+]

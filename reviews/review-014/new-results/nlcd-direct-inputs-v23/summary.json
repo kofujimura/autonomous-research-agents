@@ -1,0 +1,14 @@
+{
+  "exploratory": true,
+  "dataset": "nlcd",
+  "input_methods": [
+    "direct_before",
+    "direct_after",
+    "direct_difference",
+    "direct_gradient_boosting"
+  ],
+  "both_reconstruction_rows": 1044,
+  "original_both_scores_flags_thresholds_match": true,
+  "forest_outcomes_already_inspected_before_plan": true,
+  "interpretation": "Same direct learner/transition target, different inputs/dimensions; retrospective and not equal model capacity or physical observation causality."
+}

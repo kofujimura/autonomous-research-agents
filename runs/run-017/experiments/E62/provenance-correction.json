@@ -1,0 +1,7 @@
+{
+  "recorded_at_utc": "2026-10-27T10:34:06.511686Z",
+  "recorded_code_commit": "35602b8c22a973c421ce9de6db70d808d99d66ad",
+  "correction": "E62 started while the pending commit command had yielded; the executed check file was an uncommitted addition at start. It matches the later25af9f2 snapshot, not the oldHEAD. This later commit is not claimed to precede execution. The file had a syntax error; no scientific analysis ran.",
+  "matching_later_commit": "25af9f27297c2e506d22f745625c4c1b6388e331",
+  "code_sha256": "ed4ac4bb8f888fdc6ffc7bbdc100cedcc7a4a2132c1254436cd2ef3a3ded78ea"
+}

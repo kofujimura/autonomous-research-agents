@@ -1,0 +1,31 @@
+{
+  "experiment_id": "E03-labels-04",
+  "start_time_utc": "2026-10-26T16:18:28.034744Z",
+  "end_time_utc": "2026-10-26T16:36:23.047408Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/swiss_labels.py",
+    "--batch",
+    "12",
+    "--retry-failed"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "666265f3204eedd91eb8f36ef521b0ac527a1d44",
+  "plan_sha256": "ebe46e22b043010d9683376e5d76768edcaefe52760cdde4354e8a751cc29eb5",
+  "code_commit_id": "666265f3204eedd91eb8f36ef521b0ac527a1d44",
+  "inputs": [
+    {
+      "path": "data/catalogue-manifest.json",
+      "sha256": "422eda275322c49c14616d346c0bf917c62d8f742d6a4b3001623aab101e2f93"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E03-labels-04/stdout.txt",
+  "stderr_path": "experiments/E03-labels-04/stderr.txt",
+  "start_event_id": "E0073",
+  "pid": 92789,
+  "elapsed_seconds": 1075.0278850409668,
+  "end_event_id": "E0079"
+}

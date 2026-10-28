@@ -1,0 +1,13 @@
+    cohort           frame taxonomy  units  negative_covariance  aggregate_influence_variance_ratio  empirical_entropy_mse_ratio
+  original  full_reference    broad     90                    0                            0.272746                     0.271434
+  original  full_reference     fine     90                    0                            0.285808                     0.268851
+  original original_points    broad     90                    0                            0.274282                     0.276444
+  original original_points     fine     90                    0                            0.285982                     0.284318
+  original   stable_arable    broad     75                   14                            0.757848                     0.751503
+  original   stable_arable     fine     75                    0                            0.676256                     0.669699
+additional  full_reference    broad     24                    0                            0.384765                     0.395495
+additional  full_reference     fine     24                    0                            0.415050                     0.408448
+additional original_points    broad     24                    0                            0.386305                     0.394812
+additional original_points     fine     24                    0                            0.419254                     0.413127
+additional   stable_arable    broad     18                   12                            1.077016                     1.074014
+additional   stable_arable     fine     18                    4                            0.910125                     0.940626

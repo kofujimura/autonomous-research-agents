@@ -1,0 +1,79 @@
+[
+  {
+    "task_id": "noise-1",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--permutation",
+      "1",
+      "--output",
+      "analysis/controls/noise-1"
+    ]
+  },
+  {
+    "task_id": "noise-2",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--permutation",
+      "2",
+      "--output",
+      "analysis/controls/noise-2"
+    ]
+  },
+  {
+    "task_id": "noise-all-0",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--permutation",
+      "0",
+      "--output",
+      "analysis/controls/noise-all-0",
+      "--extra",
+      "--forest-all-features",
+      "--baselines",
+      "analysis/controls/full-features"
+    ]
+  },
+  {
+    "task_id": "noise-all-1",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--permutation",
+      "1",
+      "--output",
+      "analysis/controls/noise-all-1",
+      "--extra",
+      "--forest-all-features",
+      "--baselines",
+      "analysis/controls/full-features"
+    ]
+  },
+  {
+    "task_id": "noise-all-2",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--permutation",
+      "2",
+      "--output",
+      "analysis/controls/noise-all-2",
+      "--extra",
+      "--forest-all-features",
+      "--baselines",
+      "analysis/controls/full-features"
+    ]
+  }
+]

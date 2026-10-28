@@ -1,0 +1,32 @@
+{
+  "experiment_id": "E16-native-grid-inference",
+  "start_time_utc": "2026-10-26T21:22:55.577669Z",
+  "end_time_utc": "2026-10-26T21:23:18.430285Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/census_pipeline.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v3-census-check.md",
+  "plan_commit_id": "62c2b0c3e9467f140d4d2bffb69e1a6fd62466a1",
+  "plan_sha256": "5cf9ca5e9ca6bddac78eec1d9fb0876a417094ac9f5a8cabec7b8460ef49c409",
+  "code_commit_id": "62c2b0c3e9467f140d4d2bffb69e1a6fd62466a1",
+  "inputs": [
+    {
+      "path": "data/population-main-v1.json",
+      "sha256": "f2a5a27f70792807a8f29d289a559641c9b30a64636e9ddfe59eb63c1d91cb07"
+    },
+    {
+      "path": "data/census-cases.json",
+      "sha256": "fabf6eb856dcf82fbc74b498856e22cc331e363df8a837a276aedc0e8888a72f"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E16-native-grid-inference/stdout.txt",
+  "stderr_path": "experiments/E16-native-grid-inference/stderr.txt",
+  "start_event_id": "E0260",
+  "pid": 6524,
+  "elapsed_seconds": 22.852607249980792,
+  "end_event_id": "E0262"
+}

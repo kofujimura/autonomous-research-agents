@@ -1,0 +1,9 @@
+{
+  "generated_at_utc": "2026-10-27T09:05:27.047026Z",
+  "cores": 64,
+  "eligible_small_patches": 978,
+  "source_polygons_appearing_in_train_and_test_buffers": 0,
+  "source_polygons_appearing_in_multiple_roles": 0,
+  "explanation": "Buffer-source overlap is not pixel overlap; complete test objects are checked separately below.",
+  "eligible_test_patches_sharing_any_training_buffer_source": 0
+}

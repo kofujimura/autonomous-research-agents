@@ -1,0 +1,31 @@
+{
+  "experiment_id": "native-check-081-088",
+  "start_at_utc": "2026-10-25T15:42:28Z",
+  "end_at_utc": "2026-10-25T15:50:00Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/native_check.py",
+    "retrieve",
+    "--start",
+    "81",
+    "--count",
+    "8"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/plan-v5.md",
+  "plan_commit_id": "f473329cd07acdf0a7dca8564845c1f322613fe4",
+  "additional_plan_commits": {},
+  "code_commit_id": "9677296ff981e4a57e59879925794fd655f03aa4",
+  "input_sha256": {
+    "data/native-check/tasks.csv": "9ce49d4c7f9c7afc03b2162706917a6acafb67cda1c42639a4ca8e5732331dc0",
+    "data/aef-native-index.parquet": "5d216665ff2e4b8871157d217230cc42d542f1ac9a4b224c16d5c1dbff9cb947"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0467",
+  "pid": 27764,
+  "elapsed_seconds": 452.3300026250072,
+  "end_event_id": "E0470"
+}

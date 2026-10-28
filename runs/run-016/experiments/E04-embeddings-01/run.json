@@ -1,0 +1,34 @@
+{
+  "experiment_id": "E04-embeddings-01",
+  "start_time_utc": "2026-10-26T16:25:45.185203Z",
+  "end_time_utc": "2026-10-26T16:37:08.245593Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/embeddings.py",
+    "--batch",
+    "1"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "516513716b16fcce81e13baf8c2e62eeaf9cf587",
+  "plan_sha256": "ebe46e22b043010d9683376e5d76768edcaefe52760cdde4354e8a751cc29eb5",
+  "code_commit_id": "516513716b16fcce81e13baf8c2e62eeaf9cf587",
+  "inputs": [
+    {
+      "path": "data/catalogue-manifest.json",
+      "sha256": "422eda275322c49c14616d346c0bf917c62d8f742d6a4b3001623aab101e2f93"
+    },
+    {
+      "path": "data/landscapes/L065_150.npz",
+      "sha256": "4b2cd491a5eec3acb3809bd94e050862003c041654ca94c515432e552606e058"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E04-embeddings-01/stdout.txt",
+  "stderr_path": "experiments/E04-embeddings-01/stderr.txt",
+  "start_event_id": "E0077",
+  "pid": 93146,
+  "elapsed_seconds": 683.070030500181,
+  "end_event_id": "E0080"
+}

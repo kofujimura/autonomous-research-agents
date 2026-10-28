@@ -1,0 +1,112 @@
+[
+  {
+    "region": "R02",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:41:51.628168+00:00",
+    "end_time_utc": "2026-10-27T15:42:21.159211+00:00",
+    "elapsed_seconds": 29.53126608300954,
+    "error": null,
+    "input_selected_sha256": "7a5b2872eb6bc03634c09fcb8c771b477c2f426ff4a56608110b32f890409268"
+  },
+  {
+    "region": "R03",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:42:21.164668+00:00",
+    "end_time_utc": "2026-10-27T15:42:45.305928+00:00",
+    "elapsed_seconds": 24.141522666905075,
+    "error": null,
+    "input_selected_sha256": "fd978ed7e0d844d2018666e506d0cad876aba442e26517360d258636aab801c1"
+  },
+  {
+    "region": "R04",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:42:45.318031+00:00",
+    "end_time_utc": "2026-10-27T15:43:05.574041+00:00",
+    "elapsed_seconds": 20.25622379197739,
+    "error": null,
+    "input_selected_sha256": "78c51b16c3f42a57528e7749ae51225c0334d597d1401e2e56dca6e30f3b7dc2"
+  },
+  {
+    "region": "R05",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:43:05.574969+00:00",
+    "end_time_utc": "2026-10-27T15:43:18.600685+00:00",
+    "elapsed_seconds": 13.025862124981359,
+    "error": null,
+    "input_selected_sha256": "5dade49e15c593584dff3f271965308f2da180582572a83e486e8b05b98d6c19"
+  },
+  {
+    "region": "R06",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:43:18.601683+00:00",
+    "end_time_utc": "2026-10-27T15:43:37.186857+00:00",
+    "elapsed_seconds": 18.585364874918014,
+    "error": null,
+    "input_selected_sha256": "12d2ec168094a065358c0425d478a1da1b928888570070b15314928ee3e2bea1"
+  },
+  {
+    "region": "R07",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:43:37.187650+00:00",
+    "end_time_utc": "2026-10-27T15:43:47.577520+00:00",
+    "elapsed_seconds": 10.389983541099355,
+    "error": null,
+    "input_selected_sha256": "e0aa09a15dcc9d063abe5e449b55c97c34d2042044c816b516f91ea30178776c"
+  },
+  {
+    "region": "R08",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:43:47.578214+00:00",
+    "end_time_utc": "2026-10-27T15:44:02.097543+00:00",
+    "elapsed_seconds": 14.519488665973768,
+    "error": null,
+    "input_selected_sha256": "36cc8224fa3cd0bf30124223606e45168775d30d9393799e58a3d1e430aa0d28"
+  },
+  {
+    "region": "R09",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:44:02.098676+00:00",
+    "end_time_utc": "2026-10-27T15:44:16.754288+00:00",
+    "elapsed_seconds": 14.655757624888793,
+    "error": null,
+    "input_selected_sha256": "e69846f093ce76d0023aa43942261f881ceafb60a25712fcf000d44109ffbb33"
+  },
+  {
+    "region": "R10",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:44:16.755376+00:00",
+    "end_time_utc": "2026-10-27T15:44:37.235813+00:00",
+    "elapsed_seconds": 20.480654041981325,
+    "error": null,
+    "input_selected_sha256": "13f615caed14ceafbf1eae3355b72c8919b95036b76a9c4371ea2c368d9adce2"
+  },
+  {
+    "region": "R11",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:44:37.236619+00:00",
+    "end_time_utc": "2026-10-27T15:44:57.937169+00:00",
+    "elapsed_seconds": 20.700770708965138,
+    "error": null,
+    "input_selected_sha256": "7b71a16aa66f150a03f6c2a799a97a444bf388bcf75af110cc4098169857401f"
+  },
+  {
+    "region": "R12",
+    "product": "tessera",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T15:44:57.938134+00:00",
+    "end_time_utc": "2026-10-27T15:45:09.937503+00:00",
+    "elapsed_seconds": 11.999497209209949,
+    "error": null,
+    "input_selected_sha256": "f63674fb2d941e379ef58c28a1fdd2cd402d7ecae8fc2e94c0fe0f1a197dbc87"
+  }
+]

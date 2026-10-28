@@ -1,0 +1,226 @@
+{
+  "created_at_utc": "2026-10-27T15:51:54.492161+00:00",
+  "width_m": 16000,
+  "max_polygons": 1200,
+  "exploratory": true,
+  "regions": [
+    [
+      "S01",
+      -98.08634627265792,
+      45.83238344064153
+    ],
+    [
+      "S02",
+      -88.18819365572135,
+      44.43086748138634
+    ],
+    [
+      "S03",
+      -82.04604217785261,
+      27.899665880207976
+    ],
+    [
+      "S04",
+      -93.68860904733522,
+      30.85237205061254
+    ],
+    [
+      "S05",
+      -90.79504810888368,
+      37.16553550315835
+    ],
+    [
+      "S06",
+      -122.60629944611773,
+      44.60338636037852
+    ]
+  ],
+  "selection_audit": [
+    {
+      "slot": 1,
+      "region": "S01",
+      "anchor": "R01",
+      "distance_m": 214546.29507994195,
+      "selected_project": {
+        "OBJECTID": 29259,
+        "IMAGE_YR": 2020,
+        "IMAGE_DATE": "xx/20",
+        "PROJECT_NAME": "Prairie Pothole Watersheds 2 NRCS",
+        "STATUS": "Digital"
+      },
+      "centre": [
+        -98.08634627265792,
+        45.83238344064153
+      ],
+      "source": {
+        "source_id": "recent-projects-R01",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3/query?f=geojson&where=IMAGE_YR%3E%3D2020&geometry=62343.32604396425%2C4860850.87529444%2C862343.3260439642%2C5660850.87529444&geometryType=esriGeometryEnvelope&inSR=32614&spatialRel=esriSpatialRelIntersects&outSR=4326&outFields=OBJECTID%2CIMAGE_YR%2CIMAGE_DATE%2CPROJECT_NAME%2CSTATUS&returnGeometry=true&resultRecordCount=2000&geometryPrecision=7",
+        "requested_at_utc": "2026-10-27T15:50:33.537085+00:00",
+        "obtained_at_utc": "2026-10-27T15:50:41.186770+00:00",
+        "path": "data/recent-selection/R01-projects.geojson",
+        "exit_code": 0,
+        "error": null,
+        "licence": "NWI unrestricted reuse per saved official metadata",
+        "sha256": "753d25e84e06287d4f0ac1a51d77aaf621102865aebb374c03a1d3c2d6bdc773",
+        "bytes": 1619150,
+        "bundled": true
+      },
+      "criterion": "recency,geometry,distance only; no wetland categories or embedding outcomes"
+    },
+    {
+      "slot": 2,
+      "region": "S02",
+      "anchor": "R03",
+      "distance_m": 147562.0786205728,
+      "selected_project": {
+        "OBJECTID": 29645,
+        "IMAGE_YR": 2020,
+        "IMAGE_DATE": "xx/20",
+        "PROJECT_NAME": "WI One Map",
+        "STATUS": "Digital"
+      },
+      "centre": [
+        -88.18819365572135,
+        44.43086748138634
+      ],
+      "source": {
+        "source_id": "recent-projects-R03",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3/query?f=geojson&where=IMAGE_YR%3E%3D2020&geometry=-102114.27750738396%2C4419377.640810638%2C697885.722492616%2C5219377.640810638&geometryType=esriGeometryEnvelope&inSR=32616&spatialRel=esriSpatialRelIntersects&outSR=4326&outFields=OBJECTID%2CIMAGE_YR%2CIMAGE_DATE%2CPROJECT_NAME%2CSTATUS&returnGeometry=true&resultRecordCount=2000&geometryPrecision=7",
+        "requested_at_utc": "2026-10-27T15:50:42.503971+00:00",
+        "obtained_at_utc": "2026-10-27T15:50:51.681524+00:00",
+        "path": "data/recent-selection/R03-projects.geojson",
+        "exit_code": 0,
+        "error": null,
+        "licence": "NWI unrestricted reuse per saved official metadata",
+        "sha256": "efcc08ca1aa6bf66f932de4f1e77f998f56277a24a0fbfb06f4f53010ca2bc95",
+        "bytes": 2484560,
+        "bundled": true
+      },
+      "criterion": "recency,geometry,distance only; no wetland categories or embedding outcomes"
+    },
+    {
+      "slot": 3,
+      "region": "S03",
+      "anchor": "R04",
+      "distance_m": 56099.151794520265,
+      "selected_project": {
+        "OBJECTID": 29536,
+        "IMAGE_YR": 2021,
+        "IMAGE_DATE": "xx/21",
+        "PROJECT_NAME": "NWI Tampa Bay Fill-In",
+        "STATUS": "Digital"
+      },
+      "centre": [
+        -82.04604217785261,
+        27.899665880207976
+      ],
+      "source": {
+        "source_id": "recent-projects-R04",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3/query?f=geojson&where=IMAGE_YR%3E%3D2020&geometry=45997.216704358114%2C2713941.1063921656%2C845997.2167043581%2C3513941.1063921656&geometryType=esriGeometryEnvelope&inSR=32617&spatialRel=esriSpatialRelIntersects&outSR=4326&outFields=OBJECTID%2CIMAGE_YR%2CIMAGE_DATE%2CPROJECT_NAME%2CSTATUS&returnGeometry=true&resultRecordCount=2000&geometryPrecision=7",
+        "requested_at_utc": "2026-10-27T15:50:52.729908+00:00",
+        "obtained_at_utc": "2026-10-27T15:50:57.291584+00:00",
+        "path": "data/recent-selection/R04-projects.geojson",
+        "exit_code": 0,
+        "error": null,
+        "licence": "NWI unrestricted reuse per saved official metadata",
+        "sha256": "4c150aa86348face055909e73d7edeb7a18ab5c21793d15681300a942c66bf2e",
+        "bytes": 603170,
+        "bundled": true
+      },
+      "criterion": "recency,geometry,distance only; no wetland categories or embedding outcomes"
+    },
+    {
+      "slot": 4,
+      "region": "S04",
+      "anchor": "R06",
+      "distance_m": 235726.44434316526,
+      "selected_project": {
+        "OBJECTID": 29574,
+        "IMAGE_YR": 2023,
+        "IMAGE_DATE": "xx/23",
+        "PROJECT_NAME": "SE Texas GLO Coordination Area",
+        "STATUS": "Digital"
+      },
+      "centre": [
+        -93.68860904733522,
+        30.85237205061254
+      ],
+      "source": {
+        "source_id": "recent-projects-R06",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3/query?f=geojson&where=IMAGE_YR%3E%3D2020&geometry=258829.5331760603%2C2942097.9078010884%2C1058829.5331760603%2C3742097.9078010884&geometryType=esriGeometryEnvelope&inSR=32615&spatialRel=esriSpatialRelIntersects&outSR=4326&outFields=OBJECTID%2CIMAGE_YR%2CIMAGE_DATE%2CPROJECT_NAME%2CSTATUS&returnGeometry=true&resultRecordCount=2000&geometryPrecision=7",
+        "requested_at_utc": "2026-10-27T15:50:57.554860+00:00",
+        "obtained_at_utc": "2026-10-27T15:51:12.119390+00:00",
+        "path": "data/recent-selection/R06-projects.geojson",
+        "exit_code": 0,
+        "error": null,
+        "licence": "NWI unrestricted reuse per saved official metadata",
+        "sha256": "e0ea25defbc29ff51933824b90ae5d50e7048ca81598e76bb64a0d561d99803c",
+        "bytes": 2799575,
+        "bundled": true
+      },
+      "criterion": "recency,geometry,distance only; no wetland categories or embedding outcomes"
+    },
+    {
+      "slot": 5,
+      "region": "S05",
+      "anchor": "R09",
+      "distance_m": 44133.60391750417,
+      "selected_project": {
+        "OBJECTID": 29651,
+        "IMAGE_YR": 2024,
+        "IMAGE_DATE": "xx/24",
+        "PROJECT_NAME": " Black Current Missouri",
+        "STATUS": "Digital"
+      },
+      "centre": [
+        -90.79504810888368,
+        37.16553550315835
+      ],
+      "source": {
+        "source_id": "recent-projects-R09",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3/query?f=geojson&where=IMAGE_YR%3E%3D2020&geometry=339628.7720424606%2C3720474.480742226%2C1139628.7720424607%2C4520474.480742225&geometryType=esriGeometryEnvelope&inSR=32615&spatialRel=esriSpatialRelIntersects&outSR=4326&outFields=OBJECTID%2CIMAGE_YR%2CIMAGE_DATE%2CPROJECT_NAME%2CSTATUS&returnGeometry=true&resultRecordCount=2000&geometryPrecision=7",
+        "requested_at_utc": "2026-10-27T15:51:13.443910+00:00",
+        "obtained_at_utc": "2026-10-27T15:51:38.189629+00:00",
+        "path": "data/recent-selection/R09-projects.geojson",
+        "exit_code": 0,
+        "error": null,
+        "licence": "NWI unrestricted reuse per saved official metadata",
+        "sha256": "056f888577114c2e8334db0f00dbc1ce6ba95c17ddd9e33599721d6e78eae438",
+        "bytes": 3539011,
+        "bundled": true
+      },
+      "criterion": "recency,geometry,distance only; no wetland categories or embedding outcomes"
+    },
+    {
+      "slot": 6,
+      "region": "S06",
+      "anchor": "R12",
+      "distance_m": 31246.214570250766,
+      "selected_project": {
+        "OBJECTID": 29618,
+        "IMAGE_YR": 2021,
+        "IMAGE_DATE": "xx/21",
+        "PROJECT_NAME": "Oregon 4",
+        "STATUS": "Digital"
+      },
+      "centre": [
+        -122.60629944611773,
+        44.60338636037852
+      ],
+      "source": {
+        "source_id": "recent-projects-R12",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3/query?f=geojson&where=IMAGE_YR%3E%3D2020&geometry=100000.0%2C4538517.0330091%2C900000.0%2C5338517.0330091&geometryType=esriGeometryEnvelope&inSR=32610&spatialRel=esriSpatialRelIntersects&outSR=4326&outFields=OBJECTID%2CIMAGE_YR%2CIMAGE_DATE%2CPROJECT_NAME%2CSTATUS&returnGeometry=true&resultRecordCount=2000&geometryPrecision=7",
+        "requested_at_utc": "2026-10-27T15:51:39.844802+00:00",
+        "obtained_at_utc": "2026-10-27T15:51:53.174749+00:00",
+        "path": "data/recent-selection/R12-projects.geojson",
+        "exit_code": 0,
+        "error": null,
+        "licence": "NWI unrestricted reuse per saved official metadata",
+        "sha256": "8a2a51f77bae71138c024083e9c28da0aadf4f11638ddb0e6ad6e25b1d60c49a",
+        "bytes": 2781740,
+        "bundled": true
+      },
+      "criterion": "recency,geometry,distance only; no wetland categories or embedding outcomes"
+    }
+  ]
+}

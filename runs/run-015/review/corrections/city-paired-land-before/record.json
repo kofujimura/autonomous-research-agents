@@ -1,0 +1,9 @@
+{
+  "observed_at_utc": "2026-10-26T08:47:26Z",
+  "cause": "The paired summary loop selected common_informative for every non-all stratum, including all_land_common_informative. Main interval endpoints, ordinary paired comparison, and separately filtered width-summary.csv are unchanged.",
+  "saved": {
+    "results/city-time/paired-width-summary.csv": "475732c66393e978b8fd1afea62323b928581b1745b9a2e92c7a07134d7ceec4",
+    "results/city-time/summary.json": "f3e457cd17c3a9526fb00918bf2a6b129f7af91c2c2cbb5f311810fa0145402b",
+    "scripts/summarize_city_time.py": "b690f69ecfcf0cf208cfd7fc3b0b863896d6ba81fd7364a82ad613da738fc03b"
+  }
+}

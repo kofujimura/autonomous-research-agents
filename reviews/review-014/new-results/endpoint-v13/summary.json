@@ -1,0 +1,10 @@
+{
+  "exploratory": true,
+  "score_invariance": true,
+  "loss_flags_invariant": true,
+  "common_scored_rows": 20400,
+  "excluded_planned_gain_negatives": 53,
+  "excluded_later_gain_negatives": 21,
+  "scalar_pairs": 892,
+  "maximum_scalar_reconstruction_error": 5.551115123125783e-16
+}

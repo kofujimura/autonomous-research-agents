@@ -1,0 +1,8 @@
+{
+  "command": "verification/env/bin/python -I scripts/c10_bootstrap.py verification/source/results/additional-arable-high-replication/unit-performance.csv verification/V10_c10_bootstrap/result.json",
+  "cwd": "/Users/fujimura/Research/ai-free-research-en/review-016",
+  "timeout_s": 600.0,
+  "start_utc": "2026-10-27T02:40:13.116917+00:00",
+  "exit_code": 0,
+  "end_utc": "2026-10-27T02:40:14.694642+00:00"
+}

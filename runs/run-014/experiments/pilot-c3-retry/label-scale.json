@@ -1,0 +1,172 @@
+{
+  "observed_at_utc": "2026-10-25T08:52:36Z",
+  "purpose": "C3 pilot feasibility counts; no embeddings joined to labels or main recovery metric computed",
+  "total_pairs": 2320,
+  "forest_involved_pairs": 803,
+  "forest_counts": [
+    {
+      "year_before": 2017,
+      "label_name_before": "Grass/forb/herb",
+      "label_name_after": "Trees",
+      "n": 3
+    },
+    {
+      "year_before": 2017,
+      "label_name_before": "Shrubs",
+      "label_name_after": "Trees",
+      "n": 3
+    },
+    {
+      "year_before": 2017,
+      "label_name_before": "Trees",
+      "label_name_after": "Barren",
+      "n": 2
+    },
+    {
+      "year_before": 2017,
+      "label_name_before": "Trees",
+      "label_name_after": "Grass/forb/herb",
+      "n": 57
+    },
+    {
+      "year_before": 2017,
+      "label_name_before": "Trees",
+      "label_name_after": "Impervious",
+      "n": 1
+    },
+    {
+      "year_before": 2017,
+      "label_name_before": "Trees",
+      "label_name_after": "Shrubs",
+      "n": 2
+    },
+    {
+      "year_before": 2017,
+      "label_name_before": "Trees",
+      "label_name_after": "Trees",
+      "n": 116
+    },
+    {
+      "year_before": 2018,
+      "label_name_before": "Barren",
+      "label_name_after": "Trees",
+      "n": 1
+    },
+    {
+      "year_before": 2018,
+      "label_name_before": "Grass/forb/herb",
+      "label_name_after": "Trees",
+      "n": 45
+    },
+    {
+      "year_before": 2018,
+      "label_name_before": "Shrubs",
+      "label_name_after": "Trees",
+      "n": 33
+    },
+    {
+      "year_before": 2018,
+      "label_name_before": "Trees",
+      "label_name_after": "Barren",
+      "n": 2
+    },
+    {
+      "year_before": 2018,
+      "label_name_before": "Trees",
+      "label_name_after": "Grass/forb/herb",
+      "n": 56
+    },
+    {
+      "year_before": 2018,
+      "label_name_before": "Trees",
+      "label_name_after": "Shrubs",
+      "n": 3
+    },
+    {
+      "year_before": 2018,
+      "label_name_before": "Trees",
+      "label_name_after": "Trees",
+      "n": 113
+    },
+    {
+      "year_before": 2019,
+      "label_name_before": "Grass/forb/herb",
+      "label_name_after": "Trees",
+      "n": 8
+    },
+    {
+      "year_before": 2019,
+      "label_name_before": "Impervious",
+      "label_name_after": "Trees",
+      "n": 1
+    },
+    {
+      "year_before": 2019,
+      "label_name_before": "Shrubs",
+      "label_name_after": "Trees",
+      "n": 13
+    },
+    {
+      "year_before": 2019,
+      "label_name_before": "Trees",
+      "label_name_after": "Barren",
+      "n": 2
+    },
+    {
+      "year_before": 2019,
+      "label_name_before": "Trees",
+      "label_name_after": "Grass/forb/herb",
+      "n": 68
+    },
+    {
+      "year_before": 2019,
+      "label_name_before": "Trees",
+      "label_name_after": "Impervious",
+      "n": 1
+    },
+    {
+      "year_before": 2019,
+      "label_name_before": "Trees",
+      "label_name_after": "Trees",
+      "n": 117
+    },
+    {
+      "year_before": 2020,
+      "label_name_before": "Grass/forb/herb",
+      "label_name_after": "Trees",
+      "n": 1
+    },
+    {
+      "year_before": 2020,
+      "label_name_before": "Shrubs",
+      "label_name_after": "Trees",
+      "n": 2
+    },
+    {
+      "year_before": 2020,
+      "label_name_before": "Trees",
+      "label_name_after": "Barren",
+      "n": 1
+    },
+    {
+      "year_before": 2020,
+      "label_name_before": "Trees",
+      "label_name_after": "Grass/forb/herb",
+      "n": 53
+    },
+    {
+      "year_before": 2020,
+      "label_name_before": "Trees",
+      "label_name_after": "Shrubs",
+      "n": 3
+    },
+    {
+      "year_before": 2020,
+      "label_name_before": "Trees",
+      "label_name_after": "Trees",
+      "n": 96
+    }
+  ],
+  "source": "data/aef-evaluation.zip; evaluation/lcmap/lcmap_lcc/lcmap_lcc.csv",
+  "licence": "public-domain LCMAP derivative; full embedded README checked"
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "task_id": "constant-corrected-seed-0",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-corrected-seed-0",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/main-corrected"
+    ]
+  },
+  {
+    "task_id": "summary-seed-0",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-corrected-seed-0",
+      "--out",
+      "analysis/controls/constant-corrected-seed-0-summary"
+    ]
+  },
+  {
+    "task_id": "constant-corrected-all",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-corrected-all",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/all-corrected-seed-0",
+      "--forest-all-features"
+    ]
+  },
+  {
+    "task_id": "summary-all",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-corrected-all",
+      "--out",
+      "analysis/controls/constant-corrected-all-summary"
+    ]
+  },
+  {
+    "task_id": "constant-corrected-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-corrected-hgb",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/hgb-corrected",
+      "--scalar-learner",
+      "hgb"
+    ]
+  },
+  {
+    "task_id": "summary-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-corrected-hgb",
+      "--out",
+      "analysis/controls/constant-corrected-hgb-summary"
+    ]
+  },
+  {
+    "task_id": "corrected-constant-audit",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_constant_controls.py",
+      "--corrected",
+      "--out",
+      "analysis/constant-corrected-audit"
+    ]
+  }
+]

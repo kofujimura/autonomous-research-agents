@@ -1,0 +1,450 @@
+{"unit_start": {"date": "20260603", "model": "ifs", "lead": 84, "started_at_utc": "2026-10-26T03:57:44Z", "chunk_bytes": 1048576}}
+{"member": 1, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 2, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 3, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 4, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 5, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 6, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 7, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 8, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 9, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 10, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 11, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 12, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 13, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 14, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 15, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 16, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 17, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 18, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 19, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 20, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 21, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 22, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 23, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 24, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 25, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 26, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 27, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 28, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 29, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 30, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 31, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 32, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 33, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 34, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 35, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 36, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 37, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 38, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 39, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 40, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 41, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 42, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 43, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 44, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 45, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 46, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 47, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 48, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 49, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"member": 50, "cached": true, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"completed_at_utc": "2026-10-25T23:02:04Z", "date": "20260603", "model_requested": "ifs", "lead": 84, "shape": [50, 12, 12], "units": "K", "finite_values": 7200, "measurements": "data/weather/20260603/ifs/84/measurements.jsonl", "selected_data_sha256": "e4e4dab4a878d58b04ef99396afaf1d42aa026ef4498c1a7b3621a04753b7939", "index_sha256": "1281ed12f2298c84cd6ece661abe800143d5b8df6ef0757a4481f24b0e807d34"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 48, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 96, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 144, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 192, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 240, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 288, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 336, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 384, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 432, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 480, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 528, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 576, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 624, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 672, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 720, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 768, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 816, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 864, "observed_at_utc": "2026-10-26T03:57:44Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 912, "observed_at_utc": "2026-10-26T03:57:45Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 960, "observed_at_utc": "2026-10-26T03:57:45Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1008, "observed_at_utc": "2026-10-26T03:57:45Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1056, "observed_at_utc": "2026-10-26T03:57:46Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1104, "observed_at_utc": "2026-10-26T03:57:46Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1152, "observed_at_utc": "2026-10-26T03:57:46Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 1200, "observed_at_utc": "2026-10-26T03:57:46Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 1248, "observed_at_utc": "2026-10-26T03:57:47Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1296, "observed_at_utc": "2026-10-26T03:57:51Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1344, "observed_at_utc": "2026-10-26T03:57:51Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1392, "observed_at_utc": "2026-10-26T03:57:51Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1440, "observed_at_utc": "2026-10-26T03:57:52Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 1488, "observed_at_utc": "2026-10-26T03:57:52Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 1536, "observed_at_utc": "2026-10-26T03:57:52Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1584, "observed_at_utc": "2026-10-26T03:57:53Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1632, "observed_at_utc": "2026-10-26T03:57:53Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1680, "observed_at_utc": "2026-10-26T03:57:53Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1728, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"completed_at_utc": "2026-10-26T03:57:55Z", "source_path": "/Users/fujimura/Research/ai-free-research-en/run-015/data/weather/20260603/ifs/84/temperatures.npz", "source_sha256": "e4e4dab4a878d58b04ef99396afaf1d42aa026ef4498c1a7b3621a04753b7939", "output_sha256": "3c061db9e8c1c701671719c844e6c0138f8b64c79bddb0c358529ad7bd764bef", "date": "20260603", "model": "ifs", "lead": 84, "rows": 1728, "elapsed_seconds": 10.846713792067021, "max_primal_residual": 7.327471962526033e-15, "max_dual_violation": 5.773159728050814e-15, "max_duality_gap": 6.8833827526759706e-15, "lp_count": 2272, "parent_encoding_checks": 36, "encoding": {"members": 50, "universe_sites": 12, "bits_per_counter": 6, "marginal_bits": 72, "marginal_bytes": 9, "pair_bits": 468, "pair_bytes": 59, "pair_scalar_entries": 78, "count_bits": 144, "count_bytes": 18, "count_scalar_entries": 24, "coherent_mask_bits": 600, "coherent_mask_bytes": 75, "round_trip_errors": 0, "scope": "Analytic fixed-width payload budgets, excluding headers/metadata/general compression; no optimal coding or measured traffic claim"}, "mask_round_trip_errors": 0, "exploratory": true, "plan": "protocol/plan-v3.1-subset-clarification.md"}
+{"unit_end": {"date": "20260603", "model": "ifs", "lead": 84, "started_at_utc": "2026-10-26T03:57:44Z", "chunk_bytes": 1048576, "acquisition_status": "completed", "analysis_reused": true, "primary_analysis_status": "completed", "source_sha256": "e4e4dab4a878d58b04ef99396afaf1d42aa026ef4498c1a7b3621a04753b7939", "analysis_sha256": "cd02208a985ecf6b2b1cc10747d6e28195f3b15f5932a564642ab3159b477ddc", "subset_analysis_status": "completed", "subset_analysis_sha256": "3c061db9e8c1c701671719c844e6c0138f8b64c79bddb0c358529ad7bd764bef", "status": "completed", "ended_at_utc": "2026-10-26T03:57:55Z"}}
+{"unit_start": {"date": "20260603", "model": "ifs", "lead": 180, "started_at_utc": "2026-10-26T03:57:55Z", "chunk_bytes": 1048576}}
+{"member": 1, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 2, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 3, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 4, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 5, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 6, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 7, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 8, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 9, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 10, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 11, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 12, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 13, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 14, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 15, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 16, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 17, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 18, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 19, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 20, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 21, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 22, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 23, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 24, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 25, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 26, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 27, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 28, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 29, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 30, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 31, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 32, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 33, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 34, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 35, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 36, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 37, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 38, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 39, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 40, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 41, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 42, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 43, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 44, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 45, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 46, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 47, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 48, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 49, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"member": 50, "cached": true, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"completed_at_utc": "2026-10-25T23:09:27Z", "date": "20260603", "model_requested": "ifs", "lead": 180, "shape": [50, 12, 12], "units": "K", "finite_values": 7200, "measurements": "data/weather/20260603/ifs/180/measurements.jsonl", "selected_data_sha256": "6c22d1fb3d0ffbe9b369a1f9fd587dffd400de7cb441ebda74d5f0d25654181c", "index_sha256": "c1e38aa33a71d0293ecd41c2a71ed17edb88e10b3d32fab849f4b2d0e413aaa5"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 48, "observed_at_utc": "2026-10-26T03:57:55Z"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 96, "observed_at_utc": "2026-10-26T03:57:56Z"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 144, "observed_at_utc": "2026-10-26T03:57:56Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 192, "observed_at_utc": "2026-10-26T03:57:56Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 240, "observed_at_utc": "2026-10-26T03:57:57Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 288, "observed_at_utc": "2026-10-26T03:57:57Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 336, "observed_at_utc": "2026-10-26T03:57:58Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 384, "observed_at_utc": "2026-10-26T03:57:58Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 432, "observed_at_utc": "2026-10-26T03:57:58Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 480, "observed_at_utc": "2026-10-26T03:57:58Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 528, "observed_at_utc": "2026-10-26T03:57:59Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 576, "observed_at_utc": "2026-10-26T03:57:59Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 624, "observed_at_utc": "2026-10-26T03:57:59Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 672, "observed_at_utc": "2026-10-26T03:57:59Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 720, "observed_at_utc": "2026-10-26T03:57:59Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 768, "observed_at_utc": "2026-10-26T03:58:00Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 816, "observed_at_utc": "2026-10-26T03:58:00Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 864, "observed_at_utc": "2026-10-26T03:58:00Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 912, "observed_at_utc": "2026-10-26T03:58:02Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 960, "observed_at_utc": "2026-10-26T03:58:02Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1008, "observed_at_utc": "2026-10-26T03:58:02Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1056, "observed_at_utc": "2026-10-26T03:58:04Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1104, "observed_at_utc": "2026-10-26T03:58:04Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1152, "observed_at_utc": "2026-10-26T03:58:04Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 1200, "observed_at_utc": "2026-10-26T03:58:04Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 1248, "observed_at_utc": "2026-10-26T03:58:04Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1296, "observed_at_utc": "2026-10-26T03:58:04Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1344, "observed_at_utc": "2026-10-26T03:58:04Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1392, "observed_at_utc": "2026-10-26T03:58:04Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1440, "observed_at_utc": "2026-10-26T03:58:04Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 1488, "observed_at_utc": "2026-10-26T03:58:04Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 1536, "observed_at_utc": "2026-10-26T03:58:05Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1584, "observed_at_utc": "2026-10-26T03:58:13Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1632, "observed_at_utc": "2026-10-26T03:58:13Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1680, "observed_at_utc": "2026-10-26T03:58:13Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1728, "observed_at_utc": "2026-10-26T03:58:15Z"}
+{"completed_at_utc": "2026-10-26T03:58:15Z", "source_path": "/Users/fujimura/Research/ai-free-research-en/run-015/data/weather/20260603/ifs/180/temperatures.npz", "source_sha256": "6c22d1fb3d0ffbe9b369a1f9fd587dffd400de7cb441ebda74d5f0d25654181c", "output_sha256": "35e1590bcaae05edfb664d30c909474d930e2db2845591fd9f6f175c30b06f6a", "date": "20260603", "model": "ifs", "lead": 180, "rows": 1728, "elapsed_seconds": 20.66659212508239, "max_primal_residual": 5.706546346573305e-13, "max_dual_violation": 8.245515381588575e-12, "max_duality_gap": 3.019806626980426e-14, "lp_count": 3734, "parent_encoding_checks": 36, "encoding": {"members": 50, "universe_sites": 12, "bits_per_counter": 6, "marginal_bits": 72, "marginal_bytes": 9, "pair_bits": 468, "pair_bytes": 59, "pair_scalar_entries": 78, "count_bits": 144, "count_bytes": 18, "count_scalar_entries": 24, "coherent_mask_bits": 600, "coherent_mask_bytes": 75, "round_trip_errors": 0, "scope": "Analytic fixed-width payload budgets, excluding headers/metadata/general compression; no optimal coding or measured traffic claim"}, "mask_round_trip_errors": 0, "exploratory": true, "plan": "protocol/plan-v3.1-subset-clarification.md"}
+{"unit_end": {"date": "20260603", "model": "ifs", "lead": 180, "started_at_utc": "2026-10-26T03:57:55Z", "chunk_bytes": 1048576, "acquisition_status": "completed", "analysis_reused": true, "primary_analysis_status": "completed", "source_sha256": "6c22d1fb3d0ffbe9b369a1f9fd587dffd400de7cb441ebda74d5f0d25654181c", "analysis_sha256": "708dad88d8b88fed2dc5f8ce74f18db5fe8b7681de59d2641dc84ce4596e71fb", "subset_analysis_status": "completed", "subset_analysis_sha256": "35e1590bcaae05edfb664d30c909474d930e2db2845591fd9f6f175c30b06f6a", "status": "completed", "ended_at_utc": "2026-10-26T03:58:15Z"}}
+{"unit_start": {"date": "20260607", "model": "ifs", "lead": 84, "started_at_utc": "2026-10-26T03:58:15Z", "chunk_bytes": 1048576}}
+{"member": 1, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 2, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 3, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 4, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 5, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 6, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 7, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 8, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 9, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 10, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 11, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 12, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 13, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 14, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 15, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 16, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 17, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 18, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 19, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 20, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 21, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 22, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 23, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 24, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 25, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 26, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 27, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 28, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 29, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 30, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 31, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 32, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 33, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 34, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 35, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 36, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 37, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 38, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 39, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 40, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 41, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 42, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 43, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 44, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 45, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 46, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 47, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 48, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 49, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"member": 50, "cached": true, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"completed_at_utc": "2026-10-25T23:15:42Z", "date": "20260607", "model_requested": "ifs", "lead": 84, "shape": [50, 12, 12], "units": "K", "finite_values": 7200, "measurements": "data/weather/20260607/ifs/84/measurements.jsonl", "selected_data_sha256": "aa990c77f3426da8c0b23053de625136513439f245f1ab4cb6237b8b6b2ca17d", "index_sha256": "5d7a4638bc101f02a1b45cd906ca2facc904eaaa90ecf1a0708fb9c7a2e14058"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 48, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 96, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 144, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 192, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 240, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 288, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 336, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 384, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 432, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 480, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 528, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 576, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 624, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 672, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 720, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 768, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 816, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 864, "observed_at_utc": "2026-10-26T03:58:16Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 912, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 960, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1008, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1056, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1104, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1152, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 1200, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 1248, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1296, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1344, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1392, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1440, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 1488, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 1536, "observed_at_utc": "2026-10-26T03:58:17Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1584, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1632, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1680, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1728, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"completed_at_utc": "2026-10-26T03:58:20Z", "source_path": "/Users/fujimura/Research/ai-free-research-en/run-015/data/weather/20260607/ifs/84/temperatures.npz", "source_sha256": "aa990c77f3426da8c0b23053de625136513439f245f1ab4cb6237b8b6b2ca17d", "output_sha256": "9ef9b18ef1ab241a8c25d567ef4a2be9296641920eb6652808264b29c61244c1", "date": "20260607", "model": "ifs", "lead": 84, "rows": 1728, "elapsed_seconds": 4.382255624979734, "max_primal_residual": 1.5543122344752192e-15, "max_dual_violation": 7.549516567451064e-15, "max_duality_gap": 1.1102230246251565e-15, "lp_count": 1548, "parent_encoding_checks": 36, "encoding": {"members": 50, "universe_sites": 12, "bits_per_counter": 6, "marginal_bits": 72, "marginal_bytes": 9, "pair_bits": 468, "pair_bytes": 59, "pair_scalar_entries": 78, "count_bits": 144, "count_bytes": 18, "count_scalar_entries": 24, "coherent_mask_bits": 600, "coherent_mask_bytes": 75, "round_trip_errors": 0, "scope": "Analytic fixed-width payload budgets, excluding headers/metadata/general compression; no optimal coding or measured traffic claim"}, "mask_round_trip_errors": 0, "exploratory": true, "plan": "protocol/plan-v3.1-subset-clarification.md"}
+{"unit_end": {"date": "20260607", "model": "ifs", "lead": 84, "started_at_utc": "2026-10-26T03:58:15Z", "chunk_bytes": 1048576, "acquisition_status": "completed", "analysis_reused": true, "primary_analysis_status": "completed", "source_sha256": "aa990c77f3426da8c0b23053de625136513439f245f1ab4cb6237b8b6b2ca17d", "analysis_sha256": "0c3bed4093546f3b6c3bf26090974054abe8bd2b5ada426b5e468bc06f2dd329", "subset_analysis_status": "completed", "subset_analysis_sha256": "9ef9b18ef1ab241a8c25d567ef4a2be9296641920eb6652808264b29c61244c1", "status": "completed", "ended_at_utc": "2026-10-26T03:58:20Z"}}
+{"unit_start": {"date": "20260607", "model": "ifs", "lead": 180, "started_at_utc": "2026-10-26T03:58:20Z", "chunk_bytes": 1048576}}
+{"member": 1, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 2, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 3, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 4, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 5, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 6, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 7, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 8, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 9, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 10, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 11, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 12, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 13, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 14, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 15, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 16, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 17, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 18, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 19, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 20, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 21, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 22, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 23, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 24, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 25, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 26, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 27, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 28, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 29, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 30, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 31, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 32, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 33, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 34, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 35, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 36, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 37, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 38, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 39, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 40, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 41, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 42, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 43, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 44, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 45, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 46, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 47, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 48, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 49, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"member": 50, "cached": true, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"completed_at_utc": "2026-10-25T23:22:54Z", "date": "20260607", "model_requested": "ifs", "lead": 180, "shape": [50, 12, 12], "units": "K", "finite_values": 7200, "measurements": "data/weather/20260607/ifs/180/measurements.jsonl", "selected_data_sha256": "61d752641489909715f9d2516f06e379846b5a3167199c51780d8683471081ca", "index_sha256": "b7cf32524265c0a499bcf40c0dc77410e6482d62b6733dcc7079c0507fd7d727"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 48, "observed_at_utc": "2026-10-26T03:58:20Z"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 96, "observed_at_utc": "2026-10-26T03:58:21Z"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 144, "observed_at_utc": "2026-10-26T03:58:22Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 192, "observed_at_utc": "2026-10-26T03:58:22Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 240, "observed_at_utc": "2026-10-26T03:58:23Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 288, "observed_at_utc": "2026-10-26T03:58:23Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 336, "observed_at_utc": "2026-10-26T03:58:25Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 384, "observed_at_utc": "2026-10-26T03:58:27Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 432, "observed_at_utc": "2026-10-26T03:58:27Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 480, "observed_at_utc": "2026-10-26T03:58:30Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 528, "observed_at_utc": "2026-10-26T03:58:30Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 576, "observed_at_utc": "2026-10-26T03:58:30Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 624, "observed_at_utc": "2026-10-26T03:58:32Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 672, "observed_at_utc": "2026-10-26T03:58:32Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 720, "observed_at_utc": "2026-10-26T03:58:32Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 768, "observed_at_utc": "2026-10-26T03:58:34Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 816, "observed_at_utc": "2026-10-26T03:58:34Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 864, "observed_at_utc": "2026-10-26T03:58:34Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 912, "observed_at_utc": "2026-10-26T03:58:36Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 960, "observed_at_utc": "2026-10-26T03:58:36Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1008, "observed_at_utc": "2026-10-26T03:58:36Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1056, "observed_at_utc": "2026-10-26T03:58:38Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1104, "observed_at_utc": "2026-10-26T03:58:39Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1152, "observed_at_utc": "2026-10-26T03:58:39Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 1200, "observed_at_utc": "2026-10-26T03:58:39Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 1248, "observed_at_utc": "2026-10-26T03:58:39Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1296, "observed_at_utc": "2026-10-26T03:58:42Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1344, "observed_at_utc": "2026-10-26T03:58:42Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1392, "observed_at_utc": "2026-10-26T03:58:42Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1440, "observed_at_utc": "2026-10-26T03:58:43Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 1488, "observed_at_utc": "2026-10-26T03:58:43Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 1536, "observed_at_utc": "2026-10-26T03:58:43Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1584, "observed_at_utc": "2026-10-26T03:58:45Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1632, "observed_at_utc": "2026-10-26T03:58:45Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1680, "observed_at_utc": "2026-10-26T03:58:45Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1728, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"completed_at_utc": "2026-10-26T03:58:46Z", "source_path": "/Users/fujimura/Research/ai-free-research-en/run-015/data/weather/20260607/ifs/180/temperatures.npz", "source_sha256": "61d752641489909715f9d2516f06e379846b5a3167199c51780d8683471081ca", "output_sha256": "975c0fe7c6ee3891e49dbbef5dc3adbe920f65c2b56a0370c461956847dcc53b", "date": "20260607", "model": "ifs", "lead": 180, "rows": 1728, "elapsed_seconds": 25.951893625082448, "max_primal_residual": 8.548717289613705e-15, "max_dual_violation": 7.105427357601002e-15, "max_duality_gap": 2.275957200481571e-15, "lp_count": 5596, "parent_encoding_checks": 36, "encoding": {"members": 50, "universe_sites": 12, "bits_per_counter": 6, "marginal_bits": 72, "marginal_bytes": 9, "pair_bits": 468, "pair_bytes": 59, "pair_scalar_entries": 78, "count_bits": 144, "count_bytes": 18, "count_scalar_entries": 24, "coherent_mask_bits": 600, "coherent_mask_bytes": 75, "round_trip_errors": 0, "scope": "Analytic fixed-width payload budgets, excluding headers/metadata/general compression; no optimal coding or measured traffic claim"}, "mask_round_trip_errors": 0, "exploratory": true, "plan": "protocol/plan-v3.1-subset-clarification.md"}
+{"unit_end": {"date": "20260607", "model": "ifs", "lead": 180, "started_at_utc": "2026-10-26T03:58:20Z", "chunk_bytes": 1048576, "acquisition_status": "completed", "analysis_reused": true, "primary_analysis_status": "completed", "source_sha256": "61d752641489909715f9d2516f06e379846b5a3167199c51780d8683471081ca", "analysis_sha256": "93bf289cb8b719195d3c5821bab4b43bacedabf7e7068b7d09a90ccfe04fd774", "subset_analysis_status": "completed", "subset_analysis_sha256": "975c0fe7c6ee3891e49dbbef5dc3adbe920f65c2b56a0370c461956847dcc53b", "status": "completed", "ended_at_utc": "2026-10-26T03:58:46Z"}}
+{"unit_start": {"date": "20260611", "model": "ifs", "lead": 84, "started_at_utc": "2026-10-26T03:58:46Z", "chunk_bytes": 1048576}}
+{"member": 1, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 2, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 3, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 4, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 5, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 6, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 7, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 8, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 9, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 10, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 11, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 12, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 13, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 14, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 15, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 16, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 17, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 18, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 19, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 20, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 21, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 22, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 23, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 24, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 25, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 26, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 27, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 28, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 29, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 30, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 31, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 32, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 33, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 34, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 35, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 36, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 37, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 38, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 39, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 40, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 41, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 42, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 43, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 44, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 45, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 46, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 47, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 48, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 49, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"member": 50, "cached": true, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"completed_at_utc": "2026-10-25T23:27:26Z", "date": "20260611", "model_requested": "ifs", "lead": 84, "shape": [50, 12, 12], "units": "K", "finite_values": 7200, "measurements": "data/weather/20260611/ifs/84/measurements.jsonl", "selected_data_sha256": "f145b7613d316674ff5150a6ff594e2c64d5baa630ae3b3eba3e45fad324b6d6", "index_sha256": "a06f195c525443c03c6a09ee42064857ad983f8649255dbe190b5270d86dedbe"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 48, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 96, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"portfolio": {"center": "Iberia", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 144, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 192, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 240, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"portfolio": {"center": "Iberia", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 288, "observed_at_utc": "2026-10-26T03:58:46Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 336, "observed_at_utc": "2026-10-26T03:58:49Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 384, "observed_at_utc": "2026-10-26T03:58:49Z"}
+{"portfolio": {"center": "France", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 432, "observed_at_utc": "2026-10-26T03:58:49Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 480, "observed_at_utc": "2026-10-26T03:58:50Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 528, "observed_at_utc": "2026-10-26T03:58:50Z"}
+{"portfolio": {"center": "France", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 576, "observed_at_utc": "2026-10-26T03:58:50Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 624, "observed_at_utc": "2026-10-26T03:58:50Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 672, "observed_at_utc": "2026-10-26T03:58:50Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 720, "observed_at_utc": "2026-10-26T03:58:50Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 768, "observed_at_utc": "2026-10-26T03:58:50Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 816, "observed_at_utc": "2026-10-26T03:58:50Z"}
+{"portfolio": {"center": "central_Europe", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 864, "observed_at_utc": "2026-10-26T03:58:50Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 912, "observed_at_utc": "2026-10-26T03:58:51Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 960, "observed_at_utc": "2026-10-26T03:58:51Z"}
+{"portfolio": {"center": "Balkans", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1008, "observed_at_utc": "2026-10-26T03:58:51Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1056, "observed_at_utc": "2026-10-26T03:58:51Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1104, "observed_at_utc": "2026-10-26T03:58:52Z"}
+{"portfolio": {"center": "Balkans", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1152, "observed_at_utc": "2026-10-26T03:58:52Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 1200, "observed_at_utc": "2026-10-26T03:58:52Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 1248, "observed_at_utc": "2026-10-26T03:58:52Z"}
+{"portfolio": {"center": "northern_India", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1296, "observed_at_utc": "2026-10-26T03:58:53Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1344, "observed_at_utc": "2026-10-26T03:58:53Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1392, "observed_at_utc": "2026-10-26T03:58:53Z"}
+{"portfolio": {"center": "northern_India", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1440, "observed_at_utc": "2026-10-26T03:58:54Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 25, "completed_rows": 1488, "observed_at_utc": "2026-10-26T03:58:54Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 30, "completed_rows": 1536, "observed_at_utc": "2026-10-26T03:58:54Z"}
+{"portfolio": {"center": "Sahel", "geometry": "compact"}, "threshold_c": 35, "completed_rows": 1584, "observed_at_utc": "2026-10-26T03:58:54Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 25, "completed_rows": 1632, "observed_at_utc": "2026-10-26T03:58:54Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 30, "completed_rows": 1680, "observed_at_utc": "2026-10-26T03:58:54Z"}
+{"portfolio": {"center": "Sahel", "geometry": "dispersed"}, "threshold_c": 35, "completed_rows": 1728, "observed_at_utc": "2026-10-26T03:58:54Z"}
+{"completed_at_utc": "2026-10-26T03:58:54Z", "source_path": "/Users/fujimura/Research/ai-free-research-en/run-015/data/weather/20260611/ifs/84/temperatures.npz", "source_sha256": "f145b7613d316674ff5150a6ff594e2c64d5baa630ae3b3eba3e45fad324b6d6", "output_sha256": "d9024280021b277a4f3e40dae1059b1c013a5d9710ba25088eb000e6b4e577d8", "date": "20260611", "model": "ifs", "lead": 84, "rows": 1728, "elapsed_seconds": 7.856034749886021, "max_primal_residual": 1.176836406102666e-14, "max_dual_violation": 2.220446049250313e-15, "max_duality_gap": 1.3766765505351941e-14, "lp_count": 2462, "parent_encoding_checks": 36, "encoding": {"members": 50, "universe_sites": 12, "bits_per_counter": 6, "marginal_bits": 72, "marginal_bytes": 9, "pair_bits": 468, "pair_bytes": 59, "pair_scalar_entries": 78, "count_bits": 144, "count_bytes": 18, "count_scalar_entries": 24, "coherent_mask_bits": 600, "coherent_mask_bytes": 75, "round_trip_errors": 0, "scope": "Analytic fixed-width payload budgets, excluding headers/metadata/general compression; no optimal coding or measured traffic claim"}, "mask_round_trip_errors": 0, "exploratory": true, "plan": "protocol/plan-v3.1-subset-clarification.md"}
+{"unit_end": {"date": "20260611", "model": "ifs", "lead": 84, "started_at_utc": "2026-10-26T03:58:46Z", "chunk_bytes": 1048576, "acquisition_status": "completed", "analysis_reused": true, "primary_analysis_status": "completed", "source_sha256": "f145b7613d316674ff5150a6ff594e2c64d5baa630ae3b3eba3e45fad324b6d6", "analysis_sha256": "3af385263d6dd13f887297a7da3a3f2fef258ef5f0732081b90b252d45b24729", "subset_analysis_status": "completed", "subset_analysis_sha256": "d9024280021b277a4f3e40dae1059b1c013a5d9710ba25088eb000e6b4e577d8", "status": "completed", "ended_at_utc": "2026-10-26T03:58:54Z"}}

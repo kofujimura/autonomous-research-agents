@@ -1,0 +1,6 @@
+{
+  "ended_at_utc": "2026-10-27T17:47:06.811491+00:00",
+  "exit_code": 0,
+  "package": "pyshp==2.3.1",
+  "scope": ".venv, .cache/pip"
+}

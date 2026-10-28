@@ -1,0 +1,90 @@
+[
+  {
+    "task_id": "constant-seed-0",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-seed-0",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/main"
+    ]
+  },
+  {
+    "task_id": "constant-seed-1000",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--seed-offset",
+      "1000",
+      "--output",
+      "analysis/controls/constant-seed-1000",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/seed-1000"
+    ]
+  },
+  {
+    "task_id": "constant-seed-2000",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--seed-offset",
+      "2000",
+      "--output",
+      "analysis/controls/constant-seed-2000",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/seed-2000"
+    ]
+  },
+  {
+    "task_id": "constant-all",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-all",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/full-features",
+      "--forest-all-features"
+    ]
+  },
+  {
+    "task_id": "constant-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "noise",
+      "--seed-offset",
+      "0",
+      "--output",
+      "analysis/controls/constant-hgb",
+      "--extra",
+      "--constant-feature",
+      "--baselines",
+      "analysis/controls/hgb",
+      "--scalar-learner",
+      "hgb"
+    ]
+  }
+]

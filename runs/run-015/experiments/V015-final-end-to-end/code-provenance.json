@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-26T11:33:55Z",
+  "root_runner_code_commit_id": "24ddff1f8b1170ddad2f8a767a1b8eda230713e5",
+  "analysis_code_commit_id": "24ddff1f8b1170ddad2f8a767a1b8eda230713e5",
+  "analysis_source_path": "verification_work/final-source",
+  "analysis_source_file_hash_list": "review/final-source-before.SHA256SUMS",
+  "distinction": "The actual copied analysis and root wrapper have the same recorded code commit. Subsequent root changes are administrative status/submission records only."
+}

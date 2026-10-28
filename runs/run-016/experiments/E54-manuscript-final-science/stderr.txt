@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/render_paper.py", line 438, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--destination',default='.');a=p.parse_args();render(a.destination)
+                                                                                             ~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/render_paper.py", line 87, in render
+    geo=additional_geography()
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/render_paper.py", line 143, in additional_geography
+    p=one(full,design='paired');i=one(full,design='independent');cc=one(cases,frame='full_reference',taxonomy='broad')
+                                                                    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: one() got multiple values for argument 'frame'

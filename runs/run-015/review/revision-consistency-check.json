@@ -1,0 +1,11 @@
+{
+  "observed_at_utc": "2026-10-26T13:23:53Z",
+  "status": "passed",
+  "method": "Author separate standard-library CSV aggregation (no pandas or LP), not independent reproduction",
+  "primary_cases": 12096,
+  "informative_cases": 2871,
+  "pruning_bins_checked": 5,
+  "width_window_rows_checked": 9,
+  "max_pruning_width_difference": 2.7755575615628914e-17,
+  "primary_cases_sha256": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d"
+}

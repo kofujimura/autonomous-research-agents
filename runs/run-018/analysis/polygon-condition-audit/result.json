@@ -1,0 +1,427 @@
+{
+  "checked_at_utc": "2026-10-27T22:00:44.121473+00:00",
+  "checks": [
+    {
+      "check": "Physical inputs A=B",
+      "passed": true
+    },
+    {
+      "check": "Physical inputs A=D",
+      "passed": true
+    },
+    {
+      "check": "Embedding inputs B=C aef",
+      "passed": true
+    },
+    {
+      "check": "Embedding inputs B=C tessera",
+      "passed": true
+    },
+    {
+      "check": "Embedding inputs B=C aef_norm",
+      "passed": true
+    },
+    {
+      "check": "Embedding inputs B=C tessera_norm",
+      "passed": true
+    },
+    {
+      "check": "Ordered cohort A=B",
+      "passed": true
+    },
+    {
+      "check": "Ordered cohort A=C",
+      "passed": true
+    },
+    {
+      "check": "Ordered cohort A=D",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 hydro_pair A=B",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 hydro_decoder A=B",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 hydro_pair A=D",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 hydro_decoder A=D",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 aef_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 tessera_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 aef_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 tessera_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 aef_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 tessera_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 aef_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation0 tessera_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 hydro_pair A=B",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 hydro_decoder A=B",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 hydro_pair A=D",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 hydro_decoder A=D",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 aef_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 tessera_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 aef_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 tessera_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 aef_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 tessera_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 aef_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation1 tessera_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 hydro_pair A=B",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 hydro_decoder A=B",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 hydro_pair A=D",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 hydro_decoder A=D",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 aef_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 tessera_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 aef_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 tessera_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 aef_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 tessera_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 aef_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation2 tessera_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 hydro_pair A=B",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 hydro_decoder A=B",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 hydro_pair A=D",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 hydro_decoder A=D",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 aef_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 tessera_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 aef_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 tessera_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 aef_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 tessera_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 aef_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "rf rotation3 tessera_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 hydro_pair A=B",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 hydro_decoder A=B",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 hydro_pair A=D",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 hydro_decoder A=D",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 aef_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 tessera_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 aef_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 tessera_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 aef_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 tessera_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 aef_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation0 tessera_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 hydro_pair A=B",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 hydro_decoder A=B",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 hydro_pair A=D",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 hydro_decoder A=D",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 aef_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 tessera_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 aef_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 tessera_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 aef_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 tessera_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 aef_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation1 tessera_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 hydro_pair A=B",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 hydro_decoder A=B",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 hydro_pair A=D",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 hydro_decoder A=D",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 aef_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 tessera_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 aef_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 tessera_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 aef_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 tessera_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 aef_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation2 tessera_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 hydro_pair A=B",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 hydro_decoder A=B",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 hydro_pair A=D",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 hydro_decoder A=D",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 aef_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 tessera_decoder B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 aef_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 tessera_cosine B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 aef_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 tessera_centred B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 aef_whitened B=C",
+      "passed": true
+    },
+    {
+      "check": "hgb rotation3 tessera_whitened B=C",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Factor isolation in archived common-cohort feature arrays and prediction outputs; no field or independent validation"
+}

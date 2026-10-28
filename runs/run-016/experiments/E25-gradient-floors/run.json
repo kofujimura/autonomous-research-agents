@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E25-gradient-floors",
+  "start_time_utc": "2026-10-26T21:37:04.202652Z",
+  "end_time_utc": "2026-10-26T21:38:07.449001Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/gradient_all.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v12-gradient-sensitivity.md",
+  "plan_commit_id": "fd3e58b8dc6bd3a863d30f7e17b9edb50c968a85",
+  "plan_sha256": "d388f4ba769be5b8de6019bc3c37dc13f0d9fccdd063442fd9ef5ceccfc6ec18",
+  "code_commit_id": "fd3e58b8dc6bd3a863d30f7e17b9edb50c968a85",
+  "inputs": [
+    {
+      "path": "data/population-main-v1.json",
+      "sha256": "f2a5a27f70792807a8f29d289a559641c9b30a64636e9ddfe59eb63c1d91cb07"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E25-gradient-floors/stdout.txt",
+  "stderr_path": "experiments/E25-gradient-floors/stderr.txt",
+  "start_event_id": "E0312",
+  "pid": 7386,
+  "elapsed_seconds": 63.24652691697702,
+  "end_event_id": "E0315"
+}

@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E09-pipeline-check",
+  "start_time_utc": "2026-10-26T18:43:25.594299Z",
+  "end_time_utc": "2026-10-26T18:43:30.349992Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pipeline_check.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v5-optimization.md",
+  "plan_commit_id": "c8539e5ca0efb6745d6f44cf30e24aae0cb4ae21",
+  "plan_sha256": "1d8880e3fad80de2912da78fae11b57972a589345a6687db982067faf4916e58",
+  "code_commit_id": "c8539e5ca0efb6745d6f44cf30e24aae0cb4ae21",
+  "inputs": [
+    {
+      "path": "data/population-source-v1.json",
+      "sha256": "5e1efc31ca059b1b005f593589f36b255a9ea32245e72a06aec811f7f2688377"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E09-pipeline-check/stdout.txt",
+  "stderr_path": "experiments/E09-pipeline-check/stderr.txt",
+  "start_event_id": "E0164",
+  "pid": 99695,
+  "elapsed_seconds": 4.755617375019938,
+  "end_event_id": "E0165"
+}

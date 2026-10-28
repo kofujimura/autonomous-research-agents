@@ -1,0 +1,49 @@
+{
+  "review_id": "review-018-1",
+  "review_instructions": "Review Instructions v1.10.4 (for Research Instructions v1.10.4); original text in input_prompt.md",
+  "start_time_utc": "2026-10-28T08:28:17Z",
+  "start_time_local": "2026-10-28T17:28:17+09:00 (JST)",
+  "deadline_utc": "2026-10-28T11:28:17Z",
+  "deadline_local": "2026-10-28T20:28:17+09:00 (JST)",
+  "deadline_note": "3 hours elapsed time from start; extended only by confirmed usage-limit stops",
+  "target": {
+    "research_directory": "/Users/fujimura/Research/ai-free-research-en/run-018",
+    "tag": "submission-1",
+    "tag_object_id": "5f7fc5286a15f189f1f45c4592dc5d6a89298f59",
+    "commit_id": "739117262e02cdbec90900446e14776ce1f12624"
+  },
+  "review_directory": "/Users/fujimura/Research/ai-free-research-en/review-018",
+  "model": {
+    "presented_in_conversation": "Opus 5.5 (system prompt states model ID claude-opus-5-5); human specified Opus 5.5, reasoning effort xhigh",
+    "confirmed_from_execution_environment": {
+      "CLAUDE_EFFORT": "xhigh",
+      "AI_AGENT": "claude-code_2-1-311_agent",
+      "CLAUDE_CODE_EXECPATH_version_dir": "2.1.311",
+      "CLAUDE_CODE_ENTRYPOINT": "cli"
+    },
+    "model_id_from_environment": "unknown (no environment variable or file confirms the serving model ID; only the system prompt states it)"
+  },
+  "provider": "Anthropic via Claude Code CLI (inferred from runtime; the API endpoint/provider is not independently confirmed = unknown)",
+  "runtime": {
+    "claude_code_version": "2.1.311 (from AI_AGENT and CLAUDE_CODE_EXECPATH; claude CLI itself not invoked)",
+    "os": "macOS 26.5.2 (25F84), Darwin 25.5.0 arm64",
+    "python_system": "3.13.7 (/Library/Frameworks/Python.framework/Versions/3.13/bin/python3)",
+    "timeout_tool": "GNU timeout not installed; perl alarm wrapper verification/tlimit.sh used for run limits"
+  },
+  "unknowns": [
+    "Serving model identifier as seen by the API is not confirmable from the execution environment",
+    "Provider endpoint not independently confirmed"
+  ],
+  "end_time_utc": "2026-10-28T09:41:39Z",
+  "excluded_usage_limit_stop_seconds": 0,
+  "excluded_usage_limit_stop_note": "No usage-limit stop occurred during the review; deadline unchanged (2026-10-28T11:28:17Z).",
+  "end_state": "complete",
+  "target_state_end": "identical to start (see verification/state/end_state.txt, end_sha_check.json)",
+  "verification_runs": {
+    "primary": "verification/run-primary (passed 101/101, 1210.7 s)",
+    "polygonC_first": "verification/run-polygonC (exit 1: source-immutability assertion failed due to reviewer concurrent refit writing __pycache__ into clone)",
+    "polygonC_rerun": "verification/run-polygonC-2 (passed 101/101, 1232.5 s)",
+    "extra_refits": "verification/run-extra (constant seed 0, permute-2, seed-1000, hgb-corrected, whitened hgb, year-2021: all identical)"
+  },
+  "processes_remaining": "none"
+}

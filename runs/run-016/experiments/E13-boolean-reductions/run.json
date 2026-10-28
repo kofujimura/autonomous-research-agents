@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E13-boolean-reductions",
+  "start_time_utc": "2026-10-26T20:16:00.619597Z",
+  "end_time_utc": "2026-10-26T20:16:01.507754Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/check_boolean_reductions.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v7-reference-frame.md",
+  "plan_commit_id": "c64e59185af98d8a9d9f27c0e7cdb26a4cd04cc6",
+  "plan_sha256": "cec48ec502f92a78df69034d6d3628445d1e83ea0427a22cd9dfef7fed7f7551",
+  "code_commit_id": "c64e59185af98d8a9d9f27c0e7cdb26a4cd04cc6",
+  "inputs": [
+    {
+      "path": "results/reference-frames/units.jsonl",
+      "sha256": "1d2ba9eb42827010a0963d092afe33bf97740520ec012a6e63d5c19d470f15e4"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E13-boolean-reductions/stdout.txt",
+  "stderr_path": "experiments/E13-boolean-reductions/stderr.txt",
+  "start_event_id": "E0222",
+  "pid": 4225,
+  "elapsed_seconds": 0.8880592919886112,
+  "end_event_id": "E0223"
+}

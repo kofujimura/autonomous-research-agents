@@ -1,0 +1,62 @@
+[
+  {
+    "region": "S01",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T17:19:27.041796+00:00",
+    "end_time_utc": "2026-10-27T17:19:33.636640+00:00",
+    "elapsed_seconds": 6.594831750029698,
+    "error": null,
+    "input_selected_sha256": "a5411c342b7604c8291a8a6006ac0907aee83edba3eedc56e0768a07006e366a"
+  },
+  {
+    "region": "S02",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T17:19:33.640458+00:00",
+    "end_time_utc": "2026-10-27T17:19:39.085521+00:00",
+    "elapsed_seconds": 5.445124458987266,
+    "error": null,
+    "input_selected_sha256": "d27b3d65a387f7560e4b3d22950d81f3de84a1e24e898a0c646b3f899624947d"
+  },
+  {
+    "region": "S03",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T17:19:39.088549+00:00",
+    "end_time_utc": "2026-10-27T17:19:45.813649+00:00",
+    "elapsed_seconds": 6.725175875006244,
+    "error": null,
+    "input_selected_sha256": "66eb4ca47b8d73dccf42bebbc58fe10d854be1ee582544d9aec5157e57b3beb2"
+  },
+  {
+    "region": "S04",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T17:19:45.814973+00:00",
+    "end_time_utc": "2026-10-27T17:19:49.942369+00:00",
+    "elapsed_seconds": 4.1274427499156445,
+    "error": null,
+    "input_selected_sha256": "1783ac41742e3ff9fe1951a3826cf5feda151654390de9539d80c3fd4d36eeae"
+  },
+  {
+    "region": "S05",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T17:19:49.954867+00:00",
+    "end_time_utc": "2026-10-27T17:19:55.887084+00:00",
+    "elapsed_seconds": 5.9322813749313354,
+    "error": null,
+    "input_selected_sha256": "4b7e9dec7f5d93820763a8e815888f59a2925700c52bed45047247da12567db3"
+  },
+  {
+    "region": "S06",
+    "product": "hand",
+    "year": 2024,
+    "start_time_utc": "2026-10-27T17:19:55.890792+00:00",
+    "end_time_utc": "2026-10-27T17:20:01.107347+00:00",
+    "elapsed_seconds": 5.21661370806396,
+    "error": null,
+    "input_selected_sha256": "85a13ba8cd69a3db478ed1f4c4bc32a2488ad692a60ae95e02bbe0f2e4b5b1c8"
+  }
+]

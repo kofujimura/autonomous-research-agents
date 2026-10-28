@@ -1,0 +1,29 @@
+{
+  "candidate": "C3 second-dataset pilot",
+  "recovered_at_utc": "2026-10-25T08:44:33Z",
+  "status": "retrieval succeeded; result serialization failed",
+  "data_path": "experiments/pilot-c3-tessera/vectors.npz",
+  "source": "https://data.source.coop/tessera/tessera/zarr/v1",
+  "dataset_version": "1.0",
+  "dataset_variant": "vultr",
+  "shape": [
+    2,
+    1,
+    128
+  ],
+  "finite_by_year": [
+    true,
+    true
+  ],
+  "norm_by_year": [
+    [
+      28.115942001342773
+    ],
+    [
+      30.277231216430664
+    ]
+  ],
+  "licence": "CC0 according to official ucam-eo/tessera repository; source check in sources/search-030.txt",
+  "effect_calculated": false,
+  "note": "No new network call in this recovery; failed run preserved. Coordinate excluded from main study."
+}

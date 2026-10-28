@@ -1,0 +1,23 @@
+{
+  "experiment_id": "E10",
+  "started_at_utc": "2026-10-27T05:50:51.525233Z",
+  "command": [
+    ".venv/bin/python",
+    "code/check_metrics.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v3.md",
+  "plan_commit_id": "3f55000efdd1b10a584dec959546b84e9f7429b3",
+  "code_commit_id": "3f55000efdd1b10a584dec959546b84e9f7429b3",
+  "input_sha256": {
+    "protocol/analysis-settings-v1.json": "62922d355a104c2ad51b2b24678b3e1e92690df3ebb7dfc51e67dbda1e7c1621"
+  },
+  "start_event_id": "E0071",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 51485,
+  "ended_at_utc": "2026-10-27T05:51:10.339178Z",
+  "elapsed_seconds": 18.8138779590372,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0072"
+}

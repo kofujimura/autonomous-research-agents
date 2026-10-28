@@ -1,0 +1,37 @@
+{
+  "experiment_id": "E22-arable-boundary",
+  "start_time_utc": "2026-10-26T21:33:19.344809Z",
+  "end_time_utc": "2026-10-26T21:33:36.538156Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/reference_frame_analysis.py",
+    "--source-manifest",
+    "data/population-source-v1.json",
+    "--destination",
+    "results/stable-arable",
+    "--arable-only"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v10-arable-boundary.md",
+  "plan_commit_id": "39ad372cf244c62bdfcd1dfc5a5cc1ac6ffffca8",
+  "plan_sha256": "11888516aded4c03711eea42d43a9725bae609e43e6d65ee2fd1ef4ad7ac2f9f",
+  "code_commit_id": "39ad372cf244c62bdfcd1dfc5a5cc1ac6ffffca8",
+  "inputs": [
+    {
+      "path": "data/population-source-v1.json",
+      "sha256": "5e1efc31ca059b1b005f593589f36b255a9ea32245e72a06aec811f7f2688377"
+    },
+    {
+      "path": "sources/swisscrop25-crop-classes.csv",
+      "sha256": "e73dd6f3efc6962e189a061643dae52cffe7a42c07816e3c201008681a1a9c0f"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E22-arable-boundary/stdout.txt",
+  "stderr_path": "experiments/E22-arable-boundary/stderr.txt",
+  "start_event_id": "E0299",
+  "pid": 7190,
+  "elapsed_seconds": 17.19323012488894,
+  "end_event_id": "E0302"
+}

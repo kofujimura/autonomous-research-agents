@@ -1,0 +1,30 @@
+{
+  "experiment_id": "B003-aifs-next",
+  "started_at_utc": "2026-10-25T23:06:22Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pipeline.py",
+    "--model",
+    "aifs-ens",
+    "--start",
+    "1",
+    "--count",
+    "2",
+    "--log",
+    "experiments/B003-aifs-next/units.jsonl"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "f3e88ecc7fe6676a7dfce69662ee9829c65301db",
+  "code_commit_id": "8863491fee5af49320983fcc592c40818c92e8dd",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12"
+  },
+  "status": "failed",
+  "start_event_id": "E0086",
+  "child_pid": 47382,
+  "exit_code": 1,
+  "ended_at_utc": "2026-10-25T23:15:11Z",
+  "elapsed_seconds": 528.249163917033,
+  "end_event_id": "E0093"
+}

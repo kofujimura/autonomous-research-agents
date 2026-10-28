@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E14-main-inference",
+  "start_time_utc": "2026-10-26T21:19:12.286863Z",
+  "end_time_utc": "2026-10-26T21:22:40.510288Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/main_pipeline.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v5-optimization.md",
+  "plan_commit_id": "a60ee43f57fda744c6ebd7794bca6bcfda6cc91a",
+  "plan_sha256": "1d8880e3fad80de2912da78fae11b57972a589345a6687db982067faf4916e58",
+  "code_commit_id": "a60ee43f57fda744c6ebd7794bca6bcfda6cc91a",
+  "inputs": [
+    {
+      "path": "data/population-main-v1.json",
+      "sha256": "f2a5a27f70792807a8f29d289a559641c9b30a64636e9ddfe59eb63c1d91cb07"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E14-main-inference/stdout.txt",
+  "stderr_path": "experiments/E14-main-inference/stderr.txt",
+  "start_event_id": "E0252",
+  "pid": 6263,
+  "elapsed_seconds": 208.22421774989925,
+  "end_event_id": "E0258"
+}

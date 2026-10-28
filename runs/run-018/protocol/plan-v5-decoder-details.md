@@ -1,0 +1,7 @@
+# Decoder-input clarification before model fitting
+
+This supplements v1–v3 for primary analyses and v4 for the exploratory supplementary panel. No model has yet been fitted and no matching outcome observed.
+
+Cosine-based methods use unit-normalized polygon mean vectors, exactly as specified. The **full-vector information diagnostic** must retain the magnitude of the decoded polygon mean: save its norm alongside its unit vector and use their product (the unnormalized decoded mean) for individual embedding decoders and hydrology-plus-embedding decoders. This prevents a normalization decision from discarding information before a test described as full-vector decoding. The pair learners' primary added features remain cosine distances only; no magnitude feature is added to the primary matching hypothesis. The difference in information and capacity between the diagnostic decoders and distance-only pair models is explicit; neither decoder failure nor raw-distance failure proves information absent from the original representation.
+
+This is an implementation clarification of “full-vector” before any output, with original versions retained. The raw pixel patches already preserve all needed magnitudes. Save both norms in the derived input archive and reproduce them offline. A technical source-TIFF versus provider-VRT pixel equality check may optimize extraction transport; only an exactly matching coordinate/value pathway is eligible, and the sampling/decoding rules must remain the same. This is instrument validation, not a hypothesis about ecological outcomes.

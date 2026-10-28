@@ -1,0 +1,8 @@
+{
+  "command": "verification/env/bin/python -I scripts/cluster_bootstrap.py verification/V04_independent_direct/rows-broad.json verification/V07_cluster_bootstrap/result.json",
+  "cwd": "/Users/fujimura/Research/ai-free-research-en/review-016",
+  "timeout_s": 600.0,
+  "start_utc": "2026-10-27T02:36:02.465834+00:00",
+  "exit_code": 0,
+  "end_utc": "2026-10-27T02:36:02.805305+00:00"
+}

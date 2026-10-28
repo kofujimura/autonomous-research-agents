@@ -1,0 +1,429 @@
+{
+  "observed_at_utc": "2026-10-27T03:41:41.596690Z",
+  "before_allocated_bytes": 10601902080,
+  "after_allocated_bytes": 10535075840,
+  "files_shared": 70,
+  "files": [
+    {
+      "source": "results/inference/logistic-broad-tessera/units.jsonl",
+      "target": "verification-work/output-final/inference/0/units.jsonl",
+      "sha256": "0bc97c83290dc0fd6700c6e8a7d0aca99aae86dab5cfe5e5d73cc3a7d787afd7",
+      "bytes": 1593238
+    },
+    {
+      "source": "results/inference/logistic-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-final/inference/1/units.jsonl",
+      "sha256": "c0112d4d0a78e3ba6720dfb7258a7b66ccf22599aaf58e0a082f79f0cbc1ccc6",
+      "bytes": 1593511
+    },
+    {
+      "source": "results/inference/logistic-broad-refreshed-alphaearth/units.jsonl",
+      "target": "verification-work/output-final/inference/10/units.jsonl",
+      "sha256": "1fa16dffe84c21c22b193bf66775553bb428012eace941e1644a65de1898b57d",
+      "bytes": 1557247
+    },
+    {
+      "source": "results/inference/hard-auxiliary-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-final/inference/11/units.jsonl",
+      "sha256": "21d2124728a684963383693c6d3cd12ca24dde46d27040b7dea34fd0107eeaf6",
+      "bytes": 1589105
+    },
+    {
+      "source": "results/inference/logistic-fine-tessera/units.jsonl",
+      "target": "verification-work/output-final/inference/2/units.jsonl",
+      "sha256": "e961ed219920b444d2c9007b67c9f3a2c35b817576cc738aa6c94015c561f6ee",
+      "bytes": 1620549
+    },
+    {
+      "source": "results/inference/logistic-fine-alphaearth/units.jsonl",
+      "target": "verification-work/output-final/inference/3/units.jsonl",
+      "sha256": "31369552e66cb0e52c5745023ca965963603477e9467b419ae27ebcb9c608f72",
+      "bytes": 1622806
+    },
+    {
+      "source": "results/census-inference/logistic-broad-tessera/units.jsonl",
+      "target": "verification-work/output-final/inference/4/units.jsonl",
+      "sha256": "513aeb5627b3131e01aa0bf34ceeda6fda338708d3c1a158d406a9280b50016c",
+      "bytes": 159994
+    },
+    {
+      "source": "results/census-inference/logistic-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-final/inference/5/units.jsonl",
+      "sha256": "6a6839d6fd4e214765393813657e2f8045ecf22b957ed2546e8a41b82d57bd4a",
+      "bytes": 160484
+    },
+    {
+      "source": "results/inference/forest-broad-tessera/units.jsonl",
+      "target": "verification-work/output-final/inference/6/units.jsonl",
+      "sha256": "447c18921454052049ec9075a58ba13a93da626670aab7025f0cf40c926b896f",
+      "bytes": 1599981
+    },
+    {
+      "source": "results/inference/logistic-broad-refreshed-tessera/units.jsonl",
+      "target": "verification-work/output-final/inference/7/units.jsonl",
+      "sha256": "a54147ef9213e6533e460d34d8291f7d9a60a8ab0b37998f565954f104c3a9cf",
+      "bytes": 1553343
+    },
+    {
+      "source": "results/inference/hard-auxiliary-broad-tessera/units.jsonl",
+      "target": "verification-work/output-final/inference/8/units.jsonl",
+      "sha256": "10b5afe7904fbf8a7ace1d02477566cfbdf34375532f671e7b4814e16f090626",
+      "bytes": 1590072
+    },
+    {
+      "source": "results/inference/forest-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-final/inference/9/units.jsonl",
+      "sha256": "80af07b3a8a2ea21f3f548e4060b26a203600a7d9ca865c44fd60237f063b119",
+      "bytes": 1604952
+    },
+    {
+      "source": "results/additional-arable-high-replication/cohort.json",
+      "target": "verification-work/output-final/supplements/additional-arable-high-replication/cohort.json",
+      "sha256": "43111024d1e355c53215751bba4daaf98883201fc0a9516d3cd0c3ed01c7ea62",
+      "bytes": 2261
+    },
+    {
+      "source": "results/additional-arable-high-replication/units.jsonl",
+      "target": "verification-work/output-final/supplements/additional-arable-high-replication/units.jsonl",
+      "sha256": "5496ad9d70e2a163192fc3bc8690af2c7a84e54006999734844ff3ab4ae65a78",
+      "bytes": 200614
+    },
+    {
+      "source": "results/additional-geography/units.jsonl",
+      "target": "verification-work/output-final/supplements/additional-geography/units.jsonl",
+      "sha256": "d3e336ee10bad190e5ace65420581f6332360e4181837998376525a3496c306d",
+      "bytes": 510594
+    },
+    {
+      "source": "results/additional-arable-high-replication/cohort.json",
+      "target": "verification-work/output-final/supplements/additional-geography-arable/cohort.json",
+      "sha256": "43111024d1e355c53215751bba4daaf98883201fc0a9516d3cd0c3ed01c7ea62",
+      "bytes": 2261
+    },
+    {
+      "source": "results/additional-geography-arable/units.jsonl",
+      "target": "verification-work/output-final/supplements/additional-geography-arable/units.jsonl",
+      "sha256": "d0071cc25c8b7bff507dcc38910fc9331a102a010e4a89b250ccafb6a41e254d",
+      "bytes": 188035
+    },
+    {
+      "source": "results/power/alphaearth/units.jsonl",
+      "target": "verification-work/output-final/supplements/power-alphaearth/units.jsonl",
+      "sha256": "8dc701d807c1e12fbde088711a78e37ff19c73083a0a98cb7578d57a2647ddd2",
+      "bytes": 14220
+    },
+    {
+      "source": "results/power/tessera/units.jsonl",
+      "target": "verification-work/output-final/supplements/power-tessera/units.jsonl",
+      "sha256": "b6640c60a251e97683413944869be81e300cd1957bf98e166a1e14da05e9d96d",
+      "bytes": 14220
+    },
+    {
+      "source": "results/reference-frames/units.jsonl",
+      "target": "verification-work/output-final/supplements/reference-frames/units.jsonl",
+      "sha256": "1d2ba9eb42827010a0963d092afe33bf97740520ec012a6e63d5c19d470f15e4",
+      "bytes": 1918358
+    },
+    {
+      "source": "results/registration/units.jsonl",
+      "target": "verification-work/output-final/supplements/registration/units.jsonl",
+      "sha256": "4a24b542802493bd74dcb320930e96e2999946f5158e6ba980d6609aebacdf1d",
+      "bytes": 196444
+    },
+    {
+      "source": "results/review-label-error/generation.json",
+      "target": "verification-work/output-final/supplements/review-label-error/generation.json",
+      "sha256": "40c8383b1999cf34c868bcf50f3cdc0ae9e950de3d651cbb801e95c46a011cb6",
+      "bytes": 775936
+    },
+    {
+      "source": "results/stable-arable/cohort.json",
+      "target": "verification-work/output-final/supplements/stable-arable/cohort.json",
+      "sha256": "40dd08447e8704853011f85b2fcbc102a839187e8ef9369b63dc664be3bfaa7d",
+      "bytes": 7359
+    },
+    {
+      "source": "results/stable-arable/units.jsonl",
+      "target": "verification-work/output-final/supplements/stable-arable/units.jsonl",
+      "sha256": "abca402ebcccd67b502e9302f557db434b725360bdd868c66f5835c76ca9c7c1",
+      "bytes": 787358
+    },
+    {
+      "source": "results/stratified/alphaearth/contexts.jsonl",
+      "target": "verification-work/output-final/supplements/stratified-alphaearth/contexts.jsonl",
+      "sha256": "6ce2921d79a005f80ac789aa4f53a476992d4b7ed026d838eaf6388716591ea4",
+      "bytes": 50244
+    },
+    {
+      "source": "results/stratified/tessera/contexts.jsonl",
+      "target": "verification-work/output-final/supplements/stratified-tessera/contexts.jsonl",
+      "sha256": "580159818961e243aab27ca659e7144d8b9db5d1e4483de8e4be7f1caa9575d1",
+      "bytes": 49933
+    },
+    {
+      "source": "results/inference/logistic-broad-tessera/units.jsonl",
+      "target": "verification-work/output-preliminary-1/inference/0/units.jsonl",
+      "sha256": "0bc97c83290dc0fd6700c6e8a7d0aca99aae86dab5cfe5e5d73cc3a7d787afd7",
+      "bytes": 1593238
+    },
+    {
+      "source": "results/inference/logistic-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-preliminary-1/inference/1/units.jsonl",
+      "sha256": "c0112d4d0a78e3ba6720dfb7258a7b66ccf22599aaf58e0a082f79f0cbc1ccc6",
+      "bytes": 1593511
+    },
+    {
+      "source": "results/inference/logistic-fine-tessera/units.jsonl",
+      "target": "verification-work/output-preliminary-1/inference/2/units.jsonl",
+      "sha256": "e961ed219920b444d2c9007b67c9f3a2c35b817576cc738aa6c94015c561f6ee",
+      "bytes": 1620549
+    },
+    {
+      "source": "results/inference/logistic-fine-alphaearth/units.jsonl",
+      "target": "verification-work/output-preliminary-1/inference/3/units.jsonl",
+      "sha256": "31369552e66cb0e52c5745023ca965963603477e9467b419ae27ebcb9c608f72",
+      "bytes": 1622806
+    },
+    {
+      "source": "results/census-inference/logistic-broad-tessera/units.jsonl",
+      "target": "verification-work/output-preliminary-1/inference/4/units.jsonl",
+      "sha256": "513aeb5627b3131e01aa0bf34ceeda6fda338708d3c1a158d406a9280b50016c",
+      "bytes": 159994
+    },
+    {
+      "source": "results/census-inference/logistic-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-preliminary-1/inference/5/units.jsonl",
+      "sha256": "6a6839d6fd4e214765393813657e2f8045ecf22b957ed2546e8a41b82d57bd4a",
+      "bytes": 160484
+    },
+    {
+      "source": "results/inference/forest-broad-tessera/units.jsonl",
+      "target": "verification-work/output-preliminary-1/inference/6/units.jsonl",
+      "sha256": "447c18921454052049ec9075a58ba13a93da626670aab7025f0cf40c926b896f",
+      "bytes": 1599981
+    },
+    {
+      "source": "results/inference/hard-auxiliary-broad-tessera/units.jsonl",
+      "target": "verification-work/output-preliminary-1/inference/7/units.jsonl",
+      "sha256": "10b5afe7904fbf8a7ace1d02477566cfbdf34375532f671e7b4814e16f090626",
+      "bytes": 1590072
+    },
+    {
+      "source": "results/inference/forest-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-preliminary-1/inference/8/units.jsonl",
+      "sha256": "80af07b3a8a2ea21f3f548e4060b26a203600a7d9ca865c44fd60237f063b119",
+      "bytes": 1604952
+    },
+    {
+      "source": "results/inference/hard-auxiliary-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-preliminary-1/inference/9/units.jsonl",
+      "sha256": "21d2124728a684963383693c6d3cd12ca24dde46d27040b7dea34fd0107eeaf6",
+      "bytes": 1589105
+    },
+    {
+      "source": "results/power/alphaearth/units.jsonl",
+      "target": "verification-work/output-preliminary-1/supplements/power-alphaearth/units.jsonl",
+      "sha256": "8dc701d807c1e12fbde088711a78e37ff19c73083a0a98cb7578d57a2647ddd2",
+      "bytes": 14220
+    },
+    {
+      "source": "results/power/tessera/units.jsonl",
+      "target": "verification-work/output-preliminary-1/supplements/power-tessera/units.jsonl",
+      "sha256": "b6640c60a251e97683413944869be81e300cd1957bf98e166a1e14da05e9d96d",
+      "bytes": 14220
+    },
+    {
+      "source": "results/reference-frames/units.jsonl",
+      "target": "verification-work/output-preliminary-1/supplements/reference-frames/units.jsonl",
+      "sha256": "1d2ba9eb42827010a0963d092afe33bf97740520ec012a6e63d5c19d470f15e4",
+      "bytes": 1918358
+    },
+    {
+      "source": "results/registration/units.jsonl",
+      "target": "verification-work/output-preliminary-1/supplements/registration/units.jsonl",
+      "sha256": "4a24b542802493bd74dcb320930e96e2999946f5158e6ba980d6609aebacdf1d",
+      "bytes": 196444
+    },
+    {
+      "source": "results/stable-arable/cohort.json",
+      "target": "verification-work/output-preliminary-1/supplements/stable-arable/cohort.json",
+      "sha256": "40dd08447e8704853011f85b2fcbc102a839187e8ef9369b63dc664be3bfaa7d",
+      "bytes": 7359
+    },
+    {
+      "source": "results/stable-arable/units.jsonl",
+      "target": "verification-work/output-preliminary-1/supplements/stable-arable/units.jsonl",
+      "sha256": "abca402ebcccd67b502e9302f557db434b725360bdd868c66f5835c76ca9c7c1",
+      "bytes": 787358
+    },
+    {
+      "source": "results/stratified/alphaearth/contexts.jsonl",
+      "target": "verification-work/output-preliminary-1/supplements/stratified-alphaearth/contexts.jsonl",
+      "sha256": "6ce2921d79a005f80ac789aa4f53a476992d4b7ed026d838eaf6388716591ea4",
+      "bytes": 50244
+    },
+    {
+      "source": "results/stratified/tessera/contexts.jsonl",
+      "target": "verification-work/output-preliminary-1/supplements/stratified-tessera/contexts.jsonl",
+      "sha256": "580159818961e243aab27ca659e7144d8b9db5d1e4483de8e4be7f1caa9575d1",
+      "bytes": 49933
+    },
+    {
+      "source": "verification-work/output-preliminary-1/rendered-documents/claims.jsonl",
+      "target": "verification-work/output-quick-refreshed/rendered-documents/claims.jsonl",
+      "sha256": "4ae6ac35af3efda9fa47f5f52dabd672366fb9481204a00e2402bc0845f7cac5",
+      "bytes": 9874
+    },
+    {
+      "source": "results/inference/logistic-broad-tessera/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/0/units.jsonl",
+      "sha256": "0bc97c83290dc0fd6700c6e8a7d0aca99aae86dab5cfe5e5d73cc3a7d787afd7",
+      "bytes": 1593238
+    },
+    {
+      "source": "results/inference/logistic-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/1/units.jsonl",
+      "sha256": "c0112d4d0a78e3ba6720dfb7258a7b66ccf22599aaf58e0a082f79f0cbc1ccc6",
+      "bytes": 1593511
+    },
+    {
+      "source": "results/inference/logistic-broad-refreshed-alphaearth/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/10/units.jsonl",
+      "sha256": "1fa16dffe84c21c22b193bf66775553bb428012eace941e1644a65de1898b57d",
+      "bytes": 1557247
+    },
+    {
+      "source": "results/inference/hard-auxiliary-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/11/units.jsonl",
+      "sha256": "21d2124728a684963383693c6d3cd12ca24dde46d27040b7dea34fd0107eeaf6",
+      "bytes": 1589105
+    },
+    {
+      "source": "results/inference/logistic-fine-tessera/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/2/units.jsonl",
+      "sha256": "e961ed219920b444d2c9007b67c9f3a2c35b817576cc738aa6c94015c561f6ee",
+      "bytes": 1620549
+    },
+    {
+      "source": "results/inference/logistic-fine-alphaearth/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/3/units.jsonl",
+      "sha256": "31369552e66cb0e52c5745023ca965963603477e9467b419ae27ebcb9c608f72",
+      "bytes": 1622806
+    },
+    {
+      "source": "results/census-inference/logistic-broad-tessera/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/4/units.jsonl",
+      "sha256": "513aeb5627b3131e01aa0bf34ceeda6fda338708d3c1a158d406a9280b50016c",
+      "bytes": 159994
+    },
+    {
+      "source": "results/census-inference/logistic-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/5/units.jsonl",
+      "sha256": "6a6839d6fd4e214765393813657e2f8045ecf22b957ed2546e8a41b82d57bd4a",
+      "bytes": 160484
+    },
+    {
+      "source": "results/inference/forest-broad-tessera/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/6/units.jsonl",
+      "sha256": "447c18921454052049ec9075a58ba13a93da626670aab7025f0cf40c926b896f",
+      "bytes": 1599981
+    },
+    {
+      "source": "results/inference/logistic-broad-refreshed-tessera/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/7/units.jsonl",
+      "sha256": "a54147ef9213e6533e460d34d8291f7d9a60a8ab0b37998f565954f104c3a9cf",
+      "bytes": 1553343
+    },
+    {
+      "source": "results/inference/hard-auxiliary-broad-tessera/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/8/units.jsonl",
+      "sha256": "10b5afe7904fbf8a7ace1d02477566cfbdf34375532f671e7b4814e16f090626",
+      "bytes": 1590072
+    },
+    {
+      "source": "results/inference/forest-broad-alphaearth/units.jsonl",
+      "target": "verification-work/output-submission-1/inference/9/units.jsonl",
+      "sha256": "80af07b3a8a2ea21f3f548e4060b26a203600a7d9ca865c44fd60237f063b119",
+      "bytes": 1604952
+    },
+    {
+      "source": "results/additional-arable-high-replication/cohort.json",
+      "target": "verification-work/output-submission-1/supplements/additional-arable-high-replication/cohort.json",
+      "sha256": "43111024d1e355c53215751bba4daaf98883201fc0a9516d3cd0c3ed01c7ea62",
+      "bytes": 2261
+    },
+    {
+      "source": "results/additional-arable-high-replication/units.jsonl",
+      "target": "verification-work/output-submission-1/supplements/additional-arable-high-replication/units.jsonl",
+      "sha256": "5496ad9d70e2a163192fc3bc8690af2c7a84e54006999734844ff3ab4ae65a78",
+      "bytes": 200614
+    },
+    {
+      "source": "results/additional-geography/units.jsonl",
+      "target": "verification-work/output-submission-1/supplements/additional-geography/units.jsonl",
+      "sha256": "d3e336ee10bad190e5ace65420581f6332360e4181837998376525a3496c306d",
+      "bytes": 510594
+    },
+    {
+      "source": "results/additional-arable-high-replication/cohort.json",
+      "target": "verification-work/output-submission-1/supplements/additional-geography-arable/cohort.json",
+      "sha256": "43111024d1e355c53215751bba4daaf98883201fc0a9516d3cd0c3ed01c7ea62",
+      "bytes": 2261
+    },
+    {
+      "source": "results/additional-geography-arable/units.jsonl",
+      "target": "verification-work/output-submission-1/supplements/additional-geography-arable/units.jsonl",
+      "sha256": "d0071cc25c8b7bff507dcc38910fc9331a102a010e4a89b250ccafb6a41e254d",
+      "bytes": 188035
+    },
+    {
+      "source": "results/power/alphaearth/units.jsonl",
+      "target": "verification-work/output-submission-1/supplements/power-alphaearth/units.jsonl",
+      "sha256": "8dc701d807c1e12fbde088711a78e37ff19c73083a0a98cb7578d57a2647ddd2",
+      "bytes": 14220
+    },
+    {
+      "source": "results/power/tessera/units.jsonl",
+      "target": "verification-work/output-submission-1/supplements/power-tessera/units.jsonl",
+      "sha256": "b6640c60a251e97683413944869be81e300cd1957bf98e166a1e14da05e9d96d",
+      "bytes": 14220
+    },
+    {
+      "source": "results/reference-frames/units.jsonl",
+      "target": "verification-work/output-submission-1/supplements/reference-frames/units.jsonl",
+      "sha256": "1d2ba9eb42827010a0963d092afe33bf97740520ec012a6e63d5c19d470f15e4",
+      "bytes": 1918358
+    },
+    {
+      "source": "results/registration/units.jsonl",
+      "target": "verification-work/output-submission-1/supplements/registration/units.jsonl",
+      "sha256": "4a24b542802493bd74dcb320930e96e2999946f5158e6ba980d6609aebacdf1d",
+      "bytes": 196444
+    },
+    {
+      "source": "results/stable-arable/cohort.json",
+      "target": "verification-work/output-submission-1/supplements/stable-arable/cohort.json",
+      "sha256": "40dd08447e8704853011f85b2fcbc102a839187e8ef9369b63dc664be3bfaa7d",
+      "bytes": 7359
+    },
+    {
+      "source": "results/stable-arable/units.jsonl",
+      "target": "verification-work/output-submission-1/supplements/stable-arable/units.jsonl",
+      "sha256": "abca402ebcccd67b502e9302f557db434b725360bdd868c66f5835c76ca9c7c1",
+      "bytes": 787358
+    },
+    {
+      "source": "results/stratified/alphaearth/contexts.jsonl",
+      "target": "verification-work/output-submission-1/supplements/stratified-alphaearth/contexts.jsonl",
+      "sha256": "6ce2921d79a005f80ac789aa4f53a476992d4b7ed026d838eaf6388716591ea4",
+      "bytes": 50244
+    },
+    {
+      "source": "results/stratified/tessera/contexts.jsonl",
+      "target": "verification-work/output-submission-1/supplements/stratified-tessera/contexts.jsonl",
+      "sha256": "580159818961e243aab27ca659e7144d8b9db5d1e4483de8e4be7f1caa9575d1",
+      "bytes": 49933
+    }
+  ],
+  "scope": "Only byte-identical CSV/JSONL/JSON in completed passed self-reruns; exact full-file SHA-256 match precedes hardlinking; every path/value retained. No original scientific file content changed."
+}

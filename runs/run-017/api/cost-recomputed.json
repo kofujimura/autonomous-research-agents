@@ -1,0 +1,21 @@
+{
+  "call_id": "API001",
+  "model": "gpt-6-astra",
+  "input_tokens": 116078,
+  "ordinary_input_tokens": 109965,
+  "cached_input_tokens": 0,
+  "cache_write_tokens": 6113,
+  "output_tokens": 12786,
+  "reasoning_tokens": 7851,
+  "web_search_call_items": 13,
+  "provider_tool_usage_web_requests": 11,
+  "requested_cache_options": null,
+  "returned_prompt_cache_retention": "24h",
+  "returned_write_lifetime_breakdown": null,
+  "cost_usd": null,
+  "cost_usd_lower_bound": 1.9453625,
+  "cost_usd_upper_bound": 2.021775,
+  "reason": "Returned write-token count lacks the current 30m/12h lifetime breakdown and legacy retention is 24h. Prices for both current lifetimes are confirmed, but exact invoice-priced write charge is not observable. Do not invent a lifetime. Search item count follows skill step 6, which differs from provider tool_usage request count.",
+  "price_source": "data/literature/openai-pricing.md",
+  "cache_documentation": "data/literature/prompt-caching.md"
+}

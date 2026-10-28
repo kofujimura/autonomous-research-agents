@@ -1,0 +1,32 @@
+{
+  "experiment_id": "input-figures-v23",
+  "start_at_utc": "2026-10-25T18:06:01Z",
+  "end_at_utc": "2026-10-25T18:06:02Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/input_figures.py",
+    "--main",
+    "analysis/direct-inputs-v23",
+    "--extension",
+    "analysis/nlcd-direct-inputs-v23",
+    "--output",
+    "figures"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/plan-v23.md",
+  "plan_commit_id": "16dab509c06d04739a867a99610145bcfb50f1bb",
+  "additional_plan_commits": {},
+  "code_commit_id": "ca43aafc0aed8eae7eab1f5c537f243915353864",
+  "input_sha256": {
+    "analysis/direct-inputs-v23/metrics.csv": "c952725ac98eafc4553d6df6e7a40746c01257875ce67c32869a89b5a929973c",
+    "analysis/nlcd-direct-inputs-v23/metrics.csv": "5e62eff06d2e819ebd9d592d1feda001a1a03dd5a147b2a0bf55202c821d298f"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0537",
+  "pid": 31481,
+  "elapsed_seconds": 1.2209139168262482,
+  "end_event_id": "E0538"
+}

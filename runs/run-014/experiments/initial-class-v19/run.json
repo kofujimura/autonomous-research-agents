@@ -1,0 +1,38 @@
+{
+  "experiment_id": "initial-class-v19",
+  "start_at_utc": "2026-10-25T15:12:17Z",
+  "end_at_utc": "2026-10-25T15:12:21Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/initial_class.py",
+    "--dataset",
+    "lcmap",
+    "--main",
+    "analysis/main-v1",
+    "--initial",
+    "analysis/initial-vector-v17",
+    "--geography",
+    "analysis/geography-v18",
+    "--output",
+    "analysis/initial-class-v19"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v19.md",
+  "plan_commit_id": "a3ce719aebb9fe8084c7b6696f92f5b13d65e3c1",
+  "additional_plan_commits": {},
+  "code_commit_id": "8d5895e87b0ebdc87900d21fc500b463e755dc80",
+  "input_sha256": {
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+    "analysis/main-v1/availability-targets.csv": "8df37c4aa3abc05022d93285e143d169572ccdefbfd6135814c226a82153ecbd",
+    "analysis/initial-vector-v17/predictions.parquet": "bed01c2cfb91193e85372dacea06bee48c1d1714547dc4791f2a11a213ea001d",
+    "analysis/geography-v18/predictions.parquet": "1550981a2aaf3576544374992bbb7fa83c2714f8870d97bf5e5fd00123a37d7e"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0401",
+  "pid": 26356,
+  "elapsed_seconds": 3.7634124578908086,
+  "end_event_id": "E0403"
+}

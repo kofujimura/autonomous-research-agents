@@ -1,0 +1,2 @@
+P002 recount: subpath-error rows 486 distinct task ids 162
+P001: fetch-nlcd-aef-008-011 end 12:51:08Z, fetch-nlcd-aef-012-015 start 12:50:47Z, fetch-tessera-033 12:48:02-12:58:40Z -> 21 s overlap with 3 registered

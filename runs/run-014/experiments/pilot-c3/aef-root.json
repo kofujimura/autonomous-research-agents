@@ -1,0 +1,70 @@
+{
+  "zarr_format": 3,
+  "node_type": "group",
+  "attributes": {
+    "proj:code": "EPSG:4326",
+    "spatial:dimensions": [
+      "y",
+      "x"
+    ],
+    "spatial:transform": [
+      0.00008983111749910169,
+      0.0,
+      -180.0,
+      0.0,
+      -0.00008983111749910169,
+      83.68570533713473
+    ],
+    "spatial:transform_type": "affine",
+    "spatial:bbox": [
+      -180.0,
+      -83.36280346631479,
+      180.2213438735178,
+      83.68570533713473
+    ],
+    "spatial:shape": [
+      1859584,
+      4009984
+    ],
+    "spatial:registration": "pixel",
+    "geoemb:type": "pixel",
+    "geoemb:dimensions": 64,
+    "geoemb:model": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL",
+    "geoemb:source_data": "https://source.coop/tge-labs/aef/v1/annual/",
+    "geoemb:data_type": "int8",
+    "geoemb:gsd": 0.00008983111749910169,
+    "geoemb:quantization": {
+      "method": "signed_square",
+      "original_dtype": "float32",
+      "quantized_dtype": "int8",
+      "formula": "(x / 127.5) ** 2 * sign(x)",
+      "valid_range": [
+        -127,
+        127
+      ],
+      "nodata": -128
+    },
+    "zarr_conventions": [
+      {
+        "uuid": "f17cb550-5864-4468-aeb7-f3180cfb622f",
+        "name": "proj:",
+        "description": "Coordinate reference system information for geospatial data",
+        "spec_url": "https://github.com/zarr-experimental/geo-proj/blob/v1/README.md",
+        "schema_url": "https://raw.githubusercontent.com/zarr-experimental/geo-proj/refs/tags/v1/schema.json"
+      },
+      {
+        "uuid": "689b58e2-cf7b-45e0-9fff-9cfc0883d6b4",
+        "name": "spatial:",
+        "description": "Spatial coordinate information",
+        "spec_url": "https://github.com/zarr-conventions/spatial/blob/v1/README.md",
+        "schema_url": "https://raw.githubusercontent.com/zarr-conventions/spatial/refs/tags/v1/schema.json"
+      },
+      {
+        "uuid": "61c12cc5-0e28-4056-999a-480cf3fb7e4c",
+        "name": "geoemb:",
+        "description": "Geo-embeddings metadata for machine learning embeddings stored in Zarr",
+        "spec_url": "https://github.com/geo-embeddings/embeddings-zarr-convention/tree/add-convention"
+      }
+    ]
+  }
+}

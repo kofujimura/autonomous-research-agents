@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-10-26T04:55:54Z",
+  "primary_cases_path": "results/primary/cases.csv",
+  "primary_cases_sha256": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d",
+  "selected_cases_path": "protocol/sensitivity-cohort-v1.csv",
+  "selected_cases_sha256": "1b5223187e01b0642b83d91a0fc4f0c27d3094535ae5f382b5b261e02d7f146b",
+  "selected_case_count": 120,
+  "method": "Original plan-v1: first120SHA256(seed|case_key)ordered informative M50,n12 cases from complete matched dates.",
+  "matched_dates": 28,
+  "primary_cases": 12096,
+  "primary_informative_cases": 2871
+}

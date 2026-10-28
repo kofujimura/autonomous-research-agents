@@ -1,0 +1,2 @@
+/Users/fujimura/Research/ai-free-research-en/run-018/code/collect_embeddings.py:21: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  geoms=[transform(forward,shape(f['geometry'])) for f in fs]

@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-27T09:52:54.171422Z",
+  "fitted_models_evaluated": 285,
+  "paired_comparisons_checked": 320,
+  "identical_probability_comparisons": 0,
+  "identical_test_decision_comparisons": 0,
+  "primary_fit_count": 75,
+  "primary_all_positive_fit_core_cases": 0,
+  "primary_all_negative_fit_core_cases": 0,
+  "primary_empty_scoring_fit_core_cases": 0,
+  "primary_fit_core_cases": 1200,
+  "primary_minimum_achieved_fpr": 0.04999887001483254,
+  "primary_maximum_achieved_fpr": 0.04999887001483254,
+  "primary_recovery_at_floor_fits": 0,
+  "primary_recovery_at_ceiling_fits": 0
+}

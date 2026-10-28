@@ -1,0 +1,8 @@
+{
+  "exploratory": true,
+  "unit_count": 115,
+  "all_available_cases": 12420,
+  "numerical_rank_relative_threshold": 1e-10,
+  "row_space_max_residual_tolerance": 1e-08,
+  "scope": "Known numerical sufficient conditions, not formal proof or new bounding theory; rank deficiency does not prove joint-law nonuniqueness."
+}

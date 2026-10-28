@@ -1,0 +1,28 @@
+{
+  "experiment_id": "A008-integrated-report",
+  "started_at_utc": "2026-10-26T06:48:33Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/report_bundle.py",
+    "--output",
+    "results"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v12-decision-composition.md",
+  "plan_commit_id": "1b2ba0b28150f8fc1b3be1dad8dd0aa05b209d11",
+  "code_commit_id": "210a69fa70d77f40f7fb985d069d5065e98d0dca",
+  "input_sha256": {
+    "results/primary/cases.csv": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d",
+    "protocol/plan-v1.md": "61cc37f86ccba641314f98d51017ca3d0cc3e03c2db56b89305cc6651876a855",
+    "protocol/plan-v3.1-subset-clarification.md": "fe032492db430b4b2f5bf3c0f3b07eeafb75bddc0181d8bde89f750d8205a6a1",
+    "protocol/plan-v4.2-land-diagnostic.md": "5bc48462a07270a0bcdb8faa54d853727171b251e93e0441713d3484b9f70882",
+    "protocol/plan-v10-controlled-moment-precision.md": "7deeea386e987a0d70e3bf9e3b7f1b4d3a2c847605717f7aaa906544b0a76e0f"
+  },
+  "status": "completed",
+  "start_event_id": "E0492",
+  "child_pid": 64666,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T06:49:11Z",
+  "elapsed_seconds": 37.45825104089454,
+  "end_event_id": "E0494"
+}

@@ -1,0 +1,5 @@
+# Secondary interval reporting after the first primary result
+
+The original primary analysis and its numeric output remain preserved in E38/E41. After viewing that result, extend the same fixed-threshold paired core/seed bootstrap to the already planned decoder, fitting-budget and leave-one-region-out conditions. This does not change any primary metric, exclusion, hypothesis or training procedure. Use the original five seeds, 2,000 replicates and bootstrap seed; fix the convenience region set actually evaluated by each condition (one for a leave-region-out fit). Report missing cells and undefined replicates. These secondary uncertainty summaries are added after the primary result and are exploratory with respect to v1. They do not correct for searching across multiple secondary conditions and do not establish national inference.
+
+Figure layout is adjusted after visual inspection to separate captions and axis labels; values and filters are unchanged. Preserve the earlier figures in their dated analysis snapshots.

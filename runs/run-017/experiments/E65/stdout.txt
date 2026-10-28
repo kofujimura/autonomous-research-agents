@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-27T10:46:49.875051Z",
+  "status": "PASS",
+  "failures": [],
+  "rows_compared": {
+    "scores": 6245,
+    "regional-scores": 196740,
+    "bootstrap-blocks": 299760,
+    "strata-scores": 14580
+  },
+  "absolute_tolerance": 1e-12,
+  "interpretation": "Self-check of all reported counts/estimates/intervals after aggregation optimization; not independent reproduction"
+}

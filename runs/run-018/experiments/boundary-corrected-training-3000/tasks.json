@@ -1,0 +1,35 @@
+[
+  {
+    "task_id": "training-3000",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/features-corrected",
+      "--output",
+      "analysis/boundaries-corrected/training-3000",
+      "--extra",
+      "--training-buffer",
+      "3000"
+    ],
+    "start_time_utc": "2026-10-28T04:40:15.957044+00:00",
+    "end_time_utc": "2026-10-28T04:42:14.487898+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "training-3000-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/boundaries-corrected/training-3000",
+      "--out",
+      "analysis/boundaries-corrected/training-3000-summary"
+    ],
+    "start_time_utc": "2026-10-28T04:42:14.488290+00:00",
+    "end_time_utc": "2026-10-28T04:42:18.689470+00:00",
+    "exit_code": 0
+  }
+]

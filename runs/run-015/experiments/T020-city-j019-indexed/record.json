@@ -1,0 +1,35 @@
+{
+  "experiment_id": "T020-city-j019-indexed",
+  "started_at_utc": "2026-10-26T08:18:41Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/city_time_pipeline.py",
+    "--date",
+    "20260729",
+    "--model",
+    "ifs",
+    "--horizon",
+    "7",
+    "--chunk-bytes",
+    "1048576",
+    "--indexed-extraction",
+    "--log",
+    "experiments/T020-city-j019-indexed/units.jsonl"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2.4-indexed-extraction.md",
+  "plan_commit_id": "7643a032605b45dbf09e69c5c64cd95e48d02b63",
+  "code_commit_id": "8989a5e6fc3fcd06e6872b4ffe9be71959f422bf",
+  "input_sha256": {
+    "protocol/design-v4.json": "b32b2be5bab4474dfdd67c7d925eb44ad5c1b59b4148314dce11624685b68d24",
+    "protocol/city-time-execution-order.json": "ca2ca1ff0625f9b3be01fe655dfd5f6e956b295ace8f9aa114866137e04f2c99",
+    "protocol/plan-v4.2-land-diagnostic.md": "5bc48462a07270a0bcdb8faa54d853727171b251e93e0441713d3484b9f70882"
+  },
+  "status": "completed",
+  "start_event_id": "E0561",
+  "child_pid": 68850,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T08:34:12Z",
+  "elapsed_seconds": 930.7786450828426,
+  "end_event_id": "E0574"
+}

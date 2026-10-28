@@ -1,0 +1,10 @@
+{
+  "observed_at_utc": "2026-10-26T17:01:21.403480Z",
+  "selected_counts": {
+    "train": 7,
+    "calibration": 6,
+    "test": 6
+  },
+  "attempted": 23,
+  "bytes": 3344528506
+}

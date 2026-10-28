@@ -1,0 +1,24 @@
+[
+  {
+    "task_id": "combine-all12",
+    "command": [
+      ".venv/bin/python",
+      "code/combine_transfer.py",
+      "--inputs",
+      "analysis/transfer-corrected",
+      "--output",
+      "analysis/transfer-combined-corrected"
+    ]
+  },
+  {
+    "task_id": "summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/transfer-combined-corrected",
+      "--out",
+      "analysis/transfer-corrected-summary"
+    ]
+  }
+]

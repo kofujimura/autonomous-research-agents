@@ -1,0 +1,34 @@
+{
+  "experiment_id": "B022-ifs-august",
+  "started_at_utc": "2026-10-26T03:30:35Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pipeline.py",
+    "--model",
+    "ifs",
+    "--start",
+    "33",
+    "--count",
+    "5",
+    "--chunk-bytes",
+    "1048576",
+    "--subsets",
+    "--log",
+    "experiments/B022-ifs-august/units.jsonl"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2.3-message-range.md",
+  "plan_commit_id": "36c3dbd488867104bfda9e6fc2517d5390bec776",
+  "code_commit_id": "4a7f03ae9d826de2d066fb035c9c2ed31dd06f94",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/subset-design-v3.json": "4eb1e19e92ad317f517b62f711793a827a39ba31ad64f0e7698f70baa3f4d2c7"
+  },
+  "status": "completed",
+  "start_event_id": "E0235",
+  "child_pid": 55515,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T03:44:04Z",
+  "elapsed_seconds": 808.9227602500468,
+  "end_event_id": "E0239"
+}

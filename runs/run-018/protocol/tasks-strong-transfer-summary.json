@@ -1,0 +1,80 @@
+[
+  {
+    "task_id": "rf-all-benchmark-combine",
+    "command": [
+      ".venv/bin/python",
+      "code/combine_transfer.py",
+      "--inputs",
+      "analysis/transfer-strong/rf-all-benchmark",
+      "--output",
+      "analysis/transfer-strong-combined/rf-all-benchmark",
+      "--round-trip"
+    ]
+  },
+  {
+    "task_id": "rf-all-benchmark-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/transfer-strong-combined/rf-all-benchmark",
+      "--out",
+      "analysis/transfer-strong/rf-all-benchmark-summary"
+    ]
+  },
+  {
+    "task_id": "hgb-raw-combine",
+    "command": [
+      ".venv/bin/python",
+      "code/combine_transfer.py",
+      "--inputs",
+      "analysis/transfer-strong/hgb-raw",
+      "--output",
+      "analysis/transfer-strong-combined/hgb-raw",
+      "--round-trip"
+    ]
+  },
+  {
+    "task_id": "hgb-raw-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/transfer-strong-combined/hgb-raw",
+      "--out",
+      "analysis/transfer-strong/hgb-raw-summary"
+    ]
+  },
+  {
+    "task_id": "hgb-white-combine",
+    "command": [
+      ".venv/bin/python",
+      "code/combine_transfer.py",
+      "--inputs",
+      "analysis/transfer-strong/hgb-white",
+      "--output",
+      "analysis/transfer-strong-combined/hgb-white",
+      "--round-trip"
+    ]
+  },
+  {
+    "task_id": "hgb-white-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/transfer-strong-combined/hgb-white",
+      "--out",
+      "analysis/transfer-strong/hgb-white-summary"
+    ]
+  },
+  {
+    "task_id": "audit",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_strong_transfer.py",
+      "--out",
+      "analysis/strong-transfer-audit"
+    ]
+  }
+]

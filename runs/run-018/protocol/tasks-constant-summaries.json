@@ -1,0 +1,57 @@
+[
+  {
+    "task_id": "constant-seed-0",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-seed-0",
+      "--out",
+      "analysis/controls/constant-seed-0-summary"
+    ]
+  },
+  {
+    "task_id": "constant-seed-1000",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-seed-1000",
+      "--out",
+      "analysis/controls/constant-seed-1000-summary"
+    ]
+  },
+  {
+    "task_id": "constant-seed-2000",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-seed-2000",
+      "--out",
+      "analysis/controls/constant-seed-2000-summary"
+    ]
+  },
+  {
+    "task_id": "constant-all",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-all",
+      "--out",
+      "analysis/controls/constant-all-summary"
+    ]
+  },
+  {
+    "task_id": "constant-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/constant-hgb",
+      "--out",
+      "analysis/controls/constant-hgb-summary"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+{"date": "20260806", "ended_at_utc": "2026-10-26T08:37:58Z", "error": "Range failed after bounded retries, member 10", "error_type": "RuntimeError", "lead": 72, "model": "ifs", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T08:36:35Z", "status": "failed"}
+{"date": "20260806", "ended_at_utc": "2026-10-26T08:42:38Z", "lead": 78, "model": "ifs", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T08:37:58Z", "status": "completed"}
+{"date": "20260806", "ended_at_utc": "2026-10-26T08:47:39Z", "lead": 84, "model": "ifs", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T08:42:38Z", "status": "completed"}
+{"date": "20260806", "ended_at_utc": "2026-10-26T08:52:15Z", "lead": 90, "model": "ifs", "stage": "raw_city_time_acquisition", "started_at_utc": "2026-10-26T08:47:39Z", "status": "completed"}
+{"date": "20260806", "horizon": 3, "missing_leads": [72], "model": "ifs", "observed_at_utc": "2026-10-26T08:52:15Z", "status": "incomplete_horizon"}

@@ -1,0 +1,20 @@
+{
+  "pilot_id": "P01",
+  "candidates": [
+    "Q01",
+    "Q02"
+  ],
+  "started_at_utc": "2026-10-26T14:52:09Z",
+  "ended_at_utc": "2026-10-26T14:57:19.048062Z",
+  "kind": "metadata/data-access feasibility; no forecast-effect estimate",
+  "results": {
+    "public_metadata": true,
+    "neuralgcm_surface_temperature": false,
+    "neuralgcm_surface_wind": false,
+    "ifs_surface_fields": true,
+    "gencast_hindcasts": "Access request form required; did not request or attempt restricted access",
+    "weathernext3": "Full ensembles requester-pays; did not access",
+    "data_volume_estimate": "IFS surface chunks ~4*50*64*32*4 bytes uncompressed per init-block/lead; size obtained from metadata, not a measured full download"
+  },
+  "decision": "Heat-response and near-surface wind applications cannot simply substitute upper-air NeuralGCM fields; full new-model data unavailable within permissions. Retain this failure for selection."
+}

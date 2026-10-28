@@ -1,0 +1,135 @@
+{
+ "meta": {
+  "reviewer": "gemini-pdf",
+  "model": "gemini-4-argon",
+  "run": "017",
+  "rep": 1,
+  "started_utc": "2026-10-28T13:32:51Z",
+  "figures": 1,
+  "usage": {
+   "input_tokens": 32609,
+   "output_tokens": 12166,
+   "thought_tokens": 8846,
+   "search_queries": 6
+  },
+  "cost_usd": 0.270878,
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP"
+ },
+ "review": {
+  "summary": "This paper investigates how training-point allocation interacts with predictor representation—specifically Google's AlphaEarth Foundations (AEF v2.1) annual 10 m satellite embeddings versus seasonal Sentinel-2 optical features—for recovering small mapped palustrine wetland patches (0.2–1 ha) across four US National Wetlands Inventory (NWI) projects. With a fixed budget of 2,000 training pixel positions and random forest (or logistic regression) classifiers, standard uniform within-class pixel sampling ('area, balanced') weights patches proportionally to their area, heavily under-sampling small patches, whereas 'patch-first' ('oracle object') allocation selects a mapped patch uniformly at random and then picks a pixel inside it. In the preplanned split (16 test cores, 227 small patches), patch-first allocation improves small-patch recovery (>=50% pixel coverage at a 5% pooled reference-upland false-positive rate) by +12.8 percentage points (pp) for embeddings (44.8% to 57.6%) versus +1.2 pp for optical features (36.4% to 37.6%), yielding an interaction of 11.6 pp. However, extensive follow-up checks reveal a much more nuanced picture: (1) across four split rotations (978 small patches), both embeddings (+8.4 pp) and optical predictors (+3.9 pp) benefit, attenuating the interaction to 4.5 pp (and 2.4 pp across the three new splits alone); (2) under an 'any-overlap' (>=1 pixel) recovery definition, optical maps actually touch more small patches than embeddings (76.1% vs. 71.4%), whereas embeddings cover more patches by at least half (50.0% vs. 41.8%); (3) inverse-patch-size loss weighting on fixed area-sampled pixels recovers most of the oracle gain (+6.9 to +7.6 pp), and between-core spatial quota shifts account for +4.4 pp; (4) embedding-guided uncertainty sampling partially recovers the benefit (+5.4 pp) without ground-truth object identities; and (5) whole-project geographic transfer and cross-project threshold transport fail to preserve the gains, with transferred thresholds causing test false-positive rates to swing from 0.1% to 15.2%. Overall, this is a methodologically rigorous, self-critical empirical study with valuable diagnostic insights, held back mainly by an artificial 'subsampling known polygons' primary framing and a dense, audit-log writing style with minor figure defects.",
+  "scores": {
+   "correctness": 4,
+   "verifiability": 4,
+   "novelty": 3,
+   "generality": 3,
+   "usefulness": 3,
+   "clarity": 3
+  },
+  "score_reasons": {
+   "correctness": "Claims are carefully qualified and supported by thorough ablations that proactively uncover split dependence, regional FPR redistribution, and threshold transport failures, though most mechanism ablations remain conditioned only on the atypical initial split.",
+   "verifiability": "Data sources, preprocessing rules, classifier hyperparameters, sampling algorithms, and protocol amendments (v1-v11) are documented in exceptional detail, with only exact core center coordinates deferred to external repository files.",
+   "novelty": "While polygon-equal sampling, size-weighted losses, and small-waterbody mapping with AlphaEarth embeddings have precedent, isolating the interaction between point allocation and frozen embeddings vs. optical features at matched pixel positions is a solid empirical contribution.",
+   "generality": "Evaluation across four distinct US wetland regions, four split rotations, and leave-one-region-out transfers rigorously establishes both the within-project utility of patch-first weighting and its failure to generalize across regions under fixed thresholds.",
+   "usefulness": "Provides practical insights into how pixel-level metrics mask small-patch omission and how smooth embeddings vs. noisy optical maps trade off any-overlap detection against >=50% patch coverage, though subsampling points from an existing polygon inventory is a somewhat contrived workflow.",
+   "clarity": "Definitions and limitations are unusually precise, but the text reads like a dense protocol audit log cluttered with internal file paths, version tags, unformatted markdown link placeholders, a clipped figure on page 11, and a missing figure in Appendix G."
+  },
+  "verdict": "minor revision",
+  "overall_10": 6,
+  "workshop_level": "yes",
+  "main_track_level": "borderline",
+  "research_question": {
+   "question": "How does training-point allocation (patch-first vs. uniform pixel sampling) interact with annual satellite embeddings versus seasonal optical predictors in recovering small mapped wetland patches at a fixed upland false-positive rate, and can image-derived sampling recover the patch-first benefit?",
+   "question_quality": 4,
+   "predictable": "partly",
+   "predictable_reason": "It is mathematically predictable that upweighting small patches during training improves small-patch recall relative to area-proportional pixel sampling, but the representation interaction, the reversal between any-overlap and >=50% coverage, and the severe threshold-transport failure were genuinely empirical findings."
+  },
+  "main_issues": [
+   {
+    "severity": "moderate",
+    "issue": "Practical artificiality of the primary 'oracle object' subsampling setup: The main comparison assumes a mapping team already possesses complete NWI polygon boundaries in the training cores yet restricts itself to sampling 2,000 pixels to train a lightweight random forest. If full training polygons exist, one could use all polygons or apply inverse-size weights directly without needing active proposals; conversely, if annotating a new region from scratch via point queries, neither 'oracle objects' nor class-balanced 'area' initialization is available without prior labels (though the exploratory uniform-initialization check in Section 4.5 partially addresses this)."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Over-reliance on the atypical original split for mechanism decompositions: All three added split rotations produced interaction estimates (+4.7, -0.4, and +1.2 pp) below the lower 95% confidence bound of the original split (11.6 pp [4.9, 18.5]), showing that the original split had an unusually large embedding gain and unusually flat optical gain. While the paper transparently reports the 4-split pooled main effect, key mechanism tables (weighting controls, geographical-mixture quotas, image-derived proposals, budget/decoder checks) are only evaluated on the original split."
+   },
+   {
+    "severity": "moderate",
+    "issue": "Regional FPR redistribution in the primary pooled-threshold estimand: Combining a single pooled test-upland 95th-percentile threshold with an unweighted regional macro-average patch recovery allows cross-region shifts in false-positive rates (e.g., Wisconsin FPR rising from 4.3% to 7.3% while Lake Ontario drops from 7.0% to 3.9%) to inflate the primary interaction from 7.6 pp (under region-specific 5% FPR thresholds) to 11.6 pp."
+   },
+   {
+    "severity": "minor",
+    "issue": "Omission of the accuracy trade-off on large patches and pixel Average Precision from the main text: Section 4.1 notes that pooled pixel IoU and producer's accuracy barely change at the 5% FPR threshold, potentially giving the impression that small-patch gains come with no cost. However, Appendix G reveals that oracle object allocation reduces pixel-level Average Precision by 3.6 pp for embeddings (72.8% to 69.2%) and reduces large-patch (>=10 ha) recovery from 83.3% to 77.8% across splits; this trade-off should be highlighted in the main results."
+   },
+   {
+    "severity": "minor",
+    "issue": "Figure defects and missing figure: In the second figure (page 11, right panel 'Validation threshold replay'), both the panel title and the x-axis label ('Achieved reference-upland FPR (') are clipped at the right margin, with data points sitting on the border. Additionally, Appendix G (page 21) discusses 'The plotted coverage-by-size figure', but that figure is completely missing from the PDF."
+   },
+   {
+    "severity": "minor",
+    "issue": "Audit-log prose and unformatted citations/links: The manuscript is heavily cluttered with internal repository file paths (e.g., protocol/deviations.jsonl, review/offline-verification.json), commit/event IDs (E03/E62/E64), protocol version numbers (v1-v11), bare end-of-paragraph author-year strings without parentheses, and stripped markdown link anchors (e.g., 'Prairie Pothole report, Vermont report, New York report, Wisconsin report' on page 4)."
+   }
+  ],
+  "strengths": [
+   "Exceptional scientific honesty and self-critique: The paper proactively tests and highlights how its own primary finding attenuates across split rotations (from 11.6 pp to 4.5 pp pooled), how regional FPR redistribution accounts for part of the pooled-threshold effect, and how cross-project threshold transport fails.",
+   "Insightful diagnostic controls: The inverse-size loss weighting experiment (keeping the exact same area-sampled pixels) and the core-matched geographical quota experiment cleanly demonstrate that reweighting existing small-patch pixels and shifting core-level sample counts drive most of the apparent object-sampling gain.",
+   "Nuanced coverage-threshold analysis: Comparing any-overlap (>=1 pixel) against >=50% and >=75% patch coverage reveals a key structural difference between noisy optical predictions (which touch more small patches) and smooth satellite embeddings (which cover more small patches substantially when properly weighted).",
+   "Rigorous experimental design: Matching exact pixel positions across predictor sets and sharing identical negative pixels between area and oracle arms eliminates confounding noise when comparing representations."
+  ],
+  "closest_prior_work": [
+   {
+    "citation": "Liu, D., Zhu, X., Holgerson, M., & Xu, X. (2026). Utility and Explainability of Earth Embeddings in Mapping Small Ponds. IEEE Geoscience and Remote Sensing Letters, 23, 1505805.",
+    "url": "https://doi.org/10.1109/LGRS.2026.3740204",
+    "difference": "Evaluates AlphaEarth and TESSERA embeddings for mapping small ponds (<5 ha and 0.1-1 ha) with Random Forest and notes AEF's omission of small ponds, whereas the reviewed paper isolates how pixel vs. patch-first training-point allocation and inverse-size weighting alter small-patch recovery at matched pixel positions."
+   },
+   {
+    "citation": "Ryan, S., Powell, M., Ling, J., & Wen, L. (2026). Streamlining Wetland Vegetation Mapping with AlphaEarth Embeddings: Comparable Accuracy to Traditional Methods with Cleaner Maps and Minimal Preprocessing. Remote Sensing, 18(2), 293.",
+    "url": "https://doi.org/10.3390/rs18020293",
+    "difference": "Compares AlphaEarth embeddings with multi-source optical/SAR workflows for wetland vegetation mapping using homogeneous cluster samples and spatial coherence metrics, but does not test training-point allocation strategies or held-out small-patch recovery rates."
+   },
+   {
+    "citation": "Corcoran, J., Knight, J., Pelletier, K., Rampi, L., & Wang, Y. (2015). The Effects of Point or Polygon Based Training Data on RandomForest Classification Accuracy of Wetlands. Remote Sensing, 7(4), 4002-4025.",
+    "url": "https://doi.org/10.3390/rs70404002",
+    "difference": "Compares single-pixel, fixed-window, and image-object training and mapping units for wetland Random Forest classification, whereas the current paper keeps the pixel grid and predictors fixed to isolate the sampling allocation of training points across embeddings vs. optical features."
+   },
+   {
+    "citation": "Sharma, A., Kharbanda, A., Anand, A., Mishra, R., Zhang, Y., & Biswas, S. (2026). Wetland Mapping Under Boundary Uncertainty with AlphaEarth Embeddings, LiDAR and Sentinel. Preprints.org, 202610.0964.",
+    "url": "https://doi.org/10.20944/preprints202610.0964.v1",
+    "difference": "Examines 20 m polygon boundary exclusion and predictor combinations (AlphaEarth, LiDAR, Sentinel-2) for pixel- and area-level wetland accuracy, but does not investigate patch-first training allocation or small-patch object recovery."
+   },
+   {
+    "citation": "Yuan, S., Lin, T., Chen, S., et al. (2026). Wetland mapping from sparse annotations with satellite image time series and temporal-aware segment anything model. ISPRS Journal of Photogrammetry and Remote Sensing / arXiv:2601.11400.",
+    "url": "https://arxiv.org/abs/2601.11400",
+    "difference": "Proposes a temporal SAM architecture (WetSAM) with region-growing pseudo-labels for sparse point supervision on optical time series, rather than analyzing sampling allocation and object recovery on frozen annual satellite embeddings."
+   }
+  ],
+  "familiarity": "No, I do not recognize this specific paper beyond the footnote on page 1 stating it was produced in run-017 of the Autonomous Research Agents (2026) study.",
+  "figures_viewed": true
+ },
+ "trace": {
+  "mode": "schema",
+  "model_version": "gemini-4-argon",
+  "finish_reason": "STOP",
+  "web_search_queries": [
+   "\"AlphaEarth\" \"small\" wetland OR pond",
+   "\"AlphaEarth Foundations\" \"Streamlining Wetland Vegetation Mapping\"",
+   "\"Utility and Explainability of Earth Embeddings in Mapping Small Ponds\"",
+   "\"Effects of Point or Polygon Based Training Data on RandomForest Classification Accuracy of Wetlands\"",
+   "\"Wetland Mapping Under Boundary Uncertainty with AlphaEarth Embeddings\"",
+   "\"WetSAM\" \"Wetland mapping from sparse annotations\""
+  ],
+  "sources": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi-I9GIGu0QhVmCuvWmrCANVYfQwA_uxlDABLtnY2s5gJb_OcNuTdwCYTnffMx_HwdWQlwLximO6b-csNNdIJTZphiaN3Os5uAsrbzqJJylKbVdYA8BiO-12D6a3npCXCT-nPrnLAk_Q7PCoHgbzs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECsf3qj4DFlxwQvnynVyja8LfjBrZKv93QtF2PeBbNjRjQZ3Xd6hFsz8TxaIGNfCLrY-4YGr80j5t5tQt1WL2dX8Wf1D1VPMsBC7w8ccyZAdwMsojqHDtA_lDdfix_JnLtCiYU4Zy7hmVYqYZCTml3sM9ka0zY1jnaIyy7V3-y8k1cKmqGHM6nIgSVGLvE8Qn9swErGrjKZIoVKn3meLTAVobVpLTsXXjKqFcCeGzptPg6LXvILT_r74u8j84rsfZ4-4heC7KIB4Cm4_SAgt1q",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7Pec49E3FOAsaEz2dn2uJRpVOJu1MYwQHy7EbsjxbFm_8XgDgTHokvGVUjBzmnRMl7A_yGk7o8oVKDGbZrdjea3L9uL69hTjaWrJy1t-1-0CGnqITAaxVMxm7b_wfGZM7hOIVycz0eVrqNWy-zAnh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJGmT78X3AlPO6u0aipc68-33y6-yU50WBiT7ciP2WkJ9z_47zCrmKW8rkyN1b4Oun94TKRYyKcRBLzO0NApHy7JtShCs9TwM9SC3ZBmwgV9iLDaCvYP2maBdV7x4l01TExy9CT7yiIXTyTJWAJcIzniVgYsmFZXXlddSODkb2a0BH-d6SbiuXW7FKrU-J8agmhbehBh-B5HGBjcOJvxUwhWcHX5FBkRmGRHezVRuK1MWArRSEQYxdk0Fa-fmfnnn3gdy5dgYrYhw_1rMgCdx-M_83VRqTM-hSwmLKhuuxSaNsaKs0LvwCPKHbipMvUP6ZXUf1A1x-1rAYyA4l_4SRDSc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZfoENaEGuL_GFmnGG0B7vKkjs0KVLmRXL-2zXSLNKSD6SJ6wqCDxxRGuZbjG4HUzdQoF5yZhre0zeY4CUTwcU6HyS9Zz_6ipWFYMqHDz7zglKXzUeFOdDKaO7IA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_JgM6ITUmbJyw_0kK1MGN-Mwk_thD6-g_Jfjo2QMY4RCxytyNs-TguzzWH4_erebyQY6a79StGCrC-xs72G0xvRXYmVtXo8QZMEXlVPX3SQOFRxZ4Za3vvog=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6CNxhEDZUZAUrxf676ME9jOo0ZBQCGkPgJXs02li_7xj-LTVChTv1vtwvUvIo-HhJJtVc5lYPEdIHI4n0PT1_E30scV1WEi7gvm8pBxp0BqrkHE0rBRU92U31i6ZP-mBfYqlkQg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrW-JOMpYrZq5AQAX9rX2bwDJGBbq6r_kahdhU9dK9db5LaoDNDwBZL11nx663AdUts_G5ZpnvGdNWvBo7_bmgOUouv71EtscPB1bVVRjp5mT8YovvuBySdZXhkHpNzRPOeGmYFBa43oHXydinbR5td38Bp35pH4uAZIXlm-O5_1Msk24JyjpyNdhQSix51tw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFCB_3dEBj_IwRG0tUK2gZErix8FJ6wCFwtTkhBzcUQngfSeRnCyS2iH7Oe0nJvWa4tkQuCQc_VwcG1nSLwUVhEKYarcksd_xpvhETRguOKeYGanhA",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFggNPeFeIQqXFWshSv_Zy0wcDHP3u0HKefbhDPfFshHQgWcQBwP1TpYuAvXqy9cdbh0KqkvJ3wM40qc17xlMONjlBYOQ_JXHg7p3gt6sNiribtFAPwyQSmoeItRsJ1voLlb8MCT1Xn1A7f0U8f8DGDLkeK0RpG4Cq7v0afo6OicAU="
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "command": [
+  "verify-work/env/bin/python",
+  "-I",
+  "tools/claim_check.py",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/submitted-copy/claims.jsonl",
+  "/Users/fujimura/Research/ai-free-research-en/review-015/verify-work/reduced-results"
+ ],
+ "cwd": "/Users/fujimura/Research/ai-free-research-en/review-015",
+ "limit_seconds": 600.0,
+ "start_utc": "2026-10-26T12:32:51Z",
+ "timed_out": false,
+ "end_utc": "2026-10-26T12:32:52Z",
+ "elapsed_seconds": 0.3,
+ "exit_code": 0
+}

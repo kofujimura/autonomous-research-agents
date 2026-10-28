@@ -1,0 +1,129 @@
+{
+  "obtained_at_utc": "2026-10-25T10:01:05Z",
+  "url": "https://www.mrlc.gov/downloads/sciweb1/shared/mrlc/data-bundles/Annual_NLCD_CONUSV1_Ref_Data_Release.zip",
+  "archive_bytes": 1169270372,
+  "last_modified": "Wed, 29 Apr 2026 13:00:27 GMT",
+  "licence": "Public domain / no restrictions, official MRLC and USGS pages",
+  "members": [
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/",
+      "uncompressed_bytes": 0,
+      "compressed_bytes": 0,
+      "crc32": 0,
+      "compression": 0
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext-1.0-stratum-map-Clipped.tfw",
+      "uncompressed_bytes": 94,
+      "compressed_bytes": 32,
+      "crc32": 4209217767,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext-1.0-stratum-map-Clipped.tif",
+      "uncompressed_bytes": 1404399089,
+      "compressed_bytes": 1167564413,
+      "crc32": 4108934880,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext-1.0-stratum-map-Clipped.tif.aux.xml",
+      "uncompressed_bytes": 1195,
+      "compressed_bytes": 479,
+      "crc32": 4204008591,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext-1.0-stratum-map-Clipped.tif.vat.cpg",
+      "uncompressed_bytes": 5,
+      "compressed_bytes": 7,
+      "crc32": 243350608,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext-1.0-stratum-map-Clipped.tif.vat.dbf",
+      "uncompressed_bytes": 728,
+      "compressed_bytes": 267,
+      "crc32": 1717229269,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext_8360_final.CPG",
+      "uncompressed_bytes": 5,
+      "compressed_bytes": 7,
+      "crc32": 243350608,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext_8360_final.dbf",
+      "uncompressed_bytes": 158906,
+      "compressed_bytes": 21646,
+      "crc32": 1227762938,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext_8360_final.prj",
+      "uncompressed_bytes": 430,
+      "compressed_bytes": 260,
+      "crc32": 3896092071,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext_8360_final.sbn",
+      "uncompressed_bytes": 92500,
+      "compressed_bytes": 62264,
+      "crc32": 4269790303,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext_8360_final.sbx",
+      "uncompressed_bytes": 9852,
+      "compressed_bytes": 3886,
+      "crc32": 4119512393,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext_8360_final.shp",
+      "uncompressed_bytes": 1137060,
+      "compressed_bytes": 300155,
+      "crc32": 2601100579,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext_8360_final.shp.xml",
+      "uncompressed_bytes": 10179,
+      "compressed_bytes": 2686,
+      "crc32": 2907430051,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/lcnext_8360_final.shx",
+      "uncompressed_bytes": 66980,
+      "compressed_bytes": 18907,
+      "crc32": 4094598170,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/NLCD2023_Full8360_AnnualAttributes.csv",
+      "uncompressed_bytes": 30785779,
+      "compressed_bytes": 1203328,
+      "crc32": 961422070,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/Plot_Coordinates_List_Simple_and_Stratified.csv",
+      "uncompressed_bytes": 225600,
+      "compressed_bytes": 86768,
+      "crc32": 1297029898,
+      "compression": 8
+    },
+    {
+      "filename": "Annual_NLCD_CONUSV1_Ref_Data_Release/StrataMapClippedStatisticsTable.csv",
+      "uncompressed_bytes": 1054,
+      "compressed_bytes": 515,
+      "crc32": 548733116,
+      "compression": 8
+    }
+  ],
+  "purpose": "Access and schema feasibility only; no embedding or score evaluation"
+}

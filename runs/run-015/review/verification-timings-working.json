@@ -1,0 +1,49 @@
+{
+  "observed_at_utc": "2026-10-26T09:32:51Z",
+  "expanded_reduced_run": {
+    "experiment_id": "V014-expanded-offline",
+    "elapsed_seconds": 891.1006877080072,
+    "status": "completed",
+    "scope": "Intermediate20cityhorizons; final-state runtime remains pending."
+  },
+  "full_subset_replay": {
+    "status": "passed",
+    "mode": "full_subset_chunks",
+    "source_commit_id": "e6f5f194866fa8cc73b2d41c77aa6799c7e49927",
+    "units": 115,
+    "query_rows": 198720,
+    "maximum_absolute_difference": 0.0,
+    "elapsed_worker_seconds": 2433.6248235837556,
+    "completed_at_utc": "2026-10-26T06:32:26Z",
+    "scope": "Author re-run in frozen source copy, not independent reproduction. All115original available units, including otherwise unmatched-date units; scientific subset endpoints unchanged."
+  },
+  "all_repeated_member_solve_blocks": [
+    {
+      "experiment_id": "S015-repeated-members-000",
+      "elapsed_seconds": 105.94517745799385,
+      "status": "completed"
+    },
+    {
+      "experiment_id": "S016-repeated-members-020",
+      "elapsed_seconds": 105.20165549986996,
+      "status": "completed"
+    },
+    {
+      "experiment_id": "S017-repeated-members-040",
+      "elapsed_seconds": 107.62333120801486,
+      "status": "completed"
+    },
+    {
+      "experiment_id": "S018-repeated-members-060",
+      "elapsed_seconds": 105.57789287506603,
+      "status": "completed"
+    },
+    {
+      "experiment_id": "S019-repeated-members-080",
+      "elapsed_seconds": 104.48852087487467,
+      "status": "completed"
+    }
+  ],
+  "repeated_member_total_worker_seconds": 528.8365779158194,
+  "scope": "Observed worker elapsed times, not independent reproduction, CPU accounting, or predicted runtime on another machine."
+}

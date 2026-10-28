@@ -1,0 +1,44 @@
+{
+  "experiment_id": "E28-main-description",
+  "start_time_utc": "2026-10-26T21:43:51.843272Z",
+  "end_time_utc": "2026-10-26T21:43:52.405623Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/describe_data.py",
+    "--manifest",
+    "data/population-main-v1.json",
+    "--model",
+    "results/models/logistic-broad-tessera",
+    "--model",
+    "results/models/logistic-broad-alphaearth",
+    "--model",
+    "results/models/logistic-fine-tessera",
+    "--model",
+    "results/models/logistic-fine-alphaearth",
+    "--model",
+    "results/models/forest-broad-tessera",
+    "--model",
+    "results/models/forest-broad-alphaearth",
+    "--destination",
+    "results/description-main"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v5-optimization.md",
+  "plan_commit_id": "4c77d9eff1b8d5eb83fa130fb6888413f9418142",
+  "plan_sha256": "1d8880e3fad80de2912da78fae11b57972a589345a6687db982067faf4916e58",
+  "code_commit_id": "4c77d9eff1b8d5eb83fa130fb6888413f9418142",
+  "inputs": [
+    {
+      "path": "data/population-main-v1.json",
+      "sha256": "f2a5a27f70792807a8f29d289a559641c9b30a64636e9ddfe59eb63c1d91cb07"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E28-main-description/stdout.txt",
+  "stderr_path": "experiments/E28-main-description/stderr.txt",
+  "start_event_id": "E0330",
+  "pid": 7878,
+  "elapsed_seconds": 0.5622681251261383,
+  "end_event_id": "E0331"
+}

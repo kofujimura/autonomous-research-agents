@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/swiss_labels.py", line 186, in collect
+    assert np.allclose(v['xs'],item['left']+c*1280+5+np.arange(128)*10,atol=.01)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

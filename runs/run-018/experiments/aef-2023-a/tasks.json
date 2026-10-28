@@ -1,0 +1,23 @@
+[
+  {
+    "task_id": "aef-2023-a",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_batch.py",
+      "aef",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "--year",
+      "2023",
+      "--output",
+      "experiments/aef-2023-a/region-results.json"
+    ],
+    "start_time_utc": "2026-10-27T23:16:54.353682+00:00",
+    "end_time_utc": "2026-10-27T23:34:58.936533+00:00",
+    "exit_code": 0
+  }
+]

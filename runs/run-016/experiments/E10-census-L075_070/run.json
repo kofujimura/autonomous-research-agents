@@ -1,0 +1,33 @@
+{
+  "experiment_id": "E10-census-L075_070",
+  "start_time_utc": "2026-10-26T19:54:43.769145Z",
+  "end_time_utc": "2026-10-26T20:01:39.029580Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/acquire_census.py",
+    "L075_070"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v3-census-check.md",
+  "plan_commit_id": "c8ac5955c5025e598ded9e215106089dbe264a87",
+  "plan_sha256": "5cf9ca5e9ca6bddac78eec1d9fb0876a417094ac9f5a8cabec7b8460ef49c409",
+  "code_commit_id": "c8ac5955c5025e598ded9e215106089dbe264a87",
+  "inputs": [
+    {
+      "path": "data/census-cases.json",
+      "sha256": "fabf6eb856dcf82fbc74b498856e22cc331e363df8a837a276aedc0e8888a72f"
+    },
+    {
+      "path": "data/landscapes/L075_070.npz",
+      "sha256": "ba495f2dcc2b69f9ff5de56fc3404d532a6e9566be1bb95c9627560c52e9f966"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E10-census-L075_070/stdout.txt",
+  "stderr_path": "experiments/E10-census-L075_070/stderr.txt",
+  "start_event_id": "E0203",
+  "pid": 3295,
+  "elapsed_seconds": 415.2612836670596,
+  "end_event_id": "E0206"
+}

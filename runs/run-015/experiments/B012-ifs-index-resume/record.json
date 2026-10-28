@@ -1,0 +1,34 @@
+{
+  "experiment_id": "B012-ifs-index-resume",
+  "started_at_utc": "2026-10-26T00:11:14Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/pipeline.py",
+    "--model",
+    "ifs",
+    "--start",
+    "11",
+    "--count",
+    "1",
+    "--chunk-bytes",
+    "262144",
+    "--subsets",
+    "--log",
+    "experiments/B012-ifs-index-resume/units.jsonl"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2.1-index-recovery.md",
+  "plan_commit_id": "5427cf727933bdb5e9863c631202dbbfc35ff380",
+  "code_commit_id": "5427cf727933bdb5e9863c631202dbbfc35ff380",
+  "input_sha256": {
+    "protocol/design-v1.json": "06bd537daf02cae3491ee0dacb7ac3731a69d936078b0d03e6e7b66b039adb12",
+    "protocol/subset-design-v3.json": "4eb1e19e92ad317f517b62f711793a827a39ba31ad64f0e7698f70baa3f4d2c7"
+  },
+  "status": "completed",
+  "start_event_id": "E0149",
+  "child_pid": 49761,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T00:14:58Z",
+  "elapsed_seconds": 223.88222808297724,
+  "end_event_id": "E0150"
+}

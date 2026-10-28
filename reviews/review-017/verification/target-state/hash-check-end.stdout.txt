@@ -1,0 +1,3 @@
+{"entries": 7522, "match": 7521, "mismatch": 1, "missing": 0, "started_at_utc": "2026-10-27T12:34:42.892927+00:00", "completed_at_utc": "2026-10-27T12:34:48.811764+00:00"}
+mismatch paths: ['events.jsonl']
+missing paths: []

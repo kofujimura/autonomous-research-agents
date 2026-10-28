@@ -1,0 +1,10 @@
+{
+  "dataset": "nlcd",
+  "exploratory": true,
+  "baseline_count": 1,
+  "no_embedding_values": true,
+  "no_coordinates_or_year_features": true,
+  "unchanged_subgroup_thresholds": true,
+  "loss_initial_class_count": 1,
+  "loss_constant_by_construction": true
+}

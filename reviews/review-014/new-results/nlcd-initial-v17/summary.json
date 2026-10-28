@@ -1,0 +1,14 @@
+{
+  "exploratory": true,
+  "dataset": "nlcd",
+  "initial_target_vector_values_only_methods": [
+    "initial_reference_similarity",
+    "initial_state_random_forest",
+    "initial_baseline_cohort_random_forest",
+    "initial_baseline_cohort_logistic"
+  ],
+  "comparable_after_vector_availability_mask": true,
+  "initial_RF_identity_verified": true,
+  "permutation_check": null,
+  "interpretation": "Retrospective input-necessity diagnostic; no prospective forecasting, static-context cause or equivalence claim."
+}

@@ -1,0 +1,55 @@
+{
+  "review_id": "review-015-1",
+  "start_time_utc": "2026-10-26T12:07:10Z",
+  "start_time_local": "2026-10-26T21:07:10+09:00 (JST)",
+  "deadline_utc": "2026-10-26T15:07:10Z",
+  "deadline_local": "2026-10-27T00:07:10+09:00 (JST)",
+  "deadline_basis": "3 hours elapsed from start; extended only by confirmed usage-limit stops",
+  "target": {
+    "research_directory": "/Users/fujimura/Research/ai-free-research-en/run-015",
+    "tag": "submission-1",
+    "tag_object_id": "131ec81212f2d032408f2cb5087a4fcfc2f464b6",
+    "tag_type": "annotated tag",
+    "commit_id": "b2a57df1db623ddc9fb7512cc5778ad2ae96832b",
+    "head_commit_at_start": "b2a57df1db623ddc9fb7512cc5778ad2ae96832b"
+  },
+  "model": {
+    "name_presented_in_conversation": "Opus 5.5 (system prompt: model ID claude-opus-5-5); human specification: Opus 5.5, reasoning effort xhigh",
+    "identifiers_confirmed_from_environment": {
+      "CLAUDE_EFFORT": "xhigh",
+      "ANTHROPIC_MODEL": "(unset)",
+      "model_id_from_environment": "unknown (no environment variable or file confirms the model ID; only the system prompt states it)"
+    },
+    "provider": "Anthropic via Claude Code (provider confirmed only from the runtime presentation; billing route unknown)"
+  },
+  "runtime": {
+    "claude_code_entrypoint": "cli",
+    "claude_code_version_from_exec_path": "2.1.310",
+    "os": "macOS 26.5.2 (25F84), Darwin 25.5.0 arm64",
+    "python3": "3.13.7",
+    "git": "2.50.1 (Apple Git-155)"
+  },
+  "unknowns": [
+    "model ID cannot be confirmed from an environment identifier independent of the system prompt",
+    "provider billing route not confirmed"
+  ],
+  "end_time_utc": "2026-10-26T12:51:35Z",
+  "excluded_usage_limit_stop_seconds": 0,
+  "usage_limit_stops": "none observed (no stop/resume occurred during the review)",
+  "deadline_final_utc": "2026-10-26T15:07:10Z (unchanged)",
+  "target_state_end": {
+    "head": "b2a57df1db623ddc9fb7512cc5778ad2ae96832b",
+    "tag_submission-1_commit": "b2a57df1db623ddc9fb7512cc5778ad2ae96832b",
+    "git_status": "On branch main, nothing to commit, working tree clean",
+    "sha256_list": "16511 entries: 16511 match, 0 mismatch, 0 missing",
+    "difference_from_start": "none"
+  },
+  "condition_deviations": [
+    "Briefly up to 3 concurrent processes (short <10 s analysis scripts while two background verifications ran), ~12:17Z-12:25Z; see events R0013"
+  ],
+  "tools_not_used": [
+    "WebFetch (routes page content through another model); AI APIs; sub-agents"
+  ],
+  "review_directory_size_at_end": "about 1.8 GiB",
+  "processes_remaining": "none"
+}

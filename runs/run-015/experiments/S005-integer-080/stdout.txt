@@ -1,0 +1,47 @@
+{"task": "integer", "position": 80, "case_key": "20260919|aifs-ens|180|Sahel|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:28Z"}
+{"task": "integer", "position": 80, "case_key": "20260919|aifs-ens|180|Sahel|compact|12|30|9|50", "completed_at_utc": "2026-10-26T05:08:31Z"}
+{"task": "integer", "position": 81, "case_key": "20260919|aifs-ens|180|Iberia|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:31Z"}
+{"task": "integer", "position": 81, "case_key": "20260919|aifs-ens|180|Iberia|compact|12|30|3|50", "completed_at_utc": "2026-10-26T05:08:32Z"}
+{"task": "integer", "position": 82, "case_key": "20260619|ifs|180|Balkans|dispersed|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:32Z"}
+{"task": "integer", "position": 82, "case_key": "20260619|ifs|180|Balkans|dispersed|12|30|3|50", "completed_at_utc": "2026-10-26T05:08:32Z"}
+{"task": "integer", "position": 83, "case_key": "20260826|aifs-ens|180|northern_India|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:32Z"}
+{"task": "integer", "position": 83, "case_key": "20260826|aifs-ens|180|northern_India|compact|12|30|3|50", "completed_at_utc": "2026-10-26T05:08:37Z"}
+{"task": "integer", "position": 84, "case_key": "20260721|ifs|84|Sahel|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:37Z"}
+{"task": "integer", "position": 84, "case_key": "20260721|ifs|84|Sahel|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T05:08:37Z"}
+{"task": "integer", "position": 85, "case_key": "20260810|ifs|180|France|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:37Z"}
+{"task": "integer", "position": 85, "case_key": "20260810|ifs|180|France|compact|12|30|6|50", "completed_at_utc": "2026-10-26T05:08:38Z"}
+{"task": "integer", "position": 86, "case_key": "20260822|ifs|180|Iberia|dispersed|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:38Z"}
+{"task": "integer", "position": 86, "case_key": "20260822|ifs|180|Iberia|dispersed|12|30|3|50", "completed_at_utc": "2026-10-26T05:08:39Z"}
+{"task": "integer", "position": 87, "case_key": "20260705|aifs-ens|180|France|dispersed|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:39Z"}
+{"task": "integer", "position": 87, "case_key": "20260705|aifs-ens|180|France|dispersed|12|35|9|50", "completed_at_utc": "2026-10-26T05:08:39Z"}
+{"task": "integer", "position": 88, "case_key": "20260725|aifs-ens|180|France|dispersed|12|35|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:39Z"}
+{"task": "integer", "position": 88, "case_key": "20260725|aifs-ens|180|France|dispersed|12|35|3|50", "completed_at_utc": "2026-10-26T05:08:40Z"}
+{"task": "integer", "position": 89, "case_key": "20260619|ifs|84|central_Europe|compact|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:40Z"}
+{"task": "integer", "position": 89, "case_key": "20260619|ifs|84|central_Europe|compact|12|30|3|50", "completed_at_utc": "2026-10-26T05:08:41Z"}
+{"task": "integer", "position": 90, "case_key": "20260814|ifs|84|northern_India|compact|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:41Z"}
+{"task": "integer", "position": 90, "case_key": "20260814|ifs|84|northern_India|compact|12|30|9|50", "completed_at_utc": "2026-10-26T05:08:41Z"}
+{"task": "integer", "position": 91, "case_key": "20260717|aifs-ens|180|France|dispersed|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:41Z"}
+{"task": "integer", "position": 91, "case_key": "20260717|aifs-ens|180|France|dispersed|12|30|3|50", "completed_at_utc": "2026-10-26T05:08:47Z"}
+{"task": "integer", "position": 92, "case_key": "20260822|aifs-ens|180|Balkans|dispersed|12|25|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:47Z"}
+{"task": "integer", "position": 92, "case_key": "20260822|aifs-ens|180|Balkans|dispersed|12|25|9|50", "completed_at_utc": "2026-10-26T05:08:47Z"}
+{"task": "integer", "position": 93, "case_key": "20260607|aifs-ens|84|Iberia|dispersed|12|30|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:47Z"}
+{"task": "integer", "position": 93, "case_key": "20260607|aifs-ens|84|Iberia|dispersed|12|30|3|50", "completed_at_utc": "2026-10-26T05:08:47Z"}
+{"task": "integer", "position": 94, "case_key": "20260802|ifs|84|northern_India|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:47Z"}
+{"task": "integer", "position": 94, "case_key": "20260802|ifs|84|northern_India|compact|12|30|6|50", "completed_at_utc": "2026-10-26T05:08:52Z"}
+{"task": "integer", "position": 95, "case_key": "20260826|aifs-ens|180|Sahel|compact|12|35|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:52Z"}
+{"task": "integer", "position": 95, "case_key": "20260826|aifs-ens|180|Sahel|compact|12|35|9|50", "completed_at_utc": "2026-10-26T05:08:55Z"}
+{"task": "integer", "position": 96, "case_key": "20260725|ifs|84|central_Europe|compact|12|25|3|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:55Z"}
+{"task": "integer", "position": 96, "case_key": "20260725|ifs|84|central_Europe|compact|12|25|3|50", "completed_at_utc": "2026-10-26T05:08:56Z"}
+{"task": "integer", "position": 97, "case_key": "20260806|ifs|180|Sahel|compact|12|30|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:08:56Z"}
+{"task": "integer", "position": 97, "case_key": "20260806|ifs|180|Sahel|compact|12|30|6|50", "completed_at_utc": "2026-10-26T05:09:00Z"}
+{"task": "integer", "position": 98, "case_key": "20260713|aifs-ens|84|central_Europe|compact|12|25|6|50", "status": "started", "observed_at_utc": "2026-10-26T05:09:00Z"}
+{"task": "integer", "position": 98, "case_key": "20260713|aifs-ens|84|central_Europe|compact|12|25|6|50", "completed_at_utc": "2026-10-26T05:09:05Z"}
+{"task": "integer", "position": 99, "case_key": "20260802|aifs-ens|180|Balkans|dispersed|12|30|9|50", "status": "started", "observed_at_utc": "2026-10-26T05:09:05Z"}
+{"task": "integer", "position": 99, "case_key": "20260802|aifs-ens|180|Balkans|dispersed|12|30|9|50", "completed_at_utc": "2026-10-26T05:09:07Z"}
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();

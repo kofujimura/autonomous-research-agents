@@ -1,0 +1,26 @@
+{
+  "experiment_id": "A011-member-precision-and-city-correction",
+  "started_at_utc": "2026-10-26T08:53:08Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/report_bundle.py",
+    "--output",
+    "results"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/analysis-correction-v1.md",
+  "plan_commit_id": "9516337d1e5dae854afd3e8663fe20de2aa04584",
+  "code_commit_id": "beea1f720813769c18894649a8a380544803fb4c",
+  "input_sha256": {
+    "protocol/plan-v11-repeated-member-draws.md": "518d16f7a601508e4e1114938cc3503ecfed1b6dc2b44a1f15607ee7fbae15d9",
+    "protocol/plan-v13-integer-moment-precision.md": "31006eb8de0630cd0ded66a1a00cb908e212c619d050cac11ed44dac45ea8862",
+    "protocol/sensitivity-cohort-v1.json": "6f56e73beffa668423bb0e977b561cdb68c926136b68ff2a9e6489b44a5fed95"
+  },
+  "status": "completed",
+  "start_event_id": "E0597",
+  "child_pid": 70451,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T08:53:50Z",
+  "elapsed_seconds": 41.905115666100755,
+  "end_event_id": "E0599"
+}

@@ -1,0 +1,189 @@
+{
+  "status": "PASS",
+  "elapsed_seconds": 0.6495752918999642,
+  "scope": "Saved predictions/flags and reported counts; no fitting or raw-vector recomputation.",
+  "checks": [
+    {
+      "folder": "aef-closed-v11",
+      "metric_rows": 336,
+      "prediction_rows": 74928,
+      "status": "matched"
+    },
+    {
+      "folder": "main-v1",
+      "metric_rows": 1344,
+      "prediction_rows": 299712,
+      "status": "matched"
+    },
+    {
+      "folder": "secondary-v2",
+      "metric_rows": 124,
+      "prediction_rows": 26148,
+      "status": "matched"
+    },
+    {
+      "folder": "robustness-aef-v12",
+      "metric_rows": 30,
+      "prediction_rows": 6690,
+      "status": "matched"
+    },
+    {
+      "folder": "robustness-paired-v12",
+      "metric_rows": 60,
+      "prediction_rows": 13380,
+      "status": "matched"
+    },
+    {
+      "folder": "endpoint-v13",
+      "metric_rows": 96,
+      "prediction_rows": 20400,
+      "status": "matched"
+    },
+    {
+      "folder": "reference-completeness-v14",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "initial-vector-v17",
+      "metric_rows": 94,
+      "prediction_rows": 20210,
+      "status": "matched"
+    },
+    {
+      "folder": "geography-v18",
+      "metric_rows": 6,
+      "prediction_rows": 1338,
+      "status": "matched"
+    },
+    {
+      "folder": "initial-class-v19",
+      "metric_rows": 2,
+      "prediction_rows": 446,
+      "status": "matched"
+    },
+    {
+      "folder": "reference-access-v20",
+      "metric_rows": 160,
+      "prediction_rows": 35680,
+      "status": "matched"
+    },
+    {
+      "folder": "direct-inputs-v23",
+      "metric_rows": 16,
+      "prediction_rows": 3568,
+      "status": "matched"
+    },
+    {
+      "folder": "nlcd-v4",
+      "metric_rows": 496,
+      "prediction_rows": 53252,
+      "status": "matched"
+    },
+    {
+      "folder": "nlcd-initial-v17",
+      "metric_rows": 376,
+      "prediction_rows": 40578,
+      "status": "matched"
+    },
+    {
+      "folder": "nlcd-geography-v18",
+      "metric_rows": 24,
+      "prediction_rows": 2616,
+      "status": "matched"
+    },
+    {
+      "folder": "nlcd-class-v19",
+      "metric_rows": 8,
+      "prediction_rows": 872,
+      "status": "matched"
+    },
+    {
+      "folder": "nlcd-reference-access-v20",
+      "metric_rows": 640,
+      "prediction_rows": 69760,
+      "status": "matched"
+    },
+    {
+      "folder": "nlcd-direct-inputs-v23",
+      "metric_rows": 64,
+      "prediction_rows": 6976,
+      "status": "matched"
+    },
+    {
+      "folder": "partition-sensitivity-v24/seed-14014",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "partition-sensitivity-v24/seed-14015",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "partition-sensitivity-v24/seed-14016",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "partition-sensitivity-v24/seed-14017",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "partition-sensitivity-v24/seed-14018",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "partition-sensitivity-v24/seed-14019",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "partition-sensitivity-v24/seed-14020",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "partition-sensitivity-v24/seed-14021",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "partition-sensitivity-v24/seed-14022",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "partition-sensitivity-v24/seed-14023",
+      "metric_rows": 96,
+      "prediction_rows": 21408,
+      "status": "matched"
+    },
+    {
+      "folder": "native-pairs-v21",
+      "case_conditions": 384,
+      "summary_rows": 48,
+      "status": "matched"
+    },
+    {
+      "folder": "native-single-date-v22",
+      "case_conditions": 480,
+      "summary_rows": 48,
+      "status": "matched"
+    }
+  ],
+  "network_used": false,
+  "ai_api_calls": 0
+}

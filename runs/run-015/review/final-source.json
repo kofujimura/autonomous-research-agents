@@ -1,0 +1,7 @@
+{
+  "created_at_utc": "2026-10-26T11:29:41Z",
+  "source_commit_id": "24ddff1f8b1170ddad2f8a767a1b8eda230713e5",
+  "source_path": "verification_work/final-source",
+  "root_wrapper_code_commit_id": "24ddff1f8b1170ddad2f8a767a1b8eda230713e5",
+  "scope": "Final numerical/code snapshot after all acquisition ended. Subsequent root updates may only document verification/submission; scientific bytes must remain identical."
+}

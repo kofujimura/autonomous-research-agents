@@ -1,0 +1,9 @@
+{
+  "dataset": "lcmap",
+  "exploratory": true,
+  "baseline_references_include_test_region": true,
+  "target_fitting_excludes_test_region": true,
+  "supervised_invariance_rows": 7136,
+  "supervised_scores_and_flags_unchanged": true,
+  "interpretation": "Different reference-information access; not equal resources or proof of ecological matching."
+}

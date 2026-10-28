@@ -1,0 +1,62 @@
+{
+  "call_id": "topic-critique-1",
+  "experiment_id": "topic-critique",
+  "purpose": "research-question skill step 6 candidate critique",
+  "requested_at_utc": "2026-10-25T22:39:11Z",
+  "provider": "OpenAI",
+  "model_requested": "gpt-6-astra",
+  "model_returned": "gpt-6-astra",
+  "parameters": {
+    "model": "gpt-6-astra",
+    "reasoning": {
+      "effort": "xhigh"
+    },
+    "background": true,
+    "service_tier": "default",
+    "tools": [
+      {
+        "type": "web_search"
+      }
+    ],
+    "include": [
+      "web_search_call.action.sources"
+    ]
+  },
+  "request_path": "experiments/topic-critique/topic-critique-1-request.json",
+  "response_path": "experiments/topic-critique/topic-critique-1-response.json",
+  "usage": {
+    "input_tokens": 116195,
+    "input_tokens_details": {
+      "cache_write_tokens": 6424,
+      "cached_tokens": 0
+    },
+    "output_tokens": 14327,
+    "output_tokens_details": {
+      "reasoning_tokens": 9849
+    },
+    "total_tokens": 130522
+  },
+  "cost_usd": 2.02436,
+  "cumulative_cost_usd": 2.02436,
+  "status": "completed",
+  "error": null,
+  "budget_check": {
+    "budget_usd": 20,
+    "cumulative_known_cost_usd": 0.0,
+    "maximum_next_cost_usd": null,
+    "exception": "Explicit skill step 6 exception: no output limit/pre-call maximum-cost check; record actual cost"
+  },
+  "sdk_max_retries": 0,
+  "response_snapshot_path": "experiments/topic-critique/snapshots/topic-critique-1-003.json",
+  "response_id": "resp_0ca088c1ad46db14006ade85124ae887d0967f9d08d2442df2",
+  "recorded_at_utc": "2026-10-25T22:44:57Z",
+  "cost_calculation": {
+    "cost_usd": 2.02436,
+    "cost_decimal_usd": "2.02436",
+    "web_search_calls": 13,
+    "pricing_source": "literature/openai-pricing.md",
+    "cache_pricing_source": "literature/openai-prompt-caching.md",
+    "context_rate_switch": "short"
+  },
+  "cumulative_cost_complete": true
+}

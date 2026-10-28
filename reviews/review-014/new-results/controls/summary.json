@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-10-25T19:28:39Z",
+  "seed": 14014,
+  "controls": 50,
+  "point_year_tasks": 250,
+  "by_initial_class": {
+    "Grass/forb/herb": 32,
+    "Shrubs": 18
+  },
+  "by_region": {
+    "0": 25,
+    "1": 7,
+    "2": 12,
+    "3": 5,
+    "4": 1
+  },
+  "batches": 4
+}

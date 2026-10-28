@@ -1,0 +1,20 @@
+[
+  {
+    "task_id": "aef-2023-a",
+    "command": [
+      ".venv/bin/python",
+      "code/collect_batch.py",
+      "aef",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "--year",
+      "2023",
+      "--output",
+      "experiments/aef-2023-a/region-results.json"
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "experiment_id": "E04-s3-reader-validation",
+  "start_time_utc": "2026-10-26T16:48:52.630185Z",
+  "end_time_utc": "2026-10-26T16:53:09.587867Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/probe_direct_aef.py",
+    "--s3"
+  ],
+  "timeout_seconds": 600,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "bb3a4b23aac585f417c68e7b47e2fbf5d7417bda",
+  "plan_sha256": "ebe46e22b043010d9683376e5d76768edcaefe52760cdde4354e8a751cc29eb5",
+  "code_commit_id": "bb3a4b23aac585f417c68e7b47e2fbf5d7417bda",
+  "inputs": [
+    {
+      "path": "data/landscapes/L065_150.npz",
+      "sha256": "4b2cd491a5eec3acb3809bd94e050862003c041654ca94c515432e552606e058"
+    },
+    {
+      "path": "data/features/L065_150-2021-alphaearth.npz",
+      "sha256": "72c412dbadc6a595787bfa648ac8657f347151cd5f0640773853437f1ae2afa8"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E04-s3-reader-validation/stdout.txt",
+  "stderr_path": "experiments/E04-s3-reader-validation/stderr.txt",
+  "start_event_id": "E0089",
+  "pid": 94235,
+  "elapsed_seconds": 256.96124454191886,
+  "end_event_id": "E0090"
+}

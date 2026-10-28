@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-10-27T13:15:48.699678Z",
+  "review_id": "review-017-1",
+  "points": 6,
+  "decisions": {
+    "adopted": 6
+  },
+  "existing_claims_revised": [
+    "C01",
+    "C04",
+    "C06"
+  ],
+  "claim_statuses_changed": [],
+  "claims_withdrawn": [],
+  "claims_added": [
+    "C11"
+  ],
+  "analysis_batches_added": [
+    "E68"
+  ],
+  "verification_batches_added": [
+    "E69",
+    "E70"
+  ],
+  "new_model_fits": 0,
+  "new_ai_calls": 0,
+  "new_analysis_process_runs": 1,
+  "new_verification_process_runs": 2,
+  "new_experiment_process_runs": 3
+}

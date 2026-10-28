@@ -1,0 +1,5 @@
+# Prospective correction to exploratory v6: finite-population jackknife bias
+
+Before running any jackknife experiment, note that the ordinary delete-one bias correction in v6 need not recover the known entropy change at a full census. Its leading bias estimate is for sampling with replacement, while the target here is a finite population sampled without replacement. Do not hide that mismatch or overwrite v6.
+
+Compute and retain the ordinary v6 jackknife point estimate. Also compute a finite-population version d_J,FPC = d + (1-n/N)*(n-1)*(d-mean(d_-i)). Use this latter version as the main exploratory jackknife comparison; both use the previously specified FPC jackknife standard error. This is a leading-order bias correction, not an exactly unbiased entropy estimator. It recovers d at n=N by construction. Validate census recovery and independent/paired delete-one calculations on small saved fixtures before full-cohort execution. Preserve both variants in raw results and tables, rather than selecting the better one after seeing its error. No other v6 rule changes.

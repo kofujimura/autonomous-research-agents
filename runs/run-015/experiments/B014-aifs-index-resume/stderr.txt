@@ -1,0 +1,50 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/urllib3/response.py", line 929, in _error_catcher
+    yield
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/urllib3/response.py", line 1067, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(3677 bytes read, 90531 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/requests/models.py", line 937, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/urllib3/response.py", line 1291, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/urllib3/response.py", line 1179, in read
+    data = self._raw_read(amt)
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/urllib3/response.py", line 1045, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/urllib3/response.py", line 949, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(3677 bytes read, 90531 more expected)', IncompleteRead(3677 bytes read, 90531 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/acquire.py", line 94, in byte_range
+    for block in response.iter_content(4096):
+                 ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/.venv/lib/python3.13/site-packages/requests/models.py", line 939, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(3677 bytes read, 90531 more expected)', IncompleteRead(3677 bytes read, 90531 more expected))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/pipeline.py", line 31, in main
+    acquire.main(['--date',date,'--model',a.model,'--lead',str(lead),'--chunk-bytes',str(a.chunk_bytes)])
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/acquire.py", line 127, in main
+    content=b''.join(byte_range(offset,min(offset+a.chunk_bytes-1,start+length-1),member) for offset in range(start,start+length,a.chunk_bytes))
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/acquire.py", line 127, in <genexpr>
+    content=b''.join(byte_range(offset,min(offset+a.chunk_bytes-1,start+length-1),member) for offset in range(start,start+length,a.chunk_bytes))
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research-en/run-015/scripts/acquire.py", line 113, in byte_range
+    raise RuntimeError(f'Range failed after bounded retries, member {field_id}') from failure
+RuntimeError: Range failed after bounded retries, member 42

@@ -1,0 +1,13 @@
+{"queries": 32, "nonempty_queries": 32, "empty_queries": 0, "single_all_correct": 0, "single_all_wrong": 0, "unmatchable": 0, "nontrivial_matchable": 32, "regions": 4, "method_n": 10, "uniform_expected_macro_risk": 0.5}
+         method  macro_risk_percent  pooled_risk_percent
+     aef_cosine                 0.0                  0.0
+      geography                 0.0                  0.0
+  hydro_decoder                 0.0                  0.0
+hydro_euclidean                 0.0                  0.0
+     hydro_pair                 0.0                  0.0
+   label_oracle                 0.0                  0.0
+       pair_aef               100.0                100.0
+      pair_both                 0.0                  0.0
+   pair_tessera                 0.0                  0.0
+ tessera_cosine                 0.0                  0.0
+{"generation": "Deterministic4regions\u00d74rotations\u00d72queries; all deployable methods make the same reference choices and errors; only pair_aef confidence ordering is reversed; the label-aware oracle is a separate bound. Synthetic verification fixture only, not empirical study results.", "checks": {"baseline50_risk_zero": true, "augmented50_risk_one": true, "paired_difference_one": true, "constant_region_interval_one": true, "fixed_query_risk_zero": true, "all_reference_choices_identical": true, "screened_sets_disjoint": true}, "passed": true}

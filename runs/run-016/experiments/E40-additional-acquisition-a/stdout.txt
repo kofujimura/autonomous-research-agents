@@ -1,0 +1,37 @@
+START L115_055 test 2026-10-26T23:40:01.520038Z
+END L115_055 accepted {'train': 0, 'calibration': 0, 'test': 1}
+START L015_170 test 2026-10-26T23:41:46.759090Z
+END L015_170 accepted {'train': 0, 'calibration': 0, 'test': 2}
+START L035_075 test 2026-10-26T23:43:27.407347Z
+END L035_075 accepted {'train': 0, 'calibration': 0, 'test': 3}
+START L115_010 test 2026-10-26T23:45:07.908257Z
+END L115_010 ineligible {'train': 0, 'calibration': 0, 'test': 3}
+START L165_185 test 2026-10-26T23:45:27.169558Z
+END L165_185 ineligible {'train': 0, 'calibration': 0, 'test': 3}
+START L095_055 test 2026-10-26T23:47:09.727324Z
+END L095_055 accepted {'train': 0, 'calibration': 0, 'test': 4}
+START L015_175 test 2026-10-26T23:48:56.177633Z
+END L015_175 accepted {'train': 0, 'calibration': 0, 'test': 5}
+START L090_165 test 2026-10-26T23:50:54.889252Z
+END L090_165 accepted {'train': 0, 'calibration': 0, 'test': 6}
+START L130_195 test 2026-10-26T23:52:43.900180Z
+END L130_195 ineligible {'train': 0, 'calibration': 0, 'test': 6}
+START L125_195 test 2026-10-26T23:53:10.545481Z
+END L125_195 ineligible {'train': 0, 'calibration': 0, 'test': 6}
+START L100_265 test 2026-10-26T23:53:32.543535Z
+END L100_265 ineligible {'train': 0, 'calibration': 0, 'test': 6}
+START L160_070 test 2026-10-26T23:53:55.101644Z
+END L160_070 accepted {'train': 0, 'calibration': 0, 'test': 7}
+START L165_180 test 2026-10-26T23:55:42.676835Z
+END L165_180 ineligible {'train': 0, 'calibration': 0, 'test': 7}
+START L140_010 test 2026-10-26T23:56:03.543588Z
+END L140_010 accepted {'train': 0, 'calibration': 0, 'test': 8}
+START L120_195 test 2026-10-26T23:57:50.999839Z
+END L120_195 ineligible {'train': 0, 'calibration': 0, 'test': 8}
+START L160_180 test 2026-10-26T23:58:10.937791Z
+END L160_180 ineligible {'train': 0, 'calibration': 0, 'test': 8}
+START L100_260 test 2026-10-26T23:58:38.727611Z
+END L100_260 ineligible {'train': 0, 'calibration': 0, 'test': 8}
+START L035_220 test 2026-10-26T23:59:01.508531Z
+END L035_220 failed {'train': 0, 'calibration': 0, 'test': 8}
+{"completed_at_utc": "2026-10-26T23:59:09.730952Z", "accepted": {"train": 0, "calibration": 0, "test": 8}, "attempted": 18, "batch_attempts": 18}

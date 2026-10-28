@@ -1,0 +1,34 @@
+{
+  "experiment_id": "fetch-nlcd-aef-000-003",
+  "start_at_utc": "2026-10-25T12:23:52Z",
+  "end_at_utc": "2026-10-25T12:31:34Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/retrieve.py",
+    "aef",
+    "0",
+    "--batch-count",
+    "4",
+    "--tasks",
+    "data/nlcd/prepared/tasks.csv"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/plan-v4.md",
+  "plan_commit_id": "3efd729c24e8e889e64c7bb5d2770173613721fa",
+  "additional_plan_commits": {
+    "protocol/plan-v3.md": "53d8a5c91c85368c330cf72026d74b9e5dcd68f2",
+    "protocol/plan-v8.md": "95403e25f8c2519add170e233d9428f8a33ae784"
+  },
+  "code_commit_id": "7d54c25104cdb5057d6bf019ab38b9284263364b",
+  "input_sha256": {
+    "data/nlcd/prepared/tasks.csv": "2329fc017864c61b2ffd3a5bd93133ef1498e3babfc3f5404422e327d1afee6c"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0204",
+  "pid": 19776,
+  "elapsed_seconds": 461.8307091249153,
+  "end_event_id": "E0209"
+}

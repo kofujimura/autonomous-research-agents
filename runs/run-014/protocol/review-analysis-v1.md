@@ -1,0 +1,15 @@
+# Post-review saved-data diagnostics
+
+Fixed 2026-10-25T19:54:15Z, after receiving review-014-1 and seeing its indicative diagnostic values. All new diagnostics are exploratory additions after AI-agent review. Original labels, fits, thresholds, predictions and failed/unfinished experiments remain unchanged. No new embedding/label retrieval, API or participants.
+
+## Reference and control variation (R1-1/R1-8)
+For each product and held-out region under the original primary allocation14014 and centre support, reconstruct per-year normalized reference means using the exact original baseline-only R pool outside that region and each year's valid vectors. For adjacent pairs2017–2018 through2022–2023, report centroid cosine dissimilarity, counts of valid references before/after and their intersection, valid paired C controls and R plots, and individual R/C median cosine dissimilarities. Do not call baseline-selected cohorts future-stable or identify encoder drift separately from physical change. Compare the centroid/control scales with main target cosine magnitudes by year, task, truth and unchanged/non-tree-change category. Include all earlier target pairs as descriptive context and keep test cases separate. Report descriptive2017-to-each-year centroid/control dissimilarities through2023, with availability counts; no multi-year target screening or calibration claim. Check reconstructed counts/centroids against existing primary availability/scores to1e-12.
+
+## Ranking/decision similarity and absolute scores (R1-1/R1-4)
+Use existing primary paired/global/centre/14014 predictions only. For each product/task compare concurrent and tree-control scores to start-year fixed-reference scores: pooled Spearman rho, exact changed flags and proportions, and within-fold/year SD of the control subtraction. Also retain per-year rho. No new threshold. Report existing primary AUROC plus TP/FP/sensitivity/FPR. For magnitude, compute per-year and pooled medians for gain positives, unchanged non-tree negatives and Grass/Shrub-transition negatives. Compute AUROC for original all-negatives and unchanged-only subsets without refitting/recalibration; report both definitions and all counts. Do not infer gradual growth, label errors, smoothing or ecological recovery from an inversion.
+
+## Sample support (R1-2)
+Recount original main test positives/negatives and unique positive/negative five-degree cells by year pair and by held-out region, separately for gain/loss. Report all zero/small cells without pooling away. Primary known initial classes and original paired mask stay fixed.
+
+## Execution/reproduction
+One bounded process,1800second timeout/max2concurrent, expected below2minutes. Save raw derived rows and CSV/JSON under analysis/review-diagnostics-r1, with input SHA256 and exact command/plan/code commits. Add a deterministic stage to scripts/reproduce.py comparing every new CSV and summary; preserve all earlier verification records and run the complete revised entry on a new copy before final submission. No formal significance or equivalence selection; metrics/definitions are fixed here after review and reported as exploratory.

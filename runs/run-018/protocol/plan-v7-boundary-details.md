@@ -1,0 +1,9 @@
+# Boundary implementation details, fixed before boundary fits
+
+This clarification is later than inspection of primary risks and is a secondary-plan revision; it does not change primary outputs. Earlier plans already specified each boundary. All comparisons preserve the primary four-rotation design and the same learner parameters.
+
+Run the original panel at reference-buffer0 and3000m (training buffer1000m), training-buffer0 and3000m (reference buffer1000m), minimum interior margin30m, noHAND, within-region scaling, and centre-pixel embedding extraction. For centre pixels, retain raw centre decoded vector and its magnitude for full-vector decoders, normalize direction for cosine methods; valid centre means one pixel, not a five-pixel threshold. The standard extraction criterion remains unchanged in the primary. Use existing complete-case requirements and report any resulting cohort differences. The primary water covariates were checked: occurrence/recurrence centre and90m mean and elevation90m mean have no missing values in all3667rows.
+
+The phrase within-region z-scoring in the initial plan is imprecise: this test uses the same robust median/IQR scaling as the primary, but fits separately within each training region; missingness indicators remain. This isolates the geographical extent of preprocessing without also changing the scale estimator. It was implemented this way before any primary fit, and is fixed explicitly here before executing the boundary. This is a documented clarification, not a post-hoc choice among tested scale estimators.
+
+All18methods are evaluated in each boundary. Summarize each separately; denominators/pool floors may differ. No selection of favourable boundaries and no claims of statistical independence. Predefined alternate embedding years2023/2021 retain2024public hydrological covariates and fixed inventory labels; they assess robustness of inventory agreement, not annual inundation or future prediction.

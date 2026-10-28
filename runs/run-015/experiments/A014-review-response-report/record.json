@@ -1,0 +1,27 @@
+{
+  "experiment_id": "A014-review-response-report",
+  "started_at_utc": "2026-10-26T13:15:18Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/report_bundle.py",
+    "--output",
+    "results"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v14-review-response.md",
+  "plan_commit_id": "a9fa8a471ef7a6f6ec19994511e65cff09546c59",
+  "code_commit_id": "eb76ad338b0dface4261953746deac3c2b287b60",
+  "input_sha256": {
+    "results/primary/cases.csv": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d",
+    "results/primary/width-summary.csv": "4660dcca4913c821b0ff7437755bcff3e1116bbb2e834714542cd4a6ed548a00",
+    "results/primary/decision-summary.csv": "cf9ffa70dd8d22595c55f95f23579704bd5202fa44e0ab941678be14f70cd21f",
+    "results/sensitivity/member-summary.csv": "2559ebe77aaa1bd1f9478ecf799ce2a2798169b00e853d3e574fdf48c898043f"
+  },
+  "status": "completed",
+  "start_event_id": "E0710",
+  "child_pid": 83954,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T13:16:02Z",
+  "elapsed_seconds": 43.42268762504682,
+  "end_event_id": "E0711"
+}

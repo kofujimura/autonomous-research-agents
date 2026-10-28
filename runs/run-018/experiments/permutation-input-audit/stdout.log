@@ -1,0 +1,25 @@
+{"repetition": 0, "rotation": 0, "stage": "audited"}
+{"repetition": 0, "rotation": 1, "stage": "audited"}
+{"repetition": 0, "rotation": 2, "stage": "audited"}
+{"repetition": 0, "rotation": 3, "stage": "audited"}
+{"repetition": 1, "rotation": 0, "stage": "audited"}
+{"repetition": 1, "rotation": 1, "stage": "audited"}
+{"repetition": 1, "rotation": 2, "stage": "audited"}
+{"repetition": 1, "rotation": 3, "stage": "audited"}
+{"repetition": 2, "rotation": 0, "stage": "audited"}
+{"repetition": 2, "rotation": 1, "stage": "audited"}
+{"repetition": 2, "rotation": 2, "stage": "audited"}
+{"repetition": 2, "rotation": 3, "stage": "audited"}
+ repetition representation                  role  feature_values  unchanged_feature_values  nonempty_queries  all_cosines_unchanged_queries  unchanged_fraction
+          0            aef query_candidate_pairs          273948                        79            3637.0                            6.0            0.000288
+          0            aef        training_pairs          105787                        72               0.0                            0.0            0.000681
+          0        tessera query_candidate_pairs          273948                       104            3637.0                            9.0            0.000380
+          0        tessera        training_pairs          105787                        62               0.0                            0.0            0.000586
+          1            aef query_candidate_pairs          273948                       103            3637.0                           11.0            0.000376
+          1            aef        training_pairs          105787                        93               0.0                            0.0            0.000879
+          1        tessera query_candidate_pairs          273948                        90            3637.0                            5.0            0.000329
+          1        tessera        training_pairs          105787                        55               0.0                            0.0            0.000520
+          2            aef query_candidate_pairs          273948                        96            3637.0                            3.0            0.000350
+          2            aef        training_pairs          105787                        81               0.0                            0.0            0.000766
+          2        tessera query_candidate_pairs          273948                        91            3637.0                            9.0            0.000332
+          2        tessera        training_pairs          105787                        92               0.0                            0.0            0.000870

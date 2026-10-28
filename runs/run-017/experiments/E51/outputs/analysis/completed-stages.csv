@@ -1,0 +1,10 @@
+scope,decoder,budget,completed_fits,observed_allocations,observed_representations,distinct_cells,minimum_seeds_per_observed_cell,maximum_seeds_per_observed_cell
+leave_R01,rf,2000,20,area;object,aef;optical,4,5,5
+leave_R02,rf,2000,20,area;object,aef;optical,4,5,5
+leave_R03,rf,2000,20,area;object,aef;optical,4,5,5
+leave_R04,rf,2000,20,area;object,aef;optical,4,5,5
+within,logit,2000,20,area;object,aef;optical,4,5,5
+within,rf,500,20,area;object,aef;optical,4,5,5
+within,rf,2000,145,area;area_region;interior;natural_area;object;object_mmu;object_region;proposal;proposal_classmatched;uncertainty;uncertainty_classmatched,aef;hybrid;optical;optical_context,29,5,5
+within,rf,8000,20,area;object,aef;optical,4,5,5
+within,rf_noboot,2000,37,area;object;weighted_area;weighted_area_cap10,aef;optical,8,4,5

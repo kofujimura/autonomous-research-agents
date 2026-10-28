@@ -1,0 +1,32 @@
+{
+  "experiment_id": "endpoint-composition-v13",
+  "start_at_utc": "2026-10-25T13:35:54Z",
+  "end_at_utc": "2026-10-25T13:36:48Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/endpoint.py",
+    "--baseline",
+    "analysis/main-v1",
+    "--output",
+    "analysis/endpoint-v13"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v13.md",
+  "plan_commit_id": "44b01be87861db0ef65b6bdb1ab6e32178550268",
+  "additional_plan_commits": {
+    "protocol/plan-v1.md": "16950d0443b1a60305016500941e1c6448a65d40"
+  },
+  "code_commit_id": "889a1962d075b09349b5113e9155d9ed27762024",
+  "input_sha256": {
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+    "data/prepared/references.csv": "8d2161765a97982d362e57c7d9e4b1b41b51f9a9602f124e33474adee915e180"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0291",
+  "pid": 22567,
+  "elapsed_seconds": 54.12213695817627,
+  "end_event_id": "E0292"
+}

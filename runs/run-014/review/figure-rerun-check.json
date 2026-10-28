@@ -1,0 +1,41 @@
+{
+  "observed_at_utc": "2026-10-25T19:06:42Z",
+  "comparisons": [
+    {
+      "source": "figures/operating-points.png",
+      "regenerated": "figures/operating-points.png",
+      "source_sha256": "3466a4d6041453fb83c76894425b8a8902e93fee1e70777906764c60bb49a456",
+      "regenerated_sha256": "3466a4d6041453fb83c76894425b8a8902e93fee1e70777906764c60bb49a456",
+      "bytes_identical": true
+    },
+    {
+      "source": "figures/allocation-support-sensitivity.png",
+      "regenerated": "figures/allocation-support-sensitivity.png",
+      "source_sha256": "0fcc7875c39cd55a5e298c60ac3ae2ef756d904957509bb4a60ca6e7594585dd",
+      "regenerated_sha256": "0fcc7875c39cd55a5e298c60ac3ae2ef756d904957509bb4a60ca6e7594585dd",
+      "bytes_identical": true
+    },
+    {
+      "source": "figures/direct-inputs.png",
+      "regenerated": "figures/direct-inputs.png",
+      "source_sha256": "841fa94a2389057800af54d66f7bfb07700536e49edeea15606da84177c888d6",
+      "regenerated_sha256": "841fa94a2389057800af54d66f7bfb07700536e49edeea15606da84177c888d6",
+      "bytes_identical": true
+    },
+    {
+      "source": "figures/diagnostics/calibration-sensitivity.png",
+      "regenerated": "figures/diagnostics/calibration-sensitivity.png",
+      "source_sha256": "8185e5bfe3a6245a07b23552667a3768da4d4edb7fbd9a48f4cd1a8b5c586b27",
+      "regenerated_sha256": "8185e5bfe3a6245a07b23552667a3768da4d4edb7fbd9a48f4cd1a8b5c586b27",
+      "bytes_identical": true
+    },
+    {
+      "source": "analysis/endpoint-v13/reference-similarity.png",
+      "regenerated": "endpoint-v13/reference-similarity.png",
+      "source_sha256": "1822f0702848cfe2e14d3782588c6972c5adb069a1cd278e37208f083bb690e6",
+      "regenerated_sha256": "1822f0702848cfe2e14d3782588c6972c5adb069a1cd278e37208f083bb690e6",
+      "bytes_identical": true
+    }
+  ],
+  "note": "PNG byte comparison supplements passed numeric/plot-table checks; PDF metadata byte identity is not required."
+}

@@ -1,0 +1,30 @@
+{
+  "experiment_id": "V014-expanded-offline",
+  "started_at_utc": "2026-10-26T08:58:06Z",
+  "command": [
+    ".venv/bin/python",
+    "verification_work/expanded-source/scripts/verify.py",
+    "--mode",
+    "reduced",
+    "--output",
+    "/Users/fujimura/Research/ai-free-research-en/run-015/verification_work/expanded-run"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/verification-final-v1.md",
+  "plan_commit_id": "8ad181f738faace9d3e042edd2af4879158f4cca",
+  "code_commit_id": "44f18c3595a9b72d33dde2bd6e0856e7b24d66ba",
+  "input_sha256": {
+    "review/expanded-source.json": "3f5b6d4099f12ef8f137baee8a354858724b57a40fec19c2f7bf9a6e7765096c",
+    "review/expanded-source-before.SHA256SUMS": "d6c0759ceb0ca87c38a547a5a8a07236243da84b737c54e4d4880bdac1ae2b60",
+    "protocol/plan-v11-repeated-member-draws.md": "518d16f7a601508e4e1114938cc3503ecfed1b6dc2b44a1f15607ee7fbae15d9",
+    "protocol/plan-v13-integer-moment-precision.md": "31006eb8de0630cd0ded66a1a00cb908e212c619d050cac11ed44dac45ea8862",
+    "protocol/analysis-correction-v1.md": "8943e7060e86a54e2348fd76a8397fc0912477a0069118f01c7904bebc1a1a24"
+  },
+  "status": "completed",
+  "start_event_id": "E0607",
+  "child_pid": 70732,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T09:12:57Z",
+  "elapsed_seconds": 891.1006877080072,
+  "end_event_id": "E0618"
+}

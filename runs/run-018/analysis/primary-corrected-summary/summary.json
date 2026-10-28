@@ -1,0 +1,13 @@
+{
+  "source_predictions": "analysis/main-corrected",
+  "queries": 3667,
+  "nonempty_queries": 3637,
+  "empty_queries": 30,
+  "single_all_correct": 204,
+  "single_all_wrong": 26,
+  "unmatchable": 59,
+  "nontrivial_matchable": 3374,
+  "regions": 12,
+  "method_n": 18,
+  "uniform_expected_macro_risk": 0.45073034784939
+}

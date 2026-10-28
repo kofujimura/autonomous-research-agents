@@ -1,0 +1,23 @@
+{
+  "completed_at_utc": "2026-10-27T10:34:33.620648Z",
+  "status": "PASS",
+  "fits": 79,
+  "rows_compared": {
+    "scores": 1019,
+    "regional-scores": 35982,
+    "bootstrap-blocks": 48912,
+    "strata-scores": 2790
+  },
+  "primary_contrasts_compared": [
+    "H1_interaction",
+    "aef_oracle_gain",
+    "optical_oracle_gain",
+    "aef_proposal_gain",
+    "optical_proposal_gain",
+    "aef_proposal_vs_uncertainty",
+    "optical_proposal_vs_uncertainty"
+  ],
+  "absolute_tolerance": 1e-12,
+  "elapsed_seconds": 10.859184250002727,
+  "interpretation": "Optimized aggregation agrees with frozen earlier outputs on the full original75 fits and selected empty-domain/decoder/MMU cases; self-check, not independent reproduction"
+}

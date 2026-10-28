@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-27T08:46:37.643156Z",
+  "fits_checked": 104,
+  "distinct_position_sets": 40,
+  "unique_budgets_valid": true,
+  "training_only": true,
+  "labels_match_bundled_reference": true,
+  "matched_positions_across_representations_and_decoders": true
+}

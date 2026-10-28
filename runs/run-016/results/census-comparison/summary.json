@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-10-26T21:23:18.230110Z",
+  "point_analyses": [
+    "results/inference/logistic-broad-tessera",
+    "results/inference/logistic-broad-alphaearth"
+  ],
+  "census_analyses": [
+    "results/census-inference/logistic-broad-tessera",
+    "results/census-inference/logistic-broad-alphaearth"
+  ],
+  "cases": 3,
+  "primary_transitions": 9,
+  "sign_disagreements": 2,
+  "change_discrepancy_rmse": 0.008518667804907641,
+  "maximum_absolute_change_discrepancy": 0.020855675298693477,
+  "median_first_phase_paired_fraction_n128": 0.028547297297297297,
+  "maximum_first_phase_paired_fraction_n128": 0.03268390399722594,
+  "interpretation": "Prospectively selected small case check. First-phase components are reference-only linearization diagnostics, not unconditional two-phase coverage estimates."
+}

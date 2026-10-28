@@ -1,0 +1,32 @@
+{
+  "experiment_id": "direct-inputs-v23",
+  "start_at_utc": "2026-10-25T17:57:30Z",
+  "end_at_utc": "2026-10-25T17:57:43Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/direct_inputs.py",
+    "--dataset",
+    "lcmap",
+    "--baseline",
+    "analysis/main-v1",
+    "--output",
+    "analysis/direct-inputs-v23"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": 14014,
+  "plan_path": "protocol/plan-v23.md",
+  "plan_commit_id": "16dab509c06d04739a867a99610145bcfb50f1bb",
+  "additional_plan_commits": {},
+  "code_commit_id": "6aa9fb7676fc3c3b57a093fa8d2528ed97f1d37c",
+  "input_sha256": {
+    "data/prepared/targets.csv": "5dda536dd729fbd5296e85e11a1c5a5f0f7f6a755edb084f757771b0ce76b58a",
+    "analysis/main-v1/predictions.parquet": "9f6273c2cd8e39405dc0caf5477684ab5e860ece9d96576963c1f7c73ad55417"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0527",
+  "pid": 31140,
+  "elapsed_seconds": 13.07306308299303,
+  "end_event_id": "E0528"
+}

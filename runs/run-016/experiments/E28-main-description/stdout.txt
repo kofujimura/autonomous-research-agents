@@ -1,0 +1,1 @@
+{"generated_at_utc": "2026-10-26T21:43:52.311902Z", "attempted_distinct_candidates": 85, "broad_taxonomy_groups": 17, "fine_taxonomy_groups": 54}

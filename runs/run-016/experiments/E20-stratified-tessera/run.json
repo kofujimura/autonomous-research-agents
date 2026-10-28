@@ -1,0 +1,32 @@
+{
+  "experiment_id": "E20-stratified-tessera",
+  "start_time_utc": "2026-10-26T21:28:59.471602Z",
+  "end_time_utc": "2026-10-26T21:29:22.250577Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/extensions_pipeline.py",
+    "--representation",
+    "tessera",
+    "--stage",
+    "stratified"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6-sparse-change.md",
+  "plan_commit_id": "abf8b8e2d4e83544df4702d8080309eb1ed43bfe",
+  "plan_sha256": "efca8c2e1d009c4c4e425e6722c2f664053760524f36eb7c8abd48772a2896fd",
+  "code_commit_id": "abf8b8e2d4e83544df4702d8080309eb1ed43bfe",
+  "inputs": [
+    {
+      "path": "results/inference/logistic-broad-tessera/analysis.json",
+      "sha256": "b3ead536c904bbb0651c6bf97588a3c86e7e1274ae38aab6ed748eb785ca9823"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E20-stratified-tessera/stdout.txt",
+  "stderr_path": "experiments/E20-stratified-tessera/stderr.txt",
+  "start_event_id": "E0283",
+  "pid": 6911,
+  "elapsed_seconds": 22.77898241695948,
+  "end_event_id": "E0284"
+}

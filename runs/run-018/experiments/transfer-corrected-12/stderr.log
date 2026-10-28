@@ -1,0 +1,4 @@
+/Users/fujimura/Research/ai-free-research-en/run-018/.venv/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/Users/fujimura/Research/ai-free-research-en/run-018/.venv/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")

@@ -1,0 +1,29 @@
+{
+  "experiment_id": "V016-review-response-end-to-end",
+  "started_at_utc": "2026-10-26T13:22:27Z",
+  "command": [
+    ".venv/bin/python",
+    "verification_work/revision-source/scripts/verify.py",
+    "--mode",
+    "reduced",
+    "--output",
+    "/Users/fujimura/Research/ai-free-research-en/run-015/verification_work/revision-run"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v14-review-response.md",
+  "plan_commit_id": "a9fa8a471ef7a6f6ec19994511e65cff09546c59",
+  "code_commit_id": "375ee1a7ea549a1aa6431ea132b5fe0f8ac49809",
+  "input_sha256": {
+    "review/revision-source-before.SHA256SUMS": "e3ec06466afeca568cfbd5b3bf432f686d28e29c0bf09a90ec070544abfeb11e",
+    "results/review-response/pruning-summary.csv": "717cfd8f2d7c8f33738c4703f54cbf170beea5c79f615a41f5bbed0e4f83ceab",
+    "results/review-response/geometry-lead-summary.csv": "e727a477b4feaf6b8d25d5121670073693fe21e7ff502b1c432f404b68d0f422",
+    "results/review-response/width-window-diagnostic.csv": "88a943d1e9a6cfa617ed83a1bdb64587d10eedbc0ac8cce0fe11e4dd2d618d21"
+  },
+  "status": "completed",
+  "start_event_id": "E0717",
+  "child_pid": 84415,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T13:38:08Z",
+  "elapsed_seconds": 941.2778823329136,
+  "end_event_id": "E0719"
+}

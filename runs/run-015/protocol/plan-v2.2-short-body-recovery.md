@@ -1,0 +1,9 @@
+# Technical addendum v2.2: retain short HTTP body fragments
+
+Inherit original v1 scientific settings, v2/v2.1 transfer limits and the applicable exploratory plans. The AIFS20260709/84h second acquisition invocation failed at member42 after an incomplete body. It remains excluded/missing under v1's two-invocation cap; do not run a third v1 acquisition invocation.
+
+Inspection of the installed urllib3 source showed that its default Content-Length enforcement can raise before requests yields a final fragment shorter than the streaming block. Also, the GRIB recovery predicate omitted requests' ChunkedEncodingError class. Correct these implementation issues for FUTURE transfers. Let the HTTP library yield a short tail by disabling that PER-RESPONSE early exception, then retain the bytes and enforce the requested length in our own existing strict check. Do not accept a short index or GRIB as complete. Keep206/Content-Range checks, exact final lengths, message markers and GRIB metadata validation. Classify ChunkedEncodingError as recoverable under the already bounded subdivision rule.
+
+For the rare index-range fallback, use16KiB pieces and retain checked partial prefixes across at most three attempts per endpoint. The same known public index, two advertised endpoints,8MB cap, bounded timeouts and no403/404/ignored-Range bypass remain. No new hosts, authentication, cache-busting queries, sample replacement or extra v1 invocation.
+
+Validate the short-fragment behavior and index resumption with synthetic local in-memory HTTP responses, no network or third-party tests. This is code validation, not weather evidence. Record the failed original acquisition, the code fix and all future results. Primary hypotheses, metrics, dates and exclusions are unchanged; exploratory new-coordinate acquisitions already specified by v4 retain their separate records and cannot silently restore v1 exclusions.

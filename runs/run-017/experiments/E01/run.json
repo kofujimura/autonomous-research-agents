@@ -1,0 +1,24 @@
+{
+  "experiment_id": "E01",
+  "started_at_utc": "2026-10-27T05:14:42.200866Z",
+  "command": [
+    ".venv/bin/python",
+    "code/select_cores.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "6001a6fe99ee1d91a9455c8bfcb741dff5ad4886",
+  "code_commit_id": "6001a6fe99ee1d91a9455c8bfcb741dff5ad4886",
+  "input_sha256": {
+    "data/pilot/aef_index.parquet": "5d216665ff2e4b8871157d217230cc42d542f1ac9a4b224c16d5c1dbff9cb947",
+    "data/pilot/2020-project-geometries.geojson": "98f5d6c6c08513695fb98510f4d9e735395c999d515789bcbed19fce64df7b40"
+  },
+  "start_event_id": "E0033",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 33261,
+  "ended_at_utc": "2026-10-27T05:14:49.053390Z",
+  "elapsed_seconds": 6.852389124920592,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0034"
+}

@@ -1,0 +1,24 @@
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))
+/Users/fujimura/Research/ai-free-research-en/run-017/code/features.py:85: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  g=geom_transform(projection.transform,shape(f['geometry']))

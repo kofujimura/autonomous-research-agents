@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E67",
+  "started_at_utc": "2026-10-27T11:30:30.711934Z",
+  "command": [
+    ".venv/bin/python",
+    "code/check_manuscript.py",
+    "--fresh",
+    "verification-work/run-1/output",
+    "--out",
+    "review/manuscript-check"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v9.md",
+  "plan_commit_id": "077fa73a245ddca17a938a5230dd91b8cc09247c",
+  "code_commit_id": "077fa73a245ddca17a938a5230dd91b8cc09247c",
+  "input_sha256": {
+    "paper.md": "ec44d69f13ea9f0ddfe6df3c92e57d19aff23707d1a56250647530ed668ce011",
+    "claims.jsonl": "c6a0b0e4bad0d5c7c962e8874837a20baeed357e88c2de8aaace97caaf96b0fe"
+  },
+  "start_event_id": "E0325",
+  "seed": "see command and settings in experiment outputs",
+  "pid": 65518,
+  "ended_at_utc": "2026-10-27T11:30:31.945460Z",
+  "elapsed_seconds": 1.2333694170229137,
+  "exit_code": 0,
+  "timed_out": false,
+  "end_event_id": "E0326"
+}

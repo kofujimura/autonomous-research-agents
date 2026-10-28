@@ -1,0 +1,62 @@
+[
+  {
+    "region": "R01",
+    "product": "aef",
+    "year": 2023,
+    "start_time_utc": "2026-10-27T23:16:54.604165+00:00",
+    "end_time_utc": "2026-10-27T23:19:59.762939+00:00",
+    "elapsed_seconds": 185.15815004101023,
+    "error": null,
+    "input_selected_sha256": "399c234c2cde1d999e6f15eaa2dc6142d482e4499a27ab282053a92ff49890f0"
+  },
+  {
+    "region": "R02",
+    "product": "aef",
+    "year": 2023,
+    "start_time_utc": "2026-10-27T23:19:59.764927+00:00",
+    "end_time_utc": "2026-10-27T23:23:54.545880+00:00",
+    "elapsed_seconds": 234.7802399159409,
+    "error": null,
+    "input_selected_sha256": "7a5b2872eb6bc03634c09fcb8c771b477c2f426ff4a56608110b32f890409268"
+  },
+  {
+    "region": "R03",
+    "product": "aef",
+    "year": 2023,
+    "start_time_utc": "2026-10-27T23:23:54.551697+00:00",
+    "end_time_utc": "2026-10-27T23:27:02.120985+00:00",
+    "elapsed_seconds": 187.56871020887047,
+    "error": null,
+    "input_selected_sha256": "fd978ed7e0d844d2018666e506d0cad876aba442e26517360d258636aab801c1"
+  },
+  {
+    "region": "R04",
+    "product": "aef",
+    "year": 2023,
+    "start_time_utc": "2026-10-27T23:27:02.133071+00:00",
+    "end_time_utc": "2026-10-27T23:29:31.527967+00:00",
+    "elapsed_seconds": 149.39442904107273,
+    "error": null,
+    "input_selected_sha256": "78c51b16c3f42a57528e7749ae51225c0334d597d1401e2e56dca6e30f3b7dc2"
+  },
+  {
+    "region": "R05",
+    "product": "aef",
+    "year": 2023,
+    "start_time_utc": "2026-10-27T23:29:31.529040+00:00",
+    "end_time_utc": "2026-10-27T23:31:38.719437+00:00",
+    "elapsed_seconds": 127.19000770896673,
+    "error": null,
+    "input_selected_sha256": "5dade49e15c593584dff3f271965308f2da180582572a83e486e8b05b98d6c19"
+  },
+  {
+    "region": "R06",
+    "product": "aef",
+    "year": 2023,
+    "start_time_utc": "2026-10-27T23:31:38.720133+00:00",
+    "end_time_utc": "2026-10-27T23:34:58.906477+00:00",
+    "elapsed_seconds": 200.1857296670787,
+    "error": null,
+    "input_selected_sha256": "12d2ec168094a065358c0425d478a1da1b928888570070b15314928ee3e2bea1"
+  }
+]

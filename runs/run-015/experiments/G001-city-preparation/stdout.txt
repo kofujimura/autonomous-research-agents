@@ -1,0 +1,53 @@
+{"source_id": "naturalearth-populated-places", "url": "https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_populated_places.zip", "final_url": null, "obtained_at_utc": "2026-10-26T00:29:03Z", "path": "data/cities/naturalearth-populated-places.zip", "bytes": 2811199, "sha256": "cd149186f03d2603e0410da399b980a4357d0ac32d3a2305a49ed3dffcc41d7b", "licence": "Public domain per official Natural Earth terms", "access_range": "downloaded; passage inspection recorded separately", "content_type": null}
+{
+  "completed_at_utc": "2026-10-26T00:29:08Z",
+  "gazetteer_sha256": "cd149186f03d2603e0410da399b980a4357d0ac32d3a2305a49ed3dffcc41d7b",
+  "source_records": 7342,
+  "portfolio_count": 24,
+  "city_portfolio_count": 12,
+  "diagnostics": [
+    {
+      "group": "Iberia",
+      "eligible_records": 44,
+      "unique_grid_cells": 44,
+      "status": "two_city_portfolios_selected"
+    },
+    {
+      "group": "France",
+      "eligible_records": 37,
+      "unique_grid_cells": 37,
+      "status": "two_city_portfolios_selected"
+    },
+    {
+      "group": "central_Europe",
+      "eligible_records": 62,
+      "unique_grid_cells": 60,
+      "status": "two_city_portfolios_selected"
+    },
+    {
+      "group": "Balkans",
+      "eligible_records": 38,
+      "unique_grid_cells": 38,
+      "status": "two_city_portfolios_selected"
+    },
+    {
+      "group": "northern_India",
+      "eligible_records": 86,
+      "unique_grid_cells": 85,
+      "status": "two_city_portfolios_selected"
+    },
+    {
+      "group": "Sahel",
+      "eligible_records": 14,
+      "unique_grid_cells": 14,
+      "status": "two_city_portfolios_selected"
+    }
+  ],
+  "archive_versions": [
+    {
+      "path": "ne_10m_populated_places.VERSION.txt",
+      "text": "5.1.2"
+    }
+  ],
+  "offline": false
+}

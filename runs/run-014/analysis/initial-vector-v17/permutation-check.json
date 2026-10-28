@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "seed": 14014,
+  "permutations": 1,
+  "scored_rows": 3568,
+  "mapped_target_keys": 446,
+  "maximum_score_difference": 0.0,
+  "changed_flags": 0,
+  "scope": "LCMAP finite later after vectors only; input-dependence software check, not independent replication or forecasting."
+}

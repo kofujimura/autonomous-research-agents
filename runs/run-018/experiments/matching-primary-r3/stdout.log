@@ -1,0 +1,15 @@
+{"stage": "fit", "method": "hydro_pair", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 38.54515283298679}
+{"stage": "fit", "method": "pair_aef", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 77.56007600016892}
+{"stage": "fit", "method": "pair_tessera", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 116.78807137510739}
+{"stage": "fit", "method": "pair_both", "training_wetlands": 1187, "pairs": 25105, "elapsed_seconds": 156.82094570808113}
+{"stage": "predict", "queries": 100, "total": 1021, "elapsed_seconds": 171.176788541954}
+{"stage": "predict", "queries": 200, "total": 1021, "elapsed_seconds": 173.96472891699523}
+{"stage": "predict", "queries": 300, "total": 1021, "elapsed_seconds": 176.66058529214934}
+{"stage": "predict", "queries": 400, "total": 1021, "elapsed_seconds": 179.3543986249715}
+{"stage": "predict", "queries": 500, "total": 1021, "elapsed_seconds": 181.92557691712864}
+{"stage": "predict", "queries": 600, "total": 1021, "elapsed_seconds": 184.562333292095}
+{"stage": "predict", "queries": 700, "total": 1021, "elapsed_seconds": 187.08621183317155}
+{"stage": "predict", "queries": 800, "total": 1021, "elapsed_seconds": 189.32635729201138}
+{"stage": "predict", "queries": 900, "total": 1021, "elapsed_seconds": 191.80532504199073}
+{"stage": "predict", "queries": 1000, "total": 1021, "elapsed_seconds": 194.42126250010915}
+{"start_time_utc": "2026-10-27T17:09:11.129172+00:00", "end_time_utc": "2026-10-27T17:12:26.176102+00:00", "elapsed_seconds": 195.06284370808862, "rotation": 3, "year": 2024, "training_buffer": 1000, "reference_buffer": 1000, "min_margin": 15, "within_region_scale": false, "cohort_n": 3667, "training_nominal_n": 1883, "training_retained_n": 1187, "training_pairs": 25105, "query_n": 1021, "reference_n": 763, "prediction_rows": 18306, "feature_names": ["elevation_mean90", "elevation_std90", "slope_mean90", "slope_std90", "tpi90_mean90", "tpi90_std90", "tpi510_mean90", "tpi510_std90", "occurrence_centre", "occurrence_mean90", "occurrence_std90", "occurrence_mean510", "recurrence_centre", "recurrence_mean90", "recurrence_std90", "recurrence_mean510", "seasonality_centre", "seasonality_mean90", "seasonality_std90", "water_fraction_0_90", "water_fraction_0_510", "water_fraction_75_90", "water_fraction_75_510", "log_distance_occurrence75", "log_hand_centre", "log_hand_mean90", "log_hand_std90", "log_hand_mean510", "log_hand_std510", "log_area"], "input_sha256": {"rows-2024.json": "7c656baae462d3e129f5accfd91b8a31cc5833c3ae67af25171a318df6188677", "features-2024.npz": "00fe74c3030921811b8b45e856ee93653e4c75a5a3373e51103f1f3141fb2a51"}}

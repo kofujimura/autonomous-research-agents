@@ -1,0 +1,33 @@
+{
+  "scheduled_dates": 12,
+  "matched_dates": 8,
+  "matched_date_list": [
+    "20260603",
+    "20260615",
+    "20260709",
+    "20260729",
+    "20260806",
+    "20260826",
+    "20260915",
+    "20260927"
+  ],
+  "minimum_matched_dates": 8,
+  "complete_horizons": 32,
+  "complete_raw_forecast_units": 128,
+  "matched_cases": 13824,
+  "all_available_cases": 13824,
+  "exploratory": true,
+  "status": "adequate_predeclared_date_count",
+  "bootstrap_block_length": 2,
+  "bootstrap_repetitions": 2000,
+  "maximum_below_snapshot_cases": 0,
+  "old_members_compared": 1591,
+  "temperature_value_mismatches": 0,
+  "grib_hash_mismatches": 0,
+  "max_primal_residual": 5.956013460206577e-11,
+  "max_dual_violation": 2.192246384424834e-11,
+  "max_duality_gap": 1.6718848527830232e-12,
+  "design_sha256": "b32b2be5bab4474dfdd67c7d925eb44ad5c1b59b4148314dce11624685b68d24",
+  "land_fraction_diagnostic_available": true,
+  "land_fraction_input_sha256": "d040a36ecab5932553effa93060f9e18c1bcd70dd91a4f13164aaadafcb3bdfc"
+}

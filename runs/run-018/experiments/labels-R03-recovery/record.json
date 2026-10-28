@@ -1,0 +1,39 @@
+{
+  "experiment_id": "labels-R03-recovery",
+  "start_time_utc": "2026-10-27T15:38:14.032416+00:00",
+  "end_time_utc": "2026-10-27T15:40:42.260061+00:00",
+  "command": [
+    ".venv/bin/python",
+    "code/collect_labels.py",
+    "R03",
+    "--page-size",
+    "100",
+    "--prefix",
+    "recovery-",
+    "--request-timeout",
+    "180"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v2.md",
+  "plan_commit": "6e13bfe346e6d0feb88454a1d39cb9c24b92fefb",
+  "code_commit": "2c5299f6c179435b11f3f94ab251479c9ecdf7f4",
+  "input_manifest": null,
+  "exit_code": 0,
+  "pid": 91382,
+  "plan_sha256": "335def8d64e76c9bc2ba0928cd645f9554f51697af5cdd267842ff65bee01b3c",
+  "code_sha256": {
+    "code/fetch.py": "e5c07a7b4855bca8b6d1f4c44772cadb554def47e7bbbe683eb942f84b0e52bb",
+    "code/ai_api.py": "d6ebcc7f7cf689a5937467df5effb018cc2831296cb043f0b7d93c672e176b23",
+    "code/collect_hydro.py": "43336e7f2db864336855b9cec9c64c3d3c7bf4b4aeb3cb96b775cb34e8707fb5",
+    "code/pilot_wetlands.py": "c06d3b20a444f3221e6bff0527561dfb9ec02c86d7d3fc4a2ce4d50363437337",
+    "code/collect_batch.py": "34c2a5630c302ddfdacf5e1136b55c5213e0bdffbece2153d20a5b06e7dbd76b",
+    "code/records.py": "76c2e2eb90697650b7774ac4607ab2cda0c0d3fc0c5058ce9b6223f45a81b98d",
+    "code/collect_embeddings.py": "a4565be9d6016386d98ed708c86beb44c4e540bb40a1c578172b72c3077a9598",
+    "code/run_process.py": "9cb0be02b4bdd73cec6c7e469f7b98d23802077f756f8b5767fb7b8b8798b29c",
+    "code/collect_labels.py": "95c0bab2be625d98bee32f80079a614d756ea3b48e723170f754d7eca6b1238d",
+    "code/derive_features.py": "5fd419e9f74aa7ed3b0a6e7dcd2c961303b5b375d5760fcc61a6d70c98b33029"
+  },
+  "input_manifest_sha256": null,
+  "timed_out": false,
+  "elapsed_seconds": 148.2041774999816
+}

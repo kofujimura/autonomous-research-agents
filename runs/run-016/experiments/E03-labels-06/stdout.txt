@@ -1,0 +1,33 @@
+START L125_075 test 2026-10-26T17:12:43.919867Z
+END L125_075 ineligible {'train': 7, 'calibration': 6, 'test': 7}
+START L035_115 test 2026-10-26T17:13:05.765551Z
+END L035_115 accepted {'train': 7, 'calibration': 6, 'test': 8}
+START L075_155 train 2026-10-26T17:14:45.663829Z
+END L075_155 accepted {'train': 8, 'calibration': 6, 'test': 8}
+START L105_170 calibration 2026-10-26T17:16:15.578792Z
+END L105_170 ineligible {'train': 8, 'calibration': 6, 'test': 8}
+START L080_175 train 2026-10-26T17:16:33.350891Z
+END L080_175 ineligible {'train': 8, 'calibration': 6, 'test': 8}
+START L050_065 test 2026-10-26T17:16:51.786091Z
+END L050_065 accepted {'train': 8, 'calibration': 6, 'test': 9}
+START L080_050 calibration 2026-10-26T17:18:25.808583Z
+END L080_050 accepted {'train': 8, 'calibration': 7, 'test': 9}
+START L050_205 calibration 2026-10-26T17:19:58.442385Z
+END L050_205 ineligible {'train': 8, 'calibration': 7, 'test': 9}
+START L055_085 calibration 2026-10-26T17:20:19.108086Z
+END L055_085 accepted {'train': 8, 'calibration': 8, 'test': 9}
+START L080_150 train 2026-10-26T17:22:00.942950Z
+END L080_150 accepted {'train': 9, 'calibration': 8, 'test': 9}
+START L105_205 test 2026-10-26T17:23:29.670617Z
+END L105_205 accepted {'train': 9, 'calibration': 8, 'test': 10}
+START L120_235 train 2026-10-26T17:25:06.645850Z
+END L120_235 ineligible {'train': 9, 'calibration': 8, 'test': 10}
+START L130_170 train 2026-10-26T17:25:25.621490Z
+END L130_170 ineligible {'train': 9, 'calibration': 8, 'test': 10}
+START L110_240 train 2026-10-26T17:25:44.952051Z
+END L110_240 ineligible {'train': 9, 'calibration': 8, 'test': 10}
+START L040_080 calibration 2026-10-26T17:26:04.444913Z
+END L040_080 accepted {'train': 9, 'calibration': 9, 'test': 10}
+START L120_125 train 2026-10-26T17:27:48.759532Z
+END L120_125 accepted {'train': 10, 'calibration': 9, 'test': 10}
+{"completed_at_utc": "2026-10-26T17:29:26.567442Z", "accepted": {"train": 10, "calibration": 9, "test": 10}, "attempted": 40, "batch_attempts": 16}

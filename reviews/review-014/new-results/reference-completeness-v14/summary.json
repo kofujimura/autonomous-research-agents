@@ -1,0 +1,7 @@
+{
+  "exploratory": true,
+  "unchanged_reference_independent_readouts": true,
+  "groups": 80,
+  "groups_with_membership_disagreements": 16,
+  "common_prediction_rows": 21408
+}

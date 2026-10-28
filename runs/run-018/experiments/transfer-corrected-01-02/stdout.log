@@ -1,0 +1,20 @@
+{"region": "R01", "start_time_utc": "2026-10-27T21:57:58.400561+00:00", "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_transfer.py", "--region", "R01", "--inputs", "analysis/features-corrected", "--output", "analysis/transfer-corrected/R01"]}
+{"stage": "fit", "method": "hydro_pair", "elapsed_seconds": 152.09639591583982}
+{"stage": "fit", "method": "pair_aef", "elapsed_seconds": 307.96832162491046}
+{"stage": "fit", "method": "pair_tessera", "elapsed_seconds": 464.2255555409938}
+{"stage": "fit", "method": "pair_both", "elapsed_seconds": 623.5257642499637}
+{"stage": "rotation", "rotation": 0, "query_n": 119, "elapsed_seconds": 663.8029546248727}
+{"stage": "rotation", "rotation": 1, "query_n": 94, "elapsed_seconds": 666.8475829157978}
+{"stage": "rotation", "rotation": 2, "query_n": 147, "elapsed_seconds": 671.4721304578707}
+{"stage": "rotation", "rotation": 3, "query_n": 135, "elapsed_seconds": 675.6081118748989}
+{"start_time_utc": "2026-10-27T21:57:59.767432+00:00", "end_time_utc": "2026-10-27T22:09:15.375319+00:00", "elapsed_seconds": 675.6081509578507, "region": "R01", "forest_seed": 18019, "training_n": 3172, "training_pairs": 83280, "heldout_n": 495, "region_indicators": false, "training_classes": {"A": 656, "C": 1878, "F": 638}, "input_sha256": {"analysis/features-corrected/rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "analysis/features-corrected/features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}
+{"region": "R02", "start_time_utc": "2026-10-27T22:09:15.523408+00:00", "command": ["/Users/fujimura/Research/ai-free-research-en/run-018/.venv/bin/python", "/Users/fujimura/Research/ai-free-research-en/run-018/code/analyse_transfer.py", "--region", "R02", "--inputs", "analysis/features-corrected", "--output", "analysis/transfer-corrected/R02"]}
+{"stage": "fit", "method": "hydro_pair", "elapsed_seconds": 133.4284325421322}
+{"stage": "fit", "method": "pair_aef", "elapsed_seconds": 269.7353295830544}
+{"stage": "fit", "method": "pair_tessera", "elapsed_seconds": 404.99091820814647}
+{"stage": "fit", "method": "pair_both", "elapsed_seconds": 544.907313792035}
+{"stage": "rotation", "rotation": 0, "query_n": 140, "elapsed_seconds": 579.7669730831403}
+{"stage": "rotation", "rotation": 1, "query_n": 266, "elapsed_seconds": 588.2727681251708}
+{"stage": "rotation", "rotation": 2, "query_n": 237, "elapsed_seconds": 595.544376083184}
+{"stage": "rotation", "rotation": 3, "query_n": 247, "elapsed_seconds": 602.5557617919985}
+{"start_time_utc": "2026-10-27T22:09:16.904552+00:00", "end_time_utc": "2026-10-27T22:19:19.460142+00:00", "elapsed_seconds": 602.5557993331458, "region": "R02", "forest_seed": 18020, "training_n": 2777, "training_pairs": 72503, "heldout_n": 890, "region_indicators": false, "training_classes": {"A": 783, "C": 1349, "F": 645}, "input_sha256": {"analysis/features-corrected/rows-2024.json": "9c9737fa5bc89fa6e79e62c362eda898248f138bd4cb53422c0c99bf2dff69b7", "analysis/features-corrected/features-2024.npz": "dc6f70ad43c145e28ccd048caa02d298ac0b4e4c8e4d0f7d7745655027bf2e10"}}

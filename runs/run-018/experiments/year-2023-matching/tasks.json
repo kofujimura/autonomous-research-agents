@@ -1,0 +1,35 @@
+[
+  {
+    "task_id": "year-2023-fits",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/year-common/2023",
+      "--output",
+      "analysis/year-2023",
+      "--extra",
+      "--year",
+      "2023"
+    ],
+    "start_time_utc": "2026-10-28T02:47:43.547426+00:00",
+    "end_time_utc": "2026-10-28T03:01:36.031597+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "year-2023-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/year-2023",
+      "--out",
+      "analysis/year-2023-summary"
+    ],
+    "start_time_utc": "2026-10-28T03:01:36.031984+00:00",
+    "end_time_utc": "2026-10-28T03:01:40.261613+00:00",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,12 @@
+{"task_id": "polygon-factor-isolation", "command": [".venv/bin/python", "code/audit_polygon_conditions.py", "--out", "analysis/polygon-condition-audit"], "start_time_utc": "2026-10-27T22:00:43.320479+00:00"}
+{"passed": true, "checks": 105}
+{"task_id": "report-data", "command": [".venv/bin/python", "code/build_report_data.py", "--out", "analysis/report-data"], "start_time_utc": "2026-10-27T22:00:44.153323+00:00"}
+{"analyses": 32, "primary_wetlands": 3667, "primary_windows": 12}
+{"task_id": "figures", "command": [".venv/bin/python", "code/make_figures.py", "--data", "analysis/report-data", "--out", "figures"], "start_time_utc": "2026-10-27T22:00:45.674853+00:00"}
+{"figures": ["risk-coverage", "paired-contrasts", "control-sensitivity", "screen-components"]}
+{"task_id": "paper", "command": [".venv/bin/python", "code/render_manuscript.py"], "start_time_utc": "2026-10-27T22:00:47.993568+00:00"}
+{"paper": "/Users/fujimura/Research/ai-free-research-en/run-018/paper.md", "words": 7805, "fields": 21}
+{"task_id": "claims", "command": [".venv/bin/python", "code/build_claims.py"], "start_time_utc": "2026-10-27T22:00:49.319624+00:00"}
+{"claims": 7, "supported": 7}
+{"task_id": "completion-report", "command": [".venv/bin/python", "code/update_records_report.py"], "start_time_utc": "2026-10-27T22:00:49.638656+00:00"}
+{"experiment_records": 81, "experiment_statuses": {"completed": 72, "failed": 7, "active": 2}, "effective_confirmed_usage_limit_stops": 2, "unique_api_generation_calls": 1, "actual_api_cost_usd": 1.98624}

@@ -1,0 +1,12 @@
+{
+  "candidate": "C11",
+  "checked_at_utc": "2026-10-25T08:37:17Z",
+  "url": "https://data.usbr.gov/rise/api/result?itemId=6123&dateTime%5Bafter%5D=2020-01-01&dateTime%5Bbefore%5D=2020-12-31&itemsPerPage=400",
+  "note": "Access/schema pilot only; no main warning score.",
+  "top_level_keys": [
+    "links",
+    "meta",
+    "data"
+  ],
+  "rows_returned": 365
+}

@@ -1,0 +1,17 @@
+{"member": 1, "observed_at_utc": "2026-10-25T22:31:43Z"}
+{"member": 2, "observed_at_utc": "2026-10-25T22:31:44Z"}
+{"member": 3, "observed_at_utc": "2026-10-25T22:31:45Z"}
+{"member": 4, "observed_at_utc": "2026-10-25T22:31:46Z"}
+{"member": 5, "observed_at_utc": "2026-10-25T22:31:47Z"}
+{"member": 6, "observed_at_utc": "2026-10-25T22:31:48Z"}
+{"member": 7, "observed_at_utc": "2026-10-25T22:31:51Z"}
+{"member": 8, "observed_at_utc": "2026-10-25T22:31:54Z"}
+{"member": 9, "offset": 1170171590, "attempt": 1, "bytes_retained": 36864, "error": "ChunkedEncodingError", "observed_at_utc": "2026-10-25T22:31:57Z"}
+{"member": 9, "offset": 1170171590, "attempt": 2, "bytes_retained": 36864, "error": "ChunkedEncodingError", "observed_at_utc": "2026-10-25T22:32:00Z"}
+{"member": 9, "observed_at_utc": "2026-10-25T22:32:07Z"}
+{"member": 10, "offset": 314564698, "attempt": 1, "bytes_retained": 4096, "error": "ChunkedEncodingError", "observed_at_utc": "2026-10-25T22:32:08Z"}
+{"member": 10, "offset": 314564698, "attempt": 2, "bytes_retained": 4096, "error": "ChunkedEncodingError", "observed_at_utc": "2026-10-25T22:32:10Z"}
+{"member": 10, "observed_at_utc": "2026-10-25T22:32:18Z"}
+{"member": 11, "offset": 1399964050, "attempt": 1, "bytes_retained": 0, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:32:18Z"}
+{"member": 11, "offset": 1399964050, "attempt": 2, "bytes_retained": 0, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:32:21Z"}
+{"member": 11, "offset": 1399964050, "attempt": 3, "bytes_retained": 0, "error": "HTTPError", "observed_at_utc": "2026-10-25T22:32:26Z"}

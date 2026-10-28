@@ -1,0 +1,35 @@
+[
+  {
+    "task_id": "reference-0",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/features-corrected",
+      "--output",
+      "analysis/boundaries-corrected/reference-0",
+      "--extra",
+      "--reference-buffer",
+      "0"
+    ],
+    "start_time_utc": "2026-10-28T03:43:22.310879+00:00",
+    "end_time_utc": "2026-10-28T03:57:15.651233+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "reference-0-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/boundaries-corrected/reference-0",
+      "--out",
+      "analysis/boundaries-corrected/reference-0-summary"
+    ],
+    "start_time_utc": "2026-10-28T03:57:15.651776+00:00",
+    "end_time_utc": "2026-10-28T03:57:19.882447+00:00",
+    "exit_code": 0
+  }
+]

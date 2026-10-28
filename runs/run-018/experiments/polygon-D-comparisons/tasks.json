@@ -1,0 +1,64 @@
+[
+  {
+    "task_id": "D-rf",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/polygon-features-v3/D",
+      "--output",
+      "analysis/polygon/D-rf"
+    ],
+    "start_time_utc": "2026-10-27T21:41:12.351741+00:00",
+    "end_time_utc": "2026-10-27T21:54:44.914621+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "D-rf-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/polygon/D-rf",
+      "--out",
+      "analysis/polygon/D-rf-summary"
+    ],
+    "start_time_utc": "2026-10-27T21:54:44.915029+00:00",
+    "end_time_utc": "2026-10-27T21:54:49.062693+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "D-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "hgb",
+      "--inputs",
+      "analysis/polygon-features-v3/D",
+      "--primary",
+      "analysis/polygon/D-rf",
+      "--output",
+      "analysis/polygon/D-hgb"
+    ],
+    "start_time_utc": "2026-10-27T21:54:49.063113+00:00",
+    "end_time_utc": "2026-10-27T21:57:02.567008+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "D-hgb-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/polygon/D-hgb",
+      "--out",
+      "analysis/polygon/D-hgb-summary"
+    ],
+    "start_time_utc": "2026-10-27T21:57:02.567391+00:00",
+    "end_time_utc": "2026-10-27T21:57:06.681164+00:00",
+    "exit_code": 0
+  }
+]

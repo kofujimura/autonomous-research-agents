@@ -1,0 +1,974 @@
+[
+ {
+  "experiment": "E01-catalogues",
+  "start": "2026-10-26T15:52:48.389318Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T00:52:41+09:00",
+  "code_commit_time": "2026-10-27T00:52:41+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E02-label-schema",
+  "start": "2026-10-26T15:55:37.488531Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T00:55:02+09:00",
+  "code_commit_time": "2026-10-27T00:55:02+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-fraction-by-code",
+  "start": "2026-10-26T16:05:21.448853Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T01:03:59+09:00",
+  "code_commit_time": "2026-10-27T01:03:59+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-fraction-diagnostic",
+  "start": "2026-10-26T16:01:40.016140Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T01:01:17+09:00",
+  "code_commit_time": "2026-10-27T01:01:17+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-labels-01",
+  "start": "2026-10-26T15:59:47.122432Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T00:59:14+09:00",
+  "code_commit_time": "2026-10-27T00:59:14+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-labels-02",
+  "start": "2026-10-26T16:08:06.639348Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T01:07:50+09:00",
+  "code_commit_time": "2026-10-27T01:07:50+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-labels-03",
+  "start": "2026-10-26T16:12:43.490066Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T01:11:28+09:00",
+  "code_commit_time": "2026-10-27T01:11:28+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-labels-04",
+  "start": "2026-10-26T16:18:28.034744Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T01:15:41+09:00",
+  "code_commit_time": "2026-10-27T01:15:41+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-labels-05",
+  "start": "2026-10-26T16:43:16.436690Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T01:38:28+09:00",
+  "code_commit_time": "2026-10-27T01:38:28+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-labels-06",
+  "start": "2026-10-26T17:12:43.426433Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T02:12:39+09:00",
+  "code_commit_time": "2026-10-27T02:12:39+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-labels-07",
+  "start": "2026-10-26T17:32:19.136306Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T02:32:15+09:00",
+  "code_commit_time": "2026-10-27T02:32:15+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-labels-08",
+  "start": "2026-10-26T18:04:34.477553Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T03:04:29+09:00",
+  "code_commit_time": "2026-10-27T03:04:29+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E03-labels-09",
+  "start": "2026-10-26T18:30:33.059750Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T03:29:51+09:00",
+  "code_commit_time": "2026-10-27T03:29:51+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-direct-reader-validation",
+  "start": "2026-10-26T16:43:15.270850Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T01:38:28+09:00",
+  "code_commit_time": "2026-10-27T01:38:28+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-01",
+  "start": "2026-10-26T16:25:45.185203Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T01:23:36+09:00",
+  "code_commit_time": "2026-10-27T01:23:36+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-02",
+  "start": "2026-10-26T16:55:53.295619Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T01:55:52+09:00",
+  "code_commit_time": "2026-10-27T01:55:52+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-03",
+  "start": "2026-10-26T17:12:43.426430Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T02:12:39+09:00",
+  "code_commit_time": "2026-10-27T02:12:39+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-04",
+  "start": "2026-10-26T17:32:20.313020Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T02:32:15+09:00",
+  "code_commit_time": "2026-10-27T02:32:15+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-05",
+  "start": "2026-10-26T18:04:35.653223Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T03:04:29+09:00",
+  "code_commit_time": "2026-10-27T03:04:29+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-06",
+  "start": "2026-10-26T18:28:24.150867Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T03:28:20+09:00",
+  "code_commit_time": "2026-10-27T03:28:20+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-07-s0",
+  "start": "2026-10-26T18:38:49.156647Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T03:38:34+09:00",
+  "code_commit_time": "2026-10-27T03:38:34+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-08-s1",
+  "start": "2026-10-26T18:48:23.651067Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T03:44:48+09:00",
+  "code_commit_time": "2026-10-27T03:44:48+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-09-s1",
+  "start": "2026-10-26T19:16:56.903005Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T04:16:04+09:00",
+  "code_commit_time": "2026-10-27T04:16:04+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-10-s0",
+  "start": "2026-10-26T19:24:11.571897Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T04:22:50+09:00",
+  "code_commit_time": "2026-10-27T04:22:50+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-11-s1",
+  "start": "2026-10-26T19:45:32.351104Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T04:43:50+09:00",
+  "code_commit_time": "2026-10-27T04:43:50+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-12-s0of4",
+  "start": "2026-10-26T20:07:47.122905Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T05:06:02+09:00",
+  "code_commit_time": "2026-10-27T05:06:02+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-embeddings-13-s2of4",
+  "start": "2026-10-26T20:21:32.347811Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T05:21:28+09:00",
+  "code_commit_time": "2026-10-27T05:21:28+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-future-training-shard0-a",
+  "start": "2026-10-26T21:47:56.617415Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T06:45:46+09:00",
+  "code_commit_time": "2026-10-27T06:45:46+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-future-training-shard0of4-a",
+  "start": "2026-10-26T22:49:40.305760Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T07:49:40+09:00",
+  "code_commit_time": "2026-10-27T07:49:40+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-future-training-shard0of4-b",
+  "start": "2026-10-26T23:18:51.826031Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T08:18:51+09:00",
+  "code_commit_time": "2026-10-27T08:18:51+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-future-training-shard1-a",
+  "start": "2026-10-26T21:19:13.441433Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T06:19:07+09:00",
+  "code_commit_time": "2026-10-27T06:19:07+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-future-training-shard1-b",
+  "start": "2026-10-26T21:47:57.745733Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T06:47:57+09:00",
+  "code_commit_time": "2026-10-27T06:47:57+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-future-training-shard1-c",
+  "start": "2026-10-26T22:21:10.442467Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T07:19:27+09:00",
+  "code_commit_time": "2026-10-27T07:19:27+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-future-training-shard2of4-a",
+  "start": "2026-10-26T22:49:41.441490Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T07:49:40+09:00",
+  "code_commit_time": "2026-10-27T07:49:40+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-future-training-shard2of4-b",
+  "start": "2026-10-26T23:18:52.967761Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T08:18:51+09:00",
+  "code_commit_time": "2026-10-27T08:18:51+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E04-s3-reader-validation",
+  "start": "2026-10-26T16:48:52.630185Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T01:48:46+09:00",
+  "code_commit_time": "2026-10-27T01:48:46+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E05-inference-validation",
+  "start": "2026-10-26T16:55:25.263322Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T01:55:01+09:00",
+  "code_commit_time": "2026-10-27T01:55:01+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E06-main-population",
+  "start": "2026-10-26T21:18:44.163619Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T06:14:37+09:00",
+  "code_commit_time": "2026-10-27T06:14:37+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E06-source-population",
+  "start": "2026-10-26T18:33:49.945630Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T03:29:51+09:00",
+  "code_commit_time": "2026-10-27T03:29:51+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E07-census-selection",
+  "start": "2026-10-26T18:36:43.495375Z",
+  "plan": "protocol/plan-v3-census-check.md",
+  "plan_commit_time": "2026-10-27T03:34:08+09:00",
+  "code_commit_time": "2026-10-27T03:34:08+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E08-source-logistic-v2",
+  "start": "2026-10-26T18:38:47.999140Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T03:38:34+09:00",
+  "code_commit_time": "2026-10-27T03:38:34+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E08-source-logistic",
+  "start": "2026-10-26T18:34:24.388026Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T03:34:08+09:00",
+  "code_commit_time": "2026-10-27T03:34:08+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E09-pipeline-check",
+  "start": "2026-10-26T18:43:25.594299Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T03:42:48+09:00",
+  "code_commit_time": "2026-10-27T03:42:48+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E10-census-L055_065",
+  "start": "2026-10-26T19:05:23.466543Z",
+  "plan": "protocol/plan-v3-census-check.md",
+  "plan_commit_time": "2026-10-27T04:03:16+09:00",
+  "code_commit_time": "2026-10-27T04:03:16+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E10-census-L075_070",
+  "start": "2026-10-26T19:54:43.769145Z",
+  "plan": "protocol/plan-v3-census-check.md",
+  "plan_commit_time": "2026-10-27T04:50:02+09:00",
+  "code_commit_time": "2026-10-27T04:50:02+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E10-census-L145_065",
+  "start": "2026-10-26T20:37:56.784792Z",
+  "plan": "protocol/plan-v3-census-check.md",
+  "plan_commit_time": "2026-10-27T05:34:42+09:00",
+  "code_commit_time": "2026-10-27T05:34:42+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E11-extension-validation",
+  "start": "2026-10-26T19:02:59.907827Z",
+  "plan": "protocol/plan-v6a-jackknife-fpc.md",
+  "plan_commit_time": "2026-10-27T04:02:59+09:00",
+  "code_commit_time": "2026-10-27T04:02:59+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E12-reference-frames",
+  "start": "2026-10-26T19:40:04.374410Z",
+  "plan": "protocol/plan-v7-reference-frame.md",
+  "plan_commit_time": "2026-10-27T04:39:03+09:00",
+  "code_commit_time": "2026-10-27T04:39:03+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E13-boolean-reductions",
+  "start": "2026-10-26T20:16:00.619597Z",
+  "plan": "protocol/plan-v7-reference-frame.md",
+  "plan_commit_time": "2026-10-27T05:14:40+09:00",
+  "code_commit_time": "2026-10-27T05:14:40+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E13-context-consistency",
+  "start": "2026-10-26T20:11:56.129043Z",
+  "plan": "protocol/plan-v7-reference-frame.md",
+  "plan_commit_time": "2026-10-27T05:11:08+09:00",
+  "code_commit_time": "2026-10-27T05:11:08+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E13-context-rerun",
+  "start": "2026-10-26T20:17:23.061986Z",
+  "plan": "protocol/plan-v7-reference-frame.md",
+  "plan_commit_time": "2026-10-27T05:14:40+09:00",
+  "code_commit_time": "2026-10-27T05:14:40+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E13-reference-context",
+  "start": "2026-10-26T20:07:48.279638Z",
+  "plan": "protocol/plan-v7-reference-frame.md",
+  "plan_commit_time": "2026-10-27T05:06:02+09:00",
+  "code_commit_time": "2026-10-27T05:06:02+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E14-main-inference",
+  "start": "2026-10-26T21:19:12.286863Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T06:19:07+09:00",
+  "code_commit_time": "2026-10-27T06:19:07+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E15-power-validation",
+  "start": "2026-10-26T20:32:42.443798Z",
+  "plan": "protocol/plan-v8a-validation.md",
+  "plan_commit_time": "2026-10-27T05:31:08+09:00",
+  "code_commit_time": "2026-10-27T05:31:08+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E16-native-grid-inference",
+  "start": "2026-10-26T21:22:55.577669Z",
+  "plan": "protocol/plan-v3-census-check.md",
+  "plan_commit_time": "2026-10-27T06:21:18+09:00",
+  "code_commit_time": "2026-10-27T06:21:18+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E17-sparse-change",
+  "start": "2026-10-26T21:23:46.686732Z",
+  "plan": "protocol/plan-v6-sparse-change.md",
+  "plan_commit_time": "2026-10-27T06:23:00+09:00",
+  "code_commit_time": "2026-10-27T06:23:00+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E18-power-alphaearth",
+  "start": "2026-10-26T21:25:00.166053Z",
+  "plan": "protocol/plan-v8-power-tuning.md",
+  "plan_commit_time": "2026-10-27T06:24:24+09:00",
+  "code_commit_time": "2026-10-27T06:24:24+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E18-power-tessera",
+  "start": "2026-10-26T21:24:30.718072Z",
+  "plan": "protocol/plan-v8-power-tuning.md",
+  "plan_commit_time": "2026-10-27T06:24:24+09:00",
+  "code_commit_time": "2026-10-27T06:24:24+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E19-jackknife-alphaearth",
+  "start": "2026-10-26T21:28:08.836551Z",
+  "plan": "protocol/plan-v6a-jackknife-fpc.md",
+  "plan_commit_time": "2026-10-27T06:25:50+09:00",
+  "code_commit_time": "2026-10-27T06:25:50+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E19-jackknife-tessera",
+  "start": "2026-10-26T21:26:42.097580Z",
+  "plan": "protocol/plan-v6a-jackknife-fpc.md",
+  "plan_commit_time": "2026-10-27T06:25:50+09:00",
+  "code_commit_time": "2026-10-27T06:25:50+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E20-stratified-alphaearth",
+  "start": "2026-10-26T21:30:21.461979Z",
+  "plan": "protocol/plan-v6-sparse-change.md",
+  "plan_commit_time": "2026-10-27T06:30:18+09:00",
+  "code_commit_time": "2026-10-27T06:30:18+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E20-stratified-tessera",
+  "start": "2026-10-26T21:28:59.471602Z",
+  "plan": "protocol/plan-v6-sparse-change.md",
+  "plan_commit_time": "2026-10-27T06:28:53+09:00",
+  "code_commit_time": "2026-10-27T06:28:53+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E21-hard-auxiliary-alphaearth",
+  "start": "2026-10-26T21:32:43.064235Z",
+  "plan": "protocol/plan-v9-hard-auxiliary.md",
+  "plan_commit_time": "2026-10-27T06:32:34+09:00",
+  "code_commit_time": "2026-10-27T06:32:34+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E21-hard-auxiliary-tessera",
+  "start": "2026-10-26T21:31:22.816985Z",
+  "plan": "protocol/plan-v9-hard-auxiliary.md",
+  "plan_commit_time": "2026-10-27T06:30:58+09:00",
+  "code_commit_time": "2026-10-27T06:30:58+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E22-arable-boundary",
+  "start": "2026-10-26T21:33:19.344809Z",
+  "plan": "protocol/plan-v10-arable-boundary.md",
+  "plan_commit_time": "2026-10-27T06:32:34+09:00",
+  "code_commit_time": "2026-10-27T06:32:34+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E23-rotating-validation",
+  "start": "2026-10-26T21:34:05.667806Z",
+  "plan": "protocol/plan-v11-coherent-panel.md",
+  "plan_commit_time": "2026-10-27T06:33:20+09:00",
+  "code_commit_time": "2026-10-27T06:33:20+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E24-registration",
+  "start": "2026-10-26T21:34:31.021506Z",
+  "plan": "protocol/plan-v4-registration-check.md",
+  "plan_commit_time": "2026-10-27T06:33:20+09:00",
+  "code_commit_time": "2026-10-27T06:33:20+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E25-gradient-floors",
+  "start": "2026-10-26T21:37:04.202652Z",
+  "plan": "protocol/plan-v12-gradient-sensitivity.md",
+  "plan_commit_time": "2026-10-27T06:34:37+09:00",
+  "code_commit_time": "2026-10-27T06:34:37+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E26-coherent-panel",
+  "start": "2026-10-26T21:38:38.036086Z",
+  "plan": "protocol/plan-v11-coherent-panel.md",
+  "plan_commit_time": "2026-10-27T06:37:07+09:00",
+  "code_commit_time": "2026-10-27T06:37:07+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E27-forest-alphaearth",
+  "start": "2026-10-26T21:41:51.126827Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T06:39:40+09:00",
+  "code_commit_time": "2026-10-27T06:39:40+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E27-forest-tessera",
+  "start": "2026-10-26T21:39:35.709819Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T06:38:42+09:00",
+  "code_commit_time": "2026-10-27T06:38:42+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E28-main-description",
+  "start": "2026-10-26T21:43:51.843272Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T06:41:56+09:00",
+  "code_commit_time": "2026-10-27T06:41:56+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E29-reference-sensitivity",
+  "start": "2026-10-26T21:47:12.996417Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T06:45:46+09:00",
+  "code_commit_time": "2026-10-27T06:45:46+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E30-secondary-summaries",
+  "start": "2026-10-26T21:47:27.490820Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T06:45:46+09:00",
+  "code_commit_time": "2026-10-27T06:45:46+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E31-scope-baselines",
+  "start": "2026-10-26T21:47:28.645943Z",
+  "plan": "protocol/plan-v10-arable-boundary.md",
+  "plan_commit_time": "2026-10-27T06:45:46+09:00",
+  "code_commit_time": "2026-10-27T06:45:46+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E32-manuscript-render-2",
+  "start": "2026-10-26T22:21:09.393561Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T07:19:27+09:00",
+  "code_commit_time": "2026-10-27T07:19:27+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E32-manuscript-render-3",
+  "start": "2026-10-26T22:24:27.670340Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T07:24:27+09:00",
+  "code_commit_time": "2026-10-27T07:24:27+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E32-manuscript-render",
+  "start": "2026-10-26T22:13:59.568621Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T07:10:17+09:00",
+  "code_commit_time": "2026-10-27T07:10:17+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E33-figure-presentation",
+  "start": "2026-10-26T22:14:00.209136Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T07:10:17+09:00",
+  "code_commit_time": "2026-10-27T07:10:17+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E34-preliminary-full-verification",
+  "start": "2026-10-26T22:29:56.902533Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T07:25:56+09:00",
+  "code_commit_time": "2026-10-27T07:25:56+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E35-verification-storage",
+  "start": "2026-10-26T22:42:08.488953Z",
+  "plan": "protocol/plan-v1.md",
+  "plan_commit_time": "2026-10-27T07:42:08+09:00",
+  "code_commit_time": "2026-10-27T07:42:08+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E36-refreshed-population",
+  "start": "2026-10-26T23:33:27.004783Z",
+  "plan": "protocol/plan-v2.md",
+  "plan_commit_time": "2026-10-27T08:33:26+09:00",
+  "code_commit_time": "2026-10-27T08:33:26+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E37-refreshed-tessera",
+  "start": "2026-10-26T23:37:29.223908Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T08:37:23+09:00",
+  "code_commit_time": "2026-10-27T08:37:23+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E38-refreshed-alphaearth",
+  "start": "2026-10-26T23:37:29.223858Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T08:37:23+09:00",
+  "code_commit_time": "2026-10-27T08:37:23+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E39-additional-order",
+  "start": "2026-10-26T23:24:10.852699Z",
+  "plan": "protocol/plan-v13-additional-geography.md",
+  "plan_commit_time": "2026-10-27T08:24:10+09:00",
+  "code_commit_time": "2026-10-27T08:24:10+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E40-additional-acquisition-a",
+  "start": "2026-10-26T23:39:58.540965Z",
+  "plan": "protocol/plan-v13-additional-geography.md",
+  "plan_commit_time": "2026-10-27T08:39:58+09:00",
+  "code_commit_time": "2026-10-27T08:39:58+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E41-additional-cohort",
+  "start": "2026-10-26T23:59:38.339022Z",
+  "plan": "protocol/plan-v13-additional-geography.md",
+  "plan_commit_time": "2026-10-27T08:59:09+09:00",
+  "code_commit_time": "2026-10-27T08:59:09+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E42-additional-inference",
+  "start": "2026-10-27T00:00:02.707942Z",
+  "plan": "protocol/plan-v13-additional-geography.md",
+  "plan_commit_time": "2026-10-27T08:59:52+09:00",
+  "code_commit_time": "2026-10-27T08:59:52+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E43-refreshed-controls",
+  "start": "2026-10-26T23:40:57.609999Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T08:40:52+09:00",
+  "code_commit_time": "2026-10-27T08:40:52+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E44-describe-final",
+  "start": "2026-10-26T23:41:49.651287Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T08:41:31+09:00",
+  "code_commit_time": "2026-10-27T08:41:31+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E45-render-refreshed",
+  "start": "2026-10-26T23:42:13.025074Z",
+  "plan": "protocol/plan-v5-optimization.md",
+  "plan_commit_time": "2026-10-27T08:41:31+09:00",
+  "code_commit_time": "2026-10-27T08:41:31+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E46-render-current",
+  "start": "2026-10-26T23:48:51.836950Z",
+  "plan": "protocol/plan-v13-additional-geography.md",
+  "plan_commit_time": "2026-10-27T08:47:22+09:00",
+  "code_commit_time": "2026-10-27T08:47:22+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E47-render-spatial",
+  "start": "2026-10-26T23:51:17.389276Z",
+  "plan": "protocol/plan-v13-additional-geography.md",
+  "plan_commit_time": "2026-10-27T08:50:22+09:00",
+  "code_commit_time": "2026-10-27T08:50:22+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E48-quick-refreshed-validation",
+  "start": "2026-10-26T23:51:18.170498Z",
+  "plan": "protocol/plan-v13-additional-geography.md",
+  "plan_commit_time": "2026-10-27T08:50:22+09:00",
+  "code_commit_time": "2026-10-27T08:50:22+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E49-projection-derivative-validation",
+  "start": "2026-10-26T23:58:29.393920Z",
+  "plan": "protocol/plan-v14-projection-derivative.md",
+  "plan_commit_time": "2026-10-27T08:58:02+09:00",
+  "code_commit_time": "2026-10-27T08:58:02+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E50-projection-derivative",
+  "start": "2026-10-26T23:59:14.037454Z",
+  "plan": "protocol/plan-v14-projection-derivative.md",
+  "plan_commit_time": "2026-10-27T08:59:09+09:00",
+  "code_commit_time": "2026-10-27T08:59:09+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E51-covariance-context",
+  "start": "2026-10-27T00:03:00.964822Z",
+  "plan": "protocol/plan-v13a-covariance-context.md",
+  "plan_commit_time": "2026-10-27T09:02:26+09:00",
+  "code_commit_time": "2026-10-27T09:02:26+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E52-projection-controls",
+  "start": "2026-10-27T00:07:37.830996Z",
+  "plan": "protocol/plan-v14a-projection-controls.md",
+  "plan_commit_time": "2026-10-27T09:07:01+09:00",
+  "code_commit_time": "2026-10-27T09:07:01+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E53-arable-high-replication",
+  "start": "2026-10-27T00:13:24.089980Z",
+  "plan": "protocol/plan-v13b-monte-carlo-precision.md",
+  "plan_commit_time": "2026-10-27T09:12:52+09:00",
+  "code_commit_time": "2026-10-27T09:12:52+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E54-manuscript-final-science",
+  "start": "2026-10-27T00:20:44.548587Z",
+  "plan": "protocol/plan-v14a-projection-controls.md",
+  "plan_commit_time": "2026-10-27T09:19:43+09:00",
+  "code_commit_time": "2026-10-27T09:19:43+09:00",
+  "status": "failed",
+  "ok": true
+ },
+ {
+  "experiment": "E54b-manuscript-final-science",
+  "start": "2026-10-27T00:22:03.084594Z",
+  "plan": "protocol/plan-v14a-projection-controls.md",
+  "plan_commit_time": "2026-10-27T09:21:04+09:00",
+  "code_commit_time": "2026-10-27T09:21:04+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E54c-manuscript-final-science",
+  "start": "2026-10-27T00:32:34.888279Z",
+  "plan": "protocol/plan-v14a-projection-controls.md",
+  "plan_commit_time": "2026-10-27T09:31:56+09:00",
+  "code_commit_time": "2026-10-27T09:31:56+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E54d-manuscript-frozen",
+  "start": "2026-10-27T00:36:05.647831Z",
+  "plan": "protocol/plan-v14a-projection-controls.md",
+  "plan_commit_time": "2026-10-27T09:35:59+09:00",
+  "code_commit_time": "2026-10-27T09:35:59+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "E55-final-full-verification",
+  "start": "2026-10-27T00:37:33.365080Z",
+  "plan": "protocol/plan-v14a-projection-controls.md",
+  "plan_commit_time": "2026-10-27T09:36:18+09:00",
+  "code_commit_time": "2026-10-27T09:36:18+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "P02-geo",
+  "start": "2026-10-26T15:06:29.592722Z",
+  "plan": "protocol/pilots.md",
+  "plan_commit_time": "2026-10-27T00:06:18+09:00",
+  "code_commit_time": "2026-10-27T00:06:18+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "P02b-cdl",
+  "start": "2026-10-26T15:10:40.656413Z",
+  "plan": "protocol/pilots.md",
+  "plan_commit_time": "2026-10-27T00:09:38+09:00",
+  "code_commit_time": "2026-10-27T00:09:38+09:00",
+  "status": "completed",
+  "ok": true
+ },
+ {
+  "experiment": "P03-ts",
+  "start": "2026-10-26T15:06:30.750572Z",
+  "plan": "protocol/pilots.md",
+  "plan_commit_time": "2026-10-27T00:06:18+09:00",
+  "code_commit_time": "2026-10-27T00:06:18+09:00",
+  "status": "failed",
+  "ok": true
+ },
+ {
+  "experiment": "P03b-ts",
+  "start": "2026-10-26T15:10:41.817906Z",
+  "plan": "protocol/pilots.md",
+  "plan_commit_time": "2026-10-27T00:09:38+09:00",
+  "code_commit_time": "2026-10-27T00:09:38+09:00",
+  "status": "completed",
+  "ok": true
+ }
+]

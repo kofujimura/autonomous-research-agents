@@ -1,0 +1,10 @@
+{"completed_at_utc": "2026-10-26T23:40:58.061328Z", "status": "passed", "checks": [{"representation": "tessera", "source_year_coefficient_arrays_identical": true, "maximum_coefficient_difference": 0.0, "source_path": "results/source-models-v2/logistic-broad-tessera/coefficients-2021.npz", "source_sha256": "ed7fa4f9b84ccaa8020738d662c1f557c3a81f58c57a9dd89ccff08966578e27", "refreshed_path": "results/models/logistic-broad-refreshed-tessera/coefficients-2021.npz", "refreshed_sha256": "ed7fa4f9b84ccaa8020738d662c1f557c3a81f58c57a9dd89ccff08966578e27", "calibration_equal_within_2e_minus6": true}, {"representation": "alphaearth", "source_year_coefficient_arrays_identical": true, "maximum_coefficient_difference": 0.0, "source_path": "results/source-models-v2/logistic-broad-alphaearth/coefficients-2021.npz", "source_sha256": "4a94d4a4f07dd24c2e6ed773d2295524d92e88eee73ea65f5911f5b658f3878a", "refreshed_path": "results/models/logistic-broad-refreshed-alphaearth/coefficients-2021.npz", "refreshed_sha256": "4a94d4a4f07dd24c2e6ed773d2295524d92e88eee73ea65f5911f5b658f3878a", "calibration_equal_within_2e_minus6": true}], "scope": "Source-year numerical control validation after refreshed execution, not a newly selected scientific metric or independent reproduction."}
+                              label      design     rmse  coverage  report_rate  wrong_report_rate
+   logistic-broad-refreshed-tessera      paired 0.059785  0.991911     0.012622           0.003311
+   logistic-broad-refreshed-tessera independent 0.091630  0.989556     0.012556           0.004022
+        forest-broad-frozen-tessera      paired 0.049374  0.982844     0.031667           0.004267
+        forest-broad-frozen-tessera independent 0.091493  0.976689     0.030533           0.007222
+logistic-broad-refreshed-alphaearth      paired 0.052138  0.987289     0.019689           0.004689
+logistic-broad-refreshed-alphaearth independent 0.092163  0.984467     0.018556           0.005911
+     forest-broad-frozen-alphaearth      paired 0.046899  0.965800     0.057600           0.008044
+     forest-broad-frozen-alphaearth independent 0.091640  0.963578     0.045933           0.012356

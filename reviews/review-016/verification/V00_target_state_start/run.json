@@ -1,0 +1,8 @@
+{
+  "command": "python3 -I scripts/check_target_state.py verification/target_state_start.json",
+  "cwd": "/Users/fujimura/Research/ai-free-research-en/review-016",
+  "timeout_s": 1200.0,
+  "start_utc": "2026-10-27T02:26:47.618430+00:00",
+  "exit_code": 0,
+  "end_utc": "2026-10-27T02:26:59.901036+00:00"
+}

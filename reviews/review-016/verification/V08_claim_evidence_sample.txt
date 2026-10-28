@@ -1,0 +1,37 @@
+C04 paired LR assisted:                                 label  coverage  report_rate  projection_any_year
+12      logistic-broad-frozen-tessera  0.991356     0.011444             0.987600
+162  logistic-broad-frozen-alphaearth  0.987978     0.014444             0.991222
+C05: frame,taxonomy,design,n,units,replications,coverage,coverage_mcse,report_rate,report_rate_mcse,wrong_report_rate,wrong_report_rate_mcse,zero_se,zero_se_mcse,paired_no_change,paired_no_change_mcse,mse,mse_mcse,rmse,rmse_mcse,bias,reports,wrong_reports,wrong_conditional
+stable_arable,broad,paired,32,75,500,0.89064,0.001628207818178051,0.13736,0.0017612363827950667,0.03248,0.000901648259362634,0.00144,0.00018906748861908455,0.0005866666666666667,0.00012241756822821922,0.03298081782328969,0.000253117269268236,0.1816062163674187,0.0006968849258886019,-0.0001478938756130174,5151,1218,0.23645894001164822
+stable_arable,broad,independent,32,75,500,0.90216,0.001554617575142909,0.11797333333333333,0.0016070315320909898,0.03,0.000870609191988457,0.00010666666666666667,5.3172771002092504e-05,0.00058666
+C07 cols ['taxonomy', 'representation', 'method', 'design', 'gradient_floor', 'n', 'units', 'replications', 'coverage', 'coverage_mcse', 'report_rate', 'report_rate_mcse']
+   taxonomy representation          method       design  gradient_floor    n  units  replications  coverage  coverage_mcse  report_rate  report_rate_mcse  wrong_report_rate  wrong_report_rate_mcse   mean_se  mean_se_mcse       mse      rmse  reports  wrong_reports  wrong_conditional
+0     broad        tessera          direct       paired    1.000000e-02  128     90           500  0.828156       0.001490     0.102044          0.001385           0.021200                0.000677  0.044133      0.000033  0.003124  0.055890     4592            954           0.207753
+1     broad        tessera          direct       paired    1.000000e-04  128     90           500  0.834244       0.001481     0.095222          0.001365           0.019289                0.000634  0.045049      0.000033  0.003124  0.055890     4285            868           0.202567
+2     broad        tessera          direct       paired    1.000000e-06  128     90           500  0.834244       0.001481     0.095222          0.001365           0.019289                0.000634  0.045049      0.000033  0.003124  0.055890     4285            868           0.202567
+3     broad        tessera          direct       paired    1.000000e-08  128     90           500  0.834244       0.001481     0.095222          0.001365           0.019289                0.000634  0.045049      0.000033  0.003124  0.055890     4285            868           0.202567
+4     broad        tessera          direct       paired    1.000000e-10  128     90           500  0.834244       0.001481     0.095222          0.001365           0.019289                0.000634  0.045049      0.000033  0.003124  0.055890     4285            868           0.202567
+5     broad        tessera          direct  independent    1.000000e-02  128     90           500  0.927756       0.001271     0.082044          0.001293           0.026378                0.000761  0.095953      0.000030  0.011353  0.106551     3692           1187           0.321506
+6     broad 
+C08: label,design,interval,landscapes,primary_transitions,n,replications,joint_coverage,joint_coverage_mcse,any_wrong_report,any_wrong_report_mcse,any_report,any_report_mcse,coverage,coverage_mcse,report_rate,report_rate_mcse,wrong_report_rate,wrong_report_rate_mcse,negative_variance,negative_variance_mcse,rmse
+direct,independent,pointwise,30,90,128,500,0.8214,0.0031646834840501114,0.07193333333333334,0.002024695011821014,0.2006,0.003283419206157924,0.9294888888888889,0.0013067834634558672,0.08066666666666666,0.001423681337911912,0.026066666666666665,0.0007644925753698273,0.0,0.0,0.10704320940479259
+direct,independent,bonferroni,30,90,128,500,0.9234,0.002146492066072632,0.028133333333333333,0.0012868171834389897,0.09153333333333333,0.0023124285421686837,0.9713777777777778,0.0008100509171858626,0.034466666666666666,0.0008974752296153231,0.009822222222222222,0.00045330294474227344,0.0,0.0,0.10704320940479259
+direct,half_retained,pointwise,30,90,128,500,0.8119333333333333,0.0031250334222216298,0.07073333333333333,0.0022626058953210894,0.21493333333333334,0.0032361573381904556,0.9291555555555555,0.0012355825316759284,0.08255555555555555,0.0013062926376702312,0.02471111111111111,0.000800464992650084,0.0,0.0,0.08636076727658054
+direct,half_retained,bonferroni,30,90,128,500,0.9239333333333334,0.002096787418744029,0.024866666666666665,0.0012814591716283567,0.0952,0.002266611654014326,0.9729333333333333,0.000765078111170931,0.034444444444444444,0.0008408883390457768,0.008466666666666667,0.
+C09: {"generated_at_utc": "2026-10-26T21:23:18.230110Z", "point_analyses": ["results/inference/logistic-broad-tessera", "results/inference/logistic-broad-alphaearth"], "census_analyses": ["results/census-inference/logistic-broad-tessera", "results/census-inference/logistic-broad-alphaearth"], "cases": 3, "primary_transitions": 9, "sign_disagreements": 2, "change_discrepancy_rmse": 0.008518667804907641, "maximum_absolute_change_discrepancy": 0.020855675298693477, "median_first_phase_paired_fraction_n128": 0.028547297297297297, "maximum_first_phase_paired_fraction_n128": 0.03268390399722594, "interpretation": "Prospectively selected small case check. First-phase components are reference-only linearization diagnostics, not unconditional two-phase coverage estimates."}
+C10: frame,taxonomy,n,units,paired_independent_mse_ratio,ratio_mcse
+stable_arable,broad,32,18,1.0414294662078187,0.020311491263974378
+stable_arable,broad,64,18,1.052215187183432,0.019828049036535705
+stable_arable,broad,128,18,1.0740138695445287,0.021117453404207294
+stable_arable,broad,256,18,1.0790982318416944,0.020998308500067082
+stable_arable,broad,512,18,1.0908232787259342,0.020890543118666012
+stable_arable,fine,32,18,0.9222160288762673,0.017241140459140433
+stable_arable,fine,64,18,0.94086589723846,0.017466771689176788
+stable_arable,fine,128,18,0.940626318246262,0.018039136320162567
+stable_arable,fine,256,18,0.935331073976968,0.01844899243342734
+stable_arable,fine,512,18,0.9410201505060644,0.017972880686034687
+
+C11: taxonomy,representation,method,design,rule,n,units,replications,coverage,coverage_mcse,report_rate,report_rate_mcse,wrong_report_rate,wrong_report_rate_mcse,mean_se,mean_se_mcse,singleton_either_year,singleton_either_year_mcse,near_split_either_year,near_split_either_year_mcse,small_positive_either_year,small_positive_either_year_mcse,projected,projected_mcse,mse,rmse,reports,wrong_reports,wrong_conditional
+broad,tessera,direct,paired,original,128,90,500,0.8342444444444445,0.001480827102565295,0.09522222222222222,0.0013651930983379324,0.01928888888888889,0.0006343195296862294,0.045048989111918805,3.330775323297108e-05,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.00312374412204324,0.055890465394763354,4285,868,0.20256709451575264
+broad,tessera,direct,paired,projection_chain_rule,128,90,500,0.8342444444444445,0.001480827102565295,0.09522222222222222,0.0013651930983379324,0.01928888888888889,0.0006343195296862294,0.045048989111918805,3.330775323297108e-05,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.00312374412204324,0.055890465394763354,4285,868,0.20256709451575264
+broad,tessera,direct,independent,original,128,90,500,0.9309333333333333,0.001229431985110207,0.07806666666666667,0.001280683576964037,0.025022

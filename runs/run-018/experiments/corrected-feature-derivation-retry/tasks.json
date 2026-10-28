@@ -1,0 +1,32 @@
+[
+  {
+    "task_id": "original",
+    "command": [
+      ".venv/bin/python",
+      "code/derive_features.py",
+      "--out",
+      "analysis/features-corrected",
+      "--aef-overrides",
+      "data/corrections"
+    ],
+    "start_time_utc": "2026-10-27T19:39:21.107802+00:00",
+    "end_time_utc": "2026-10-27T19:39:24.951632+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "recent",
+    "command": [
+      ".venv/bin/python",
+      "code/derive_features.py",
+      "--out",
+      "analysis/recent-features-corrected",
+      "--pattern",
+      "S??",
+      "--aef-overrides",
+      "data/corrections"
+    ],
+    "start_time_utc": "2026-10-27T19:39:24.952031+00:00",
+    "end_time_utc": "2026-10-27T19:39:27.561499+00:00",
+    "exit_code": 0
+  }
+]

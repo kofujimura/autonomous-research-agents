@@ -1,0 +1,4 @@
+/Users/fujimura/Research/ai-free-research-en/run-018/code/collect_labels.py:59: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  geom=transform(forward,shape(feature['geometry'])); repaired=not geom.is_valid
+/Users/fujimura/Research/ai-free-research-en/run-018/code/collect_labels.py:78: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  elig.append(dict(type='Feature',geometry=mapping(transform(inverse,geom)),properties=entry));audit.append(entry)

@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E23-rotating-validation",
+  "start_time_utc": "2026-10-26T21:34:05.667806Z",
+  "end_time_utc": "2026-10-26T21:34:05.794029Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/validate_rotating.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v11-coherent-panel.md",
+  "plan_commit_id": "2e0239090b83965d2fc742d7fbb377e92b5c536f",
+  "plan_sha256": "9e1fb5a9047de85779575fb004e2a5af41390c5a6de32efdbbc01da179c0b7b1",
+  "code_commit_id": "2e0239090b83965d2fc742d7fbb377e92b5c536f",
+  "inputs": [
+    {
+      "path": "scripts/rotating_core.py",
+      "sha256": "9a559e47210bfb8093fbbd9b87d0779a6871b7441eb2dd76bfee4e34008abf39"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E23-rotating-validation/stdout.txt",
+  "stderr_path": "experiments/E23-rotating-validation/stderr.txt",
+  "start_event_id": "E0303",
+  "pid": 7254,
+  "elapsed_seconds": 0.12612216686829925,
+  "end_event_id": "E0304"
+}

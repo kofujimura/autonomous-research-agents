@@ -1,0 +1,38 @@
+{
+ "C01": {
+  "compared": 5,
+  "mismatches": []
+ },
+ "C02": {
+  "compared": 6,
+  "mismatches": []
+ },
+ "C03": {
+  "compared": 1,
+  "mismatches": []
+ },
+ "C04": {
+  "compared": 21,
+  "mismatches": []
+ },
+ "C05": {
+  "compared": 9,
+  "mismatches": []
+ },
+ "C06": {
+  "compared": 16,
+  "mismatches": []
+ },
+ "C07": {
+  "compared": 18,
+  "mismatches": []
+ },
+ "C08": {
+  "compared": 66,
+  "mismatches": []
+ },
+ "C17": {
+  "compared": 16,
+  "mismatches": []
+ }
+}

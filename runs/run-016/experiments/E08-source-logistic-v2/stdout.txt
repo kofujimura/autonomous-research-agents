@@ -1,0 +1,12 @@
+FIT tessera broad logistic year 2021 shape (81858, 128) classes 16
+DONE FIT tessera broad 2021 seconds 19.29
+{"completed_at_utc": "2026-10-26T18:39:09.395661Z", "predicted_landscapes": 30, "destination": "results/source-models-v2/logistic-broad-tessera"}
+FIT alphaearth broad logistic year 2021 shape (81858, 64) classes 16
+DONE FIT alphaearth broad 2021 seconds 10.004
+{"completed_at_utc": "2026-10-26T18:39:19.887304Z", "predicted_landscapes": 30, "destination": "results/source-models-v2/logistic-broad-alphaearth"}
+FIT tessera fine logistic year 2021 shape (81858, 128) classes 47
+DONE FIT tessera fine 2021 seconds 40.571
+{"completed_at_utc": "2026-10-26T18:40:01.866045Z", "predicted_landscapes": 30, "destination": "results/source-models-v2/logistic-fine-tessera"}
+FIT alphaearth fine logistic year 2021 shape (81858, 64) classes 47
+DONE FIT alphaearth fine 2021 seconds 41.904
+{"completed_at_utc": "2026-10-26T18:40:45.058314Z", "predicted_landscapes": 30, "destination": "results/source-models-v2/logistic-fine-alphaearth"}

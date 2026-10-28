@@ -1,0 +1,13 @@
+region_id,split,cores,valid_pixels,positive_pixels,empty_positive_cores,empty_scoring_cores,eligible_patches,eligible_small_patches,contained_sub_mmu,boundary_crossing,zero_raster_pixels,zero_valid_pixels,vector_small_zero_centers,vector_small_zero_valid,eligible_small_no_20m_interior,eligible_small_90_percent_valid
+R01,test,4,174182,32879,0,0,96,61,80,94,0,0,0,0,22,61
+R01,train,8,467283,104886,0,0,186,120,102,207,0,0,0,0,40,120
+R01,validation,4,234236,18097,0,0,113,71,116,107,0,0,0,0,28,71
+R02,test,4,260321,26595,0,0,105,67,72,126,0,0,0,0,47,67
+R02,train,8,503206,36319,0,0,231,154,126,203,0,0,0,0,107,154
+R02,validation,4,261796,28003,0,0,114,81,59,102,0,0,0,0,48,81
+R03,test,4,258463,13493,0,0,47,34,39,52,0,0,0,0,21,34
+R03,train,8,434465,69867,1,0,111,70,76,120,0,0,0,0,32,70
+R03,validation,4,244115,10977,0,0,84,55,45,71,0,0,0,0,21,55
+R04,test,4,250637,29917,0,0,99,65,64,113,0,0,0,0,40,65
+R04,train,8,449950,29436,1,1,169,130,131,171,0,0,0,0,79,130
+R04,validation,4,254496,31386,0,0,106,70,87,101,0,0,0,0,36,70

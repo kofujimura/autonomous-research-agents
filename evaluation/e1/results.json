@@ -1,0 +1,962 @@
+{
+ "gemini-pdf": {
+  "label": "Gemini 4 Argon (PDF)",
+  "runs": {
+   "014": {
+    "n": 2,
+    "axes": {
+     "correctness": 4,
+     "verifiability": 4,
+     "novelty": 3,
+     "generality": 2,
+     "usefulness": 3,
+     "clarity": 2
+    },
+    "overall_10": 5,
+    "overall_each": [
+     5,
+     5
+    ],
+    "verdicts": [
+     "major revision",
+     "major revision"
+    ],
+    "workshop": [
+     "yes",
+     "yes"
+    ],
+    "main_track": [
+     "no",
+     "no"
+    ],
+    "question_quality": 3,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     2,
+     1
+    ],
+    "searches": [
+     6,
+     0
+    ],
+    "cost_usd": 0.503,
+    "familiar": []
+   },
+   "015": {
+    "n": 2,
+    "axes": {
+     "correctness": 5,
+     "verifiability": 5,
+     "novelty": 3,
+     "generality": 3,
+     "usefulness": 3,
+     "clarity": 3
+    },
+    "overall_10": 6,
+    "overall_each": [
+     6,
+     6
+    ],
+    "verdicts": [
+     "minor revision",
+     "minor revision"
+    ],
+    "workshop": [
+     "yes",
+     "yes"
+    ],
+    "main_track": [
+     "borderline",
+     "borderline"
+    ],
+    "question_quality": 3,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     0,
+     0
+    ],
+    "searches": [
+     0,
+     5
+    ],
+    "cost_usd": 0.339,
+    "familiar": []
+   },
+   "016": {
+    "n": 2,
+    "axes": {
+     "correctness": 4.5,
+     "verifiability": 5,
+     "novelty": 3,
+     "generality": 2.5,
+     "usefulness": 3.5,
+     "clarity": 2
+    },
+    "overall_10": 5.5,
+    "overall_each": [
+     6,
+     5
+    ],
+    "verdicts": [
+     "major revision",
+     "major revision"
+    ],
+    "workshop": [
+     "yes",
+     "yes"
+    ],
+    "main_track": [
+     "borderline",
+     "no"
+    ],
+    "question_quality": 3.5,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     0,
+     0
+    ],
+    "searches": [
+     3,
+     3
+    ],
+    "cost_usd": 0.378,
+    "familiar": []
+   },
+   "017": {
+    "n": 2,
+    "axes": {
+     "correctness": 4,
+     "verifiability": 4,
+     "novelty": 3,
+     "generality": 3,
+     "usefulness": 3,
+     "clarity": 2.5
+    },
+    "overall_10": 5.5,
+    "overall_each": [
+     6,
+     5
+    ],
+    "verdicts": [
+     "minor revision",
+     "major revision"
+    ],
+    "workshop": [
+     "yes",
+     "yes"
+    ],
+    "main_track": [
+     "borderline",
+     "no"
+    ],
+    "question_quality": 3.5,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     0,
+     0
+    ],
+    "searches": [
+     6,
+     8
+    ],
+    "cost_usd": 0.563,
+    "familiar": []
+   },
+   "018": {
+    "n": 2,
+    "axes": {
+     "correctness": 4.5,
+     "verifiability": 3.5,
+     "novelty": 3,
+     "generality": 2.5,
+     "usefulness": 3,
+     "clarity": 2
+    },
+    "overall_10": 5,
+    "overall_each": [
+     5,
+     5
+    ],
+    "verdicts": [
+     "major revision",
+     "major revision"
+    ],
+    "workshop": [
+     "yes",
+     "yes"
+    ],
+    "main_track": [
+     "no",
+     "no"
+    ],
+    "question_quality": 3,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     1,
+     0
+    ],
+    "searches": [
+     0,
+     7
+    ],
+    "cost_usd": 0.499,
+    "familiar": []
+   }
+  },
+  "all": {
+   "n": 10,
+   "axes": {
+    "correctness": 4.4,
+    "verifiability": 4.3,
+    "novelty": 3,
+    "generality": 2.6,
+    "usefulness": 3.1,
+    "clarity": 2.3
+   },
+   "overall_10": 5.4,
+   "overall_each": [
+    5,
+    5,
+    6,
+    6,
+    6,
+    5,
+    6,
+    5,
+    5,
+    5
+   ],
+   "verdicts": [
+    "major revision",
+    "major revision",
+    "minor revision",
+    "minor revision",
+    "major revision",
+    "major revision",
+    "minor revision",
+    "major revision",
+    "major revision",
+    "major revision"
+   ],
+   "workshop": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+   ],
+   "main_track": [
+    "no",
+    "no",
+    "borderline",
+    "borderline",
+    "borderline",
+    "no",
+    "borderline",
+    "no",
+    "no",
+    "no"
+   ],
+   "question_quality": 3.2,
+   "predictable": [
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly"
+   ],
+   "critical": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "searches": [
+    6,
+    0,
+    0,
+    5,
+    3,
+    3,
+    6,
+    8,
+    0,
+    7
+   ],
+   "cost_usd": 2.282,
+   "familiar": []
+  },
+  "rep_overall_absdiff": 0.4
+ },
+ "muse": {
+  "label": "Muse Wonder (PDF)",
+  "runs": {
+   "014": {
+    "n": 2,
+    "axes": {
+     "correctness": 3.5,
+     "verifiability": 3,
+     "novelty": 2,
+     "generality": 2,
+     "usefulness": 3,
+     "clarity": 2
+    },
+    "overall_10": 3.5,
+    "overall_each": [
+     4,
+     3
+    ],
+    "verdicts": [
+     "major revision",
+     "reject"
+    ],
+    "workshop": [
+     "yes",
+     "borderline"
+    ],
+    "main_track": [
+     "no",
+     "no"
+    ],
+    "question_quality": 3,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     2,
+     3
+    ],
+    "searches": [
+     7,
+     10
+    ],
+    "cost_usd": 4.413,
+    "familiar": []
+   },
+   "015": {
+    "n": 2,
+    "axes": {
+     "correctness": 4,
+     "verifiability": 3,
+     "novelty": 2,
+     "generality": 2,
+     "usefulness": 3,
+     "clarity": 2
+    },
+    "overall_10": 4,
+    "overall_each": [
+     4,
+     4
+    ],
+    "verdicts": [
+     "reject",
+     "major revision"
+    ],
+    "workshop": [
+     "borderline",
+     "borderline"
+    ],
+    "main_track": [
+     "no",
+     "no"
+    ],
+    "question_quality": 3,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     2,
+     2
+    ],
+    "searches": [
+     5,
+     5
+    ],
+    "cost_usd": 1.168,
+    "familiar": []
+   },
+   "016": {
+    "n": 2,
+    "axes": {
+     "correctness": 4,
+     "verifiability": 2.5,
+     "novelty": 2,
+     "generality": 2,
+     "usefulness": 3,
+     "clarity": 2
+    },
+    "overall_10": 4.5,
+    "overall_each": [
+     4,
+     5
+    ],
+    "verdicts": [
+     "major revision",
+     "major revision"
+    ],
+    "workshop": [
+     "borderline",
+     "borderline"
+    ],
+    "main_track": [
+     "no",
+     "no"
+    ],
+    "question_quality": 3,
+    "predictable": [
+     "partly",
+     "yes"
+    ],
+    "critical": [
+     2,
+     1
+    ],
+    "searches": [
+     6,
+     10
+    ],
+    "cost_usd": 1.685,
+    "familiar": []
+   },
+   "017": {
+    "n": 2,
+    "axes": {
+     "correctness": 3.5,
+     "verifiability": 3,
+     "novelty": 2,
+     "generality": 2,
+     "usefulness": 3,
+     "clarity": 2
+    },
+    "overall_10": 4.5,
+    "overall_each": [
+     5,
+     4
+    ],
+    "verdicts": [
+     "major revision",
+     "major revision"
+    ],
+    "workshop": [
+     "yes",
+     "borderline"
+    ],
+    "main_track": [
+     "no",
+     "no"
+    ],
+    "question_quality": 4,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     2,
+     2
+    ],
+    "searches": [
+     8,
+     11
+    ],
+    "cost_usd": 2.127,
+    "familiar": []
+   },
+   "018": {
+    "n": 2,
+    "axes": {
+     "correctness": 4,
+     "verifiability": 2.5,
+     "novelty": 3,
+     "generality": 2,
+     "usefulness": 3,
+     "clarity": 2
+    },
+    "overall_10": 4,
+    "overall_each": [
+     4,
+     4
+    ],
+    "verdicts": [
+     "major revision",
+     "major revision"
+    ],
+    "workshop": [
+     "borderline",
+     "yes"
+    ],
+    "main_track": [
+     "no",
+     "no"
+    ],
+    "question_quality": 4,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     2,
+     2
+    ],
+    "searches": [
+     10,
+     7
+    ],
+    "cost_usd": 3.437,
+    "familiar": []
+   }
+  },
+  "all": {
+   "n": 10,
+   "axes": {
+    "correctness": 3.8,
+    "verifiability": 2.8,
+    "novelty": 2.2,
+    "generality": 2,
+    "usefulness": 3,
+    "clarity": 2
+   },
+   "overall_10": 4.1,
+   "overall_each": [
+    4,
+    3,
+    4,
+    4,
+    4,
+    5,
+    5,
+    4,
+    4,
+    4
+   ],
+   "verdicts": [
+    "major revision",
+    "reject",
+    "reject",
+    "major revision",
+    "major revision",
+    "major revision",
+    "major revision",
+    "major revision",
+    "major revision",
+    "major revision"
+   ],
+   "workshop": [
+    "yes",
+    "borderline",
+    "borderline",
+    "borderline",
+    "borderline",
+    "borderline",
+    "yes",
+    "borderline",
+    "borderline",
+    "yes"
+   ],
+   "main_track": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+   ],
+   "question_quality": 3.4,
+   "predictable": [
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "yes",
+    "partly",
+    "partly",
+    "partly",
+    "partly"
+   ],
+   "critical": [
+    2,
+    3,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "searches": [
+    7,
+    10,
+    5,
+    5,
+    6,
+    10,
+    8,
+    11,
+    10,
+    7
+   ],
+   "cost_usd": 12.829,
+   "familiar": []
+  },
+  "rep_overall_absdiff": 0.6
+ },
+ "gemini": {
+  "label": "Gemini 4 Argon (Markdown)",
+  "runs": {
+   "014": {
+    "n": 2,
+    "axes": {
+     "correctness": 4,
+     "verifiability": 5,
+     "novelty": 3,
+     "generality": 2,
+     "usefulness": 3.5,
+     "clarity": 2
+    },
+    "overall_10": 5,
+    "overall_each": [
+     5,
+     5
+    ],
+    "verdicts": [
+     "major revision",
+     "major revision"
+    ],
+    "workshop": [
+     "yes",
+     "yes"
+    ],
+    "main_track": [
+     "no",
+     "no"
+    ],
+    "question_quality": 3,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     1,
+     0
+    ],
+    "searches": [
+     6,
+     4
+    ],
+    "cost_usd": 0.48,
+    "familiar": []
+   },
+   "015": {
+    "n": 2,
+    "axes": {
+     "correctness": 5,
+     "verifiability": 4.5,
+     "novelty": 3,
+     "generality": 3,
+     "usefulness": 3.5,
+     "clarity": 3
+    },
+    "overall_10": 6.5,
+    "overall_each": [
+     6,
+     7
+    ],
+    "verdicts": [
+     "minor revision",
+     "minor revision"
+    ],
+    "workshop": [
+     "yes",
+     "yes"
+    ],
+    "main_track": [
+     "borderline",
+     "yes"
+    ],
+    "question_quality": 3.5,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     0,
+     0
+    ],
+    "searches": [
+     2,
+     0
+    ],
+    "cost_usd": 0.279,
+    "familiar": []
+   },
+   "016": {
+    "n": 2,
+    "axes": {
+     "correctness": 4.5,
+     "verifiability": 4,
+     "novelty": 2.5,
+     "generality": 2.5,
+     "usefulness": 3,
+     "clarity": 2
+    },
+    "overall_10": 4.5,
+    "overall_each": [
+     5,
+     4
+    ],
+    "verdicts": [
+     "major revision",
+     "major revision"
+    ],
+    "workshop": [
+     "yes",
+     "yes"
+    ],
+    "main_track": [
+     "no",
+     "no"
+    ],
+    "question_quality": 3.5,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     0,
+     1
+    ],
+    "searches": [
+     4,
+     4
+    ],
+    "cost_usd": 0.333,
+    "familiar": []
+   },
+   "017": {
+    "n": 2,
+    "axes": {
+     "correctness": 4,
+     "verifiability": 4,
+     "novelty": 3,
+     "generality": 3,
+     "usefulness": 4,
+     "clarity": 3
+    },
+    "overall_10": 6,
+    "overall_each": [
+     6,
+     6
+    ],
+    "verdicts": [
+     "minor revision",
+     "minor revision"
+    ],
+    "workshop": [
+     "yes",
+     "yes"
+    ],
+    "main_track": [
+     "borderline",
+     "borderline"
+    ],
+    "question_quality": 4,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     0,
+     0
+    ],
+    "searches": [
+     5,
+     5
+    ],
+    "cost_usd": 0.424,
+    "familiar": []
+   },
+   "018": {
+    "n": 2,
+    "axes": {
+     "correctness": 4.5,
+     "verifiability": 4,
+     "novelty": 3,
+     "generality": 3,
+     "usefulness": 3,
+     "clarity": 2
+    },
+    "overall_10": 5,
+    "overall_each": [
+     5,
+     5
+    ],
+    "verdicts": [
+     "major revision",
+     "major revision"
+    ],
+    "workshop": [
+     "yes",
+     "yes"
+    ],
+    "main_track": [
+     "no",
+     "borderline"
+    ],
+    "question_quality": 3.5,
+    "predictable": [
+     "partly",
+     "partly"
+    ],
+    "critical": [
+     1,
+     0
+    ],
+    "searches": [
+     8,
+     4
+    ],
+    "cost_usd": 0.516,
+    "familiar": []
+   }
+  },
+  "all": {
+   "n": 10,
+   "axes": {
+    "correctness": 4.4,
+    "verifiability": 4.3,
+    "novelty": 2.9,
+    "generality": 2.7,
+    "usefulness": 3.4,
+    "clarity": 2.4
+   },
+   "overall_10": 5.4,
+   "overall_each": [
+    5,
+    5,
+    6,
+    7,
+    5,
+    4,
+    6,
+    6,
+    5,
+    5
+   ],
+   "verdicts": [
+    "major revision",
+    "major revision",
+    "minor revision",
+    "minor revision",
+    "major revision",
+    "major revision",
+    "minor revision",
+    "minor revision",
+    "major revision",
+    "major revision"
+   ],
+   "workshop": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+   ],
+   "main_track": [
+    "no",
+    "no",
+    "borderline",
+    "yes",
+    "no",
+    "no",
+    "borderline",
+    "borderline",
+    "no",
+    "borderline"
+   ],
+   "question_quality": 3.5,
+   "predictable": [
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly",
+    "partly"
+   ],
+   "critical": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   "searches": [
+    6,
+    4,
+    2,
+    0,
+    4,
+    4,
+    5,
+    5,
+    8,
+    4
+   ],
+   "cost_usd": 2.033,
+   "familiar": []
+  },
+  "rep_overall_absdiff": 0.4
+ }
+}

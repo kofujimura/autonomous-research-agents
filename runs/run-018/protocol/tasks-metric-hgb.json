@@ -1,0 +1,68 @@
+[
+  {
+    "task_id": "primary-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "metric",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--output",
+      "analysis/metric-whitened/primary-hgb",
+      "--extra",
+      "--baselines",
+      "analysis/controls/hgb-corrected",
+      "--metric-learner",
+      "hgb",
+      "--distance-transform",
+      "whitened"
+    ]
+  },
+  {
+    "task_id": "primary-hgb-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/metric-whitened/primary-hgb",
+      "--out",
+      "analysis/metric-whitened/primary-hgb-summary"
+    ]
+  },
+  {
+    "task_id": "polygonC-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "metric",
+      "--inputs",
+      "analysis/polygon-features-v3/C",
+      "--primary",
+      "analysis/polygon/C-rf",
+      "--output",
+      "analysis/metric-whitened/polygonC-hgb",
+      "--extra",
+      "--baselines",
+      "analysis/polygon/C-hgb",
+      "--metric-learner",
+      "hgb",
+      "--distance-transform",
+      "whitened"
+    ]
+  },
+  {
+    "task_id": "polygonC-hgb-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/metric-whitened/polygonC-hgb",
+      "--out",
+      "analysis/metric-whitened/polygonC-hgb-summary"
+    ]
+  }
+]

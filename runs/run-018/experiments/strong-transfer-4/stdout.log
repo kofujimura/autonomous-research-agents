@@ -1,0 +1,12 @@
+{"task_id": "R10", "command": [".venv/bin/python", "code/analyse_strong_transfer.py", "--region", "R10", "--out", "analysis/transfer-strong"], "start_time_utc": "2026-10-28T04:24:18.835208+00:00"}
+{"region": "R10", "stage": "physical forest fitted", "elapsed_seconds": 240.86336829187348}
+{"region": "R10", "stage": "boosted trees fitted", "elapsed_seconds": 283.0262622497976}
+{"region": "R10", "elapsed_seconds": 288.0283629167825, "training_n": 3320, "training_pairs": 88792}
+{"task_id": "R11", "command": [".venv/bin/python", "code/analyse_strong_transfer.py", "--region", "R11", "--out", "analysis/transfer-strong"], "start_time_utc": "2026-10-28T04:29:08.368282+00:00"}
+{"region": "R11", "stage": "physical forest fitted", "elapsed_seconds": 238.03122724988498}
+{"region": "R11", "stage": "boosted trees fitted", "elapsed_seconds": 281.0819623339921}
+{"region": "R11", "elapsed_seconds": 286.06371537502855, "training_n": 3317, "training_pairs": 88628}
+{"task_id": "R12", "command": [".venv/bin/python", "code/analyse_strong_transfer.py", "--region", "R12", "--out", "analysis/transfer-strong"], "start_time_utc": "2026-10-28T04:33:55.933081+00:00"}
+{"region": "R12", "stage": "physical forest fitted", "elapsed_seconds": 258.8396025840193}
+{"region": "R12", "stage": "boosted trees fitted", "elapsed_seconds": 303.87162487511523}
+{"region": "R12", "elapsed_seconds": 305.0328137089964, "training_n": 3594, "training_pairs": 95982}

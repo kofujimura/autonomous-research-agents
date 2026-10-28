@@ -1,0 +1,16 @@
+fold,task,initial_class,fit_pairs,positive_pairs,score,pooled_fallback
+0,gain,Grass/forb/herb,53,32,0.6,False
+0,gain,Shrubs,32,20,0.6176470588235294,False
+0,loss,Trees,114,57,0.5,False
+1,gain,Grass/forb/herb,52,28,0.5370370370370371,False
+1,gain,Shrubs,44,22,0.5,False
+1,loss,Trees,128,63,0.49230769230769234,False
+2,gain,Grass/forb/herb,56,31,0.5517241379310345,False
+2,gain,Shrubs,53,22,0.41818181818181815,False
+2,loss,Trees,123,65,0.528,False
+3,gain,Grass/forb/herb,53,28,0.5272727272727272,False
+3,gain,Shrubs,46,16,0.3541666666666667,False
+3,loss,Trees,91,44,0.4838709677419355,False
+4,gain,Grass/forb/herb,62,33,0.53125,False
+4,gain,Shrubs,53,24,0.45454545454545453,False
+4,loss,Trees,120,59,0.4918032786885246,False

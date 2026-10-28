@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E32-manuscript-render",
+  "start_time_utc": "2026-10-26T22:13:59.568621Z",
+  "end_time_utc": "2026-10-26T22:14:00.125339Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/render_paper.py"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "13f72284e770302243c365435ce082d27d469c32",
+  "plan_sha256": "ebe46e22b043010d9683376e5d76768edcaefe52760cdde4354e8a751cc29eb5",
+  "code_commit_id": "13f72284e770302243c365435ce082d27d469c32",
+  "inputs": [
+    {
+      "path": "data/population-main-v1.json",
+      "sha256": "f2a5a27f70792807a8f29d289a559641c9b30a64636e9ddfe59eb63c1d91cb07"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_path": "experiments/E32-manuscript-render/stdout.txt",
+  "stderr_path": "experiments/E32-manuscript-render/stderr.txt",
+  "start_event_id": "E0359",
+  "pid": 9157,
+  "elapsed_seconds": 0.5566222919151187,
+  "end_event_id": "E0360"
+}

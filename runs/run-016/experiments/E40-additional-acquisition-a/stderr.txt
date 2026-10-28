@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/swiss_labels.py", line 192, in collect
+    v=reader.tile(year,name);r=k//4;c=k%4
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/swiss_labels.py", line 64, in tile
+    raw=read_range(self.base+f'labels/{year}.tar',lo,hi-lo)
+  File "/Users/fujimura/Research/ai-free-research-en/run-016/scripts/validation_geography.py", line 54, in guarded
+    raise RuntimeError('Additional-reference acquisition stopped at prespecified time/cache-growth reserve')
+RuntimeError: Additional-reference acquisition stopped at prespecified time/cache-growth reserve

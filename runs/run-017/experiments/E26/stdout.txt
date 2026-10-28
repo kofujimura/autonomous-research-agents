@@ -1,0 +1,37 @@
+PASS: tied threshold; even/odd patch coverage; common mask; normalized smoothing; unique finite object allocation; confusion counts; hand-computed factorial contrast and paired bootstrap; exact weighted-quantile equivalence
+fixture_aef_area_101 evaluated 64 object rows
+fixture_aef_area_202 evaluated 64 object rows
+fixture_aef_area_303 evaluated 64 object rows
+fixture_aef_area_404 evaluated 64 object rows
+fixture_aef_area_505 evaluated 64 object rows
+fixture_aef_object_101 evaluated 64 object rows
+fixture_aef_object_202 evaluated 64 object rows
+fixture_aef_object_303 evaluated 64 object rows
+fixture_aef_object_404 evaluated 64 object rows
+fixture_aef_object_505 evaluated 64 object rows
+fixture_optical_area_101 evaluated 64 object rows
+fixture_optical_area_202 evaluated 64 object rows
+fixture_optical_area_303 evaluated 64 object rows
+fixture_optical_area_404 evaluated 64 object rows
+fixture_optical_area_505 evaluated 64 object rows
+fixture_optical_object_101 evaluated 64 object rows
+fixture_optical_object_202 evaluated 64 object rows
+fixture_optical_object_303 evaluated 64 object rows
+fixture_optical_object_404 evaluated 64 object rows
+fixture_optical_object_505 evaluated 64 object rows
+{
+  "checked_at_utc": "2026-10-27T07:57:37.155636Z",
+  "status": "PASS",
+  "synthetic_software_fixture": true,
+  "no_model_fitted": true,
+  "evaluated_artificial_maps": 20,
+  "expected_h1_interaction": 0.5,
+  "expected_conditional_interval": [
+    0.5,
+    0.5
+  ],
+  "expected_aef_oracle_gain": 0.5,
+  "expected_optical_oracle_gain": 0,
+  "generator": "code/check_pipeline.py; deterministic two 20-pixel objects per core, common negative-score ramp, explicit class-score assignments",
+  "meaning": "Checks probability files \u2192 thresholds \u2192 object coverage \u2192 CSV \u2192 paired summary; not scientific evidence about real wetlands or classifiers"
+}

@@ -1,0 +1,11 @@
+{"task_id": "bafe6a4bb3abab1c7cf0-2018", "status": "error", "equal": false, "requested_at_utc": "2026-10-25T13:47:49Z", "ended_at_utc": "2026-10-25T13:47:56Z", "gateway_elapsed_seconds": 6.350092625012621, "default_historical_elapsed_seconds": 15.072157749906182, "path": null, "sha256": null, "error": "ValueError: 'experiments/route-check-v15/results/bafe6a4bb3abab1c7cf0-2018.npz' is not in the subpath of '/Users/fujimura/Research/ai-free-research-en/run-014'"}
+{"task_id": "d1870861f0f2882000fd-2021", "status": "error", "equal": false, "requested_at_utc": "2026-10-25T13:47:56Z", "ended_at_utc": "2026-10-25T13:48:00Z", "gateway_elapsed_seconds": 4.73470150004141, "default_historical_elapsed_seconds": 14.570873375050724, "path": null, "sha256": null, "error": "ValueError: 'experiments/route-check-v15/results/d1870861f0f2882000fd-2021.npz' is not in the subpath of '/Users/fujimura/Research/ai-free-research-en/run-014'"}
+{"task_id": "6f30ee90321068c335c9-2020", "status": "error", "equal": false, "requested_at_utc": "2026-10-25T13:48:00Z", "ended_at_utc": "2026-10-25T13:48:04Z", "gateway_elapsed_seconds": 3.5495858751237392, "default_historical_elapsed_seconds": 17.992554833879694, "path": null, "sha256": null, "error": "ValueError: 'experiments/route-check-v15/results/6f30ee90321068c335c9-2020.npz' is not in the subpath of '/Users/fujimura/Research/ai-free-research-en/run-014'"}
+{
+  "checked_at_utc": "2026-10-25T13:48:04Z",
+  "same_raw_arrays": false,
+  "gateway_median_seconds": 4.73470150004141,
+  "historical_default_median_seconds": 15.072157749906182,
+  "switch_to_gateway": false,
+  "timing_caveat": "Historical times are confounded by date, network and caches; no causal speed claim."
+}

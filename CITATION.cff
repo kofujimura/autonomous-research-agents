@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper."
+title: "Letting AI Formulate the Research Question: Autonomous Research Agents — system, papers, records and evaluation"
+type: dataset
+repository-code: "https://github.com/kofujimura/autonomous-research-agents"
+url: "https://github.com/kofujimura/autonomous-research-agents"
+license:
+  - MIT
+  - CC-BY-4.0
+authors:
+  - family-names: Fujimura
+    given-names: Ko
+    email: fujimura@otsuma.ac.jp
+    affiliation: "Otsuma Women's University, Faculty of Social Information Studies"
+abstract: >-
+  The system (instructions, two skills and the operating procedure), the five research papers
+  written by autonomous AI research agents in five consecutive pre-registered runs, the records
+  needed to reproduce and check each run, the in-loop AI reviews, and the external AI evaluation.
+  In each run an off-the-shelf coding agent formulated its own research question, carried out
+  the study, wrote a paper, was reviewed by an AI reviewer from another model family and
+  submitted a revised paper, without human research intervention.
+keywords:
+  - autonomous research agents
+  - AI scientist
+  - research question formulation
+  - AI peer review
+  - reproducibility
+preferred-citation:
+  type: generic
+  title: "Letting AI Formulate the Research Question: Autonomous Research Agents"
+  authors:
+    - family-names: Fujimura
+      given-names: Ko
+      affiliation: "Otsuma Women's University, Faculty of Social Information Studies"
+  year: 2026
+  notes: "arXiv preprint; identifier to be added."

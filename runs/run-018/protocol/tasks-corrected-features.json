@@ -1,0 +1,26 @@
+[
+  {
+    "task_id": "original",
+    "command": [
+      ".venv/bin/python",
+      "code/derive_features.py",
+      "--out",
+      "analysis/features-corrected",
+      "--aef-overrides",
+      "data/corrections"
+    ]
+  },
+  {
+    "task_id": "recent",
+    "command": [
+      ".venv/bin/python",
+      "code/derive_features.py",
+      "--out",
+      "analysis/recent-features-corrected",
+      "--pattern",
+      "S??",
+      "--aef-overrides",
+      "data/corrections"
+    ]
+  }
+]

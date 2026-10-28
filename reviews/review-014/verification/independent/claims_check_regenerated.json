@@ -1,0 +1,288 @@
+[
+ {
+  "claim_id": "C001",
+  "tables": 11,
+  "match": 8,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C002",
+  "tables": 11,
+  "match": 4,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C003",
+  "tables": 11,
+  "match": 8,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C004",
+  "tables": 11,
+  "match": 4,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C005",
+  "tables": 9,
+  "match": 4,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C006",
+  "tables": 7,
+  "match": 12,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C007",
+  "tables": 12,
+  "match": 0,
+  "mismatch": 0,
+  "not_found": 1,
+  "nonmatching": [
+   {
+    "path": ".saved_forest_history_route",
+    "record": {
+     "cohort_plots": 166,
+     "nlcd_source_plots": 8360,
+     "matching_radius_m": 1,
+     "cohort_plots_with_match": 0,
+     "cohort_plots_with_unique_match": 0,
+     "minimum_cross_source_distance_m": 1879.4542786716631,
+     "scope": "Coordinate feasibility only. NLCD Forest differs from LCMAP Trees; no annual label or primary cohort is changed. No new retrieval."
+    },
+    "status": "not_found",
+    "table": null
+   }
+  ]
+ },
+ {
+  "claim_id": "C008",
+  "tables": 16,
+  "match": 12,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C009",
+  "tables": 15,
+  "match": 48,
+  "mismatch": 0,
+  "not_found": 1,
+  "nonmatching": [
+   {
+    "path": ".permutation_check",
+    "record": {
+     "status": "PASS",
+     "seed": 14014,
+     "permutations": 1,
+     "scored_rows": 3568,
+     "mapped_target_keys": 446,
+     "maximum_score_difference": 0.0,
+     "changed_flags": 0,
+     "scope": "LCMAP finite later after vectors only; input-dependence software check, not independent replication or forecasting."
+    },
+    "status": "not_found",
+    "table": null
+   }
+  ]
+ },
+ {
+  "claim_id": "C010",
+  "tables": 4,
+  "match": 6,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C011",
+  "tables": 8,
+  "match": 10,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C012",
+  "tables": 9,
+  "match": 32,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C014",
+  "tables": 15,
+  "match": 48,
+  "mismatch": 0,
+  "not_found": 1,
+  "nonmatching": [
+   {
+    "path": ".invariance",
+    "record": {
+     "dataset": "lcmap",
+     "exploratory": true,
+     "baseline_references_include_test_region": true,
+     "target_fitting_excludes_test_region": true,
+     "supervised_invariance_rows": 7136,
+     "supervised_scores_and_flags_unchanged": true,
+     "interpretation": "Different reference-information access; not equal resources or proof of ecological matching."
+    },
+    "status": "not_found",
+    "table": null
+   }
+  ]
+ },
+ {
+  "claim_id": "C013",
+  "tables": 2,
+  "match": 3,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C015",
+  "tables": 5,
+  "match": 0,
+  "mismatch": 0,
+  "not_found": 1,
+  "nonmatching": [
+   {
+    "path": "",
+    "record": {
+     "exploratory": true,
+     "planned_pairs": 16,
+     "planned_point_years": 32,
+     "present_point_years": 1,
+     "unselected_invariance_rows": 10320,
+     "unselected_scores_flags_unchanged": true,
+     "earlier_thresholds_unchanged": true,
+     "interpretation": "No complete paired native score comparison. Zero raw counts at common_cases=0 are empty counts, not observed zero sensitivity or stability.",
+     "design": "fixed_paired_native",
+     "status": "not_tested_no_complete_native_pairs",
+     "complete_native_file_pairs": 0,
+     "complete_native_centre_pairs": 0,
+     "complete_native_patch_pairs": 0,
+     "missing_dates_remain_mosaic": false
+    },
+    "status": "not_found",
+    "table": null
+   }
+  ]
+ },
+ {
+  "claim_id": "C016",
+  "tables": 7,
+  "match": 96,
+  "mismatch": 0,
+  "not_found": 3,
+  "nonmatching": [
+   {
+    "path": ".summary",
+    "record": {
+     "exploratory": true,
+     "added_after_v22_results": true,
+     "tolerance_absolute": 1e-12,
+     "pairs": 20,
+     "changed_pairs": 5,
+     "changed_method_case_conditions": 23,
+     "method_case_conditions": 480,
+     "note": "Equal inputs and unchanged subsequent inputs can make unchanged scores inevitable; not independent evidence of stability."
+    },
+    "status": "not_found",
+    "table": null
+   },
+   {
+    "path": ".summary.input_counts[0]",
+    "record": {
+     "support": "centre",
+     "point_years": 20,
+     "identical_vectors": 10
+    },
+    "status": "not_found",
+    "table": null
+   },
+   {
+    "path": ".summary.input_counts[1]",
+    "record": {
+     "support": "patch",
+     "point_years": 20,
+     "identical_vectors": 7
+    },
+    "status": "not_found",
+    "table": null
+   }
+  ]
+ },
+ {
+  "claim_id": "C017",
+  "tables": 13,
+  "match": 96,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "C018",
+  "tables": 8,
+  "match": 52,
+  "mismatch": 0,
+  "not_found": 1,
+  "nonmatching": [
+   {
+    "path": ".summary",
+    "record": {
+     "exploratory": true,
+     "planned_partitions": 10,
+     "completed_partitions": 10,
+     "original_reconstructed_prediction_rows": 21408,
+     "original_reconstructed_threshold_rows": 480,
+     "unsupervised_scores_invariant": true,
+     "expected_method_fold_conditions": 4800,
+     "available_method_fold_conditions": 4800,
+     "missing_threshold_record_conditions": 0,
+     "invalid_threshold_conditions": 0,
+     "primary_range_rows": 12,
+     "reference_allocation_seed": 14014,
+     "learner_seed": 14014,
+     "bootstrap_condition": "Conditional on each fitted split, not an interval over independent training datasets"
+    },
+    "status": "not_found",
+    "table": null
+   }
+  ]
+ },
+ {
+  "claim_id": "P001",
+  "tables": 0,
+  "match": 0,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ },
+ {
+  "claim_id": "P002",
+  "tables": 0,
+  "match": 0,
+  "mismatch": 0,
+  "not_found": 0,
+  "nonmatching": []
+ }
+]

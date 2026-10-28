@@ -1,0 +1,100 @@
+[
+  {
+    "task_id": "constant-decision-audit",
+    "command": [
+      ".venv/bin/python",
+      "code/audit_constant_controls.py",
+      "--out",
+      "analysis/constant-audit"
+    ],
+    "start_time_utc": "2026-10-27T19:54:17.055221+00:00",
+    "end_time_utc": "2026-10-27T19:54:17.665022+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "corrected-primary-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/main-corrected",
+      "--out",
+      "analysis/primary-corrected-summary"
+    ],
+    "start_time_utc": "2026-10-27T19:54:17.665499+00:00",
+    "end_time_utc": "2026-10-27T19:54:21.797366+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "corrected-hgb",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "hgb",
+      "--inputs",
+      "analysis/features-corrected",
+      "--primary",
+      "analysis/main-corrected",
+      "--output",
+      "analysis/controls/hgb-corrected"
+    ],
+    "start_time_utc": "2026-10-27T19:54:21.797799+00:00",
+    "end_time_utc": "2026-10-27T19:56:38.097000+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "corrected-hgb-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/controls/hgb-corrected",
+      "--out",
+      "analysis/controls/hgb-corrected-summary"
+    ],
+    "start_time_utc": "2026-10-27T19:56:38.097316+00:00",
+    "end_time_utc": "2026-10-27T19:56:42.231332+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "tile-safe-reader-check",
+    "command": [
+      ".venv/bin/python",
+      "code/check_tile_safe_reader.py"
+    ],
+    "start_time_utc": "2026-10-27T19:56:42.231780+00:00",
+    "end_time_utc": "2026-10-27T19:59:18.608801+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "corrected-recent",
+    "command": [
+      ".venv/bin/python",
+      "code/run_rotation_batch.py",
+      "--kind",
+      "primary",
+      "--inputs",
+      "analysis/recent-features-corrected",
+      "--output",
+      "analysis/recent-corrected"
+    ],
+    "start_time_utc": "2026-10-27T19:59:18.609251+00:00",
+    "end_time_utc": "2026-10-27T20:09:47.345247+00:00",
+    "exit_code": 0
+  },
+  {
+    "task_id": "corrected-recent-summary",
+    "command": [
+      ".venv/bin/python",
+      "code/summarize_matching.py",
+      "--inputs",
+      "analysis/recent-corrected",
+      "--out",
+      "analysis/recent-corrected-summary"
+    ],
+    "start_time_utc": "2026-10-27T20:09:47.345639+00:00",
+    "end_time_utc": "2026-10-27T20:09:49.918057+00:00",
+    "exit_code": 0
+  }
+]

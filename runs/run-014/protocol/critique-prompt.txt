@@ -1,0 +1,42 @@
+You are a critic of research topics. Below are topic candidates for a study that an AI agent will carry out autonomously. Point out the weaknesses of each candidate.
+
+The main readers of this study are researchers working on the social problem addressed and practitioners in government, business, communities and other settings (both humans and AIs). A good topic is one where readers' understanding or judgment changes between before and after reading the results. Each study takes 12 hours and is carried out within the range of local compute, public data and a small amount of AI API use.
+
+For each candidate, look for weaknesses from the following points of view.
+1. Effect on readers: Which understanding or judgment, concretely, would researchers and practitioners who read the results change? If they would not change any, say so.
+2. Generality: Do the results hold beyond a particular tool, library version or dataset? Will they not become outdated in a few months?
+3. Realism: Is there a risk that the effect appears only under artificial conditions or with inputs that are rare in reality? Are realistic inputs excluded from the targets?
+4. Novelty: Is there close prior work or a known result (including what is already known from official statistics, reports or white papers)? Does it amount to no more than re-confirming a known concern with numbers?
+5. Unpredictability: Could the result be largely predicted without experiments?
+6. Size of the question: Has it become a solid but small question?
+
+Before naming close prior work, confirm it by web search. Also look for literature and preprints from 2025 onward. Include the standard methods and classic studies of the field. Also check whether the same problem has been studied under a different name in other fields.
+
+For each candidate, write in the following format.
+- The most serious weakness (with the number of the point of view above)
+- Prior work that seems close (authors, title, year, URL; write "unconfirmed" for any you could not confirm by web search)
+- A scenario in which the value would be small even if it succeeds
+- A direction that broadens the question or brings it closer to reality (at most one, within the scope of that candidate; do not propose new topics)
+
+Do not rank the candidates. You have not been told which candidate is planned to be adopted.
+
+Candidate list:
+C1. Question: Do learned weather ensembles retain useful skill for sustained, spatially concurrent heat when instantaneous temperature skill is similar?
+Method: Compare joint heat events, marginal-preserving shuffled controls and a numerical ensemble against weather reanalysis, with event reliability and decision-value evaluation. This is weather-warning validation, not a measurement of mortality benefit.
+Closest prior work and difference: Price et al., Probabilistic weather forecasting with machine learning (2024), DOI 10.1038/s41586-024-08252-9, and Alet et al., Skillful joint probabilistic weather forecasting from marginals (2025), arXiv:2506.10772, already evaluate pooled joint structure and cyclone/wind applications. The proposed difference is sustained, concurrent regional heat-warning events. Hajat et al. (2010), Heat–Health Warning Systems: A Comparison of the Predictive Capacity of Different Approaches to Identifying Dangerously Hot Days, establishes trigger sensitivity rather than learned-ensemble joint skill.
+
+C3. Question: Can concurrent forest references and control adjustment improve the validity of annual satellite-embedding reference scores for tree-cover transitions while reducing sensitivity to the reference forest's calendar year?
+Method: Use two publicly released annual embedding systems, AlphaEarth and TESSERA, with human-interpreted LCMAP before/after tree-cover labels. Compare fixed first-year and last-year references, pooled references, concurrent references, BACI-style adjustment and a supervised discrimination baseline under spatial holdouts. Include algebraic decomposition of calendar anchoring and distinguish tree-cover gain from ecological restoration success.
+Closest prior work and difference: Heiman, Characterizing Brazilian Atlantic Forest Restoration Outcomes with Geospatial AlphaEarth Embeddings (2026), arXiv:2605.05547, proposes cosine similarity to secondary-forest references. Meroni et al., Remote sensing monitoring of land restoration interventions in semi-arid environments with a before–after control-impact statistical design (2017), DOI 10.1016/j.jag.2017.02.016, already controls natural variability. Brown et al., AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data (2025), arXiv:2507.22291, tests mapping and change detection. The proposed difference is direct validation of calendar-reference choices and corrections against labelled transitions in two representation systems, not claiming the need for controls as a discovery.
+
+C7. Question: Do long-context genomic sequence scores prioritize later reclassified uncertain variants as well as cross-sectional variant benchmarks suggest?
+Method: Join archived public ClinVar uncertain-to-resolved transitions to published variant-level scores, compare conservation and established predictors, use gene-disjoint evaluation, and distinguish label-independent scores from ClinVar-supervised probes. No patient-level data or sequence generation.
+Closest prior work and difference: Gür, ReVUS: A Temporal-Holdout Benchmark for the Reclassification of Variants of Uncertain Significance (2026), https://sugi.bio/revus/, already evaluates the transition and gene-level circularity. Pearce et al., EVEE: Interpretable variant effect prediction from genomic foundation model embeddings (2026), DOI 10.64898/2026.04.10.717844, reports cross-sectional/functional-assay performance. Deignan et al., Points to Consider in the Reevaluation and Reanalysis of Genomic Test Results (2019), defines the curation setting. The proposed difference would be context-based sequence/embedding score families in the temporal curation queue, potentially only a new predictor on an existing question.
+
+C9. Question: Does open-vocabulary acoustic identification create an accumulating false rare-species tail that changes how biodiversity surveys should allocate recording and verification effort?
+Method: Compare species-accumulation curves from labelled soundscapes, open-vocabulary outputs, fixed-vocabulary classifiers and taxonomic reconciliation. Separate unlabelled true secondary species from verified false detections and assess whether prioritizing singleton verification changes conclusions.
+Closest prior work and difference: Robinson et al., NatureLM-audio: an Audio-Language Foundation Model for Bioacoustics (2025), arXiv:2411.07186, tests broad identification/detection. Kahl et al., BirdNET: A deep learning solution for avian diversity monitoring (2021), DOI 10.1016/j.ecoinf.2021.101236, and Schuster et al., Evaluation of an autonomous acoustic surveying technique for grassland bird communities in Nebraska (2024; correction 2025), DOI 10.1371/journal.pone.0306580, evaluate fixed-vocabulary monitoring and confidence thresholds/species accumulation. The proposed difference is the observation model and taxonomic tail when output vocabulary is open, not the generic existence of false positives.
+
+C11. Question: Can probabilistic time-series forecasts transferred from unrelated domains give calibrated probabilities of first crossing reservoir drought thresholds?
+Method: Rolling-origin validation on public daily reservoir series; evaluate first-passage probabilities and usable warning lead time, with seasonal/persistence/autoregressive and available domain-aware baselines, separate statistical low-storage thresholds from operational drought rules.
+Closest prior work and difference: Ansari et al., Chronos: Learning the Language of Time Series (2024), arXiv:2403.07815, tests transferred probabilistic forecasting; Kuzma et al., Using a Deep Learning Framework to Forecast Reservoir Water Availability in India (2023), DOI 10.46830/writn.21.00088, forecasts reservoir volumes; Numerical Analysis of Storage-Level Probability Distribution and First Passage Probability in a Reservoir with Correlated Inflows (1996), https://www.jstage.jst.go.jp/article/prohe1990/40/0/40_0_335/_article/-char/en, studies classical first passage. The proposed difference is whether transferred sequence distributions support calibrated threshold warnings, rather than merely improving point forecasts.

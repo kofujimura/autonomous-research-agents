@@ -1,0 +1,7 @@
+{
+  "observed_at_utc": "2026-10-27T03:40:56.495123Z",
+  "source_commit": null,
+  "record": "review/verification-review-initial.json",
+  "used_for_final_sealing": false,
+  "reason": "Passed complete numerical/document check of aa05 snapshot; subsequent nonnumerical readability correction requires a new final-source full run."
+}

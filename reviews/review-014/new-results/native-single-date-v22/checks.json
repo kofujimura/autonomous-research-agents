@@ -1,0 +1,20 @@
+{
+  "exploratory": true,
+  "planned_pairs": 20,
+  "planned_point_years": 20,
+  "present_point_years": 20,
+  "unselected_invariance_rows": 10224,
+  "unselected_scores_flags_unchanged": true,
+  "earlier_thresholds_unchanged": true,
+  "design": "saved_single_date_substitution",
+  "status": "evaluated_partial_date_cases",
+  "complete_native_file_pairs": 0,
+  "complete_native_centre_pairs": 0,
+  "complete_native_patch_pairs": 0,
+  "evaluated_pairs_by_support": {
+    "centre": 20,
+    "patch": 20
+  },
+  "missing_dates_remain_mosaic": true,
+  "interpretation": "Saved single-date substitutions; other dates, fitting, references and calibration remain mosaic. Not full native pairs or population performance."
+}

@@ -1,0 +1,33 @@
+{
+  "experiment_id": "S003-integer-040",
+  "started_at_utc": "2026-10-26T05:04:26Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/secondary.py",
+    "--task",
+    "integer",
+    "--cases",
+    "results/primary/cases.csv",
+    "--start",
+    "40",
+    "--count",
+    "20",
+    "--output",
+    "results/secondary-runs/integer-040"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit_id": "f3e88ecc7fe6676a7dfce69662ee9829c65301db",
+  "code_commit_id": "5c8ae8ae4ed4855e4a051e6dec4662635303c6cb",
+  "input_sha256": {
+    "results/primary/cases.csv": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d",
+    "protocol/sensitivity-cohort-v1.json": "6f56e73beffa668423bb0e977b561cdb68c926136b68ff2a9e6489b44a5fed95"
+  },
+  "status": "completed",
+  "start_event_id": "E0337",
+  "child_pid": 59952,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T05:05:00Z",
+  "elapsed_seconds": 34.430352583061904,
+  "end_event_id": "E0338"
+}

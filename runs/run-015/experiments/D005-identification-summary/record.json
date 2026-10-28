@@ -1,0 +1,27 @@
+{
+  "experiment_id": "D005-identification-summary",
+  "started_at_utc": "2026-10-26T05:40:50Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/identification_diagnostics.py",
+    "--cases",
+    "results/primary/cases.csv",
+    "--output",
+    "results/identification",
+    "--summarize"
+  ],
+  "timeout_seconds": 1800,
+  "plan_path": "protocol/plan-v6.1-svd-recovery.md",
+  "plan_commit_id": "64222fd6bc484d30ff9097f61b333475f019e716",
+  "code_commit_id": "64222fd6bc484d30ff9097f61b333475f019e716",
+  "input_sha256": {
+    "results/primary/cases.csv": "807955aad01bd36c3b7a2de88213e6776a522ca41dfefaa8ae700e8979328b3d"
+  },
+  "status": "completed",
+  "start_event_id": "E0392",
+  "child_pid": 61610,
+  "exit_code": 0,
+  "ended_at_utc": "2026-10-26T05:40:51Z",
+  "elapsed_seconds": 0.9902185411192477,
+  "end_event_id": "E0393"
+}

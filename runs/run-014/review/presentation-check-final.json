@@ -1,0 +1,21 @@
+{
+  "observed_at_utc": "2026-10-25T20:39:53Z",
+  "status": "PASS",
+  "paper_sha256": "07b2485ce429e8d57b79f33aca6358b453c3ad763866ed49471ddd596985aa16",
+  "paper_rebuild_bytes_identical": true,
+  "local_image_paths": [
+    "figures/operating-points.png",
+    "figures/diagnostics/calibration-sensitivity.png",
+    "figures/direct-inputs.png",
+    "analysis/endpoint-v13/reference-similarity.png"
+  ],
+  "claims": 22,
+  "reference_count": 28,
+  "abstract_words": 246,
+  "readout_word_occurrences": 0,
+  "source_evidence_paths_exist": true,
+  "current_numerical_code_covered": true,
+  "verification_record": "review/self-rerun-4.json",
+  "first_draft_and_raw_inputs_preserved": true,
+  "note": "Author presentation/record consistency check; complete numerical rerun is separate."
+}

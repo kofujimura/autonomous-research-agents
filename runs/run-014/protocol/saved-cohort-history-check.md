@@ -1,0 +1,3 @@
+# Self-check of saved annual-history access
+
+Fixed2026-10-25T18:09:59Z, after main outcomes. Check whether saved Annual NLCD plot coordinates co-locate the baseline cohorts within the same1metre threshold used for the earlier auxiliary classification audit. This is a post-result feasibility check only; do not filter, relabel or recalibrate any cohort, and do not treat the different Forest definition as equivalent to LCMAP Trees. Save all cohort nearest distances and match counts; if no matches exist, report that the saved file cannot supply co-located histories under this rule. No new network/API/participant. Bound1800seconds/max2processes; add deterministic result to offline verification.

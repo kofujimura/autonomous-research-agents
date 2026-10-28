@@ -1,0 +1,34 @@
+{
+  "experiment_id": "fetch-nlcd-tessera-016-019",
+  "start_at_utc": "2026-10-25T15:21:33Z",
+  "end_at_utc": "2026-10-25T15:29:27Z",
+  "command": [
+    ".venv/bin/python",
+    "scripts/retrieve.py",
+    "tessera",
+    "16",
+    "--batch-count",
+    "4",
+    "--tasks",
+    "data/nlcd/prepared/tasks.csv",
+    "--via-gateway"
+  ],
+  "working_directory": "/Users/fujimura/Research/ai-free-research-en/run-014",
+  "timeout_seconds": 1800,
+  "seed": null,
+  "plan_path": "protocol/plan-v16.md",
+  "plan_commit_id": "4116ba790edaba8a140773f85d1381c864299470",
+  "additional_plan_commits": {
+    "protocol/plan-v15.md": "3b5074c9dc2735028067e3449a520c387529c39b"
+  },
+  "code_commit_id": "5d2efb51069f625085b5fabb5f5094e35a7bb2f5",
+  "input_sha256": {
+    "data/nlcd/prepared/tasks.csv": "2329fc017864c61b2ffd3a5bd93133ef1498e3babfc3f5404422e327d1afee6c"
+  },
+  "exit_code": 0,
+  "status": "completed",
+  "start_event_id": "E0415",
+  "pid": 26768,
+  "elapsed_seconds": 474.1710342091974,
+  "end_event_id": "E0422"
+}

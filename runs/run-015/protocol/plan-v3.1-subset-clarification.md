@@ -1,0 +1,9 @@
+# Plan v3.1: clarify what makes a subset-count comparison trivial
+
+Inherit `plan-v3-subset-products.md`, its frozen query design, and the unchanged original scientific plan v1 and technical transfer addendum v2. This remains an exploratory extension. No real-weather subset-product results have been computed yet; only synthetic validation V002 has run. This correction follows a mathematical self-check, not an observed effect.
+
+Correct this statement in v3: “when the complement count is deterministic, the universe total-count PMF exactly determines the query count PMF by a shift.” For a guarantee from the RELEASED information, use the stronger sufficient condition that **every complement site has marginal probability zero or one**. Then all compatible laws have the same complement count, and the shift is justified. A complement count that is constant only in the observed ensemble need not be known to a receiver of the stipulated summaries. Do not count such cases as analytically guaranteed successes of the count product.
+
+Record separately (a) all complement sites deterministic from their marginals and (b) empirical complement-count variance zero. The latter is descriptive only. The informative stratum from v3 is unchanged: >=4 uncertain queried sites, >=2 uncertain complement sites, and0.1<=q<=0.9. Preserve all cases and all exclusions. Synthetic validation's count-stronger example has an individually deterministic complement, so its expected result remains valid.
+
+For scheduling, the fixed per-forecast exploratory queries may be calculated immediately after a forecast's original v1 analysis in the same bounded worker, before other forecasts finish. Aggregate comparisons still use only the predetermined matched dates. No early result changes sampling, queries, hypotheses or stopping. All numerical results and failures are retained; original primary results remain primary.
