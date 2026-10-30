@@ -33,4 +33,7 @@ preferred-citation:
       given-names: Ko
       affiliation: "Otsuma Women's University, Faculty of Social Information Studies"
   year: 2026
-  notes: "arXiv preprint; identifier to be added."
+  month: 10
+  doi: "10.48550/arXiv.2610.39620"
+  url: "https://arxiv.org/abs/2610.39620"
+  notes: "arXiv preprint arXiv:2610.39620 [cs.AI]"

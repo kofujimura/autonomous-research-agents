@@ -1,6 +1,6 @@
 # Letting AI Formulate the Research Question: Autonomous Research Agents
 
-This repository accompanies the paper *Letting AI Formulate the Research Question: Autonomous Research Agents* (Ko Fujimura, 2026; arXiv identifier to be added). It contains the system, the five papers written by the agents, the records needed to reproduce and check them, and the evaluation.
+This repository accompanies the paper *Letting AI Formulate the Research Question: Autonomous Research Agents* (Ko Fujimura, 2026; [arXiv:2610.39620](https://arxiv.org/abs/2610.39620)). It contains the system, the five papers written by the agents, the records needed to reproduce and check them, and the evaluation.
 
 An off-the-shelf coding agent (Codex CLI with gpt-6.1-sol) was given an instruction document and two skills, with no field, topic or template, only a hint toward societal problems that can be studied with open data. In each run it formulated its own research question, ran the study with local computation on a laptop without a GPU, wrote a paper, was reviewed by an AI reviewer from another model family that re-ran the first draft from its records, and submitted a revised paper. The system was frozen after a pilot run; the pilot and four pre-registered runs are reported (the pilot was counted by an amendment to the pre-registration, see `evaluation/`).
 
@@ -74,15 +74,18 @@ AlphaEarth embeddings are CC BY 4.0: "The AlphaEarth Foundations Satellite Embed
 
 ## Citation
 
-Please cite the paper (arXiv identifier to be added):
+Please cite the paper ([arXiv:2610.39620](https://arxiv.org/abs/2610.39620)):
 
 ```bibtex
 @misc{fujimura2026letting,
-  title  = {Letting {AI} Formulate the Research Question: Autonomous Research Agents},
-  author = {Fujimura, Ko},
-  year   = {2026},
-  note   = {arXiv preprint},
-  url    = {https://github.com/kofujimura/autonomous-research-agents}
+  title         = {Letting {AI} Formulate the Research Question: Autonomous Research Agents},
+  author        = {Fujimura, Ko},
+  year          = {2026},
+  eprint        = {2610.39620},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi           = {10.48550/arXiv.2610.39620},
+  url           = {https://arxiv.org/abs/2610.39620}
 }
 ```
 
