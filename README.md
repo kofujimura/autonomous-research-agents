@@ -16,7 +16,7 @@ The papers were written by the agents and are attributed to "Autonomous Research
 | 017 | [Training Point Allocation and Recovery of Small Wetland Patches from Satellite Embeddings](papers/run-017.pdf) |
 | 018 | [Do annual satellite embedding distances improve matching of wetland inventory water regimes?](papers/run-018.pdf) |
 
-They are AI-generated research papers, reviewed only by AI. They have not been peer reviewed by people.
+They are AI-generated research papers and have not been through peer review for publication. They were reviewed by AI and, for the evaluation, rated by three human researchers (`evaluation/e2/`).
 
 ## Contents
 
@@ -28,9 +28,9 @@ runs/run-NNN/  the records of each run at its final Git tag (see below)
 reviews/review-NNN/
                the in-loop AI review of each run: report (review-1.md), prior expectation, reader value,
                manifest, events, and the reviewer's own scripts and small outputs
-evaluation/    the pre-registration, its amendment, the external AI evaluation (E1: procedure, prompts,
-               scripts, raw responses, results) and every input sent to the research sessions
-               (inputs/run-NNN.jsonl)
+evaluation/    the pre-registration and its amendments, the external AI evaluation (E1: procedure,
+               prompts, scripts, raw responses, results), the human evaluation (E2: form, procedure,
+               record) and every input sent to the research sessions (inputs/run-NNN.jsonl)
 preprint/      LaTeX source of the paper and the script that generates its tables from the records
 ```
 
@@ -54,11 +54,11 @@ Follow `runs/run-NNN/VERIFY.md`. In outline: install the pinned requirements, re
 
 ## AI involvement
 
-The five studies were formulated, carried out and written by AI agents; the in-loop reviews and the external evaluation are by AI models. The management agent (Claude Opus 5.5) operated the runs with fixed messages and drafted the paper and this repository from the records. The human author set up the system, made the decisions recorded in `evaluation/`, and is responsible for the release.
+The five studies were formulated, carried out and written by AI agents; the in-loop reviews and the external AI evaluation (E1) are by AI models, and the human evaluation (E2) is by three human researchers. The management agent (Claude Opus 5.5) operated the runs with fixed messages and drafted the paper and this repository from the records. The human author set up the system, made the decisions recorded in `evaluation/`, and is responsible for the release.
 
 ## Licences
 
-- **Code — MIT License** (`LICENSE`). This covers the code written by the agents in the runs and reviews, and the scripts in `system/operator/`, `papers/`, `evaluation/e1/` and `preprint/`.
+- **Code — MIT License** (`LICENSE`). This covers the code written by the agents in the runs and reviews, the scripts in `system/operator/`, `papers/`, `evaluation/e1/` and `preprint/`, and the rating form in `evaluation/e2/form/`.
 - **Text, records and figures — CC BY 4.0** (`LICENSE-CC-BY-4.0.txt`). This covers the papers, the instructions and skills, plans, logs, reviews, evaluation responses, analysis outputs and figures. Attribution: cite the paper (see Citation).
 - **Third-party material keeps its original terms.** Each run records the terms and required credits of the data it used, in its README, `sources.jsonl` and, where present, `DATA_LICENSES.md` (run 016) or `DATA_TERMS.md` (run 018). Nothing in this repository grants rights beyond those terms. In summary, as the runs recorded:
 
